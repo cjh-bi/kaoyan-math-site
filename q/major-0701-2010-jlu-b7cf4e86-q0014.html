@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2010 数学分析 41 · 数学考研真题库</title>
+<meta name="description" content="用定义证明 lim_{n→∞} (2n² + 1)/(n² − 1) = 2">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2010-jlu-b7cf4e86.html">2010 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2010 41
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2010 · 数学分析 · 41</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">用定义证明 lim<sub>n→∞</sub> (2n² + 1)/(n² − 1) = 2</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：对任意 $\varepsilon&gt;0$，存在正整数 $N$，使 $n&gt;N$ 时恒有 $\left|\dfrac{2n^2+1}{n^2-1}-2\right|&lt;\varepsilon$。\n\n**用到的定理/引理**：\n- 数列极限的 $\varepsilon$-$N$ 定义\n- 分式通分化简：$\dfrac{2n^2+1}{n^2-1}-2=\dfrac{3}{n^2-1}$\n- 解不等式 $\dfrac{3}{n^2-1}&lt;\varepsilon$ 得 $n&gt;\sqrt{\dfrac{3}{\varepsilon}+1}$\n- 取整与最大值技巧：$N=\max\!\left(2,\ \sqrt{\dfrac{3}{\varepsilon}+1}\right)$（或取其整数部分）\n- 实数的阿基米德性（保证这样的 $N$ 存在，可一句话带过）\n\n**证明思路**：\n第 1 步：先声明定义目标——任给 $\varepsilon&gt;0$，要找到 $N$，使 $n&gt;N$ 时 $\left|a_n-2\right|&lt;\varepsilon$，并注明此后只讨论 $n\ge 2$（$n=1$ 时分母为 $0$，表达式无意义）。\n第 2 步：作差并通分化简，$\left|\dfrac{2n^2+1}{n^2-1}-2\right|=\left|\dfrac{3}{n^2-1}\right|$。\n第 3 步：去绝对值——当 $n\ge 2$ 时 $n^2-1&gt;0$，故上式等于 $\dfrac{3}{n^2-1}$。\n第 4 步：反向解不等式，令 $\dfrac{3}{n^2-1}&lt;\varepsilon$，等价于 $n^2&gt;\dfrac{3}{\varepsilon}+1$，即 $n&gt;\sqrt{\dfrac{3}{\varepsilon}+1}$。\n第 5 步：据此取 $N=\max\!\left(2,\sqrt{\dfrac{3}{\varepsilon}+1}\right)$（或取其整数部分），这样 $N\ge 2$ 使前面的化简合法。\n第 6 步：正向验证收尾——当 $n&gt;N$ 时 $n\ge 2$ 且 $n&gt;\sqrt{\dfrac{3}{\varepsilon}+1}$，倒推得 $\dfrac{3}{n^2-1}&lt;\varepsilon$，即 $|a_n-2|&lt;\varepsilon$，由定义证毕。\n\n**易错点**：\n- 漏掉 $n\ge 2$ 的前提：$n=1$ 通项无意义，且 $n^2-1$ 的符号决定能否去绝对值，所以 $N$ 必须取 $\max(2,\cdot)$ 而不是只取 $\sqrt{3/\varepsilon+1}$。\n- “倒推找 $N$”与“正推验证”要分清：先用不等式解出候选 $N$，再说明该 $N$ 确实满足定义，不能把待证结论当已知来回推。\n- $\varepsilon$ 的任意性：当 $\varepsilon$ 很大（如 $\varepsilon&gt;1$）时 $\sqrt{3/\varepsilon+1}&lt;2$，若不取最大值会选出 $N&lt;2$ 而使 $n&gt;N$ 包含无意义的项。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="用定义证明 lim_{n→∞} (2n² + 1)/(n² − 1) = 2" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2010-jlu-b7cf4e86.html#major-0701-2010-jlu-b7cf4e86-q0014">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(每小题 10 分，共 30 分) 证明题 —— **原卷此节只有 (1)(2) 两条，按分值应有 3 条，扫描件疑缺 1 条**；暂按可见 2 条计
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2017-jlu-a6ff04ec-q0001.html">2017 数学分析 · 吉林大学<span class="n">0.90</span></a>
+        <a class="chip" href="major-0701-2012-jlu-73e32351-q0006.html">2012 数学分析 · 吉林大学<span class="n">0.79</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2010-jlu-b7cf4e86-q0013.html">← 上一题（2010 33）</a><a href="major-0701-2010-jlu-b7cf4e86-q0015.html">下一题（2010 42）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2010 年 4 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%9E%81%E9%99%90%E8%AF%81%E6%98%8E">极限证明</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2010-jlu-b7cf4e86.html">2010 数学分析（19 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#246</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2010-jlu-b7cf4e86-q0014</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2010-jlu-b7cf4e86-q0014";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

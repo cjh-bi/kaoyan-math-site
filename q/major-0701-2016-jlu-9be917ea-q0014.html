@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2016 数学分析 七1 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 于 (0,1) 内可导，且存在 α ∈ (0,1) 使得 x^α f′(x) 于 (0,1) 内有界，证明 lim_{x→0⁺} f(x) 存在.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2016-jlu-9be917ea.html">2016 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2016 七1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2016 · 数学分析 · 七1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 f(x) 于 (0,1) 内可导，且存在 α ∈ (0,1) 使得 x^α f′(x) 于 (0,1) 内有界，证明 lim<sub>x→0⁺</sub> f(x) 存在.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：在 $x^\alpha f&#39;(x)$ 有界（$\alpha&lt;1$）的条件下，$f$ 在 $x\to0^+$ 处满足 Cauchy 收敛条件，故 $\lim_{x\to0^+}f(x)$ 存在且为有限值。\n\n**用到的定理/引理**：\n- $|x^\alpha f&#39;(x)|\le M$ 推出 $|f&#39;(x)|\le M x^{-\alpha}$\n- Cauchy 中值定理，作用于 $f(t)$ 与 $g(t)=t^{1-\alpha}$（配 $x^{-\alpha}$ 的权重）\n- 函数极限的 Cauchy 收敛准则（$x\to0^+$ 形式）\n- 备选替代：把 $t^{-\alpha}$ 在 $[x,y]$ 上积分 $\int_x^y t^{-\alpha}dt=\frac{y^{1-\alpha}-x^{1-\alpha}}{1-\alpha}$\n- 备选替代：夹逼——$f\pm\frac{M}{1-\alpha}x^{1-\alpha}$ 分别单调增/减\n\n**证明思路**：\n1. 记 $M=\sup_{0&lt;x&lt;1}|x^\alpha f&#39;(x)|&lt;\infty$；若 $M=0$ 则 $f$ 在 $(0,1)$ 上为常数，结论平凡，下设 $M&gt;0$。\n2. 任取 $0&lt;x&lt;y&lt;1$，对 $f(t)$ 与 $g(t)=t^{1-\alpha}$ 用 Cauchy 中值定理：$\dfrac{f(y)-f(x)}{y^{1-\alpha}-x^{1-\alpha}}=\dfrac{f&#39;(\xi)}{(1-\alpha)\xi^{-\alpha}}=\dfrac{\xi^{\alpha}f&#39;(\xi)}{1-\alpha}$，$\xi\in(x,y)$。\n3. 取绝对值并用有界性：$|f(y)-f(x)|\le\dfrac{M}{1-\alpha}\big(y^{1-\alpha}-x^{1-\alpha}\big)\le\dfrac{M}{1-\alpha}y^{1-\alpha}$。\n4. 给定 $\varepsilon&gt;0$，取 $\delta=\Big(\dfrac{\varepsilon(1-\alpha)}{M}\Big)^{\!1/(1-\alpha)}$，则 $0&lt;x,y&lt;\delta$ 时 $|f(y)-f(x)|&lt;\varepsilon$。\n5. 由 Cauchy 准则得 $\lim_{x\to0^+}f(x)$ 存在（有限），不必先猜出极限值。\n\n**易错点**：\n- 别直接写 $f(y)-f(x)=\int_x^y f&#39;(t)dt$：$f&#39;$ 未必连续、未必 Riemann 可积，牛顿–莱布尼茨公式无依据；用 Cauchy 中值定理（或先证 $f&#39;$ 在该区间可积）才严谨。\n- 用普通 Lagrange 中值定理只能得 $|f(y)-f(x)|\le M x^{-\alpha}(y-x)$，右边放缩不掉，必须把中值点处的 $\xi^\alpha f&#39;(\xi)$ 与 $t^{1-\alpha}$ 的增量配对。\n- $\alpha&lt;1$ 是实质条件：$\alpha=1$ 时 $f(x)=\ln x$ 满足 $x f&#39;(x)=1$ 有界但极限为 $-\infty$，说明结论中「存在」指有限极限，$1-\alpha&gt;0$ 保证 $y^{1-\alpha}\to0$。\n\n**不确定**：无（按「有界」即 $\sup_{x\in(0,1)}|x^\alpha f&#39;(x)|&lt;\infty$、$\alpha$ 为题给固定值理解）</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 于 (0,1) 内可导，且存在 α ∈ (0,1) 使得 x^α f′(x) 于 (0,1) 内有界，证明 lim_{x→0⁺} f(x) 存在." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2016-jlu-9be917ea.html#major-0701-2016-jlu-9be917ea-q0014">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2016-jlu-2772b249-q0011.html">2016 数学分析 · 吉林大学<span class="n">0.79</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2016-jlu-9be917ea-q0013.html">← 上一题（2016 六1）</a><a href="major-0701-2016-jlu-050f05d3-q0001.html">下一题（2016 11）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2016 年 七 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E5%AF%BC%E6%95%B0%E5%BA%94%E7%94%A8">导数应用</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2016-jlu-9be917ea.html">2016 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#160</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2016-jlu-9be917ea-q0014</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2016-jlu-9be917ea-q0014";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

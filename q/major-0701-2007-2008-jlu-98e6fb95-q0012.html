@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2007/2008 空间解析几何和高等代数 二3 · 数学考研真题库</title>
+<meta name="description" content="V 是数域 Ω 上的向量空间，σ 是 V 上的线性变换，记：σ = a*，a ∈ Ω 当且仅当 V 是 σ 的特征子空间.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2007-2008-jlu-98e6fb95.html">2007/2008 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2007/2008 二3
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2007/2008 · 空间解析几何和高等代数 · 二3</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">V 是数域 Ω 上的向量空间，σ 是 V 上的线性变换，记：σ = a*，a ∈ Ω 当且仅当 V 是 σ 的特征子空间.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：σ 是数乘（数量）变换 $a\varepsilon$（即 $\forall\xi\in V,\ \sigma\xi=a\xi$）当且仅当整个 $V$ 恰为 σ 属于特征值 $a$ 的特征子空间，即 $V=\ker(\sigma-a\varepsilon)$。\n\n**用到的定理/引理**：\n- 特征子空间定义 $V_a=\ker(\sigma-a\varepsilon)=\{\xi\in V\mid \sigma\xi=a\xi\}$（含零向量）\n- 恒等变换 $\varepsilon$ 与数乘变换：$\sigma=a\varepsilon\iff\sigma-a\varepsilon$ 是零变换\n- 零变换的核为全空间：$\ker 0=V$；反之 $\ker T=V\Rightarrow T=0$\n- 子空间相等的双向逐点验证法\n- （若题意为『每个非零向量都是特征向量』）线性无关组比较系数：$(c-a)\alpha+(c-b)\beta=0\Rightarrow a=b=c$\n\n**证明思路**：\n1. 先把两侧按定义展开：$\sigma=a\varepsilon$ 指 $\forall\xi,(\sigma-a\varepsilon)\xi=0$；$V$ 是 σ 的特征子空间指存在 $a\in\Omega$ 使 $V=V_a=\ker(\sigma-a\varepsilon)$。\n2. 充分性($\Leftarrow$)：设 $V=\ker(\sigma-a\varepsilon)$，则任意 $\xi\in V$ 有 $\sigma\xi=a\xi$，故 $\sigma-a\varepsilon$ 为零变换，即 $\sigma=a\varepsilon$。\n3. 必要性($\Rightarrow$)：设 $\sigma=a\varepsilon$，则 $\sigma-a\varepsilon=0$，其核 $=V$，所以 $V_a=V$；若 $V\neq\{0\}$，取非零 $\xi$ 即知 $a$ 确为特征值，$V_a$ 是名正言顺的特征子空间。\n4. 补 $a$ 的唯一性：若 $V=V_a=V_b$ 且 $V\neq\{0\}$，取非零 $\xi$ 得 $(a-b)\xi=0\Rightarrow a=b$，所以该 $a$ 由 σ 唯一决定。\n5. 若原题干表述为『$V$ 中每个非零向量都是 σ 的特征向量』，则需多证一步：取线性无关的 $\alpha,\beta$，设 $\sigma\alpha=a\alpha,\ \sigma\beta=b\beta$，由 $\alpha+\beta$ 也是特征向量 $\sigma(\alpha+\beta)=c(\alpha+\beta)$，得 $(c-a)\alpha+(c-b)\beta=0$，由无关性 $a=b=c$；$\dim V=1$ 时该步平凡（任何向量都是同一特征向量的倍数）。\n6. 收束成一条等价链：$\sigma=a\varepsilon\iff\sigma-a\varepsilon=0\iff\ker(\sigma-a\varepsilon)=V\iff V_a=V$。\n\n**易错点**：\n- 把特征子空间写成 $\{\xi\neq0\mid\sigma\xi=a\xi\}$，漏掉零向量就不是子空间，$V_a=V$ 也无从谈起\n- $V=\{0\}$（或 $\dim V=1$）等边界情形：$V=\{0\}$ 时任意 $a$ 都使 $\sigma=a\varepsilon$ 成立，『特征值/特征子空间』的说法需单独说明或默认 $V\neq\{0\}$\n- 把『每个非零向量都是特征向量』直接当成『$V$ 是一个特征子空间』：特征值可能 a priori 随向量而变，必须先证 $a$ 与向量无关（见第 5 步），否则逻辑跳步\n\n**不确定**：题干中的 $a*$ 按通行记号理解为数乘（数量）变换 $a\varepsilon$（$\varepsilon$ 为恒等变换，部分教材记作 $aI$ 或 $a\,id$）；另需确认原文是否把条件写作『$V$ 中每个非零向量都是 σ 的特征向量』——若是，则第 5 步是本题真正的得分点，前 3 步只是定义复述。证明全程不依赖 $\dim V&lt;\infty$，故无需引入基、矩阵或 Jordan 标准形。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="V 是数域 Ω 上的向量空间，σ 是 V 上的线性变换，记：σ = a*，a ∈ Ω 当且仅当 V 是 σ 的特征子空间." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2007-2008-jlu-98e6fb95.html#major-0701-2007-2008-jlu-98e6fb95-q0012">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2007-2008-jlu-98e6fb95-q0011.html">← 上一题（2007/2008 二2）</a><a href="major-0701-2007-2008-jlu-98e6fb95-q0013.html">下一题（2007/2008 二4）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2007/2008 年 二 3 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%89%B9%E5%BE%81%E5%80%BC%E4%B8%8E%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F">特征值与特征向量</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2007-2008-jlu-98e6fb95.html">2007/2008 空间解析几何和高等代数（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#431</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2007-2008-jlu-98e6fb95-q0012</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2007-2008-jlu-98e6fb95-q0012";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

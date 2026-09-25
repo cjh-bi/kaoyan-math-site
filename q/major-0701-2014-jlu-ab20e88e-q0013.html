@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2014 数学分析 六6.1 · 数学考研真题库</title>
+<meta name="description" content="设 x₁ ∈ (0,1), x_{n+1} = xₙ(xₙ² + 3)/(3xₙ² + 1), n = 1,2,…. 证 lim_{n→∞} xₙ 存在并求其值">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2014-jlu-ab20e88e.html">2014 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2014 六6.1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2014 · 数学分析 · 六6.1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 x₁ ∈ (0,1), x<sub>n+1</sub> = xₙ(xₙ² + 3)/(3xₙ² + 1), n = 1,2,…. 证 lim<sub>n→∞</sub> xₙ 存在并求其值</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：数列 {xₙ} 在 (0,1) 内单调递增且有上界 1，故极限存在且 lim xₙ = 1\n\n**用到的定理/引理**：\n- 单调有界收敛准则\n- 递推函数 $f(x)=\frac{x(x^2+3)}{3x^2+1}$ 的连续性（用于对递推式两边取极限）\n- 代数恒等式 $x_{n+1}-x_n=\frac{2x_n(1-x_n^2)}{3x_n^2+1}$ 与 $f(x)-1=\frac{(x-1)^3}{3x^2+1}$\n\n**证明思路**：\n1. 数学归纳法证明 $0&lt;x_n&lt;1$ 恒成立：基础 $x_1\in(0,1)$；若 $0&lt;x_n&lt;1$，由 $f(x_n)-1=\frac{(x_n-1)^3}{3x_n^2+1}&lt;0$ 且 $f(x_n)&gt;0$ 得 $x_{n+1}\in(0,1)$。\n2. 由 $x_{n+1}-x_n=\frac{2x_n(1-x_n^2)}{3x_n^2+1}$，结合 $0&lt;x_n&lt;1$ 知差为正，故 {xₙ} 严格递增。\n3. 数列单调递增且有上界 1，依单调有界准则极限存在，记 $L=\lim x_n\in(0,1]$。\n4. 因 $f$ 在 $(0,1)$ 连续，对递推式取极限得 $L=\frac{L(L^2+3)}{3L^2+1}$；若 $L=1$ 即所求。\n5. 若 $L\in(0,1)$ 则约去 $L$ 得 $3L^2+1=L^2+3\Rightarrow L=1$，与 $L&lt;1$ 矛盾，故只能 $L=1$，即 $\lim x_n=1$。\n\n**易错点**：\n- 必须先证明 $x_n\in(0,1)$ 才能判断 $x_{n+1}-x_n$ 的符号并保证极限在定义域内取极限，跳步易被判错\n- 解 $L=f(L)$ 时不能直接约去 $L$ 而默认 $L\neq0$，需排除 $L=0$（递增且 $x_1&gt;0$ 已保证 $L\ge x_1&gt;0$）\n- 上界取 1 而非 $x_1$ 附近其它值，验证 $f(x)&lt;1$ 的因式分解 $(x-1)^3$ 是得分点\n\n**不确定**：亦可作双曲代换 $x_n=\tanh t_n$，则 $x_{n+1}=\tanh(3t_n)$，得 $t_n=3^{n-1}\operatorname{arctanh}x_1\to+\infty$，故 $x_n\to1$，可作为极限值的快速校验，但答题用单调有界准则更标准</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 x₁ ∈ (0,1), x_{n+1} = xₙ(xₙ² + 3)/(3xₙ² + 1), n = 1,2,…. 证 lim_{n→∞} xₙ 存在并求其值" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2014-jlu-ab20e88e.html#major-0701-2014-jlu-ab20e88e-q0013">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：「六. 证明题.」无分值，两条研究对象不同、互不依赖
+    </div>
+    <div class="pager">
+<a href="major-0701-2014-jlu-ab20e88e-q0012.html">← 上一题（2014 五1）</a><a href="major-0701-2014-jlu-ab20e88e-q0014.html">下一题（2014 六6.2）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2014 年 六 6.1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E9%80%92%E6%8E%A8%E6%95%B0%E5%88%97">递推数列</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2014-jlu-ab20e88e.html">2014 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#185</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2014-jlu-ab20e88e-q0013</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2014-jlu-ab20e88e-q0013";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

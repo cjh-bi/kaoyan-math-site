@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2024 空间解析几何和高等代数 七1 · 数学考研真题库</title>
+<meta name="description" content="直线 (x − x₀)/k = (y − y₀)/m = (z − z₀)/n 在 yz, xz, xy 平面的投影直线记作 l₁, l₂, l₃，原点与三条投">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2024-jlu-fcffeed2.html">2024 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2024 七1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2024 · 空间解析几何和高等代数 · 七1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">直线 (x − x₀)/k = (y − y₀)/m = (z − z₀)/n 在 yz, xz, xy 平面的投影直线记作 l₁, l₂, l₃，原点与三条投影直线的距离记作 d₁, d₂, d₃，原点与直线 (x − x₀)/k = (y − y₀)/m = (z − z₀)/n 的距离记作 d，证明： $d_1² + d_2² + d_3² − d² = k²d_1² + m²d_2² + n²d_3².$</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：核心是把三个投影距离与空间距离用同一个叉积 $P_0\times v$ 串起来，得恒等式 $d_1^2(1-k^2)+d_2^2(1-m^2)+d_3^2(1-n^2)=d^2$，移项即 $d_1^2+d_2^2+d_3^2-d^2=k^2d_1^2+m^2d_2^2+n^2d_3^2$（需 $k^2+m^2+n^2=1$）。\n\n**用到的定理/引理**：\n- 平面上点到直线距离公式（行列式/绝对值形式）$d=\frac{|y_0 n-z_0 m|}{\sqrt{m^2+n^2}}$\n- 空间点到直线距离公式 $d=\dfrac{\lVert P_0\times v\rVert}{\lVert v\rVert}$\n- 叉积 $P_0\times v$ 的三个分量恰为三条投影直线距离公式的分子（面积的正交分解，等价于 $\lVert a\times b\rVert^2$ 的分量展开）\n- 方向余弦归一化 $k^2+m^2+n^2=1$，从而 $m^2+n^2=1-k^2$ 等\n\n**证明思路**：\n1. 记直线过 $P_0=(x_0,y_0,z_0)$、方向 $v=(k,m,n)$（先说明取单位方向向量，$k^2+m^2+n^2=1$），写出投影直线：$l_1$ 在 $yz$ 面内过 $(y_0,z_0)$ 方向 $(m,n)$，$l_2,l_3$ 同理。\n2. 用平面点线距离公式算出 $d_1^2=\frac{(y_0n-z_0m)^2}{m^2+n^2}$、$d_2^2=\frac{(z_0k-x_0n)^2}{n^2+k^2}$、$d_3^2=\frac{(x_0m-y_0k)^2}{k^2+m^2}$，并把三个分子记为 $A^2,B^2,C^2$。\n3. 算空间距离：$P_0\times v=(A,B,C)$，故 $d^2(k^2+m^2+n^2)=A^2+B^2+C^2$，归一化后即 $d^2=A^2+B^2+C^2$。\n4. 交叉相乘消分母，得关系式 $d_1^2(m^2+n^2)+d_2^2(n^2+k^2)+d_3^2(k^2+m^2)=d^2$。\n5. 用 $m^2+n^2=1-k^2$ 替换，左边化为 $(d_1^2+d_2^2+d_3^2)-(k^2d_1^2+m^2d_2^2+n^2d_3^2)$，等于 $d^2$。\n6. 移项即得所证；最后补一句退化情形的说明使证明严谨。\n\n**易错点**：\n- 归一化是本命题成立的前提：把 $(k,m,n)$ 换成 $\lambda(k,m,n)$，$d_i,d$ 不变而右端按 $\lambda^2$ 变化，所以必须先声明 $k^2+m^2+n^2=1$（否则只能写成带系数的版本，见 uncertain）。\n- $m=n=0$（即方向平行 $x$ 轴）时 $l_1$ 退化为点 $(y_0,z_0)$，第 2 步的 $\frac{0}{0}$ 失效，须单独按点距处理（此时 $d_1^2=y_0^2+z_0^2$，结论仍成立）或说明由连续性过渡。\n- 第 3 步是证明的实质（叉积分量 = 投影分子），不能靠&#34;把结论左右展开硬凑&#34;；另外距离含绝对值，务必平方后再比较，避免符号讨论遗漏。\n\n**不确定**：题干未显式给出 $k^2+m^2+n^2=1$。若按任意方向比 $(k,m,n)$ 理解，原式一般不成立，尺度不变的写法应为 $(k^2+m^2+n^2)(d_1^2+d_2^2+d_3^2-d^2)=k^2d_1^2+m^2d_2^2+n^2d_3^2$；建议确认命题人默认 $(k,m,n)$ 为方向余弦。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="直线 (x − x₀)/k = (y − y₀)/m = (z − z₀)/n 在 yz, xz, xy 平面的投影直线记作 l₁, l₂, l₃，原点与三条投影直线的距离记作 d₁, d₂, d₃，原点与直线 (x − x₀)/k = (y − y₀)/m = (z − z₀)/n 的距离记作 d，证明： $$d_1² + d_2² + d_3² − d² = k²d_1² + m²d_2² + n²d_3².$$" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2024-jlu-fcffeed2.html#major-0701-2024-jlu-fcffeed2-q0007">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2024-jlu-fcffeed2-q0006.html">← 上一题（2024 六1）</a><a href="major-0701-2024-jlu-fcffeed2-q0008.html">下一题（2024 八1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2024 年 七 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95">解析几何</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E8%B7%9D%E7%A6%BB%E4%B8%8E%E5%A4%B9%E8%A7%92">距离与夹角</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2024-jlu-fcffeed2.html">2024 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#289</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2024-jlu-fcffeed2-q0007</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2024-jlu-fcffeed2-q0007";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

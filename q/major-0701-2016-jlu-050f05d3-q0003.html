@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2016 空间解析几何和高等代数 31 · 数学考研真题库</title>
+<meta name="description" content="设 A, B 均为 m × n 阶矩阵，证非齐次线性方程组 Ax = α 与 Bx = β 同解的充分必要条件是存在 n 阶可逆矩阵 P，使得 (A, α) =">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2016-jlu-050f05d3.html">2016 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2016 31
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2016 · 空间解析几何和高等代数 · 31</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 A, B 均为 m × n 阶矩阵，证非齐次线性方程组 Ax = α 与 Bx = β 同解的充分必要条件是存在 n 阶可逆矩阵 P，使得 (A, α) = P(B, β).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：两个非齐次方程组解集相同 ⟺ 它们的增广矩阵行等价，即存在 m 阶可逆矩阵 P 使 (A,α)=P(B,β)（等价于 Row(A,α)=Row(B,β)）。\n\n**用到的定理/引理**：\n- 增广矩阵左乘可逆矩阵=初等行变换，(A,α)=P(B,β) 即两增广矩阵行等价 ⟺ 有相同行最简形\n- 解集的仿射结构：若 S={x:Ax=α} 非空且 x0∈S，则 S = x0 + N(A)\n- 齐次情形结论：N(A)=N(B) ⟺ Row(A)=Row(B)（解空间与行空间互为正交补）\n- 秩判据：a∈Row(B) ⟺ rank(B | a)=rank(B)，用于把&#39;方程被解集满足&#39;转成&#39;行向量属于行空间&#39;\n- 双向包含证行空间相等：Row(A,α)=Row(B,β)\n\n**证明思路**：\n1. 充分性：设 (A,α)=P(B,β)（P 为 m 阶可逆，故 A=PB、α=Pβ）。若 Bx=β，则 Ax=PBx=Pβ=α，得 Sol(B,β)⊆Sol(A,α)；由 (B,β)=P⁻¹(A,α) 同理反向包含，故同解。\n2. 必要性准备：记共同解集为 S。先确认 S 非空并取定 x0∈S，则 S=x0+N(A)=x0+N(B)，从而 N(A)=N(B)，且 b_i·x0=β_i、a_i·x0=α_i。\n3. 证 Row(A,α)⊆Row(B,β)：取 (A,α) 的行 (a,γ)，则 a·x=γ 对一切 x∈S 成立 ⟺ a·x0=γ 且 a⟂N(A)=N(B) ⟹ a∈Row(B)，设 a=Σλ_i b_i，于是 γ=a·x0=Σλ_i(b_i·x0)=Σλ_iβ_i，故 (a,γ)=Σλ_i(b_i,β_i)∈Row(B,β)。\n4. 交换 A,α 与 B,β 的角色同理得 Row(B,β)⊆Row(A,α)，故两增广矩阵行空间相同、秩相等（记为 r）。\n5. 由行空间相同得到可逆矩阵：把 (A,α)、(B,β) 化为同一行最简形 R，则存在可逆 P1、P2 使 P1(A,α)=R=P2(B,β)，取 P=P1⁻¹P2 即 (A,α)=P(B,β)。\n\n**易错点**：\n- P 的阶数必须是 m（题面写 n 阶应为笔误）：(A,α) 是 m×(n+1)，只有左乘 m 阶矩阵才成立；写成 (A,α)=(B,β)P（P 为 n+1 阶）是错误的方向。\n- 必要性第 2 步必须先说明解集非空：若两个方程组都无解，&#39;同解&#39;（都是空集）成立但行空间未必相同，命题不真。反例：A=[[1],[0]], α=[[0],[1]] 与 B=[[0],[0]], β=[[1],[1]] 均无解，但 rank(A,α)=2、rank(B,β)=1，不存在可逆 P。因此需在证明中交代&#39;同解&#39;含两方程组都有解（或从 同解 + rank(A)=rank(A,α) 推出）。\n- 第 3 步里 γ=a·x0 的等式必须靠 x0 同时是两方程组的解来桥接，不能只用 a∈Row(A) 就直接配 α；此外由行空间相等推 (A,α)=P(B,β) 时要说清 P 可逆（用行最简形/满秩分解），只写&#39;可经初等行变换互推&#39;要补上&#39;因为行数相同且秩为 r&#39;。\n\n**不确定**：题干&#39;n 阶可逆矩阵 P&#39;与增广矩阵维度不符，按 m 阶处理；另外需确认本题&#39;同解&#39;是否约定两方程组均有解（若允许同时无解，则定理需加条件，见 pitfalls 第 2 条）。默认 α、β 为 m 维列向量。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 A, B 均为 m × n 阶矩阵，证非齐次线性方程组 Ax = α 与 Bx = β 同解的充分必要条件是存在 n 阶可逆矩阵 P，使得 (A, α) = P(B, β)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2016-jlu-050f05d3.html#major-0701-2016-jlu-050f05d3-q0003">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2016-jlu-f30ffd5b-q0003.html">2016 高等代数 · 吉林大学<span class="n">0.79</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2016-jlu-050f05d3-q0002.html">← 上一题（2016 21）</a><a href="major-0701-2016-jlu-050f05d3-q0004.html">下一题（2016 41）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2016 年 3 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">线性方程组</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2016-jlu-050f05d3.html">2016 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#349</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2016-jlu-050f05d3-q0003</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2016-jlu-050f05d3-q0003";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

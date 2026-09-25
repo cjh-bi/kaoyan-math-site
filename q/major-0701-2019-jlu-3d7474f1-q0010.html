@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019 数学分析 二2 · 数学考研真题库</title>
+<meta name="description" content="利用确界原理证明闭区间上连续函数的零点定理：设 f(x) 在闭区间 [a,b] 上连续，且 f(a)f(b) &lt; 0，则存在 ξ ∈ (a,b) 使得 f(ξ)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2019-jlu-3d7474f1.html">2019 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2019 二2
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2019 · 数学分析 · 二2</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">利用确界原理证明闭区间上连续函数的零点定理：设 f(x) 在闭区间 [a,b] 上连续，且 f(a)f(b) &lt; 0，则存在 ξ ∈ (a,b) 使得 f(ξ) = 0</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：在 $f(a)f(b)&lt;0$ 条件下，用确界原理构造集合的上确界 $\xi$，证得 $\xi\in(a,b)$ 且 $f(\xi)=0$。\n\n**用到的定理/引理**：\n- 确界原理（非空有上界的数集必有上确界）\n- 连续函数的局部保号性（由 $\varepsilon$-$\delta$ 定义取 $\varepsilon=|f(x_0)|/2$ 得到邻域内同号）\n- 反证法（对 $f(\xi)&lt;0$ 与 $f(\xi)&gt;0$ 分别推出与上确界定义矛盾的结论）\n- 上确界两条性质的使用：$\xi$ 是上界；对任意 $\eta&gt;0$，$\xi-\eta$ 不再是上界（存在 $x\in E$ 使 $x&gt;\xi-\eta$）\n\n**证明思路**：\n1. 不妨设 $f(a)&lt;0&lt;f(b)$（若相反，把 $f$ 换成 $-f$，零点不变）。\n2. 构造 $E=\{x\in[a,b]\mid f(x)&lt;0\}$：由 $a\in E$ 知 $E$ 非空，由 $E\subseteq[a,b]$ 知 $b$ 是 $E$ 的上界，依确界原理令 $\xi=\sup E$，于是 $a\le\xi\le b$。\n3. 定位置：由保号性存在 $\delta_1&gt;0$ 使 $f&lt;0$ 于 $[a,a+\delta_1)$，故 $a+\delta_1/2\in E$，得 $\xi&gt;a$；同理由 $f(b)&gt;0$ 存在 $\delta_2&gt;0$ 使 $f&gt;0$ 于 $(b-\delta_2,b]$，故 $b-\delta_2$ 已是 $E$ 的上界，得 $\xi&lt;b$，即 $\xi\in(a,b)$。\n4. 证 $f(\xi)\ge 0$：反设 $f(\xi)&lt;0$，则保号性给出 $\eta&gt;0$ 使 $f&lt;0$ 于 $(\xi-\eta,\,\xi+\eta)$，取 $x_0\in(\xi,\,\xi+\eta)\cap[a,b]$ 就有 $x_0\in E$ 且 $x_0&gt;\xi$，与 $\xi$ 为上界矛盾（此步同时说明 $\xi\ne a$）。\n5. 证 $f(\xi)\le 0$：反设 $f(\xi)&gt;0$，则存在 $\eta&gt;0$ 使 $f&gt;0$ 于 $(\xi-\eta,\,\xi+\eta)$，故 $E$ 中没有点属于 $(\xi-\eta,\,\xi]$，即 $\xi-\eta$ 是 $E$ 的上界，与 $\xi$ 是**最小**上界矛盾（这里要用 $\xi=\sup E$ 的‘任取 $\eta&gt;0$，$\xi-\eta$ 不是上界’这一条性质）。\n6. 由 4、5 得 $f(\xi)=0$，且 $\xi\in(a,b)$，零点定理得证。\n\n**易错点**：\n- 必须单独说明 $\xi\in(a,b)$（即 $\xi\ne a,\xi\ne b$），只证 $f(\xi)=0$ 会被扣分；$\xi=a$ 或 $\xi=b$ 时 $f$ 不为零，与第 4 步的 $f(\xi)\ge0$、$f(a)&lt;0$ 对照即可\n- 第 5 步用的是上确界的‘最小性’，第 4 步用的是‘上界性’，两个方向不要混用或写反\n- 取 $\eta$ 时要保证 $\xi\pm\eta$ 仍落在 $[a,b]$ 内（与区间端点取 $\min$、$\max$），否则 $x_0\in E$ 的构造不成立\n- 集合定义要与保号性匹配：用 $f(x)&lt;0$ 就不要中途换成 $f(x)\le 0$，否则第 4 步的 $x_0&gt;\xi$ 推不出 $f(x_0)&lt;0$\n\n**不确定**：题干明确指定确界原理，故不借助区间套或介值定理（后者会循环论证）；若所用教材的‘确界原理’同时含下确界形式，也可改取 $E=\{x\mid f(x)&gt;0\}$ 的下确界，证法对称，结论一致。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="利用确界原理证明闭区间上连续函数的零点定理：设 f(x) 在闭区间 [a,b] 上连续，且 f(a)f(b) &lt; 0，则存在 ξ ∈ (a,b) 使得 f(ξ) = 0" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2019-jlu-3d7474f1.html#major-0701-2019-jlu-3d7474f1-q0010">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2019-jlu-412a640d-q0010.html">2019 数学分析 · 吉林大学<span class="n">0.89</span></a>
+        <a class="chip" href="major-0701-2016-uestc-c8d62a16-q0016.html">2016 数学分析 · 电子科技大学<span class="n">0.73</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2019-jlu-3d7474f1-q0009.html">← 上一题（2019 二1）</a><a href="major-0701-2019-jlu-3d7474f1-q0011.html">下一题（2019 二3）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2019 年 二 2 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E5%AE%9E%E6%95%B0%E5%AE%8C%E5%A4%87%E6%80%A7%E5%AE%9A%E7%90%86">实数完备性定理</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2019-jlu-3d7474f1.html">2019 数学分析（15 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#110</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2019-jlu-3d7474f1-q0010</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2019-jlu-3d7474f1-q0010";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

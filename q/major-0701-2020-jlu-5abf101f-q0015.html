@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2020 数学分析 七1 · 数学考研真题库</title>
+<meta name="description" content="证明：方程 y = x + (1/2)arctan y 在 ℝ² 内存在唯一连续解 y = y(x).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2020-jlu-5abf101f.html">2020 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2020 七1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2020 · 数学分析 · 七1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">证明：方程 y = x + (1/2)arctan y 在 ℝ² 内存在唯一连续解 y = y(x).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：方程可等价改写为 g(y) = x，其中 g(y) = y − (1/2)·arctan y 是 ℝ 到 ℝ 的严格单调连续双射，故其反函数 y = φ(x) 在全体 ℝ 上唯一确定且连续。\n\n**用到的定理/引理**：\n- 零点存在定理/介值定理（配 lim_{y→±∞} g(y) = ±∞ 证存在性）\n- 导数判严格单调：g&#39;(y) = 1 − 1/(2(1+y²)) ≥ 1/2 &gt; 0（证唯一性）\n- arctan y 有界：|arctan y| &lt; π/2，故 |(1/2)arctan y| ≤ π/4（证满射到整个 ℝ）\n- 区间上连续严格单调函数的反函数仍连续（标准定理，证 φ 连续）\n- （可选替代）隐函数定理：F(x,y) = y − x − (1/2)arctan y 关于 y 的偏导恒正，局部唯一 C¹ 分支\n\n**证明思路**：\n1. 移项变形：令 g(y) = y − (1/2)·arctan y，则原方程即 g(y) = x，把问题从「隐函数」转成「求 g 的反函数」。\n2. 证 g 严格增：g&#39;(y) = 1 − 1/(2(1+y²)) ≥ 1/2 &gt; 0 对一切实 y 成立，故 g 在 ℝ 上严格单调 → 每个 x 至多对应一个 y（唯一性的来源）。\n3. 证值域为 ℝ：由 |(1/2)arctan y| ≤ π/4 得 g(y) → ±∞ (y → ±∞)，又 g 连续，介值定理给出 g(ℝ) = ℝ → 对每个 x ∈ ℝ 恰有一个原像，从而解 φ 在整个 ℝ 上有定义。\n4. 定义 φ = g⁻¹：由第 2、3 步 φ 是 ℝ → ℝ 的双射反函数，且满足 g(φ(x)) = x，即 φ(x) = x + (1/2)arctan φ(x)，解存在。\n5. 证连续：g 在区间 ℝ 上连续且严格单调，由反函数连续性定理 φ = g⁻¹ 在 ℝ 上连续（等价地，对 x₀ 取 a &lt; φ(x₀) &lt; b，由单调性在 [x₀−δ, x₀+δ] 上夹逼 φ(x)）。\n6. 收尾唯一性：任一满足方程的函数 ψ 必有 g(ψ(x)) = x，由 g 单射得 ψ(x) ≡ g⁻¹(x) = φ(x)，故连续解唯一。（自检：φ&#39;(x) = 1/g&#39;(φ(x)) ∈ (1, 2]，且 |φ(x) − x| ≤ π/4。）\n\n**易错点**：\n- 不能只在某个固定 x₀ 附近用隐函数定理就交差：题目要求解在整个 ℝ 上定义，必须用 g 的全局单调 + 值域 = ℝ 来保证，否则定义域可能只是局部区间。\n- 唯一性有两层，别混：一是每个 x 处 y 唯一（靠 g 严格增），二是「连续解」唯一——这里后者由前者直接推出，无需再依赖连续性假设，说明一句更严谨。\n- g(y) → ±∞ 的极限必须显式写出来并用 arctan 有界性控制，不能只说「g 是连续的所以有反函数」（连续函数未必可逆、未必满射）。\n\n**不确定**：题干「在 ℝ² 内存在唯一连续解」理解为：解曲线整体落在 ℝ² 中，即定义域为整个 ℝ（而非局部区间）；若评分细则期望用隐函数定理的全局化版本，第 5 步的反函数连续性论证可按同样思路改写。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明：方程 y = x + (1/2)arctan y 在 ℝ² 内存在唯一连续解 y = y(x)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2020-jlu-5abf101f.html#major-0701-2020-jlu-5abf101f-q0015">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2020-jlu-aeea7d08-q0015.html">2020 数学分析 · 吉林大学<span class="n">0.77</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2020-jlu-5abf101f-q0014.html">← 上一题（2020 六1）</a><a href="major-0701-2020-jlu-d48d6ffc-q0001.html">下一题（2020 11）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2020 年 七 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E9%9A%90%E5%87%BD%E6%95%B0%E5%AD%98%E5%9C%A8%E5%AE%9A%E7%90%86">隐函数存在定理</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2020-jlu-5abf101f.html">2020 数学分析（15 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#100</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2020-jlu-5abf101f-q0015</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2020-jlu-5abf101f-q0015";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2017 空间解析几何和高等代数 31 · 数学考研真题库</title>
+<meta name="description" content="设 V 是 n 维向量空间，𝒜 是 V 的线性变换. 证明 𝒜 是数乘变换（既有数 a，使得 𝒜(u) = au, u ∈ V）当且仅当每个非零向量都是 𝒜 的">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2017-jlu-1e6450b0.html">2017 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2017 31
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2017 · 空间解析几何和高等代数 · 31</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">设 V 是 n 维向量空间，𝒜 是 V 的线性变换. 证明 𝒜 是数乘变换（既有数 a，使得 𝒜(u) = au, u ∈ V）当且仅当每个非零向量都是 𝒜 的特征向量.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：证「𝒜为数乘变换」⟺「V的每个非零向量都是𝒜的特征向量」，充分性核心是所有非零向量的特征值必相同。\n\n**用到的定理/引理**：\n- 特征向量定义：非零向量 α 满足 𝒜(α)=λα（λ可为0）\n- 线性变换的线性性：𝒜(u+v)=𝒜(u)+𝒜(v)，𝒜(ku)=k𝒜(u)\n- 线性无关向量组的线性表示唯一性（比较系数全为0）\n- V 取一组基 ε_1,…,ε_n，向量按基唯一展开，线性变换由其在基上的作用决定\n- 数乘（标量）变换定义：𝒜=aℰ 即 𝒜(u)=au ∀u\n\n**证明思路**：\n1. 必要性(⇒)：设 𝒜=aℰ，任取非零 u，𝒜(u)=au 直接满足特征向量定义（a=0 时也成立），故每个非零向量都是特征向量。\n2. 充分性(⇐)记号：假设每个非零向量都是特征向量，对每个非零 α 记 𝒜(α)=λ_α α，下证 λ_α 与 α 的取法无关。\n3. 共线情形：若 β=kα (k≠0)，则 𝒜(β)=k𝒜(α)=kλ_α α=λ_α β，与 𝒜(β)=λ_β β 比较得 (λ_β-λ_α)β=0，由 β≠0 得 λ_β=λ_α。\n4. 无关情形：若 α,β 线性无关，则 α+β≠0，由 𝒜(α)+𝒜(β)=𝒜(α+β) 得 $(\lambda_\alpha-\lambda_{\alpha+\beta})\alpha+(\lambda_\beta-\lambda_{\alpha+\beta})\beta=0$，由无关性 $\lambda_\alpha=\lambda_{\alpha+\beta}=\lambda_\beta$。\n5. 合并：对任意非零 u、v，若 u,v 无关用第4步，若相关用第3步，故所有非零向量的特征值相等，记公共值为 a。\n6. 收尾：取基 ε_1,…,ε_n（非零），𝒜(ε_i)=aε_i；对 u=Σx_iε_i，由线性性 𝒜(u)=Σx_i aε_i=au，即 𝒜=aℰ 为数乘变换。\n\n**易错点**：\n- 不要假设 λ_α≠0 或 a≠0：特征值可以为 0，比较 λ 时要「除以非零向量」（β≠0），不能除以特征值。\n- 无关情形必须先用 α,β 线性无关说明 α+β 是非零向量，否则对它套用前提无效。\n- 共线与无关两种情形缺一不可：只用 α+β 技巧无法覆盖 β=kα 的情况；第6步必须显式取一组基（默认 n≥1），否则只证到逐点 𝒜(u)=au 还没落成线性变换等于 aℰ。\n\n**不确定**：题干未明说 n≥1；若 n=0（V={0}）则前提「每个非零向量都是特征向量」空洞成立而结论取任意 a 亦成立，故证明只对 n≥1 有意义，不影响结果。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+      <div class="small muted" style="margin-top:6px">🔍 独立验算：同上：原为提纲缺失导致的假冲突；已补跑提纲（核心是「所有非零向量的特征值必相同」）并入库。</div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是 n 维向量空间，𝒜 是 V 的线性变换. 证明 𝒜 是数乘变换（既有数 a，使得 𝒜(u) = au, u ∈ V）当且仅当每个非零向量都是 𝒜 的特征向量." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2017-jlu-1e6450b0.html#major-0701-2017-jlu-1e6450b0-q0003">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2017-jlu-1e6450b0-q0002.html">← 上一题（2017 21）</a><a href="major-0701-2017-jlu-1e6450b0-q0004.html">下一题（2017 41）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2017 年 3 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2017-jlu-1e6450b0.html">2017 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#341</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2017-jlu-1e6450b0-q0003</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2017-jlu-1e6450b0-q0003";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

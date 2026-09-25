@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2015 数学分析 一3 · 数学考研真题库</title>
+<meta name="description" content="用子数列收敛定理证有界闭区间上的连续函数的有界性">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2015-jlu-3ececdd5.html">2015 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2015 一3
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2015 · 数学分析 · 一3</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">用子数列收敛定理证有界闭区间上的连续函数的有界性</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：设 $f$ 在有界闭区间 $[a,b]$ 上连续，则 $f$ 在 $[a,b]$ 上有界，即 $\exists M&gt;0$ 使 $|f(x)|\le M,\ \forall x\in[a,b]$。\n\n**用到的定理/引理**：\n- 无界的否定表述：$\forall n\in\mathbb{N}^+,\exists x_n\in[a,b]$ 使 $|f(x_n)|&gt;n$\n- 子数列收敛定理（Bolzano–Weierstrass）：有界数列必有收敛子列\n- 闭区间的闭性：$a\le x_{n_k}\le b$ 取极限得极限点 $\xi\in[a,b]$\n- 连续的归结（序列）刻画：$x_{n_k}\to\xi\Rightarrow f(x_{n_k})\to f(\xi)$\n- 收敛数列必有界（矛盾出口）\n\n**证明思路**：\n1. 反设 $f$ 在 $[a,b]$ 上无界，于是对每个 $n$ 可取 $x_n\in[a,b]$ 满足 $|f(x_n)|&gt;n$，得一列点 $\{x_n\}$。\n2. $\{x_n\}\subset[a,b]$ 是有界数列，由子数列收敛定理存在收敛子列 $x_{n_k}\to\xi$。\n3. 由 $a\le x_{n_k}\le b$ 令 $k\to\infty$ 得 $a\le\xi\le b$，即 $\xi$ 仍在区间内（这是能使用连续性的关键一步）。\n4. $f$ 在 $\xi$ 连续，用归结原则得 $f(x_{n_k})\to f(\xi)$，故数列 $\{f(x_{n_k})\}$ 有界：$\exists M,|f(x_{n_k})|\le M$。\n5. 另一方面由构造 $|f(x_{n_k})|&gt;n_k$，而 $n_k$ 严格递增故 $n_k\ge k\to\infty$；取 $k&gt;M$ 便得 $|f(x_{n_k})|&gt;M$，与第 4 步矛盾。\n6. 反设不成立，所以 $f$ 在 $[a,b]$ 上有界。（如需继续证最值定理，另用 $|f|$ 的上确界与同一子列论证，本题不作要求。）\n\n**易错点**：\n- 第 3 步不可省：若写成开区间或去掉闭性验证，$\xi$ 可能落在定义域外，连续性无从谈起——这也正好说明闭区间条件不可少。\n\n- 不能把 $|f(x_{n_k})|&gt;n_k$ 直接写成 $&gt;k$ 而不交代 $n_k\ge k$（子列指标严格递增）。\n\n- 矛盾要落在同一个子列上：第 4 步的有界性与第 5 步的无界性都是针对 $\{f(x_{n_k})\}$，别把两个不同的量混在一起；另外题目限定用子列法，不可改用有限覆盖或确界原理证明。\n\n**不确定**：题号「数学分析 2015 一3」的具体分值与是否附带要求证明最值/介值性未能确认；此处按题干字面「仅证有界性」处理，第 6 步的补充说明可整段删去。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="用子数列收敛定理证有界闭区间上的连续函数的有界性" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2015-jlu-3ececdd5.html#major-0701-2015-jlu-3ececdd5-q0003">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：「一.」原卷**无节标题、无分值**，中层 1.–5. 互不相关
+    </div>
+    <div class="pager">
+<a href="major-0701-2015-jlu-3ececdd5-q0002.html">← 上一题（2015 一2）</a><a href="major-0701-2015-jlu-3ececdd5-q0004.html">下一题（2015 一4）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2015 年 一 3 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E8%BF%9E%E7%BB%AD%E4%B8%8E%E6%9C%89%E7%95%8C%E6%80%A7">连续与有界性</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2015-jlu-3ececdd5.html">2015 数学分析（12 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#163</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2015-jlu-3ececdd5-q0003</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2015-jlu-3ececdd5-q0003";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

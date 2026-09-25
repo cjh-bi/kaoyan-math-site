@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2013 空间解析几何和高等代数 26 · 数学考研真题库</title>
+<meta name="description" content="A 为任意实的 n 阶方阵，证明： (a) r(AᵀA) = r(A) (b) 若 r(A²) = r(A)，则对任意的自然数 p, r(A^p) = r(A)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2013-jlu-99494a27.html">2013 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2013 26
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2013 · 空间解析几何和高等代数 · 26</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">A 为任意实的 n 阶方阵，证明： (a) r(AᵀA) = r(A) (b) 若 r(A²) = r(A)，则对任意的自然数 p, r(A<sup>p</sup>) = r(A)</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：(a) 实方阵 $A$ 满足 $r(A^{\mathsf T}A)=r(A)$；(b) 若 $r(A^2)=r(A)$，则 $A$ 的值域链在第二步即稳定，从而一切 $p\ge1$ 都有 $r(A^p)=r(A)$。\n\n**用到的定理/引理**：\n- $\|Ax\|^2=x^{\mathsf T}A^{\mathsf T}Ax\ge0$，等号当且仅当 $Ax=0$（实矩阵 + 转置，这是 (a) 的核心）\n- 秩–零度定理：$r(M)+\dim N(M)=n$，用于把零空间相等翻译成秩相等\n- 值域包含关系 $R(BC)\subseteq R(B)$，故 $R(A^{k+1})\subseteq R(A^k)$；有限维中「包含 + 维数相等 $\Rightarrow$ 子空间相等」\n- （(b) 的另一条路，可作替代/验证）Frobenius 秩不等式 $r(XY)+r(YZ)\le r(Y)+r(XYZ)$，取 $X=A^{p-1},\ Y=Z=A$\n\n**证明思路**：\n1. (a) 先证零空间相等：$Ax=0\Rightarrow A^{\mathsf T}Ax=0$ 显然，故 $N(A)\subseteq N(A^{\mathsf T}A)$。\n2. 反向：若 $A^{\mathsf T}Ax=0$，左乘 $x^{\mathsf T}$ 得 $\|Ax\|^2=0$，由实内积正定得 $Ax=0$，于是 $N(A^{\mathsf T}A)\subseteq N(A)$，两者相等。\n3. $A$ 与 $A^{\mathsf T}A$ 都是 $n$ 阶，分别用秩–零度定理：$r(A^{\mathsf T}A)=n-\dim N(A^{\mathsf T}A)=n-\dim N(A)=r(A)$，(a) 证毕。\n4. (b) 记值域 $R(A^k)$：由 $R(A^{k+1})=A(R(A^k))\subseteq R(A^k)$ 得秩序列 $r(A)\ge r(A^2)\ge r(A^3)\ge\cdots$ 单调不增。\n5. 条件 $r(A^2)=r(A)$ 与包含 $R(A^2)\subseteq R(A)$ 结合，升级为子空间相等 $R(A^2)=R(A)$，即 $A$ 把 $R(A)$ 满射回 $R(A)$。\n6. 对 $p$ 归纳：设 $R(A^p)=R(A)$，则 $R(A^{p+1})=A(R(A^p))=A(R(A))=R(A^2)=R(A)$，故 $r(A^p)=r(A)$ 对一切 $p\ge1$ 成立。\n\n**易错点**：\n- (a) 的 $\|Ax\|^2$ 一步依赖「实矩阵 + 转置」：复矩阵须换成共轭转置 $A^*$，否则结论可假（如 $A=(1\ \mathrm i)$ 有 $A^{\mathsf T}A=0$ 而 $r(A)=1$）；答卷上不要漏掉「因 $A$ 为实矩阵」这句说明。\n- (b) 不能只写「秩单调不增且首尾相等」——单调链只能保证 $r(A^2)=r(A)$ 推不出后面；必须先把等秩提升为值域相等 $R(A^2)=R(A)$（或核相等 $N(A^2)=N(A)$）才有可归纳传递的对象。若用 Frobenius 不等式，注意方向是夹出 $r(A^p)\le r(A^{p+1})$，再与 $r(A^{p+1})\le r(A^p)$ 合并。\n- 题干中「自然数 $p$」应按 $p\ge1$ 理解：若取 $p=0$，$A^0=I$ 秩为 $n$，仅当 $A$ 可逆时成立；$p=1$ 时结论平凡。\n- 等价表述值得留一句：也可对 $A^{\mathsf T}$ 用 (a) 得 $r(AA^{\mathsf T})=r(A)$，但 (b) 中不要用 (a) 的结论去推幂次稳定，二者相互独立。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="A 为任意实的 n 阶方阵，证明： (a) r(AᵀA) = r(A) (b) 若 r(A²) = r(A)，则对任意的自然数 p, r(A^p) = r(A)" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2013-jlu-99494a27.html#major-0701-2013-jlu-99494a27-q0010">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：2.（100 分）证明题 (1)(15)(2)(25)(3)(15)(4)(10)(5)(15)(6)(20 分)，互不相关；(6) 内部含 (a)(b) 同一矩阵
+    </div>
+    <div class="pager">
+<a href="major-0701-2013-jlu-99494a27-q0009.html">← 上一题（2013 25）</a><a href="major-0701-2013-ahu-c35c61e9-q0001.html">下一题（2013 一、填空题 (每小题 5 分, 共 20 分)1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2013 年 2 6 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%A7%A9">秩</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2013-jlu-99494a27.html">2013 空间解析几何和高等代数（10 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#381</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2013-jlu-99494a27-q0010</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2013-jlu-99494a27-q0010";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

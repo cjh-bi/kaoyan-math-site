@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2018 空间解析几何和高等代数 21 · 数学考研真题库</title>
+<meta name="description" content="设 A 是数域 Ω 上的 n 阶矩阵，证明 A 的特征多项式 f(x) 是既约多项式 ⇔ 对于任意次数小于 n 的多项式 g(x)，都有 g(A) 可逆.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2018-jlu-7019615c.html">2018 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2018 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2018 · 空间解析几何和高等代数 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">设 A 是数域 Ω 上的 n 阶矩阵，证明 A 的特征多项式 f(x) 是既约多项式 ⇔ 对于任意次数小于 n 的多项式 g(x)，都有 g(A) 可逆.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>**证明：**
+
+（$\Rightarrow$）设 $f(x)$ 在 $\Omega$ 上既约。任取非零多项式 $g(x)$，$\deg g&lt;n=\deg f$。由 $f$ 既约知 $(f,g)=1$，故存在 $u(x),v(x)\in\Omega[x]$ 使
+$$u(x)f(x)+v(x)g(x)=1.$$
+代入 $A$，由 Hamilton–Cayley 定理 $f(A)=O$，得 $v(A)g(A)=E$，故 $g(A)$ 可逆。
+
+（$\Leftarrow$）反设 $f$ 可约，$f=f_1f_2$，$1\le\deg f_i&lt;n\ (i=1,2)$。由题设 $f_1(A)$ 可逆；而
+$$O=f(A)=f_1(A)f_2(A),$$
+左乘 $f_1(A)^{-1}$ 得 $f_2(A)=O$。但 $\deg f_2&lt;n$，由题设 $f_2(A)$ 又可逆，矛盾。故 $f$ 既约。$\blacksquare$</div><div class="answer-body">**第 1 步｜三个预备事实.** 特征多项式 $f(x)=\det(xE-A)$ 是 $\Omega$ 上首一 $n$ 次多项式，代入 $A$ 由 Hamilton–Cayley 定理有 $f(A)=O$；映射 $\varphi:h(x)\mapsto h(A)$ 是 $\Omega[x]\to M_n(\Omega)$ 的环同态，且 $\Omega[A]$ 是交换环，故 $h_1(A)h_2(A)=(h_1h_2)(A)$ 可任意换序。另需注意：题中“次数小于 $n$ 的多项式”只能理解为**非零**多项式（若允许 $g=0$，则 $g(A)=O$ 永不可逆，右端直接为假）。$n=1$ 时 $\deg f_1\ge1$ 与 $\deg f_1&lt;n$ 不能同时成立，两种分解均自动成立，故下面默认 $n\ge2$。\n\n**第 2 步（$\Rightarrow$）｜互素.** 设 $f$ 既约，$g\neq0$，$\deg g&lt;n=\deg f$。若 $(f,g)\neq1$，则由 $f$ 既约，其非常数因式只能与 $f$ 相伴，从而 $f\mid g$，这与 $0\le\deg g&lt;\deg f$ 矛盾。因此 $(f,g)=1$。\n\n**第 3 步（$\Rightarrow$）｜Bezout + 代入 $A$.** 由互素有 $u(x)f(x)+v(x)g(x)=1$。用 $\varphi$ 作用：$u(A)f(A)+v(A)g(A)=E$；第一项因 $f(A)=O$ 消失，得 $v(A)g(A)=E$；由 $\Omega[A]$ 交换，$g(A)v(A)=E$ 同时成立。故 $g(A)$ 可逆且 $g(A)^{-1}=v(A)$。这同时说明：既约特征多项式必等于 $A$ 的最小多项式（$m_A\mid f$ 且 $m_A$ 非常数）。\n\n**第 4 步（$\Leftarrow$）｜反设可约并套用题设.** 反设 $f=f_1f_2$ 为真分解，$\deg f_i\ge1\ (i=1,2)$，于是 $\deg f_i=n-\deg f_{3-i}\le n-1&lt;n$，两个因子都落在题设“次数小于 $n$ 的非零多项式”范围内，故 $f_1(A)$、$f_2(A)$ 都按假设可逆。\n\n**第 5 步（$\Leftarrow$）｜导出矛盾.** 用同态性：$O=f(A)=(f_1f_2)(A)=f_1(A)f_2(A)$。在等式左乘 $f_1(A)^{-1}$ 得 $f_2(A)=O$。但零矩阵在 $n\ge1$ 时不可逆，与第 4 步中“$f_2(A)$ 可逆”矛盾。故 $f$ 不存在真分解，即 $f$ 既约。\n\n**第 6 步｜几何直观（辅助理解，非必需）.** 若 $f$ 有一次因子 $x-\lambda$，取 $g(x)=x-\lambda$ 即得 $g(A)=A-\lambda E$ 奇异，$\lambda$ 是 $A$ 的 $\Omega$‑特征值；反之 $f$ 既约意味着 $A$ 在 $\Omega$ 上无特征值，任何次数 $&lt;n$ 的非零多项式 $g$ 都不可能在 $A$ 的谱上取零，于是 $g(A)$ 满秩可逆。$\blacksquare$\n\n⚠️ 该步存疑：原答案未点明 $g$ 须为非零多项式这一必要约定，且 $\Rightarrow$ 中“由 $(f,g)=1$ 得逆”一步应补上 $\Omega[A]$ 交换以保证 $g(A)v(A)=E$（仅单侧逆在一般环中不足以保证可逆）；除此之外推导正确。</div>      <div class="small muted" style="margin-top:8px">
+来源：参考答案（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 A 是数域 Ω 上的 n 阶矩阵，证明 A 的特征多项式 f(x) 是既约多项式 ⇔ 对于任意次数小于 n 的多项式 g(x)，都有 g(A) 可逆." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2018-jlu-7019615c.html#major-0701-2018-jlu-7019615c-q0002">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2018-jlu-31297f18-q0002.html">2018 高等代数 · 吉林大学<span class="n">0.82</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2018-jlu-7019615c-q0001.html">← 上一题（2018 11）</a><a href="major-0701-2018-jlu-7019615c-q0003.html">下一题（2018 31）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2018 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%89%B9%E5%BE%81%E5%A4%9A%E9%A1%B9%E5%BC%8F">特征多项式</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2018-jlu-7019615c.html">2018 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#332</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2018-jlu-7019615c-q0002</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2018-jlu-7019615c-q0002";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

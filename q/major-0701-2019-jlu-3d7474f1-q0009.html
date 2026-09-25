@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019 数学分析 二1 · 数学考研真题库</title>
+<meta name="description" content="证明数列 {tan n} 存在收敛子列">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2019-jlu-3d7474f1.html">2019 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2019 二1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2019 · 数学分析 · 二1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">证明数列 {tan n} 存在收敛子列</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：整数点在模 $\pi$ 意义下于 $[0,\pi)$ 稠密，故可取子列使 $n_k\bmod\pi\to\pi/4$，从而 $\{\tan n\}$ 存在收敛子列（例如极限为 $1$）。\n\n**用到的定理/引理**：\n- $\pi$ 是无理数（从而 $1/\pi$ 也是无理数）\n- 无理旋转的稠密性（Kronecker）：$\alpha$ 无理时 $\{n\alpha\}$ 在 $[0,1)$ 稠密，可用 Dirichlet 逼近定理 $\exists q:\|q\alpha\|&lt;1/q$ 加抽屉原理论证\n- 正切的周期性 $\tan(x+m\pi)=\tan x$ 与在 $x=\pi/4$ 处的连续性\n- （备选收尾）闭区间上 $\tan$ 有界 + Bolzano–Weierstrass 定理\n\n**证明思路**：\n1. 说明 $\pi$ 无理，故 $\alpha=1/\pi$ 无理，且 $n$ 永不为 $\pi/2+m\pi$，$\tan n$ 处处有定义。\n2. 由稠密性定理：$\{n\alpha\}$ 在 $[0,1)$ 稠密 $\Rightarrow$ $\theta_n:=n\bmod\pi=\pi\{n/\pi\}$ 在 $[0,\pi)$ 稠密（必要时用 Dirichlet 逼近 $|q\alpha-p|&lt;1/q$ 得步长 $\delta=\{q\alpha\}$ 任意小，再以 $\delta$ 为网格铺满 $[0,1)$ 来证明）。\n3. 取 $\theta^*=\pi/4$，递归选取严格递增的 $n_k$ 使 $|\theta_{n_k}-\pi/4|&lt;1/k$（稠密性保证任意小区间内都有无穷多个 $n$，故可递增大指标）。\n4. 写 $n_k=m_k\pi+\theta_{n_k}$，由周期性 $\tan n_k=\tan\theta_{n_k}$。\n5. $\tan$ 在 $\pi/4$ 连续，$\theta_{n_k}\to\pi/4\Rightarrow\tan n_k\to\tan(\pi/4)=1$，收敛子列存在。\n\n**易错点**：\n- 不能对 $\{\tan n\}$ 直接套用 Bolzano–Weierstrass：该数列无界（$n\bmod\pi$ 可任意接近 $\pi/2$），必须先保证子列自变量落在避开 $\pi/2$ 的闭区间内\n- 别漏掉 $\pi\{n/\pi\}$ 这一步：稠密区间是 $[0,\pi)$ 而不是 $[0,1)$\n- 选目标角必须避开 $\pi/2$（取 $\pi/4$、$\pi/6$ 等），并确保 $n_k$ 严格递增，只说&#39;存在 $n$&#39;不够\n\n**不确定**：无（题干清楚；结论只要求存在性，极限值不唯一，按所取目标角可为任意实数）</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明数列 {tan n} 存在收敛子列" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2019-jlu-3d7474f1.html#major-0701-2019-jlu-3d7474f1-q0009">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2019-jlu-3d7474f1-q0008.html">← 上一题（2019 一8）</a><a href="major-0701-2019-jlu-3d7474f1-q0010.html">下一题（2019 二2）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2019 年 二 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%9E%81%E9%99%90%E8%AF%81%E6%98%8E">极限证明</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2019-jlu-3d7474f1.html">2019 数学分析（15 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#109</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2019-jlu-3d7474f1-q0009</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2019-jlu-3d7474f1-q0009";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

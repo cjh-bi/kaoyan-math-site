@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022 数学分析 二1 · 数学考研真题库</title>
+<meta name="description" content="求证：lim_{n→∞} ( ∫₀^{π/2}(cos x)ⁿ dx )^{1/n} = 1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2022-jlu-cf3cd358.html">2022 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2022 二1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2022 · 数学分析 · 二1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">求证：lim<sub>n→∞</sub> ( ∫₀<sup>π/2</sup>(cos x)ⁿ dx )<sup>1/n</sup> = 1</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：记 $I_n=\int_0^{\pi/2}\cos^n x\,dx$，要证 $\lim_{n\to\infty}\sqrt[n]{I_n}=1$，即 $\limsup$ 与 $\liminf$ 都等于 $1$。\n\n**用到的定理/引理**：\n- 夹逼准则（$\limsup/\liminf$ 两端 squeeze）\n- $\cos x$ 在 $[0,\pi/2]$ 上单调递减且 $0\le\cos x\le1$\n- 积分的保号性与区域放缩：$\int_a^b f\ge (b-a)\min_{[a,b]} f$\n- $\lim_{n\to\infty} c^{1/n}=1$（$c&gt;0$），含 $\delta^{1/n}\to1$ 与 $(\pi/2)^{1/n}\to1$\n- 备选路线：Wallis 公式 $I_n\sim\sqrt{\pi/(2n)}$ 与 $\sqrt[n]{n}\to1$\n\n**证明思路**：\n1. 记 $I_n=\int_0^{\pi/2}\cos^n x\,dx$，由 $\cos x&gt;0$ 于 $[0,\pi/2)$ 知 $I_n&gt;0$，$\sqrt[n]{I_n}$ 有意义。\n2. 上界：由 $\cos^n x\le1$ 得 $I_n\le\pi/2$，故 $\sqrt[n]{I_n}\le(\pi/2)^{1/n}\to1$，即 $\limsup\sqrt[n]{I_n}\le1$。\n3. 下界（关键一步）：固定任意 $\delta\in(0,\pi/2)$，在 $[0,\delta]$ 上用递减性得 $\cos x\ge\cos\delta$，于是 $I_n\ge\int_0^\delta\cos^n x\,dx\ge\delta(\cos\delta)^n$。\n4. 两边开 $n$ 次方：$\sqrt[n]{I_n}\ge\delta^{1/n}\cos\delta$；令 $n\to\infty$ 得 $\liminf\sqrt[n]{I_n}\ge\cos\delta$。\n5. 再令 $\delta\to0^+$，由 $\cos\delta\to1$ 得 $\liminf\sqrt[n]{I_n}\ge1$，与第 2 步合并即 $\lim\sqrt[n]{I_n}=1$。\n6.（若要换成显式计算）用 Wallis 公式得 $I_n\sim\sqrt{\pi/(2n)}$，则 $\sqrt[n]{I_n}=\exp\!\big(\tfrac{\ln C-\tfrac12\ln n}{n}\big)\to1$。\n\n**易错点**：\n- 不能只说「$I_n\to0$ 所以……」或「$I_n$ 有界所以极限为 1」：这是 $\infty^0$ 型未定式，必须给出形如 $\delta(\cos\delta)^n$ 的指数级下界。\n- 两次取极限顺序不可交换：先固定 $\delta$ 令 $n\to\infty$，再令 $\delta\to0^+$；写成 $\varepsilon$-$N$ 语言时要先由 $\varepsilon$ 取定 $\delta$（使 $\cos\delta&gt;1-\varepsilon$），再取 $N$ 使 $n&gt;N$ 时 $\delta^{1/n}&gt;1-\varepsilon$ 且 $(\pi/2)^{1/n}&lt;1+\varepsilon$。\n- 对不等式开 $n$ 次方须指明 $t\mapsto\sqrt[n]{t}$ 在 $(0,\infty)$ 上单调递增，且下界中的 $\delta&gt;0$ 不能漏（漏了就只剩 $\cos\delta$ 而失去 $\delta^{1/n}\to1$ 的论证）。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="求证：lim_{n→∞} ( ∫₀^{π/2}(cos x)ⁿ dx )^{1/n} = 1" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2022-jlu-cf3cd358.html#major-0701-2022-jlu-cf3cd358-q0008">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2022-jlu-cf3cd358-q0007.html">← 上一题（2022 一7）</a><a href="major-0701-2022-jlu-cf3cd358-q0009.html">下一题（2022 二2）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2022 年 二 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%9E%81%E9%99%90%E8%AF%81%E6%98%8E">极限证明</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2022-jlu-cf3cd358.html">2022 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#65</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2022-jlu-cf3cd358-q0008</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2022-jlu-cf3cd358-q0008";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

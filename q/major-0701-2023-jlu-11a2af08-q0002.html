@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2023 空间解析几何和高等代数 二1 · 数学考研真题库</title>
+<meta name="description" content="设 V 是数域 Ω 上的 n 维向量空间，n ≥ 2，σ 是 V 上的线性变换，若 3σ³ + 2σ² + σ = 0，证明 V = Ker σ ⊕ σ(V).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2023-jlu-11a2af08.html">2023 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2023 二1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2023 · 空间解析几何和高等代数 · 二1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">设 V 是数域 Ω 上的 n 维向量空间，n ≥ 2，σ 是 V 上的线性变换，若 3σ³ + 2σ² + σ = 0，证明 V = Ker σ ⊕ σ(V).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：把零化多项式分解为 $f(x)=x\,g(x)$（$g(x)=3x^2+2x+1$，与 $x$ 互素），用 Bezout 恒等式得到 $V=\mathrm{Ker}\,\sigma\oplus\mathrm{Ker}\,g(\sigma)$，再证明 $\sigma(V)=\mathrm{Ker}\,g(\sigma)$ 即得结论。\n\n**用到的定理/引理**：\n- $f(\sigma)=3\sigma^3+2\sigma^2+\sigma=\sigma\,g(\sigma)=0$（零化多项式）\n- Bezout 恒等式 $g(x)-(3x+2)x=1$，从而 $I=g(\sigma)-\sigma(3\sigma+2\mathcal I)$\n- 互素因子给出核的直和分解 $V=\mathrm{Ker}\,\sigma\oplus\mathrm{Ker}\,g(\sigma)$\n- 值域与核的等式 $\sigma(V)=\mathrm{Ker}\,g(\sigma)$（双向包含各证一次）\n- 直和的判定：$V=$ 两子空间之和 且 交为 $\{0\}$\n\n**证明思路**：\n1. 分解多项式：$f(x)=3x^3+2x^2+x=x\,g(x)$，$g(x)=3x^2+2x+1$；由 $g(x)-(3x+2)x=1$ 知 $\gcd(x,g(x))=1$。\n2. 由 $\sigma g(\sigma)=g(\sigma)\sigma=f(\sigma)=0$ 得两个包含：$g(\sigma)(V)\subseteq\mathrm{Ker}\,\sigma$，$\sigma(V)\subseteq\mathrm{Ker}\,g(\sigma)$。\n3. 证 $V=\mathrm{Ker}\,\sigma+\sigma(V)$：对任意 $\alpha$，用 $\alpha=g(\sigma)\alpha-\sigma\big((3\sigma+2\mathcal I)\alpha\big)$，第一项属于 $\mathrm{Ker}\,\sigma$，第二项属于 $\sigma(V)$。\n4. 证反向包含 $\mathrm{Ker}\,g(\sigma)\subseteq\sigma(V)$：若 $g(\sigma)\alpha=0$，则 $\alpha=\alpha-g(\sigma)\alpha=-\sigma\big((3\sigma+2\mathcal I)\alpha\big)\in\sigma(V)$，结合第 2 步得 $\sigma(V)=\mathrm{Ker}\,g(\sigma)$。\n5. 证交为零：设 $\alpha\in\mathrm{Ker}\,\sigma\cap\sigma(V)$，取 $\beta$ 使 $\alpha=\sigma\beta$；由 $\sigma\alpha=0$ 得 $\sigma^2\beta=0$，代入 $0=f(\sigma)\beta=3\sigma^3\beta+2\sigma^2\beta+\sigma\beta$ 得 $\alpha=\sigma\beta=0$。\n6. 由第 3、5 步（或第 4 步换成 $\mathrm{Ker}\,\sigma\oplus\mathrm{Ker}\,g(\sigma)$） conclude $V=\mathrm{Ker}\,\sigma\oplus\sigma(V)$。\n\n**易错点**：\n- 「数域 $\Omega$」默认是 $\mathbb C$ 的特征 0 子域，故 $g$ 的首项系数 3、常数项 1 均可用；若换成一般域需讨论特征 2、3，此时 $f$ 的分解与互素性会变。\n- 不要走「最小多项式无重根 $\Rightarrow\sigma$ 可对角化」这条路：$3x^2+2x+1$ 在 $\Omega$（如 $\mathbb Q$、$\mathbb R$）上不可分解，$\sigma$ 未必能对角化，但互素分解仍成立。\n- 第 4、5 步不能省：只写维数相等（$\dim\mathrm{Ker}\,\sigma+\dim\sigma(V)=n$）必须另有依据，而 $\sigma(V)=\mathrm{Ker}g(\sigma)$ 的包含关系是双向的，漏一个方向证明不闭环。\n\n**不确定**：题干完整、结论明确，无歧义；只需在正式答卷中先点明 $\Omega$ 为特征 0 的数域这一默认前提。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是数域 Ω 上的 n 维向量空间，n ≥ 2，σ 是 V 上的线性变换，若 3σ³ + 2σ² + σ = 0，证明 V = Ker σ ⊕ σ(V)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2023-jlu-11a2af08.html#major-0701-2023-jlu-11a2af08-q0002">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2023-jlu-11a2af08-q0001.html">← 上一题（2023 一1）</a><a href="major-0701-2023-jlu-11a2af08-q0003.html">下一题（2023 三1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2023 年 二 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%AD%90%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%9B%B4%E5%92%8C">子空间与直和</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2023-jlu-11a2af08.html">2023 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#292</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2023-jlu-11a2af08-q0002</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2023-jlu-11a2af08-q0002";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

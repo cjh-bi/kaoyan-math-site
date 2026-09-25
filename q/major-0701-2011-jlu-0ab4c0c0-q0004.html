@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2011 空间解析几何和高等代数 21 · 数学考研真题库</title>
+<meta name="description" content="设 V, W 都是数域 Ω 上的有限维向量空间，U 是 V 的子空间. 证明存在线性映射 σ : V → W 使得 ker σ = U 当且仅当 dim U ≥">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2011-jlu-0ab4c0c0.html">2011 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2011 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2011 · 空间解析几何和高等代数 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">设 V, W 都是数域 Ω 上的有限维向量空间，U 是 V 的子空间. 证明存在线性映射 σ : V → W 使得 ker σ = U 当且仅当 dim U ≥ dim V − dim W</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：存在 $\sigma:V\to W$ 使 $\ker\sigma=U$ 等价于 $\dim U\ge\dim V-\dim W$（即商空间 $V/U$ 能单射进 $W$）\n\n**用到的定理/引理**：\n- 秩–零化度定理：$\dim\ker\sigma+\dim\operatorname{im}\sigma=\dim V$\n- $\operatorname{im}\sigma\subseteq W\Rightarrow\dim\operatorname{im}\sigma\le\dim W$\n- 基扩充定理 + 线性映射由基上取值唯一确定\n- $W$ 中存在 $r$ 个线性无关向量 $\iff r\le\dim W$（等价可用 $V/\ker\sigma\cong\operatorname{im}\sigma$ 一步说明）\n\n**证明思路**：\n记 $n=\dim V,m=\dim W,k=\dim U$（由 $U\subseteq V$ 有 $k\le n$），待证条件即 $k\ge n-m$。\n1. **必要性**：设 $\ker\sigma=U$，由秩零化度 $\dim\operatorname{im}\sigma=n-k$；又 $\operatorname{im}\sigma\subseteq W$，故 $n-k\le m$，即 $k\ge n-m$。\n2. **充分性·取基**：取 $U$ 的基 $u_1,\dots,u_k$，扩充为 $V$ 的基 $u_1,\dots,u_k,v_1,\dots,v_{n-k}$。\n3. **充分性·选像**：由 $n-k\le m$，在 $W$ 中取线性无关组 $w_1,\dots,w_{n-k}$。\n4. **充分性·定义映射**：令 $\sigma(u_i)=0$、$\sigma(v_j)=w_j$，按基上取值线性延拓得 $\sigma:V\to W$。\n5. **校验核**：设 $x=\sum a_iu_i+\sum b_jv_j$，$\sigma(x)=\sum b_jw_j=0$，由 $w_j$ 线性无关得全部 $b_j=0$，故 $x\in U$；反向 $U\subseteq\ker\sigma$ 显然，所以 $\ker\sigma=U$。\n6. （可选亮点）同义改写：$\sigma$ 诱导单射 $\bar\sigma:V/U\hookrightarrow W$，存在性等价于 $\dim(V/U)=n-k\le m$，两方向各一句话。\n\n**易错点**：\n- 充分性里 $v_1,\dots,v_{n-k}$ 的像必须**线性无关**，否则核会大于 $U$；只保证 $U\subseteq\ker\sigma$ 是常见漏证。\n若 $k=n$（$n-k=0$）：取空组，即零映射 $\sigma=0$，需单独交代一句以免&#34;取 $0$ 个线性无关向量&#34;显得含糊。\n- 必要性不可写成 $\dim\operatorname{im}\sigma=\dim W$，只能是 $\le$（$\sigma$ 未必满射）。\n- $n-m$ 可能为负（$\dim W\ge\dim V$），此时条件自动成立，说明时应避免把它当成&#34;$U$ 的维数下界&#34;来做整数假设。\n\n**不确定**：无（题干的 $\ge$ 与 $\dim V-\dim W$ 方向已核对，取 $W=0$、$U\ne V$ 时两边同时不成立，一致）</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V, W 都是数域 Ω 上的有限维向量空间，U 是 V 的子空间. 证明存在线性映射 σ : V → W 使得 ker σ = U 当且仅当 dim U ≥ dim V − dim W" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2011-jlu-0ab4c0c0.html#major-0701-2011-jlu-0ab4c0c0-q0004">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：2.（每小题 10 分，共 30 分）(1)(2)(3)，内容互不相关
+    </div>
+    <div class="pager">
+<a href="major-0701-2011-jlu-0ab4c0c0-q0003.html">← 上一题（2011 13）</a><a href="major-0701-2011-jlu-0ab4c0c0-q0005.html">下一题（2011 22）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2011 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%BA%BF%E6%80%A7%E6%98%A0%E5%B0%84%E4%B8%8E%E6%A0%B8">线性映射与核</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2011-jlu-0ab4c0c0.html">2011 空间解析几何和高等代数（12 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#393</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2011-jlu-0ab4c0c0-q0004</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2011-jlu-0ab4c0c0-q0004";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2020 空间解析几何和高等代数 21 · 数学考研真题库</title>
+<meta name="description" content="设 A 是数域 Ω 上秩为 r 的幂等矩阵，即 A² = A，试证明：A 可写成 r 个秩为 1 的幂等矩阵之和.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2020-jlu-d48d6ffc.html">2020 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2020 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2020 · 空间解析几何和高等代数 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 A 是数域 Ω 上秩为 r 的幂等矩阵，即 A² = A，试证明：A 可写成 r 个秩为 1 的幂等矩阵之和.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：存在 r 个秩为 1 的幂等矩阵 B_1,\dots,B_r（即 B_i^2=B_i、\mathrm{rank}\,B_i=1），使得 A=B_1+\cdots+B_r。\n\n**用到的定理/引理**：\n- A^2=A ⟹ V=\mathrm{Im}A\oplus\mathrm{Ker}A，即 A 是沿 Ker A 到 Im A 的投影\n- 最小多项式整除 x(x-1) 且 0,1 互异 ⟹ A 在 Ω 上可对角化，存在可逆 P 使 P^{-1}AP=\mathrm{diag}(I_r,0)\n- 秩 1 矩阵的外积表示 B=\xi\eta^{T}，且 B^2=(\eta^{T}\xi)B，故 \eta^{T}\xi=1 时 B 幂等\n- 对偶基 / 线性泛函在直和分解上可自由指定取值\n- 相似变换保持幂等性与秩（\,(PBP^{-1})^2=PB^2P^{-1}\,）\n\n**证明思路**：\n第 1 步（结构）：任取 x，写 x=Ax+(x-Ax)，其中 Ax\in\mathrm{Im}A、A(x-Ax)=Ax-A^2x=0；又若 x\in\mathrm{Im}A\cap\mathrm{Ker}A，则 x=Ay 且 0=Ax=A^2y=Ay=x，故 V=\mathrm{Im}A\oplus\mathrm{Ker}A。\n第 2 步（取基）：设 \xi_1,\dots,\xi_r 为 \mathrm{Im}A 的一组基（r=\mathrm{rank}\,A），在直和上定义线性泛函 f_i(\xi_j)=\delta_{ij}、f_i|_{\mathrm{Ker}A}=0，记其对应行向量为 \eta_i^{T}，于是 \eta_i^{T}\xi_j=\delta_{ij}。\n第 3 步（分解 A）：令 B_i=\xi_i\eta_i^{T}，则 \sum_{i=1}^{r}B_i 在 \mathrm{Im}A 上把 \xi_j 映为 \xi_j（与 A 相同，因为 A\xi_j=\xi_j），在 \mathrm{Ker}A 上为 0（与 A 相同），两变换在直和的各分量和上相等，故 A=B_1+\cdots+B_r。\n第 4 步（幂等性）：B_i^2=\xi_i(\eta_i^{T}\xi_i)\eta_i^{T}=\xi_i\cdot 1\cdot\eta_i^{T}=B_i。\n第 5 步（秩为 1）：\xi_i\ne0、\eta_i\ne0，B_i 的列空间 = \mathrm{span}(\xi_i)，故 \mathrm{rank}\,B_i=1。证毕。\n（备选第 3′ 步：取 P 使 P^{-1}AP=\mathrm{diag}(I_r,0)=E_{11}+\cdots+E_{rr}，每个 E_{ii} 秩 1 幂等，再令 B_i=PE_{ii}P^{-1} 共轭回原基即可。）\n\n**易错点**：\n- 必须先证直和分解（或先说明 A 可对角化），否则第 2 步中“在 Im A 上取对偶值、在 Ker A 上取 0”的泛函定义不合法。\n- 归一化是关键：外积分解需要 \eta_i^{T}\xi_j=\delta_{ij}；若只做到 \eta_i^{T}\xi_i\ne0 而未归一，则 B_i^2=(\eta_i^{T}\xi_i)B_i\ne B_i，幂等性不成立（需缩放 \xi_i 或 \eta_i）。\n- 别忘了说明每个 B_i 秩恰为 1 而非 0，并且 r=0（即 A=0）时命题按“空和”退化，题目默认 r\ge1。\n\n**不确定**：无实质疑问。仅提示：题中“幂等矩阵”按 A^2=A 理解（非正定/正交投影之意），数域 Ω 特征为 0，故 x(x-1) 的根 0≠1 互异，对角化与 \mathrm{tr}\,A=\mathrm{rank}\,A=r 均成立。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 A 是数域 Ω 上秩为 r 的幂等矩阵，即 A² = A，试证明：A 可写成 r 个秩为 1 的幂等矩阵之和." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2020-jlu-d48d6ffc.html#major-0701-2020-jlu-d48d6ffc-q0002">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2020-jlu-d48d6ffc-q0001.html">← 上一题（2020 11）</a><a href="major-0701-2020-jlu-d48d6ffc-q0003.html">下一题（2020 31）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2020 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%9F%A9%E9%98%B5%E5%88%86%E8%A7%A3">矩阵分解</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2020-jlu-d48d6ffc.html">2020 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#316</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2020-jlu-d48d6ffc-q0002</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2020-jlu-d48d6ffc-q0002";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019 数学分析 五1 · 数学考研真题库</title>
+<meta name="description" content="设函数 f(x) 在 ℝ 上连续，lim_{n→∞} f(x)/x² = 1. 试证明 f(x) 在 ℝ 上不一致连续.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2019-jlu-3d7474f1.html">2019 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2019 五1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2019 · 数学分析 · 五1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">设函数 f(x) 在 ℝ 上连续，lim<sub>n→∞</sub> f(x)/x² = 1. 试证明 f(x) 在 ℝ 上不一致连续.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：f(x) 按 $x^2$ 的阶增长，而 ℝ 上一致连续的函数至多线性增长，二者矛盾，故 f 在 ℝ 上不一致连续。\n\n**用到的定理/引理**：\n- 一致连续的 ε-δ 定义（取 $\varepsilon=1$ 得 $\delta&gt;0$）\n- 等步长分段传递引理：ℝ 上一致连续 ⇒ 存在 $A,B&gt;0$ 使 $|f(x)|\le A|x|+B$ 对所有 $x$\n- 闭区间上连续函数有界（用于补齐线性界中的常数项）\n- 反证法 + 极限比较 $\frac{A|x|+B}{x^2}\to 0$\n\n**证明思路**：\n1. 反设 $f$ 在 $\mathbb{R}$ 上一致连续。\n2. 取 $\varepsilon=1$ 得 $\delta&gt;0$；对任意 $x$，从 $0$ 出发以步长 $\le\delta$ 分段走到 $x$，不超过 $\lceil |x|/\delta\rceil$ 段，每段函数值改变 $&lt;1$，得 $|f(x)-f(0)|\le |x|/\delta+1$。\n3. 令 $A=1/\delta,\ B=|f(0)|+1$，即得全实轴上的线性增长界 $|f(x)|\le A|x|+B$。\n4. 由 $\lim f(x)/x^2=1$，存在 $M$ 使 $|x|&gt;M$ 时 $f(x)\ge \tfrac12 x^2$；两边除以 $x^2$ 得 $\tfrac12\le A/|x|+B/x^2$。\n5. 令 $|x|\to\infty$，右端趋于 $0$，矛盾；故 $f$ 不一致连续。\n\n**易错点**：\n- 别用相邻点列硬算：取 $x_n=n,\ x_n&#39;=n+1/n$ 时 $f=x^2+o(x^2)$ 中两个 $o(x^2)$ 之差不可控，推不出 $|f(x_n)-f(x_n&#39;)|\ge\varepsilon_0$；必须先建立线性增长界。\n- 线性增长界要在整条实轴上成立，$|x|\le M$ 的部分靠连续函数在闭区间上有界补进常数 $B$。\n- 题干极限写成 $\lim_{n\to\infty}$，应为 $\lim_{x\to\infty}$（若只给 $x\to+\infty$，仅用 $x\ge0$ 一侧同样导出矛盾）。\n\n**不确定**：极限下标疑为笔误，按 $\lim_{x\to\infty} f(x)/x^2=1$ 处理；若只取 $x\to+\infty$，证明步骤不变。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设函数 f(x) 在 ℝ 上连续，lim_{n→∞} f(x)/x² = 1. 试证明 f(x) 在 ℝ 上不一致连续." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2019-jlu-3d7474f1.html#major-0701-2019-jlu-3d7474f1-q0015">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2019-jlu-3d7474f1-q0014.html">← 上一题（2019 四1）</a><a href="major-0701-2019-jlu-66a6a268-q0001.html">下一题（2019 11）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2019 年 五 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%80%E8%87%B4%E8%BF%9E%E7%BB%AD%E6%80%A7">一致连续性</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2019-jlu-3d7474f1.html">2019 数学分析（15 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#115</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2019-jlu-3d7474f1-q0015</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2019-jlu-3d7474f1-q0015";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

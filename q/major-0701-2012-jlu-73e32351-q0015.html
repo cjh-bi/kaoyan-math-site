@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2012 数学分析 52 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 在 [a,b] 上连续可微，且满足 f(a) = 0. 则有 $$\int_a^b f²(x)dx ≤ \frac{(b−a)²}{2}\int_">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2012-jlu-73e32351.html">2012 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2012 52
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2012 · 数学分析 · 52</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 f(x) 在 [a,b] 上连续可微，且满足 f(a) = 0. 则有 $\int_a^b f²(x)dx ≤ \frac{(b−a)²}{2}\int_a^b |f′(x)|²dx − \frac{1}{2}\int_a^b |f′(x)|²(x−a)²dx$</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：在 $f(a)=0$ 下，用 Cauchy–Schwarz 得到带权重 $(x-a)$ 的点态估计后交换积分次序，即可证得 $\int_a^b f^2 \le \frac{(b-a)^2}{2}\int_a^b |f&#39;|^2 - \frac12\int_a^b |f&#39;|^2(x-a)^2$（即对常见估计 $\int f^2\le\frac{(b-a)^2}{2}\int|f&#39;|^2$ 的精确化）。\n\n**用到的定理/引理**：\n- Newton–Leibniz 公式 + 条件 $f(a)=0$：$f(x)=\int_a^x f&#39;(t)dt$\n- 积分型 Cauchy–Schwarz 不等式：$(\int_a^x u\cdot 1)^2\le (x-a)\int_a^x u^2$\n- 二重积分换序（Fubini / Tonelli，区域 $a\le t\le x\le b$）\n- 初等积分 $\int_t^b (x-a)dx=\frac{(b-a)^2-(t-a)^2}{2}$\n\n**证明思路**：\n1. 由 $f\in C^1[a,b]$、$f(a)=0$，写 $f(x)=\int_a^x f&#39;(t)\,dt$，$x\in[a,b]$。\n2. 对 $\int_a^x f&#39;(t)\cdot 1\,dt$ 用 Cauchy–Schwarz 得点态估计 $f^2(x)\le (x-a)\int_a^x |f&#39;(t)|^2\,dt$；此处**保留权重 $(x-a)$ 且内层积分上限仍为 $x$**。\n3. 两边关于 $x$ 在 $[a,b]$ 上积分：$\int_a^b f^2(x)dx\le \int_a^b (x-a)\Big(\int_a^x |f&#39;(t)|^2dt\Big)dx$。\n4. 交换积分次序（三角形区域 $a\le t\le x\le b$）：右端 $=\int_a^b |f&#39;(t)|^2\Big(\int_t^b (x-a)dx\Big)dt$。\n5. 计算内层 $\int_t^b (x-a)dx=\frac{(b-a)^2-(t-a)^2}{2}$ 代回，得 $\frac{(b-a)^2}{2}\int_a^b|f&#39;|^2dt-\frac12\int_a^b|f&#39;|^2(t-a)^2dt$。\n6. 把哑变量 $t$ 改记为 $x$，即所要证不等式（$f$ 为实值时 $|f&#39;|^2=(f&#39;)^2$）。\n\n**易错点**：\n- 不可先把 $\int_a^x$ 放大成 $\int_a^b$：那样恰好丢掉要证的减项 $\frac12\int|f&#39;|^2(x-a)^2$，只能得到较弱的估计，属于证明不到位的常见扣分点。\n- 换序需交代正当性：$f&#39;$ 连续、$(x-a)\ge0$，被积函数在闭三角形上连续非负，Fubini/Tonelli 可用；换序后限变为 $t\in[a,b]$、$x\in[t,b]$，写成 $x\in[a,t]$ 是典型笔误。\n- 等号条件自检：Step 2 取等要求 $f&#39;$ 在每个 $[a,x]$ 上恒为常数，即 $f(x)=c(x-a)$ 时两边同为 $\frac{c^2(b-a)^3}{3}$；若 $b=a$ 不等式两边均为 0，属平凡情形。\n\n**不确定**：无（按题面理解：$f$ 在 $[a,b]$ 上连续可微，$b&gt;a$，$f(a)=0$；结论即为该精确化的积分不等式，已用 $f(x)=x$、$f(x)=x^2/2$ 等于 $[0,1]$ 上验证成立）。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+      <div class="small muted" style="margin-top:6px">🔍 独立验算：该行原本是提纲生成失败（解析为空）后的占位比对；已补跑提纲（Cauchy–Schwarz 带权点态估计）并入库，不再算冲突。</div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 在 [a,b] 上连续可微，且满足 f(a) = 0. 则有 $$\int_a^b f²(x)dx ≤ \frac{(b−a)²}{2}\int_a^b |f′(x)|²dx − \frac{1}{2}\int_a^b |f′(x)|²(x−a)²dx$$" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2012-jlu-73e32351.html#major-0701-2012-jlu-73e32351-q0015">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(25 分) (1) 第二型曲线积分与 (2) 积分不等式，跨页（题干在 p07 末、条目在 p08 首）
+    </div>
+    <div class="pager">
+<a href="major-0701-2012-jlu-73e32351-q0014.html">← 上一题（2012 51）</a><a href="major-0701-2012-jlu-73e32351-q0016.html">下一题（2012 61）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2012 年 5 2 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F">积分不等式</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2012-jlu-73e32351.html">2012 数学分析（18 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#215</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2012-jlu-73e32351-q0015</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2012-jlu-73e32351-q0015";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

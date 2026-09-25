@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022 空间解析几何和高等代数 二1 · 数学考研真题库</title>
+<meta name="description" content="设 V 是数域 Ω 上 n 阶矩阵在加法与数量乘法下构成的向量空间，A, B ∈ V，记 T = {X ∈ V | AXB = O}. (1) 证明：T 是 V">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2022-jlu-774918a6.html">2022 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2022 二1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2022 · 空间解析几何和高等代数 · 二1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span><span class="sep">|</span><span class="t">2 个小问</span>    </h1>
+    <div class="qstem">设 V 是数域 Ω 上 n 阶矩阵在加法与数量乘法下构成的向量空间，A, B ∈ V，记 T = {X ∈ V | AXB = O}. <br> (1) 证明：T 是 V 的子空间 <br> (2) 若秩(A) = 秩(B) = 1，求 dim T</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：T 是线性映射 φ:X↦AXB 的核，故为 V 的子空间；当秩(A)=秩(B)=1 时条件 AXB=O 等价于一个非零线性方程，dim T = n² − 1。\n\n**用到的定理/引理**：\n- 线性映射的核是子空间（或子空间三条件：零元、加法封闭、数乘封闭）\n- 秩–零度定理：dim T = dim V − rank φ = n² − rank φ\n- 秩 1 矩阵的列分解：A = αβ^T（α 取 A 的非零列，β^T 为各列的系数行），α,β 均非零\n- 非零线性泛函的核余维数为 1（即 dim ker f = n² − 1）\n- 备选校验：vec(AXB) = (B^T ⊗ A)vec(X)，rank(B^T ⊗ A) = rank A · rank B\n\n**证明思路**：\n1. (1) 定义 φ:V→V，φ(X)=AXB，由 A(X₁+X₂)B=AX₁B+AX₂B、A(kX)B=kAXB 知 φ 线性；T=φ^{-1}(O)=ker φ，故 T ≤ V。（直接验证 0∈T 与两种封闭性亦满分。）\n2. (2) dim V=n²，由秩–零度定理只需定 rank φ，即求 AXB=O 对 X 的 n² 个分量施加了几个独立约束。\n3. 秩(A)=1 ⟹ A=αβ^T，秩(B)=1 ⟹ B=γδ^T，其中 α,β,γ,δ 都是非零列向量（因 A,B 非零矩阵）。\n4. 代入：AXB=α(β^T Xγ)δ^T=(β^T Xγ)·αδ^T；由于 αδ^T≠O，得 $AXB=O \iff \beta^{T}X\gamma=0$。\n5. 记 f(X)=β^T Xγ=ΣᵢΣⱼ βᵢγⱼ x_{ij}，其系数矩阵 βγ^T≠O，故 f 是 V 上的**非零**线性泛函，rank φ=1；于是 dim T=n²−1。\n6. 收尾核对：n=1 时 A,B 为非零数，T={O}，dim T=0=1²−1，公式仍成立（可用第 5 条备选 Kronecker 法给出同结果作为验算）。\n\n**易错点**：\n- 必须说明 β^T Xγ=0 是真正的非零约束（f≠0，即 βγ^T≠O），否则无法断定余维数是 1 而不是 0。\n- 别把它误当成 AX=O 的解空间（那会给 n²−n 或 n²−r 类答案）；这里的未知量是 X 的全部 n² 个元素，而秩 1 使乘积只剩一个标量条件。\n- 若改用等价标准形 P A Q=diag(1,0,…,0) 的做法，需先论证左、右乘可逆矩阵给出的映射是 V 上的自同构、不改变 ker 的维数。\n\n**不确定**：无（按题意 V=M_n(Ω)，dim V=n²；结论 dim T=n²−1 与 n 的取值无关，n=1 时退化为 0）。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是数域 Ω 上 n 阶矩阵在加法与数量乘法下构成的向量空间，A, B ∈ V，记 T = {X ∈ V | AXB = O}. 
+ (1) 证明：T 是 V 的子空间 
+ (2) 若秩(A) = 秩(B) = 1，求 dim T" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2022-jlu-774918a6.html#major-0701-2022-jlu-774918a6-q0002">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2022-jlu-774918a6-q0001.html">← 上一题（2022 一1）</a><a href="major-0701-2022-jlu-774918a6-q0003.html">下一题（2022 三1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2022 年 二 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%AD%90%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BB%B4%E6%95%B0">子空间与维数</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2022-jlu-774918a6.html">2022 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#300</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2022-jlu-774918a6-q0002</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2022-jlu-774918a6-q0002";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

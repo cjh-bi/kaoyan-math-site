@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2009 数学分析 22 · 数学考研真题库</title>
+<meta name="description" content="设 xₙ = 1 + 1/2 + … + 1/n，数列 {xₙ} 发散">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2009-jlu-ef5a4cfd.html">2009 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2009 22
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2009 · 数学分析 · 22</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">设 xₙ = 1 + 1/2 + … + 1/n，数列 {xₙ} 发散</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：证明部分和 $x_n = 1 + 1/2 + ⋯ + 1/n$ 无上界，从而 $x_n → +∞$，故数列发散。\n\n**用到的定理/引理**：\n- 单调性判别：$x_{n+1} - x_n = 1/(n+1) &gt; 0$，递增数列若无上界则趋于 $+∞$（单调有界原理的逆否用法）\n- Oresme 分组放缩：$Σ_{i=2^{k-1}+1}^{2^k} 1/i ≥ 2^{k-1} · 1/2^k = 1/2$\n- $M$-$N$ 语言（无穷极限定义）：任给 $M$，存在 $N$，当 $n ≥ N$ 时 $x_n &gt; M$\n- 备选路线（更简洁）：Cauchy 收敛准则，取 $ε_0 = 1/2$，$x_{2n} - x_n = Σ_{k=n+1}^{2n} 1/k ≥ n · 1/(2n) = 1/2$，不满足 Cauchy 条件\n\n**证明思路**：\n1. 先立单调性：$x_{n+1} - x_n = 1/(n+1) &gt; 0$，所以 ${x_n}$ 严格递增，只需证它无上界。\n2. 对 $2^m$ 处强行分组：$x_{2^m} = 1 + Σ_{k=1}^{m} Σ_{i=2^{k-1}+1}^{2^k} 1/i$。\n3. 估计每一组：第 $k$ 组共 $2^{k-1}$ 项，每项都 ≥ 该组最小元 $1/2^k$，故该组和 ≥ $2^{k-1}/2^k = 1/2$。\n4. 累加得下界 $x_{2^m} ≥ 1 + m/2$，令 $m → ∞$ 知子列无界，进而整个数列无上界。\n5. 用单调性把子列结论升级成整列结论：当 $n ≥ 2^m$ 时 $x_n ≥ x_{2^m} ≥ 1 + m/2$，任给 $M$ 取 $m &gt; 2(M-1)$，即得 $x_n &gt; M$，所以 $x_n → +∞$。\n6. 收敛数列必有界，而 ${x_n}$ 无界，故发散（并指出其广义极限为 $+∞$）。\n\n**易错点**：\n- 只证子列 $x_{2^m}$ 无界不能直接下结论，必须配合「${x_n}$ 递增」这一环；若走 Cauchy 准则路线，要写成「对任意 $N$ 都存在 $n &gt; N$ 使 $|x_{2n} - x_n| ≥ ε_0$」，不能只对一个固定的 $n$ 成立。\n- 分组时组的项数与放缩方向易错：第 $k$ 组是从 $2^{k-1}+1$ 到 $2^k$ 共 $2^{k-1}$ 项，要用组内最小项 $1/2^k$ 做下界；若误用最大项 $1/(2^{k-1}+1)$ 会变成上界，方向反了。\n- 表述上别把「数列 ${x_n}$ 发散」与「级数 $Σ 1/n$ 发散」混着写；两者等价（$x_n$ 就是部分和），但本题问的是数列，最后可顺带注明即调和级数发散。\n\n**不确定**：题面疑似残缺：只给了 $x_n$ 的定义与「${x_n}$ 发散」这一结论，而 2009 年数学分析该题通常会带后续小问（如讨论 $Σ 1/(n x_n)$、$Σ 1/(n\sqrt{x_n})$ 之类级数的敛散性）。此处按「证明 ${x_n}$ 发散」处理；若确有第二问，请补出题干。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 xₙ = 1 + 1/2 + … + 1/n，数列 {xₙ} 发散" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2009-jlu-ef5a4cfd.html#major-0701-2009-jlu-ef5a4cfd-q0008">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(每小题 10 分，共 20 分) 证明
+    </div>
+    <div class="pager">
+<a href="major-0701-2009-jlu-ef5a4cfd-q0007.html">← 上一题（2009 21）</a><a href="major-0701-2009-jlu-ef5a4cfd-q0009.html">下一题（2009 31）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2009 年 2 2 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%95%B0%E5%88%97%E6%94%B6%E6%95%9B%E6%80%A7">数列收敛性</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2009-jlu-ef5a4cfd.html">2009 数学分析（15 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#259</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2009-jlu-ef5a4cfd-q0008</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2009-jlu-ef5a4cfd-q0008";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

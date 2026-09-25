@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2016 空间解析几何和高等代数 21 · 数学考研真题库</title>
+<meta name="description" content="设 A 是有理数域上的 n 阶 (n ≥ 2) 矩阵，f(λ) = λⁿ + 2λ^{n−1} + 2 且 f(A) = 0. (1) 证 f(λ) 是 A 的">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2016-jlu-050f05d3.html">2016 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2016 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2016 · 空间解析几何和高等代数 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">2 个小问</span>    </h1>
+    <div class="qstem">设 A 是有理数域上的 n 阶 (n ≥ 2) 矩阵，f(λ) = λⁿ + 2λ<sup>n−1</sup> + 2 且 f(A) = 0. <br> (1) 证 f(λ) 是 A 的特征多项式 <br> (2) 证 A 可逆，并求 A⁻¹</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：f(λ) 在 Q 上 Eisenstein 不可约，故它既是 A 的极小多项式也是特征多项式；由 f(A)=0 提因子 A 即得 A⁻¹ = -½Aⁿ⁻¹ - Aⁿ⁻²。\n\n**用到的定理/引理**：\n- Eisenstein 判别法（取素数 p=2）证 f(λ) 在 Q 上不可约\n- 极小多项式整除任意零化多项式：m(λ) | f(λ)\n- Cayley–Hamilton 定理：m(λ) | χ_A(λ)，且 deg χ_A = n\n- 首一多项式次数相等则相同（deg m = deg χ = n ⇒ χ = m）\n- 从 f(A)=0 中提取因子 A，构造 A·(多项式(A)) = I 的两边逆\n\n**证明思路**：\n1. 因 f(A)=0，A 在 Q 上的极小多项式 m(λ) 首一且 m(λ) | f(λ)。\n2. 对 f(λ)=λⁿ+2λⁿ⁻¹+2 用 Eisenstein（p=2）：非首项系数为 2,0,0,…,0,2，全被 2 整除，常数项 2 不被 2²=4 整除，故 f 在 Q 上不可约。\n3. m 是 f 的首一因式，只能是 m=1 或 m=f；m=1 将给出 I=0，矛盾，所以 m(λ)=f(λ)。\n4. 由 Cayley–Hamilton 有 m | χ_A；而 deg χ_A = n = deg f 且两者首一，故 χ_A(λ)=f(λ)，即 (1)。\n5. 可逆性与求逆不依赖 (1)：由 Aⁿ+2Aⁿ⁻¹+2I=0 得 2I=-A(Aⁿ⁻¹+2Aⁿ⁻²)，即 A·(-½Aⁿ⁻¹-Aⁿ⁻²)=I。\n6. 因 A 与自身多项式可交换，右逆即两边逆，故 A 可逆且 A⁻¹=-½Aⁿ⁻¹-Aⁿ⁻²（n=2 时约定 A⁰=I，即 A⁻¹=-½A-I）。\n\n**易错点**：\n- 不可约性必须在 Q 上判断，且零系数也算被 2 整除；漏掉「4 ∤ 2」这一条 Eisenstein 就不成立（例如 λⁿ+2λⁿ⁻¹+4 就可约）\n- m=f 之后必须再用 deg χ_A = n 才能推 χ_A = f；若 f 可约，则 m 可能是 f 的真因式，结论 (1) 就不成立\n- 求逆时须说明 A 与其多项式可交换，故只需验证一侧乘积为 I；另外 n=2 时 Aⁿ⁻²=A⁰=I 这一退化情形要能自洽\n\n**不确定**：「有理数域上的矩阵」这一条件的正确用法是：极小多项式在 Q 上定义（等价地，在 C 上定义也不变，因为 I,A,…,Aⁿ 的线性关系由有理系数方程组决定），从而 Eisenstein 判别可用；若评卷标准把极小多项式定义在 C 上，需补一句扩域不改变极小多项式。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 A 是有理数域上的 n 阶 (n ≥ 2) 矩阵，f(λ) = λⁿ + 2λ^{n−1} + 2 且 f(A) = 0. 
+ (1) 证 f(λ) 是 A 的特征多项式 
+ (2) 证 A 可逆，并求 A⁻¹" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2016-jlu-050f05d3.html#major-0701-2016-jlu-050f05d3-q0002">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2016-jlu-050f05d3-q0001.html">← 上一题（2016 11）</a><a href="major-0701-2016-jlu-050f05d3-q0003.html">下一题（2016 31）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2016 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%89%B9%E5%BE%81%E5%A4%9A%E9%A1%B9%E5%BC%8F">特征多项式</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2016-jlu-050f05d3.html">2016 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#348</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2016-jlu-050f05d3-q0002</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2016-jlu-050f05d3-q0002";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

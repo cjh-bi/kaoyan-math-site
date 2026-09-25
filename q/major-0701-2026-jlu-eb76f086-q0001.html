@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2026 空间解析几何和高等代数 一1 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 是复数域上的一个多项式，deg f(x) &gt; 0，且 f(x²) | f(x⁴)，证明：f(x) 的任意非零根都落在复平面的单位圆上.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2026-jlu-eb76f086.html">2026 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2026 一1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2026 · 空间解析几何和高等代数 · 一1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">设 f(x) 是复数域上的一个多项式，deg f(x) &gt; 0，且 f(x²) | f(x⁴)，证明：f(x) 的任意非零根都落在复平面的单位圆上.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：把整除关系翻译成根的迭代：$f$ 的任一非零根 $\alpha$ 会生成无穷序列 $\alpha^{2^n}$ 全为 $f$ 的根，而 $f$ 的根只有有限个，故 $\alpha$ 必为某次单位根，从而 $|\alpha|=1$。\n\n**用到的定理/引理**：\n- 整除蕴含根集合的包含：$p(x)\mid q(x)\Rightarrow$ $p$ 的根（不计重数即够用）都是 $q$ 的根\n- 复合多项式的根刻画：$\beta$ 是 $f(x^2)$ 的根 $\iff$ $\beta^2$ 是 $f$ 的根；$\gamma$ 是 $f(x^4)$ 的根 $\iff$ $\gamma^4$ 是 $f$ 的根\n- 数学归纳法构造迭代根序列 $\{\alpha^{2^n}\}_{n\ge 0}$\n- 复数域上 $\deg f&gt;0$ 的多项式根有限 + 抽屉原理（鸽笼）得出序列中出现重复项\n- 单位根性质：$z^N=1$（$N\in\mathbb{Z}_{&gt;0}$）$\Rightarrow$ $|z|=1$\n\n**证明思路**：\n1. 设 $\alpha$ 为 $f$ 的任一非零根；令 $g(x)=f(x^2)$，则 $f(x^4)=g(x^2)$，题设即 $g(x)\mid g(x^2)$。\n2. 由 $\alpha\ne 0$ 取 $\beta$ 使 $\beta^2=\alpha$，则 $\beta$ 是 $g$ 的根，由整除性 $\beta$ 也是 $g(x^2)=f(x^4)$ 的根，故 $\alpha^2=\beta^4$ 仍是 $f$ 的根。\n3. 归纳：若 $\alpha^{2^k}$ 是 $f$ 的根，同法取其平方根代入即得 $\alpha^{2^{k+1}}$ 也是 $f$ 的根，于是对一切 $n\ge 0$，$\alpha^{2^n}$ 都是 $f$ 的根。\n4. $f$ 仅有有限个根，故存在 $m&gt;n\ge 0$ 使 $\alpha^{2^m}=\alpha^{2^n}$，即 $\alpha^{2^n}\left(\alpha^{2^m-2^n}-1\right)=0$。\n5. 因 $\alpha\ne 0$ 可约去 $\alpha^{2^n}$，得 $\alpha^{2^n(2^{m-n}-1)}=1$，记 $N=2^n(2^{m-n}-1)\in\mathbb{Z}_{&gt;0}$，即 $\alpha$ 是 $N$ 次单位根。\n6. 对 $\alpha^N=1$ 两边取模：$|\alpha|^N=1$ 且 $|\alpha|\ge 0$，故 $|\alpha|=1$，由 $\alpha$ 的任意性得证。\n\n**易错点**：\n- $\alpha\ne 0$ 这一条件在第 2 步（开平方根仍非零）和第 5 步（约去 $\alpha^{2^n}$）都是必须的；若 $f(x)=x^k$ 型多项式无非零根，命题空真，不能误当作反例\n- 只需「是根」这一集合包含关系，不必跟踪重数；若强行按重数递推会拖长论证且无收益\n- 第 4 步要写出 $m&gt;n$ 且指数为正（$2^{m-n}-1\ge 1$），否则可能得出 $\alpha^0=1$ 这类空洞结论\n\n**不确定**：题干与结论表述清晰、可证；仅提示题目所标分类「空间解析几何和高等代数」与本题实际内容（多项式整除 + 复根模长，属高等代数/代数与解析综合）不完全吻合，不影响作答。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 是复数域上的一个多项式，deg f(x) &gt; 0，且 f(x²) | f(x⁴)，证明：f(x) 的任意非零根都落在复平面的单位圆上." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2026-jlu-eb76f086.html#major-0701-2026-jlu-eb76f086-q0001">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2026-jlu-782ee47a-q0014.html">← 上一题（2026 七1）</a><a href="major-0701-2026-jlu-eb76f086-q0002.html">下一题（2026 二1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2026 年 一 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E5%A4%9A%E9%A1%B9%E5%BC%8F">多项式</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E6%A0%B9%E4%B8%8E%E9%87%8D%E5%9B%A0%E5%BC%8F">根与重因式</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2026-jlu-eb76f086.html">2026 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#267</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2026-jlu-eb76f086-q0001</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2026-jlu-eb76f086-q0001";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

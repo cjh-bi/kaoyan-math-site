@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2012 数学分析 21 · 数学考研真题库</title>
+<meta name="description" content="用极限的精确定义证明 lim_{n→∞} n(n+1)/(2n² − 5) = 1/2">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2012-jlu-73e32351.html">2012 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2012 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2012 · 数学分析 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">5 分</span>    </h1>
+    <div class="qstem">用极限的精确定义证明 lim<sub>n→∞</sub> n(n+1)/(2n² − 5) = 1/2</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：按 ε–N 定义证明：对任意 ε&gt;0，存在 N∈N+，当 n&gt;N 时恒有 |n(n+1)/(2n²−5) − 1/2| &lt; ε。\n\n**用到的定理/引理**：\n- 极限的 ε–N 精确定义\n- 通分化简：a_n − 1/2 = (2n+5)/(2(2n²−5))\n- 放缩法（分子放大、分母缩小）把误差压成 c/n 型\n- 取 N = max(N₀, ⌈c/ε⌉) 的定 N 技巧\n\n**证明思路**：\n第 1 步：作差通分，得 $\left|\frac{n(n+1)}{2n^2-5}-\frac12\right|=\left|\frac{2n+5}{2(2n^2-5)}\right|$。\n第 2 步：取 $n\ge 5$，此时 $2n^2-5&gt;0$，绝对值可直接去掉，且 $2n+5\le 3n$。\n第 3 步：分母缩小，$n\ge 5$ 时 $5\le \tfrac{n^2}{5}$，故 $2(2n^2-5)\ge \tfrac{18}{5}n^2$，于是误差 $\le \frac{3n}{\frac{18}{5}n^2}=\frac{5}{6n}$。\n第 4 步：对任意 $\varepsilon&gt;0$，取 $N=\max\!\big(5,\ \lceil \tfrac{5}{6\varepsilon}\rceil\big)$，则 $n&gt;N$ 时 $\frac{5}{6n}&lt;\varepsilon$。\n第 5 步：把第 3 步的不等式与第 4 步的选取连起来写出 $|a_n-\tfrac12|\le\frac{5}{6n}&lt;\varepsilon$，由定义结论成立。\n\n**易错点**：\n- 分母 $2n^2-5$ 在 $n$ 小时为负或接近 0，必须先声明 $n\ge 5$（或某 $N_0$）才能去绝对值并放缩，否则不等号方向会错。\n- 放缩必须朝&#34;变大&#34;的方向做：分子放大、分母缩小；写反则得不到 $&lt;\varepsilon$。\n- $N$ 要取 max 并同时满足&#34;放缩前提&#34;和&#34;$\varepsilon$ 要求&#34;，只写 $\lceil 5/(6\varepsilon)\rceil$ 而漏掉 $5$ 是常见扣分点。\n\n**不确定**：无（放缩常数不唯一，用 $n\ge 3$ 得 $\frac{11}{2n}$ 之类同样可证，只要 $N$ 与所取前提一致）。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="用极限的精确定义证明 lim_{n→∞} n(n+1)/(2n² − 5) = 1/2" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2012-jlu-73e32351.html#major-0701-2012-jlu-73e32351-q0006">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(每小题 5 分，共 25 分) 判断及证明
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2010-jlu-b7cf4e86-q0014.html">2010 数学分析 · 吉林大学<span class="n">0.79</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2012-jlu-73e32351-q0005.html">← 上一题（2012 15）</a><a href="major-0701-2012-jlu-73e32351-q0007.html">下一题（2012 22）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2012 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%9E%81%E9%99%90%E8%AF%81%E6%98%8E">极限证明</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>5 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2012-jlu-73e32351.html">2012 数学分析（18 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#206</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2012-jlu-73e32351-q0006</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2012-jlu-73e32351-q0006";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

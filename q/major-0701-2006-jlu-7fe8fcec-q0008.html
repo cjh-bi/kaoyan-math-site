@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2006 空间解析几何和高等代数 五1 · 数学考研真题库</title>
+<meta name="description" content="设 A 为实对称矩阵，证明，必有实对称矩阵 B，使得 A + B 为正定矩阵.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2006-jlu-7fe8fcec.html">2006 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2006 五1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2006 · 空间解析几何和高等代数 · 五1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">17 分</span>    </h1>
+    <div class="qstem">设 A 为实对称矩阵，证明，必有实对称矩阵 B，使得 A + B 为正定矩阵.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：可显式构造 B = tI（t 为大于 −λ_min(A) 的正实数），它实对称，且 A + B = A + tI 的特征值全为正，故正定。\n\n**用到的定理/引理**：\n- 实对称矩阵的谱定理（正交对角化）：A = QΛQᵀ，Λ = diag(λ₁,…,λₙ)，λᵢ∈ℝ\n- 正定判定：实对称矩阵正定 ⟺ 所有特征值 &gt; 0（等价于 ∀x≠0, xᵀSx &gt; 0）\n- 特征值平移不变性：spec(A + tI) = {λᵢ + t}\n- Rayleigh 商下界估计：xᵀAx ≥ λ_min‖x‖²\n\n**证明思路**：\n1. 设 A 的特征值为 λ₁ ≤ … ≤ λₙ（均为实数，来自谱定理），记 λ_min = λ₁，它可能为负。\n2. 取实数 t 满足 t &gt; −λ_min（等价地 t &gt; max(0, −λ_min)，如取 t = 1 + ‖A‖₂ 即可保证）。\n3. 令 B = tI，则 Bᵀ = B，B 为实对称矩阵，存在性已被显式构造出来。\n4. 由 A = QΛQᵀ 得 A + B = Q(Λ + tI)Qᵀ，其特征值为 λᵢ + t &gt; 0（i = 1,…,n）。\n5. 实对称 + 特征值全正 ⟹ A + B 正定，证毕。\n6. 备用一步到位的二次型写法：∀x≠0，xᵀ(A + tI)x = xᵀAx + t‖x‖² ≥ (t + λ_min)‖x‖² &gt; 0。\n\n**易错点**：\n- t 的取值必须给出依赖 λ_min 的严格下界，不能只写“取 t 充分大”这种模糊说法（且要 &gt;，不能 ≥，否则只得半正定）。\n- 若改用另一种构造 B = tI − A（使 A + B = tI），需先说明 B 对称是由 A 对称推出的，且 t 只需 &gt; 0；两种路线别混着用导致特征值论证失效。\n- “特征值全正 ⟺ 正定”这一等价只在实对称（Hermitian）前提下成立，引用前要点明 A + tI 仍是对称的；改用顺序主子式论证会明显变繁，不建议。\n\n**不确定**：按题面直译，这是一个几乎一行的存在性命题（B = tI 即解决），作为 2006 年试卷第五题第 1 问偏易，原题很可能对 B 另有附加约束（如要求 B 半正定、幂等、与 A 可交换、给定秩或迹、或同时要求 A − B 也正定等）。若有此类条件，上述构造需按约束重做（例如再加“B 幂等”就一般不成立或需改用谱分解分块构造）。此处按所给题面作答。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 A 为实对称矩阵，证明，必有实对称矩阵 B，使得 A + B 为正定矩阵." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2006-jlu-7fe8fcec.html#major-0701-2006-jlu-7fe8fcec-q0008">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2006-jlu-7fe8fcec-q0007.html">← 上一题（2006 四1）</a><a href="major-0701-2006-jlu-7fe8fcec-q0009.html">下一题（2006 六1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2006 年 五 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E6%AD%A3%E5%AE%9A%E4%B8%8E%E5%8D%8A%E6%AD%A3%E5%AE%9A">正定与半正定</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>17 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2006-jlu-7fe8fcec.html">2006 空间解析几何和高等代数（11 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#441</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2006-jlu-7fe8fcec-q0008</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2006-jlu-7fe8fcec-q0008";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

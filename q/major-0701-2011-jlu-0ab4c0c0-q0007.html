@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2011 空间解析几何和高等代数 31 · 数学考研真题库</title>
+<meta name="description" content="设 n 阶矩阵 A 与对角矩阵 B = diag(λ₁, …, λₙ) 相似. 证明：对任意 i ∈ {1, …, n} 都有 r(λᵢI − A)² = r(">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2011-jlu-0ab4c0c0.html">2011 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2011 31
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2011 · 空间解析几何和高等代数 · 31</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">设 n 阶矩阵 A 与对角矩阵 B = diag(λ₁, …, λₙ) 相似. 证明：对任意 i ∈ {1, …, n} 都有 r(λᵢI − A)² = r(λᵢI − A).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：由 A 可对角化（相似于对角阵 B），对每个特征值 λᵢ 把 λᵢI−A 化成对角阵，利用“对角元的平方与非零性同位置”证 r(λᵢI−A)² = r(λᵢI−A)。\n\n**用到的定理/引理**：\n- 相似（可逆矩阵左、右乘）不改变秩：r(P⁻¹MP)=r(M)，且 (P⁻¹MP)²=P⁻¹M²P\n- 对角矩阵的秩 = 非零对角元个数；数域上 a²=0 ⇔ a=0\n- 秩-零化度定理 r(M)=n−dim ker M（替代路径：证 ker(λᵢI−A)=ker(λᵢI−A)²）\n- 可对角化 ⇔ 最小多项式无重根 ⇔ 每个特征值几何重数=代数重数（用于说明/推广）\n\n**证明思路**：\n1) 取可逆 P 使 P⁻¹AP=B，记 M=λᵢI−A，D=λᵢI−B=diag(λᵢ−λ₁,…,λᵢ−λₙ)，则 P⁻¹MP=D，即 M=PDP⁻¹。\n2) 把问题搬到对角阵上：r(M)=r(D)，r(M²)=r(PD²P⁻¹)=r(D²)，故只需证 r(D²)=r(D)。\n3) 直接算平方：D²=diag((λᵢ−λ₁)²,…,(λᵢ−λₙ)²)。\n4) 由 a²=0 ⇔ a=0，D 与 D² 的非零对角元**位置与个数完全相同**，所以 r(D²)=r(D)（注意 λⱼ 可重复时第 i 个对角元为 0，自动计入）。\n5) 回代得 r(λᵢI−A)²=r(λᵢI−A)=n−s，其中 s 为 λᵢ 在 B 中的重数（即几何重数=代数重数）。\n6) 可选的另一证法（等价、更概念化）：D 对角 ⇒ ker D=ker D² ⇒ dim ker M=dim ker M² ⇒ 由秩-零化度定理 r(M)=r(M²)。\n\n**易错点**：\n- 别写成 A=B 或 λᵢI−A=λᵢI−B：M、D 只是相似，必须显式用 P 传递，并说明相似保持秩。\n- 题中 r(λᵢI−A)² 指矩阵平方后的秩 r(M²)，不是秩的平方 [r(M)]²；平方运算要与相似变换可交换（(P⁻¹MP)²=P⁻¹M²P）。\n- 不要默认 λ₁,…,λₙ 互异；也不必假设 λᵢ 是单根，对角元为 0 的情况（j=i 及重复特征值）要在“非零个数相同”这一步一并说明。\n\n**不确定**：默认 r(·) 表示矩阵的秩、矩阵在实数域或复数域上（保证 a²=0 ⇒ a=0，无需无零因子以外的条件）；若题意是 r(M)² 则命题不成立，按常规理解为 r(M²)。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 n 阶矩阵 A 与对角矩阵 B = diag(λ₁, …, λₙ) 相似. 证明：对任意 i ∈ {1, …, n} 都有 r(λᵢI − A)² = r(λᵢI − A)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2011-jlu-0ab4c0c0.html#major-0701-2011-jlu-0ab4c0c0-q0007">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：3.（15 分）
+    </div>
+    <div class="pager">
+<a href="major-0701-2011-jlu-0ab4c0c0-q0006.html">← 上一题（2011 23）</a><a href="major-0701-2011-jlu-0ab4c0c0-q0008.html">下一题（2011 41）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2011 年 3 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%9B%B8%E4%BC%BC">相似</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2011-jlu-0ab4c0c0.html">2011 空间解析几何和高等代数（12 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#396</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2011-jlu-0ab4c0c0-q0007</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2011-jlu-0ab4c0c0-q0007";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

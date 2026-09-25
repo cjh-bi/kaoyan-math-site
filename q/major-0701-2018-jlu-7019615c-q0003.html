@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2018 空间解析几何和高等代数 31 · 数学考研真题库</title>
+<meta name="description" content="设 V 是数域 Ω 上 n 阶矩阵构成的向量空间，定义映射 σ : V → V 如下：σ(A) = (1/2)(A + A′), ∀A ∈ V. (1) 证明 ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2018-jlu-7019615c.html">2018 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2018 31
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2018 · 空间解析几何和高等代数 · 31</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">40 分</span><span class="sep">|</span><span class="t">3 个小问</span>    </h1>
+    <div class="qstem">设 V 是数域 Ω 上 n 阶矩阵构成的向量空间，定义映射 σ : V → V 如下：σ(A) = (1/2)(A + A′), ∀A ∈ V. <br> (1) 证明 σ 是 V 上的线性变换 <br> (2) 证明 V = ker σ ⊕ σ(V) <br> (3) 当 n ≥ 2 时，求 σ 在 V 的基底 e₁, e₂, e₃, e₄ 下对应的矩阵，其中 e₁ = | 1 0 ; 0 0 |, e₂ = | 0 1 ; 0 0 |, e₃ = | 0 0 ; 1 0 |, e₄ = | 0 0 ; 0 1 |</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：σ(A)=½(A+A′) 是把矩阵投影到「对称部分」的线性变换：它是幂等投影（σ²=σ），故 V 可分解为 ker σ（反对称矩阵）与 σ(V)（对称矩阵）的直和，且在基 E₁₁,E₁₂,E₂₁,E₂₂ 下的矩阵可按「像的坐标作列」直接写出。\n\n**用到的定理/引理**：\n- 转置的线性性：(A+B)′=A′+B′, (kA)′=kA′（证线性的全部依据）\n- 幂等投影判据：若 σ²=σ，则 V = ker σ ⊕ σ(V)（分解式 A=σ(A)+(A−σ(A))，交为零由 A=σ(B)⇒A=σ(A)=0）\n- 对称/反对称矩阵的维数：dim Sym_n=n(n+1)/2，dim Skew_n=n(n−1)/2，两者之和为 n²=dim V（可用维数法替代直和验证）\n- 线性变换在基下的矩阵定义：第 i 列是 σ(e_i) 在基 e₁,…,e₄ 下的坐标（按列排）\n\n**证明思路**：\n1. (1) 对任意 A,B,k：σ(A+B)=½[(A+B)+(A+B)′]=½(A+A′)+½(B+B′)=σ(A)+σ(B)，且 σ(kA)=½(kA+kA′)=kσ(A)，故 σ 线性。\n2. 先认清两个子空间：σ(V)⊆Sym（因为 σ(A)′=½(A′+A)=σ(A) 对称），反之 S 对称时 σ(S)=S，所以 σ(V)=Sym_n；ker σ={A:A+A′=0}=Skew_n。\n3. (2) 验证幂等：σ(σ(A))=½(σ(A)+σ(A)′)=½(σ(A)+σ(A))=σ(A)，即 σ²=σ。\n4. 由 σ²=σ 得分解：∀A, A=σ(A)+(A−σ(A))，其中 σ(A)∈σ(V)，而 σ(A−σ(A))=σ(A)−σ²(A)=0，故 A−σ(A)∈ker σ。\n5. 交为零：若 A∈ker σ∩σ(V)，设 A=σ(B)，则 A=σ(B)=σ(σ(B))=σ(A)=0，故 V=ker σ⊕σ(V)。（也可用维数：dim ker+dim σ(V)=n(n−1)/2+n(n+1)/2=n²，再配合交集为 0。）\n6. (3) 逐个算像：σ(e₁)=e₁, σ(e₄)=e₄, σ(e₂)=σ(e₃)=½(e₂+e₃)，把坐标按列排得 $\begin{pmatrix}1&amp;\tfrac12&amp;\tfrac12&amp;0\\0&amp;\tfrac12&amp;\tfrac12&amp;0\\0&amp;\tfrac12&amp;\tfrac12&amp;0\\0&amp;0&amp;0&amp;1\end{pmatrix}$，rank 应为 3（=dim Sym₂）。\n\n**易错点**：\n- 1/2 的存在要求 char Ω≠2；「2A=0⇒A=0」这一步（交为零时）不能默认，实数域/复数域下显然成立，答题时可一句带过。\n\n- 第(3)问最容易错成「按行排坐标」，正确做法是把 σ(e_i) 的坐标作第 i 列；结果第 2、3 列完全相同（因为 σ(e₂)=σ(e₃)），不是笔误。\n\n- ker σ 是反对称矩阵（对角元全为 0、a_ji=−a_ij，dim=n(n−1)/2），别把它和「零矩阵」或对称矩阵混；σ(V) 的维数是 n(n+1)/2 而不是 n²。\n\n**不确定**：题干第(3)问写「当 n≥2 时」，但给出的 e₁…e₄ 全是二阶矩阵，实为 n=2 的情形（M₂ 的标准矩阵单位基）。若原卷确为 n=2，第(3)问答案就是上面 4×4 矩阵；若要求一般 n 则基应为 n² 个 E_{ij}，矩阵形如 I_{n(n+1)/2} 与成对 ½ 块，与题给基不符。此处按 n=2 处理。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是数域 Ω 上 n 阶矩阵构成的向量空间，定义映射 σ : V → V 如下：σ(A) = (1/2)(A + A′), ∀A ∈ V. 
+ (1) 证明 σ 是 V 上的线性变换 
+ (2) 证明 V = ker σ ⊕ σ(V) 
+ (3) 当 n ≥ 2 时，求 σ 在 V 的基底 e₁, e₂, e₃, e₄ 下对应的矩阵，其中 e₁ = | 1 0 ; 0 0 |, e₂ = | 0 1 ; 0 0 |, e₃ = | 0 0 ; 1 0 |, e₄ = | 0 0 ; 0 1 |" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2018-jlu-7019615c.html#major-0701-2018-jlu-7019615c-q0003">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2018-jlu-7019615c-q0002.html">← 上一题（2018 21）</a><a href="major-0701-2018-jlu-7019615c-q0004.html">下一题（2018 41）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2018 年 3 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>40 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2018-jlu-7019615c.html">2018 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#333</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2018-jlu-7019615c-q0003</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2018-jlu-7019615c-q0003";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019 空间解析几何和高等代数 21 · 数学考研真题库</title>
+<meta name="description" content="设 V 是数域 Ω 上全体 n × n 矩阵构成的向量空间，A, B ∈ V 且满足 A² = B² = I. 定义映射 σ : V → V 如下：σ(x) =">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2019-jlu-66a6a268.html">2019 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2019 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2019 · 空间解析几何和高等代数 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">30 分</span>    </h1>
+    <div class="qstem">设 V 是数域 Ω 上全体 n × n 矩阵构成的向量空间，A, B ∈ V 且满足 A² = B² = I. 定义映射 σ : V → V 如下：σ(x) = AX + XB. 试证明：σ 是 V 的线性变换且 V = σ(V) ⊕ ker σ.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：σ(X)=AX+XB 保持矩阵的加法与数乘，故为线性变换；且因 A²=B²=I，有 Im σ∩Ker σ={0}，配合维数公式得 V=σ(V)⊕Ker σ。\n\n**用到的定理/引理**：\n- 线性变换的验证：σ(kX+lY)=kσ(X)+lσ(Y)，由矩阵乘法对加法的分配律\n- 秩-零化度定理：dim σ(V)+dim Ker σ=dim V=n²，故只需证 Im σ∩Ker σ={0}\n- 核心恒等式：若 Y=σ(X)=AX+XB，则 AY=YB=X+AXB\n- 由 A²=I 得 A 可逆且 A⁻¹=A（同理 B），从而 AY=0 ⇒ Y=A(AY)=0\n- 特征不为 2：数域 Ω⊆ℂ 中 2 可逆，2AY=0 ⇒ AY=0\n\n**证明思路**：\n1. 先验证封闭性与线性：σ(X+Y)=σ(X)+σ(Y)、σ(kX)=kσ(X) 直接由矩阵分配律得到，故 σ 是 V 的线性变换。\n2. 由秩-零化度定理 dim σ(V)+dim Ker σ=n²=dim V，于是直积分解等价于证 σ(V)∩Ker σ={0}（第 4 步只需说明和空间的维数已达 n²）。\n3. 取 Y∈σ(V)∩Ker σ，则 Y=σ(X)=AX+XB 且 AY+YB=0 即 $AY=-YB$。\n4. 对 Y=AX+XB 分别左乘 A、右乘 B，利用 A²=B²=I 得 $AY=X+AXB=YB$；与第 3 步的 $AY=-YB$ 联立得 $2AY=0$，由 Ω 特征为 0 得 AY=0。\n5. 因 A²=I 故 Y=A(AY)=0，从而 σ(V)∩Ker σ={0}。\n6. 由维数关系与零交得 $V=\sigma(V)\oplus\ker\sigma$，证毕。\n\n**易错点**：\n- 第 4 步是本题唯一非平凡的观察：必须同时算出 AY 与 YB 都等于 X+AXB，只写其中一个推不出结论\n- 从 2AY=0 消去 2 依赖 char Ω≠2；若 Ω 是特征 2 的域则命题为假（如 A=B=I 时 σ≡0），可顺手交代一句数域含于 ℂ\n- 不要用“σ 可逆”来偷懒：σ 一般不可逆（如 A=B=I 时 σ=2I 可逆，但 A=I,B=-I 时 σ(X)=X-X 相关的非单情形都存在），只能靠交为 0 + 维数公式\n- 注意 ker σ 的刻画是 $AY=-YB$（反对易），不要误写成 $AY=YB$（交换）\n\n**不确定**：题干按中文“数域”默认 Ω 为 ℂ 的子域（特征 0），故 2 可逆成立；若出题方允许特征 2 的域，则结论不成立，需补充条件。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是数域 Ω 上全体 n × n 矩阵构成的向量空间，A, B ∈ V 且满足 A² = B² = I. 定义映射 σ : V → V 如下：σ(x) = AX + XB. 试证明：σ 是 V 的线性变换且 V = σ(V) ⊕ ker σ." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2019-jlu-66a6a268.html#major-0701-2019-jlu-66a6a268-q0002">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2019-jlu-66a6a268-q0001.html">← 上一题（2019 11）</a><a href="major-0701-2019-jlu-66a6a268-q0003.html">下一题（2019 31）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2019 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>30 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2019-jlu-66a6a268.html">2019 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#324</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2019-jlu-66a6a268-q0002</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2019-jlu-66a6a268-q0002";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

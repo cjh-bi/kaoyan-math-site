@@ -1,0 +1,526 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>复习计划 · 数学考研真题库</title>
+<meta name="description" content="按真题频次排序的考点清单，掌握度与完成状态存在本地浏览器">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/katex/katex.min.css">
+<link rel="stylesheet" href="assets/site.css?v=20260925135128">
+</head>
+<body class="page-plan">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="index.html">首页</a>
+      <a href="questions.html">题库</a>
+      <a href="papers.html">试卷</a>
+      <a href="knowledge.html">知识点</a>
+      <a href="schools.html">院校</a>
+      <a href="focus.html">备考重点</a>
+      <a href="plan.html" class="active">复习计划</a>
+      <a href="stars.html">收藏</a>
+      <a href="stats.html">统计</a>
+      <a href="about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs"><a href="index.html">首页</a> / 复习计划</div>
+<div class="section-head">
+  <h1>复习计划</h1>
+  <p>35 个考点，按真题频次排序；掌握度与完成状态只存在你自己的浏览器里</p>
+</div>
+
+<div class="panel plan-summary">
+  <div class="metric">已完成 <b id="done-count">0</b> / 35</div>
+  <div class="metric">平均掌握度 <b id="avg-level">0.0</b> / 5</div>
+  <div class="progress-wrap">
+    <span class="small muted">完成进度</span>
+    <div class="progress"><div class="progress-bar" id="progress-bar" style="width:0%"></div></div>
+  </div>
+  <button class="btn small danger" id="reset-plan">清空记录</button>
+</div>
+<div class="panel" style="margin:14px 0 26px">
+  <div class="small muted">
+    <strong>掌握度口径</strong>：0 未学 · 1 看过 · 2 看懂答案 · 3 能跟着写 · 4 独立完成 · 5 闭卷快速写对。
+    点右侧数字打分，再点一次取消；勾选框表示这一轮已完成。
+  </div>
+</div>
+
+<section class="section">
+  <div class="section-head">
+    <h2>数学分析</h2>
+    <p>19 个考点</p>
+  </div>
+  <div class="plan">
+    <div class="plan-row" data-id="p01">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">极限：泰勒展开</div>
+        <div class="small muted">闭卷快速判断展开阶数</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p02">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">极限：等价无穷小</div>
+        <div class="small muted">常见等价替换脱口而出</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p03">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">极限：定积分定义(黎曼和)</div>
+        <div class="small muted">识别 Σ→∫ 的两种形式</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p04">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">极限：夹逼 + n∫₀¹xⁿg(x)dx</div>
+        <div class="small muted">2022–2026 连续考点</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p05">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">极限：Stolz 定理 / 斯特林公式</div>
+        <div class="small muted">处理阶乘与和式</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p06">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">隐函数方程组求偏导 + 雅可比</div>
+        <div class="small muted">写出 J 并求四个偏导</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p07">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">格林公式 / 与路径无关</div>
+        <div class="small muted">含挖奇点情形</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p08">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">高斯公式 / 第二型曲面积分</div>
+        <div class="small muted">补面技巧</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p09">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">三重积分（柱坐标、球坐标）</div>
+        <div class="small muted">准确写积分限</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p10">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">级数敛散性 + 幂级数和函数</div>
+        <div class="small muted">收敛域 + S(x)</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p11">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">条件收敛证明（狄利克雷/阿贝尔）</div>
+        <div class="small muted">吉大特色</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p12">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">中值定理 + 辅助函数构造</div>
+        <div class="small muted">见式能构造 F</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p13">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">一致连续性（Lipschitz 型）</div>
+        <div class="small muted">近年年年考</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p14">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">多元最值（拉格朗日乘数）</div>
+        <div class="small muted">内部驻点 + 边界</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p15">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">含参变量积分一致收敛</div>
+        <div class="small muted">含参积分极限</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p16">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">积分不等式（柯西-施瓦茨、泰勒余项）</div>
+        <div class="small muted"></div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p17">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★</span>
+      <div>
+        <div class="plan-title">傅里叶级数展开</div>
+        <div class="small muted">已淡出，查漏</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p18">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★</span>
+      <div>
+        <div class="plan-title">交换积分次序</div>
+        <div class="small muted">已淡出，查漏</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p19">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★</span>
+      <div>
+        <div class="plan-title">判断题/概念辨析</div>
+        <div class="small muted">2010/2013 出现</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-head">
+    <h2>空间解析几何和高等代数</h2>
+    <p>16 个考点</p>
+  </div>
+  <div class="plan">
+    <div class="plan-row" data-id="p20">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">直母线：单叶双曲面两族方程</div>
+        <div class="small muted">闭卷写出</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p21">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">直母线：双曲抛物面两族方程</div>
+        <div class="small muted">闭卷写出</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p22">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">直母线：异族共面/同族异面</div>
+        <div class="small muted">证明套路</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p23">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">直母线：正交直母线交点轨迹</div>
+        <div class="small muted">2022、2026 考</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p24">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">多项式：整除/互素/最大公因式</div>
+        <div class="small muted">含幂次变形</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p25">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">多项式：最小公倍式、重因式</div>
+        <div class="small muted"></div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p26">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">正定/半正定/合同/实对称</div>
+        <div class="small muted">年年必考</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p27">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">幂等矩阵 A²=A</div>
+        <div class="small muted">可对角化 + tr=rank</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p28">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">Jordan 标准形 + 极小多项式</div>
+        <div class="small muted">A−I 幂零型</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p29">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">线性变换：ker/像/直和分解</div>
+        <div class="small muted">维数定理</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p30">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★★</span>
+      <div>
+        <div class="plan-title">欧氏空间：伴随变换/等距/正交补</div>
+        <div class="small muted"></div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p31">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">向量恒等式（三重积、Lagrange、Gram）</div>
+        <div class="small muted">背公式</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p32">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">空间直线与平面方程、距离、轨迹</div>
+        <div class="small muted">第 7 题位</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p33">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">旋转曲面判定与方程</div>
+        <div class="small muted">2024、2026 考</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p34">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★★</span>
+      <div>
+        <div class="plan-title">二次曲面截线判别</div>
+        <div class="small muted">2023、2025 考</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+    <div class="plan-row" data-id="p35">
+      <input type="checkbox" class="done" aria-label="标记已完成">
+      <span class="stars" title="优先级">★</span>
+      <div>
+        <div class="plan-title">2006–2008 填空/定义题</div>
+        <div class="small muted">已淘汰</div>
+      </div>
+      <div class="levels" role="group" aria-label="掌握度">
+<button type="button" class="level" data-v="0" aria-pressed="false">0</button><button type="button" class="level" data-v="1" aria-pressed="false">1</button><button type="button" class="level" data-v="2" aria-pressed="false">2</button><button type="button" class="level" data-v="3" aria-pressed="false">3</button><button type="button" class="level" data-v="4" aria-pressed="false">4</button><button type="button" class="level" data-v="5" aria-pressed="false">5</button>      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-head">
+    <h2>跨年复现题</h2>
+    <p>同一套路在不同年份反复出现的证据</p>
+  </div>
+  <div class="panel">
+    <div class="table-responsive">
+      <table class="data">
+        <thead><tr><th>题目特征</th><th>出现年份</th><th>重复度</th><th>备考建议</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>lim n∫₀¹xⁿg(x)dx（或 n²∫ 型&#34;定积分+夹逼&#34;）</td>
+            <td class="muted small">2022、2023、2024、2025、2026</td>
+            <td class="text-nowrap">★★★★★</td>
+            <td class="small">连续 5 年，务必背熟套路</td>
+          </tr>
+          <tr>
+            <td>隐函数方程组求 ∂u/∂x、∂v/∂y（雅可比）</td>
+            <td class="muted small">2016–2026 连续</td>
+            <td class="text-nowrap">★★★★★</td>
+            <td class="small">几乎年年一题，最易拿满</td>
+          </tr>
+          <tr>
+            <td>Lipschitz 条件下证复合函数一致连续</td>
+            <td class="muted small">2022、2023、2024、2025、2026</td>
+            <td class="text-nowrap">★★★★★</td>
+            <td class="small">2022/2023 几乎逐字相同</td>
+          </tr>
+          <tr>
+            <td>条件收敛证明（arcsin n/(n+1) 型）</td>
+            <td class="muted small">2018、2022、2023</td>
+            <td class="text-nowrap">★★★★</td>
+            <td class="small">狄利克雷/阿贝尔判别法</td>
+          </tr>
+          <tr>
+            <td>幂级数/数项级数求和</td>
+            <td class="muted small">2020、2021、2022、2023、2024、2025、2026</td>
+            <td class="text-nowrap">★★★★★</td>
+            <td class="small">每年一题</td>
+          </tr>
+          <tr>
+            <td>幂等矩阵 A²=A</td>
+            <td class="muted small">2020、2026</td>
+            <td class="text-nowrap">★★★</td>
+            <td class="small">可对角化 + tr=rank</td>
+          </tr>
+          <tr>
+            <td>Jordan 标准形（A−I 幂零型）</td>
+            <td class="muted small">2021、2024、2026</td>
+            <td class="text-nowrap">★★★★</td>
+            <td class="small">与极小多项式连考</td>
+          </tr>
+          <tr>
+            <td>正定/合同证明</td>
+            <td class="muted small">2020–2026 每年</td>
+            <td class="text-nowrap">★★★★★</td>
+            <td class="small">从未缺席</td>
+          </tr>
+          <tr>
+            <td>★ 直母线/二次曲面压轴</td>
+            <td class="muted small">2020、2021、2022、2023、2024、2025、2026</td>
+            <td class="text-nowrap">★★★★★</td>
+            <td class="small">年年压轴 20 分，白送分</td>
+          </tr>
+          <tr>
+            <td>三重向量积 / Lagrange 恒等式</td>
+            <td class="muted small">2021、2025</td>
+            <td class="text-nowrap">★★★</td>
+            <td class="small">背公式即可</td>
+          </tr>
+          <tr>
+            <td>拉格朗日乘数法求约束最值</td>
+            <td class="muted small">2020、2021、2022、2023、2024、2025、2026</td>
+            <td class="text-nowrap">★★★★</td>
+            <td class="small">常在第二题位</td>
+          </tr>
+          <tr>
+            <td>多项式互素/最大公因式变形</td>
+            <td class="muted small">2023、2025</td>
+            <td class="text-nowrap">★★★★</td>
+            <td class="small">注意幂次变形</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="assets/katex/katex.min.js"></script>
+<script defer src="assets/katex/auto-render.min.js"></script>
+<script defer src="assets/math.js?v=20260925135128"></script>
+<script defer src="assets/plan.js?v=20260925135128"></script>
+</body>
+</html>

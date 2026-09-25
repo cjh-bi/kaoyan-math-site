@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2015 空间解析几何和高等代数 51 · 数学考研真题库</title>
+<meta name="description" content="设 V 是 n 阶实矩阵构成的向量空间，令 T 表示对角线元素之和等于 0 的 n 阶矩阵构成的集合. (1) 证明 T 是 V 的子空间 (2) 证明 V =">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2015-jlu-4eefd0ef.html">2015 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2015 51
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2015 · 空间解析几何和高等代数 · 51</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span><span class="sep">|</span><span class="t">2 个小问</span>    </h1>
+    <div class="qstem">设 V 是 n 阶实矩阵构成的向量空间，令 T 表示对角线元素之和等于 0 的 n 阶矩阵构成的集合. <br> (1) 证明 T 是 V 的子空间 <br> (2) 证明 V = S ⊕ T，其中 S 表示纯量矩阵构成的子空间</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：T 即迹零矩阵集 $\{A:\operatorname{tr}A=0\}$，它是 V 的子空间；且每个 $A\in V$ 可唯一写成 $A=\frac{\operatorname{tr}A}{n}I+(A-\frac{\operatorname{tr}A}{n}I)$，故 $V=S\oplus T$。\n\n**用到的定理/引理**：\n- 子空间判定：非空（含零元）+ 加法封闭 + 数乘封闭（或：线性映射的核是子空间）\n- 迹的线性性：$\operatorname{tr}(A+B)=\operatorname{tr}A+\operatorname{tr}B$，$\operatorname{tr}(kA)=k\operatorname{tr}A$，$\operatorname{tr}(I)=n$\n- 直和判定：$V=S+T$ 且 $S\cap T=\{O\}$（等价于分解唯一）\n- 维数核对（辅助验证）：$\dim T=n^2-1$，$\dim S=1$，$\dim V=n^2$\n- 纯量矩阵子空间 $S=\{cI:c\in\mathbb{R}\}$ 本身是子空间，$\dim S=1$\n\n**证明思路**：\n1. 记 $\operatorname{tr}A=\sum_{i=1}^n a_{ii}$，则 $T=\{A\in V:\operatorname{tr}A=0\}=\ker(\operatorname{tr}:V\to\mathbb{R})$，一眼看出零矩阵在 $T$ 中。\n2. 用 $\operatorname{tr}(\alpha A+\beta B)=\alpha\operatorname{tr}A+\beta\operatorname{tr}B$：若 $\operatorname{tr}A=\operatorname{tr}B=0$，则 $\operatorname{tr}(\alpha A+\beta B)=0$，故 $T$ 对线性组合封闭（即子空间），(1) 证毕。\n3. (2) 先证 $V=S+T$：任取 $A\in V$，令 $c=\dfrac{\operatorname{tr}A}{n}$，分解 $A=cI+(A-cI)$，并验证 $\operatorname{tr}(A-cI)=\operatorname{tr}A-nc=0$，故 $cI\in S$、$A-cI\in T$。\n4. 再证 $S\cap T=\{O\}$：设 $cI\in T$，则 $0=\operatorname{tr}(cI)=nc$；由 $n\ge1$ 得 $c=0$，即 $cI=O$。\n5. 由第 3、4 步按直和定义得 $V=S\oplus T$；等价地可补一句唯一性：若 $c_1I+B_1=c_2I+B_2$，取迹得 $c_1=c_2$，进而 $B_1=B_2$。\n6.（可选自检）$\dim S+\dim T=1+(n^2-1)=n^2=\dim V$，与直和结论吻合。\n\n**易错点**：\n- 分解系数必须是 $\operatorname{tr}A/n$，漏掉 $1/n$ 会让 $A-cI$ 的迹不为 0（最常见的失分点）。\n- 直和要写两个条件：$V=S+T$ 与 $S\cap T=\{O\}$；只证「能分解」不够，或须改用分解唯一性表述。\n- $S\cap T=\{O\}$ 的推导依赖 $n\ne0$（实数域上 $n\ge1$ 成立）；答题时应显式说明 $nc=0\Rightarrow c=0$，别默认。\n\n**不确定**：题干中 T 的条件按「主对角线元素之和为 0」即 $\operatorname{tr}A=0$ 理解；默认 $n\ge2$（若 $n=1$ 则 $T=\{0\}$，结论仍成立）。其余无歧义。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是 n 阶实矩阵构成的向量空间，令 T 表示对角线元素之和等于 0 的 n 阶矩阵构成的集合. 
+ (1) 证明 T 是 V 的子空间 
+ (2) 证明 V = S ⊕ T，其中 S 表示纯量矩阵构成的子空间" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2015-jlu-4eefd0ef.html#major-0701-2015-jlu-4eefd0ef-q0005">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：5.（20 分）(1)(2)，同一对象 V、T
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2015-jlu-fc9df102-q0005.html">2015 高等代数 · 吉林大学<span class="n">0.92</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2015-jlu-4eefd0ef-q0004.html">← 上一题（2015 41）</a><a href="major-0701-2015-jlu-4eefd0ef-q0006.html">下一题（2015 61）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2015 年 5 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%AD%90%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%9B%B4%E5%92%8C">子空间与直和</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2015-jlu-4eefd0ef.html">2015 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#359</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2015-jlu-4eefd0ef-q0005</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2015-jlu-4eefd0ef-q0005";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

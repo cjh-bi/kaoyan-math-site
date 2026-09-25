@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2013 数学分析 21 · 数学考研真题库</title>
+<meta name="description" content="设函数 f 在 [a,b] 上连续，并且是 [a,b] 上的一一对应. 证明：至少存在一点 x₀ ∈ [a,b]，使得 f(x₀) = x₀.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2013-jlu-ff1b58f6.html">2013 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2013 21
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2013 · 数学分析 · 21</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">设函数 f 在 [a,b] 上连续，并且是 [a,b] 上的一一对应. 证明：至少存在一点 x₀ ∈ [a,b]，使得 f(x₀) = x₀.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>**证明：** 不妨设 $a&lt;b$（$a=b$ 时结论显然）。
+
+因 $f$ 在 $[a,b]$ 上连续且为 $[a,b]\to[a,b]$ 的一一对应，故 $f$ 严格单调，且值域为 $[a,b]$。
+
+- 若 $f$ 严格递增，则 $f(a)$ 为值域最小值，即 $f(a)=a$，取 $x_0=a$ 即可；
+- 若 $f$ 严格递减，则 $f(a)=b,\ f(b)=a$。令 $g(x)=f(x)-x$，则 $g$ 连续，且
+$$g(a)=b-a&gt;0,\qquad g(b)=a-b&lt;0,$$
+由零点定理，存在 $x_0\in(a,b)$ 使 $g(x_0)=0$，即 $f(x_0)=x_0$。
+
+综上，必存在 $x_0\in[a,b]$ 使 $f(x_0)=x_0$。$\blacksquare$</div><div class="answer-body">**第 1 步（约定与平凡情形）** 若 $a=b$，则 $[a,b]$ 只有一个点，双射必有 $f(a)=a$，取 $x_0=a$。下设 $a&lt;b$。同时把「$f$ 是 $[a,b]$ 上的一一对应」理解为 $f:[a,b]\to[a,b]$ 为双射，即 $f$ 连续、单射且 $f([a,b])=[a,b]$。\n\n**第 2 步（连续单射 ⇒ 严格单调）** 反设 $f$ 不严格单调，则存在 $x&lt;y&lt;z$ 使 $f(y)$ 不在 $f(x)$ 与 $f(z)$ 之间。不妨 $f(x)&lt;f(z)&lt;f(y)$：由介值定理，$f$ 在 $[y,z]$ 上取遍 $[f(z),f(y)]$，在 $[x,y]$ 上取遍 $[f(x),f(y)]$，故存在 $u\in(x,y),v\in(y,z)$, $u&lt;v$，使 $f(u)=f(v)$，与 $f$ 为单射矛盾。所以 $f$ 严格递增或严格递减。\n\n**第 3 步（用满射定住端点值）** 因 $f([a,b])=[a,b]$，值域的 $\min= a$、$\max=b$。严格递增时最小值在左端点取得，故 $f(a)=a$、$f(b)=b$；严格递减时最小值在右端点取得，故 $f(a)=b$、$f(b)=a$。\n\n**第 4 步（递增情形）** 直接有 $f(a)=a$，取 $x_0=a\in[a,b]$ 即满足 $f(x_0)=x_0$。\n\n**第 5 步（递减情形，零点定理）** 令 $g(x)=f(x)-x$，$g$ 在 $[a,b]$ 上连续，且 $g(a)=f(a)-a=b-a&gt;0$，$g(b)=f(b)-b=a-b&lt;0$。由零点定理存在 $x_0\in(a,b)$ 使 $g(x_0)=0$，即 $f(x_0)=x_0$。\n\n**第 6 步（收口）** 两种单调情形均已给出 $x_0\in[a,b]$ 使 $f(x_0)=x_0$，故至少存在一个不动点。$\blacksquare$\n\n（补充说明，不改动结论：本题若只用 $f([a,b])\subset[a,b]$ 与连续性，由 $g(a)=f(a)-a\ge 0$、$g(b)=f(b)-b\le 0$ 也能直接得到不动点；答案额外使用「一一对应」推出的单调性论证同样成立，且在端点情形更精确地指出了 $f(a)=a$、$f(b)=b$。）</div>      <div class="small muted" style="margin-top:8px">
+来源：参考答案（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设函数 f 在 [a,b] 上连续，并且是 [a,b] 上的一一对应. 证明：至少存在一点 x₀ ∈ [a,b]，使得 f(x₀) = x₀." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2013-jlu-ff1b58f6.html#major-0701-2013-jlu-ff1b58f6-q0009">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(15 分) 一一对应 ⇒ 不动点，无 (k)
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2013-jlu-45d25bd4-q0002.html">2013 数学分析 · 吉林大学<span class="n">0.87</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2013-jlu-ff1b58f6-q0008.html">← 上一题（2013 18）</a><a href="major-0701-2013-jlu-ff1b58f6-q0010.html">下一题（2013 31）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2013 年 2 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%8D%E5%8A%A8%E7%82%B9">不动点</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2013-jlu-ff1b58f6.html">2013 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#195</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2013-jlu-ff1b58f6-q0009</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2013-jlu-ff1b58f6-q0009";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

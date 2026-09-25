@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2013 数学分析 61 · 数学考研真题库</title>
+<meta name="description" content="证明：方程 F(x,y) = 1 − e^{−x} + y³e^{−y} = 0 在区域 {x &gt; 0, y ∈ ℝ} 中存在唯一解 y = y(x) (x &gt;">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2013-jlu-ff1b58f6.html">2013 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2013 61
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2013 · 数学分析 · 61</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">14 分</span>    </h1>
+    <div class="qstem">证明：方程 F(x,y) = 1 − e<sup>−x</sup> + y³e<sup>−y</sup> = 0 在区域 {x &gt; 0, y ∈ ℝ} 中存在唯一解 y = y(x) (x &gt; 0)，且 y(x) 连续可微.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：对每个 $x&gt;0$，方程存在唯一解 $y=y(x)&lt;0$，且 $y(x)$ 在 $(0,\infty)$ 上连续可微。\n\n**用到的定理/引理**：\n- 一元函数微分学：$g(y)=y^3e^{-y}$ 的单调性与值域（$g&#39;(y)=y^2(3-y)e^{-y}$）\n- 介值定理 + 严格单调 ⇒ 零点唯一存在\n- 隐函数存在唯一性与可微性定理（$F_x,F_y$ 连续、$F_y\neq0$）\n- 局部解的拼接：由全局唯一性保证各邻域分支给出同一个函数\n\n**证明思路**：\n1. 固定 $x&gt;0$，方程化为 $g(y)=y^3e^{-y}=e^{-x}-1=:c$，注意 $c\in(-1,0)$。\n2. 研究 $g$：$g&#39;(y)=y^2(3-y)e^{-y}$，故 $g$ 在 $(-\infty,3)$ 严格增（$y=0$ 处 $g&#39;=0$ 但不改变符号）、在 $(3,\infty)$ 严格减；且 $g(-\infty)=-\infty,\ g(0)=0$，而 $y\ge0$ 时 $g(y)\ge0$。\n3. 存在唯一性：在 $(-\infty,0)$ 上 $g$ 连续严格增、值域 $( -\infty,0)$ 覆盖 $c$，由介值定理与严格单调得唯一 $y(x)&lt;0$；$y\ge0$ 上无解 ⇒ 整体唯一，且 $y(x)\in(-\infty,0)$。\n4. 求 $F_y(x,y)=y^2(3-y)e^{-y}$；在解处 $y(x)&lt;0$，故 $F_y&gt;0\neq0$。$F$ 关于 $(x,y)$ 为 $C^\infty$，由隐函数定理，每个 $x_0&gt;0$ 的某邻域内存在唯一 $C^1$ 分支。\n5. 由第 3 步的整体唯一性，各邻域分支在交叠处必重合（都等于同一个 $y(x)$），从而局部 $C^1$ 分支拼成定义在整个 $(0,\infty)$ 上的 $C^1$ 函数 $y(x)$。\n6. （可写可不写）$y&#39;(x)=-\dfrac{F_x}{F_y}=-\dfrac{e^{-x}}{y^2(3-y)e^{-y}}&lt;0$，顺带说明 $y$ 严格递减、连续可微性成立。\n\n**易错点**：\n- 不能只靠 $F_y\neq0$ 断言全局唯一隐函数：必须先靠 $g$ 的单调性把解定位到 $y&lt;0$，否则 $F_y$ 在 $y=0,3$ 处为零，且 $g=c&lt;0$ 在正半轴也可能误判\n- $g&#39;(0)=0$，写单调区间时要说明 $y=0$ 不是极值点、$g$ 在整个 $(-\infty,3)$ 仍严格增\n- 隐函数定理只给局部结果，须显式用「整体唯一 ⇒ 局部分支相容」来完成拼接\n\n**不确定**：题干要求的是「存在唯一解 $y=y(x)$」，按全局函数（而非局部分支）理解；若按局部理解则第 3、5 步可省。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明：方程 F(x,y) = 1 − e^{−x} + y³e^{−y} = 0 在区域 {x &gt; 0, y ∈ ℝ} 中存在唯一解 y = y(x) (x &gt; 0)，且 y(x) 连续可微." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2013-jlu-ff1b58f6.html#major-0701-2013-jlu-ff1b58f6-q0014">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(14 分) 无 (k)。总分 56+15+25+20+20+14=150 ✓
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2013-jlu-45d25bd4-q0006.html">2013 数学分析 · 吉林大学<span class="n">0.76</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2013-jlu-ff1b58f6-q0013.html">← 上一题（2013 52）</a><a href="major-0701-2013-jlu-99494a27-q0001.html">下一题（2013 11）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2013 年 6 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E9%9A%90%E5%87%BD%E6%95%B0%E5%AD%98%E5%9C%A8%E5%AE%9A%E7%90%86">隐函数存在定理</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>14 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2013-jlu-ff1b58f6.html">2013 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#200</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2013-jlu-ff1b58f6-q0014</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2013-jlu-ff1b58f6-q0014";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

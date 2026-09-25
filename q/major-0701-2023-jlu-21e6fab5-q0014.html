@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2023 数学分析 七1 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 在 [0,1] 上连续，在 (0,1) 上可导，且 f(0)=0，证明：对任意的正整数 k，至少存在一点 ξ ∈ (0,1)，使得 ξf′(ξ) ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2023-jlu-21e6fab5.html">2023 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2023 七1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2023 · 数学分析 · 七1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">设 f(x) 在 [0,1] 上连续，在 (0,1) 上可导，且 f(0)=0，证明：对任意的正整数 k，至少存在一点 ξ ∈ (0,1)，使得 ξf′(ξ) + kf(ξ) = f′(ξ).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：把结论改写为 $(1-\xi)f&#39;(\xi)=kf(\xi)$，即函数 $g(x)=(1-x)^kf(x)$ 在 $(0,1)$ 内有驻点。\n\n**用到的定理/引理**：\n- 罗尔定理（$g(0)=g(1)=0$ 的构造型验证）\n- 乘积求导法则与辅助函数构造（一阶线性方程 $f&#39;-\frac{k}{1-x}f=0$ 的积分因子思想）\n- 连续函数在端点有界/取值（保证 $g(1)$ 有意义）\n\n**证明思路**：\n1. 移项变形：待证式 $\xi f&#39;(\xi)+kf(\xi)=f&#39;(\xi)$ 等价于 $(1-\xi)f&#39;(\xi)-kf(\xi)=0$。\n2. 反推构造：由 $\frac{f&#39;}{f}=\frac{k}{1-x}$ 积分得 $\ln|f|=-k\ln(1-x)+C$，故取 $g(x)=(1-x)^kf(x)$。\n3. 验证罗尔条件：$g$ 在 $[0,1]$ 连续、$(0,1)$ 可导，且 $g(0)=1^kf(0)=0$，$g(1)=0^kf(1)=0$。\n4. 应用罗尔定理：存在 $\xi\in(0,1)$ 使 $g&#39;(\xi)=0$。\n5. 计算导数：$g&#39;(x)=(1-x)^{k-1}\big[(1-x)f&#39;(x)-kf(x)\big]$，由 $\xi\in(0,1)$ 知 $(1-\xi)^{k-1}\neq0$，故中括号为 $0$。\n6. 展开 $(1-\xi)f&#39;(\xi)=kf(\xi)$ 移项即得 $\xi f&#39;(\xi)+kf(\xi)=f&#39;(\xi)$。\n\n**易错点**：\n- $g(1)=0$ 来自因子 $0^k$，只需用连续性保证 $f(1)$ 存在，切勿误写成“由 $f(1)=0$”——题中无此条件。\n- 约去 $(1-\xi)^{k-1}$ 前必须交代 $\xi\neq1$；罗尔定理给的恰是开区间内的点，若只证到端点则这一步断裂。\n- 不要构造 $g(x)=\frac{f(x)}{(1-x)^k}$ 或 $\frac{f(x)}{e^{kx}}$ 一类形式：前者在 $x=1$ 无定义，后者化不出 $(1-\xi)$ 因子。$k=1$ 时因子为 $1$，结论仍成立，无需分类讨论。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 在 [0,1] 上连续，在 (0,1) 上可导，且 f(0)=0，证明：对任意的正整数 k，至少存在一点 ξ ∈ (0,1)，使得 ξf′(ξ) + kf(ξ) = f′(ξ)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2023-jlu-21e6fab5.html#major-0701-2023-jlu-21e6fab5-q0014">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2025-jlu-d440d0af-q0012.html">2025 数学分析 · 吉林大学<span class="n">0.72</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2023-jlu-21e6fab5-q0013.html">← 上一题（2023 六1）</a><a href="major-0701-2023-jlu-11a2af08-q0001.html">下一题（2023 一1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2023 年 七 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86">中值定理</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2023-jlu-21e6fab5.html">2023 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#57</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2023-jlu-21e6fab5-q0014</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2023-jlu-21e6fab5-q0014";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

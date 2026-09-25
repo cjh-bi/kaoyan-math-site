@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2012 数学分析 63 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 在 [0,1] 上连续可微，证明 lim_{n→∞} | n∫₀¹ f(x)dx − ∑_{k=1}^{n} f(k/n) | ≤ sup_{x∈">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2012-jlu-73e32351.html">2012 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2012 63
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2012 · 数学分析 · 63</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 f(x) 在 [0,1] 上连续可微，证明 lim<sub>n→∞</sub> | n∫₀¹ f(x)dx − ∑<sub>k=1</sub><sup>n</sup> f(k/n) | ≤ sup<sub>x∈[0,1]</sub> |f′(x)|</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：把 n∫₀¹f dx 拆成 n 个小区间上的矩形(右端点)和，证 n∫₀¹f dx − ∑f(k/n) 的极限存在且等于 (f(0)−f(1))/2，从而绝对值不超过 sup|f′|（实际 ≤ ½sup|f′|）。\n\n**用到的定理/引理**：\n- 积分可加性 + 右端点矩形公式误差的逐块改写：n∫₀¹f dx − ∑_{k=1}^n f(k/n) = ∑_{k=1}^n n∫_{(k-1)/n}^{k/n}[f(x)−f(k/n)]dx\n- 拉格朗日中值定理（或一阶泰勒展开）：f(x)−f(k/n) = f′(ξ)(x−k/n)\n- 连续函数的模 of continuity：因 f′ 连续故一致连续，|f(x)−f(k/n)−f′(k/n)(x−k/n)| ≤ ω(|x−k/n|) ≤ ω(1/n)，ω(0+)=0\n- f′ 连续 ⇒ 黎曼和收敛：(1/n)∑_{k=1}^n f′(k/n) → ∫₀¹f′ dx\n- 牛顿–莱布尼茨公式 ∫₀¹f′ = f(1)−f(0)，以及 |f(1)−f(0)| ≤ sup|f′|\n\n**证明思路**：\n1. 分块：n∫₀¹f dx − ∑f(k/n) = ∑_{k=1}^n n∫_{(k-1)/n}^{k/n}[f(x)−f(k/n)]dx（每块长 1/n）。\n2. 块内展开：f(x)−f(k/n) = f′(k/n)(x−k/n) + r_k(x)，其中 |r_k(x)| ≤ ω(1/n)，ω 为 f′ 的一致连续模。\n3. 逐项积分主部：n∫_{(k-1)/n}^{k/n}(x−k/n)dx = −1/(2n)，故主部合计 = −(1/2)·(1/n)∑f′(k/n)；余项合计绝对值 ≤ (1/2)ω(1/n) → 0。\n4. 令 n→∞，由 f′ 连续得 (1/n)∑f′(k/n) → ∫₀¹f′ = f(1)−f(0)，所以极限存在且 lim = (f(0)−f(1))/2（即 −½(f(1)−f(0))）。\n5. 取绝对值：|lim| = |f(1)−f(0)|/2 ≤ ½sup|f′| ≤ sup|f′|，结论成立（常数 ½ 已是锐利，f(x)=x 时取等）。\n6. 备用捷径（只证上界、不追问存在性）：第 2 步直接用 |f(x)−f(k/n)| ≤ M(k/n−x)，积分得每块 ≤ M/(2n)，求和得对一切 n 有 |·| ≤ M/2。\n\n**易错点**：\n- 题干写 lim 而非 limsup：单靠第 6 步的一致界推不出极限存在，必须先证第 4 步的极限 = (f(0)−f(1))/2，或明确按 limsup 处理。\n- 别误以为误差是 o(1)：右端点矩形公式误差是 1/n 阶，乘 n 后不趋于 0（f(x)=x 时恒为 −1/2），所以不能用『黎曼和收敛 ⇒ 差趋于 0』草率收尾。\n- 余项控制要用 f′ 的一致连续性（题设『连续可微』= C¹）；只用逐点中值定理 ξ 依赖 x 且 ξ 不定，写不出一致的 o(1/n)。\n\n**不确定**：此型题常见表述是 lim = (f(0)−f(1))/2 或上界写成 ½sup|f′|；按所给 sup|f′| 亦成立但非最优，若原卷常数为 ½ 则第 4 步已直接给出。另假定「连续可微」指 f′ 在 [0,1] 连续。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 在 [0,1] 上连续可微，证明 lim_{n→∞} | n∫₀¹ f(x)dx − ∑_{k=1}^{n} f(k/n) | ≤ sup_{x∈[0,1]} |f′(x)|" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2012-jlu-73e32351.html#major-0701-2012-jlu-73e32351-q0018">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(25 分) (1) 极限 (2) Lagrange 极值 (3) 黎曼和估计，三者无关。分值和 25×6=150 ✓
+    </div>
+    <div class="pager">
+<a href="major-0701-2012-jlu-73e32351-q0017.html">← 上一题（2012 62）</a><a href="major-0701-2012-jlu-444bfcea-q0001.html">下一题（2012 11）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2012 年 6 3 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%95%B0%E5%80%BC%E7%A7%AF%E5%88%86%E4%B8%8E%E8%AF%AF%E5%B7%AE">数值积分与误差</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2012-jlu-73e32351.html">2012 数学分析（18 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#218</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2012-jlu-73e32351-q0018</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2012-jlu-73e32351-q0018";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2016 空间解析几何和高等代数 61 · 数学考研真题库</title>
+<meta name="description" content="设空间中三个向量 α, β, γ 不共面，证 α × β, β × γ, γ × α 也不共面，且构成右手系.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2016-jlu-050f05d3.html">2016 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2016 61
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2016 · 空间解析几何和高等代数 · 61</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设空间中三个向量 α, β, γ 不共面，证 α × β, β × γ, γ × α 也不共面，且构成右手系.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：三个新向量的混合积满足 $[\alpha\times\beta,\ \beta\times\gamma,\ \gamma\times\alpha]=[\alpha,\beta,\gamma]^2&gt;0$，由它既不为零（不共面）又为正（右手系），一次证完两个结论。\n\n**用到的定理/引理**：\n- 混合积判共面：三向量共面 $\iff [a,b,c]=(a\times b)\cdot c=0$\n- 四重积（二重积）展开公式 $(a\times b)\times(c\times d)=[a,b,d]\,c-[a,b,c]\,d$\n- 叉积的基本性质 $(a\times b)\cdot a=(a\times b)\cdot b=0$ 与混合积的循环不变性 $[\beta,\gamma,\alpha]=[\alpha,\beta,\gamma]$\n- 线性无关的定义（设组合为零向量，逐个作内积消元）\n- 右手系定义：$[a,b,c]&gt;0$（等价于 $c$ 与 $a\times b$ 同向）\n\n**证明思路**：\n1. 由 $\alpha,\beta,\gamma$ 不共面得 $V=[\alpha,\beta,\gamma]\neq0$，并且三者两两不共线，故 $\alpha\times\beta,\beta\times\gamma,\gamma\times\alpha$ 都不是零向量（否则后面谈定向无意义）。\n2. 不共面（线性无关）证法一：设 $x(\alpha\times\beta)+y(\beta\times\gamma)+z(\gamma\times\alpha)=0$，依次与 $\gamma,\alpha,\beta$ 内积，利用 $(a\times b)\cdot a=0$ 与循环性得 $xV=0,\ yV=0,\ zV=0$，故 $x=y=z=0$。\n3. 不共面证法二（与第4步共用）：直接算混合积 $(\beta\times\gamma)\times(\gamma\times\alpha)=[\beta,\gamma,\alpha]\,\gamma-[\beta,\gamma,\gamma]\,\alpha=V\gamma$。\n4. 再与 $\alpha\times\beta$ 内积：$[\alpha\times\beta,\beta\times\gamma,\gamma\times\alpha]=(\alpha\times\beta)\cdot(V\gamma)=V(\alpha\times\beta)\cdot\gamma=V^2&gt;0$。\n5. $V^2\neq0$ 即三者不共面（与第2步互相印证，写一条即可）；$V^2&gt;0$ 按右手系定义即 $\gamma\times\alpha$ 与 $(\alpha\times\beta)\times(\beta\times\gamma)$ 同向，故 $\alpha\times\beta,\beta\times\gamma,\gamma\times\alpha$ 构成右手系。\n\n**易错点**：\n- 四重积展开的符号与配对顺序极易写反，落笔前先确认公式 $(a\times b)\times(c\times d)=[a,b,d]c-[a,b,c]d$ 中每一项的向量归属；本例第二项因 $[\beta,\gamma,\gamma]=0$ 才消失。\n- 必须先说明三个叉积非零（不共面蕴含两两不共线），否则&#34;右手系&#34;的前提不成立，阅卷常扣分。\n- 不要误加&#34;设 $\alpha,\beta,\gamma$ 为右手系&#34;这一条件：$V$ 取平方后符号消失，结论与原来的手性无关；反之若把结果写成 $V$ 而不是 $V^2$，正负号论证就漏了。\n\n**不确定**：题干&#34;构成右手系&#34;按主流定义即 $[\alpha\times\beta,\beta\times\gamma,\gamma\times\alpha]&gt;0$（顺序即题目所列顺序）；若个别教材用几何说法&#34;与 $i,j,k$ 同向&#34;，两者等价，证明不变。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设空间中三个向量 α, β, γ 不共面，证 α × β, β × γ, γ × α 也不共面，且构成右手系." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2016-jlu-050f05d3.html#major-0701-2016-jlu-050f05d3-q0006">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2013-jlu-99494a27-q0005.html">2013 空间解析几何 · 吉林大学<span class="n">0.90</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2016-jlu-050f05d3-q0005.html">← 上一题（2016 51）</a><a href="major-0701-2016-jlu-050f05d3-q0007.html">下一题（2016 71）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2016 年 6 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95">解析几何</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%90%91%E9%87%8F%E4%BB%A3%E6%95%B0">向量代数</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2016-jlu-050f05d3.html">2016 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#352</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2016-jlu-050f05d3-q0006</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2016-jlu-050f05d3-q0006";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

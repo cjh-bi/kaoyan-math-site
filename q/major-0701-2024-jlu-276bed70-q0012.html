@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2024 数学分析 五1 · 数学考研真题库</title>
+<meta name="description" content="证明：lim_{h→0⁺} ∫₀¹ h/(h²+x²) · ln(x²+2) dx = (π/2) ln 2.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2024-jlu-276bed70.html">2024 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2024 五1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2024 · 数学分析 · 五1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">证明：lim<sub>h→0⁺</sub> ∫₀¹ h/(h²+x²) · ln(x²+2) dx = (π/2) ln 2.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：把 $\frac{h}{h^2+x^2}$ 视为质量集中在端点 $x=0^+$ 的 $\delta$ 型核，其总质量为 $\pi/2$，故积分趋于 $\frac{\pi}{2}f(0^+)=\frac{\pi}{2}\ln 2$（$f(x)=\ln(x^2+2)$）。\n\n**用到的定理/引理**：\n- 核的质量计算：$\int_0^1 \frac{h}{h^2+x^2}dx=\arctan\frac{1}{h}\to\frac{\pi}{2}$（等价地 $\int_0^\infty\frac{dt}{1+t^2}=\frac\pi2$）\n- 缩放换元 $x=ht$，把变动的 Cauchy/Poisson 型核固定为 $\frac{1}{1+t^2}$\n- $f(x)=\ln(x^2+2)$ 在 $[0,1]$ 上连续、有界，$f(0)=\ln2$；右端连续性保证端点取样合法\n- 控制收敛定理（或反常积分的一致收敛/尾部控制）：$\frac{\ln(2+t^2)}{1+t^2}\in L^1(0,\infty)$，因 $t\to\infty$ 时它 $\sim\frac{2\ln t}{t^2}$\n- $\varepsilon$-$\delta$ 分块估计作为不用 DCT 的替代：$\int_\delta^1\frac{h}{h^2+x^2}dx\le\frac{h(1-\delta)}{\delta^2}\to0$\n\n**证明思路**：\n1. 先核质量：$\int_0^1\frac{h}{h^2+x^2}dx=\arctan\frac1h\to\frac\pi2$，据此判定结论必为 $\frac\pi2 f(0^+)$，$f(0^+)=\ln2$。\n2. 换元 $x=ht$，得 $I(h)=\int_0^{1/h}\frac{\ln(2+h^2t^2)}{1+t^2}dt$，核不再含 $h$。\n3. 补成 $\int_0^\infty\chi_{[0,1/h]}(t)\frac{\ln(2+h^2t^2)}{1+t^2}dt$，并对 $0&lt;h\le1$ 建立与 $h$ 无关的可积控制 $\frac{\ln(2+t^2)}{1+t^2}$。\n4. 逐点极限为 $\frac{\ln2}{1+t^2}$，由控制收敛得 $I(h)\to\ln2\int_0^\infty\frac{dt}{1+t^2}=\frac\pi2\ln2$。\n5. 若不用 DCT，则改写 $I(h)-\frac\pi2\ln2=\int_0^1\frac{h}{h^2+x^2}[f(x)-f(0)]dx-(\ln2)\arctan h$，末项 $\to0$。\n6. 前项按 $[0,\delta]$ 用 $f$ 在 $0$ 的连续性控制在 $\frac\pi2\varepsilon$ 内、按 $[\delta,1]$ 用 $|f-f(0)|\le M$ 配合 $\le\frac{h(1-\delta)}{\delta^2}\to0$ 处理，令 $\varepsilon$ 任意小即得 $\limsup=0$。\n\n**易错点**：\n- 核的总质量是 $\pi/2$ 而不是 $1$，极限是 $\frac\pi2\ln2$，别漏系数；取样点是区间**端点** $0^+$，须说明用的是右连续。\n- 换元后上限 $1/h\to\infty$，这是变上限反常积分：必须先建立对 $h$（限 $h\le1$）一致的可积控制或单独估计尾部，不能对 $[0,\infty)$ 上的逐点收敛直接取极限。\n- $\ln(x^2+2)$ 在 $x=0$ 处光滑有界，核的奇性全由 $\frac{h}{h^2+x^2}$ 承担；分解 $f(x)-f(0)$ 时若忘了 $\arctan h$ 的补偿项，会误认为 $\int_0^1\frac{h}{h^2+x^2}dx=\frac\pi2$。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明：lim_{h→0⁺} ∫₀¹ h/(h²+x²) · ln(x²+2) dx = (π/2) ln 2." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2024-jlu-276bed70.html#major-0701-2024-jlu-276bed70-q0012">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2024-jlu-276bed70-q0011.html">← 上一题（2024 四1）</a><a href="major-0701-2024-jlu-276bed70-q0013.html">下一题（2024 六1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2024 年 五 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E5%90%AB%E5%8F%82%E9%87%8F%E7%A7%AF%E5%88%86">含参量积分</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2024-jlu-276bed70.html">2024 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#41</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2024-jlu-276bed70-q0012</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2024-jlu-276bed70-q0012";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

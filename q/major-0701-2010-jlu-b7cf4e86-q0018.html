@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2010 数学分析 61 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 于 [0,1] 上连续，在 (0,1) 内可导且满足 f(1) = 8∫₀^{1/2} x sin(πx/2) f(x)dx. 证明至少存在一点 ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2010-jlu-b7cf4e86.html">2010 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2010 61
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2010 · 数学分析 · 61</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">设 f(x) 于 [0,1] 上连续，在 (0,1) 内可导且满足 f(1) = 8∫₀<sup>1/2</sup> x sin(πx/2) f(x)dx. 证明至少存在一点 ξ ∈ (0,1)，使得 f′(ξ) = −(π/2)cot(πξ/2) f(ξ).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：令 $F(x)=\sin(\pi x/2)f(x)$，由题设条件可推出 $F(1)=F(c)$（$c\in[0,1/2]$），从而 $F&#39;(\xi)=0$，即 $f&#39;(\xi)=-\frac{\pi}{2}\cot(\pi\xi/2)f(\xi)$。\n\n**用到的定理/引理**：\n- 一阶线性方程积分因子观察：$\frac{\pi}{2}\cot(\frac{\pi x}{2})=[\ln\sin(\frac{\pi x}{2})]&#39;$，故待证式等价于 $[\sin(\frac{\pi x}{2})f(x)]&#39;=0$\n- 加权第一积分中值定理（$F$ 连续、$g\ge 0$ 可积，则 $\int gF=F(c)\int g$）\n- 罗尔定理\n- 乘积求导法则与 $\sin$ 不为零时可约分\n\n**证明思路**：\n1. 由待证式结构构造辅助函数 $F(x)=\sin(\frac{\pi x}{2})f(x)$，则 $F$ 在 $[0,1]$ 连续、$(0,1)$ 可导，且 $F(1)=f(1)$、$F&#39;(x)=\sin(\frac{\pi x}{2})[f&#39;(x)+\frac{\pi}{2}\cot(\frac{\pi x}{2})f(x)]$。\n2. 把题设改写为 $F(1)=\int_0^{1/2}8x\cdot F(x)\,dx$（即把 $x\sin(\frac{\pi x}{2})f(x)$ 视为权重 $8x$ 与 $F(x)$ 的乘积）。\n3. 因 $8x\ge 0$ 于 $[0,1/2]$ 且 $\int_0^{1/2}8x\,dx=1$，由加权积分中值定理存在 $c\in[0,1/2]$ 使 $\int_0^{1/2}8xF(x)dx=F(c)$，故 $F(1)=F(c)$。\n4. 因 $c\le 1/2&lt;1$，区间 $[c,1]$ 不退化，$F$ 在其上满足罗尔定理条件，得 $\exists\,\xi\in(c,1)\subset(0,1)$ 使 $F&#39;(\xi)=0$。\n5. 由 $\xi\in(0,1)$ 知 $\sin(\frac{\pi\xi}{2})&gt;0$，约去该因子即得 $f&#39;(\xi)=-\frac{\pi}{2}\cot(\frac{\pi\xi}{2})f(\xi)$。\n\n**易错点**：\n- 识别权重是关键：必须凑出 $\int_0^{1/2}8x\,dx=1$ 这一事实，$8x$ 非负才可用第一积分中值定理，不能漏掉非负性验证。\n- 约分 $\sin(\frac{\pi\xi}{2})$ 前必须说明它非零（即 $\xi\in(0,1)$ 而非含端点 0），否则结论退化。\n- 中值点 $c$ 由定理一般落在闭区间 $[0,1/2]$，只需保证 $c&lt;1$ 即可与 $1$ 构成罗尔区间，不必强求 $c\in(0,1/2)$ 开区间。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 于 [0,1] 上连续，在 (0,1) 内可导且满足 f(1) = 8∫₀^{1/2} x sin(πx/2) f(x)dx. 证明至少存在一点 ξ ∈ (0,1)，使得 f′(ξ) = −(π/2)cot(πξ/2) f(ξ)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2010-jlu-b7cf4e86.html#major-0701-2010-jlu-b7cf4e86-q0018">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(10 分) 中值定理型证明
+    </div>
+    <div class="pager">
+<a href="major-0701-2010-jlu-b7cf4e86-q0017.html">← 上一题（2010 52）</a><a href="major-0701-2010-jlu-b7cf4e86-q0019.html">下一题（2010 71）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2010 年 6 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86">中值定理</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2010-jlu-b7cf4e86.html">2010 数学分析（19 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#250</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2010-jlu-b7cf4e86-q0018</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2010-jlu-b7cf4e86-q0018";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

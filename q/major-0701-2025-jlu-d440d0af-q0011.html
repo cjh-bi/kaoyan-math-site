@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2025 数学分析 四1 · 数学考研真题库</title>
+<meta name="description" content="设函数 f(x) 在 [0, +∞) 上连续，且 lim_{x→+∞} f(x) 存在. 证明：f(x) 在 [0, +∞) 上有界，并且最大值和最小值至少有一">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2025-jlu-d440d0af.html">2025 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2025 四1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2025 · 数学分析 · 四1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设函数 f(x) 在 [0, +∞) 上连续，且 lim<sub>x→+∞</sub> f(x) 存在. 证明：f(x) 在 [0, +∞) 上有界，并且最大值和最小值至少有一个能取到.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：把定义域拆成有限闭区间与无穷尾部两段：$f$ 在 $[0,+\infty)$ 上有界，且全局上确界与下确界至少有一个被某点取到。\n\n**用到的定理/引理**：\n- 极限的 $\varepsilon$-$M$ 定义（$x\to+\infty$ 时 $f(x)\to A$）\n- 闭区间上连续函数的最值定理（Weierstrass）：$f$ 在 $[0,M]$ 上有界且最大最小都取到\n- 确界可加性：$S=\sup_{[0,\infty)}f=\max\big(\sup_{[0,M]}f,\ \sup_{[M,\infty)}f\big)$，对 $I=\inf$ 同理\n- $I\le A\le S$（因 $I\le f\le S$ 且 $f(x)\to A$）\n\n**证明思路**：\n1. 记 $A=\lim_{x\to+\infty}f(x)$（有限实数）。取 $\varepsilon=1$，$\exists M&gt;0$ 使 $x\ge M\Rightarrow|f(x)-A|\le1$，故 $|f(x)|\le|A|+1$，尾部有界。\n2. $f$ 在 $[0,M]$ 上连续，由最值定理有界，于是 $|f(x)|\le\max\big(|A|+1,\ \sup_{[0,M]}|f|\big)$ 对一切 $x\ge0$ 成立，即 $f$ 全局有界；记 $S=\sup_{[0,\infty)}f$、$I=\inf_{[0,\infty)}f$（均为有限实数）。\n3. 由 $I\le f(x)\le S$ 令 $x\to+\infty$ 得 $I\le A\le S$；若 $S=I=A$，则 $f\equiv A$，最大最小都取到，命题成立。下面设 $S&gt;A$ 或 $I&lt;A$。\n4. 情形 $S&gt;A$：取 $\varepsilon=\dfrac{S-A}{2}&gt;0$，$\exists M_1$ 使 $x\ge M_1\Rightarrow f(x)\le A+\varepsilon=\dfrac{S+A}{2}&lt;S$，故 $\sup_{[M_1,\infty)}f&lt;S$。\n5. 由第 3 步的确界分解，必有 $S=\sup_{[0,M_1]}f$；$f$ 在闭区间 $[0,M_1]$ 上连续，最值定理给出 $\exists x^*\in[0,M_1]$ 使 $f(x^*)=S$，即最大值取到。\n6. 情形 $I&lt;A$ 完全对称：取 $\varepsilon=\dfrac{A-I}{2}$ 得 $\exists M_2$ 使 $x\ge M_2\Rightarrow f(x)\ge\dfrac{A+I}{2}&gt;I$，于是 $I=\min_{[0,M_2]}f$ 取到。两情形至少一个发生（否则与 $I\le A\le S$ 矛盾），故最大最小至少有一个能取到。\n\n**易错点**：\n- 第 4/6 步的 $\varepsilon$ 必须取依赖 $S-A$（或 $A-I$）的值；沿用有界性那步的固定 $\varepsilon=1$ 只得 $f\le A+1$，当 $S=A+1$ 时无法把 $S$ 压回有限区间。\n- 不能顺手声称最大最小都取到，这是错的：$f(x)=1-e^{-x}$ 在 $[0,+\infty)$ 上 $\sup=1$ 取不到，只有最小值取到——正好说明本题只能证「至少一个」。\n- 别漏掉第 4→5 步的理由：$\sup_{[0,M_1]}f\le S$ 恒成立，结合 $\sup_{[M_1,\infty)}f&lt;S$ 才能断定 $S=\sup_{[0,M_1]}f$；另外 $S&gt;I$ 与 $S=A=I$ 的退化情形要单独交代。\n\n**不确定**：「$\lim_{x\to+\infty}f(x)$ 存在」按数学分析惯例理解为有限的实数极限；若允许极限为 $\pm\infty$，则「有界」的结论不成立，故必须是有限极限。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设函数 f(x) 在 [0, +∞) 上连续，且 lim_{x→+∞} f(x) 存在. 证明：f(x) 在 [0, +∞) 上有界，并且最大值和最小值至少有一个能取到." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2025-jlu-d440d0af.html#major-0701-2025-jlu-d440d0af-q0011">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2025-jlu-d440d0af-q0010.html">← 上一题（2025 三1）</a><a href="major-0701-2025-jlu-d440d0af-q0012.html">下一题（2025 五1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2025 年 四 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E8%BF%9E%E7%BB%AD%E4%B8%8E%E6%9C%89%E7%95%8C%E6%80%A7">连续与有界性</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2025-jlu-d440d0af.html">2025 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#26</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2025-jlu-d440d0af-q0011</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2025-jlu-d440d0af-q0011";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

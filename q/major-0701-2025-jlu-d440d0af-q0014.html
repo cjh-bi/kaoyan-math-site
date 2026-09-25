@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2025 数学分析 七1 · 数学考研真题库</title>
+<meta name="description" content="证明： (1) f(x) 在 (a,b) 上一致连续当且仅当 f(x) 在 (a,b) 上连续，并且极限 lim_{x→a⁺} f(x) 和 lim_{x→b⁻">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2025-jlu-d440d0af.html">2025 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2025 七1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2025 · 数学分析 · 七1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">2 个小问</span>    </h1>
+    <div class="qstem">证明： <br> (1) f(x) 在 (a,b) 上一致连续当且仅当 f(x) 在 (a,b) 上连续，并且极限 lim<sub>x→a⁺</sub> f(x) 和 lim<sub>x→b⁻</sub> f(x) 都存在. <br> (2) 如果 f(x) 在 (0,1] 上可导，并且极限 lim<sub>x→0⁺</sub> x<sup>2/3</sup> f′(x) 存在，则 f(x) + sin x / x 在 (0,1] 上一致连续.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：(1) 有限开区间上一致连续等价于连续 + 两个单侧端点极限存在（即 f 能连续延拓到闭区间）；(2) 由 $x^{2/3}f&#39;(x)$ 有界得 $f$ 满足 $|f(x)-f(y)|\le C|x^{1/3}-y^{1/3}|$ 的 Hölder 估计，从而 $\lim_{x\to0^+}f(x)$ 存在，再用 (1) 与 $\sin x/x$ 的可去间断延拓得一致连续。\n\n**用到的定理/引理**：\n- Cauchy 收敛准则的函数形式（$\lim_{x\to a^+}f(x)$ 存在 $\iff$ 对任意 $\varepsilon$ 存在 $\delta$，使 $x,y\in(a,a+\delta)$ 时 $|f(x)-f(y)|&lt;\varepsilon$）\n- 一致连续 $\Rightarrow$ 满足 Cauchy 准则，故可连续延拓到端点；延拓后的 $F\in C[a,b]$ 用 Cantor 定理（闭区间上连续必一致连续）\n- Lagrange / Cauchy 中值定理，取辅助函数 $g(x)=x^{1/3}$（避开 $f&#39;$ 不连续、不可积的问题）\n- 一致连续函数之和一致连续；$\lim_{x\to0^+}\frac{\sin x}{x}=1$ 的可去间断延拓\n\n**证明思路**：\n**(1)** 必要性：一致连续 $\Rightarrow$ 连续是平凡的；对 $\varepsilon$ 取一致连续的 $\delta$，则 $x,y\in(a,a+\delta)$ 时 $|x-y|&lt;\delta$，故 $|f(x)-f(y)|&lt;\varepsilon$，由 Cauchy 准则得 $\lim_{x\to a^+}f(x)$ 存在，$b$ 端同理。\n充分性：令 $F(a)=\lim_{x\to a^+}f(x),\ F(b)=\lim_{x\to b^-}f(x),\ F|_{(a,b)}=f$，则 $F\in C[a,b]$；由 Cantor 定理 $F$ 在 $[a,b]$ 一致连续，限制到 $(a,b)$ 即得 $f$ 一致连续。\n**(2)** 拆项：$\frac{\sin x}{x}$ 在 $(0,1]$ 连续且 $\lim_{x\to0^+}$ 存在，由 (1) 在 $(0,1]$ 上一致连续（或直接延拓到 $[0,1]$ 用 Cantor 定理）。\n核心：设 $\lim_{x\to0^+}x^{2/3}f&#39;(x)=A$，则 $\exists\delta&gt;0,C&gt;0$，$x\in(0,\delta)$ 时 $|f&#39;(x)|\le Cx^{-2/3}$；对 $0&lt;y&lt;x&lt;\delta$ 用 Cauchy 中值定理于 $f$ 与 $g(t)=t^{1/3}$，得 $\frac{f(x)-f(y)}{x^{1/3}-y^{1/3}}=\frac{f&#39;(\xi)}{\frac13\xi^{-2/3}}=3\xi^{2/3}f&#39;(\xi)$（$\xi\in(y,x)$），故 $|f(x)-f(y)|\le 3C\,|x^{1/3}-y^{1/3}|\le 3C\,x^{1/3}$。\n由此 $x,y\to0^+$ 时 $|f(x)-f(y)|\to0$：Cauchy 准则给出 $\lim_{x\to0^+}f(x)$ 存在，且同一估计直接给出 $f$ 在 $(0,\delta)$ 上一致连续；再由 (1)（$f$ 在 $(0,1]$ 可导故连续，$\lim_{x\to1^-}f(x)=f(1)$ 存在）得 $f$ 在 $(0,1]$ 一致连续。\n收尾：两个在 $(0,1]$ 一致连续的函数之和一致连续，故 $f(x)+\frac{\sin x}{x}$ 一致连续。\n\n**易错点**：\n- (1) 必须默认 $-\infty&lt;a&lt;b&lt;+\infty$（有限端点）；端点无穷时命题不成立，如 $f(x)=x$ 在 $(0,+\infty)$ 一致连续但 $\lim_{x\to+\infty}f(x)$ 不存在。\n- 不能写 $f(x)-f(y)=\int_y^x f&#39;(t)dt$：题设只说 $f$ 可导，$f&#39;$ 未必连续或可积；必须用（Cauchy）中值定理，且辅助函数取 $g(t)=t^{1/3}$ 而非直接对 $f$ 用 Lagrange（后者只给出 $|f(x)-f(y)|\le C y^{-2/3}(x-y)$，取不到一致连续的模）。\n- $\frac{\sin x}{x}$ 在 $x=0$ 无定义，不能直接套 Cantor 定理；需说明它连续延拓到 $[0,1]$（或直接用 (1) 的条件验证），并注意 (2) 中 $f$ 在 $0$ 处未必有定义／连续，只能用右极限。\n\n**不确定**：题干未写出 $a,b$ 是否有限，按数学分析常规默认 $-\infty&lt;a&lt;b&lt;+\infty$；另默认 (2) 中 $\lim_{x\to0^+}x^{2/3}f&#39;(x)$ 为有限实数（若为 $\infty$ 则结论不一定成立）。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明： 
+ (1) f(x) 在 (a,b) 上一致连续当且仅当 f(x) 在 (a,b) 上连续，并且极限 lim_{x→a⁺} f(x) 和 lim_{x→b⁻} f(x) 都存在. 
+ (2) 如果 f(x) 在 (0,1] 上可导，并且极限 lim_{x→0⁺} x^{2/3} f′(x) 存在，则 f(x) + sin x / x 在 (0,1] 上一致连续." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2025-jlu-d440d0af.html#major-0701-2025-jlu-d440d0af-q0014">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2025-jlu-d440d0af-q0013.html">← 上一题（2025 六1）</a><a href="major-0701-2025-jlu-999998df-q0001.html">下一题（2025 一1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2025 年 七 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%80%E8%87%B4%E8%BF%9E%E7%BB%AD%E6%80%A7">一致连续性</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2025-jlu-d440d0af.html">2025 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#29</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2025-jlu-d440d0af-q0014</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2025-jlu-d440d0af-q0014";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

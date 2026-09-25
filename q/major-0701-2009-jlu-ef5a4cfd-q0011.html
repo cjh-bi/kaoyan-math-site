@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2009 数学分析 51 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 于 [0,+∞) 上具有连续的二阶导数，f′₊(0) &lt; 0，f″(x) ≥ a &gt; 0，∀x ∈ [0,+∞)，a 为常数. 求证：存在唯一的 ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2009-jlu-ef5a4cfd.html">2009 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2009 51
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2009 · 数学分析 · 51</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">10 分</span>    </h1>
+    <div class="qstem">设 f(x) 于 [0,+∞) 上具有连续的二阶导数，f′₊(0) &lt; 0，f″(x) ≥ a &gt; 0，∀x ∈ [0,+∞)，a 为常数. 求证：存在唯一的 x* ∈ (0,+∞)，使得 f(x*) = inf<sub>x≥0</sub> f(x).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：$f&#39;(x)$ 在 $(0,+\infty)$ 内有唯一零点 $\xi$，且 $f&#39;$ 在该点由负变正，故 $\xi$ 就是 $f$ 在 $[0,+\infty)$ 上唯一的（全局）最小点。\n\n**用到的定理/引理**：\n- 由 $f&#39;&#39;\ge a&gt;0$ 积分得下界估计 $f&#39;(x)\ge f&#39;(0)+ax$、$f(x)\ge f(0)+f&#39;(0)x+\tfrac{a}{2}x^2$（强制/coercive）\n- 零点存在定理（介值定理）+ $f&#39;$ 严格单调增得唯一性\n- 第一充分条件（单调性判极值）与连续函数在有界闭区间上的最值定理\n- 严格凸性：$f&#39;&#39;&gt;0\Rightarrow f$ 严格凸，$f\left(\tfrac{x_1+x_2}{2}\right)&lt;\tfrac{f(x_1)+f(x_2)}{2}$ 保证最小点唯一\n\n**证明思路**：\n1. 记 $f&#39;(0):=f&#39;_+(0)&lt;0$（$f&#39;&#39;$ 连续 $\Rightarrow f&#39;$ 在 $[0,+\infty)$ 连续），对 $t\in[0,x]$ 积分：$f&#39;(x)=f&#39;(0)+\int_0^x f&#39;&#39;(t)\,dt\ge f&#39;(0)+ax\xrightarrow[x\to+\infty]{}+\infty$。\n2. 取 $b&gt;-f&#39;(0)/a$ 使 $f&#39;(b)&gt;0$，在 $[0,b]$ 上用零点定理得存在 $\xi\in(0,b)$ 使 $f&#39;(\xi)=0$；因 $f&#39;&#39;\ge a&gt;0$，$f&#39;$ 严格增，故这样的 $\xi$ 唯一。\n3. 变号判定：$0\le x&lt;\xi$ 时 $f&#39;(x)&lt;0$，$x&gt;\xi$ 时 $f&#39;(x)&gt;0$，即 $f$ 在 $[0,\xi]$ 递减、在 $[\xi,+\infty)$ 递增。\n4. 由第 3 步 $f(\xi)=\min_{x\ge 0}f(x)$，故 $x^*=\xi$ 存在且落在开区间 $(0,+\infty)$（$f&#39;(0)&lt;0$ 正排除了端点 $x=0$）。\n5. 唯一性收尾：若另有 $\eta\ne\xi$ 使 $f(\eta)=\inf f$，由 $f$ 严格凸得 $f\left(\tfrac{\xi+\eta}{2}\right)&lt;\tfrac{f(\xi)+f(\eta)}{2}=\inf f$，矛盾。\n6.（等价备选路线）用 $f(x)\ge f(0)+f&#39;(0)x+\tfrac{a}{2}x^2\to+\infty$ 得下水平集有界，inf 在某个 $[0,R]$ 上由最值定理取到，再用严格凸性得唯一，可跳过 $f&#39;$ 变号的讨论。\n\n**易错点**：\n- $f&#39;_+(0)&lt;0$ 是「最小点在开区间内」的全部依据，必须显式用到：它给出 $f$ 在 $0$ 右侧附近递减，故 $f(0)&gt;\inf f$；漏掉它只能证到 $x^*\in[0,+\infty)$。\n- 别把「$f&#39;$ 有唯一零点」直接当成「$f$ 有唯一最小点」——还要说明 $f&#39;$ 在该点变号（或改用严格凸性），否则若 $f&#39;$ 只是切零轴不变号则不成立。\n- 端点是 0，所有中值/零点论证只能写在 $[0,b]$ 上用右导数与单侧连续，不要出现 $f&#39;$ 在含负数的开区间上的表述；若把条件弱化为「$f&#39;&#39;$ 存在」而非连续，积分估计须换成两次拉格朗日中值或达布定理。\n\n**不确定**：「$f&#39;&#39;(x)$ 于 $[0,+\infty)$ 连续」按在 0 处右连续理解，且 $\forall x\in[0,+\infty)$ 含 $x=0$；这只影响个别措辞，不影响结论与证明骨架。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 于 [0,+∞) 上具有连续的二阶导数，f′₊(0) &lt; 0，f″(x) ≥ a &gt; 0，∀x ∈ [0,+∞)，a 为常数. 求证：存在唯一的 x* ∈ (0,+∞)，使得 f(x*) = inf_{x≥0} f(x)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2009-jlu-ef5a4cfd.html#major-0701-2009-jlu-ef5a4cfd-q0011">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(10 分)
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2009-jlu-6539e341-q0005.html">2009 数学分析 · 吉林大学<span class="n">0.72</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2009-jlu-ef5a4cfd-q0010.html">← 上一题（2009 41）</a><a href="major-0701-2009-jlu-ef5a4cfd-q0012.html">下一题（2009 61）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2009 年 5 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E5%87%B8%E5%87%BD%E6%95%B0">凸函数</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>10 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2009-jlu-ef5a4cfd.html">2009 数学分析（15 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#262</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2009-jlu-ef5a4cfd-q0011</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2009-jlu-ef5a4cfd-q0011";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

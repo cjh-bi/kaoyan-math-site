@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2019 空间解析几何和高等代数 51 · 数学考研真题库</title>
+<meta name="description" content="设 V 是 n 维欧氏空间，𝒜, ℬ 均为 V 的对称变换，且对于任意的 θ ≠ u ∈ V，都有 𝒜(u)u ≥ 0, ℬ(u)u ≥ 0. 试证明：𝒜ℬ 是">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2019-jlu-66a6a268.html">2019 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2019 51
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2019 · 空间解析几何和高等代数 · 51</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">设 V 是 n 维欧氏空间，𝒜, ℬ 均为 V 的对称变换，且对于任意的 θ ≠ u ∈ V，都有 𝒜(u)u ≥ 0, ℬ(u)u ≥ 0. 试证明：𝒜ℬ 是对称变换且对于任意的 θ ≠ u ∈ V，都有 𝒜ℬ(u)u ≥ 0，当且仅当存在正整数 p, q 使得 𝒜<sup>p</sup> ℬ<sup>q</sup> = ℬ<sup>q</sup> 𝒜<sup>p</sup>.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：对半正定对称变换 𝒜,ℬ，&#34;ℬ𝒜 仍对称半正定&#34; 等价于 𝒜ℬ=ℬ𝒜；而题中弱条件 &#34;∃p,q: 𝒜^pℬ^q=ℬ^q𝒜^p&#34; 在半正定假设下也等价于二者交换，故与核心结论互推。\n\n**用到的定理/引理**：\n- 对称变换的谱定理：V=⊕_λ V_λ，V_λ=ker(𝒜−λI)，且 λ↦λ^p 在 [0,∞) 单射 ⟹ 𝒜 与 𝒜^p 有同一组谱分解\n- 对称性判据：$(𝒜ℬ)^*=ℬ^*𝒜^*=ℬ𝒜$，故 𝒜ℬ 对称 ⟺ 𝒜ℬ=ℬ𝒜\n- 对称变换的谱投影可写成该变换的多项式（Lagrange 插值于互异特征值）——用于把 ℬ^q 的不变子空间升级为 ℬ 的不变子空间\n- 约化子空间/正交分块对角 + 半正定的特征值判据：$T$ 半正定 ⟺ 各特征值 ≥0 ⟺ (Tu,u)≥0\n\n**证明思路**：\n1) 化简必要性：若 𝒜ℬ 对称，则由 $(𝒜ℬ)^*=ℬ𝒜$ 得 𝒜ℬ=ℬ𝒜，直接取 p=q=1 即证（此方向不需用到半正定）。\n2) 充分性设 𝒜^pℬ^q=ℬ^q𝒜^p，对 𝒜 作谱分解 $V=\bigoplus_{\lambda}V_\lambda$；因 𝒜 半正定故 λ≥0，t^p 单射，于是 $V_\lambda=\ker(𝒜^p-\lambda^p I)$，交换性给出 $ℬ^qV_\lambda\subseteq V_\lambda$。\n3) 把幂换回原算子：ℬ 对称 ⟹ ℬ^q 的特征值 μ_i^q 仍互异，其谱投影 $P_i$ 是 ℬ^q 的多项式，故 $P_iV_\lambda\subseteq V_\lambda$，从而 $ℬ=\sum_i\mu_iP_i$ 也保持 $V_\lambda$：$ℬV_\lambda\subseteq V_\lambda$。\n4) 由 ℬ 对称且诸 $V_\lambda$ 两两正交，得每个 $V_\lambda$ 约化 ℬ，在此正交分块下 $𝒜ℬ|_{V_\lambda}=\lambda\,ℬ|_{V_\lambda}$ 对称 ⟹ 𝒜ℬ 对称。\n5) 半正定：对 $u=\sum u_\lambda$，$(𝒜ℬu,u)=\sum_\lambda\lambda\,(ℬu_\lambda,u_\lambda)\ge 0$。\n6) 合并 4)、5) 与 1) 即得充要。\n\n**易错点**：\n- λ≥0（即半正定）是第 2 步单射性的唯一来源：若 𝒜 不定出现 ±λ 使 λ^p 重合，幂交换就推不出 𝒜,ℬ 交换，必须显式点明用了条件 (𝒜u,u)≥0。\n- 不可笼统写 &#34;𝒜^p 与 ℬ^q 交换所以 𝒜 与 ℬ 交换&#34;——对一般矩阵这是严格弱化的；第 3 步的谱投影（或多项式插值）论证是关键得分点。\n- 第 4 步要说明 $V_\lambda$ 不仅 ℬ-不变而且约化 ℬ（用 ℬ 对称 + 正交直和分解），否则分块 𝒜ℬ 未必自伴；另外 λ=0 的块（ker 𝒜）不能从分解中漏掉。\n\n**不确定**：题干应为内积记号 (𝒜(u),u)≥0、(ℬ(u),u)≥0，&#34;θ≠u&#34; 即 u≠0（θ 为零向量）；在此解读下结论成立。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是 n 维欧氏空间，𝒜, ℬ 均为 V 的对称变换，且对于任意的 θ ≠ u ∈ V，都有 𝒜(u)u ≥ 0, ℬ(u)u ≥ 0. 试证明：𝒜ℬ 是对称变换且对于任意的 θ ≠ u ∈ V，都有 𝒜ℬ(u)u ≥ 0，当且仅当存在正整数 p, q 使得 𝒜^p ℬ^q = ℬ^q 𝒜^p." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2019-jlu-66a6a268.html#major-0701-2019-jlu-66a6a268-q0005">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2019-jlu-66a6a268-q0004.html">← 上一题（2019 41）</a><a href="major-0701-2019-jlu-66a6a268-q0006.html">下一题（2019 61）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2019 年 5 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%AF%B9%E7%A7%B0%E5%8F%98%E6%8D%A2">对称变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2019-jlu-66a6a268.html">2019 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#327</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2019-jlu-66a6a268-q0005</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2019-jlu-66a6a268-q0005";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2015 空间解析几何和高等代数 71 · 数学考研真题库</title>
+<meta name="description" content="设 V 是 n 维欧氏空间，e₁, …, eₙ 和 f₁, …, fₙ 是 V 的两个基底（未必是规范正交基），满足 $$e_i f_j = \begin{ca">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2015-jlu-4eefd0ef.html">2015 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2015 71
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2015 · 空间解析几何和高等代数 · 71</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">设 V 是 n 维欧氏空间，e₁, …, eₙ 和 f₁, …, fₙ 是 V 的两个基底（未必是规范正交基），满足 $e_i f_j = \begin{cases} 1, &amp; i = j; \\ 0, &amp; i ≠ j. \end{cases}$ 设 𝒜 是 V 的线性变换，𝒜′ 是 𝒜 的伴随变换. 证明 𝒜 在基底 e₁, …, eₙ 下对应的矩阵与 𝒜′ 在基底 f₁, …, fₙ 下对应的矩阵互为转置.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：若 $A$ 为 $\mathcal{A}$ 在基 $e_1,\dots,e_n$ 下的矩阵、$B$ 为 $\mathcal{A}&#39;$ 在基 $f_1,\dots,f_n$ 下的矩阵，则 $B=A^{\mathsf T}$（即 $b_{ij}=a_{ji}$）。\n\n**用到的定理/引理**：\n- 伴随变换定义：$(\mathcal{A}x,y)=(x,\mathcal{A}&#39;y)$ 对一切 $x,y\in V$ 成立\n- 双正交条件 $(e_i,f_j)=\delta_{ij}$ 给出的「按内积读出坐标」技巧：$x=\sum c_ie_i\Rightarrow (x,f_j)=c_j$，$y=\sum d_if_i\Rightarrow (e_j,y)=d_j$\n- 线性变换在某基下矩阵的约定：第 $j$ 列是 $\mathcal{A}e_j$ 按该基的展开系数\n\n**证明思路**：\n记 $\mathcal{A}e_j=\sum_i a_{ij}e_i$（$A=(a_{ij})$），$\mathcal{A}&#39;f_k=\sum_i b_{ik}f_i$（$B=(b_{ik})$），按列约定。\n第1步：把第一式与 $f_k$ 作内积，用 $(e_i,f_k)=\delta_{ik}$ 得 $a_{kj}=(\mathcal{A}e_j,f_k)$。\n第2步：把第二式与 $e_j$ 作内积（内积对称），用 $(e_j,f_i)=\delta_{ji}$ 得 $b_{jk}=(e_j,\mathcal{A}&#39;f_k)$。\n第3步：对 $x=e_j,\,y=f_k$ 用伴随定义，得 $(\mathcal{A}e_j,f_k)=(e_j,\mathcal{A}&#39;f_k)$。\n第4步：链等式 $a_{kj}=(\mathcal{A}e_j,f_k)=(e_j,\mathcal{A}&#39;f_k)=b_{jk}$，故 $b_{jk}=a_{kj}$ 对任意 $j,k$ 成立。\n第5步：逐元素相同即 $B=A^{\mathsf T}$，命题得证。\n\n**易错点**：\n- 切勿假设 $e_i$ 或 $f_i$ 是规范正交基；整题全靠双正交条件 $(e_i,f_j)=\delta_{ij}$ 来「提取单个系数」，否则内积会带出交叉项求和无法化简\n- 矩阵按列展开（$\mathcal{A}e_j$ 是第 $j$ 列）这一约定要写明，否则 $a_{ij}$ 的下标行列方向易搞混，导致最后得出 $B=A$ 而非 $B=A^{\mathsf T}$\n- 伴随等式中 $\mathcal{A}$ 与 $\mathcal{A}&#39;$ 分别落在内积的左、右槽，第2步取 $e_j$ 内积时要用对称性 $(e_j,\mathcal{A}&#39;f_k)=(\mathcal{A}&#39;f_k,e_j)$ 把位置对齐到定义形式\n\n**不确定**：题干中「$e_i f_j$」应理解为内积 $(e_i,f_j)$；若该符号另有所指则结论需重审，其余题意清晰。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是 n 维欧氏空间，e₁, …, eₙ 和 f₁, …, fₙ 是 V 的两个基底（未必是规范正交基），满足 $$e_i f_j = \begin{cases} 1, &amp; i = j; \\ 0, &amp; i ≠ j. \end{cases}$$ 设 𝒜 是 V 的线性变换，𝒜′ 是 𝒜 的伴随变换. 证明 𝒜 在基底 e₁, …, eₙ 下对应的矩阵与 𝒜′ 在基底 f₁, …, fₙ 下对应的矩阵互为转置." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2015-jlu-4eefd0ef.html#major-0701-2015-jlu-4eefd0ef-q0007">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：7.（20 分）
+    </div>
+    <div class="pager">
+<a href="major-0701-2015-jlu-4eefd0ef-q0006.html">← 上一题（2015 61）</a><a href="major-0701-2015-jlu-4eefd0ef-q0008.html">下一题（2015 81）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2015 年 7 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E4%BC%B4%E9%9A%8F%E5%8F%98%E6%8D%A2">伴随变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2015-jlu-4eefd0ef.html">2015 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#361</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2015-jlu-4eefd0ef-q0007</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2015-jlu-4eefd0ef-q0007";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2016 数学分析 二1 · 数学考研真题库</title>
+<meta name="description" content="用 ε–N 语言证明 lim_{n→∞} ln n/n = 0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2016-jlu-9be917ea.html">2016 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2016 二1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2016 · 数学分析 · 二1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">用 ε–N 语言证明 lim<sub>n→∞</sub> ln n/n = 0</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：对任意 $\varepsilon&gt;0$，存在正整数 $N$，使 $n&gt;N$ 时恒有 $\left|\dfrac{\ln n}{n}\right|&lt;\varepsilon$（核心是把 $\ln n$ 放大成 $2\sqrt n$ 这类幂函数）。\n\n**用到的定理/引理**：\n- 辅助不等式：$x\ge 1$ 时 $\ln x\le x-1$（由 $\ln x=\int_1^x \frac{dt}{t}$ 或拉格朗日中值定理 $\ln x=\frac{x-1}{\xi}$，$\xi\in(1,x)$ 得到）\n- 换元 $x=\sqrt n$ 得 $\ln n=2\ln\sqrt n&lt;2\sqrt n$（$n&gt;1$）\n- 放大后的目标 $\dfrac{\ln n}{n}&lt;\dfrac{2}{\sqrt n}&lt;\varepsilon\iff n&gt;\dfrac{4}{\varepsilon^2}$\n- 阿基米德性 / 取整：$N=\max\{1,\lceil 4/\varepsilon^2\rceil\}$ 存在且为有限正整数\n\n**证明思路**：\n1. 定任意 $\varepsilon&gt;0$；当 $n\ge2$ 时 $\ln n&gt;0$，故 $\left|\frac{\ln n}{n}\right|=\frac{\ln n}{n}$，只需证 $\frac{\ln n}{n}&lt;\varepsilon$。\n2. 先证（并明确引用课程中对 $\ln$ 的定义）$x&gt;1$ 时 $\ln x&lt;x$：$\ln x=\int_1^x\frac{dt}{t}\le\int_1^x 1\,dt=x-1&lt;x$。\n3. 取 $x=\sqrt n$（$n&gt;1$），由第 2 步得 $\ln\sqrt n&lt;\sqrt n$，两边乘 2：$\ln n&lt;2\sqrt n$，从而 $0&lt;\frac{\ln n}{n}&lt;\frac{2}{\sqrt n}$。\n4. 令 $\frac{2}{\sqrt n}&lt;\varepsilon$，解得 $n&gt;\frac{4}{\varepsilon^2}$；取 $N=\max\{1,\lceil 4/\varepsilon^2\rceil\}$。\n5. 验证：若 $n&gt;N$，则 $n&gt;\frac{4}{\varepsilon^2}$ 且 $n\ge2$，于是 $\left|\frac{\ln n}{n}\right|&lt;\frac{2}{\sqrt n}&lt;\frac{2}{2/\varepsilon}=\varepsilon$，由 $\varepsilon$ 任意性证毕。\n\n**易错点**：\n- 必须先处理绝对值：$n=1$ 时 $\frac{\ln n}{n}=0$，$n\ge2$ 时才为正，取 $N\ge1$ 才能保证 $n&gt;N$ 落在讨论范围内。\n- 不得用洛必达法则、$\frac{\ln n}{n}$ 的已知极限或「对数增长慢于幂函数」这类结论来代替 $\varepsilon$-$N$ 论证（洛必达是函数极限且逻辑上循环）。\n- 不等式 $\ln x\le x-1$ 是本题唯一的放大来源，必须给出证明并注明 $n&gt;1$ 的条件，否则评卷会按「跳跃」扣分；严格不等号方向要与最后 $&lt;$ 一致。\n\n**不确定**：无（若该教材把 $\ln$ 定义为 $e^x$ 的反函数，则第 2 步改用中值定理或 $e^t\ge 1+t$ 完成同样的放大，思路不变）。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="用 ε–N 语言证明 lim_{n→∞} ln n/n = 0" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2016-jlu-9be917ea.html#major-0701-2016-jlu-9be917ea-q0006">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2016-jlu-9be917ea-q0005.html">← 上一题（2016 一5）</a><a href="major-0701-2016-jlu-9be917ea-q0007.html">下一题（2016 二2）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2016 年 二 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E6%9E%81%E9%99%90%E8%AF%81%E6%98%8E">极限证明</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2016-jlu-9be917ea.html">2016 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#152</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2016-jlu-9be917ea-q0006</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2016-jlu-9be917ea-q0006";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

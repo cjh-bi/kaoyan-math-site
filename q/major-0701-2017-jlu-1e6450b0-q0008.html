@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2017 空间解析几何和高等代数 81 · 数学考研真题库</title>
+<meta name="description" content="在空间直角坐标系中，直线 l₁ 和 l₂ 的方程分别为 (x−6)/1 = y/2 = (z−1)/2 和 x/1 = (y−8)/2 = (z+4)/(−2)">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2017-jlu-1e6450b0.html">2017 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2017 81
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2017 · 空间解析几何和高等代数 · 81</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">在空间直角坐标系中，直线 l₁ 和 l₂ 的方程分别为 (x−6)/1 = y/2 = (z−1)/2 和 x/1 = (y−8)/2 = (z+4)/(−2). 分别过 l₁, l₂ 作平面 Π₁, Π₂，使得 Π₁ ⊥ Π₂. 求 Π₁ 和 Π₂ 的交线的轨迹方程.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：所有满足条件的交线的并集是一张二次曲面（单叶双曲面，且包含 l₁、l₂ 两条直线），其方程为 $5z^2-3y^2-4xy+6x+16y-5z-36=0$（等价写法 $3y^2+4xy-5z^2-6x-16y+5z+36=0$，不含 $x^2$ 项）。\n\n**用到的定理/引理**：\n- 平面点法式：过直线 $(P,v)$ 与点 M 的平面唯一（M∉直线），法向量可取 $n = v × \vec{PM}$\n- 两平面垂直的充要条件 $n_1 \cdot n_2 = 0$\n- 向量四重积（拉格朗日）恒等式 $(a\times b)\cdot(c\times d)=(a\cdot c)(b\cdot d)-(a\cdot d)(b\cdot c)$，用于免展开求方程\n- 直线在曲面上的验证：把参数式代入恒等于 0\n- （备注性）二次型符号差判断曲面类型，评卷非必需\n\n**证明思路**：\n1. 取定点与方向：$l_1$ 过 $P_1(6,0,1)$、$v_1=(1,2,2)$；$l_2$ 过 $P_2(0,8,-4)$、$v_2=(1,2,-2)$（两者互相 skew，且 $v_1\cdot v_2=1$）。\n2. 设 $M(x,y,z)$ 为某条交线 $\Pi_1\cap\Pi_2$ 上的点，$M\notin l_1\cup l_2$；则由 $l_1,M$ 定出的 $\Pi_1$ 唯一，取 $n_1=v_1\times\vec{P_1M}$，同理 $n_2=v_2\times\vec{P_2M}$。\n3. 垂直条件 $n_1\cdot n_2=0$，用四重积恒等式化为 $(v_1\cdot v_2)(\vec{P_1M}\cdot\vec{P_2M})-(v_1\cdot\vec{P_2M})(v_2\cdot\vec{P_1M})=0$，即 $1\cdot(x^2+y^2+z^2-6x-8y+3z-4)-(x+2y+2z-8)(x+2y-2z-4)=0$。\n4. 展开整理得候选轨迹 $5z^2-3y^2-4xy+6x+16y-5z-36=0$；把 $l_1:(6+t,2t,1+2t)$、$l_2:(t,8+2t,-4-2t)$ 代入均为恒等式 0，说明两直线整体落在曲面上（可再用 $\Pi_1:2x-y-12=0,\ \Pi_2:2x+4y+5z-12=0$ 的交线上点回代自检）。\n5. 反向包含（存在性）：任取满足该方程的 $M$，令 $\Pi_1=\text{平面}(l_1,M)$、$\Pi_2=\text{平面}(l_2,M)$（若 $M\in l_1$ 或 $l_2$，取过该点与另一直线的平面为 $\Pi_2$，再取过 $l_1$ 且与 $\Pi_2$ 垂直的 $\Pi_1$；当 $l_1\perp\Pi_2$ 时过 $l_1$ 的任一平面都垂直 $\Pi_2$），则 $n_1\cdot n_2=0$ 由方程成立，两平面不平行必交于一条直线，故 $M$ 在轨迹内。\n6. 结论：轨迹即上述二次曲面（可选说明：二次项矩阵 $\begin{pmatrix}0&amp;-2&amp;0\\-2&amp;-3&amp;0\\0&amp;0&amp;5\end{pmatrix}$ 符号差为 $(2,1)$，又含两条直线，故为单叶双曲面）。\n\n**易错点**：\n- 法向量不能取直线的方向向量：必须用 $v\times\vec{PM}$，且 $v_1,v_2$ 与 $P_1,P_2$ 要配对应直线，展开 $(a\cdot d)(b\cdot c)$ 时最易出错（此处曾把 $v_1\cdot\vec{P_2M}$ 误算成 $v_1\cdot\vec{P_1M}$ 会多出 $-6x$ 而得错误系数）。\n- 只证必要性不够：必须说明曲面上每一点都可由某对垂直平面实现，并单独处理 $M\in l_1$ 或 $M\in l_2$（此时“过直线外一点定唯一平面”失效）。\n- “交线的轨迹”是交线族的并集，答案应为曲面方程而非某条直线方程；不要误解成求某一条特定交线。\n\n**不确定**：题干“求 Π₁ 和 Π₂ 的交线的轨迹方程”按常规理解为全体满足条件的交线所扫出的曲面；若原书另有“交线过定点/定直线”类版本，则问法不同。最终系数已用 $P_1,P_2$、$l_1,l_2$ 上各两点及一组具体垂直平面对（$2x-y-12=0$ 与 $2x+4y+5z-12=0$）的交线上两点回代验证，均满足。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="在空间直角坐标系中，直线 l₁ 和 l₂ 的方程分别为 (x−6)/1 = y/2 = (z−1)/2 和 x/1 = (y−8)/2 = (z+4)/(−2). 分别过 l₁, l₂ 作平面 Π₁, Π₂，使得 Π₁ ⊥ Π₂. 求 Π₁ 和 Π₂ 的交线的轨迹方程." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2017-jlu-1e6450b0.html#major-0701-2017-jlu-1e6450b0-q0008">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2017-jlu-1e6450b0-q0007.html">← 上一题（2017 71）</a><a href="major-0701-2017-ahu-b937f8b5-q0001.html">下一题（2017 一、填空题 (每小题 5 分, 共 50 分)1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2017 年 8 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95">解析几何</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%B9%B3%E9%9D%A2">平面</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2017-jlu-1e6450b0.html">2017 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#346</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2017-jlu-1e6450b0-q0008</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2017-jlu-1e6450b0-q0008";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

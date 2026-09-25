@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2024 数学分析 六1 · 数学考研真题库</title>
+<meta name="description" content="设函数 f(x) 在 [0,2] 上二阶导数连续，且 f(0)=f(2)=0，证明：∫₀² f(x)dx ≤ (2/3) max_{x∈[0,2]}{|f″(x">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2024-jlu-276bed70.html">2024 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2024 六1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2024 · 数学分析 · 六1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设函数 f(x) 在 [0,2] 上二阶导数连续，且 f(0)=f(2)=0，证明：∫₀² f(x)dx ≤ (2/3) max<sub>x∈[0,2]</sub>{|f″(x)|}.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：存在恒等式 ∫₀² f(x)dx = ∫₀² x(x-2)/2 · f″(x)dx，再对 |f″| ≤ M 放缩即得 ∫₀² f ≤ (2/3)M\n\n**用到的定理/引理**：\n- 两次分部积分（配合法向边界项的选择）\n- Peano 核／辅助函数思想：取 g 使 g″=1 且 g(0)=g(2)=0，即 g(x)=x(x-2)/2\n- f∈C²[0,2] 保证分部积分与边界项合法\n- 定积分的单调性与绝对值不等式 |∫h| ≤ ∫|h|、|f″| ≤ M\n- 等价表述：带积分型余项的 Taylor 公式 + 交换积分次序\n\n**证明思路**：\n1. 记 $M=\max_{[0,2]}|f&#39;&#39;(x)|$，构造 $g(x)=\dfrac{x(x-2)}{2}$，则 $g&#39;&#39;\equiv 1$、$g(0)=g(2)=0$、且在 $[0,2]$ 上 $g(x)\le 0$。\n2. 把积分改写成 $\int_0^2 f\,dx=\int_0^2 f(x)g&#39;&#39;(x)\,dx$，连续分部积分两次：$\int fg&#39;&#39;=[fg&#39;]_0^2-\int f&#39;g&#39;=[fg&#39;]_0^2-[f&#39;g]_0^2+\int f&#39;&#39;g$。\n3. 用条件 $f(0)=f(2)=0$ 消去 $[fg&#39;]_0^2$，用构造的 $g(0)=g(2)=0$ 消去 $[f&#39;g]_0^2$（这一步是整个证明的关键，$g$ 正是为此挑选的），得恒等式 $\int_0^2 f(x)dx=\int_0^2 g(x)f&#39;&#39;(x)dx$。\n4. 放缩：$\int_0^2 f\,dx\le \int_0^2 |g||f&#39;&#39;|\,dx\le M\int_0^2|g|\,dx=\dfrac{M}{2}\int_0^2 x(2-x)dx=\dfrac{M}{2}\cdot\dfrac{4}{3}=\dfrac{2M}{3}$。\n5. （加分／自校）验证常数最优：取 $f(x)=\dfrac{M}{2}x(2-x)$，满足 $f(0)=f(2)=0$、$|f&#39;&#39;|\equiv M$，且 $\int_0^2 f=\dfrac{2M}{3}$，说明 $2/3$ 不可改进。\n\n**易错点**：\n- 别用带 Lagrange 余项的逐点 Taylor 估计：那样只能得到 $|f(x)|\le Mx(2-x)$，积分后给出 $\frac{4}{3}M$，比目标常数差一倍——必须用积分型余项／分部积分，把 $f&#39;(0),f&#39;(2)$ 这类无法控制的项彻底消掉。\n- 分部积分时若取 $g=x^2/2$ 等不满足 $g(0)=g(2)=0$ 的函数，会残留 $f&#39;$ 的边界项，题目并未给出 $f&#39;$ 的任何信息，故必须让 $g$ 在两端同时为零。\n- 注意 $g\le 0$ 的符号方向：本题只证上界，$\int fg&#39;&#39;\le M\int|g|$ 直接可用；若要说明 $|\int_0^2 f|\le \frac{2}{3}M$，需对 $-f$ 重复同一论证。\n\n**不确定**：无（题干条件 f″ 连续 + 两端零点与结论常数 2/3 完全自洽，一般形式为 ∫₀ᴸ f ≤ (L³/12)M，取 L=2 即得 2/3）</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设函数 f(x) 在 [0,2] 上二阶导数连续，且 f(0)=f(2)=0，证明：∫₀² f(x)dx ≤ (2/3) max_{x∈[0,2]}{|f″(x)|}." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2024-jlu-276bed70.html#major-0701-2024-jlu-276bed70-q0013">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2024-jlu-276bed70-q0012.html">← 上一题（2024 五1）</a><a href="major-0701-2024-jlu-276bed70-q0014.html">下一题（2024 七1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2024 年 六 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E7%A7%AF%E5%88%86%E4%B8%8D%E7%AD%89%E5%BC%8F">积分不等式</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2024-jlu-276bed70.html">2024 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#42</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2024-jlu-276bed70-q0013</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2024-jlu-276bed70-q0013";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

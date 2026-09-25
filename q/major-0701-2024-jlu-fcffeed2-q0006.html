@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2024 空间解析几何和高等代数 六1 · 数学考研真题库</title>
+<meta name="description" content="证明：(β,γ,δ)α − (δ,α,γ)β + (α,β,δ)γ − (α,β,γ)δ = 0.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2024-jlu-fcffeed2.html">2024 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2024 六1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2024 · 空间解析几何和高等代数 · 六1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">证明：(β,γ,δ)α − (δ,α,γ)β + (α,β,δ)γ − (α,β,γ)δ = 0.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：对三维空间中任意四个向量 α,β,γ,δ，以它们两两混合积（带符号）为系数的线性组合恒为零，即 (β,γ,δ)α − (δ,α,γ)β + (α,β,δ)γ − (α,β,γ)δ = 0。\n\n**用到的定理/引理**：\n- 混合积与行列式的等价定义 $(a,b,c)=\det[a\;b\;c]$（行列互换不变）\n- 混合积的轮换对称性 $(\delta,\alpha,\gamma)=(\alpha,\gamma,\delta)$ 与反对调性\n- 4 阶行列式按一行（Laplace）展开定理及余子式/代数余子式符号 $(-1)^{4+j}$\n- 有两行相同的行列式值为 0\n\n**证明思路**：\n第1步：把向量写成坐标列，构成 3×4 矩阵 $A=[\alpha\;\beta\;\gamma\;\delta]$，其第 $i$ 行为 $a_i=(\alpha_i,\beta_i,\gamma_i,\delta_i)$；待证式即为 $A\,c=0$，其中 $c=((\beta,\gamma,\delta),-(\delta,\alpha,\gamma),(\alpha,\beta,\delta),-(\alpha,\beta,\gamma))^{T}$。\n第2步：引入待定行向量 $u=(x_1,x_2,x_3,x_4)$，构造 4 阶行列式 $D(u)=\begin{vmatrix}A\\ u\end{vmatrix}$。\n第3步：按第 4 行展开，$D(u)=\sum_{j=1}^{4}(-1)^{4+j}x_jM_{4j}=x_1(\beta,\gamma,\delta)-x_2(\alpha,\gamma,\delta)+x_3(\alpha,\beta,\delta)-x_4(\alpha,\beta,\gamma)$，用 $(\delta,\alpha,\gamma)=(\alpha,\gamma,\delta)$ 把系数与 $c$ 完全对齐。\n第4步：依次取 $u=a_1,a_2,a_3$（即 $x_j$ 换为 $A$ 第 $i$ 行元素），此时 $D(a_i)$ 的矩阵有两行相同，故 $D(a_i)=0$。\n第5步：但 $D(a_i)=\sum_j a_{ij}c_j=(Ac)_i$，于是 $Ac$ 的三个分量全为 0，即 $Ac=0$。\n第6步：把 $Ac=0$ 按列向量重新写成 $(\beta,\gamma,\delta)\alpha-(\delta,\alpha,\gamma)\beta+(\alpha,\beta,\delta)\gamma-(\alpha,\beta,\gamma)\delta=0$，证毕。\n\n**易错点**：\n- 符号与顺序：必须先由轮换性把 $-(\delta,\alpha,\gamma)$ 换成 $-(\alpha,\gamma,\delta)$，否则与代数余子式 $(-1)^{4+2}M_{42}$ 对不上；余子式下标顺序最易错，建议写清 $M_{42}=\det[\alpha\;\gamma\;\delta]$。\n- 不要用『设 $(\alpha,\beta,\gamma)\neq0$，把 $\delta$ 用 $\alpha,\beta,\gamma$ 线性表出后两边乘 $(\alpha,\beta,\gamma)$』作主证：这只覆盖 $\alpha,\beta,\gamma$ 无关的情形，退化情形需另补论证（行列式展开法天然无除法、全情形成立）。\n- 只用『三维中四向量必线性相关』得不到结论：它只说明存在非零系数使组合为 0，不能直接说明系数恰为这些混合积（$\alpha,\beta,\gamma$ 相关时系数还可能是全零向量，唯一性也需额外证明）。\n\n**不确定**：题干未写明维数与记号：默认 $\alpha,\beta,\gamma,\delta\in\mathbb{R}^3$ 且 $(a,b,c)$ 表示混合积 $\det[a\;b\;c]$；若为四维及以上空间该恒等式一般不成立。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明：(β,γ,δ)α − (δ,α,γ)β + (α,β,δ)γ − (α,β,γ)δ = 0." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2024-jlu-fcffeed2.html#major-0701-2024-jlu-fcffeed2-q0006">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2024-jlu-fcffeed2-q0005.html">← 上一题（2024 五1）</a><a href="major-0701-2024-jlu-fcffeed2-q0007.html">下一题（2024 七1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2024 年 六 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95">解析几何</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%90%91%E9%87%8F%E4%BB%A3%E6%95%B0">向量代数</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2024-jlu-fcffeed2.html">2024 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#288</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2024-jlu-fcffeed2-q0006</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2024-jlu-fcffeed2-q0006";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2012 空间解析几何和高等代数 61 · 数学考研真题库</title>
+<meta name="description" content="假设 A 为 n 阶方阵，λ 为其一特征值. 记 Iₙ 为 n 阶单位方阵，假设 pₙ(x) = aₙxⁿ + a_{n−1}x^{n−1} + … + a₁x">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2012-jlu-444bfcea.html">2012 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2012 61
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2012 · 空间解析几何和高等代数 · 61</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">25 分</span><span class="sep">|</span><span class="t">2 个小问</span>    </h1>
+    <div class="qstem">假设 A 为 n 阶方阵，λ 为其一特征值. 记 Iₙ 为 n 阶单位方阵，假设 pₙ(x) = aₙxⁿ + a<sub>n−1</sub>x<sup>n−1</sup> + … + a₁x¹ + a₀，记 pₙ(A) = aₙAⁿ + a<sub>n−1</sub>A<sup>n−1</sup> + … + a₁A¹ + a₀Iₙ. <br> (1) 试验证 pₙ(λ) 是 pₙ(A) 的一个特征值 <br> (2) 试讨论当 A ≠ 0, pₙ ≠ 0 时，是否一定有 pₙ(A) ≠ 0. 若认为结论正确，给出证明；若认为结论错误，请举出反例</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：(1) 若 $A\alpha=\lambda\alpha$（$\alpha\neq 0$），则 $p_n(A)\alpha=p_n(\lambda)\alpha$，故 $p_n(\lambda)$ 是 $p_n(A)$ 的一个特征值；(2) 命题不成立：$A\neq 0$ 且 $p_n\neq 0$ 时不能保证 $p_n(A)\neq 0$。\n\n**用到的定理/引理**：\n- 特征值/特征向量定义：$A\alpha=\lambda\alpha$ 且 $\alpha\neq 0$（$p_n(\lambda)$ 是否被认定为特征值，全靠这个非零向量）\n- 矩阵多项式的线性性与 $A^k\alpha=\lambda^k\alpha$（归纳 + 矩阵乘法对向量的结合律）\n- 零矩阵与非零多项式的概念区分（$p_n\neq 0$ 指系数不全为零，不是指 $p_n(A)$）\n- 最小多项式整性判别：$p_n(A)=0\iff m_A(x)\mid p_n(x)$（用于补充讨论，可引用 Cayley–Hamilton 保证 $m_A$ 存在）\n- 幂零矩阵例子 $A=\begin{pmatrix}0&amp;1\\0&amp;0\end{pmatrix}$，$A\neq 0$ 但 $A^2=0$\n\n**证明思路**：\n1. 设 $\lambda$ 是 $A$ 的特征值，取对应特征向量 $\alpha\neq 0$，即 $A\alpha=\lambda\alpha$；先归纳证明 $A^k\alpha=\lambda^k\alpha$（$k=0$ 时按 $A^0=I_n$ 成立）。\n2. 把 $p_n(A)$ 作用在 $\alpha$ 上逐项展开：$p_n(A)\alpha=\sum_{k=0}^{n}a_kA^k\alpha=\left(\sum_{k=0}^{n}a_k\lambda^k\right)\alpha=p_n(\lambda)\alpha$，注意常数项是 $a_0I_n\alpha=a_0\alpha$。\n3. 由 $\alpha\neq 0$ 知 $p_n(\lambda)$ 满足特征值定义（即使 $p_n(\lambda)=0$ 也允许，零矩阵作用于 $\alpha$ 仍为 $0$），(1) 得证；可补一句：$\alpha$ 同时是 $p_n(A)$ 属于 $p_n(\lambda)$ 的特征向量。\n4. (2) 先给结论「否」，再给最简反例：$A=I_2\neq 0$，$p_n(x)=x-1\neq 0$，则 $p_n(A)=I_2-I_2=0$。\n5. 若想举 $A$ 不可逆/更实质的反例：$A=\begin{pmatrix}0&amp;1\\0&amp;0\end{pmatrix}\neq 0$，$p_n(x)=x^2\neq 0$，则 $p_n(A)=A^2=0$；也可用 $A=\mathrm{diag}(1,2)$，$p_n(x)=(x-1)(x-2)$ 由 Cayley–Hamilton 得 $p_n(A)=0$。\n6. 加分讨论（把问题说完整）：由 (1) 的逆否形式，只要 $A$ 有某特征值 $\lambda$ 使 $p_n(\lambda)\neq 0$，则 $p_n(A)$ 有非零特征值，必 $p_n(A)\neq 0$；反之 $p_n(A)=0\iff m_A(x)\mid p_n(x)$，而 $p_n(x)=x$ 配合幂零 $A$ 说明「所有 $p_n(\lambda_i)=0$」既不充分也不必要。\n\n**易错点**：\n- 常数项必须写成 $a_0I_n$；反例里写成 $p_n(A)=A-1$ 是无意义表达式（数不能减矩阵），这是本题最高频扣分点。\n- $\alpha\neq 0$ 必须点明：只写 $p_n(A)\alpha=p_n(\lambda)\alpha$ 而不强调存在非零向量，特征值定义没落地。\n- (1) 只需验证「$p_n(\lambda)$ 是 $p_n(A)$ 的一个特征值」，不要顺手断言「$p_n(A)$ 的全部特征值恰为 $p_n(\lambda_1),\dots,p_n(\lambda_n)$」——那个结论还牵扯重数与是否互异，超出题目要求且易写错；若用 $\det(xI-p_n(A))=\prod(x-p_n(\lambda_i))$ 需说明来源（Jordan 形或多项式根的计数）。\n- 反例要同时满足两个前提：$A\neq 0$ 与 $p_n$ 非零多项式；$p_n(x)\equiv 0$（全零系数）这种取法不合题意。\n- 讨论 $m_A\mid p_n$ 时注意数域：特征值与 $p_n(\lambda_i)$ 的关系在实数域上对无实特征值的矩阵会失效，反例取 $A=I$ 可回避该风险。\n\n**不确定**：题干未指明数域（$\mathbb R$ 还是 $\mathbb C$）与 $p_n\neq 0$ 的严格含义；本提纲按「$p_n$ 为非零多项式、$A$ 为实或复方阵」理解，所给反例 $A=I_2$、$p_n(x)=x-1$ 在两种数域下都成立，结论不受影响。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="假设 A 为 n 阶方阵，λ 为其一特征值. 记 Iₙ 为 n 阶单位方阵，假设 pₙ(x) = aₙxⁿ + a_{n−1}x^{n−1} + … + a₁x¹ + a₀，记 pₙ(A) = aₙAⁿ + a_{n−1}A^{n−1} + … + a₁A¹ + a₀Iₙ. 
+ (1) 试验证 pₙ(λ) 是 pₙ(A) 的一个特征值 
+ (2) 试讨论当 A ≠ 0, pₙ ≠ 0 时，是否一定有 pₙ(A) ≠ 0. 若认为结论正确，给出证明；若认为结论错误，请举出反例" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2012-jlu-444bfcea.html#major-0701-2012-jlu-444bfcea-q0008">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：6.（25 分）(1)(2)，同一对象 A、pₙ
+    </div>
+    <div class="pager">
+<a href="major-0701-2012-jlu-444bfcea-q0007.html">← 上一题（2012 52）</a><a href="major-0701-2012-ahu-c84f56e9-q0001.html">下一题（2012 一）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2012 年 6 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%89%B9%E5%BE%81%E5%80%BC%E4%B8%8E%E7%89%B9%E5%BE%81%E5%90%91%E9%87%8F">特征值与特征向量</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>25 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2012-jlu-444bfcea.html">2012 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#389</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2012-jlu-444bfcea-q0008</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2012-jlu-444bfcea-q0008";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2011 空间解析几何和高等代数 41 · 数学考研真题库</title>
+<meta name="description" content="设 β 是 n 元非齐次线性方程组 AX = b 的一个解向量，α₁, …, αₙ 是响应的齐次线性方程组 AX = 0 的一个基础解系. 证明：β, β + ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2011-jlu-0ab4c0c0.html">2011 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2011 41
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2011 · 空间解析几何和高等代数 · 41</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">15 分</span>    </h1>
+    <div class="qstem">设 β 是 n 元非齐次线性方程组 AX = b 的一个解向量，α₁, …, αₙ 是响应的齐次线性方程组 AX = 0 的一个基础解系. 证明：β, β + α₁, β + α₁ + α₂, …, β + α₁ + … + αₙ 是 AX = b 的一组线性无关解.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：要证 β, β+α₁, β+α₁+α₂, …, β+α₁+…+αₙ₋₁ 既都是 AX=b 的解，又线性无关。\n\n**用到的定理/引理**：\n- 非齐次解的结构：特解+齐次解仍是非齐次解（A(β+Σα)=b+0=b）\n- 基础解系定义：α₁,…,αₙ₋₁ 线性无关且张成 AX=0 的解空间\n- b≠0（非齐次）⇒ β 不是 AX=0 的解，用系数矩阵 A 作用等式两边可分离出 β 的系数\n- 线性无关的定义法；等价的矩阵法：向量组右乘可逆矩阵不改变线性相关性\n\n**证明思路**：\n1. 记 γ₀=β，γₖ=β+α₁+…+αₖ（k=1,…,n−1）。先证「是解」：$A\gamma_k = A\beta + A\alpha_1+\dots+A\alpha_k = b+0 = b$。\n2. 辅助结论：β, α₁,…,αₙ₋₁ 线性无关。设 $c_0\beta + c_1\alpha_1+\dots+c_{n-1}\alpha_{n-1}=0$，两边左乘 A 得 $c_0 b=0$；由 $b\neq 0$ 得 $c_0=0$，再据基础解系的线性无关性得 $c_1=\dots=c_{n-1}=0$。\n3. 设 $k_0\gamma_0+k_1\gamma_1+\dots+k_{n-1}\gamma_{n-1}=0$，按 β 与 αᵢ 归并系数：$(k_0+k_1+\dots+k_{n-1})\beta + (k_1+\dots+k_{n-1})\alpha_1 + \dots + k_{n-1}\alpha_{n-1}=0$。\n4. 由第 2 步令每个系数为 0，得倒三角形方程组 $c_j = k_j+\dots+k_{n-1}=0$；从 $k_{n-1}=0$ 逐次回推，得 $k_0=k_1=\dots=k_{n-1}=0$，故线性无关。\n5. 合并第 1 步与第 4 步即完成证明。\n（矩阵法备选：$(\gamma_0,\dots,\gamma_{n-1}) = (\beta,\alpha_1,\dots,\alpha_{n-1})\,C$，$C$ 为上三角且对角元全为 1，$\det C = 1 \neq 0$，由第 2 步的无关性直接得第 4 步结论。）\n\n**易错点**：\n- 题设要求证两件事：「都是解」和「线性无关」，只写后者会丢分\n- 第 2 步中 $c_0=0$ 必须依赖 $b\neq0$（即 β 不属于导出组解空间），这一步是核心得分点，不能默认\n- 归并系数后是倒三角结构，回推顺序要写清楚，否则会误判为「方程不够」\n\n**不确定**：题干「α₁,…,αₙ 是基础解系」应为 α₁,…,αₙ₋₁：n 元方程组的导出组基础解系若含 n 个向量，则 r(A)=0，且待证组是 n+1 个 n 维向量，必然线性相关，命题不成立。2011 年该题通行版本为 r(A)=1、基础解系含 n−1 个向量，上面按 n−1 个作答。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 β 是 n 元非齐次线性方程组 AX = b 的一个解向量，α₁, …, αₙ 是响应的齐次线性方程组 AX = 0 的一个基础解系. 证明：β, β + α₁, β + α₁ + α₂, …, β + α₁ + … + αₙ 是 AX = b 的一组线性无关解." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2011-jlu-0ab4c0c0.html#major-0701-2011-jlu-0ab4c0c0-q0008">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：4.（15 分）
+    </div>
+    <div class="pager">
+<a href="major-0701-2011-jlu-0ab4c0c0-q0007.html">← 上一题（2011 31）</a><a href="major-0701-2011-jlu-0ab4c0c0-q0009.html">下一题（2011 51）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2011 年 4 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">线性方程组</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>15 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2011-jlu-0ab4c0c0.html">2011 空间解析几何和高等代数（12 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#397</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2011-jlu-0ab4c0c0-q0008</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2011-jlu-0ab4c0c0-q0008";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

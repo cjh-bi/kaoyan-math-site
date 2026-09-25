@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2013 数学分析 41 · 数学考研真题库</title>
+<meta name="description" content="记 D = {(x,y) : 0 &lt; x &lt; 1, 0 &lt; y &lt; 1}，并设函数 f(x,y) = ax² + 2bxy + cy² + dx + ey，其中">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2013-jlu-ff1b58f6.html">2013 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2013 41
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2013 · 数学分析 · 41</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">记 D = {(x,y) : 0 &lt; x &lt; 1, 0 &lt; y &lt; 1}，并设函数 f(x,y) = ax² + 2bxy + cy² + dx + ey，其中 a,b,c,d,e 是常数. 证明：若在 ∂D（表示 D 的边界）上有 f(x,y) ≤ 0 成立，则对任意 (x,y) ∈ D 都有 f(x,y) ≤ 0.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：设 f 在闭方块的四条边 ∂D 上非正，则 f 在整个 D（实际上整个 ¯D）上非正；关键是把&#34;若有内点取正值，则最大值点必为内点&#34;转化为 Hessian 半负定。\n\n**用到的定理/引理**：\n- Weierstrass 定理：f 连续，在紧集 ¯D=[0,1]² 上取最大值\n- 内点极值的必要条件：∇f(P₀)=0 且 Hessian H=[[a,b],[b,c]] 半负定 ⇒ a≤0, c≤0, ac≥b²\n- 二次型非正的配方：a,c≤0 且 ac≥b² ⇒ ax²+2bxy+cy²≤-(√(-a)x-√(-c)y)²≤0\n- 沿边的一元二次不等式取极限（x→0⁺）读出一次项符号：d≤0, e≤0\n- 反证法\n\n**证明思路**：\n1. 反证：假设存在 P₁∈D 使 f(P₁)&gt;0；f 在 ¯D 上连续，设最大值 f(P₀)=M&gt;0，由 ∂D 上 f≤0 知 P₀=(x₀,y₀) 是 ¯D 的内点。\n2. 内点极大给出 ∇f(P₀)=0，且二阶必要条件 H=[[a,b],[b,c]] 半负定，故 a≤0、c≤0、ac≥b²（注意 H 为常矩阵，与 P₀ 无关）。\n3. 于是二次型 Q(x,y)=ax²+2bxy+cy² 对一切 (x,y)∈R² 非正：配方 Q≤-(√(-a)x-√(-c)y)²≤0（a=0 或 c=0 时由 ac≥b² 得 b=0，结论同样成立）。\n4. 用边的信息定一次项：在 y=0 上 f(x,0)=ax²+dx=x(ax+d)≤0 对 x∈(0,1] 成立，除以 x 令 x→0⁺ 得 d≤0；同理在 x=0 上 f(0,y)=cy²+ey≤0 得 e≤0。\n5. 合并：对任意 x≥0, y≥0 有 f(x,y)=Q(x,y)+dx+ey≤0，与 f(P₁)&gt;0 矛盾，故 D 上 f≤0（连边一起，¯D 上 f≤0）。\n6. 收尾一句：等号在 (0,0) 处成立（f(0,0)=0），说明结论不能再加强。\n\n**易错点**：\n- ∇f=0 与 Hessian 半负定只能用于内点：必须先有 M&gt;0 与&#34;边界 f≤0&#34;才能断定最大值点是内点；否则要改用 KKT/边界讨论。\n\n- 由 ax²+dx≤0 直接写&#34;a≤0 且 d≤0&#34;是不严谨的（例如 a=1,d=-2 也成立）；d≤0 只能由 x→0⁺ 的极限得到，a≤0 则来自 Hessian 半负定，两条来源别混。\n\n- 第 3 步的配方默认 a&lt;0,c&lt;0；退化情形 a=0（或 c=0）要单独说明 b=0，再回到 Q=cy²≤0。\n\n**不确定**：把 ∂D 理解为闭方块的四条边（含四个角点）；若题意只在两条过原点的边 {y=0}∪{x=0} 上给 f≤0，则第 1 步&#34;最大值点是内点&#34;不成立，结论也不成立（需另加条件）。其余无疑问。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="记 D = {(x,y) : 0 &lt; x &lt; 1, 0 &lt; y &lt; 1}，并设函数 f(x,y) = ax² + 2bxy + cy² + dx + ey，其中 a,b,c,d,e 是常数. 证明：若在 ∂D（表示 D 的边界）上有 f(x,y) ≤ 0 成立，则对任意 (x,y) ∈ D 都有 f(x,y) ≤ 0." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2013-jlu-ff1b58f6.html#major-0701-2013-jlu-ff1b58f6-q0011">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>结构备注</strong>：(20 分) 无 (k)
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2013-jlu-45d25bd4-q0004.html">2013 数学分析 · 吉林大学<span class="n">0.86</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2013-jlu-ff1b58f6-q0010.html">← 上一题（2013 31）</a><a href="major-0701-2013-jlu-ff1b58f6-q0012.html">下一题（2013 51）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2013 年 4 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%8D%E7%AD%89%E5%BC%8F%E8%AF%81%E6%98%8E">不等式证明</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2013-jlu-ff1b58f6.html">2013 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#197</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2013-jlu-ff1b58f6-q0011</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2013-jlu-ff1b58f6-q0011";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

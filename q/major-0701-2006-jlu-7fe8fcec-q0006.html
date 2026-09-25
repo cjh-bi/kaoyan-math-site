@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2006 空间解析几何和高等代数 三1 · 数学考研真题库</title>
+<meta name="description" content="设 V 为 n 维欧式空间，u₁,u₂,…,uₙ 与 v₁,v₂,…,vₙ 为 V 中向量，u₁,u₂,…,uₙ 线性无关，且对任意的 i, j (i,j = ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2006-jlu-7fe8fcec.html">2006 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2006 三1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2006 · 空间解析几何和高等代数 · 三1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">设 V 为 n 维欧式空间，u₁,u₂,…,uₙ 与 v₁,v₂,…,vₙ 为 V 中向量，u₁,u₂,…,uₙ 线性无关，且对任意的 i, j (i,j = 1,2,…,n) 均有 uᵢuⱼ = vᵢvⱼ. 证明，必有 V 上的正交变换 σ，使得 σ(uᵢ) = vᵢ (i = 1,2,…,n).</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：以基 {uᵢ} 上规定的 σ(uᵢ)=vᵢ 唯一确定一个线性变换，由内积相等可验证它保持内积，从而是正交变换。\n\n**用到的定理/引理**：\n- n 个线性无关向量在 n 维空间中构成基；给定基上像可唯一确定线性变换\n- 内积的双线性性：$(\sum a_i u_i,\sum b_j u_j)=\sum_{i,j}a_i b_j(u_i,u_j)$\n- 正交变换判定：线性变换满足 $(\sigma x,\sigma y)=(x,y)$ 恒成立 ⟺ 正交（有限维下自动可逆）\n- （备选矩阵路线）取标准正交基下坐标矩阵 $A=[u_1,\dots,u_n],B=[v_1,\dots,v_n]$，则 $A^{T}A=B^{T}B=G$ 正定，令 $Q=BA^{-1}$ 有 $Q^{T}Q=I$\n\n**证明思路**：\n1. 由 $\dim V=n$ 且 $u_1,\dots,u_n$ 线性无关，知 $\{u_i\}$ 是 $V$ 的一组基，故存在唯一线性变换 $\sigma$ 使 $\sigma(u_i)=v_i$。\n2. 任取 $x=\sum a_i u_i,\ y=\sum b_j u_j$，用双线性把 $x,y$ 与 $\sigma x=\sum a_i v_i,\ \sigma y=\sum b_j v_j$ 的内积分别展开成 $\sum a_i b_j$ 乘 Gram 元素。\n3. 代入条件 $(u_i,u_j)=(v_i,v_j)$，逐项相等，得 $(\sigma x,\sigma y)=(x,y)$ 对一切 $x,y$ 成立。\n4. 取 $y=x$ 得 $\|\sigma x\|=\|x\|$，故 $\ker\sigma=\{0\}$，$\sigma$ 单射；有限维自映射单即满，$\sigma$ 可逆。\n5. 由「保持内积的可逆线性变换」即正交变换的定义，$\sigma$ 为正交变换且满足 $\sigma(u_i)=v_i$，证毕。\n6. （可写可不写的旁注）因 Gram 矩阵 $G=((u_i,u_j))$ 正定，$\{v_i\}$ 也线性无关，$\sigma$ 确实把基映为基。\n\n**易错点**：\n- 题中「$u_i u_j$」应理解为内积 $(u_i,u_j)$，答题时最好先重述记号，避免阅卷歧义。\n- 只在基向量上验证 $(\sigma u_i,\sigma u_j)=(u_i,u_j)$ 不够，必须用双线性推广到任意 $x,y$ 才能说明保内积。\n- 若用矩阵路线，$\sigma$ 的矩阵是 $Q=BA^{-1}$（同一标准正交基下的坐标），不是 $A^{-1}B$；顺序写反会得到 $Q^{T}Q\ne I$。\n- 别默认 $\sigma$ 自动可逆：单射到满射的这一步要靠有限维（或显式构造 $\sigma^{-1}$，即以 $\{v_i\}$ 为基反定义）。\n\n**不确定**：题干乘积写法未加括号，按内积 $(u_i,u_j)$ 理解；这是 2006 年该题的标准表述。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 为 n 维欧式空间，u₁,u₂,…,uₙ 与 v₁,v₂,…,vₙ 为 V 中向量，u₁,u₂,…,uₙ 线性无关，且对任意的 i, j (i,j = 1,2,…,n) 均有 uᵢuⱼ = vᵢvⱼ. 证明，必有 V 上的正交变换 σ，使得 σ(uᵢ) = vᵢ (i = 1,2,…,n)." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2006-jlu-7fe8fcec.html#major-0701-2006-jlu-7fe8fcec-q0006">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2006-jlu-7fe8fcec-q0005.html">← 上一题（2006 二1）</a><a href="major-0701-2006-jlu-7fe8fcec-q0007.html">下一题（2006 四1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2006 年 三 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E6%AD%A3%E4%BA%A4%E5%8F%98%E6%8D%A2">正交变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2006-jlu-7fe8fcec.html">2006 空间解析几何和高等代数（11 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#439</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2006-jlu-7fe8fcec-q0006</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2006-jlu-7fe8fcec-q0006";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

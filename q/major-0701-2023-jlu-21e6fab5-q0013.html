@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2023 数学分析 六1 · 数学考研真题库</title>
+<meta name="description" content="设 f(x) 在 [1, +∞) 上有定义，且存在正的常数 l, L，对任意的 x₁, x₂ ∈ [1, +∞)，都有 $$l|x₂ − x₁| ≤ |f(x₂">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2023-jlu-21e6fab5.html">2023 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2023 六1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2023 · 数学分析 · 六1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">12 分</span>    </h1>
+    <div class="qstem">设 f(x) 在 [1, +∞) 上有定义，且存在正的常数 l, L，对任意的 x₁, x₂ ∈ [1, +∞)，都有 $l|x₂ − x₁| ≤ |f(x₂) − f(x₁)| ≤ L|x₂ − x₁|.$ 证明存在 X ∈ [1, +∞)，使得 (x + e^{−x})/f(x) 在 [X, +∞) 上一致连续.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：取 X 足够大后可使 |f(x)| ≥ (l/2)x，于是 (x+e^{−x})/f(x) 在 [X,+∞) 上满足 Lipschitz 估计 |h(x)−h(y)| ≤ M|x−y|，从而一致连续。\n\n**用到的定理/引理**：\n- 下界取基点 x=1：|f(x)| ≥ |f(x)−f(1)|−|f(1)| ≥ l(x−1)−|f(1)|（故 f 最终不变号且 1/|f(x)| = O(1/x)）\n- 分子记 φ(x)=x+e^{−x}：由 e^{−x} 单调且 |e^{−x}|′ ≤ 1 得 |φ(x)−φ(y)| ≤ 2|x−y|，且 x ≥ 1 时 φ(x) ≤ 2x\n- 分式作差恒等式 h(x)−h(y)=\dfrac{φ(x)−φ(y)}{f(x)}+φ(y)\dfrac{f(y)−f(x)}{f(x)f(y)}\n- 上界 |f(y)−f(x)| ≤ L|x−y|（同时给出 f 连续）\n- Lipschitz（乃至导数有界）⇒ 一致连续；备选：连续 + 在 +∞ 处极限存在 ⇒ 一致连续\n\n**证明思路**：\n1. 由 |f(x)| ≥ l(x−1)−|f(1)|，取 X ≥ max{1, 2+2|f(1)|/l}，则 x ≥ X 时 |f(x)| ≥ (l/2)x ≥ (l/2)X &gt; 0，即 \left|1/f(x)\right| ≤ 2/(lX)。\n2. 令 h(x)=(x+e^{−x})/f(x)，任取 x,y ≥ X，用作差恒等式拆成两项 T_1+T_2。\n3. 放大 T_1：|T_1| ≤ 2|x−y|·2/(lX) = 4|x−y|/(lX)。\n4. 放大 T_2：|T_2| ≤ 2y·L|x−y|\big/\left(\tfrac{l}{2}x\cdot\tfrac{l}{2}y\right) = 8L|x−y|/(l^2 x) ≤ 8L|x−y|/(l^2 X)（关键是分子里的 y 被下界中的 f(y) 约掉，于是右端与 x,y 无关）。\n5. 合并得 |h(x)−h(y)| ≤ M|x−y|，M=4/(lX)+8L/(l^2 X)&lt;∞，故 h 在 [X,+∞) 上 Lipschitz，从而一致连续，证毕。\n6. （等价的替代写法）拆 h = x/f(x) + e^{−x}/f(x)：前者按第 3–5 步证 Lipschitz，后者满足 0 ≤ |e^{−x}/f(x)| ≤ 2e^{−x}/(lX) → 0，由「连续 + ∞ 处极限存在 ⇒ 一致连续」处理。\n\n**易错点**：\n- 不能默认 f(x)≠0 或 f 无界：必须先用下界（在 x=1 处取值）证明 |f(x)| 线性增长——这正是题目要「存在 X」而非「在 [1,∞) 上」的原因。\n- 不要声称 x/f(x) 或 h(x) 在 +∞ 处有极限：让 f 的斜率在 l 与 L 之间于越来越长的区间上交替，即可使 f(x)/x 无极限，故「有极限⇒一致连续」这条捷径对 h 本身不成立。\n- Lipschitz 常数 M 含 1/X，直接取 X=1 时估计未必失效但写法上必须保证 (l/2)x ≤ |f(x)| 成立；作差时若只用单侧下界会留下含 x 的因子，必须两侧同时使用才能消去。\n\n**不确定**：题干中 e^{−x} 我按 exp(−x)（→0）理解；若原卷为 e^{x}，则分子不再是低阶项，第 4 步中 φ(y) ≤ 2y 的估计失效，结论一般不成立。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 f(x) 在 [1, +∞) 上有定义，且存在正的常数 l, L，对任意的 x₁, x₂ ∈ [1, +∞)，都有 $$l|x₂ − x₁| ≤ |f(x₂) − f(x₁)| ≤ L|x₂ − x₁|.$$ 证明存在 X ∈ [1, +∞)，使得 (x + e^{−x})/f(x) 在 [X, +∞) 上一致连续." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2023-jlu-21e6fab5.html#major-0701-2023-jlu-21e6fab5-q0013">在试卷中查看</a>
+    </div>
+    <div class="notice" style="margin-top:18px">
+      <strong>同题异卷</strong>：这道题（或高度相似的表述）在其它年份/学校也出现过 ——
+      <span class="small muted">按题干相似度判定，阈值 0.72</span>
+      <div class="toolbar" style="margin:10px 0 0">
+        <a class="chip" href="major-0701-2026-jlu-782ee47a-q0013.html">2026 数学分析 · 吉林大学<span class="n">0.77</span></a>
+        <a class="chip" href="major-0701-2022-jlu-cf3cd358-q0014.html">2022 数学分析 · 吉林大学<span class="n">0.75</span></a>
+      </div>
+    </div>
+    <div class="pager">
+<a href="major-0701-2023-jlu-21e6fab5-q0012.html">← 上一题（2023 五1）</a><a href="major-0701-2023-jlu-21e6fab5-q0014.html">下一题（2023 七1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2023 年 六 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E4%B8%80%E8%87%B4%E8%BF%9E%E7%BB%AD%E6%80%A7">一致连续性</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>12 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2023-jlu-21e6fab5.html">2023 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#56</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2023-jlu-21e6fab5-q0013</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2023-jlu-21e6fab5-q0013";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

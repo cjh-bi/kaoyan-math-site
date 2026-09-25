@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2021 空间解析几何和高等代数 51 · 数学考研真题库</title>
+<meta name="description" content="设 V 是 n 维欧氏空间，σ 为 V 上的线性变换. 证明：存在实数 a 使得 σ′σ = a* 当且仅当对 V 的任意子空间 S，均有 σ(S^⊥) ⊆ σ">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2021-jlu-76bbb6b9.html">2021 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2021 51
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2021 · 空间解析几何和高等代数 · 51</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">设 V 是 n 维欧氏空间，σ 为 V 上的线性变换. 证明：存在实数 a 使得 σ′σ = a* 当且仅当对 V 的任意子空间 S，均有 σ(S^⊥) ⊆ σ(S)^⊥，其中 σ′ 表示 σ 的伴随变换，a* 表示数乘变换，S^⊥ 表示 S 的正交补.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：存在实数 a 使 σ′σ = a·I（数乘变换 a*）当且仅当对任意子空间 S 均有 σ(S^⊥) ⊆ σ(S)^⊥，本质是把「对一切子空间的正交包含」翻译成「σ 保持两两正交」，再归结为对称双线性型 σ′σ 必为内积的常数倍。\n\n**用到的定理/引理**：\n- 伴随定义与内积恒等式 $(\sigma u,\sigma v)=(u,\sigma&#39;\sigma v)$，且 σ′σ 自伴故该型对称\n- 等价转换：「任意 S 有 σ(S^⊥)⊆σ(S)^⊥」⟺「u⊥v ⇒ σu⊥σv」（σ 保正交）\n- 引理：对称双线性型 B 若满足 u⊥v ⇒ B(u,v)=0，则 B=a·(·,·)（取正交基对角化＋交叉项证对角元相等）\n- 标准正交基展开与数乘变换 a* 对应 B=a(·,·) 的对应关系\n\n**证明思路**：\n1. 记 $B(u,v)=(\sigma u,\sigma v)=(u,\sigma&#39;\sigma v)$，由 σ′σ 自伴知 $B$ 是对称双线性型。\n2. 证明「对一切子空间 $S$，$\sigma(S^\perp)\subseteq\sigma(S)^\perp$」等价于「$\sigma$ 保正交：$u\perp v\Rightarrow\sigma u\perp\sigma v$，即 $u\perp v\Rightarrow B(u,v)=0$」：充分性取 $S=\text{span}(v)$，必要性对任意 $S$ 取 $x\in S^\perp, s\in S$ 用 $x\perp s$。\n3. 证引理：若 $B$ 对称且 $u\perp v\Rightarrow B(u,v)=0$，则 $B=a(\cdot,\cdot)$。取标准正交基 $\{e_i\}$，由 $B(e_i,e_j)=0\,(i\neq j)$ 得 $B$ 对角；再由 $B(e_i+e_j,e_i-e_j)=0$ 得 $B(e_i,e_i)=B(e_j,e_j)=a$。\n4. （⇐）由 2、3 得 $(u,\sigma&#39;\sigma v)=a(u,v)$ 对所有 $u,v$，故 $\sigma&#39;\sigma=a*$。\n5. （⇒）设 $\sigma&#39;\sigma=a*$，则 $u\perp v$ 时 $B(u,v)=(u,av)=a(u,v)=0$，由第 2 步等价即得 $\sigma(S^\perp)\subseteq\sigma(S)^\perp$。\n\n**易错点**：\n- 不要把保正交条件直接当成「σ 是正交变换」；它只给出 σ′σ 是常数倍，且 a≥0 由半正定自动成立但题干只要求「实数 a」，不必额外论证 a 的符号\n- 引理用到对称性（即 σ′σ 自伴），漏掉对称性则 u⊥v⇒B(u,v)=0 不能推出 B=a(·,·)（反例可取反对称型）\n- 第 2 步两个方向的等价要分别验证，尤其「对一切 S」这一全称量化是取 S=span(v) 的依据，不可只对 1 维子空间默认成立\n\n**不确定**：无（题干 a* 按数乘变换理解，σ′ 为伴随变换，符号与结论自洽）</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 V 是 n 维欧氏空间，σ 为 V 上的线性变换. 证明：存在实数 a 使得 σ′σ = a* 当且仅当对 V 的任意子空间 S，均有 σ(S^⊥) ⊆ σ(S)^⊥，其中 σ′ 表示 σ 的伴随变换，a* 表示数乘变换，S^⊥ 表示 S 的正交补." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2021-jlu-76bbb6b9.html#major-0701-2021-jlu-76bbb6b9-q0005">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2021-jlu-76bbb6b9-q0004.html">← 上一题（2021 41）</a><a href="major-0701-2021-jlu-76bbb6b9-q0006.html">下一题（2021 61）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2021 年 5 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E4%BC%B4%E9%9A%8F%E5%8F%98%E6%8D%A2">伴随变换</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2021-jlu-76bbb6b9.html">2021 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#311</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2021-jlu-76bbb6b9-q0005</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2021-jlu-76bbb6b9-q0005";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

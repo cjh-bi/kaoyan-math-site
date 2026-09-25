@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2021 数学分析 二2 · 数学考研真题库</title>
+<meta name="description" content="证明 ∫₀^{+∞} sin(xy)/x dx 在 y ∈ [a, +∞) 上一致收敛，但在 y ∈ (0, +∞) 上不一致收敛，其中 a &gt; 0">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2021-jlu-3e191c00.html">2021 试卷</a> /  <a href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90">数学分析</a> /
+  2021 二2
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2021 · 数学分析 · 二2</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+    </h1>
+    <div class="qstem">证明 ∫₀<sup>+∞</sup> sin(xy)/x dx 在 y ∈ [a, +∞) 上一致收敛，但在 y ∈ (0, +∞) 上不一致收敛，其中 a &gt; 0</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：该含参反常积分的唯一瑕点是 $x=+\infty$（$x=0$ 处 $\sin(xy)/x\to y$ 可去），它在 $y\in[a,+\infty)$ 上关于 $y$ 一致收敛，但在 $y\in(0,+\infty)$ 上不一致收敛。\n\n**用到的定理/引理**：\n- 一致收敛的 Dirichlet 判别法：$\left|\int_A^B\sin(xy)\,dx\right|=|\cos(Ay)-\cos(By)|/y\le 2/a$ 对 $y\ge a$ 一致有界，$1/x$ 单调且与 $y$ 无关地趋于 $0$\n- 分部积分（或第二中值定理）得到的 Cauchy 估计 $\left|\int_A^B\frac{\sin(xy)}{x}dx\right|\le \frac{3}{aA}$\n- 换元 $t=xy$，把尾部化为 $\int_{Ay}^{By}\frac{\sin t}{t}dt$\n- 一致收敛的 Cauchy 准则及其否定形式（存在 $\varepsilon_0&gt;0$，对任意 $A$ 可找 $y$、$B&gt;A$ 使尾部不趋于 $0$）\n- 不等式 $\sin t\ge 2t/\pi$（$t\in[0,\pi/2]$），保证 $c=\int_0^{\pi}\frac{\sin t}{t}dt\ge 1&gt;0$\n\n**证明思路**：\n1. 先说明 $x=0$ 不是瑕点（$\sin(xy)/x\to y$，且在任何 $y$ 的有界区间上可积部分一致有界），于是一致收敛性问题完全归结为尾部 $\int_A^{+\infty}$ 的 Cauchy 条件。\n2. 取 $a&gt;0$，对 $y\in[a,+\infty)$ 用一致 Dirichlet 判别法：$\int_A^B\sin(xy)dx$ 关于 $y$ 一致有界（界 $2/a$），$1/x$ 单调下降且与 $y$ 无关地 $\to0$，得一致收敛。\n3. 若用估计式更直接：分部积分得 $\left|\int_A^B\frac{\sin(xy)}{x}dx\right|\le\frac{2}{yA}+\frac1y\int_A^B\frac{dx}{x^2}\le\frac{3}{aA}$，当 $A\to\infty$ 时对一切 $y\ge a$、一切 $B&gt;A$ 一致趋于 $0$。\n4. 否定 $(0,+\infty)$ 上的一致收敛：任给 $A&gt;0$，取 $y$ 充分小使 $B=\pi/y&gt;A$，换元 $t=xy$ 得 $\int_A^B\frac{\sin(xy)}{x}dx=\int_{Ay}^{\pi}\frac{\sin t}{t}dt$。\n5. 因 $\int_0^{Ay}\frac{\sin t}{t}dt\le Ay$，当 $y$ 足够小时上式 $\ge c/2\ge 1/2$；即存在 $\varepsilon_0=1/2$，无论 $A$ 多大都能找到反例 $y,B$，Cauchy 准则失效，故不一致收敛。\n6. 直观注脚（可选，作检验）：尾部余项 $=\int_{Ay}^{+\infty}\frac{\sin t}{t}dt$，当 $y\to0^+$ 时它趋于 $\int_0^{+\infty}\frac{\sin t}{t}dt=\pi/2\ne0$，说明换元把「无穷远」拉回到 $0$ 附近。\n\n**易错点**：\n- 不能用「和函数不连续」来否定一致收敛：此题极限函数在 $y&gt;0$ 上恒为 $\pi/2$，处处连续；失效只在积分收敛的一致速度上，必须走 Cauchy 准则/余项估计。\n- 换元 $t=xy$ 时下限由 $A$ 变成 $Ay$，别误写成与 $y$ 无关的 $\int_A^{\infty}$；正是 $Ay\to0$ 构造出反例。\n- Dirichlet 判别法中「$1/x\to0$ 关于 $y$ 一致」这里因 $1/x$ 不含 $y$ 而自动成立；若题目因子含 $y$ 则须另行验证，否则证明不完整。\n\n**不确定**：无（按题干理解为 $a&gt;0$ 给定常数、唯一瑕点为 $+\infty$）</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="证明 ∫₀^{+∞} sin(xy)/x dx 在 y ∈ [a, +∞) 上一致收敛，但在 y ∈ (0, +∞) 上不一致收敛，其中 a &gt; 0" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2021-jlu-3e191c00.html#major-0701-2021-jlu-3e191c00-q0012">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2021-jlu-3e191c00-q0011.html">← 上一题（2021 二1）</a><a href="major-0701-2021-jlu-3e191c00-q0013.html">下一题（2021 二3）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2021 年 二 2 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l2=%E5%90%AB%E5%8F%82%E9%87%8F%E7%A7%AF%E5%88%86">含参量积分</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2021-jlu-3e191c00.html">2021 数学分析（14 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#83</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2021-jlu-3e191c00-q0012</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2021-jlu-3e191c00-q0012";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>

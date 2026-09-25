@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>2022 空间解析几何和高等代数 三1 · 数学考研真题库</title>
+<meta name="description" content="设 A 为数域 Ω 上的 n (n ≥ 2) 阶非零矩阵，证明：存在 Ω 上的 n 阶非零矩阵 B，使得 (AB)ⁿ = (BA)ⁿ = O.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="../assets/katex/katex.min.css">
+<link rel="stylesheet" href="../assets/site.css?v=20260925135128">
+</head>
+<body class="page-question">
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
+    <nav class="nav">
+      <a href="../index.html">首页</a>
+      <a href="../questions.html">题库</a>
+      <a href="../papers.html">试卷</a>
+      <a href="../knowledge.html">知识点</a>
+      <a href="../schools.html">院校</a>
+      <a href="../focus.html">备考重点</a>
+      <a href="../plan.html">复习计划</a>
+      <a href="../stars.html">收藏</a>
+      <a href="../stats.html">统计</a>
+      <a href="../about.html">说明</a>
+    </nav>
+    <span class="spacer"></span>
+    <form class="search-mini" action="../questions.html" method="get">
+      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
+    </form>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+<div class="crumbs">
+  <a href="../index.html">首页</a> /
+  <a href="../questions.html">题库</a> /
+<a href="../paper/major-0701-2022-jlu-774918a6.html">2022 试卷</a> /  <a href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0">空间解析几何和高等代数</a> /
+  2022 三1
+</div>
+
+<div class="detail">
+  <article class="panel">
+    <h1 class="qmeta">
+      <span class="no">2022 · 空间解析几何和高等代数 · 三1</span>
+      <span class="sep">|</span>
+      <span class="t">证明</span>
+<span class="sep">|</span><span class="t">20 分</span>    </h1>
+    <div class="qstem">设 A 为数域 Ω 上的 n (n ≥ 2) 阶非零矩阵，证明：存在 Ω 上的 n 阶非零矩阵 B，使得 (AB)ⁿ = (BA)ⁿ = O.</div>
+    <details class="answer-block" style="margin-top:16px">
+      <summary>查看答案与解析</summary>
+<div class="answer-line"><span class="muted small">答案</span>（证明思路提纲，非完整证明）</div><div class="answer-body">**要证**：构造秩 1 矩阵 B=xy^T 使 y^T A x=0，则得到更强的结论 (AB)^2=(BA)^2=O，从而 (AB)^n=(BA)^n=O。\n\n**用到的定理/引理**：\n- 秩 1（外积）分解 B=xy^T，以及标量可提出去的结合律：(xy^T A)^2=x(y^T A x)y^T A\n- 齐次线性方程组有非零解定理：1 个方程 n 个未知数、n≥2 时 u^T y=0 有非零解\n- 由 (AB)^2=O 得 (AB)^n=O（n≥2 时幂次单调）\n- 备选路线：det(λI-AB)=det(λI-BA) + Cayley–Hamilton（把 AB 做成幂零即可）\n\n**证明思路**：\n1. 任取非零列向量 $x\in\Omega^n$，记 $u=Ax\in\Omega^n$。\n2. 若 $u\ne0$，方程 $u^{\mathsf T}y=0$ 是 1 个方程、$n\;(n\ge2)$ 个未知数的齐次方程组，取非零解 $y$；若 $u=0$ 则任取 $y\ne0$。总之有 $x\ne0,y\ne0$ 且 $y^{\mathsf T}Ax=y^{\mathsf T}u=0$。\n3. 令 $B=xy^{\mathsf T}$，由 $x\ne0,y\ne0$ 知 $B\ne O$（秩 1）。\n4. 算 $(AB)^2=(Ax)y^{\mathsf T}(Ax)y^{\mathsf T}=x(y^{\mathsf T}Ax)y^{\mathsf T}=(y^{\mathsf T}Ax)AB=O$。\n5. 算 $(BA)^2=(xy^{\mathsf T}A)(xy^{\mathsf T}A)=x(y^{\mathsf T}Ax)y^{\mathsf T}A=(y^{\mathsf T}Ax)BA=O$。\n6. 由 $n\ge2$ 得 $(AB)^n=(AB)^2(AB)^{n-2}=O$，$(BA)^n=O$，证毕。\n\n**易错点**：\n- B≠O 必须同时说明 $x\ne0$ 且 $y\ne0$（秩 1 非零），只保证一个不够。\n- $n\ge2$ 用在哪一步要写清：第 2 步取 $y$ 时必须有非零解；$n=1$ 时命题本身不成立（A≠0、B≠0 则 $AB\ne0$）。\n- 别把 “$(AB)^n=O$ 与 $(BA)^n=O$ 显然等价” 当依据；若走该路线须先证明 $\det(\lambda I-AB)=\det(\lambda I-BA)$ 再配 Cayley–Hamilton。\n\n**不确定**：无。附注：题中 A 非零其实未用到（A=O 时同样成立），且本证法只用矩阵乘法与线性方程组解的存在性，对任意数域 Ω 都成立，不需要 Ω 代数闭。</div>      <div class="small muted" style="margin-top:8px">
+来源：证明思路（AI 生成，仅供参考）        <span class="chip ghost" title="来源未经人工逐题核对，仅供参考">待核对</span>
+      </div>
+      <div class="small muted" style="margin-top:6px">
+        ⚠️ 该答案尚未人工核对，请对照原卷使用。
+      </div>
+    </details>
+    <div class="toolbar" style="margin-top:14px">
+      <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
+      <button class="btn small copy-btn" data-stem="设 A 为数域 Ω 上的 n (n ≥ 2) 阶非零矩阵，证明：存在 Ω 上的 n 阶非零矩阵 B，使得 (AB)ⁿ = (BA)ⁿ = O." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <a class="btn small" href="../paper/major-0701-2022-jlu-774918a6.html#major-0701-2022-jlu-774918a6-q0003">在试卷中查看</a>
+    </div>
+    <div class="pager">
+<a href="major-0701-2022-jlu-774918a6-q0002.html">← 上一题（2022 二1）</a><a href="major-0701-2022-jlu-774918a6-q0004.html">下一题（2022 四1）→</a>    </div>
+  </article>
+
+  <aside class="panel">
+    <h2 class="side-title">题目信息</h2>
+    <div class="meta-list">
+      <div><span class="k">题号</span><br>2022 年 三 1 题</div>
+      <div><span class="k">一级知识点</span><br><a class="chip accent" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a></div>
+<div><span class="k">二级知识点</span><br><a class="chip" href="../questions.html?subject=%E7%A9%BA%E9%97%B4%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95%E5%92%8C%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l2=%E5%B9%82%E9%9B%B6%E7%9F%A9%E9%98%B5">幂零矩阵</a></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">分值</span><br>20 分（回连自原卷标注，相似度 >= 0.9）</div>      <div><span class="k">来源</span><br><span class="mono">各高校历年数学考研真题（经校对整理）</span></div>
+<div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2022-jlu-774918a6.html">2022 空间解析几何和高等代数（8 题）</a></div>      <div><span class="k">源表行号</span><br><span class="mono">#301</span></div>
+      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2022-jlu-774918a6-q0003</span></div>
+    </div>
+  </aside>
+</div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 14706 题</span>
+    <span>生成于 2026-09-25 13:51 · <a href="../about.html">数据说明</a></span>
+  </div>
+</footer>
+<script defer src="../assets/katex/katex.min.js"></script>
+<script defer src="../assets/katex/auto-render.min.js"></script>
+<script defer src="../assets/math.js?v=20260925135128"></script>
+<script defer src="../assets/stars.js?v=20260925135128"></script>
+<script defer src="../assets/copy.js?v=20260925135128"></script>
+<script defer>
+document.addEventListener("DOMContentLoaded", function () {
+  var btn = document.getElementById("star-btn");
+  if (!btn || !window.KYStars) return;
+  var qid = "major-0701-2022-jlu-774918a6-q0003";
+  function paint(on) {
+    btn.textContent = on ? "★ 已收藏" : "☆ 收藏";
+    btn.classList.toggle("on", on);
+    btn.setAttribute("aria-label", on ? "取消收藏" : "收藏此题");
+  }
+  paint(window.KYStars.has(qid));
+  btn.addEventListener("click", function () { paint(window.KYStars.toggle(qid)); });
+});
+</script>
+</body>
+</html>
