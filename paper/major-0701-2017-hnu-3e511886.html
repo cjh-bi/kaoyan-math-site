@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,13 +59,13 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">1</span></a>
+    <span class="chip accent" >一元积分学<span class="n">2</span></span>
+    <span class="chip accent" >多元微分学<span class="n">2</span></span>
+    <span class="chip accent" >多元积分学<span class="n">2</span></span>
+    <span class="chip accent" >一元微分学<span class="n">1</span></span>
+    <span class="chip accent" >极限与连续<span class="n">1</span></span>
+    <span class="chip accent" >广义积分与含参积分<span class="n">1</span></span>
+    <span class="chip accent" >级数<span class="n">1</span></span>
   </div>
 </div>
 
@@ -86,7 +81,7 @@
 <span class="sep">|</span><span class="t">4 个小问</span>      </div>
       <div class="stem">计算题(每小题 7 分, 共 28 分)<br>(1) 求 $\lim_{n\to\infty} \cos\frac{x}{2}\cos\frac{x}{2^2}\cdots\cos\frac{x}{2^n}$ $(x\neq 0)$;<br>(2) 计算 $\int x\arcsin x\mathrm{d}x$;<br>(3) 已知 $\int_{1}^{2} f(x)\mathrm{d}x = 4$, 求 $\int_{0}^{2} xf(2x^2 + 1)\mathrm{d}x$;<br>(4) 设 $F(x)$ 是 $\cos x$ 的一个原函数, 求 $\frac{\mathrm{d}F(\sin x)}{\mathrm{d}x}$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">导数计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算题(每小题 7 分, 共 28 分)
@@ -103,7 +98,7 @@
       </div>
       <div class="stem">设 $f(x)$ 在 $[0,1]$ 上有一阶连续导数, 且 $f(0) = f(1) = 0$, 记 $M = \max_{0\leqslant x\leqslant 1}|f&#x27;(x)|$, 求证<br>$\left|\int_{0}^{1} f(x)\mathrm{d}x\right| \leqslant \frac{M}{4}.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">积分不等式</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x)$ 在 $[0,1]$ 上有一阶连续导数, 且 $f(0) = f(1) = 0$, 记 $M = \max_{0\leqslant x\leqslant 1}|f&#39;(x)|$, 求证
@@ -117,7 +112,7 @@ $\left|\int_{0}^{1} f(x)\mathrm{d}x\right| \leqslant \frac{M}{4}.$" title="复�
       </div>
       <div class="stem">讨论函数<br>$f(x,y) = \begin{cases} \dfrac{xy^3}{x^2 + y^4}, &amp; x^2 + y^2 \neq 0; \\ 0, &amp; x^2 + y^2 = 0. \end{cases}$<br>在原点 $(0,0)$ 处的连续性, 可偏导性和可微性.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">偏导数</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="讨论函数
@@ -132,7 +127,7 @@ $f(x,y) = \begin{cases} \dfrac{xy^3}{x^2 + y^4}, &amp; x^2 + y^2 \neq 0; \\ 0, &
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">(1) 叙述函数 $f(x)$ 在区间 $I$ 上的一致连续的定义;<br>(2) 设 $f(x), g(x)$ 是 $I$ 上的有界一致连续函数, 证明 $f(x)g(x)$ 在 $I$ 上一致连续.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">一致连续性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="(1) 叙述函数 $f(x)$ 在区间 $I$ 上的一致连续的定义;
@@ -146,7 +141,7 @@ $f(x,y) = \begin{cases} \dfrac{xy^3}{x^2 + y^4}, &amp; x^2 + y^2 \neq 0; \\ 0, &
       </div>
       <div class="stem">计算曲面积分 $\iint_{S} xyz\mathrm{d}x\mathrm{d}y$, 其中 $S$ 为 $x^2 + y^2 + z^2 = 1$ 外侧在 $x\geqslant 0, y\geqslant 0$ 的部分</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第二型曲面积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算曲面积分 $\iint_{S} xyz\mathrm{d}x\mathrm{d}y$, 其中 $S$ 为 $x^2 + y^2 + z^2 = 1$ 外侧在 $x\geqslant 0, y\geqslant 0$ 的部分" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -159,7 +154,7 @@ $f(x,y) = \begin{cases} \dfrac{xy^3}{x^2 + y^4}, &amp; x^2 + y^2 \neq 0; \\ 0, &
       </div>
       <div class="stem">设含参变量函数 $f(x) = \int_{x}^{x^2} \dfrac{\sin ux}{u}\mathrm{d}u$, $(x &gt; 0)$, 求 $f&#x27;(x)$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a>
+        <span>广义积分与含参积分</span>
 <span class="chip">含参量积分求导</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设含参变量函数 $f(x) = \int_{x}^{x^2} \dfrac{\sin ux}{u}\mathrm{d}u$, $(x &gt; 0)$, 求 $f&#39;(x)$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -172,7 +167,7 @@ $f(x,y) = \begin{cases} \dfrac{xy^3}{x^2 + y^4}, &amp; x^2 + y^2 \neq 0; \\ 0, &
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $f(x) = \sum_{n=1}^{\infty} (-1)^{n+1}\dfrac{e^{-nx}}{n}$, 求:<br>(1) $f(x)$ 连续的取值范围;<br>(2) $f(x)$ 可导的取值范围.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">函数项级数</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x) = \sum_{n=1}^{\infty} (-1)^{n+1}\dfrac{e^{-nx}}{n}$, 求:
@@ -187,7 +182,7 @@ $f(x,y) = \begin{cases} \dfrac{xy^3}{x^2 + y^4}, &amp; x^2 + y^2 \neq 0; \\ 0, &
       </div>
       <div class="stem">设 $f(x)$ 设函数 $u(x,y)$ 在由封闭的光滑曲线 $L$ 所围成的区域上具有二阶连续偏导数, 证明<br>$\iint_{D} \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2}\right)\mathrm{d}\sigma = \oint_{L} \frac{\partial u}{\partial n}\mathrm{d}s.$<br>其中 $\dfrac{\partial u}{\partial n}$ 是 $u(x,y)$ 沿 $L$ 外法线方向 $n$ 的方向导数.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第二型曲面积分</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x)$ 设函数 $u(x,y)$ 在由封闭的光滑曲线 $L$ 所围成的区域上具有二阶连续偏导数, 证明
@@ -202,7 +197,7 @@ $\iint_{D} \left(\frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partia
       </div>
       <div class="stem">设 $f(x,y)$ 具有二阶连续偏导数, $g(x,y) = f(e^{xy}, x^2 + y^2)$, 且<br>$f(x,y) = 1 - x - y + o\left(\sqrt{(x-1)^2 + y^2}\right),$<br>证明: $g(x,y)$ 在 $(0,0)$ 取得极值, 判断此极值是极大值还是极小值? 并求出此极值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">极值与最值</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0009.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x,y)$ 具有二阶连续偏导数, $g(x,y) = f(e^{xy}, x^2 + y^2)$, 且
@@ -217,7 +212,7 @@ $f(x,y) = 1 - x - y + o\left(\sqrt{(x-1)^2 + y^2}\right),$
 <span class="sep">|</span><span class="t">4 个小问</span>      </div>
       <div class="stem">设函数 $g(x)$ 非负连续，且存在正数 $a$ 使得<br>$g(x) + a \int_{x-1}^{x} g(t)\mathrm{d}t = A,$<br>(1) 求证：$g(x)$ 可导；<br>(2) 令 $F(x) = e^{ax}g(x)$，证明 $F(x)$ 为增函数；<br>(3) 求证：$g(x) &gt; A$；<br>(4) 给出 $g(x)$ 恒为常数的一个充分条件.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">变限积分</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2017-hnu-3e511886-q0010.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设函数 $g(x)$ 非负连续，且存在正数 $a$ 使得

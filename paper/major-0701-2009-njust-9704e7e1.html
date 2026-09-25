@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,13 +59,13 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">3</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分<span class="n">1</span></a>
+    <span class="chip accent" >极限与连续<span class="n">3</span></span>
+    <span class="chip accent" >级数<span class="n">2</span></span>
+    <span class="chip accent" >一元微分学<span class="n">2</span></span>
+    <span class="chip accent" >多元微分学<span class="n">2</span></span>
+    <span class="chip accent" >一元积分学<span class="n">1</span></span>
+    <span class="chip accent" >多元积分学<span class="n">1</span></span>
+    <span class="chip accent" >广义积分与含参积分<span class="n">1</span></span>
   </div>
 </div>
 
@@ -86,7 +81,7 @@
       </div>
       <div class="stem">求下列极限<br>(1)<br>$\lim_{x \to +\infty} (x+1)[\ln(x^2+x) - 2\ln(x+1)].$<br>(2)<br>$\lim_{n \to \infty} n^2 \left( 3^{\frac{1}{n}} + 3^{-\frac{1}{n}} - 2 \right).$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">函数极限计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求下列极限
@@ -103,7 +98,7 @@ $\lim_{n \to \infty} n^2 \left( 3^{\frac{1}{n}} + 3^{-\frac{1}{n}} - 2 \right).$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">判断题 (若正确, 给出结论; 若不正确, 举一个反例)<br>(1) 设 $\{a_n\}$ 是一数列, 对任意 $n$, $0 &lt; a_n &lt; 1$, 则 $\lim_{n \to \infty} a_n^n = 0$.<br>(2) 设 $f&#x27;(x_0) &gt; 0$, 则存在 $\delta &gt; 0$, 使得 $f(x)$ 在 $(x_0 - \delta, x_0 + \delta)$ 内严格单调增.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">数列极限计算</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="判断题 (若正确, 给出结论; 若不正确, 举一个反例)
@@ -118,7 +113,7 @@ $\lim_{n \to \infty} n^2 \left( 3^{\frac{1}{n}} + 3^{-\frac{1}{n}} - 2 \right).$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $a_1 = 3$, $a_{n+1} = \dfrac{1}{1+a_n}$, $n = 1, 2, \cdots$.<br>(1) 证明: $\{a_{2n-1}\}$ 单调减, $\{a_{2n}\}$ 单调增.<br>(2) 证明: 数列 $\{a_n\}$ 收敛, 并求 $\lim_{n \to \infty} a_n$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">递推数列</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $a_1 = 3$, $a_{n+1} = \dfrac{1}{1+a_n}$, $n = 1, 2, \cdots$.
@@ -133,7 +128,7 @@ $\lim_{n \to \infty} n^2 \left( 3^{\frac{1}{n}} + 3^{-\frac{1}{n}} - 2 \right).$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">(1) 将<br>$f(x) = \mathrm{e}^{\alpha x}, \ x \in (0, 2\pi)$<br>展开为 Fourier 级数.<br>(2) 求级数<br>$\sum_{n=1}^{\infty} \frac{1}{1+n^2}$<br>的和.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">傅里叶级数</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="(1) 将
@@ -151,7 +146,7 @@ $\sum_{n=1}^{\infty} \frac{1}{1+n^2}$
       </div>
       <div class="stem">证明: 当 $x \in \left( 0, \dfrac{\pi}{2} \right)$ 时,<br>$\tan x + \sin x &gt; 2x.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">不等式证明</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="证明: 当 $x \in \left( 0, \dfrac{\pi}{2} \right)$ 时,
@@ -165,7 +160,7 @@ $\tan x + \sin x &gt; 2x.$" title="复制题干原文（含 LaTeX，保留换行
 <span class="sep">|</span><span class="t">3 个小问</span>      </div>
       <div class="stem">设<br>$a_n = \int_0^1 x^n \sqrt{1-x^2} \mathrm{d}x,$<br>$n$ 为自然数. 求证:<br>(1) $a_n = \dfrac{n-1}{n+2} a_{n-2}$, $n = 3, 4, \cdots$.<br>(2) $a_n \leqslant a_{n-1} \leqslant a_{n-2}$.<br>(3) $\lim_{n \to \infty} \dfrac{a_n}{a_{n-1}} = 1$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设
@@ -183,7 +178,7 @@ $n$ 为自然数. 求证:
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">(1) 证明: 函数项级数<br>$\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}}{n} \frac{x^n}{1+x^n}$<br>在开区间 $(0,1)$ 上一致收敛.<br>(2) 记上述级数的和函数为 $s(x)$, 则 $s(x)$ 在 $(0,1)$ 上有连续导数.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">函数项级数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="(1) 证明: 函数项级数
@@ -199,7 +194,7 @@ $\sum_{n=1}^{+\infty} \frac{(-1)^{n-1}}{n} \frac{x^n}{1+x^n}$
       </div>
       <div class="stem">计算三重积分<br>$\iiint_{\Omega} x^2 \mathrm{d}x \mathrm{d}y \mathrm{d}z,$<br>其中 $\Omega$ 是由曲面 $z = \sqrt{x^2+y^2}$ 与 $z = x^2+y^2$ 围成的有界区域.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">三重积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算三重积分
@@ -214,7 +209,7 @@ $\iiint_{\Omega} x^2 \mathrm{d}x \mathrm{d}y \mathrm{d}z,$
       </div>
       <div class="stem">设<br>$u = f(x - y, y - z, z - x),$<br>假设 $f$ 对其中变量有二阶连续偏导数, 计算 $\dfrac{\partial^2 u}{\partial x^2}$ 和 $\dfrac{\partial^2 u}{\partial y \partial z}$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">偏导数</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0009.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设
@@ -229,7 +224,7 @@ $u = f(x - y, y - z, z - x),$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">(1) 设<br>$f(\alpha) = \int_0^1 \dfrac{\ln(1 + \alpha x)}{1 + x^2} \mathrm{d}x,$<br>对任意 $\alpha \in (0, 1)$, 求 $f&#x27;(\alpha)$.<br>(2) 计算<br>$\int_0^1 \dfrac{\ln(1 + x)}{1 + x^2} \mathrm{d}x.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a>
+        <span>广义积分与含参积分</span>
 <span class="chip">含参量积分求导</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0010.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="(1) 设
@@ -246,7 +241,7 @@ $\int_0^1 \dfrac{\ln(1 + x)}{1 + x^2} \mathrm{d}x.$" title="复制题干原文�
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $D$ 是平面上的有界闭区域, 函数 $u(x, y)$ 在 $D$ 上有二阶连续偏导数, 在 $D$ 的内部成立<br>$\dfrac{\partial^2 u}{\partial x^2} + \dfrac{\partial^2 u}{\partial y^2} + c u(x, y) = 0,$<br>其中 $c &lt; 0$ 为常数, 证明:<br>(1) 若 $u$ 在 $D$ 上有正的最大值, 则它的最大值不能在 $D$ 的内部取得.<br>(2) 若在 $D$ 的边界上 $u = 0$, 则在 $D$ 上 $u(x, y)$ 恒等于零.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">调和函数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0011.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $D$ 是平面上的有界闭区域, 函数 $u(x, y)$ 在 $D$ 上有二阶连续偏导数, 在 $D$ 的内部成立
@@ -263,7 +258,7 @@ $\dfrac{\partial^2 u}{\partial x^2} + \dfrac{\partial^2 u}{\partial y^2} + c u(x
       </div>
       <div class="stem">设 $f$ 是实轴上的二阶可导的函数, $|f(x)| \leqslant 1$, 且 $[f(0)]^2 + [f&#x27;(0)]^2 = 4$. 证明: 存在 $\xi \in (-2, 2)$, 使得<br>$f(\xi) + f&#x27;&#x27;(\xi) = 0.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">中值定理</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-njust-9704e7e1-q0012.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f$ 是实轴上的二阶可导的函数, $|f(x)| \leqslant 1$, 且 $[f(0)]^2 + [f&#39;(0)]^2 = 4$. 证明: 存在 $\xi \in (-2, 2)$, 使得

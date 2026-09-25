@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,10 +59,10 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组<span class="n">3</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E5%A4%9A%E9%A1%B9%E5%BC%8F">多项式<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型<span class="n">1</span></a>
+    <span class="chip accent" >矩阵与线性方程组<span class="n">3</span></span>
+    <span class="chip accent" >线性空间与线性变换<span class="n">2</span></span>
+    <span class="chip accent" >多项式<span class="n">1</span></span>
+    <span class="chip accent" >欧氏空间与二次型<span class="n">1</span></span>
   </div>
 </div>
 
@@ -83,7 +78,7 @@
       </div>
       <div class="stem">设 $A$ 是 $n \times n$ 矩阵, 且 $A^2 = 2023A$, 证明 $r(A) + r(A - 2023E_n) = n$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a>
+        <span>矩阵与线性方程组</span>
 <span class="chip">幂等矩阵</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $A$ 是 $n \times n$ 矩阵, 且 $A^2 = 2023A$, 证明 $r(A) + r(A - 2023E_n) = n$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -96,7 +91,7 @@
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">复数 $\alpha$ 称为代数数, 若 $\alpha$ 是某个有理系数多项式的根.<br>(1) 证明: $\sqrt{2} + \sqrt{3}$ 是代数数;<br>(2) 证明: 复数 $\alpha$ 是代数数当且仅当 $\alpha$ 是某个有理矩阵的特征值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E9%A1%B9%E5%BC%8F">多项式</a>
+        <span>多项式</span>
 <span class="chip">根与重因式</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="复数 $\alpha$ 称为代数数, 若 $\alpha$ 是某个有理系数多项式的根.
@@ -111,7 +106,7 @@
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $A$ 是 $n$ 阶实方阵, $n \geq 2$, $A^*$ 是其伴随矩阵.<br>(1) 证明: $r(A^*) = \begin{cases} n, &amp; r(A) = n; \\ 1, &amp; r(A) = n - 1; \\ 0, &amp; r(A) &lt; n - 1. \end{cases}$<br>(2) 若 $A$ 是非零实对称矩阵, 且 $n \geq 3$. 证明: $A$ 与 $A^*$ 合同的充分必要条件是 $A$ 可逆且负惯性指数为偶数.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a>
+        <span>矩阵与线性方程组</span>
 <span class="chip">伴随矩阵</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $A$ 是 $n$ 阶实方阵, $n \geq 2$, $A^*$ 是其伴随矩阵.
@@ -126,7 +121,7 @@
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $k \in \mathbb{R}$, $\alpha \in \mathbb{R}^n$ 为单位向量, $A = E_n - k\alpha\alpha^T$.<br>(1) 证明: $A$ 是正交阵当且仅当 $k = 0$ 或 2;<br>(2) 证明: $A$ 为正定阵当且仅当 $k &lt; 1$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a>
+        <span>欧氏空间与二次型</span>
 <span class="chip">正定与半正定</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $k \in \mathbb{R}$, $\alpha \in \mathbb{R}^n$ 为单位向量, $A = E_n - k\alpha\alpha^T$.
@@ -141,7 +136,7 @@
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $A = (a_{ij})_{n \times m}, B = (b_{ij})_{p \times q}$ 分别为数域 $F$ 上的 $n \times m$ 和 $p \times q$ 矩阵, $np \times mq$ 矩阵<br>$\left(\begin{array}{cccc} a_{11}B &amp; a_{12}B &amp; \cdots &amp; a_{1m}B \\ a_{21}B &amp; a_{22}B &amp; \cdots &amp; a_{2m}B \\ \vdots &amp; \vdots &amp; \ddots &amp; \vdots \\ a_{n1}B &amp; a_{n2}B &amp; \cdots &amp; a_{nm}B \end{array}\right)$<br>称为 $A$ 和 $B$ 的 Kronecker 乘积, 记作 $A \otimes B$.<br>(1) 设 $A, B, C, D$ 分别为 $n \times m, p \times q, m \times l, q \times s$ 矩阵, 证明:<br>$(A \otimes B)(C \otimes D) = (AC) \otimes (BD).$<br>(2) 证明: $\mathrm{rank}\,(A \otimes B) = \mathrm{rank}\,(A)\mathrm{rank}\,(B)$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a>
+        <span>矩阵与线性方程组</span>
 <span class="chip">分块矩阵</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $A = (a_{ij})_{n \times m}, B = (b_{ij})_{p \times q}$ 分别为数域 $F$ 上的 $n \times m$ 和 $p \times q$ 矩阵, $np \times mq$ 矩阵
@@ -159,7 +154,7 @@ $(A \otimes B)(C \otimes D) = (AC) \otimes (BD).$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">$n$ 阶复方阵 $A$ 称为对合矩阵, 若 $A^2 = E_n$.<br>(1) 证明: 任意一个对合矩阵都可以相似对角化;<br>(2) 证明: 两两可交换的互不相同的 $n$ 阶对合矩阵最多有 $2^n$ 个.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
 <span class="chip">可对角化</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="$n$ 阶复方阵 $A$ 称为对合矩阵, 若 $A^2 = E_n$.
@@ -174,7 +169,7 @@ $(A \otimes B)(C \otimes D) = (AC) \otimes (BD).$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">$n$ 阶复方阵 $A$ 称为幂零阵, 若存在正整数 $m$, 使得 $A^m = O$.<br>(1) 证明: $A$ 是幂零阵当且仅当 $A$ 的特征值全是零;<br>(2) 证明: 互不相似的 5 阶幂零阵最多有 7 个.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
         <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2023-suda-9a71a464-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="$n$ 阶复方阵 $A$ 称为幂零阵, 若存在正整数 $m$, 使得 $A^m = O$.

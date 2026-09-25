@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,12 +59,12 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学<span class="n">1</span></a>
+    <span class="chip accent" >极限与连续<span class="n">2</span></span>
+    <span class="chip accent" >多元积分学<span class="n">2</span></span>
+    <span class="chip accent" >一元积分学<span class="n">2</span></span>
+    <span class="chip accent" >级数<span class="n">2</span></span>
+    <span class="chip accent" >广义积分与含参积分<span class="n">2</span></span>
+    <span class="chip accent" >多元微分学<span class="n">1</span></span>
   </div>
 </div>
 
@@ -85,7 +80,7 @@
       </div>
       <div class="stem">求极限<br>$\lim_{x \to 0} \frac{\cos \sqrt{2}x - \mathrm{e}^{-x^2} + \frac{x^4}{3}}{x^6}.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">函数极限计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求极限
@@ -99,7 +94,7 @@ $\lim_{x \to 0} \frac{\cos \sqrt{2}x - \mathrm{e}^{-x^2} + \frac{x^4}{3}}{x^6}.$
       </div>
       <div class="stem">计算<br>$I = \int_{L} \frac{-y\mathrm{d}x + x\mathrm{d}y}{4x^2 + y^2},$<br>$L$ 为 $x^2 + y^2 = 1$, 取逆时针方向.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第二型曲线积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算
@@ -114,7 +109,7 @@ $L$ 为 $x^2 + y^2 = 1$, 取逆时针方向." title="复制题干原文（含 La
       </div>
       <div class="stem">计算<br>$I = \iint_{S} \frac{x^3 + y^3 + z^3}{1 - z}\mathrm{d}S,$<br>$S$ 为 $x^2 + y^2 = (1 - z)^2$, $0 \leqslant z \leqslant 1$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第一型曲面积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算
@@ -129,7 +124,7 @@ $S$ 为 $x^2 + y^2 = (1 - z)^2$, $0 \leqslant z \leqslant 1$." title="复制题�
       </div>
       <div class="stem">求函数<br>$f(x, y) = 2x^2 - 7y^2$<br>在闭区域 $\overline{D} = \{(x, y) \mid x^2 + 2xy + 4y^2 \leqslant 13\}$ 上的最大值与最小值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">极值与最值</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求函数
@@ -144,7 +139,7 @@ $f(x, y) = 2x^2 - 7y^2$
       </div>
       <div class="stem">设 $\{a_n\}$, $\{b_n\}$ 均为正整数数列, 且适合<br>$a_1 = b_1 = 1, \; a_n + \sqrt{3}b_n = (a_{n-1} + \sqrt{3}b_{n-1})^2.$<br>证明: 数列 $\left\{\dfrac{a_n}{b_n}\right\}$ 的极限存在, 并求该极限值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">数列极限计算</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $\{a_n\}$, $\{b_n\}$ 均为正整数数列, 且适合
@@ -159,7 +154,7 @@ $a_1 = b_1 = 1, \; a_n + \sqrt{3}b_n = (a_{n-1} + \sqrt{3}b_{n-1})^2.$
       </div>
       <div class="stem">设 $f(x)$ 在 $[a, b]$ 上有连续的导函数, 且 $f\left(\dfrac{a + b}{2}\right) = 0$. 试证明:<br>$\int_{a}^{b} |f(x)f&#x27;(x)|\mathrm{d}x \leqslant \frac{b - a}{4} \int_{a}^{b} |f&#x27;(x)|^2\mathrm{d}x.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">积分不等式</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x)$ 在 $[a, b]$ 上有连续的导函数, 且 $f\left(\dfrac{a + b}{2}\right) = 0$. 试证明:
@@ -173,7 +168,7 @@ $\int_{a}^{b} |f(x)f&#39;(x)|\mathrm{d}x \leqslant \frac{b - a}{4} \int_{a}^{b} 
       </div>
       <div class="stem">设数列 $\{na_n\}$ 为正的单调递减数列, 且 $\sum_{n=1}^{\infty} a_n$ 收敛, 证明:<br>$\lim_{n \to \infty} na_n \ln n = 0.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">数项级数敛散性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设数列 $\{na_n\}$ 为正的单调递减数列, 且 $\sum_{n=1}^{\infty} a_n$ 收敛, 证明:
@@ -187,7 +182,7 @@ $\lim_{n \to \infty} na_n \ln n = 0.$" title="复制题干原文（含 LaTeX，�
       </div>
       <div class="stem">设 $p$, $q$ 为实数, 试讨论广义积分<br>$\int_{0}^{\infty} \frac{\mathrm{e}^{\sin x} \sin 2x}{x^p(1 + x^q)}\mathrm{d}x$<br>何时绝对收敛, 何时条件收敛, 何时发散, 并说明理由.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a>
+        <span>广义积分与含参积分</span>
 <span class="chip">广义积分敛散性</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $p$, $q$ 为实数, 试讨论广义积分
@@ -202,7 +197,7 @@ $\int_{0}^{\infty} \frac{\mathrm{e}^{\sin x} \sin 2x}{x^p(1 + x^q)}\mathrm{d}x$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">$\int_{0}^{+\infty} \dfrac{\mathrm{e}^{\sin x} \sin 2x}{x^p(1 + x^q)}$ 设 $F(y) = \int_{0}^{+\infty} \dfrac{\sin \sqrt{xy}}{x(1 + x)}\mathrm{d}x$, $y &gt; 0$. 已知<br>$\int_{0}^{+\infty} \frac{\sin x}{x}\mathrm{d}x = \frac{\pi}{2}.$<br>(1) 试证明: $F&#x27;&#x27;(y) - F(y) + \pi = 0$.<br>(2) 求出 $F(y)$ 的初等函数表达式.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a>
+        <span>广义积分与含参积分</span>
 <span class="chip">含参量积分求导</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0009.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="$\int_{0}^{+\infty} \dfrac{\mathrm{e}^{\sin x} \sin 2x}{x^p(1 + x^q)}$ 设 $F(y) = \int_{0}^{+\infty} \dfrac{\sin \sqrt{xy}}{x(1 + x)}\mathrm{d}x$, $y &gt; 0$. 已知
@@ -218,7 +213,7 @@ $\int_{0}^{+\infty} \frac{\sin x}{x}\mathrm{d}x = \frac{\pi}{2}.$
       </div>
       <div class="stem">设 $y=y(x)$ 是由方程 $\operatorname{sh}x\cdot\operatorname{sh}y=1$ 所确定的函数, $x\in(0,+\infty)$, 计算<br>$\int_{0}^{+\infty}y(x)\mathrm{d}x.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0010.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $y=y(x)$ 是由方程 $\operatorname{sh}x\cdot\operatorname{sh}y=1$ 所确定的函数, $x\in(0,+\infty)$, 计算
@@ -232,7 +227,7 @@ $\int_{0}^{+\infty}y(x)\mathrm{d}x.$" title="复制题干原文（含 LaTeX，�
       </div>
       <div class="stem">求<br>$S(x)=\sum_{n=1}^{\infty}\frac{1}{2^n}\tan\frac{x}{2^n}.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">幂级数</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ahu-7bd66b79-q0011.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求

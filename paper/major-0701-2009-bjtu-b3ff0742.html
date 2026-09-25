@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,11 +59,11 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学<span class="n">1</span></a>
+    <span class="chip accent" >级数<span class="n">2</span></span>
+    <span class="chip accent" >极限与连续<span class="n">1</span></span>
+    <span class="chip accent" >一元积分学<span class="n">1</span></span>
+    <span class="chip accent" >一元微分学<span class="n">1</span></span>
+    <span class="chip accent" >多元微分学<span class="n">1</span></span>
   </div>
 </div>
 
@@ -84,7 +79,7 @@
       </div>
       <div class="stem">用一致连续函数的定义证明: 函数 $f(x)=\frac{1}{x}\sin\frac{1}{x}$ 在区间 $(a,+\infty)$, $(a&gt;0)$ 上一致连续, 而在区间 $(0,a)$ 上非一致连续.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">一致连续性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-bjtu-b3ff0742-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="用一致连续函数的定义证明: 函数 $f(x)=\frac{1}{x}\sin\frac{1}{x}$ 在区间 $(a,+\infty)$, $(a&gt;0)$ 上一致连续, 而在区间 $(0,a)$ 上非一致连续." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -97,7 +92,7 @@
       </div>
       <div class="stem">设 $f(x)$ 是区间 $[0,\pi]$ 上的连续函数, 证明:<br>$\lim_{n\to\infty}\int_{0}^{\pi}f(x)|\sin nx|\mathrm{d}x=\frac{2}{\pi}\int_{0}^{\pi}f(x)\mathrm{d}x.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-bjtu-b3ff0742-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x)$ 是区间 $[0,\pi]$ 上的连续函数, 证明:
@@ -111,7 +106,7 @@ $\lim_{n\to\infty}\int_{0}^{\pi}f(x)|\sin nx|\mathrm{d}x=\frac{2}{\pi}\int_{0}^{
       </div>
       <div class="stem">对任意的 $n=1,2,3,\cdots$, 求能使不等式<br>$\left(1+\frac{1}{n}\right)^{n+\alpha}\leqslant e\leqslant\left(1+\frac{1}{n}\right)^{n+\beta}$<br>成立的 $\alpha$ 的最大值与 $\beta$ 最小值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">不等式证明</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-bjtu-b3ff0742-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="对任意的 $n=1,2,3,\cdots$, 求能使不等式
@@ -126,7 +121,7 @@ $\left(1+\frac{1}{n}\right)^{n+\alpha}\leqslant e\leqslant\left(1+\frac{1}{n}\ri
       </div>
       <div class="stem">设正数列 $\{a_n\}$ 单调递增, 证明: 级数 $\sum_{n=1}^{\infty}\left(1-\frac{a_n}{a_{n+1}}\right)$ 收敛的充分必要条件是数列 $\{a_n\}$ 有界.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">数项级数敛散性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-bjtu-b3ff0742-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设正数列 $\{a_n\}$ 单调递增, 证明: 级数 $\sum_{n=1}^{\infty}\left(1-\frac{a_n}{a_{n+1}}\right)$ 收敛的充分必要条件是数列 $\{a_n\}$ 有界." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -139,7 +134,7 @@ $\left(1+\frac{1}{n}\right)^{n+\alpha}\leqslant e\leqslant\left(1+\frac{1}{n}\ri
       </div>
       <div class="stem">设 $z=f\left(xy^{2},x^{2}y\right)$, 求 $\frac{\partial^{2}z}{\partial x^{2}}$, $\frac{\partial^{2}z}{\partial y^{2}}$, $\frac{\partial^{2}z}{\partial x\partial y}$, 其中函数 $f$ 具有连续的二阶偏导数.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">偏导数</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-bjtu-b3ff0742-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $z=f\left(xy^{2},x^{2}y\right)$, 求 $\frac{\partial^{2}z}{\partial x^{2}}$, $\frac{\partial^{2}z}{\partial y^{2}}$, $\frac{\partial^{2}z}{\partial x\partial y}$, 其中函数 $f$ 具有连续的二阶偏导数." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -152,7 +147,7 @@ $\left(1+\frac{1}{n}\right)^{n+\alpha}\leqslant e\leqslant\left(1+\frac{1}{n}\ri
       </div>
       <div class="stem">设函数 $f(x)=\sum_{n=1}^{\infty}\left(x+\frac{1}{n}\right)^{n}$.<br>1. 确定函数 $f(x)$ 的定义域 $D$;<br>2. 证明: 级数 $\sum_{n=1}^{\infty}\left(x+\frac{1}{n}\right)^{n}$ 在 $D$ 上非一致收敛;<br>3. 证明: 函数 $f(x)$ 的定义域 $D$ 上连续.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">函数项级数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2009-bjtu-b3ff0742-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设函数 $f(x)=\sum_{n=1}^{\infty}\left(x+\frac{1}{n}\right)^{n}$.

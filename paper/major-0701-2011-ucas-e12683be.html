@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,11 +59,11 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学<span class="n">3</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95">解析几何<span class="n">1</span></a>
+    <span class="chip accent" >一元微分学<span class="n">3</span></span>
+    <span class="chip accent" >级数<span class="n">2</span></span>
+    <span class="chip accent" >极限与连续<span class="n">1</span></span>
+    <span class="chip accent" >一元积分学<span class="n">1</span></span>
+    <span class="chip accent" >解析几何<span class="n">1</span></span>
   </div>
 </div>
 
@@ -84,7 +79,7 @@
 <span class="sep">|</span><span class="t">3 个小问</span>      </div>
       <div class="stem">(1) 计算 $\lim_{x \to \infty} \left( \frac{1}{x} + 2^{\frac{1}{x}} \right)^x$.<br>(2) 计算 $\lim_{n \to \infty} \int_0^1 \ln(1 + x^n) \mathrm{d}x$.<br>(3) 证明极限 $\lim_{x \to 0} \left( \frac{2 - e^{\frac{1}{x}}}{1 + e^{\frac{2}{x}}} + \frac{x}{|x|} \right)$ 存在, 并求其值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">函数极限计算</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="(1) 计算 $\lim_{x \to \infty} \left( \frac{1}{x} + 2^{\frac{1}{x}} \right)^x$.
@@ -99,7 +94,7 @@
       </div>
       <div class="stem">求数列 $1, \sqrt{2}, \sqrt[3]{3}, \cdots, \sqrt[n]{n}$ 中最大的一项.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">导数应用</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求数列 $1, \sqrt{2}, \sqrt[3]{3}, \cdots, \sqrt[n]{n}$ 中最大的一项." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -112,7 +107,7 @@
       </div>
       <div class="stem">设函数 $f(x)$ 满足 $f&#x27;&#x27;(x) &lt; 0$ (当 $x &gt; 0$), $f(0) = 0$. 证明对于所有 $x_1 &gt; 0, x_2 &gt; 0$ 有<br>$f(x_1 + x_2) &lt; f(x_1) + f(x_2).$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">不等式证明</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设函数 $f(x)$ 满足 $f&#39;&#39;(x) &lt; 0$ (当 $x &gt; 0$), $f(0) = 0$. 证明对于所有 $x_1 &gt; 0, x_2 &gt; 0$ 有
@@ -126,7 +121,7 @@ $f(x_1 + x_2) &lt; f(x_1) + f(x_2).$" title="复制题干原文（含 LaTeX，�
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设函数 $f(x)$ 在 $[0, +\infty)$ 内有界可微, 试问下列命题中哪个必定成立(要说明理由), 哪个不成立(可由反例说明):<br>(1) $\lim_{x \to \infty} f(x) = 0$ 蕴含 $\lim_{x \to \infty} f&#x27;(x) = 0$.<br>(2) $\lim_{x \to \infty} f&#x27;(x)$ 存在蕴含 $\lim_{x \to \infty} f&#x27;(x) = 0$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">中值定理</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设函数 $f(x)$ 在 $[0, +\infty)$ 内有界可微, 试问下列命题中哪个必定成立(要说明理由), 哪个不成立(可由反例说明):
@@ -141,7 +136,7 @@ $f(x_1 + x_2) &lt; f(x_1) + f(x_2).$" title="复制题干原文（含 LaTeX，�
       </div>
       <div class="stem">过抛物线 $y = x^2$ 上的一点 $(a, a^2)$ 作切线, 确定 $a$ 使得该切线与另一抛物线 $y = -x^2 + 4x - 1$ 所围成的图形面积最小, 并求出最小面积值.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="过抛物线 $y = x^2$ 上的一点 $(a, a^2)$ 作切线, 确定 $a$ 使得该切线与另一抛物线 $y = -x^2 + 4x - 1$ 所围成的图形面积最小, 并求出最小面积值." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -154,7 +149,7 @@ $f(x_1 + x_2) &lt; f(x_1) + f(x_2).$" title="复制题干原文（含 LaTeX，�
       </div>
       <div class="stem">计算曲线积分<br>$\oint_C ((x+1)^2 + (y-2)^2) \mathrm{d}s,$<br>其中 $C$ 表示曲面 $x^2 + y^2 + z^2 = 1$ 与 $x + y + z = 1$ 的交线.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E8%A7%A3%E6%9E%90%E5%87%A0%E4%BD%95">解析几何</a>
+        <span>解析几何</span>
         <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算曲线积分
@@ -169,7 +164,7 @@ $\oint_C ((x+1)^2 + (y-2)^2) \mathrm{d}s,$
       </div>
       <div class="stem">设函数列 $\{f_n(x)\}_{n \geq 0}$ 在区间 I 上一致收敛, 而且对每个 $n \geq 0$, $f_n(x)$ 在 I 上有界. 证明函数列 $\{f_n(x)\}_{n \geq 0}$ 在区间 I 上一致有界, 即存在常数 $M &gt; 0$, 使得对所有的 $n \geq 0$ 及 $x \in \mathrm{I}$ 有 $|f_n(x)| \leq M$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">函数项级数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设函数列 $\{f_n(x)\}_{n \geq 0}$ 在区间 I 上一致收敛, 而且对每个 $n \geq 0$, $f_n(x)$ 在 I 上有界. 证明函数列 $\{f_n(x)\}_{n \geq 0}$ 在区间 I 上一致有界, 即存在常数 $M &gt; 0$, 使得对所有的 $n \geq 0$ 及 $x \in \mathrm{I}$ 有 $|f_n(x)| \leq M$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -182,7 +177,7 @@ $\oint_C ((x+1)^2 + (y-2)^2) \mathrm{d}s,$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">设 $\{a_k\}_{k \geq 0}, \{b_k\}_{k \geq 0}, \{\xi_k\}_{k \geq 0}$ 为非负数列, 而且对任意的 $k \geq 0$, 有 $a_{k+1}^2 \leq (a_k + b_k)^2 - \xi_k^2$.<br>(1) 证明 $\sum_{i=1}^k \xi_i^2 \leq \left( a_1 + \sum_{i=0}^k b_i \right)^2$.<br>(2) 若数列 $\{b_k\}$ 还满足 $\sum_{k=0}^{\infty} b_k^2 &lt; +\infty$, 则 $\lim_{k \to \infty} \frac{1}{k} \sum_{i=1}^k \xi_i^2 = 0$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">数项级数敛散性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2011-ucas-e12683be-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $\{a_k\}_{k \geq 0}, \{b_k\}_{k \geq 0}, \{\xi_k\}_{k \geq 0}$ 为非负数列, 而且对任意的 $k \geq 0$, 有 $a_{k+1}^2 \leq (a_k + b_k)^2 - \xi_k^2$.

@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,11 +59,11 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">3</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">1</span></a>
+    <span class="chip accent" >极限与连续<span class="n">3</span></span>
+    <span class="chip accent" >级数<span class="n">1</span></span>
+    <span class="chip accent" >多元积分学<span class="n">1</span></span>
+    <span class="chip accent" >一元微分学<span class="n">1</span></span>
+    <span class="chip accent" >一元积分学<span class="n">1</span></span>
   </div>
 </div>
 
@@ -84,7 +79,7 @@
 <span class="sep">|</span><span class="t">5 个小问</span>      </div>
       <div class="stem">判断题(在答题纸上写上题号后填“√”或“×”)<br>(1) 若某数列的任一子数列都发散, 则此数列必无界.<br>(2) 若对任意正整数 $n$, 都有实数 $M&gt;0$ 使得当 $|x-x_0|&lt;M$ 时, 便有<br>$|f(x)-A|&lt;\frac{1}{n},$<br>则 $\lim_{x\to x_0} f(x)=A$.<br>(3) 若<br>$\int_0^\infty |f(x)|dx$<br>收敛, 则 $f(x)$ 于 $(0,\infty)$ 上有界.<br>(4) 设 $u=f(x,y)$ 为一二元函数. 若对任何实数 $h$ 和 $k$ 都有<br>$\lim_{\rho\to 0} f(x_0+\rho h, y_0+\rho k)=f(x_0, y_0).$<br>则 $f(x,y)$ 于 $(x_0, y_0)$ 处连续.<br>(5) 若 $\sum_{n=1}^\infty a_n$ 收敛, 则<br>$\lim_{n\to\infty} n a_n=0.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">数列收敛性</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="判断题(在答题纸上写上题号后填“√”或“×”)
@@ -109,7 +104,7 @@ $\lim_{n\to\infty} n a_n=0.$" title="复制题干原文（含 LaTeX，保留换�
 <span class="sep">|</span><span class="t">5 个小问</span>      </div>
       <div class="stem">计算题<br>(1) 求极限<br>$\lim_{x\to 0} \frac{x^2 \int_0^{x^2} t e^{t^2} \sin t \, dt}{1-\cos x^4}.$<br>(2) 设 $u=e^{x^2 y}$. 求<br>$\frac{\partial^{30} u}{\partial x^{20} \partial y^{10}}(0,0).$<br>(3) 求<br>$\lim_{n\to\infty} \frac{1}{n^2} \sum_{k=1}^n k e^{\frac{k}{n}}.$<br>(4) 求<br>$\sum_{n=1}^\infty \frac{(-1)^n n}{3^n}.$<br>(5) 求由方程<br>$e^x + \sin xy - e^y - xy = 1-e$<br>所确定的隐函数 $y=y(x)$ 的导数并计算 $y&#x27;(0)$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">函数极限计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算题
@@ -133,7 +128,7 @@ $e^x + \sin xy - e^y - xy = 1-e$
 <span class="sep">|</span><span class="t">3 个小问</span>      </div>
       <div class="stem">判断下列级数, 广义积分的敛散性, 并给出简要证明.<br>(1) $\sum_{n=1}^\infty (-1)^n \tan n \ln(1+\frac{1}{\sqrt{n}}).$<br>(2) $\int_1^\infty x^2 \sin x e^{-x} dx.$<br>(3) 求函数项级数<br>$\sum_{n=1}^{\infty} \frac{x^{n}}{n^{2}} \sin n x^{2}$<br>的收敛域并判断其一致连续性.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">数项级数敛散性</span>        <span class="chip ghost">判断</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="判断下列级数, 广义积分的敛散性, 并给出简要证明.
@@ -151,7 +146,7 @@ $\sum_{n=1}^{\infty} \frac{x^{n}}{n^{2}} \sin n x^{2}$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">证明题<br>(1) 用定义证明 $\lim _{n \rightarrow \infty} \frac{2 n^{2}+1}{n^{2}-1}=2$;<br>(2) 证明 $f(x)=\sqrt{x}$ 在整个实轴上是一致连续的.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">极限证明</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="证明题
@@ -166,7 +161,7 @@ $\sum_{n=1}^{\infty} \frac{x^{n}}{n^{2}} \sin n x^{2}$
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">计算下列积分:<br>(1) 计算曲线积分<br>$\int_{C} \frac{x \mathrm{d} y-y \mathrm{d} x}{x^{2}+y^{2}},$<br>其中 $C$ 为椭圆 $\frac{x^{2}}{4}+\frac{y^{2}}{9}=1$.<br>(2) 计算<br>$\iiint_{V} x y^{2} z \mathrm{d} x \mathrm{d} y \mathrm{d} z,$<br>其中 $V$ 是第一象限中由曲面 $z=\sqrt{x y}$ 与平面 $y=x, x=1, z=0$ 所围成的区域.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第二型曲线积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算下列积分:
@@ -185,7 +180,7 @@ $\iiint_{V} x y^{2} z \mathrm{d} x \mathrm{d} y \mathrm{d} z,$
       </div>
       <div class="stem">设 $f(x)$ 于 $[0,1]$ 上连续, 在 $(0,1)$ 内可导且满足<br>$f(1)=8 \int_{0}^{\frac{1}{2}} x \sin \frac{\pi}{2} x f(x) \mathrm{d} x .$<br>证明至少存在一点 $\xi \in(0,1)$ 使得 $f^{\prime}(\xi)=-\frac{\pi}{2} \cot \frac{\pi}{2} \xi f(\xi)$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">中值定理</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x)$ 于 $[0,1]$ 上连续, 在 $(0,1)$ 内可导且满足
@@ -200,7 +195,7 @@ $f(1)=8 \int_{0}^{\frac{1}{2}} x \sin \frac{\pi}{2} x f(x) \mathrm{d} x .$
       </div>
       <div class="stem">设 $f(x)$ 于 $(a, b)$ 上连续, 在 $[a, b]$ 上有界, 证明:<br>$\lim _{n \rightarrow \infty} \sqrt[n]{\int_{a}^{b}|f(x)|^{n} \mathrm{d} x}=\sup _{x \in(a, b)}|f(x)| .$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-jlu-dc0f0dc7-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $f(x)$ 于 $(a, b)$ 上连续, 在 $[a, b]$ 上有界, 证明:

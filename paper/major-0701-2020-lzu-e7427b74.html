@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -65,10 +60,10 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">4</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">3</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学<span class="n">2</span></a>
+    <span class="chip accent" >极限与连续<span class="n">4</span></span>
+    <span class="chip accent" >一元积分学<span class="n">3</span></span>
+    <span class="chip accent" >广义积分与含参积分<span class="n">2</span></span>
+    <span class="chip accent" >多元积分学<span class="n">2</span></span>
   </div>
 </div>
 
@@ -84,7 +79,7 @@
       </div>
       <div class="stem">对 $\forall \alpha \in \mathbb{R}$, 试证:<br>$\lim_{n \to \infty} \int_0^1 (1 + x^n)^\alpha \mathrm{d}x = 1.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a>
+        <span>广义积分与含参积分</span>
 <span class="chip">含参量积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="对 $\forall \alpha \in \mathbb{R}$, 试证:
@@ -98,7 +93,7 @@ $\lim_{n \to \infty} \int_0^1 (1 + x^n)^\alpha \mathrm{d}x = 1.$" title="复制�
       </div>
       <div class="stem">计算曲面积分<br>$I = \iint_S \frac{\mathrm{d}\sigma}{(x^2 + y^2 + z^2)^{\frac{3}{2}} \sqrt{\frac{x^2}{a^4} + \frac{y^2}{b^4} + \frac{z^2}{c^4}}}.$<br>其中 $S$ 为椭球面 $\dfrac{x^2}{a^2} + \dfrac{y^2}{b^2} + \dfrac{z^2}{c^2} = 1$ ($a$, $b$, $c &gt; 0$).</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第一型曲面积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算曲面积分
@@ -113,7 +108,7 @@ $I = \iint_S \frac{\mathrm{d}\sigma}{(x^2 + y^2 + z^2)^{\frac{3}{2}} \sqrt{\frac
       </div>
       <div class="stem">计算曲线积分<br>$\oint_L (y^2 + z^2)\mathrm{d}x + (z^2 + x^2)\mathrm{d}y + (x^2 + y^2)\mathrm{d}z.$<br>其中 $L$ 是 $x^2 + y^2 + z^2 = 2Rx$ 与 $x^2 + y^2 = 2rx$ 的交线, 且 $0 &lt; r &lt; R$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第二型曲线积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算曲线积分
@@ -128,7 +123,7 @@ $\oint_L (y^2 + z^2)\mathrm{d}x + (z^2 + x^2)\mathrm{d}y + (x^2 + y^2)\mathrm{d}
       </div>
       <div class="stem">若 $F(x) = \displaystyle\int_0^x \sin \dfrac{1}{t} \mathrm{d}t$, 求 $F&#x27;(0)$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">变限积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="若 $F(x) = \displaystyle\int_0^x \sin \dfrac{1}{t} \mathrm{d}t$, 求 $F&#39;(0)$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -141,7 +136,7 @@ $\oint_L (y^2 + z^2)\mathrm{d}x + (z^2 + x^2)\mathrm{d}y + (x^2 + y^2)\mathrm{d}
       </div>
       <div class="stem">计算极限 $\displaystyle\lim_{x \to +\infty} \left( \int_0^x e^{t^2} \mathrm{d}t \right)^{\frac{1}{x^2}}.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">函数极限计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="计算极限 $\displaystyle\lim_{x \to +\infty} \left( \int_0^x e^{t^2} \mathrm{d}t \right)^{\frac{1}{x^2}}.$" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -162,7 +157,7 @@ $\oint_L (y^2 + z^2)\mathrm{d}x + (z^2 + x^2)\mathrm{d}y + (x^2 + y^2)\mathrm{d}
       </div>
       <div class="stem">若 $f(x)$ 在 $[-1, 1]$ 上连续且二次可微, 且 $M = \sup\limits_{x \in [-1, 1]} |f&#x27;&#x27;(x)|$, $f(0) = 0$, 证明:<br>$\left| \int_{-1}^1 f(x) \mathrm{d}x \right| \leqslant \frac{M}{3}.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">积分不等式</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="若 $f(x)$ 在 $[-1, 1]$ 上连续且二次可微, 且 $M = \sup\limits_{x \in [-1, 1]} |f&#39;&#39;(x)|$, $f(0) = 0$, 证明:
@@ -176,7 +171,7 @@ $\left| \int_{-1}^1 f(x) \mathrm{d}x \right| \leqslant \frac{M}{3}.$" title="复
       </div>
       <div class="stem">若 $\displaystyle\int_a^{+\infty} f(x) \mathrm{d}x$ 收敛, 且 $f(x)$ 在 $[a, +\infty)$ 上一致连续, 证明: $\lim\limits_{x \to +\infty} f(x) = 0$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">极限证明</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="若 $\displaystyle\int_a^{+\infty} f(x) \mathrm{d}x$ 收敛, 且 $f(x)$ 在 $[a, +\infty)$ 上一致连续, 证明: $\lim\limits_{x \to +\infty} f(x) = 0$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -189,7 +184,7 @@ $\left| \int_{-1}^1 f(x) \mathrm{d}x \right| \leqslant \frac{M}{3}.$" title="复
       </div>
       <div class="stem">若 $\displaystyle\int_a^{+\infty} f(x) \mathrm{d}x$ 收敛, 且 $f(x)$ 在 $[a, +\infty)$ 上单调, 证明: $\lim\limits_{x \to +\infty} x f(x) = 0$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">极限证明</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="若 $\displaystyle\int_a^{+\infty} f(x) \mathrm{d}x$ 收敛, 且 $f(x)$ 在 $[a, +\infty)$ 上单调, 证明: $\lim\limits_{x \to +\infty} x f(x) = 0$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -202,7 +197,7 @@ $\left| \int_{-1}^1 f(x) \mathrm{d}x \right| \leqslant \frac{M}{3}.$" title="复
       </div>
       <div class="stem">若连续函数列 $\{f_n(x)\}$ 在 $[a, b]$ 上一致收敛于 $f(x)$, 证明: $\{f_n(x)\}$ 在 $[a, b]$ 上等度连续.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">一致连续性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0009.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="若连续函数列 $\{f_n(x)\}$ 在 $[a, b]$ 上一致收敛于 $f(x)$, 证明: $\{f_n(x)\}$ 在 $[a, b]$ 上等度连续." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -215,7 +210,7 @@ $\left| \int_{-1}^1 f(x) \mathrm{d}x \right| \leqslant \frac{M}{3}.$" title="复
       </div>
       <div class="stem">讨论<br>$\int_0^{+\infty} \frac{\sin \left( x + \frac{1}{x} \right)}{x^\alpha} \mathrm{d}x$<br>的收敛性与绝对收敛性.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%B9%BF%E4%B9%89%E7%A7%AF%E5%88%86%E4%B8%8E%E5%90%AB%E5%8F%82%E7%A7%AF%E5%88%86">广义积分与含参积分</a>
+        <span>广义积分与含参积分</span>
 <span class="chip">广义积分敛散性</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0010.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="讨论
@@ -230,7 +225,7 @@ $\int_0^{+\infty} \frac{\sin \left( x + \frac{1}{x} \right)}{x^\alpha} \mathrm{d
       </div>
       <div class="stem">若 $f(x)$ 在 $[0, 2\pi]$ 上连续可微, 证明:<br>$\lim_{n \to \infty} n \int_0^{2\pi} f(x) \sin nx \mathrm{d}x = f(0) - f(2\pi).$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2020-lzu-e7427b74-q0011.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="若 $f(x)$ 在 $[0, 2\pi]$ 上连续可微, 证明:

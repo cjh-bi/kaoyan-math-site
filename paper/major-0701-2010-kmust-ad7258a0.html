@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,10 +59,10 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换<span class="n">5</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组<span class="n">3</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E5%A4%9A%E9%A1%B9%E5%BC%8F">多项式<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E9%AB%98%E7%AD%89%E4%BB%A3%E6%95%B0&l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型<span class="n">1</span></a>
+    <span class="chip accent" >线性空间与线性变换<span class="n">5</span></span>
+    <span class="chip accent" >矩阵与线性方程组<span class="n">3</span></span>
+    <span class="chip accent" >多项式<span class="n">1</span></span>
+    <span class="chip accent" >欧氏空间与二次型<span class="n">1</span></span>
   </div>
 </div>
 
@@ -83,7 +78,7 @@
       </div>
       <div class="stem">解方程<br>$\left|\begin{array}{ccccc} 1 &amp; 1 &amp; 1 &amp; \cdots &amp; 1 \\ 1 &amp; 1-x &amp; 1 &amp; \cdots &amp; 1 \\ 1 &amp; 1 &amp; 2-x &amp; \cdots &amp; 1 \\ \vdots &amp; \vdots &amp; \vdots &amp; &amp; \vdots \\ 1 &amp; 1 &amp; 1 &amp; \cdots &amp; n-1-x \end{array}\right|=0 .$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a>
+        <span>矩阵与线性方程组</span>
 <span class="chip">行列式</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="解方程
@@ -97,7 +92,7 @@ $\left|\begin{array}{ccccc} 1 &amp; 1 &amp; 1 &amp; \cdots &amp; 1 \\ 1 &amp; 1-
       </div>
       <div class="stem">证明: $x^{8}+1$ 在 $Q[x]$ 中不可约.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E9%A1%B9%E5%BC%8F">多项式</a>
+        <span>多项式</span>
 <span class="chip">既约性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="证明: $x^{8}+1$ 在 $Q[x]$ 中不可约." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -110,7 +105,7 @@ $\left|\begin{array}{ccccc} 1 &amp; 1 &amp; 1 &amp; \cdots &amp; 1 \\ 1 &amp; 1-
       </div>
       <div class="stem">证明: 向量组 $\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$ 线性无关的充要条件是向量组 $\alpha_{1}, \alpha_{1}+\alpha_{2}, \cdots, \alpha_{1}+\alpha_{2}+\cdots+\alpha_{n}$ 线性无关.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
 <span class="chip">子空间与维数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="证明: 向量组 $\alpha_{1}, \alpha_{2}, \cdots, \alpha_{n}$ 线性无关的充要条件是向量组 $\alpha_{1}, \alpha_{1}+\alpha_{2}, \cdots, \alpha_{1}+\alpha_{2}+\cdots+\alpha_{n}$ 线性无关." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -123,7 +118,7 @@ $\left|\begin{array}{ccccc} 1 &amp; 1 &amp; 1 &amp; \cdots &amp; 1 \\ 1 &amp; 1-
       </div>
       <div class="stem">设 $A$ 是 $n$ 阶方阵, $\alpha$ 是 $n$ 维列向量. 证明:<br>1. 若 $A^{k-1} \alpha \neq 0$, 但 $A^{k} \alpha=0$, 则<br>$\alpha, A \alpha, \cdots, A^{k-1} \alpha$<br>线性无关;<br>2.<br>$\mathrm{r}\left(A^{n+1}\right)=\mathrm{r}\left(A^{n}\right) .$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
 <span class="chip">线性变换</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $A$ 是 $n$ 阶方阵, $\alpha$ 是 $n$ 维列向量. 证明:
@@ -141,7 +136,7 @@ $\mathrm{r}\left(A^{n+1}\right)=\mathrm{r}\left(A^{n}\right) .$" title="复制�
       </div>
       <div class="stem">设<br>$A=\left(\begin{array}{cccc} a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1 n} \\ a_{21} &amp; a_{22} &amp; \cdots &amp; a_{2 n} \\ \vdots &amp; \vdots &amp; &amp; \vdots \\ a_{n 1} &amp; a_{n 2} &amp; \cdots &amp; a_{n n} \end{array}\right)$<br>是实矩阵, 且 $\left|a_{i i}\right|&gt;\sum_{j \neq i}\left|a_{i j}\right|, i=1,2, \cdots, n$. 证明 $A$ 可逆.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a>
+        <span>矩阵与线性方程组</span>
 <span class="chip">可逆性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设
@@ -156,7 +151,7 @@ $A=\left(\begin{array}{cccc} a_{11} &amp; a_{12} &amp; \cdots &amp; a_{1 n} \\ a
       </div>
       <div class="stem">解矩阵方程<br>$A X=A+2 X,$<br>其中 $A=\left(\begin{array}{rrr}4 &amp; 2 &amp; 3 \\ 1 &amp; 1 &amp; 0 \\ -1 &amp; 2 &amp; 3\end{array}\right)$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%9F%A9%E9%98%B5%E4%B8%8E%E7%BA%BF%E6%80%A7%E6%96%B9%E7%A8%8B%E7%BB%84">矩阵与线性方程组</a>
+        <span>矩阵与线性方程组</span>
 <span class="chip">矩阵多项式</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="解矩阵方程
@@ -171,7 +166,7 @@ $A X=A+2 X,$
       </div>
       <div class="stem">设 $V_{1}$ 与 $V_{2}$ 分别是方程组 $x_{1}+x_{2}+\cdots+x_{n}=0$ 与 $x_{1}=x_{2}=\cdots=x_{n}$ 的解空间. 证明:<br>$\mathbb{P}^{n}=V_{1} \oplus V_{2} .$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
 <span class="chip">子空间与直和</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $V_{1}$ 与 $V_{2}$ 分别是方程组 $x_{1}+x_{2}+\cdots+x_{n}=0$ 与 $x_{1}=x_{2}=\cdots=x_{n}$ 的解空间. 证明:
@@ -185,7 +180,7 @@ $\mathbb{P}^{n}=V_{1} \oplus V_{2} .$" title="复制题干原文（含 LaTeX，�
       </div>
       <div class="stem">已知<br>$A=\left(\begin{array}{rrr} a &amp; -2 &amp; 0 \\ b &amp; 1 &amp; -2 \\ c &amp; -2 &amp; 0 \end{array}\right)$<br>的三个特征根是 $4,1,-2$. 求 $a, b, c$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
 <span class="chip">特征值与特征向量</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="已知
@@ -200,7 +195,7 @@ $A=\left(\begin{array}{rrr} a &amp; -2 &amp; 0 \\ b &amp; 1 &amp; -2 \\ c &amp; 
       </div>
       <div class="stem">求<br>$A = \begin{pmatrix} 8 &amp; -3 &amp; 6 \\ 3 &amp; -2 &amp; 0 \\ -4 &amp; 2 &amp; -2 \end{pmatrix}$<br>的若当标准型.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%BF%E6%80%A7%E7%A9%BA%E9%97%B4%E4%B8%8E%E7%BA%BF%E6%80%A7%E5%8F%98%E6%8D%A2">线性空间与线性变换</a>
+        <span>线性空间与线性变换</span>
 <span class="chip">Jordan 标准形</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0009.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求
@@ -215,7 +210,7 @@ $A = \begin{pmatrix} 8 &amp; -3 &amp; 6 \\ 3 &amp; -2 &amp; 0 \\ -4 &amp; 2 &amp
       </div>
       <div class="stem">设 $\alpha_1, \alpha_2, \cdots, \alpha_n$ 是欧式空间 $V$ 的一组基, $\alpha, \beta$ 是 $V$ 中任意两个向量, 且 $\alpha = x_1\alpha_1 + x_2\alpha_2 + \cdots + x_n\alpha_n$, $\beta = y_1\alpha_1 + y_2\alpha_2 + \cdots + y_n\alpha_n$. 证明: 这组基是标准正交基的充要条件是<br>$(\alpha, \beta) = x_1y_1 + x_2y_2 + \cdots + x_ny_n.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%AC%A7%E6%B0%8F%E7%A9%BA%E9%97%B4%E4%B8%8E%E4%BA%8C%E6%AC%A1%E5%9E%8B">欧氏空间与二次型</a>
+        <span>欧氏空间与二次型</span>
 <span class="chip">规范正交基</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2010-kmust-ad7258a0-q0010.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设 $\alpha_1, \alpha_2, \cdots, \alpha_n$ 是欧式空间 $V$ 的一组基, $\alpha, \beta$ 是 $V$ 中任意两个向量, 且 $\alpha = x_1\alpha_1 + x_2\alpha_2 + \cdots + x_n\alpha_n$, $\beta = y_1\alpha_1 + y_2\alpha_2 + \cdots + y_n\alpha_n$. 证明: 这组基是标准正交基的充要条件是

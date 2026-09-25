@@ -15,8 +15,7 @@
     <a class="brand" href="../index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
     <nav class="nav">
       <a href="../index.html">首页</a>
-      <a href="../questions.html">题库</a>
-      <a href="../papers.html" class="active">试卷</a>
+<a href="../papers.html" class="active">试卷</a>
       <a href="../knowledge.html">知识点</a>
       <a href="../schools.html">院校</a>
       <a href="../focus.html">备考重点</a>
@@ -26,10 +25,6 @@
       <a href="../about.html">说明</a>
     </nav>
     <span class="spacer"></span>
-    <form class="search-mini" action="../questions.html" method="get">
-      <svg class="icon-search" viewBox="0 0 16 16" width="14" height="14" aria-hidden="true" focusable="false"><circle cx="7" cy="7" r="4.6" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10.6 10.6 14 14" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
-      <input type="search" name="q" placeholder="题干或知识点" aria-label="搜索题库">
-    </form>
   </div>
 </header>
 <main>
@@ -64,12 +59,12 @@
   </div>
   <div class="small muted" style="margin:14px 0 8px">本卷知识点分布</div>
   <div class="toolbar" style="margin:0">
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续<span class="n">4</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E7%BA%A7%E6%95%B0">级数<span class="n">2</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学<span class="n">1</span></a>
-    <a class="chip accent" href="../questions.html?subject=%E6%95%B0%E5%AD%A6%E5%88%86%E6%9E%90&l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学<span class="n">1</span></a>
+    <span class="chip accent" >极限与连续<span class="n">4</span></span>
+    <span class="chip accent" >一元微分学<span class="n">2</span></span>
+    <span class="chip accent" >级数<span class="n">2</span></span>
+    <span class="chip accent" >一元积分学<span class="n">1</span></span>
+    <span class="chip accent" >多元积分学<span class="n">1</span></span>
+    <span class="chip accent" >多元微分学<span class="n">1</span></span>
   </div>
 </div>
 
@@ -85,7 +80,7 @@
       </div>
       <div class="stem">求下列极限 (每小题 4 分, 共 20 分)<br>(1)<br>$\lim_{n \to \infty} \frac{\sqrt[3]{n^2} \sin(n!)}{n+1}.$<br>(2)<br>$\lim_{n \to +\infty} \left( \frac{1}{\sqrt{n^2+1}} + \frac{1}{\sqrt{n^2+2}} + \cdots + \frac{1}{\sqrt{n^2+n}} \right).$<br>(3)<br>$\lim_{x \to 0} \frac{1}{\tan x} \int_0^{e^{2x}} \sin(t^2) \mathrm{d}t.$<br>(4)<br>$\lim_{x \to \infty} \sqrt{2016 - x \arctan \frac{1}{x}}.$<br>(5)<br>$\lim_{x \to 0} \frac{\ln(1 + \arcsin x)}{\arcsin x}.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">函数极限计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0001.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求下列极限 (每小题 4 分, 共 20 分)
@@ -108,7 +103,7 @@ $\lim_{x \to 0} \frac{\ln(1 + \arcsin x)}{\arcsin x}.$" title="复制题干原�
 <span class="sep">|</span><span class="t">4 个小问</span>      </div>
       <div class="stem">求下列导数或微分 (每小题 5 分, 共 20 分)<br>(1) 设<br>$y = \frac{(x+5)^2 (x-4)}{(x+2)^5 (x+4)} \ (x &gt; 4),$<br>求 $\frac{\mathrm{d}y}{\mathrm{d}x}$.<br>(2) 已知 $f(x) = x^x$, 求 $\mathrm{d}f(x)$.<br>(3) 设<br>$\begin{cases} x = a(t - \sin t); \\ y = a(1 - \cos t). \end{cases}$<br>求 $\left. \frac{\mathrm{d}y}{\mathrm{d}x} \right|_{t = \frac{\pi}{2}}$;<br>(4) 设 $u = f\left( \frac{x}{y}, \frac{y}{z} \right)$, 且 $f$ 具有连续的偏导数, 求 $\mathrm{d}u$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">导数计算</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0002.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求下列导数或微分 (每小题 5 分, 共 20 分)
@@ -129,7 +124,7 @@ $\begin{cases} x = a(t - \sin t); \\ y = a(1 - \cos t). \end{cases}$
       </div>
       <div class="stem">求下列积分 (每小题 4 分, 共 8 分)<br>(1)<br>$\int_0^1 e^{\sqrt{x}} \mathrm{d}x.$<br>(2)<br>$\int_{-\infty}^{+\infty} \frac{1}{1+x^2} \mathrm{d}x.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">一元积分学</a>
+        <span>一元积分学</span>
 <span class="chip">定积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0003.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求下列积分 (每小题 4 分, 共 8 分)
@@ -146,7 +141,7 @@ $\int_{-\infty}^{+\infty} \frac{1}{1+x^2} \mathrm{d}x.$" title="复制题干原�
 <span class="sep">|</span><span class="t">5 个小问</span>      </div>
       <div class="stem">按要求计算下列曲线积分, 曲面积分和重积分 (每小题 8 分, 共 40 分)<br>(1) 计算第一型曲线积分<br>$\int_L (x+y) \mathrm{d}s,$<br>其中 $L$ 是以 $O(0,0)$, $A(1,0)$, $B(0,1)$ 为顶点的三角形.<br>(2) 利用格林公式计算第二型曲线积分<br>$\int_{AB} (e^x \sin y - y) \mathrm{d}x + (e^x \cos y - 1) \mathrm{d}y,$<br>其中 $AB$ 为由 $(a,0)$ 到 $(0,0)$ 经过圆 $x^{2}+y^{2}=ax$ 上半部分的路线.<br>(3) 用变量变换求二重积分<br>$\iint_{D} \mathrm{e}^{\frac{x-y}{x+y}} \mathrm{d}x\mathrm{d}y,$<br>其中 $D$ 是由 $x=0$, $y=0$, $x+y=1$ 所围成的区域.<br>(4) 计算第一型曲面积分<br>$\iint_{S} xyz \mathrm{d}S,$<br>其中 $S$ 为平面 $x+y+z=1$ 在第一卦限中的部分.<br>(5) 利用高斯公式计算第二型曲面积分<br>$\oiint_{S} x^{2} \mathrm{d}y\mathrm{d}z + y^{2} \mathrm{d}z\mathrm{d}x + z^{2} \mathrm{d}x\mathrm{d}y,$<br>其中 $S$ 是锥面 $x^{2}+y^{2}=z^{2}$ 与平面 $z=h$ 所围空间区域 $(0 \leqslant z \leqslant h)$ 的表面, 方向取外侧.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E7%A7%AF%E5%88%86%E5%AD%A6">多元积分学</a>
+        <span>多元积分学</span>
 <span class="chip">第一型曲线积分</span>        <span class="chip ghost">计算</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0004.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="按要求计算下列曲线积分, 曲面积分和重积分 (每小题 8 分, 共 40 分)
@@ -174,7 +169,7 @@ $\oiint_{S} x^{2} \mathrm{d}y\mathrm{d}z + y^{2} \mathrm{d}z\mathrm{d}x + z^{2} 
 <span class="sep">|</span><span class="t">2 个小问</span>      </div>
       <div class="stem">按要求完成下列各题 (每小题 5 分, 共 10 分)<br>(1) 设<br>$D(x)= \begin{cases}1, &amp; x \text{ 为有理数}; \\ 0, &amp; x \text{ 为无理数}.\end{cases}$<br>证明函数项级数 $\sum_{n=1}^{\infty} \frac{D(x)}{n^{3}}$ 在 $(-\infty,+\infty)$ 上一致收敛.<br>(2) 用间接方法求非初等函数<br>$F(x)=\int_{0}^{x} \mathrm{e}^{-t^{2}} \mathrm{d}t$<br>在 $x=0$ 处的幂级数展开式.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">函数项级数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0005.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="按要求完成下列各题 (每小题 5 分, 共 10 分)
@@ -193,7 +188,7 @@ $F(x)=\int_{0}^{x} \mathrm{e}^{-t^{2}} \mathrm{d}t$
       </div>
       <div class="stem">求 $f(x)=x+x^{2}$ 在 $-\pi&lt;x&lt;\pi$ 上的傅里叶级数, 并应用它推出 $\frac{\pi^{2}}{6}=\sum_{n=1}^{\infty} \frac{1}{n^{2}}$.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E7%BA%A7%E6%95%B0">级数</a>
+        <span>级数</span>
 <span class="chip">傅里叶级数</span>        <span class="chip ghost">综合</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0006.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="求 $f(x)=x+x^{2}$ 在 $-\pi&lt;x&lt;\pi$ 上的傅里叶级数, 并应用它推出 $\frac{\pi^{2}}{6}=\sum_{n=1}^{\infty} \frac{1}{n^{2}}$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -206,7 +201,7 @@ $F(x)=\int_{0}^{x} \mathrm{e}^{-t^{2}} \mathrm{d}t$
       </div>
       <div class="stem">叙述函数 $f(x)$ 在区间 $I$ 上无界的定义, 并应用它证明 $f(x)=\frac{1}{x^{3}}$ 在区间 $(0,1)$ 上无界.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">连续与有界性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0007.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="叙述函数 $f(x)$ 在区间 $I$ 上无界的定义, 并应用它证明 $f(x)=\frac{1}{x^{3}}$ 在区间 $(0,1)$ 上无界." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
@@ -219,7 +214,7 @@ $F(x)=\int_{0}^{x} \mathrm{e}^{-t^{2}} \mathrm{d}t$
       </div>
       <div class="stem">用定义证明:<br>$\lim_{x \to 2}(x^{2}-6x+10)=2.$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">极限证明</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0008.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="用定义证明:
@@ -233,7 +228,7 @@ $\lim_{x \to 2}(x^{2}-6x+10)=2.$" title="复制题干原文（含 LaTeX，保留
       </div>
       <div class="stem">按柯西准则叙述极限 $\lim_{n \to \infty} a_{n}$ 存在的充要条件, 并应用它证明<br>$\lim_{n \to \infty}\left(1+\frac{1}{2^{2}}+\frac{1}{3^{2}}+\cdots+\frac{1}{n^{2}}\right)$<br>存在.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E6%9E%81%E9%99%90%E4%B8%8E%E8%BF%9E%E7%BB%AD">极限与连续</a>
+        <span>极限与连续</span>
 <span class="chip">数列收敛性</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0009.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="按柯西准则叙述极限 $\lim_{n \to \infty} a_{n}$ 存在的充要条件, 并应用它证明
@@ -248,7 +243,7 @@ $\lim_{n \to \infty}\left(1+\frac{1}{2^{2}}+\frac{1}{3^{2}}+\cdots+\frac{1}{n^{2
       </div>
       <div class="stem">设函数 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内二阶可导, 证明存在 $\xi \in(0,1)$, 使得<br>$f(1)-2 f\left(\frac{1}{2}\right)+f(0)=\frac{1}{4} f^{\prime \prime}(\xi).$</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E4%B8%80%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">一元微分学</a>
+        <span>一元微分学</span>
 <span class="chip">中值定理</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0010.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="设函数 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内二阶可导, 证明存在 $\xi \in(0,1)$, 使得
@@ -262,7 +257,7 @@ $f(1)-2 f\left(\frac{1}{2}\right)+f(0)=\frac{1}{4} f^{\prime \prime}(\xi).$" tit
       </div>
       <div class="stem">证明函数 $z=\sqrt{x^{2}+y^{2}}$ 在点 $(0,0)$ 连续但偏导数不存在.</div>
       <div class="foot">
-        <a href="../questions.html?l1=%E5%A4%9A%E5%85%83%E5%BE%AE%E5%88%86%E5%AD%A6">多元微分学</a>
+        <span>多元微分学</span>
 <span class="chip">偏导数</span>        <span class="chip ghost">证明</span>
         <a class="small" style="margin-left:auto" href="../q/major-0701-2016-kmust-07163d1f-q0011.html">查看详情 →</a>
         <button class="btn small copy-btn" data-stem="证明函数 $z=\sqrt{x^{2}+y^{2}}$ 在点 $(0,0)$ 连续但偏导数不存在." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
