@@ -8,6 +8,7 @@
       { left: "$", right: "$", display: false }
     ],
     throwOnError: false,
+    strict: "ignore",
     ignoredTags: ["script", "noscript", "style", "textarea", "pre", "code"]
   };
 
