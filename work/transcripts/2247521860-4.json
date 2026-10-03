@@ -1,0 +1,114 @@
+{
+  "msgid": "2247521860-4",
+  "exams": [
+    {
+      "school": "同济大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "15. 同济大学 2024 年数学分析试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521860-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "证明: 存在可微函数 $f(x)$, 满足 $\\lim\\limits_{x\\to+\\infty} f'(x) = +\\infty$, 且 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k\\in F_n}\\dfrac{1}{\\sqrt{k}}$ 存在, 其中 $F_n = [f(n), f(n+1)] \\cap \\mathbb{Z}^{+}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "证明: 去 $x_0$ 空心邻域内 $\\lim\\limits_{x\\to x_0} f(x)$ 存在的充要条件为对任意严格单调递增的数列 $\\{x_n\\}$ 且 $\\lim\\limits_{n\\to\\infty} x_n = x_0$, 都有 $\\lim\\limits_{n\\to\\infty} f(x_n)$ 存在。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上上半连续, 证明:\n(1) $f(x)$ 在 $[a,b]$ 上有上界.\n(2) $f(x)$ 在 $[a,b]$ 上可取到上确界。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "函数 $f(x)$ 在 $[0,+\\infty)$ 上二阶可微, 证明: 若 $f, f''$ 在 $[0,+\\infty)$ 上有界, 则 $f'$ 在 $[0,+\\infty)$ 上有界。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "写出 $\\tan x$ 在 $x=0$ 处泰勒展开的前三个非零项, 并写出收敛半径。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 10,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判断 $\\iint\\limits_{\\mathbb{R}^2} \\dfrac{\\mathrm{d}x\\mathrm{d}y}{(1+|x|^{\\frac{1}{2}})(1+|y|^{2})}$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "若 $f(x)$ 有界, 且对任意的 $\\varepsilon \\in (0,1)$, 有 $f(x)$ 在 $[\\varepsilon, 1]$ 上黎曼可积, 证明: $f(x)$ 在 $[0,1]$ 上黎曼可积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "若 $f$ 为 $\\mathbb{R}^2 \\to \\mathbb{R}^2$ 的映射, 其雅克比行列式恒不为零, 证明: $f$ 为开映射。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 25,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $f_n(x) = n^{\\alpha} x e^{-nx}$, 求当 $\\alpha$ 取何值时, 有:\n(1) $\\{f_n(x)\\}$ 在 $[0,1]$ 上一致收敛.\n(2) $\\left\\{\\dfrac{\\mathrm{d}}{\\mathrm{d}x} f_n(x)\\right\\}$ 在 $[0,1]$ 上一致收敛.\n(3) $\\displaystyle\\int_0^1 \\lim_{n\\to\\infty} f_n(x)\\, \\mathrm{d}x = \\lim_{n\\to\\infty} \\int_0^1 f_n(x)\\, \\mathrm{d}x$.\n(4) $\\dfrac{\\mathrm{d}}{\\mathrm{d}x} \\lim\\limits_{n\\to\\infty} f_n(x) = \\lim\\limits_{n\\to\\infty} \\dfrac{\\mathrm{d}}{\\mathrm{d}x} f_n(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 20,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "解答如下问题:\n(1) 设\n$$I = \\int_L P\\, \\mathrm{d}x + Q\\, \\mathrm{d}y + R\\, \\mathrm{d}z.$$\n证明: $|I| \\le Ms$, 其中 $M = \\max\\limits_{(x,y,z)\\in L}\\left\\{\\left[P^2(x,y,z) + Q^2(x,y,z) + R^2(x,y,z)\\right]^{\\frac{1}{2}}\\right\\}$, $s$ 为 $L$ 的弧长.\n(2) 求\n$$\\int_L (y-z)\\, \\mathrm{d}x + (z-x)\\, \\mathrm{d}y + (x-y)\\, \\mathrm{d}z.$$\n其中 $L$ 为 $y = \\tan\\alpha \\cdot x$ 与 $x^2 + y^2 + z^2 = 1$ 的交线, 其中 $\\alpha \\in \\left(0, \\dfrac{\\pi}{2}\\right)$. $L$ 的方向从 $x$ 轴正向看为逆时针方向。"
+        }
+      ]
+    }
+  ]
+}
