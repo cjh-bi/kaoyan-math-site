@@ -9,6 +9,10 @@ verify-*.png
 work/arts/
 work/arts2021/
 
+# 转录员工作期临时裁图与散图（源图在 work/imgs/，产物在 work/transcripts/）
+work/crops/
+work/_tmp_*.png
+
 # 临时工作区与历史试验站
 work/tmp/
 work/testsite/
