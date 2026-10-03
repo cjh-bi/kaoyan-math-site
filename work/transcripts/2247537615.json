@@ -1,0 +1,124 @@
+{
+  "msgid": "2247537615",
+  "exams": [
+    {
+      "school": "云南大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "70. 云南大学 2026 年高等代数试卷(回忆版)（注. 题目来自考生回忆, 部分表述或数据可能有误）",
+      "source_imgs": ["work/imgs/2247537615_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "已知整系数多项式 $x^3+x^2-8x-b$ 有重根, 且 $b>0$, 则 $b=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A,B$ 是两个相似的三阶矩阵, $B$ 有特征值 $1,-1$, 且 $|2E+A|=0$, 则 $|A+2AB|=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "若 $A=\\begin{pmatrix}0 & -1 & 0\\\\ 1 & 0 & 0\\\\ 0 & 0 & -1\\end{pmatrix}$, 则 $A^{2026}=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "(可能有误)$n$ 阶矩阵 $A$ 的各行元素之和为 $0$, 秩为 $n-1$, 则 $AX=0$ 的通解为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若二次型 $f(x_1,x_2,x_3)=(x_1+a_1x_2)^2+(x_2+a_2x_3)^2+(x_3+a_3x_1)^2$ 正定, 则 $a_1,a_2,a_3$ 需要满足______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)$ 是首项系数为 1 的整系数多项式, $f(-1),f(0),f(1)$ 不能被 3 整除, 证明: $f(x)$ 无有理根."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设矩阵 $B=\\begin{pmatrix}0 & 1 & 0\\\\ 0 & 0 & 2026\\\\ 0 & 0 & 0\\end{pmatrix}$.\n(1) 求 $B$ 的 Jordan 标准型, 并证明 $B$ 的最小多项式为 $f(\\lambda)=\\lambda^3$\n(2) 证明: 不存在矩阵 $C$, 使得 $C^2=B$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "(可能有误)二次型 $x_1^2+2x_2^2-2x_3^2+2bx_1x_3$ 的矩阵记为 $A$, $A$ 的特征值之和为 1, 积为 $-12$, 求 $b$ 的值, 并将二次型用正交线性替换化为标准形, 写出正交变换矩阵."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "非齐次线性方程组\n$$\\begin{cases}x_1+x_2+x_3+x_4=-1,\\\\ 4x_1+3x_2+5x_3-x_4=-1,\\\\ ax_1+x_2+3x_3+bx_4=1\\end{cases}$$\n有三个线性无关的解, 记系数矩阵为 $A$.\n(1) 证明: $\\mathrm{rank}(A)=2$.\n(2) 求 $a,b$ 的值与方程组的通解."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\tau$ 是 $n$ 维线性空间 $V$ 上的线性变换, $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$ 是其 $n$ 个不同的特征值, 证明: $\\alpha,\\tau(\\alpha),\\cdots,\\tau^{n-1}(\\alpha)$ 线性无关的充要条件是 $\\alpha=\\sum\\limits_{i=1}^{n}\\alpha_i$, 其中 $\\alpha_i$ 是 $\\tau$ 的属于特征值 $\\lambda_i$ 的特征向量."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "$\\alpha,\\beta$ 是欧氏空间中的两个不同的向量, 且 $|\\alpha|=|\\beta|=1$, 证明: $(\\alpha,\\beta)\\ne 1$."
+        }
+      ]
+    }
+  ]
+}

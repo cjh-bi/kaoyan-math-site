@@ -1,0 +1,303 @@
+{
+  "msgid": "2247529416",
+  "exams": [
+    {
+      "school": "中国矿业大学(北京)",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "10. 中国矿业大学(北京) 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529416_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\dfrac{\\int_1^n \\ln\\left(1+\\frac{1}{\\sqrt{x}}\\right)\\mathrm{d}x}{\\sqrt{n}}$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "曲面 $x^2+yz+z^2-1=0$ 在点 $(1,1,0)$ 处的切平面为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\int (x\\ln x)^{\\frac{3}{2}}(\\ln x+1)\\,\\mathrm{d}x$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求 $\\sum_{n=1}^{\\infty}\\dfrac{1}{n\\cdot 2^n}$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "已知 $L$ 为 $x^2+y^2=2$ 的第一象限的部分取逆时针, 求 $\\int_L x\\,\\mathrm{d}y-2y\\,\\mathrm{d}x$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "$x=\\dfrac{3}{4}$ 是 Riemann 函数的 ______ 点 (填连续, 可去间断, 跳跃间断或第二类间断)."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算 $\\lim_{x\\to\\infty}\\left(\\cos\\dfrac{1}{x}+\\sin\\dfrac{2}{x}\\right)^{x}$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 40 分.",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "已知 $\\int_0^{+\\infty}\\dfrac{\\sin x^2}{x^p}\\,\\mathrm{d}x$ 绝对收敛, 则 $p$ 的取值范围为 ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "已知 $D=\\{(x,y)\\mid x+y\\le 1,\\ x\\ge 0,\\ y\\ge 0\\}$, 且满足\n$$\\lim_{x\\to 1}\\left(\\dfrac{\\ln x}{x-1}+\\dfrac{a\\sin x+\\sin x}{x}\\right)=\\iint_D \\cos\\dfrac{x-y}{x+y}\\,\\mathrm{d}x\\mathrm{d}y.$$\n求参数 $a$ 的值."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $\\displaystyle\\iint_\\Sigma \\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{(x^2+y^2+z^2)^{\\frac{3}{2}}}$, 其中 $\\Sigma$ 为 $2x^2+2y^2+z^2=4$ 的外侧."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "假设 $f(x)$ 在 $(-\\infty,+\\infty)$ 上一致连续, 证明: 存在非负实数 $a,b$, 使得对任意的 $x\\in(-\\infty,+\\infty)$, 都有 $|f(x)|\\le a|x|+b$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "叙述数列的 Cauchy 收敛准则, 并用 Cauchy 收敛准则证明单调有界数列必收敛."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "求函数 $f(x)=x+\\dfrac{1}{1+x}$ 的单调区间, 凹凸区间, 极值, 拐点和渐近线."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $z=z(x,y)$ 由方程 $9x^2-54xy+90y^2-6yz-3z^2+18=0$ 所确定.\n(1) 求 $\\dfrac{\\partial z}{\\partial x}$, $\\dfrac{\\partial z}{\\partial y}$.\n(2) 求 $z(x,y)$ 的极值, 极值点."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x),g(x)$ 在 $[a,b]$ 上连续, 在 $(a,b)$ 上可导, 且 $f(a)=f(b)=0$, $g'(x)<0$. 证明: 至少存在一点 $\\xi\\in(a,b)$, 使得 $\\dfrac{f'(\\xi)}{g'(\\xi)}+\\dfrac{\\int_a^{\\xi}f(t)\\,\\mathrm{d}t}{\\int_{\\xi}^{b}g(t)\\,\\mathrm{d}t}=0$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设数列 $a_n,b_n$ 满足 $e^{b_n}=e^{a_n}-a_n$, $n=1,2,\\cdots$.\n(1) 若 $a_n>0$, 证明: $b_n>0$.\n(2) 若 $a_n>0$, 正项级数 $\\sum_{n=1}^{\\infty}a_n$ 收敛, 证明: $\\sum_{n=1}^{\\infty}\\dfrac{b_n}{a_n}$ 收敛."
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论下列函数列在给定区间是否一致收敛.\n(1) $f_n(x)=\\arctan nx$, $x\\in(0,+\\infty)$.\n(2) $f_n(x)=x\\arctan nx$, $x\\in(0,+\\infty)$."
+        }
+      ]
+    },
+    {
+      "school": "中国矿业大学(北京)",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "10. 中国矿业大学(北京) 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529416_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix}1+x & x & x & \\cdots & x\\\\ x & 2+x & x & \\cdots & x\\\\ x & x & 3+x & \\cdots & x\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ x & x & x & \\cdots & n+x\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 8,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知 $n$ 阶方阵 $A$ 每行元素之和为常数 $\\lambda$, 证明: 对任意的正整数 $m$, $A^m$ 的每行元素之和为 $\\lambda^m$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 12,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "数域 $P$ 上一元多项式全体构成线性空间 $P[x]$, 其上的线性变换 $\\mathscr{D}$ 满足 $\\mathscr{D}(x)=1$, 且对任意的 $f(x),g(x)\\in P[x]$, 有 $\\mathscr{D}(f(x)g(x))=\\mathscr{D}(f(x))g(x)+f(x)\\mathscr{D}(g(x))$, 证明: 对任意的 $f(x)\\in P[x]$, 有\n$$\\mathscr{D}(f(x))=\\dfrac{\\mathrm{d}f(x)}{\\mathrm{d}x}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 12,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "当 $\\lambda$ 取何值时, 线性方程组\n$$\\begin{cases}\\lambda x_1+x_2+x_3=1;\\\\ x_1+\\lambda x_2+x_3=\\lambda;\\\\ 2x_1+(1+\\lambda)x_2+(1+\\lambda)x_3=\\lambda+\\lambda^2.\\end{cases}$$\n(1) 有唯一解?\n(2) 没有解?\n(3) 有无穷多解? 并求通解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 16,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "已知 $\\tau$ 是线性空间 $V$ 上的线性变换, $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 为 $V$ 的一组基, 满足\n$$\\tau(\\varepsilon_1)=2\\varepsilon_1+3\\varepsilon_2+4\\varepsilon_3,\\ \\tau(\\varepsilon_2)=\\varepsilon_2,\\ \\tau(\\varepsilon_3)=\\varepsilon_1+x\\varepsilon_2+5\\varepsilon_3.$$\n求 $x$ 为何值时, 存在 $V$ 的一组基, 使得 $\\tau$ 在该基下为对角阵? 并求这组基."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 16,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知 $A=\\begin{pmatrix}-1 & -2 & 6\\\\ -1 & 0 & 3\\\\ -1 & -1 & 4\\end{pmatrix}$.\n(1) 求 $A$ 的 Jordan 标准型 $J$, 并求可逆矩阵 $P$, 使得 $P^{-1}AP=J$.\n(2) 对任意的 $k\\in\\mathbb{N}_+$, 求 $A^k$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 16,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是由全体 2 阶实矩阵构成的线性空间, $\\Psi$ 是 $V$ 上的变换, 且满足对任意的 $A\\in V$, $\\Psi(A)=AM-MA$, 其中 $M=\\begin{pmatrix}1 & 2\\\\ 0 & 3\\end{pmatrix}$.\n(1) 证明: $\\Psi$ 为 $V$ 上的线性变换.\n(2) 求 $\\mathrm{Ker}\\,\\Psi$ 的一组基."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\sigma$ 是有限维线性空间 $V$ 上的线性变换, $f(x),g(x),h(x)\\in P[x]$, 且满足 $(f(x),g(x))=1$, $h(x)=f(x)g(x)$, 证明: $\\mathrm{Ker}\\,h(\\sigma)=\\mathrm{Ker}\\,f(\\sigma)\\oplus \\mathrm{Ker}\\,g(\\sigma)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 8,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $n$ 阶方阵 $A$ 满足 $A^2+2A=O$, $\\mathrm{rank}\\,A=k$, 证明: $\\det(A+3E)=3^{n-k}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\varphi$ 是有限维欧氏空间 $V$ 上的映射, 满足 $\\varphi(0)=0$, $|\\varphi(\\alpha)-\\varphi(\\beta)|=|\\alpha-\\beta|$, $\\forall \\alpha,\\beta\\in V$, 证明: $\\varphi$ 是 $V$ 上的正交变换."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": 18,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "利用正交替换将二次型 $f(x_1,x_2,x_3)=2x_1^2+4x_1x_2-4x_1x_3+5x_2^2-8x_2x_3+5x_3^2$ 化为标准型."
+        }
+      ]
+    }
+  ]
+}

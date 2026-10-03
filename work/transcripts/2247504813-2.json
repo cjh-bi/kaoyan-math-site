@@ -1,0 +1,104 @@
+{
+  "msgid": "2247504813-2",
+  "exams": [
+    {
+      "school": "西北大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "101. 西北大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504813-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "已知\n$$\\lim_{x\\to 0}\\frac{x-\\sin x}{x(\\sqrt{x^2+1}-1)}=\\lim_{x\\to 0}\\left(\\cos x-\\frac{1}{2}x^2\\right)^{\\frac{a}{x^2}}.$$\n求参数 $a$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "已知 $c>0$，$0<x_0<\\dfrac{1}{c}$，构造迭代数列\n$$x_{n+1}=x_n(2-cx_n).$$\n(1) 证明：$0<x_n<\\dfrac{1}{c}$。\n(2) 证明：$\\{x_n\\}$ 极限存在，并求极限。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "已知函数 $f(x)$ 在 $[0,+\\infty)$ 上可微，且 $f(0)=0$，$f'(x)$ 在 $[0,+\\infty)$ 上递增，证明：\n$$F(x)=\\begin{cases}\\dfrac{f(x)}{x}, & x>0;\\\\[6pt] f'(0), & x=0.\\end{cases}$$\n在 $[0,+\\infty)$ 上递增。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $u=x^3y^2z^2$，其中 $z$ 是由 $x^3+y^3+z^3=3xyz$ 确定的关于 $x$、$y$ 函数，求 $\\dfrac{\\partial u}{\\partial x}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "已知 $p\\geq 1$，求函数 $z=\\dfrac{x^p+y^p}{2}$ 在条件 $x+y=a$ 限制下的最小值，并证明不等式\n$$\\frac{x^p+y^p}{2}\\geq\\left(\\frac{x+y}{2}\\right)^p.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "证明以下积分与路径无关，并求\n$$\\int_{(1,0)}^{(6,8)}\\frac{x\\,\\mathrm{d}x+y\\,\\mathrm{d}y}{\\sqrt{x^2+y^2}},$$\n其中路径不经过原点。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint_{\\Sigma}x^2\\,\\mathrm{d}y\\mathrm{d}z+y^2\\,\\mathrm{d}z\\mathrm{d}x+z^2\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中曲面 $\\Sigma$ 为锥面 $x^2+y^2=z^2$ $(0\\leq z\\leq m)$ 的下侧。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知积分\n$$f(y)=\\int_1^{+\\infty}\\frac{\\cos xy}{1+x^2}\\,\\mathrm{d}x.$$\n证明：\n(1) $f(y)$ 在 $(-\\infty,+\\infty)$ 上一致收敛；\n(2) $f(y)$ 在 $(-\\infty,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "已知二元函数 $u(x,y)$ 在平面区域 $D$ 上存在二阶连续偏导数，证明：在 $D$ 上 $\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}=0$ 的充要条件是对任意的 $P_0(x_0,y_0)\\in D$ 满足\n$$u(x_0,y_0)=\\frac{1}{2\\pi}\\int_0^{2\\pi}u(x_0+r\\cos\\theta,\\,y_0+r\\sin\\theta)\\,\\mathrm{d}\\theta,$$\n这里 $0\\leq r\\leq d(P_0)$，其中 $d(P_0)$ 为 $P_0$ 到区域 $D$ 的边界 $\\partial(D)$ 的距离。"
+        }
+      ]
+    }
+  ]
+}

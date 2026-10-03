@@ -1,0 +1,323 @@
+{
+  "msgid": "2247529353",
+  "exams": [
+    {
+      "school": "北京交通大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "3. 北京交通大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529353_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上可导，若 $f(x)$ 有两个零点，试证明在这两个零点之间必有 $f(x)+f'(x)$ 的零点。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $0<x<1$，证明：$e^{2x}<\\dfrac{x+1}{1-x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "已知 $a_0=1$，$a_{n+1}=\\dfrac{1}{a_n^3+4}$，$n=0,1,2,\\cdots$。证明：\n(1) $\\{a_n\\}$ 收敛。\n(2) $\\{a_n\\}$ 的极限是 $x^4+4x-1=0$ 的唯一正根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left[\\left(1+\\dfrac{1}{n}\\right)\\left(1+\\dfrac{2}{n}\\right)\\cdots\\left(1+\\dfrac{n}{n}\\right)\\right]^{\\frac{1}{n}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $u=f(r)$ 二阶连续可微，$r=\\sqrt{x_1^2+x_2^2+\\cdots+x_n^2}$，$r\\neq 0$，$n\\geq 1$。\n(1) 试证明：$\\sum\\limits_{k=1}^{n}\\dfrac{\\partial^2 u}{\\partial x_k^2}=\\dfrac{\\mathrm{d}^2 u}{\\mathrm{d}r^2}+\\dfrac{n-1}{r}\\dfrac{\\mathrm{d}u}{\\mathrm{d}r}$ $(r\\neq 0)$。\n(2) 求 $\\sum\\limits_{k=1}^{n}\\dfrac{\\partial^2 u}{\\partial x_k^2}=0$ 的解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求最大的负数 $A$ 和最小的正数 $B$，使得不等式 $\\dfrac{A}{xy}\\leq \\ln(x+y)\\leq \\dfrac{B}{x^2+y^2}$ 对任意 $x>0$，$y>0$ 恒成立。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分 $\\iint\\limits_{D}|x-y+2|\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D:\\ x^2+y^2\\leq 4$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$\\iint\\limits_{S}(x-y)\\,\\mathrm{d}y\\mathrm{d}z+(y^2-z^2)\\,\\mathrm{d}z\\mathrm{d}x+(z^3-x^3)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 是锥面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=z^2$ $(a,b>0)$ 在 $z=0$ 和 $z=1$ 之间的部分，方向取下侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f_0(x)$ 在 $[a,b]$ 上连续，记 $f_{n+1}(x)=\\int_{a}^{x}f_n(t)\\,\\mathrm{d}t$，证明：函数项级数 $\\sum\\limits_{n=0}^{\\infty}f_n(x)$ 在 $[a,b]$ 上一致收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "计算级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{2^n(2n-1)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设对任意的 $n=1,2,\\cdots$，$u_n(x)$ 在 $x=c$ 处连续，但级数 $\\sum\\limits_{n=1}^{\\infty}u_n(c)$ 发散，证明：对任意的 $\\delta>0$，函数项级数 $\\sum\\limits_{n=1}^{\\infty}u_n(x)$ 在 $(c,c+\\delta)$ 上非一致收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 有连续导数，$f_n(x)=n\\left[f\\left(x+\\dfrac{1}{n}\\right)-f(x)\\right]$，证明：$\\{f_n(x)\\}$ 在任意闭区间上均一致收敛。"
+        }
+      ]
+    },
+    {
+      "school": "北京交通大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "3. 北京交通大学 2025 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247529353_5.png", "work/imgs/2247529353_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "在有理数域上分解多项式 $f(x)=x^4-3x^3+6x-4$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $B=\\begin{pmatrix}3&0&1\\\\ 1&1&0\\\\ 1&0&1\\end{pmatrix}$，$A=(\\alpha_1,\\alpha_2,\\alpha_3)$ 是 3 阶方阵且 $A^{*}$ 是非零矩阵，且 $\\alpha_1+\\alpha_2-2\\alpha_3=0$，求 $r(A^{*}B^{*})$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A=\\begin{pmatrix}0&a_1&0&\\cdots&0\\\\ 0&0&a_2&\\cdots&0\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ 0&0&0&\\cdots&a_{n-1}\\\\ a_n&0&0&\\cdots&0\\end{pmatrix}$，求 $A^{-1}=$______，其中 $a_i\\neq 0$ $(i=1,2,\\cdots,n)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "线性方程组\n$$\\begin{cases}x_1+x_2+x_3+x_4=1;\\\\ 4x_1+3x_2+5x_3-x_4=-1;\\\\ ax_1+x_2+3x_3+bx_4=1.\\end{cases}$$\n有 3 个线性无关的解，则 $a,b$ 的值为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知行列式 $|A|$ 的每行元素之和为 $a$，且 $|A|=b$，则 $A_{1n}+A_{2n}+\\cdots+A_{nn}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "$X^{T}AX$ 的符号差为 1，且 $A^2-2A=3E$，则 $|A|=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "若线性变换 $\\sigma$ 有 $n$ 个不同的特征值，则 $\\sigma$ 有______个不变子空间。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "$A=\\begin{pmatrix}3&-2&0\\\\ -2&2&-2\\\\ 0&-2&1\\end{pmatrix}$，$A+tE$ 正定，$t$ 满足______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "9",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "$A=\\begin{pmatrix}3&0&8\\\\ 3&-1&6\\\\ -2&0&-5\\end{pmatrix}$ 的最小多项式为______，Jordan 标准型为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "10",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $(\\alpha,\\beta)=\\alpha^{T}A\\beta$，其中 $A=\\begin{pmatrix}5&2\\\\ 2&1\\end{pmatrix}$，则 $\\begin{pmatrix}1\\\\ 0\\end{pmatrix},\\begin{pmatrix}1\\\\ 1\\end{pmatrix}$ 的度量阵为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算行列式",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D=\\begin{vmatrix}x&a_2&a_3&\\cdots&a_n\\\\ a_1&x&a_3&\\cdots&a_n\\\\ a_1&a_2&x&\\cdots&a_n\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ a_1&a_2&a_3&\\cdots&x\\end{vmatrix},\\ \\text{其中}\\ x\\neq a_i\\ (i=1,2,\\cdots,n).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知非齐次线性方程组\n$$\\begin{cases}x_1+x_2-2x_3+3x_4=0;\\\\ 2x_1+x_2-6x_3+4x_4=-1;\\\\ 3x_1+2x_2+px_3+7x_4=-1;\\\\ x_1-x_2-6x_3-x_4=t.\\end{cases}$$\n有无穷多解，求 $p,t$ 的值与方程组的通解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $A=\\begin{pmatrix}0&a&a^2\\\\ \\dfrac{1}{a}&0&a\\\\ \\dfrac{1}{a^2}&\\dfrac{1}{a}&0\\end{pmatrix}$，求三阶可逆矩阵 $P$，使得 $P^{-1}AP=\\Lambda$，且求 $A^{n}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知\n$$\\alpha_1=(1,1,a)^{T},\\ \\alpha_2=(1,a,1)^{T},\\ \\alpha_3=(a,1,1)^{T},\\ \\beta=(1,1,-2)^{T}.$$\n$\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出且不唯一，求 $a$ 的值．记 $A=(\\alpha_1,\\alpha_2,\\alpha_3)$，求正交变换 $Q$，通过 $X=QY$，使\n$$f(x_1,x_2,x_3)=X^{T}(E_3+A)^{-1}X$$\n为标准型。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=(x-k_1)(x-k_2)\\cdots(x-k_n)+1$，其中 $k_1,k_2,\\cdots,k_n$ $(n>2)$ 是互异的整数．证明：$f(x)$ 在有理数域上可约的充要条件是 $f(x)$ 是某个整系数多项式的完全平方。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$V_1=L(\\alpha_1,\\alpha_2,\\alpha_3)$，$V_2=L(\\beta_1,\\beta_2)$．（具体数据忘了）\n(1) 求 $V_1+V_2$ 的维数和一组基．\n(2) 求 $V_1\\cap V_2$ 的维数和一组基．\n(3) 证明: ...."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "设 $\\sigma,\\tau$ 为 $n$ 维欧氏线性空间 $V$ 上的线性变换，且满足 $(\\sigma(\\alpha),\\beta)=(\\alpha,\\tau(\\beta))$ 对任意的 $\\alpha,\\beta\\in V$．证明:\n(1) $\\operatorname{Ker}\\sigma=(\\operatorname{Im}\\tau)^{\\perp}$．\n(2) $V=\\operatorname{Ker}\\sigma\\oplus\\operatorname{Im}\\tau$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知矩阵 $B$ 为正定矩阵，$A-B$ 为半正定矩阵，证明:\n(1) $|A-\\lambda B|=0$ 的根均大于等于 1．\n(2) $|A|\\geq|B|$。"
+        }
+      ]
+    }
+  ]
+}

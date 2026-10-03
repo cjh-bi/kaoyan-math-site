@@ -1,0 +1,263 @@
+{
+  "msgid": "2247537535",
+  "exams": [
+    {
+      "school": "南京理工大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "36. 南京理工大学 2026 年数学分析试卷(回忆版) (注. 题目来自考生回忆, 部分表述或数据可能有误)",
+      "source_imgs": ["work/imgs/2247537535_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "解答如下问题:\n(1) 利用定义证明: $(\\cos x)^{\\prime}=-\\sin x$.\n(2) 利用定积分定义证明: $\\int_{0}^{1}x^3\\,\\mathrm{d}x=\\dfrac{1}{4}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限:\n(1) $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}\\dfrac{2^{\\frac{k}{n}}}{n+\\frac{1}{k}}$.\n(2) (可能有误) $\\lim\\limits_{x\\to 0}\\left(\\dfrac{1}{\\sin x}-\\dfrac{\\sin x}{e^x-1}\\right)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=\\begin{cases}\\dfrac{xy^2}{x^2+y^4}, & (x,y)\\neq(0,0),\\\\[6pt] 0, & (x,y)=(0,0).\\end{cases}$ 讨论 $f(x,y)$ 在点 $(0,0)$ 的连续性, 偏导数的存在性, 可微性."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\sum\\limits_{n=0}^{\\infty}\\dfrac{(n+1)(n+2)}{n+3}x^n$ 的收敛域以及和函数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 在 $I$ 上有连续的导数, 记 $F_n(x)=nf\\left(x+\\dfrac{1}{n}\\right)-nf(x)$.\n(1) 若 $I$ 为有界闭区间, $\\{F_n(x)\\}$ 是否一致收敛? 给出理由.\n(2) 若 $I$ 为有界开区间, $\\{F_n(x)\\}$ 是否一致收敛? 给出理由."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $f(x)$ 为连续函数, 求曲线积分\n$$\\int_L \\dfrac{1+y^2f(xy)}{y}\\,\\mathrm{d}x+\\dfrac{x\\left(y^2f(xy)-1\\right)}{y^2}\\,\\mathrm{d}y.$$\n其中 $L$ 为 $\\left(3,\\dfrac{2}{3}\\right)$ 指向 $(1,2)$ 的直线."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明: $\\int_{0}^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x=\\dfrac{\\pi}{2}$, 并求 $\\int_{0}^{+\\infty}\\dfrac{\\sin^2(xy)}{x^2}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$\\oiint\\limits_{\\Omega}\\dfrac{x}{(x^2+y^2+z^2)^{\\frac{3}{2}}}\\,\\mathrm{d}y\\mathrm{d}z+\\dfrac{y}{(x^2+y^2+z^2)^{\\frac{3}{2}}}\\,\\mathrm{d}z\\mathrm{d}x+\\dfrac{z}{(x^2+y^2+z^2)^{\\frac{3}{2}}}\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Omega$ 是区域 $|x|\\le 3,\\ |y|\\le 5,\\ |z|\\le 4$ 的表面, 方向向外."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "解答如下问题:\n(1) 叙述有限覆盖定理以及一致连续的定义.\n(2) 利用有限覆盖定理证明连续函数在闭区间内一致连续."
+        }
+      ]
+    },
+    {
+      "school": "南京理工大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "36. 南京理工大学 2026 年高等代数试卷(回忆版) (注. 题目来自考生回忆, 部分表述或数据可能有误)",
+      "source_imgs": ["work/imgs/2247537535_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "",
+          "stem": "多项式 $x^n+2026=a_0+a_1(x+1)+\\cdots+a_n(x+1)^n$, 则 $a_0+a_1+\\cdots+a_n=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "未知.【?】(回忆版原题缺失)"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "三条直线 $a_ix+b_iy+c_i=0$ 满足 $a_i^2+b_i^2\\neq 0$, 记 $\\alpha=(a_1,a_2,a_2), \\beta=(b_1,b_2,b_3), \\gamma=(c_1,c_2,c_3)$, 则三条直线相交于一点的充要条件是______.\nA. $\\alpha,\\beta,\\gamma$ 线性无关.\nB. $\\alpha,\\beta,\\gamma$ 线性相关, $\\alpha,\\beta$ 线性无关.\nC. $\\alpha,\\beta,\\gamma$ 线性相关.\nD. $\\alpha,\\beta,\\gamma$ 线性相关, 且任意两个都线性无关."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "$A$ 为 3 阶可逆矩阵, $A^{*}=2A^{\\mathrm{T}}$, 求 $|A|=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "未知.【?】(回忆版原题缺失)"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "$A=\\begin{pmatrix} \\dfrac{\\sqrt{3}}{2} & -\\dfrac{1}{2}\\\\[6pt] \\dfrac{1}{2} & \\dfrac{\\sqrt{3}}{2} \\end{pmatrix}$, 满足 $A^n=E_2$ 的最小正整数 $n$ 为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$x_1+x_2+x_3+x_4=0$ 的解空间为 $V_1$, $x_1=x_2=x_3=x_4$ 的解空间为 $V_2$, 求 $V_1+V_2$ 的维数______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "$\\sum\\limits_{i=1}^{2n}\\sum\\limits_{j=1}^{2n}a_{ij}x_ix_j$ 为二次型, 其中 $a_{ij}=\\begin{cases}0, & i+j \\text{ 为偶数};\\\\ 1, & i+j \\text{ 为奇数}.\\end{cases}$ 【?】(卷面此题未见具体问题表述)"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "公共根",
+          "stem": "$f(x)=x^4+(m+1)x^3-(2m+1)x^2+(m^2+m)x+m$, $g(x)=x^4+mx^3-x^2+mx+m$. 问 $f(x),g(x)$ 是否存在公共的有理根? 若有, 求出所有的 $m$, 若没有, 给出理由."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算行列式",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix} x+1 & x & \\cdots & x\\\\ x & x+\\dfrac{1}{2} & \\cdots & x\\\\ \\vdots & \\vdots & & \\vdots\\\\ x & x & \\cdots & x+\\dfrac{1}{n} \\end{vmatrix}.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "$n$ 阶矩阵 $A$ 满足 $A^2=A$, 证明: $r(A)+r(A-E)=n$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 为 $n$ 阶实可逆矩阵, 证明: $A$ 可以化成一个正定矩阵与一个正交矩阵的乘积."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $J=\\begin{pmatrix} \\lambda & 1 & 0\\\\ 0 & \\lambda & 1\\\\ 0 & 0 & \\lambda \\end{pmatrix}$. 记 $X=\\{A\\mid AJ=JA\\}$.\n(1) 证明 $X$ 为线性空间.\n(2) 证明 $E,J,J^2$ 为 $X$ 的一组基, 并求其对偶基."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "三阶实对称矩阵 $A$ 的秩为 $2$, $3$ 是 $A$ 的特征值, $\\alpha=(1,1,0)^{\\mathrm T}, \\beta=(1,0,1)^{\\mathrm T}$ 为特征值 $3$ 的特征向量.\n(1) 求解 $A$ 的特征子空间.\n(2) 求 $A$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "$A$ 是 $n$ 阶矩阵, $1,-1$ 不是 $A$ 的特征值.\n(1) 求证: $A^2-E$ 是可逆矩阵.\n(2) 证明: 存在次数小于等于 $n-1$ 的多项式 $f(x)$, 满足 $f(A)=(A^2-E)^{-1}$."
+        }
+      ]
+    }
+  ]
+}

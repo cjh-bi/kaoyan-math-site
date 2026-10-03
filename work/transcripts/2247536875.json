@@ -1,0 +1,223 @@
+{
+  "msgid": "2247536875",
+  "exams": [
+    {
+      "school": "西北工业大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "66.  西北工业大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247536875_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）用极限的严格数学定义证明:",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "(1) $\\lim\\limits_{x\\to+\\infty}\\dfrac{x^2+x-1}{x^2}=1$。\n(2) $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a}=1$, 其中 $a>1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）解答如下问题:",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "(1) 求极限: $\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt{x^4+1}-(x^2-1)e^{\\frac{1}{x}}\\right)$。\n(2) 求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^n}{n(n+1)2^n}$ 的收敛域与和函数。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "使用闭区间套定理证明聚点定理: 实数轴上任一有界无限点集 $S$ 必有一个聚点。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明: 若 $f(x)$ 在 $[a,b]$ 上黎曼可积, 则 $\\lim\\limits_{p\\to+\\infty}\\displaystyle\\int_a^b f(x)\\cos px\\,\\mathrm{d}x=0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "利用 $\\displaystyle\\int_0^{+\\infty} e^{-x^2}\\,\\mathrm{d}x=\\dfrac{\\sqrt{\\pi}}{2}$, 计算 $\\displaystyle\\int_0^{+\\infty}\\dfrac{e^{-a^2x^2}-e^{-b^2x^2}}{x^2}\\,\\mathrm{d}x$, 其中 $b>a>0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "函数 $z=z(x,y)$ 二阶偏导连续, 试以 $u,v$ 作为新的自变量变换方程 $$x^2\\dfrac{\\partial^2 z}{\\partial x^2}-y^2\\dfrac{\\partial^2 z}{\\partial y^2}=0.$$ 其中 $u=xy$, $v=\\dfrac{x}{y}$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明: $f(x)=\\sqrt{x}$ 在 $[0,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "应用高斯公式计算三重积分 $$\\iiint\\limits_{V} (xy+yz+zx)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$ 其中 $V$ 是由 $x\\ge 0, y\\ge 0, 0\\le z\\le 1$ 和 $x^2+y^2\\le 1$ 所确定的空间区域。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 二阶可导, $f(x)$ 是 $(-\\infty,+\\infty)$ 上的有界函数, 证明: 存在 $\\xi\\in(-\\infty,+\\infty)$, 满足 $f''(\\xi)=0$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（5 分）",
+          "no": "1",
+          "score": 5,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上各阶可导, 且存在 $M>0$, 使得 $$|f^{(k)}(x)|\\le M,\\ \\forall x\\in(-\\infty,+\\infty),\\ k=1,2,\\cdots.$$ 如果在一无限有界集 $E$ 上, $f(x)\\equiv 0$, 证明: 在 $(-\\infty,+\\infty)$ 上, $f(x)\\equiv 0$。"
+        }
+      ]
+    },
+    {
+      "school": "西北工业大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "66.  西北工业大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247536875_5.png", "work/imgs/2247536875_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 阶矩阵 $$A=\\begin{pmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\ a_{21}&a_{22}&\\cdots&a_{2n}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{n1}&a_{n2}&\\cdots&a_{nn}\\end{pmatrix},\\ T=\\begin{pmatrix}t&t&\\cdots&t\\\\ t&t&\\cdots&t\\\\ \\vdots&\\vdots&&\\vdots\\\\ t&t&\\cdots&t\\end{pmatrix}.$$(1) 证明: $|A+T|=|A|+tu$, 其中 $u=\\displaystyle\\sum_{i,j=1}^{n} A_{ij}$ 为 $|A|$ 的所有元素的代数余子式之和.\n(2) 利用 (1) 的结论计算 $n$ 阶行列式 $\\begin{vmatrix}a&b&b&\\cdots&b\\\\ c&a&b&\\cdots&b\\\\ c&c&a&\\cdots&b\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ c&c&c&\\cdots&a\\end{vmatrix}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设数域 $F$ 上 $n$ 阶上三角矩阵集合为 $S=\\{A=(a_{ij})_{n\\times n}\\in M_n(F)\\mid a_{ij}=0 \\text{ 当 } i>j\\}$. 其中 $M_n(F)$ 是数域 $F$ 上的 $n$ 阶方阵全体构成的线性空间. 求证:\n(1) $S$ 对矩阵加法和数乘封闭, 因此是 $M_n(F)$ 的一个线性子空间.\n(2) $S$ 对矩阵乘法封闭, 即若 $A,B\\in S$, 则 $AB\\in S$.\n(3) 若 $A\\in S$ 可逆, 则 $A^{-1}\\in S$.\n(4) 若 $A\\in S$ 为严格上三角阵(即主对角线全为 0), 则 $A^n=O$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A\\in\\mathbb{R}^{m\\times n}$, $B\\in\\mathbb{R}^{n\\times m}$.\n(1) 证明: $r(E_m+AB)-r(E_n+BA)=m-n$.\n(2) 证明: 当 $E_m+AB$ 可逆时, $E_n+BA$ 也可逆, 并写出其逆矩阵。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是复数域上以 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 为基底的线性空间, $\\mathscr{A}$ 为 $V$ 上的线性变换, 且 $$\\begin{cases}\\mathscr{A}(\\alpha_i)=\\alpha_1\\ (i=1,2,3);\\\\ \\mathscr{A}(\\alpha_4)=\\alpha_2.\\end{cases}$$ 求 $R(\\mathscr{A}), N(\\mathscr{A}), R(\\mathscr{A})\\cap N(\\mathscr{A})$, 其中 $R(\\mathscr{A})$ 表示 $\\mathscr{A}$ 的值域, $N(\\mathscr{A})$ 表示 $\\mathscr{A}$ 的核。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $n$ 阶矩阵 $$A=\\begin{pmatrix}0&1&&&\\\\ &0&1&&\\\\ &&\\ddots&\\ddots&\\\\ &&&0&1\\\\ 1&&&&0\\end{pmatrix},\\ C=\\begin{pmatrix}c_0&c_1&c_2&\\cdots&c_{n-1}\\\\ c_{n-1}&c_0&c_1&\\ddots&\\vdots\\\\ \\vdots&c_{n-1}&c_0&\\ddots&c_2\\\\ c_2&\\ddots&\\ddots&\\ddots&c_1\\\\ c_1&c_2&\\cdots&c_{n-1}&c_0\\end{pmatrix}.$$(1) 用 $E$ 及 $A$ 的幂表示循环矩阵 $C$.\n(2) 求 $A, C$ 的特征值及 $C$ 的行列式.\n(3) 证明: $C$ 相似于对角阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设线性变换 $\\mathscr{A}:\\mathbb{R}^3\\to\\mathbb{R}^3$ 在标准基下的矩阵为 $$A=\\begin{pmatrix}1&0&-1\\\\ 0&1&0\\\\ -1&0&1\\end{pmatrix}.$$(1) 将二次型 $f(X)=X^TAX$ 化为标准形.\n(2) 设 $S:\\mathbb{R}^3\\to\\mathbb{R}^3$ 定义为 $S(X)=\\mathscr{A}^2X-2\\mathscr{A}X+2X$, 求 $S$ 的特征值, 像空间维数与零空间维数。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $P^m$ 是次数不超过 $m$ 的一元多项式空间, 定义 $P^m$ 上的线性变换 $\\mathscr{A}$ 为 $$\\mathscr{A}(f(x))=f(x+1)-f(x).$$(1) 写出 $\\mathscr{A}$ 关于基底 $1,x,\\cdots,x^m$ 的矩阵 $A$.\n(2) 求 $A$ 的 Jordan 标准形与最小多项式.\n(3) 求 $\\mathscr{A}^k$ 的核空间 $N(\\mathscr{A}^k)$ 的维数和一组基。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 为 $n$ 阶正定矩阵, 且 $A$ 的特征值全属于 $(a,b)$, $B$ 的特征值全属于 $(c,d)$, $a,b,c,d>0$. 证明:\n(1) $A+B$ 的特征值全属于 $(a+c,b+d)$.\n(2) $AB$ 的特征值全属于 $(ac,bd)$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $x_1,x_2,\\cdots,x_k$ 和 $y_1,y_2,\\cdots,y_k$ 是 $n$ 维欧氏空间 $V$ 的两个线性无关的向量组. 证明: 存在正交变换 $\\varphi$ 使得 $\\varphi(x_i)=y_i$ $(i=1,2,\\cdots,k)$ 的充要条件是 $(x_i,x_j)=(y_i,y_j)$ $(i,j=1,2,\\cdots,k)$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $f$ 是 $n$ 阶方阵全体构成的集合到数集上的映射, 满足对任意的 $n$ 阶方阵 $A$, 对任意的 $1\\le j\\le n$, 对任意的常数 $c$, 有\n(1) 若 $A$ 的第 $j$ 列等于 $B$ 和 $C$ 的第 $j$ 列之和, 且 $A$ 的其余列与 $B,C$ 的对应列完全相同, 则 $$f(A)=f(B)+f(C).$$(2) 将 $A$ 的第 $j$ 列乘以 $c$ 得到 $B$, 则 $f(B)=cf(A)$.\n(3) 对换 $A$ 的任意两列得到 $B$, 则 $f(B)=-f(A)$.\n(4) $f(E_n)=1$.\n证明:\n(1) 若 $A=(a_{ij})_{n\\times n}$, 则 $$f(A)=\\sum_{(i_1i_2\\cdots i_n)\\in S_n} a_{i_1 1}a_{i_2 2}\\cdots a_{i_n n} f(e_{i_1},e_{i_2},\\cdots,e_{i_n}).$$ 其中 $S_n$ 是 $1,2,\\cdots,n$ 的全排列, $e_{i_1},e_{i_2},\\cdots,e_{i_n}$ 分别表示第 $i_1,i_2,\\cdots,i_n$ 个元素为 1 其余元素为 0 的单位列向量.\n(2) $f(A)=|A|$, 即 $f(A)$ 表示 $A$ 的行列式。"
+        }
+      ]
+    }
+  ]
+}

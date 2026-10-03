@@ -1,0 +1,273 @@
+{
+  "msgid": "2247529254",
+  "exams": [
+    {
+      "school": "福州大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "45. 福州大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529254_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 30,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限.\n(1) $\\lim_{x\\to 0}\\dfrac{\\sqrt{1+x+x^2}+\\sqrt{1+x-2x^2}-2\\sqrt{1+x}}{e^{\\cos x-1}-1}$.\n(2) $\\lim_{x\\to\\frac{\\pi}{2}}\\sum_{n=1}^{\\infty}\\dfrac{\\sin(2n+1)x}{n^2}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "叙述并证明数列的柯西收敛原理."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上连续, 且 $\\lim\\limits_{x\\to+\\infty}[f(x)-2\\sqrt{x}]$ 存在, $f(x)$ 在 $[a,+\\infty)$ 上是否一致连续? 如果是或否给出证明, 不一定给出一正一反的例子."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判别数项级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nx}{\\sqrt[4]{n}}$ 在 $(0,\\pi)$ 上的敛散性, 若收敛指出是绝对收敛还是条件收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证 $\\displaystyle\\int_{-\\infty}^{+\\infty}e^{-\\frac{x^2}{2}}\\,\\mathrm{d}x=\\sqrt{2\\pi}$, 并用该结果计算 $\\displaystyle\\int_{-\\infty}^{+\\infty}e^{-\\frac{x^2}{2}+x}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $$\\iint\\limits_{\\Sigma}\\dfrac{2x\\,\\mathrm{d}y\\mathrm{d}z+(2+z)^2\\,\\mathrm{d}x\\mathrm{d}y}{\\sqrt{x^2+y^2+z^2}}.$$\n其中 $\\Sigma$ 是上半球面 $z=\\sqrt{4-x^2-y^2}$, 方向取下侧."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 定义 $\\alpha-$阶积分算子 $(\\alpha>0)$: $$I^{\\alpha}f(x)=\\dfrac{1}{\\Gamma(\\alpha)}\\int_0^x (x-s)^{\\alpha-1}f(s)\\,\\mathrm{d}s.$$\n其中 $\\Gamma(\\alpha)$ 为 Gamma 函数, 利用积分换序原理证: 当 $\\alpha,\\beta>0$ 时, 有 $$I^{\\alpha}(I^{\\beta}f(x))=I^{\\alpha+\\beta}f(x)=I^{\\beta}(I^{\\alpha}f(x)).$$"
+        }
+      ]
+    },
+    {
+      "school": "福州大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "45. 福州大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529254_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\alpha_1=(0,1,2)^T,\\alpha_2=(-1,3,2)^T,\\alpha_3=(1,\\lambda,3)^T$, 当且仅当 $\\lambda$ 满足______时, 任意 3 维列向量都可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A$ 是秩为 $r$ 的 $n$ 阶方阵, 且 $A^2=-A$, $E$ 为 $n$ 阶单位矩阵, 则 $|2E+A|=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A,B$ 分别为 $n\\times m$ 和 $m\\times n$ 矩阵, 若 $r(AB)=n$, 则 $r(BA)=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A=\\alpha\\beta^T$, 其中 $\\alpha=(1,3,4)^T$, $\\beta=(2,2,1)^T$, 则 $A$ 的 Jordan 标准形为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 为 3 阶正交矩阵, 且 $a_{22}=-1$, 则 $AX=(0,1,0)^T$ 的解为______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "$A$ 是 $m\\times n$ 矩阵, 证明: 存在 $n\\times m$ 矩阵 $B$, 使得 $ABA=A$ 且 $BAB=B$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A=\\begin{pmatrix}1&0&0&0&0&0\\\\ 0&1&0&0&0&0\\\\ 0&1&1&0&0&0\\\\ 0&0&0&2&0&0\\\\ 0&0&0&1&2&0\\\\ 0&0&0&0&1&2\\end{pmatrix}$, 求 $A$ 的不变因子组和初等因子组."
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $$F[x]_n=\\{a_nx^n+\\cdots+a_1x+a_0\\mid a_n,\\cdots,a_1,a_0\\in F\\}.$$\n求线性变换 $\\mathscr{D}:F[x]_n\\to F[x]_n$, $\\mathscr{D}(f(x))=f'(x)$ 的特征多项式和所有特征值."
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $\\alpha$ 为 $n$ 维实单位列向量, $E$ 为 $n$ 阶单位矩阵, 求 $E-\\alpha\\alpha^T$ 的秩并说明理由."
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题.",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "$A=\\begin{pmatrix}1&4&-2\\\\ 0&-1&0\\\\ 1&2&-2\\end{pmatrix}$, 求 $A^{2025}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "用正交线性替换将二次型 $f(x_1,x_2,x_3)=2x_1^2+2x_2^2+2x_3^2-2x_1x_2-2x_1x_3-2x_2x_3$ 化为标准形, 写出所做的正交线性替换和得到的标准形."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 3 阶实对称矩阵 $A$ 的各行元素之和均为 4, $r(A-E)=1$, 其中 $E$ 为 3 阶单位矩阵. 求矩阵 $A$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $n$ 阶方阵 $A,B$ 满足 $AB=BA$, 证明: $\\begin{vmatrix}A&B\\\\ B&A\\end{vmatrix}=|A^2-B^2|$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B,AB-E$ 都是 $n$ 阶可逆阵, $E$ 为 $n$ 阶单位矩阵.\n(1) 证明: $A-B^{-1}$ 可逆, 并求其逆.\n(2) 证明: $(A-B^{-1})^{-1}-A^{-1}$ 可逆, 并求其逆."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为 $n$ 阶实反对称矩阵, $\\lambda$ 是 $A$ 的特征值, 证明: $\\lambda$ 实部为 0."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\varphi$ 为线性空间 $V$ 上的线性变换, 若 $\\varphi$ 的特征多项式为 $f(\\lambda)=\\lambda^k(\\lambda-1)^{n-k}$, 其中 $0<k<n$. 证明: $V=V_1\\oplus V_2$, 其中 $V_1=\\mathrm{Ker}\\,\\varphi^k$, $V_2=\\mathrm{Ker}\\,(\\varphi-\\mathrm{id}_V)^{n-k}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\varphi,\\psi$ 为线性空间 $V$ 上的线性变换, 且 $\\varphi^2=\\varphi$. 证明:\n(1) $\\mathrm{Ker}\\,\\varphi=\\{\\alpha-\\varphi(\\alpha)\\mid\\alpha\\in V\\}$.\n(2) $\\mathrm{Ker}\\,\\varphi$, $\\mathrm{Im}\\,\\varphi$ 均是 $\\psi-$不变子空间的充分必要条件是 $\\psi\\varphi=\\varphi\\psi$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "问答题.",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 为 $m\\times n$ 实矩阵. 证明:\n(1) 对任意 $m$ 维实向量 $\\beta$, 线性方程组 $A^TAx=A^T\\beta$ 必有解.\n(2) 若 $X_0$ 是线性方程组 $A^TAX=A^T\\beta$ 的解, 则在欧氏空间 $\\mathbb{R}^n$ 中, 对任意 $\\alpha\\in\\mathbb{R}^n$, 均有 $d(\\beta,AX_0)\\le d(\\beta,A\\alpha)$, 其中 $d(X,Y)$ 表示向量 $X,Y$ 的距离."
+        }
+      ]
+    }
+  ]
+}

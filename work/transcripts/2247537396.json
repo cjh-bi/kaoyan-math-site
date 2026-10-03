@@ -1,0 +1,223 @@
+{
+  "msgid": "2247537396",
+  "exams": [
+    {
+      "school": "郑州大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "47. 郑州大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537396_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0^+}\\ln(2026x)\\ln\\dfrac{\\ln 2026x}{\\ln\\frac{x}{2026}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)=\\int_{\\sqrt{\\frac{\\pi}{2}}}^{\\sqrt{x}}\\dfrac{1}{1+\\cot u^2}\\,\\mathrm{d}u$，求积分 $\\int_0^{\\frac{\\pi}{2}}\\dfrac{f(x)}{\\sqrt{x}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\sum\\limits_{n=2}^{\\infty}\\dfrac{x^n}{n^2-1}$ 的收敛域及和函数，并求 $\\sum\\limits_{n=2}^{\\infty}\\dfrac{1}{(n^2-1)2^n}$ 的和。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 10,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "已知曲线积分 $\\int_L\\dfrac{1}{\\varphi(x)+y^2}(x\\,\\mathrm{d}y-y\\,\\mathrm{d}x)=A$（常数），其中 $\\varphi(x)$ 是可导函数且 $\\varphi(1)=1$。$L$ 是绕原点 $(0,0)$ 一周的任意正向闭曲线，试求 $\\varphi(x)$ 及 $A$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $z=z(x,y)$ 由方程 $ax+by+cz=F(x^2+y^2+z^2)$ 确定，其中 $F(u)$ 为可导函数，$a,b,c$ 为常数。证明：函数 $z=z(x,y)$ 满足方程\n$$(cy-bz)\\dfrac{\\partial z}{\\partial x}+(az-cx)\\dfrac{\\partial z}{\\partial y}=bx-ay.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上具有二阶连续导数，证明：在 $(0,1)$ 内存在一点 $\\xi$，使得\n$$\\left|f(0)+f(1)-2f\\left(\\dfrac{1}{2}\\right)\\right|\\le \\dfrac{1}{4}|f''(\\xi)|.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $x_0=\\sqrt{6}$，$x_{n+1}=\\sqrt{6+x_n}$（$n\\ge 0$）。\n(1) 证明：数列 $\\{x_n\\}$ 收敛，并求 $\\lim\\limits_{n\\to\\infty} x_n$.\n(2) 判断级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^{n-1}\\sqrt{3-x_n}$ 的敛散性，如果收敛，判断是绝对收敛还是条件收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛于 $f(x)$，且每个函数 $f_n(x)$ 在 $[a,b]$ 上连续。$\\{x_n\\}\\subset[a,b]$ 满足 $\\lim\\limits_{n\\to\\infty} x_n=x_0$，证明：$\\lim\\limits_{n\\to\\infty} f_n(x_n)=f(x_0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上可导，在 $(a,b)$ 内二阶可导。$f(a)=f(b)=0$，$f'_+(a)>0$，$f'_-(b)>0$。\n(1) 证明：存在 $c\\in(a,b)$，使得 $f(c)=0$.\n(2) 证明：存在 $\\xi\\in(a,b)$，使得 $f''(\\xi)=0$.\n(3) 证明：存在 $\\xi_1,\\xi_2\\in(a,b)$，使得 $f''(\\xi_1)<0$，$f''(\\xi_2)>0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明级数 $\\sum\\limits_{n=1}^{\\infty}(-1)^{n-1}\\dfrac{x^n}{n(1+x^n)}$ 在开区间 $(0,1)$ 上一致收敛于 $f(x)$，且 $f(x)$ 具有连续导数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": 20,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续，常数 $a,b>0$。\n(1) 若 $\\lim\\limits_{x\\to+\\infty} f(x)=k$，证明：$\\displaystyle\\int_0^{+\\infty}\\dfrac{f(ax)-f(bx)}{x}\\,\\mathrm{d}x=[f(0)-k]\\ln\\dfrac{b}{a}$.\n(2) 计算 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\arctan(2x^2)-\\arctan(x^2)}{x}\\,\\mathrm{d}x$。"
+        }
+      ]
+    },
+    {
+      "school": "郑州大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "47. 郑州大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537396_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分，共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设矩阵 $A$ 的伴随矩阵 $A^*=\\begin{pmatrix}2&0&0\\\\ 0&8&0\\\\ 0&0&1\\end{pmatrix}$，若 $|A|>0$，且 $ABA^{-1}=BA^{-1}+2E$，其中 $E$ 为单位矩阵，则 $B=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分，共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "若 $A$ 为 3 阶方阵，满足 $|A-E|=|A-2E|=|A+E|=0$，其中 $E$ 为单位矩阵，则 $|A+3E|=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分，共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "多项式 $(x^3-1)\\mid(x^n-1)$（$n$ 为正整数）的充要条件是______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分，共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "与矩阵 $A=\\begin{pmatrix}1&0&0\\\\ 10&1&0\\\\ 0&10&1\\end{pmatrix}$ 乘法可交换的所有实矩阵在实数域上对于矩阵加法和数乘构成一个线性空间 $V$，则 $V$ 的维数为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分，共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\sigma$ 是线性空间 $V$ 到 $W$ 的线性映射，$\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 是 $V$ 的一个基，$\\eta_1,\\eta_2$ 是 $W$ 的一个基，且 $\\sigma$ 在 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 与 $\\eta_1,\\eta_2$ 下的表示矩阵为 $\\begin{pmatrix}1&1&3\\\\ -1&2&0\\end{pmatrix}$，则 $\\sigma$ 的核空间 $\\operatorname{Ker}\\sigma=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分，共 120 分.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知齐次线性方程组\n$$\\begin{cases}(a+b)x_1+ax_2+\\cdots+ax_n=0,\\\\ ax_1+(a+b)x_2+\\cdots+ax_n=0,\\\\ \\quad\\cdots\\cdots\\\\ ax_1+ax_2+\\cdots+(a+b)x_n=0.\\end{cases}$$\n其中 $a\\ne 0$，$n\\ge 2$。试讨论 $a$ 和 $b$ 满足什么条件时：\n(1) 方程组仅有零解.\n(2) 方程组有非零解，并求出其通解。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分，共 120 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\mathbb{R}^4$ 中，向量组\n$$\\alpha_1=(1,0,-1,0),\\ \\alpha_2=(0,0,1,-1),\\ \\alpha_3=(1,-1,0,0)$$\n生成的子空间为 $V_1$。向量组\n$$\\beta_1=(1,2,-1,2),\\ \\beta_2=(0,1,-1,0),\\ \\beta_2=(0,2,1,-1)$$\n生成的子空间为 $V_2$，求 $V_1+V_2$ 和 $V_1\\cap V_2$ 的一个基和维数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分，共 120 分.",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $\\mathbb{R}^3$ 的线性变换 $\\varphi$ 对于基 $\\xi_1=(-1,0,2)^{\\mathrm{T}},\\xi_2=(0,1,1)^{\\mathrm{T}},\\xi_3=(3,-1,-6)^{\\mathrm{T}}$ 的像为\n$$\\varphi(\\xi_1)=(-1,0,1)^{\\mathrm{T}},\\ \\varphi(\\xi_2)=(0,-1,2)^{\\mathrm{T}},\\ \\varphi(\\xi_3)=(-1,-1,3)^{\\mathrm{T}}.$$\n(1) 求 $\\varphi$ 在基 $\\xi_1,\\xi_2,\\xi_3$ 下的矩阵.\n(2) 设 $x=(1,2,1)^{\\mathrm{T}}$，求 $\\varphi(x)$.\n(3) 证明：$\\xi_1-\\xi_3,\\xi_2,\\xi_1+\\xi_2+\\xi_3$ 是 $\\mathbb{R}^3$ 的基，并求 $\\varphi$ 在该基下的矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分，共 120 分.",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是数域 $P$ 上的 4 维线性空间，$\\sigma$ 是 $V$ 上的线性变换，$\\sigma$ 在 $V$ 的基 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3,\\varepsilon_4$ 下的矩阵为 $A$，其中\n$$A=\\begin{pmatrix}4&2&5&-2\\\\ 0&1&0&0\\\\ -2&3&-2&1\\\\ -1&4&-1&1\\end{pmatrix}.$$\n(1) 求包含 $\\varepsilon_1$ 的最小的 $\\sigma-$不变空间 $W$。【?】（图片到此页结束，本题其余分问及大题后续题目缺失）"
+        }
+      ]
+    }
+  ]
+}

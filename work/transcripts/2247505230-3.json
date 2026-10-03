@@ -1,0 +1,313 @@
+{
+  "msgid": "2247505230-3",
+  "exams": [
+    {
+      "school": "华南师范大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "155. 华南师范大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247505230-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(5 × 8 = 40 分) 计算下列极限.",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}(1+a)(1+a^{2})\\cdots(1+a^{2^{n}})$，其中 $|a|<1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "(5 × 8 = 40 分) 计算下列极限.",
+          "no": "2",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "求极限 $\\lim\\limits_{(x,y)\\to(0,0)}(x^{2}+y^{2})^{xy}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "(5 × 8 = 40 分) 计算下列极限.",
+          "no": "3",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{i=1}^{n}\\dfrac{n}{n^{2}+i^{2}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "(5 × 8 = 40 分) 计算下列极限.",
+          "no": "4",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\ln(1+x\\mathrm{e}^{x})}{\\ln(x+\\sqrt{1+x^{2}})}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "(5 × 8 = 40 分) 计算下列极限.",
+          "no": "5",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\mathrm{e}^{x}\\sin x-x(1+x)}{x^{3}}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(4 × 10 = 40 分) 计算下列不定积分或微分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $z=f\\left(x+y,xy,\\dfrac{x}{y}\\right)$，求 $z$ 的全微分 $\\mathrm{d}z$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(4 × 10 = 40 分) 计算下列不定积分或微分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求 $\\displaystyle\\int\\dfrac{\\ln\\cos x}{\\sin^{2}x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(4 × 10 = 40 分) 计算下列不定积分或微分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "已知 $\\begin{cases}x=a\\cos^{3}t,\\\\ y=a\\sin^{3}t,\\end{cases}$ 求 $\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(4 × 10 = 40 分) 计算下列不定积分或微分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求三重积分 $\\displaystyle\\iiint\\limits_{V}y\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $V=\\left\\{(x,y,z)\\mid \\dfrac{x^{2}}{a^{2}}+\\dfrac{y^{2}}{b^{2}}+\\dfrac{z^{2}}{c^{2}}\\le 1,\\ y\\ge 0\\right\\}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知二元函数 $f(x,y)$ 的偏导数 $f_{x}$ 与 $f_{y}$ 在区域 $D$ 上有界，证明：$f(x,y)$ 在 $D$ 上一致连续。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "已知函数 $f(x)$ 在 $(a,b)$ 上连续，证明：$f(a+0)$ 与 $f(b-0)$ 存在的充要条件是 $f(x)$ 在 $(a,b)$ 上一致连续。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(2 × 8 = 16 分) 判断题.",
+          "no": "1",
+          "score": 8,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x(x+n)^{n}}{n^{2+n}}$ 在 $x\\in[0,1]$ 上是否一致收敛。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(2 × 8 = 16 分) 判断题.",
+          "no": "2",
+          "score": 8,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "讨论 $F(y)=\\displaystyle\\int_{0}^{1}\\dfrac{y f(x)}{x^{2}+y^{2}}\\,\\mathrm{d}x$ 在 $y\\ge 0$ 的连续性，其中 $f(x)$ 在 $[0,1]$ 连续恒正。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "把\n$$f(x)=\\begin{cases}x, & x\\in[0,1];\\\\ 1, & x\\in(1,2);\\\\ 3-x, & x\\in[2,3].\\end{cases}$$\n展开为周期为 6 的余弦级数，并讨论其收敛性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(14 分)",
+          "no": "1",
+          "score": 14,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知 $f(x)$ 与 $g(x)$ 均为定义在 $[a,b]$ 上的有界函数，且仅在有限个点处 $f(x)\\neq g(x)$。证明：若 $f(x)$ 在 $[a,b]$ 上可积，则 $g(x)$ 在 $[a,b]$ 上也可积，且\n$$\\int_{a}^{b}f(x)\\,\\mathrm{d}x=\\int_{a}^{b}g(x)\\,\\mathrm{d}x.$$"
+        }
+      ]
+    },
+    {
+      "school": "华南师范大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "156. 华南师范大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247505230-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "证明：$x^{2}+x+1$ 整除 $x^{2021}+x^{1021}+x^{21}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分) 计算下列行列式",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix}x_{1}-m & x_{2} & \\cdots & x_{n}\\\\ x_{1} & x_{2}-m & \\cdots & x_{n}\\\\ \\vdots & \\vdots & & \\vdots\\\\ x_{1} & x_{2} & \\cdots & x_{n}-m\\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知\n$$A=\\begin{pmatrix}1 & 0 & 0\\\\ 1 & 0 & 1\\\\ 1 & 1 & 0\\end{pmatrix}.$$\n证明：$A^{n}=A^{n-2}+A^{2}-I$（$n\\ge 3$）。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知\n$$A=\\begin{pmatrix}1 & 0 & 0\\\\ 1 & 0 & 1\\\\ 1 & 1 & 0\\end{pmatrix}.$$\n求 $A^{2021}$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知 $\\alpha_{1}=(1,-1,1,0)'$，$\\alpha_{2}=(1,1,0,1)'$，$\\alpha_{3}=(3,1,1,2)'$，求一齐次线性方程组以 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 为解空间。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $A$ 为 $m\\times n$ 的矩阵，$B$ 为 $k\\times n$ 的矩阵，证明：$A$ 与 $B$ 行向量等价当且仅当方程组 $AX=0$ 与 $BX=0$ 同解。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix}4 & 2 & 2\\\\ 2 & 4 & 2\\\\ 2 & 2 & 4\\end{pmatrix}.$$\n证明：$A$ 为正定矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix}4 & 2 & 2\\\\ 2 & 4 & 2\\\\ 2 & 2 & 4\\end{pmatrix}.$$\n证明：存在正定矩阵 $B$，使得 $A=B^{2}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix}4 & 2 & 2\\\\ 2 & 4 & 2\\\\ 2 & 2 & 4\\end{pmatrix}.$$\n求矩阵 $B$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 已知 A, B, C, D 均为 n 阶方阵. 请解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $A$，$B$，$C$，$D$ 均为 $n$ 阶方阵。判断 $\\begin{vmatrix}A & B\\\\ C & D\\end{vmatrix}=|AD-CB|$ 是否成立，为什么？"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 已知 A, B, C, D 均为 n 阶方阵. 请解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "已知 $A$，$B$，$C$，$D$ 均为 $n$ 阶方阵。若等式 $\\begin{vmatrix}A & B\\\\ C & D\\end{vmatrix}=|AD-CB|$ 不成立，那满足什么条件等式成立，并证明结论。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "(20 分) 解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "写出正交矩阵的定义。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "(20 分) 解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知 $A$ 是特征值全为实数的 $n$ 阶矩阵。\n(1) 证明：存在正交矩阵 $T$，使得 $T^{-1}AT$ 为上三角矩阵。\n(2) 若 $A$ 为正交矩阵，则 $A$ 为对称矩阵。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "已知 $A$ 是线性空间 $V$ 上的线性变换 $\\sigma$ 在某一组基下的矩阵，证明：$\\operatorname{rank}(A)=\\operatorname{rank}(A^{2})$ 当且仅当 $V=\\operatorname{Ker}(\\sigma)\\oplus\\operatorname{Im}(\\sigma)$，其中 $\\operatorname{rank}(A)$ 为 $A$ 的秩。"
+        }
+      ]
+    }
+  ]
+}

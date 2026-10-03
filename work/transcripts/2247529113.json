@@ -1,0 +1,283 @@
+{
+  "msgid": "2247529113",
+  "exams": [
+    {
+      "school": "上海大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "17. 上海大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529113_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求数列极限: (1) $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{n}$, (2) $\\lim\\limits_{n\\to\\infty}(2n!)^{\\frac{1}{n^2}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设函数 $f(x)$ 在 $[-1,1]$ 上连续, 求 $\\lim\\limits_{x\\to 0}\\dfrac{\\ln(1+f(x)\\arctan x)}{2^x-1}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求曲线积分\n$$\\oint_L \\dfrac{x^2 y}{(x-a)^2+y^2}\\,\\mathrm{d}y.$$\n其中 $L$ 是由圆 $(x-a)^2+y^2=a^2$ $(a>0)$ 与 $x$ 轴围成的第四象限区域的边界, 方向为逆时针."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$\\iint_{\\Sigma} x^2\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为曲面 $z=\\sqrt{x^2+y^2}$ 在 $0\\le z\\le 1$ 的部分, 方向取下侧."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "若函数 $f(x)$ 为区间 $[a,b]$ 上只有有限个间断点的有界函数, 证明: $f(x)$ 在 $[a,b]$ 上可积."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上二阶可微, $f(0)=f(1)=0$, $\\min\\limits_{0\\le x\\le 1}f(x)=-1$. 证明:\n$$\\min_{0\\le x\\le 1} f''(x)\\le 8,\\ \\max_{0\\le x\\le 1} f''(x)\\ge 8.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "对于级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{x^2+2^n}{(n+1)!}$.\n(1) 证明: 在任意有限区间 $I$ 上一致收敛.\n(2) 判断级数在任何一点的敛散性, 若收敛, 说明是条件收敛还是绝对收敛, 并给出理由."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "解答如下问题:\n(1) 叙述 $\\mathbb{R}^2$ 的聚点定理.\n(2) 利用聚点定理证明二元函数 $f$ 在有界闭域 $D\\subset\\mathbb{R}^2$ 连续则一致连续."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $\\varphi(x)$ 在 $[a,b]$ 上有界可积, 证明: $\\lim\\limits_{p\\to+\\infty}\\displaystyle\\int_a^b \\varphi(x)\\sin px\\,\\mathrm{d}x=0$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数\n$$f(x,y)=\\begin{cases}\\dfrac{xy^2}{\\sqrt{x^2+y^2}}, & (x,y)\\ne(0,0);\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$$\n(1) 计算 $f(x,y)$ 的偏导数.\n(2) 讨论 $f(x,y)$ 在原点的连续性.\n(3) 讨论 $f(x,y)$ 在原点的可微性."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 前 6 道题每题 15 分, 最后 1 道 20 分, 共 110 分.",
+          "no": "7",
+          "score": 20,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "解答如下问题:\n(1) 若函数 $f(x)$ 满足以下条件: (i) 函数 $f(x)$ 在点 $x_0$ 的邻域 $U(x_0)$ 连续; (ii) 在 $U^{\\circ}(x_0)$ 可导; (iii) 极限 $\\lim\\limits_{x\\to x_0}f'(x)$ 存在. 证明: $f(x)$ 在点 $x_0$ 处可导, 且 $f'(x_0)=\\lim\\limits_{x\\to x_0}f'(x)$.\n(2) 若函数 $f(x)$ 只满足本题 (1) 中条件 (i) 和 (ii), 但不满足 (iii), 则 $f(x)$ 在点 $x_0$ 不可导, 是否正确? 请给出理由."
+        }
+      ]
+    },
+    {
+      "school": "上海大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "17. 上海大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529113_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $p,p_1,p_2,\\cdots,p_s$ 是互不相同的素数, 则多项式 $f(x)=x^p-p_1p_2\\cdots p_s$ 在有理数域上______(可约/不可约)."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "(可能有误)三阶矩阵 $A$ 的行列式因子为 $1,x-2,(x-2)^2(x-3)^2$, 则 $A$ 的 Jordan 标准形为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 5 阶矩阵 $A$ 的各行元素之和为 0, 且 $r(A)=4$, 则 $AX=0$ 的通解为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "线性空间 $V$ 是由 3 阶实矩阵关于矩阵加法和数乘运算构成的实线性空间, 记\n$$V_1=\\{A\\in V\\mid A^T=-A\\},\\ V_2=\\{(a_{ij})_{3\\times 3}\\mid a_{ij}=0,\\ \\forall i<j\\}.$$\n则 $\\dim(V_1+V_2)+\\dim(V_1\\cap V_2)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "若二次型 $f(x_1,x_2,x_3)=ax_1^2-ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3$, 则 $a=$ ______时, $f$ 在 $\\mathbb{R}$ 上的规范形为 $y_1^2-y_2^2$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断题. 每题 5 分, 共 25 分. 正确请说明理由, 错误请举出反例.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "多项式 $x^3-1$ 与 $x^5-1$ 的最大公因式为 1."
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断题. 每题 5 分, 共 25 分. 正确请说明理由, 错误请举出反例.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "若向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关, 则 $\\alpha_1+\\alpha_2,\\alpha_2-\\alpha_3,\\alpha_1+2\\alpha_3$ 也线性无关."
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断题. 每题 5 分, 共 25 分. 正确请说明理由, 错误请举出反例.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "若 $U,V$ 时 $\\mathbb{F}^n$ 的子空间, 且 $\\dim U+\\dim V=n$, 则 $\\mathbb{F}^n=U\\oplus V$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断题. 每题 5 分, 共 25 分. 正确请说明理由, 错误请举出反例.",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "对任意实矩阵 $A_{m\\times n}$, 都有 $E+A^TA$ 为正定矩阵."
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断题. 每题 5 分, 共 25 分. 正确请说明理由, 错误请举出反例.",
+          "no": "5",
+          "score": 5,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $U$ 是实内积空间 $V$ 上的一个线性变换的一个有限维不变子空间, 则 $U$ 的正交补空间 $U^{\\perp}$ 也是线性变换的不变子空间."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题与证明题. 共 100 分.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知线性方程组\n$$\\begin{cases}x_1-2bx_2+2x_4=1;\\\\ x_1-2x_2+(a-1)x_3+x_4=2;\\\\ 2x_1-4bx_2+x_3+3x_4=b.\\end{cases}$$\n有三个线性无关的解, 求参数 $a,b$ 和该方程组的通解."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题与证明题. 共 100 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A=\\begin{pmatrix}0 & 1 & 0\\\\ 1 & 0 & 1\\\\ 0 & 0 & 1\\end{pmatrix}$, $E$ 为 3 阶单位矩阵, $n\\ge 3$.\n(1) 证明: $A^n=A^{n-2}+A^2-E$.\n(2) 求 $A^{10}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题与证明题. 共 100 分.",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B$ 均为 $n$ 阶非零矩阵, 且 $A^2=A$, $B^2+B=O$.\n(1) 证明: $\\mu=1$ 和 $\\lambda=-1$ 分别是 $A,B$ 的特征值.\n(2) 若 $AB=BA=O$, $\\alpha$ 是 $A$ 的属于特征值 1 的特征向量, $\\beta$ 是 $B$ 的属于特征值 $-1$ 的特征向量, 证明: $\\alpha,\\beta$ 线性无关."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题与证明题. 共 100 分.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $A$ 是实数域 $\\mathbb{R}$ 上的 $m\\times n$ 实矩阵, $B$ 是实数域 $\\mathbb{R}$ 上的 $(n-m)\\times n$ 实矩阵, 令\n$$V_1=\\{X\\in\\mathbb{R}^n\\mid AX=0\\},\\ V_2=\\{X\\in\\mathbb{R}^n\\mid BX=0\\}.$$\n已知矩阵 $C=\\begin{pmatrix}A\\\\ B\\end{pmatrix}$ 可逆, 证明: $\\mathbb{R}^n=V_1\\oplus V_2$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题与证明题. 共 100 分.",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "(可能有误) 设矩阵 $A,B$ 分别为 $m,n$ 阶复矩阵, 且 $A,B$ 无公共的特征值. 如果 $A,B$ 可对角化, 证明: 对任意的 $m\\times n$ 复矩阵 $C$, 矩阵 $H=\\begin{pmatrix}2A & C\\\\ O & 3B\\end{pmatrix}$ 可对角化."
+        }
+      ]
+    }
+  ]
+}

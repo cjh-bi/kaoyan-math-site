@@ -1,0 +1,94 @@
+{
+ "msgid": "2247504638-3",
+ "exams": [
+  {
+   "school": "山东大学",
+   "year": "2021",
+   "subject": "数学分析",
+   "header_note": "57. 山东大学 2021 年硕士研究生入学考试数学分析试卷",
+   "source_imgs": ["work/imgs/2247504638-3_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "一元微分学",
+     "l2": "导数计算",
+     "stem": "已知 $y=\\sin\\left(\\ln\\dfrac{x}{1+x^2}\\right)$ $(x>0)$，求 $y'$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "级数",
+     "l2": "幂级数",
+     "stem": "求幂级数 $\\displaystyle\\sum_{n=2}^{\\infty}(-1)^{n+1}\\dfrac{x^{n+1}}{n^2-1}$ 的收敛域与和函数。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": null,
+     "form": "综合",
+     "l1": "多元积分学",
+     "l2": "第一型曲面积分",
+     "stem": "设 $u=u(x,y,z)$ 是二阶连续可微函数，且满足调和方程 $\\Delta u=\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}+\\dfrac{\\partial^2 u}{\\partial z^2}=0$，已知 $S$ 为逐段光滑的曲面，$\\boldsymbol{n}$ 为曲面 $S$ 的单位外法向量，$\\dfrac{\\partial u}{\\partial \\boldsymbol{n}}$ 表示 $u$ 沿 $\\boldsymbol{n}$ 方向的方向导数，求 $\\displaystyle\\iint_S \\dfrac{\\partial u}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}S$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": null,
+     "form": "证明",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "记 $I_n=\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\sin^n x\\,\\mathrm{d}x$。\n(1) 证明：$I_n=\\dfrac{n-1}{n}I_{n-2}$；\n(2) 证明：$\\lim\\limits_{n\\to\\infty} I_n=0$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": null,
+     "form": "证明",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "设 $F(x,y,z)$ 具有连续的一阶偏导数，且\n$$y\\dfrac{\\partial F}{\\partial x}-x\\dfrac{\\partial F}{\\partial y}+\\dfrac{\\partial F}{\\partial z}\\geq \\alpha>0.$$\n其中 $\\alpha$ 为常数。证明：动点 $(x,y,z)$ 沿着曲线 $\\begin{cases} x=-\\cos t;\\\\ y=\\sin t;\\\\ z=t. \\end{cases}$ 趋近于 $+\\infty$ 时，$F(x,y,z)\\to+\\infty$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": null,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "设函数 $f(x)$ 在 $[0,1]$ 上连续，且 $f(1)=0$，证明：函数列 $\\{x^n f(x)\\}$ 在 $[0,1]$ 上一致收敛。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": null,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "数列收敛性",
+     "stem": "设 $f(x)$ 是 $(-\\infty,+\\infty)$ 上的凸函数，记 $x_n=\\dfrac{1}{n+1}+\\dfrac{1}{n+2}+\\cdots+\\dfrac{1}{2n}$ $(n=1,2,\\cdots)$。\n(1) 证明：$\\{x_n\\}$ 收敛；\n(2) 证明：$\\lim\\limits_{n\\to\\infty} f(x_n)$ 存在。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "8",
+     "score": null,
+     "form": "综合",
+     "l1": "广义积分与含参积分",
+     "l2": "广义积分敛散性",
+     "stem": "讨论反常积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\ln(1+x)}{x^{\\alpha}}\\,\\mathrm{d}x$ 的敛散性，并证明自己的结论。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,243 @@
+{
+  "msgid": "2247529435",
+  "exams": [
+    {
+      "school": "首都师范大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "13. 首都师范大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529435_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(24 分) 计算题.",
+          "no": "1",
+          "score": 8,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\left(\\dfrac{\\sin x}{x}\\right)^{\\frac{1}{1-\\cos x}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "(24 分) 计算题.",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设函数 $f(x)$ 在点 $a$ 可导且 $f(a)\\ne 0$, 求 $\\lim_{n\\to\\infty}\\left[\\dfrac{f\\left(a+\\frac{1}{n}\\right)}{f(a)}\\right]^n$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "(24 分) 计算题.",
+          "no": "3",
+          "score": 8,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求级数 $\\sum_{n=1}^{\\infty}\\dfrac{n}{3^n}$ 的和."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分) 考虑方程 $e^{x+2y+3z}+xyz=1$. (1)",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "考虑方程 $e^{x+2y+3z}+xyz=1$. (1)\n设函数 $z=z(x,y)$ 由 (1) 确定, 求 $\\mathrm{d}z$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分) 考虑方程 $e^{x+2y+3z}+xyz=1$. (1)",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "考虑方程 $e^{x+2y+3z}+xyz=1$. (1)\n设曲面 $S$ 由 (1) 确定, 求 $S$ 上过点 $(0,0,0)$ 的切平面方程和法线方程."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(16 分) 考虑函数 $f(x)=\\begin{cases}\\dfrac{x}{3}+x^2\\sin\\dfrac{1}{x}, & x\\ne 0;\\\\ 0, & x=0.\\end{cases}$",
+          "no": "1",
+          "score": 8,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "考虑函数 $f(x)=\\begin{cases}\\dfrac{x}{3}+x^2\\sin\\dfrac{1}{x}, & x\\ne 0;\\\\ 0, & x=0.\\end{cases}$\n讨论函数 $f(x)$ 的连续性和可导性."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(16 分) 考虑函数 $f(x)=\\begin{cases}\\dfrac{x}{3}+x^2\\sin\\dfrac{1}{x}, & x\\ne 0;\\\\ 0, & x=0.\\end{cases}$",
+          "no": "2",
+          "score": 8,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "考虑函数 $f(x)=\\begin{cases}\\dfrac{x}{3}+x^2\\sin\\dfrac{1}{x}, & x\\ne 0;\\\\ 0, & x=0.\\end{cases}$\n讨论是否存在 $x=0$ 的一个邻域, 使得 $f(x)$ 在该邻域内单调并给出理由."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明不等式 $xy\\le x\\ln x-x+e^y$, $x\\ge 1$, $y\\ge 0$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 为球面 $x^2+y^2+z^2=a^2$ $(a>0)$ 和平面 $x+y+z=0$ 的交线, 一质点在点 $M(x,y,z)$ 处受到力 $\\boldsymbol{F}=y\\boldsymbol{i}+z\\boldsymbol{j}+x\\boldsymbol{k}$ 的作用, 其中 $\\boldsymbol{i}=(1,0,0), \\boldsymbol{j}=(0,1,0), \\boldsymbol{k}=(0,0,1)$, 此质点沿 $L$ 运动一周, 方向从 $z$ 轴正项看为逆时针方向, 求 $\\boldsymbol{F}$ 所作的功 $W$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 是区间 $[a,b]$ 上的连续函数, 且满足条件 $\\int_a^b x^k f(x)\\,\\mathrm{d}x=0$, $k=0,1,\\cdots,n$. 证明: 函数 $f(x)$ 在 $(a,b)$ 内至少有 $n+1$ 个不同的零点."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 设 $f(x)=\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{n^2+1}$.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)=\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{n^2+1}$.\n证明: $f(x)$ 在区间 $(0,2\\pi)$ 内连续, 且有连续的导函数."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 设 $f(x)=\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{n^2+1}$.",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)=\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{n^2+1}$.\n记 $F(x)=\\int_0^x f(t)\\,\\mathrm{d}t$, 证明: $-\\dfrac{1}{30}<F\\left(\\dfrac{\\pi}{2}\\right)<\\dfrac{1}{2}$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(18 分) 讨论下列反常积分的敛散性(包括绝对收敛, 条件收敛和发散)",
+          "no": "1",
+          "score": 18,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论下列反常积分的敛散性(包括绝对收敛, 条件收敛和发散)\n$$\\int_0^{+\\infty}\\dfrac{x\\sin x}{1+x^p}\\,\\mathrm{d}x,\\ p\\ge 0.$$"
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 以 $2\\pi$ 为周期且具有一阶连续的导函数. 证明: $f(x)$ 的傅里叶级数在 $(-\\infty,+\\infty)$ 上一致收敛于 $f(x)$."
+        },
+        {
+          "section": "十",
+          "section_instruction": "(10 分) (本题可能有误)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "(本题可能有误) 若函数 $f(x)$ 在 $(0,1)$ 内可微, 且 $\\lim_{x\\to 0^+}f(x)=\\infty$, 试证: $\\lim_{x\\to 0^+}f'(x)=\\infty$."
+        }
+      ]
+    },
+    {
+      "school": "首都师范大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "13. 首都师范大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529435_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "确定以下多项式是否为有理数域 $\\mathbb{Q}$ 上的不可约多项式, 详细说明理由.\n(1) $x^{p-1}+x^{p-2}+\\cdots+x+1$, 其中 $p$ 为素数.\n(2) $x^{12}+4$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "给定正整数 $n$, 实数 $\\alpha\\in\\left(1,\\dfrac{\\pi}{2}\\right)$, 定义一个 $n$ 阶实方阵 $A_n=(a_{ij})_{1\\le i,j\\le n}$ 满足\n$$a_{ij}=\\begin{cases}2\\cos\\alpha, & i=j;\\\\ 1, & |i-j|=1;\\\\ 0, & \\text{其他情况}.\\end{cases}$$\n即\n$$A_n=\\begin{pmatrix}2\\cos\\alpha & 1 & 0 & \\cdots & 0\\\\ 1 & 2\\cos\\alpha & 1 & \\cdots & 0\\\\ 0 & 1 & 2\\cos\\alpha & \\cdots & 0\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 0 & 0 & 0 & \\cdots & \\cos 2\\alpha\\end{pmatrix}.$$\n证明: $A_n$ 的行列式为 $|A_n|=\\dfrac{\\sin((n+1)\\alpha)}{\\sin\\alpha}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A=\\begin{pmatrix}-1 & -2 & 6\\\\ -1 & 0 & 3\\\\ -1 & -1 & 4\\end{pmatrix}$, 求 $A^{2024}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "给定正整数 $n$, 令 $V=M_n(\\mathbb{R})$ 为实数域 $\\mathbb{R}$ 上的 $n$ 阶方阵构成的 $\\mathbb{R}-$线性空间. 对 $A,B\\in V$, 定义 $\\langle A,B\\rangle=\\mathrm{Tr}\\left(A^TB\\right)$, 其中 $A^T$ 表示矩阵 $A$ 的转置, $\\mathrm{Tr}\\left(A^TB\\right)$ 表示矩阵 $A^TB$ 的迹(即矩阵 $A^TB$ 的对角线元素之和).\n(1) 证明: $\\langle\\ ,\\ \\rangle$ 为 $V$ 上的内积.\n(2) 找出 $V$ 在内积 $\\langle\\ ,\\ \\rangle$ 下的一组标准正交基 $v_1,v_2,\\cdots,v_{n^2}$, 即这组向量满足\n$$\\langle v_i,v_j\\rangle=\\begin{cases}1, & i=j;\\\\ 0, & i\\ne j.\\end{cases}$$\n证明你的结论."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A$ 为有理数域 $\\mathbb{Q}$ 上的三阶方阵, $A^7=E$ 为三阶单位矩阵. 证明: $A=E$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $n$ 为正整数, $V$ 为实数域 $\\mathbb{R}$ 上的 $n$ 维线性空间. 设 $\\mathscr{A}:V\\to V$ 为 $V$ 上的线性变换, $f(\\lambda)$ 为 $\\mathscr{A}$ 的特征多项式. 设 $f(\\lambda)=g(\\lambda)h(\\lambda)$, 其中 $g(\\lambda),h(\\lambda)$ 为互素的多项式. 令 $V_g=\\{v\\in V\\mid g(\\mathscr{A})v=0\\}$, $V_h=\\{v\\in V\\mid h(\\mathscr{A})v=0\\}$, 证明: $V=V_g\\oplus V_h$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $n$ 为正整数, $V$ 为实数域 $\\mathbb{R}$ 上的一个 $n$ 维线性空间, $\\mathscr{A}:V\\to V$ 为 $V$ 上的一个线性变换, $\\mathscr{E}$ 为 $V$ 上的恒等变换, 对正整数 $k$, 实数 $\\lambda$, 令 $V_\\lambda^{(k)}=\\{v\\in V\\mid (\\mathscr{A}-\\lambda\\mathscr{E})^k v=0\\}$, 则 $V_\\lambda^{(k)}$ 为 $V$ 的子空间. 对 $V$ 的子空间 $W$, 记 $\\dim W$ 为 $W$ 的维数. 令 $V_\\lambda=\\sum_{k\\ge 1}V_\\lambda^{(k)}$.\n(1) 证明: 除了有限多个 $\\lambda\\in\\mathbb{R}$ 以外, $\\dim V_\\lambda=0$.\n(2) 证明: $\\sum_{\\lambda\\in\\mathbb{R}}\\dim V_\\lambda=n$ 当且仅当 $\\mathscr{A}$ 的所有特征根都是实数.\n(3) 证明: 存在 $V$ 的一组基使得 $\\mathscr{A}$ 在这组基下的矩阵为对角矩阵当且仅当 $\\sum_{\\lambda\\in\\mathbb{R}}\\dim V_\\lambda^{(1)}=n$."
+        }
+      ]
+    }
+  ]
+}

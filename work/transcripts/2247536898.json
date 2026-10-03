@@ -1,0 +1,253 @@
+{
+  "msgid": "2247536898",
+  "exams": [
+    {
+      "school": "厦门大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "42. 厦门大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247536898_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $a_n>0$ $(n=1,2,\\cdots)$，级数 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 发散，证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{S_n}$ 发散，其中 $S_n=a_1+a_2+\\cdots+a_n$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $x_n=1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}-\\ln(n+1)$ $(n=1,2,\\cdots)$，证明：$\\lim\\limits_{n\\to\\infty} x_n$ 存在．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 是定义在 $[0,1]$ 上的连续可微函数，且满足 $f(0)=0$，$f(1)=1$，证明：\n$$\\int_0^1 \\left| f(x)-f'(x) \\right| \\mathrm{d}x \\ge \\frac{1}{e}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)$ 在 $(-\\infty,+\\infty)$ 上有三阶连续导数，且 $f(x),f'''(x)$ 在 $(-\\infty,+\\infty)$ 上有界，证明：$f'(x),f''(x)$ 在 $(-\\infty,+\\infty)$ 上有界．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x),g(x)$ 是定义在 $[0,+\\infty)$ 上的非负连续函数，满足\n$$f(x)\\le \\int_0^x f(s)g(s)\\,\\mathrm{d}s,\\ \\forall x\\ge 0.$$\n证明：$f(x)\\equiv 0$，$x\\in[0,+\\infty)$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "记 $\\mathbb{R}^3$ 中的点 $\\boldsymbol{x}=(x_1,x_2,x_3)$，$\\mathbb{R}^3$ 中以原点为圆心，$r>0$ 为半径的开球记为 $B_r$，其边界为 $\\partial B_r$．设 $f:\\mathbb{R}^3\\to\\mathbb{R}$ 具有连续的偏导数，且 $f(\\boldsymbol{x})=0$，$\\forall x\\in\\partial B_r$，证明：\n$$\\lim_{\\varepsilon\\to 0^+}\\ \\iiint\\limits_{B_r\\setminus B_\\varepsilon} \\dfrac{x_i\\frac{\\partial f}{\\partial x_i}(\\boldsymbol{x})}{|\\boldsymbol{x}|^3}\\,\\mathrm{d}V=-4\\pi f(\\mathbf{0}).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $V$ 是由球面 $x^2+y^2+z^2=2az$ 与 $x^2+y^2+z^2=az$ 所围立体 $(a>0)$，计算 $\\displaystyle\\iiint\\limits_V z\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 在 $[-\\pi,\\pi]$ 上连续，$a_n$ $(n=0,1,\\cdots)$，$b_n$ $(n=1,2,\\cdots)$ 为 $f$ 的 Fourier 系数．证明：级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{n}$ 和 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{b_n}{n}$ 均收敛．"
+        }
+      ]
+    },
+    {
+      "school": "厦门大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "42. 厦门大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247536898_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 阶方阵 $A$ 的列分块为 $A=(\\alpha_1,\\alpha_2,\\cdots,\\alpha_n)$，$\\det(A)=1$，令\n$$B=(\\alpha_1-\\alpha_2, 2\\alpha_2-\\alpha_3,\\cdots,(n-1)\\alpha_{n-1}-\\alpha_n, n\\alpha_n-\\alpha_1).$$\n求 $\\det(B)=$ ______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $4$ 阶矩阵 $A=\\begin{pmatrix} 1 & -2 & 0 & 0 \\\\ 1 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 3 & 2 \\end{pmatrix}$，其逆矩阵 $A^{-1}=$ ______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "向量 $\\alpha_1=(a,1,-1,1)$，$\\alpha_2=(1,1,b,a)$，$\\alpha_3=(1,a,1,-1)$．当 $a=$ ______ 时，对任意 $b$ 都使得向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 的秩为 $2$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $n$ 阶方阵 $A$ 满足 $R(A)=4$，$R(A^3)=1$，且 $R(A^2)>R(A^3)$，则 $R(A^2)=$ ______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\varphi$ 是 $10$ 维线性空间 $V$ 到 $12$ 维线性空间 $U$ 的线性映射，则 $\\dim\\mathrm{Im}\\,\\varphi+\\dim\\mathrm{Ker}\\,\\varphi=$ ______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设多项式 $f(x)=x^5+x^4-x^3+2x^2-x-2$，则它在有理数域上的标准分解式为______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $3$ 阶方阵 $A$ 有 $3$ 个特征值 $-1,-2,-3$，则 $\\det(A+A^*)=$ ______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "若 $n$ 阶方阵 $A$ 的元素全为 $1$，则其极小多项式为______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "9",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 2 & 2 \\end{pmatrix}$，则其 Jordan 标准形为______．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 50 分.",
+          "no": "10",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $f(x_1,x_2,x_3)=x_1^2+kx_2^2+8x_3^2+2x_1x_2+4x_1x_3+4kx_2x_3$ 是正定二次型，求 $k$ 的取值范围______．"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设\n$$P=\\begin{pmatrix} 1 & 0 & 0 \\\\ 1 & 1 & 0 \\\\ 1 & 1 & 1 \\end{pmatrix},\\ Q=\\begin{pmatrix} 0 & 1 & 1 \\\\ 1 & 0 & 1 \\\\ 1 & 1 & 0 \\end{pmatrix}$$\n满足 $PXP+QXQ=PXQ+QXP+P^2-PQ$，求 $X$．"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=(a_{ij})_{3\\times 3}$ 为 $3$ 阶实矩阵，$a_{ij}=A_{ij}$ $(i,j=1,2,3)$，若 $a_{33}=1$，求线性方程组\n$$A\\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\end{pmatrix}=\\begin{pmatrix} 0 \\\\ 0 \\\\ 1 \\end{pmatrix}$$\n的解．"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $A$ 为实矩阵满足 $A^2=A$．证明：\n(1) $A$ 可对角化．\n(2) 存在实对称矩阵 $B$ 和正定矩阵 $C$，使得 $A=BC$．"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）（可能有误）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "（可能有误）设 $f(x)$ 是实数域上的 $n$ 次多项式 $(n\\ge 3)$，若 $(f(x),f'(x))=f''(x)$，且 $f(2025)=0$，求 $f(x)$．"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=x^n+a_1x^{n-1}+\\cdots+a_{n-1}x+a_n$ 是数域 $F$ 上的不可约多项式，$\\varphi$ 是数域 $F$ 上线性空间 $V$ 上的线性变换，若 $V$ 中非零向量 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 满足\n$$\\varphi(\\alpha_i)=\\alpha_{i+1}\\ (1\\le i\\le n-1),\\ \\varphi(\\alpha_n)=-a_n\\alpha_1-a_{n-1}\\alpha_2-\\cdots-a_1\\alpha_n.$$\n证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关．"
+        }
+      ]
+    }
+  ]
+}

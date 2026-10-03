@@ -1,0 +1,193 @@
+{
+  "msgid": "2247529523",
+  "exams": [
+    {
+      "school": "西北工业大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "69. 西北工业大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529523_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "用极限的严格数学定义证明:\n(1) $\\lim\\limits_{x\\to-\\infty} \\ln\\left(1+\\dfrac{1}{x}\\right)=0$.\n(2) $\\lim\\limits_{n\\to\\infty} \\dfrac{e^{n}}{n !}=0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "解答如下问题:\n(1) 求极限 $\\lim\\limits_{x\\to 0^{+}} \\dfrac{x^{x}-x^{\\sin x}}{x^{2}}$.\n(2) 求级数的和 $\\displaystyle\\sum_{n=2}^{\\infty} \\dfrac{1}{n(n-1) 3^{n}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "试用确界原理证明有限覆盖定理."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明: 若 $f$ 是区间 $[a, b]$ 上只有有限个间断点的有界函数, 则 $f$ 在 $[a, b]$ 上黎曼可积."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "计算 $\\displaystyle\\int_{0}^{+\\infty} \\dfrac{\\cos a x-\\cos b x}{x^{2}}\\,\\mathrm{d}x$, 其中 $b>a>0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "设 $n$ 为正整数, $x, y>0$, 用条件极值方法证明 $\\dfrac{x^{n}+y^{n}}{2} \\geq\\left(\\dfrac{x+y}{2}\\right)^{n}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上一致连续, 证明: 存在 $a, b>0$ 使得 $|f(x)| \\leq a|x|+b$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint_{S} \\dfrac{x \\mathrm{d} y \\mathrm{d} z+y \\mathrm{d} z \\mathrm{d} x+z \\mathrm{d} x \\mathrm{d} y}{\\sqrt{\\left(x^{2}+y^{2}+z^{2}\\right)^{3}}} .$$\n其中 $S$ 为曲面 $\\dfrac{x^{2}}{2}+\\dfrac{y^{2}}{3}+\\dfrac{z^{2}}{4}=1$, 取其外侧."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设 $f(x)$ 是定义在 $(-\\infty,+\\infty)$ 上的凸函数且有上界, 证明: $f(x)$ 是常数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 5,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a, b]$ 上连续, 非负且严格单调递增, 由积分中值定理, 对任意的正整数 $k$, 存在 $x_{k} \\in[a, b]$, 使得\n$$f^{k}\\left(x_{k}\\right)=\\dfrac{1}{b-a} \\int_{a}^{b} f^{k}(x) \\mathrm{d} x .$$\n证明: $\\lim\\limits_{k\\to\\infty} x_{k}=b$."
+        }
+      ]
+    },
+    {
+      "school": "西北工业大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "69. 西北工业大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529523_5.jpg"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算多项式函数一阶导数 $f^{\\prime}(x)$, 其中\n$$f(x)=\\left|\\begin{array}{llll} a_{11}+x & a_{12}+x & \\cdots & a_{1 n}+x \\\\ a_{21}+x & a_{22}+x & \\cdots & a_{2 n}+x \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n 1}+x & a_{n 2}+x & \\cdots & a_{n n}+x \\end{array}\\right|, \\ n \\geq 2 .$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知\n$$A=\\left(\\begin{array}{lll}1 & a & b \\\\ -a & 1 & c \\\\ -b & -c & 1\\end{array}\\right)$$\n是 3 阶实方阵. 证明: 有关 $X$ 的矩阵方程 $A^{2} X-X A-X=O$ 只有零解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "齐次线性方程组\n$$\\left\\{\\begin{array}{l}x_{1}+2 x_{2}+3 x_{3}=0 ; \\\\ 2 x_{1}+3 x_{2}+5 x_{3}=0 ; \\\\ x_{1}+x_{2}+a x_{3}=0 .\\end{array}\\right.$$\n和\n$$\\left\\{\\begin{array}{l}x_{1}+b x_{2}+c x_{3}=0 ; \\\\ 2 x_{1}+b^{2} x_{2}+(c+1) x_{3}=0 .\\end{array}\\right.$$\n同解, 求 $a, b, c$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "$V$ 是有理数域 $\\mathbb{Q}$ 上的 3 维线性空间, $\\mathscr{A}$ 为 $V$ 上的线性变换, 满足\n$$\\mathscr{A}(\\alpha)=\\beta, \\ \\mathscr{A}(\\beta)=\\gamma, \\ \\mathscr{A}(\\gamma)=\\alpha+\\beta .$$\n证明: 若 $\\alpha \\neq 0$, 则 $\\alpha, \\beta, \\gamma$ 线性无关."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求 6 阶实方阵\n$$A=\\left(\\begin{array}{cccccc}a & -b & 0 & 0 & 0 & 0 \\\\ -b & a & 1 & 0 & 0 & 0 \\\\ 0 & 0 & a & -b & 0 & 0 \\\\ 0 & 0 & -b & a & 1 & 0 \\\\ 0 & 0 & 0 & 0 & a & -b \\\\ 0 & 0 & 0 & 0 & -b & a\\end{array}\\right)$$\n的 Jordan 标准形."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $A=\\left(a_{i j}\\right)$ 是 3 阶实对称方阵, $A^{*}$ 是 $A$ 的伴随矩阵, $E$ 是 3 阶单位矩阵.\n$$f\\left(x_{1}, x_{2}, x_{3}\\right)=\\left|\\begin{array}{llll}0 & x_{1} & x_{2} & x_{3} \\\\ -x_{1} & a_{11} & a_{12} & a_{13} \\\\ -x_{2} & a_{21} & a_{22} & a_{23} \\\\ -x_{3} & a_{31} & a_{32} & a_{33}\\end{array}\\right| .$$\n若行列式 $\\det A=-12$, 迹 $\\operatorname{tr}(A)=1,\\left(1,0,-2\\right)^{T}$ 是线性方程组 $\\left(A^{*}-4 E\\right) X=0$ 的解. 求正交变换 $X=Q Y$, 将 $f\\left(x_{1}, x_{2}, x_{3}\\right)$ 化为标准形."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "Euclid 空间 $V$ 上线性变换 $\\mathscr{A}$ 保持基 $\\alpha_{1}, \\alpha_{2}, \\cdots, \\alpha_{n}$ 向量长度不变, 即\n$$\\left(\\mathscr{A} \\alpha_{i}, \\mathscr{A} \\alpha_{i}\\right)=\\left(\\alpha_{i}, \\alpha_{i}\\right) .$$\n问: $\\mathscr{A}$ 是否一定是正交变换? 如果是, 证明之; 如果不是, 举出反例."
+        }
+      ]
+    }
+  ]
+}

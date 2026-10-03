@@ -1,0 +1,154 @@
+{
+ "msgid": "2247504785-4",
+ "exams": [
+  {
+   "school": "浙江师范大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "96. 浙江师范大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": ["work/imgs/2247504785-4_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "1",
+     "score": null,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "伴随矩阵",
+     "stem": "已知 $A$ 为 $n$ 阶矩阵，且 $|A|=a$，$ab\\neq 0$，求 $|(bA)^{-1}-aA^{*}|=$ __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "2",
+     "score": null,
+     "form": "填空",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "以 $\\sqrt{2}+i$ 为根的次数最小的有理系数多项式为 __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "3",
+     "score": null,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "已知 $a_i\\neq 0\\ (i=1,2,\\cdots,n)$，则矩阵 $\\begin{pmatrix} 0 & a_1 & & \\\\ & \\ddots & \\ddots & \\\\ & & \\ddots & a_{n-1} \\\\ a_n & & & 0 \\end{pmatrix}$ 的逆为 __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "4",
+     "score": null,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "若方程组\n$$\\begin{cases} x_1+2x_2+3x_3=0;\\\\ 2x_1+3x_2+5x_3=0;\\\\ x_1+x_2+ax_3=0. \\end{cases}$$\n与\n$$\\begin{cases} x_1+bx_2+cx_3=0;\\\\ 2x_1+b^2x_2+(c+1)x_3=0. \\end{cases}$$\n同解，则 $a,b,c$ 分别为 __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "5",
+     "score": null,
+     "form": "填空",
+     "l1": "线性空间与线性变换",
+     "l2": "线性映射与核",
+     "stem": "已知 $\\tau$ 是 3 维线性空间 $V$ 上的线性变换，$\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 为 $V$ 的一组基，且\n$$\\tau(\\varepsilon_1,\\varepsilon_2,\\varepsilon_3)=(\\varepsilon_1-\\varepsilon_2+3\\varepsilon_3,\\,5\\varepsilon_1+6\\varepsilon_2-7\\varepsilon_3,\\,7\\varepsilon_1+4\\varepsilon_2-\\varepsilon_3).$$\n求 $\\mathrm{Ker}(\\tau)=$ __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "6",
+     "score": null,
+     "form": "填空",
+     "l1": "线性空间与线性变换",
+     "l2": "特征多项式",
+     "stem": "已知 2020 阶矩阵 $A$ 的特征值为 $0,1,\\cdots,2019$，则 $|E+P^{-1}AP|=$ __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "7",
+     "score": null,
+     "form": "填空",
+     "l1": "欧氏空间与二次型",
+     "l2": "正交补与直和",
+     "stem": "已知 $W=L(\\alpha_1,\\alpha_2)$ 是 $\\mathbb{R}^4$ 中由 $\\alpha_1=(1,1,0,0)^T$，$\\alpha_2=(0,1,1,0)^T$ 生成的子空间，则 $W$ 的正交补 $W^{\\perp}$ 的标准正交基为 __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题.",
+     "no": "8",
+     "score": null,
+     "form": "填空",
+     "l1": "欧氏空间与二次型",
+     "l2": "正定与半正定",
+     "stem": "已知半正定二次型 $f(x_1,x_2,\\cdots,x_n)=X^{T}AX$ 的秩为 $r$，则 $f(x_1,x_2,\\cdots,x_n)=0$ 的实数解为 $\\mathbb{R}^n$ 的 __________ 维子空间."
+    },
+    {
+     "section": "二",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "实对称矩阵",
+     "stem": "设 $A$ 为 3 阶实对称矩阵，且各行元素之和为 $-3$，$\\alpha=(0,1,-1)$，$\\beta=(1,-2,1)$ 是方程组 $AX=0$ 的解。\n求特征值和特征向量."
+    },
+    {
+     "section": "二",
+     "section_instruction": "",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "正交变换",
+     "stem": "设 $A$ 为 3 阶实对称矩阵，且各行元素之和为 $-3$，$\\alpha=(0,1,-1)$，$\\beta=(1,-2,1)$ 是方程组 $AX=0$ 的解。\n求正交矩阵 $Q$ 和对角矩阵 $B$，使得 $QBQ^{T}=A$."
+    },
+    {
+     "section": "三",
+     "section_instruction": "计算行列式",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算行列式\n$$\\begin{vmatrix} 1 & a_1 & \\cdots & a_1^{n-1}+\\dfrac{S_i}{a_1}\\\\ 1 & a_2 & \\cdots & a_2^{n-1}+\\dfrac{S_i}{a_2}\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1 & a_n & \\cdots & a_n^{n-1}+\\dfrac{S_i}{a_n} \\end{vmatrix},$$\n其中 $S_i=\\displaystyle\\prod_{i=1}^{n}a_i\\neq 0$。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "多项式",
+     "l2": "既约性",
+     "stem": "已知 $f(x)=x^3+ax^2+bx+c$ 为整系数多项式，且 $ac+bc$ 为奇数，证明：$f(x)$ 在有理数域上不可约."
+    },
+    {
+     "section": "五",
+     "section_instruction": "（卷面标注：可能有误）已知 $\\mathbb{R}$ 为实数域，$\\mathscr{A}$ 为 $\\mathbb{R}^3$ 上的线性变换，$\\mathscr{A}$ 在 $\\mathbb{R}^3$ 上的一组基为 $e_1=(0,0,1)$，$e_2=(0,1,0)$，$e_3=(1,0,0)$.",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "不变子空间",
+     "stem": "已知 $\\mathbb{R}$ 为实数域，$\\mathscr{A}$ 为 $\\mathbb{R}^3$ 上的线性变换，$\\mathscr{A}$ 在 $\\mathbb{R}^3$ 上的一组基为 $e_1=(0,0,1)$，$e_2=(0,1,0)$，$e_3=(1,0,0)$。（卷面标注：可能有误）\n若 $e_1,e_2$ 为 $W_1$ 的子空间，证明：$\\mathscr{A}$ 为 $W_1$ 的不变子空间."
+    },
+    {
+     "section": "五",
+     "section_instruction": "（卷面标注：可能有误）已知 $\\mathbb{R}$ 为实数域，$\\mathscr{A}$ 为 $\\mathbb{R}^3$ 上的线性变换，$\\mathscr{A}$ 在 $\\mathbb{R}^3$ 上的一组基为 $e_1=(0,0,1)$，$e_2=(0,1,0)$，$e_3=(1,0,0)$.",
+     "no": "2",
+     "score": null,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与直和",
+     "stem": "已知 $\\mathbb{R}$ 为实数域，$\\mathscr{A}$ 为 $\\mathbb{R}^3$ 上的线性变换，$\\mathscr{A}$ 在 $\\mathbb{R}^3$ 上的一组基为 $e_1=(0,0,1)$，$e_2=(0,1,0)$，$e_3=(1,0,0)$。（卷面标注：可能有误）\n证明：不存在 $W_2$ 的子空间，使得 $\\mathbb{R}^3=W_1\\oplus W_2$."
+    }
+   ]
+  }
+ ]
+}

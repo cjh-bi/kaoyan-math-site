@@ -1,0 +1,114 @@
+{
+  "msgid": "2247504995-2",
+  "exams": [
+    {
+      "school": "中国石油大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "128. 中国石油大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504995-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "对任意非负整数 $n$，令 $f(x)=x^{n+2}-(x+1)^{2n+1}$，证明：\n$$(x^2+x+1,\\,f(x))=1.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} \\lambda & a & a & \\cdots & a \\\\ b & t & \\beta & \\cdots & \\beta \\\\ b & \\beta & t & \\cdots & \\beta \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ b & \\beta & \\beta & \\cdots & t \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "讨论 $a,\\,b$ 为何值时，线性方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4=0;\\\\ x_2+2x_3+2x_4=1;\\\\ -x_2+(a-3)x_3-2x_4=b;\\\\ 3x_1+2x_2+x_3+ax_4=-1. \\end{cases}$$\n有唯一解，无解，无穷多解？当有无穷多解时，求出通解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $n$ 维列向量 $X,\\,Y$ 满足 $X^{\\prime}Y=0$，证明矩阵 $E_n+XY^{\\prime}$ 可逆。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A,\\,B$ 均为 $n$ 阶正交矩阵，且 $m$ 是矩阵 $A^{-1}B$ 的特征值 $-1$ 的重数。证明 $|AB|=1$ 的充分必要条件是 $m$ 是偶数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "判定 $n$ 元二次型 $(n+1)\\displaystyle\\sum_{i=1}^{n}x_i^2-\\left(\\sum_{i=1}^{n}x_i\\right)^{2}$ 是否正定。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V$ 是定义在实数域 $\\mathbb{R}$ 上的所有函数所组成的线性空间，令\n$$W_1=\\{f(t)\\in V\\mid f(t)=f(-t)\\};$$\n$$W_2=\\{f(t)\\in V\\mid f(t)=-f(-t)\\}.$$\n证明：$W_1,\\,W_2$ 均是 $V$ 的子空间，且 $V=W_1\\oplus W_2$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,\\,B$ 均为 $n$ 阶矩阵，且 $A$ 有 $n$ 个互不相同的特征值，证明：$A$ 的特征向量恒为 $B$ 的特征向量当且仅当 $AB=BA$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $V$ 是 $n$ 维欧氏空间，$\\eta_1,\\eta_2,\\cdots,\\eta_n$ 是 $V$ 的一个标准正交基。$(\\alpha,\\beta)$ 表示向量 $\\alpha,\\,\\beta\\in V$ 的内积，令 $\\xi=a_1\\eta_1+a_2\\eta_2+\\cdots+a_n\\eta_n$，其中 $a_1,a_2,\\cdots,a_n$ 是 $n$ 个不全为零的实数，对于给定的非零实数 $k$，定义 $V$ 的线性变换为 $\\mathscr{A}(\\alpha)=\\alpha+k(\\alpha,\\xi)\\xi,\\ \\forall\\alpha\\in V$。\n(1) 求 $\\mathscr{A}$ 在基 $\\eta_1,\\eta_2,\\cdots,\\eta_n$ 下的矩阵 $A$；\n(2) 求 $A$ 的行列式 $|A|$；\n(3) 证明：$\\mathscr{A}$ 为正交变换的充分必要条件是 $k=-\\dfrac{2}{a_1^2+a_2^2+\\cdots+a_n^2}$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $A,\\,B,\\,F,\\,D$ 是 $\\mathbb{C}^{n\\times n}$ 中的取定矩阵，对任意 $X\\in\\mathbb{C}^{n\\times n}$。证明：\n(1) $\\mathscr{A}(X)=AXB+FX+XD$ 是 $\\mathbb{C}^{n\\times n}$ 上的线性变换；\n(2) 当 $F=D=O$ 时，$\\mathscr{A}$ 可逆当且仅当 $|AB|\\neq 0$。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "msgid": "2247537489",
+  "exams": [
+    {
+      "school": "河海大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "35. 河海大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537489_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "判断题. 每题 5 分，共 20 分.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $\\lambda>1$ 及 $\\{a_n\\}$ 是实数列，如果对所有 $n,p\\in\\mathbb{N}^+$ 都有 $|a_{n+p}-a_n|<\\dfrac{p}{n^{\\lambda}}$，那么 $\\{a_n\\}$ 是基本数列(Cauchy 列)."
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题. 每题 5 分，共 20 分.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设 $x_0$ 是连续函数 $f(x)$ 的极小值点，则存在 $\\delta>0$，使得 $f(x)$ 在 $(x_0-\\delta,x_0]$ 上单调递减，在 $[x_0,x_0+\\delta)$ 上单调递增."
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题. 每题 5 分，共 20 分.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上黎曼可积，则存在可导函数 $F(x)$，使得 $F'(x)=f(x)$，$x\\in[a,b]$.（注：$x\\in[a,b]$ 的写法照抄卷面）"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题. 每题 5 分，共 20 分.",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设实数列 $\\{a_n\\}$ 满足 $a_n>0$ $(n=1,2,\\cdots)$，且 $\\lim\\limits_{n\\to\\infty}a_n=0$，则级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^{n-1}a_n$ 收敛."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题. 每题 5 分，共 20 分.",
+          "no": "5",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "写出“当 $x\\to+\\infty$ 时，函数 $f(x)$ 的极限为负无穷大”的否定命题的分析表述."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题. 每题 5 分，共 20 分.",
+          "no": "6",
+          "score": 5,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "叙述判断反常积分 $\\displaystyle\\int_{a}^{+\\infty}f(x)g(x)\\,\\mathrm{d}x$ 收敛的 Abel 判别法."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题. 每题 5 分，共 20 分.",
+          "no": "7",
+          "score": 5,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "叙述判定函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}u_n(x)$ 关于 $x$ 在集合 $D$ 上一致收敛的 Cauchy 收敛原理."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题. 每题 5 分，共 20 分.",
+          "no": "8",
+          "score": 5,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "叙述二元函数 $z=z(x,y)$ 在点 $(x_0,y_0)$ 处可微的定义."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明. 每题 10 分，共 50 分.",
+          "no": "9",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt[3]{x^3+2x^2+1}-\\sqrt[5]{x^5+3x^4-2}\\right)$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明. 每题 10 分，共 50 分.",
+          "no": "10",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "计算不定积分 $\\displaystyle\\int\\dfrac{\\mathrm{d}x}{\\sqrt{\\sin^{7}x\\cos x}}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明. 每题 10 分，共 50 分.",
+          "no": "11",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{x^{n}}{4n^{2}-1}$ 的收敛域及和函数."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明. 每题 10 分，共 50 分.",
+          "no": "12",
+          "score": 10,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $\\alpha>0$，且 $f(x,y)$ 是 $\\mathbb{R}^2$ 上的可微函数. 证明：对任意 $t>0$ 及 $(x,y)\\in\\mathbb{R}^2\\backslash\\{(0,0)\\}$，成立 $f(tx,ty)=t^{\\alpha}f(x,y)$ 的充要条件是对任意的 $(x,y)\\in\\mathbb{R}^2$，成立\n$$x\\dfrac{\\partial f}{\\partial x}(x,y)+y\\dfrac{\\partial f}{\\partial y}(x,y)=\\alpha f(x,y).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明. 每题 10 分，共 50 分.",
+          "no": "13",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$\\iint_{\\Sigma}\\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{(x^{2}+y^{2}+z^{2})^{\\frac{3}{2}}}.$$\n其中 $\\Sigma$ 是曲面 $9-z=\\sqrt{(x-1)^{2}+(y-2)^{2}}$ $(z\\geq 0)$，方向取上侧."
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "14",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 和 $g(x)$ 在 $[a,b]$ 上二阶可导，且 $g''(x)\\neq 0$，$f(a)=f(b)=g(a)=g(b)=0$.\n(1) 证明：对任意的 $x\\in(a,b)$，都有 $g(x)\\neq 0$.\n(2) 证明：存在 $\\xi\\in(a,b)$，使得 $\\dfrac{f(\\xi)}{g(\\xi)}=\\dfrac{f''(\\xi)}{g''(\\xi)}$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "15",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $\\alpha>0$.\n(1) 证明：反常积分 $\\displaystyle\\int_{1}^{+\\infty}\\dfrac{\\mathrm{d}x}{(1+x^{2}y^{2})x^{\\alpha}}$ 关于 $y$ 在 $(0,+\\infty)$ 上内闭一致收敛.\n(2) 证明：$I(y)=\\displaystyle\\int_{1}^{+\\infty}\\dfrac{\\arctan(xy)}{x^{\\alpha+1}}\\,\\mathrm{d}x$ 是 $(0,+\\infty)$ 上的可导函数，且满足方程\n$$I'(y)-\\alpha I(y)+\\arctan y=0.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "16",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，且满足 $0<m\\leq f(x)\\leq M$，证明：\n$$1\\leq\\dfrac{1}{(b-a)^{2}}\\int_{a}^{b}f(x)\\,\\mathrm{d}x\\int_{a}^{b}\\dfrac{\\mathrm{d}x}{f(x)}\\leq\\dfrac{(m+M)^{2}}{4mM}.$$"
+        }
+      ]
+    },
+    {
+      "school": "河海大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "35. 河海大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537489_6.png", "work/imgs/2247537489_7.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A=\\begin{pmatrix}1&0&1\\\\0&2&0\\\\1&0&1\\end{pmatrix}$，若 $n\\geq 2$ 为正整数，则 $A^{n}-2A^{n-1}=\\underline{\\qquad}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A,B$ 为三阶矩阵，$|A|=3$，$|B|=2$，$|3A^{-1}+2B|=2$，则 $|2A+3B^{-1}|=\\underline{\\qquad}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设三阶矩阵 $A=\\begin{pmatrix}1&2&-2\\\\2&1&2\\\\3&0&4\\end{pmatrix}$，三维列向量 $\\alpha=(t,1,1)^{\\mathrm{T}}$，已知 $A\\alpha$ 与 $\\alpha$ 线性相关，则 $t=\\underline{\\qquad}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $n$ 维向量 $\\alpha=(t,0,\\cdots,0,t)^{\\mathrm{T}}$，$t\\neq 0$，$E$ 是 $n$ 阶单位矩阵，矩阵 $A=E-\\alpha\\alpha^{\\mathrm{T}}$，$B=E+\\dfrac{1}{t}\\alpha\\alpha^{\\mathrm{T}}$，其中 $A$ 的逆矩阵为 $B$，则 $t=\\underline{\\qquad}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A$ 是复数域 $\\mathbb{C}$ 上的 $n$ 阶方阵，特征多项式为 $|\\lambda E-A|=(\\lambda-a)^{n-1}(\\lambda-b)$，$a,b$ 是两不等的复数. 若 $A$ 的任意三个特征向量都是线性相关的，则 $A$ 的若尔当标准形为 $\\underline{\\qquad}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 的伴随矩阵为\n$$A^{*}=\\begin{pmatrix}1&0&0&0\\\\0&1&0&0\\\\0&0&1&0\\\\0&-3&0&8\\end{pmatrix}.$$\n且 $ABA^{-1}=BA^{-1}+3E$，其中 $E$ 为 4 阶单位阵，求矩阵 $B$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知方程组\n$$(\\mathrm{I}):\\begin{cases}2x_1+x_2-x_3=1,\\\\x_1-x_2+x_3=2,\\\\4x_1+5x_2-5x_3=-1.\\end{cases}$$\n与方程组\n$$(\\mathrm{II}):\\begin{cases}ax_1+bx_2-x_3=0,\\\\2x_1-x_2+ax_3=3.\\end{cases}$$\n同解，求 $a,b$ 的值以及方程组的通解."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "(可能有误)设 $V$ 是实数域 $\\mathbb{R}$ 上的三维线性空间，$\\alpha_1,\\alpha_2,\\alpha_3$ 和 $\\beta_1,\\beta_2,\\beta_3$ 是 $V$ 的两组基，设 $\\mathscr{A}$ 是 $V$ 上的线性变换，$\\mathscr{A}$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵为 $A$，$\\mathscr{A}$ 在基 $\\beta_1,\\beta_2,\\beta_3$ 下的矩阵为 $B$，其中\n$$A=\\begin{pmatrix}1&-1&1\\\\2&4&-2\\\\-3&-3&5\\end{pmatrix},\\quad B=\\begin{pmatrix}2&0&0\\\\0&2&0\\\\0&0&y\\end{pmatrix}.$$\n求 $y$ 的值，并求由基 $\\alpha_1,\\alpha_2,\\alpha_3$ 到基 $\\beta_1,\\beta_2,\\beta_3$ 的过渡矩阵 $P$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $n$ 阶实对称矩阵 $A$ 满足 $A^{3}-2A^{2}-3A=O$，且 $R(A)=r$，又已知 $A$ 的正惯性指数为 $k$，$E$ 表示单位矩阵，求 $|2E-A|$ 的值."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知\n$$A=\\begin{pmatrix}1&0&1\\\\0&1&1\\\\-1&0&a\\\\0&a&-1\\end{pmatrix}.$$\n且二次型 $f(x_1,x_2,x_3)=X^{\\mathrm{T}}(A^{\\mathrm{T}}A)X$ 的秩为 2.\n(1) 求 $a$ 的值.\n(2) 求正交变换将 $f$ 化为标准形."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知 $A,B$ 分别为 $m$ 阶，$n$ 阶实对称矩阵，若 $D=\\begin{pmatrix}A&C\\\\C^{\\mathrm{T}}&B\\end{pmatrix}$ 为正定矩阵，判断矩阵 $B-C^{\\mathrm{T}}A^{-1}C$ 是否为正定矩阵，并证明你的结论."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $n$ 阶方阵 $A$ 和 $B$ 满足 $AB=B+2A$，且 $B$ 相似于对角矩阵，证明：存在可逆矩阵 $P$，使得 $P^{-1}AP,P^{-1}BP$ 都是对角矩阵."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "13",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f_1(x),f_2(x)$ 是数域 $\\mathbb{K}$ 上两个互素的多项式，$r_1(x),r_2(x)$ 是 $\\mathbb{K}[x]$ 中的任意多项式，且 $r_1(x),r_2(x)$ 的次数分别小于 $f_1(x),f_2(x)$ 的次数. 证明：存在多项式 $g(x)\\in\\mathbb{K}[x]$，被 $f_1(x)$ 除余式为 $r_1(x)$，被 $f_2(x)$ 除余式为 $r_2(x)$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "14",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵，$B$ 是 $s\\times t$ 矩阵，$C$ 是 $m\\times t$ 矩阵. 记 $R(M)$ 表示矩阵 $M$ 的秩.\n(1) 求证：若矩阵方程 $AXB=C$ 有解，则 $r(A)=r(A,C)$ 且 $R(B)=R\\begin{pmatrix}B\\\\C\\end{pmatrix}$.\n(2) 请问 (1) 中逆命题是否成立？若成立，请给出证明；若不成立，给出反例.\n(3) 在什么情况下，(1) 中的解是惟一的？请证明结论."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "15",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "解答如下问题：\n(1) 已知复数域上的 $n$ 阶方阵\n$$B=\\begin{pmatrix}a_1&a_2&a_3&\\cdots&a_n\\\\a_n&a_1&a_2&\\cdots&a_{n-1}\\\\a_{n-1}&a_n&a_1&\\cdots&a_{n-2}\\\\\\vdots&\\vdots&\\vdots&&\\vdots\\\\a_2&a_3&a_4&\\cdots&a_1\\end{pmatrix}.$$\n记 $\\omega_0,\\omega_1,\\cdots,\\omega_{n-1}$ 是方程 $x^{n}-1=0$ 的 $n$ 个复根. 证明：对任意的 $k=0,1,\\cdots,n-1$，向量 $\\eta=(1,\\omega_k,\\omega_k^{2},\\cdots,\\omega_k^{n-1})^{\\mathrm{T}}$ 是矩阵 $B$ 的特征向量.\n(2) 设 $A$ 为复数域上的 4 阶幂等阵($A^{2}=A$)，证明：存在 4 个复数 $c_1,c_2,c_3,c_4$，使得 $A$ 相似于\n$$\\begin{pmatrix}c_1&c_2&c_3&c_4\\\\c_4&c_1&c_2&c_3\\\\c_3&c_4&c_1&c_2\\\\c_2&c_3&c_4&c_1\\end{pmatrix}.$$"
+        }
+      ]
+    }
+  ]
+}

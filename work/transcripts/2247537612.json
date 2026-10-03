@@ -1,0 +1,233 @@
+{
+  "msgid": "2247537612",
+  "exams": [
+    {
+      "school": "陕西师范大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "68. 陕西师范大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537612_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分, 共 30 分.",
+          "no": "1",
+          "score": 6,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求函数 $\\dfrac{1}{x^2+3x+2}$ 在 $x=-4$ 处的幂级数展开式和收敛域."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分, 共 30 分.",
+          "no": "2",
+          "score": 6,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设函数 $y=y(x)$ 由参数方程 $\\begin{cases} x=2e^t+t+1 \\\\ y=4(t-1)e^t+t^2 \\end{cases}$ 确定, 计算 $\\dfrac{\\mathrm{d}^2 y}{\\mathrm{d}x^2}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分, 共 30 分.",
+          "no": "3",
+          "score": 6,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "设 $f(x)$ 的一个原函数为 $F(x)>0$, 且 $F(0)=1$, 当 $x\\ge 0$ 时, 有 $f(x)F(x)=\\sin^2 2x$, 求 $f(x)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分, 共 30 分.",
+          "no": "4",
+          "score": 6,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_L [2(x^2-x)e^{2x}-xy]\\,\\mathrm{d}x+[x^2-(y+2)e^y]\\,\\mathrm{d}y.$$\n式中 $L$ 是从 $(0,0)$ 经曲线 $y=x^2-2x$ 到点 $A(4,8)$ 的一段弧."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分, 共 30 分.",
+          "no": "5",
+          "score": 6,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$\\iint_\\Sigma x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为上半球面 $z=\\sqrt{R^2-x^2-y^2}$ $(R>0)$ 的上侧."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题. 每题 10 分, 共 30 分.",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "解答如下问题:\n(1) 讨论函数 $f(x)=(x-1)(x-2)D(x)$ 的连续点和间断点, 并判断间断点的类型, 其中 $D(x)$ 是狄利克雷函数\n$$D(x)=\\begin{cases} 1, & x \\text{ 为有理数}; \\\\ 0, & x \\text{ 为无理数}. \\end{cases}$$\n(2) 给出实数集 $\\mathbb{R}$ 上只有 3 个连续点的函数."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题. 每题 10 分, 共 30 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "利用交换积分次序计算 $\\displaystyle\\int_1^2 \\mathrm{d}x\\int_{\\sqrt{x}}^{x}\\sin\\dfrac{\\pi x}{2y}\\,\\mathrm{d}y+\\int_2^4 \\mathrm{d}x\\int_{\\sqrt{x}}^{2}\\sin\\dfrac{\\pi x}{2y}\\,\\mathrm{d}y$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题. 每题 10 分, 共 30 分.",
+          "no": "3",
+          "score": 10,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论反常积分 $I=\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\ln\\cos x\\,\\mathrm{d}x$ 的敛散性, 若收敛, 计算 $I$ 的值."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 内可导, 且 $\\displaystyle\\int_0^1 f(x)\\,\\mathrm{d}x=0$, 记 $F(x)=\\displaystyle\\int_0^x t f(t)\\,\\mathrm{d}t$.\n(1) 求 $F'(x)$.\n(2) 证明: 在 $(0,1)$ 内至少存在一点 $\\xi$, 使得 $\\displaystyle\\int_0^{\\xi} f(x)\\,\\mathrm{d}x=-\\xi f(\\xi)$.\n(3) 证明: 在 $(0,1)$ 内至少存在一点 $x_0$, 使得 $2f(x_0)+x_0 f'(x_0)=0$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $a_n>0$, $b_n>0$, 证明:\n(1) 若存在 $\\alpha>0$, 使得 $\\dfrac{b_n}{b_{n+1}}a_n-a_{n+1}\\ge\\alpha$ $(n=1,2,\\cdots)$, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty} b_n$ 收敛.\n(2) 若 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{a_n}$ 发散, 且 $\\dfrac{b_n}{b_{n+1}}a_n-a_{n+1}\\le 0$ $(n=1,2,\\cdots)$, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty} b_n$ 发散."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $x\\ge 0$, $n$ 为正整数, $f(x)=\\displaystyle\\int_0^x (t-t^2)\\sin^{2n} t\\,\\mathrm{d}t$, 证明: $f(x)\\le\\dfrac{1}{(2n+2)(2n+3)}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 是 $[0,1]$ 上的正值连续函数, 且 $f(x)$ 单调递减, 证明:\n$$\\dfrac{\\int_0^1 x f^2(x)\\,\\mathrm{d}x}{\\int_0^1 x f(x)\\,\\mathrm{d}x}\\le\\dfrac{\\int_0^1 f^2(x)\\,\\mathrm{d}x}{\\int_0^1 f(x)\\,\\mathrm{d}x}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $S(x)=\\displaystyle\\sum_{n=1}^{\\infty} n e^{-nx}$, 其中 $x>0$, 求证: 【?】(卷面在此页底部被截断, 求证内容缺失)"
+        }
+      ]
+    },
+    {
+      "school": "陕西师范大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "68. 陕西师范大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537612_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x)=x^4+x^3+3x^2-4x-1$, $g(x)=x^3+x^2-x-1$, 求 $(f(x),g(x))$, 并求 $u(x),v(x)$, 使得 $u(x)f(x)+v(x)g(x)=(f(x),g(x))$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 4 级矩阵\n$$A=\\begin{pmatrix} \\alpha \\\\ 2\\gamma_2 \\\\ 3\\gamma_3 \\\\ 4\\gamma_4 \\end{pmatrix},\\ B=\\begin{pmatrix} \\beta \\\\ \\gamma_2 \\\\ \\gamma_3 \\\\ \\gamma_4 \\end{pmatrix}.$$\n其中 $\\alpha,\\beta,\\gamma_2,\\gamma_3,\\gamma_4$ 均为 4 维行向量, 且已知 $|A|=2800$, $|B|=100$, 试计算行列式 $|A-B|$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "在齐次线性方程组\n$$\\begin{cases} a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0, \\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0, \\\\ \\quad\\quad\\quad\\cdots\\cdots \\\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\\cdots+a_{n-1,n}x_n=0 \\end{cases}$$\n中, 证明\n$$x_1=\\begin{vmatrix} a_{12} & a_{13} & \\cdots & a_{1n} \\\\ a_{22} & a_{23} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n-1,2} & a_{n-1,3} & \\cdots & a_{n-1,n} \\end{vmatrix},\\ x_2=-\\begin{vmatrix} a_{11} & a_{13} & \\cdots & a_{1n} \\\\ a_{21} & a_{23} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n-1,1} & a_{n-1,3} & \\cdots & a_{n-1,n} \\end{vmatrix},$$\n$$\\cdots,\\ x_n=(-1)^{n-1}\\begin{vmatrix} a_{11} & a_{12} & \\cdots & a_{1,n-1} \\\\ a_{21} & a_{22} & \\cdots & a_{2,n-1} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n-1,1} & a_{n-1,2} & \\cdots & a_{n-1,n-1} \\end{vmatrix}$$\n是方程组的解, 且若这个解不为零, 则方程组的任意解可由它乘以某数得到."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A\\in M_{m\\times n}(P)$, 证明: $A$ 的秩等于 $r$ 的充要条件是存在秩为 $r$ 的 $m\\times r$ 矩阵 $M$ 和 $r\\times n$ 矩阵 $N$, 使得 $A=MN$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若 $A=(a_{ij})_{n\\times n}$ 是正定阵, 证明:\n$$0<|A|\\le a_{11}a_{22}\\cdots a_{nn}.$$\n其中 $a_{ii}$ 为 $A$ 的主对角线上的元素, $i=1,2,\\cdots,n$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 是数域 $P$ 上的 $n$ 级幂等矩阵, 即 $A^2=A$. 齐次线性方程组 $AX=0$ 的解空间为 $W_1$, $(A-E)X=0$ 的解空间为 $W_2$, 证明: $P^n=W_1\\oplus W_2$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $V$ 是数域 $P$ 上的 3 维线性空间, 线性变换 $f:V\\to V$ 在 $V$ 的基 $e_1,e_2,e_3$ 下的矩阵为\n$$A=\\begin{pmatrix} 4 & 6 & -15 \\\\ 1 & 3 & -5 \\\\ 1 & 2 & -4 \\end{pmatrix}.$$\n问 $f$ 可否在 $V$ 的某个基下的矩阵为 $B=\\begin{pmatrix} 1 & -3 & 3 \\\\ -2 & -6 & 13 \\\\ -1 & -4 & 8 \\end{pmatrix}$, 为什么?"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 是实数域 $\\mathbb{R}$ 上的 $n$ 级可逆阵, 证明: 存在实数域上的 $n$ 级正定阵 $P$ 和 $n$ 级正交阵 $Q$, 使得 $A=PQ$, 并且这一分解式是惟一的."
+        }
+      ]
+    }
+  ]
+}

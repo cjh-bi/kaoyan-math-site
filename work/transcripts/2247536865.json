@@ -1,0 +1,213 @@
+{
+  "msgid": "2247536865",
+  "exams": [
+    {
+      "school": "中国人民大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "8. 中国人民大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247536865_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "讨论 $f(x)=\\sin\\sqrt{x}$ 和 $g(x)=\\sin(x^2)$ 在 $[0,+\\infty)$ 上是否一致连续．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $a_n>0$，$n=1,2,\\cdots$，且 $\\varlimsup\\limits_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}<+\\infty$，证明：$\\varlimsup\\limits_{n\\to\\infty}\\sqrt[n]{a_n}\\le \\varlimsup\\limits_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：对任意的 $x\\in[0,1]$，有 $1+x^2\\le 2^x$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 为 $\\mathbb{R}$ 上周期为 $\\pi$ 的函数，且在 $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 上，有\n$$f(x)=\\begin{cases}\\dfrac{\\pi}{2}+x, & x\\in\\left[-\\dfrac{\\pi}{2},0\\right);\\\\[2mm] \\dfrac{\\pi}{2}-x, & x\\in\\left[0,\\dfrac{\\pi}{2}\\right).\\end{cases}$$\n请将 $f(x)$ 在 $\\left[-\\dfrac{\\pi}{2},\\dfrac{\\pi}{2}\\right)$ 上展开为傅里叶级数，并由此求 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{(2n-1)^2}$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设对于任意的正整数 $n$，$f_n(x)$ 均为定义在 $[a,b]$ 上的黎曼可积函数，且 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛于函数 $f(x)$．证明：$f(x)$ 是 $[a,b]$ 上的黎曼可积函数．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "计算积分 $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{\\sin\\theta}\\ln\\dfrac{1+t\\sin\\theta}{1-t\\sin\\theta}\\,\\mathrm{d}\\theta$，$|t|<1$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设\n$$f(x,y)=\\begin{cases}\\dfrac{x^2y+x^4}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$$\n讨论 $f(x,y)$ 在 $(0,0)$ 的连续性和可微性．又设 $x(t)=t$，$y(t)=t^2$，讨论复合函数 $f(x(t),y(t))$ 在 $t=0$ 的导数是否满足链式法则．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设 $f(x,y)$ 为定义在 $D=\\{(x,y)\\mid x^2+y^2<1\\}$ 上的二元函数，在 $D$ 内对 $x$ 和 $y$ 具有直到二阶的连续偏导数，且 $(x_0,y_0)\\in D$ 是 $f(x,y)$ 的极小值点．证明：\n$$f_{xx}(x_0,y_0)+2f_{xy}(x_0,y_0)+f_{yy}(x_0,y_0)\\ge 0.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设反常积分\n$$I=\\iiint\\limits_D \\dfrac{x^2}{(x^2+y^2+z^2)^2}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $D=\\{(x,y,z)\\mid x^2+y^2+z^2\\le x\\}$．证明反常积分 $I$ 收敛，并求出 $I$ 的值．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "设 $D$ 是平面区域，$u(x,y)$ 为定义在 $D$ 上的二元函数，且在 $D$ 内对 $x$ 和 $y$ 具有直到二阶的连续偏导数．证明：$u(x,y)$ 在 $D$ 上满足 $\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}=0$ 的充要条件为对于任意 $D$ 内的圆周 $L$，且 $L$ 所围圆 $O$ 含于 $D$，有 $\\displaystyle\\oint_L \\dfrac{\\partial u}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}s=0$，其中 $\\boldsymbol{n}$ 取圆周 $L$ 的外法向．"
+        }
+      ]
+    },
+    {
+      "school": "中国人民大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "8. 中国人民大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247536865_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为 $n$ 阶实矩阵，$r(A)=r<n$，证明：$A$ 可写成 $n-r$ 个秩为 $n-1$ 的 $n$ 阶矩阵的乘积．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $X=\\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}$，其中 $A,B,C,D$ 均为 $n$ 阶实矩阵，且 $A$ 是可逆对称矩阵，$B^{\\mathrm T}=C$．\n(1)（10 分）证明：存在可逆矩阵 $P$，使得 $P^{\\mathrm T}XP$ 为分块对角矩阵．\n(2)（10 分）给出 $\\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}$ 正定的充分必要条件．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知实数 $a_i\\neq 0$ $(i=1,2,\\cdots,n)$，计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} 0 & a_1+a_2 & \\cdots & a_1+a_n \\\\ a_2+a_1 & 0 & \\cdots & a_2+a_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_n+a_1 & a_n+a_2 & \\cdots & 0 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\alpha_1=(1,-1,2,1,0)$，$\\alpha_2=(2,-2,4,-2,0)$，$\\alpha_3=(3,0,6,-1,1)$，$\\alpha_4=(0,3,0,0,1)$．\n(1)（10 分）求该向量组的一个极大线性无关组，并将向量组中其他向量用该极大线性无关组线性表示．\n(2)（10 分）求一个以该极大线性无关组为基础解系的齐次线性方程组．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\mathbb{C}[x]_{n^2}$ 是复数域上所有次数小于 $n^2$ 的多项式以及零多项式构成的集合，对于通常的多项式加法和数乘，判断 $\\mathbb{C}[x]_{n^2}$ 能否构成实数域 $\\mathbb{R}$ 上的线性空间并简要证明你的结论．如果 $\\mathbb{C}[x]_{n^2}$ 是 $\\mathbb{R}$ 上的线性空间，求出它的维数和一组基．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设线性空间 $V$ 上的线性变换 $\\sigma$ 在 $V$ 的一组基 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3,\\varepsilon_4$ 下的矩阵是\n$$A=\\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ -1 & -1 & -1 & 0 \\\\ 1 & 1 & 1 & 0 \\\\ 4 & 4 & 4 & -1 \\end{pmatrix}.$$\n求 $V$ 的一组基，使得 $\\sigma$ 在这组基下的矩阵是若尔当形矩阵．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设矩阵 $A$ 是实数域 $\\mathbb{R}$ 上的 $n$ 阶可逆矩阵，证明：矩阵 $A$ 能唯一地分解为 $A=QU$，其中 $Q$ 是正交矩阵，$U=(u_{ij})_{n\\times n}$ 是上三角矩阵且对角元 $u_{ii}$ $(1\\le i\\le n)$ 均为大于 $0$ 的实数．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $a_1,a_2,\\cdots,a_m$ 是数域 $P$ 上的 $m$ 个不同的数，$b_1,b_2,\\cdots,b_m$ 是数域 $P$ 上的任意 $m$ 个数，对于任一多项式 $p(x)$，我们记 $\\partial(p(x))$ 为其次数．证明：存在唯一的多项式 $g(x)\\in P[x]$，使得 $\\partial(g(x))<m$，且对任意的 $1\\le i\\le m$，我们有 $g(x)=q_i(x)(x-a_i)+b_i$，其中 $q_i(x)\\in P[x]$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设实数域上的 $n$ 阶方阵 $A$ 满足 $A^2=O$，记\n$$B=AA^{\\mathrm T}+A^{\\mathrm T}A,\\ C=A+A^{\\mathrm T}.$$\n令 $\\mathrm{Ker}(B),\\mathrm{Ker}(C),\\mathrm{Im}(A)$ 和 $\\mathrm{Im}(A^{\\mathrm T})$ 为如下定义的实向量空间 $\\mathbb{R}^n$ 的子空间：\n$$\\mathrm{Ker}(B)=\\{X\\in\\mathbb{R}^n\\mid BX=0\\},\\ \\mathrm{Ker}(C)=\\{X\\in\\mathbb{R}^n\\mid CX=0\\},$$\n$$\\mathrm{Im}(A)=\\{AX\\mid X\\in\\mathbb{R}^n\\},\\ \\mathrm{Im}(A^{\\mathrm T})=\\{A^{\\mathrm T}X\\mid X\\in\\mathbb{R}^n\\}.$$\n证明：\n(1) $\\mathrm{Ker}(B)=\\mathrm{Ker}(C)$．\n(2) $\\mathbb{R}^n=\\mathrm{Im}(A)\\oplus\\mathrm{Im}(A^{\\mathrm T})\\oplus\\mathrm{Ker}(B)$．"
+        }
+      ]
+    }
+  ]
+}

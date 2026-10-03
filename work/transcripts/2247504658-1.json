@@ -1,0 +1,213 @@
+{
+  "msgid": "2247504658-1",
+  "exams": [
+    {
+      "school": "武汉大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "63. 武汉大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504658-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}(\\cos x)^{\\frac{1}{\\sin^2 x}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{\\sqrt[n]{n!}}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "讨论题",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知\n$$f(x,y)=\\begin{cases}\\dfrac{1-e^{x(x^2+y^2)}}{x^2+y^2}, & (x,y)\\neq(0,0);\\\\[2mm] 0, & (x,y)=(0,0).\\end{cases}$$\n讨论 $f(x,y)$ 在原点的连续性，偏导数的存在性，可微性。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "讨论题",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "利用条件极值导出不等式\n$$ab^2c^3\\le 108\\left(\\dfrac{a+b+c}{6}\\right)^{6}$$\n其中 $a$, $b$, $c$ 均为正数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "讨论题",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{e^{-nx}}{n}$ 的收敛区间和一致收敛区间。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分 $I=\\iint\\limits_{|x|+|y|\\le 1}\\dfrac{x^2-y^2}{\\sqrt{x+y+4}}\\,\\mathrm{d}x\\mathrm{d}y$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$I=\\iint_{\\Sigma}\\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{(x^2+y^2+z^2)^{\\frac{3}{2}}}$$\n其中 $\\Sigma$ 为立体 $\\{(x,y,z)\\mid |x|\\le 2,\\;|y|\\le 2,\\;|z|\\le 2\\}$ 的表面，方向为外侧。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "已知 $f(x)$ 为 $[0,2]$ 上的可微函数，且 $|f'(x)|\\le 1$，$f(0)=f(2)=1$，证明：$\\displaystyle\\int_0^2 f(x)\\,\\mathrm{d}x>1$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "记 $A_n=\\dfrac{1}{n+1}+\\dfrac{1}{n+2}+\\cdots+\\dfrac{1}{n+n}$，证明：$\\lim\\limits_{n\\to\\infty}n(\\ln 2-A_n)=\\dfrac{1}{4}$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $p\\ge 1$，证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{(n+1)\\sqrt[p]{n}}\\le p$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设 $f(x)$ 是 $[a,b]$ 上的凸函数，证明 $f(x)$ 在 $(a,b)$ 上处处存在左右导数。"
+        }
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "year": "2021",
+      "subject": "线性代数",
+      "header_note": "64. 武汉大学 2021 年硕士研究生入学考试线性代数试卷",
+      "source_imgs": ["work/imgs/2247504658-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "距离与夹角",
+          "stem": "已知 $\\alpha$, $\\beta$ 为 3 维非零列向量，$\\alpha$, $\\beta$ 的夹角为 $\\dfrac{\\pi}{4}$，证明：$\\alpha$, $\\beta$ 线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $\\alpha_1$, $\\alpha_2$, $\\alpha_3$ 是 3 维实列向量，定义 3 阶实矩阵 $A=((\\alpha_i^{T}\\alpha_j))$ $(1\\le i,j\\le 3)$，证明：$\\alpha_1$, $\\alpha_2$, $\\alpha_3$ 线性无关的充要条件是方阵 $A$ 可逆。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "给定 2 阶方阵 $A=\\begin{pmatrix}0 & -1\\\\ 1 & 0\\end{pmatrix}$，求 $A^{2021}+A^{2019}-A$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "已知 $A$ 为 2 阶实矩阵，且 $-\\dfrac{1}{2}$, $2$ 是 $A$ 的特征值，记 $B=2A$，$M=\\begin{pmatrix}A & B\\\\ B & A\\end{pmatrix}$，求 $\\det M$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知 $\\alpha$ 是 $n$ 维实列向量，且 $\\lVert\\alpha\\rVert=3$，定义方阵 $A=\\alpha\\alpha^{T}$，求 $A$ 的所有特征值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $T$ 是 $\\mathbb{R}^n\\to\\mathbb{R}^n$ 的线性映射，请问命题“$T$ 是单射 $\\iff$ $T$ 是满射”是否正确？若正确，请给出证明；若错误，请给出反例。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $C$ 为 3 阶实对称矩阵，令\n$$A=C^2+C+I,\\quad B=C^4+C^2+I,$$\n其中 $I$ 为 3 阶单位矩阵，证明：$|A+B|>|A|+|B|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "在 3 维列向量空间 $\\mathbb{R}^3$ 的单位球面 $S=\\{X\\in\\mathbb{R}^3\\mid \\lVert X\\rVert=1\\}$ 上，作函数 $f(X)=X^{T}AX$，$X\\in S$，其中\n$$A=\\begin{pmatrix}1 & 0 & 1\\\\ 0 & 1 & -1\\\\ 1 & -1 & -1\\end{pmatrix}.$$\n问：是否存在闭区间 $[a,b]$，使得\n$$[a,b]=\\{f(X)\\in\\mathbb{R}\\mid X\\in S\\}.$$\n若存在，请给出证明；若不存在，请举出反例。"
+        }
+      ]
+    }
+  ]
+}

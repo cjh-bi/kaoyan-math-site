@@ -1,0 +1,253 @@
+{
+  "msgid": "2247537614",
+  "exams": [
+    {
+      "school": "浙江大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "38. 浙江大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537614_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 需给出计算过程或依据. 共 40 分.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $x_n=\\dfrac{1}{n+1}+\\dfrac{1}{n+2}+\\cdots+\\dfrac{1}{n+n}$, $n\\in\\mathbb{Z}^+$, 求极限 $\\lim\\limits_{n\\to\\infty} x_n$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 需给出计算过程或依据. 共 40 分.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设 $f(x)$ 在区间 $(0,2)$ 上可导, 且 $f(1)=f'(1)=0$, $f''(1)=2$, 求极限 $\\lim\\limits_{x\\to 1}\\dfrac{x f'(x)}{x f'(x)-f(x)}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 需给出计算过程或依据. 共 40 分.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $x_n=\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\sin^2(nx)}{\\sin x}\\,\\mathrm{d}x$, $n\\in\\mathbb{Z}^+$, 求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{x_n}{\\ln n}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 需给出计算过程或依据. 共 40 分.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $S$ 是 $x^2+y^2=z^2$ 介于 $z=0$ 与 $z=1$ 之间的部分, 并取外侧为正向, 计算第二型曲面积分\n$$\\iint_S (x-2y+z)\\,\\mathrm{d}y\\mathrm{d}z+(y-2z+x)\\,\\mathrm{d}z\\mathrm{d}x+(z-2x+y)\\,\\mathrm{d}x\\mathrm{d}y.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设 $f(x)=\\begin{cases} x(1-x^2), & x\\in\\mathbb{Q}, \\\\ x(1+x^2), & x\\notin\\mathbb{Q}. \\end{cases}$ 请讨论 $f(x)$ 在 $\\mathbb{R}$ 上的连续性与可导性(需说明理由)."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "证明: 设 $f(x)$ 在区间 $[0,1]$ 上只有第一类间断点, 则 $f(x)$ 是 $[0,1]$ 上的有界函数."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在区间 $[0,1]$ 上二阶可导, 且 $f(0)=f(1)=0$, 若 $\\min\\limits_{x\\in[0,1]} f(x)=-1$, 证明: 存在 $\\xi\\in(0,1)$, 使得 $f''(\\xi)\\ge 8$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明: 函数 $y=\\ln x$ 在 $[a,+\\infty)$ 上一致连续, 其中 $a>0$, 但在 $(0,+\\infty)$ 上不一致连续."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $a_1>0, a_2>0$, 定义 $a_{n+2}=\\sqrt{a_{n+1}}+\\sqrt{a_n}$, $n=1,2,\\cdots$, 证明: 数列 $\\{a_n\\}$ 收敛, 并求 $\\lim\\limits_{n\\to\\infty} a_n$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $\\lambda\\ge 1$, 定义 $I(\\lambda)=\\displaystyle\\int_0^1 \\cos(\\lambda x^2)\\,\\mathrm{d}x$, 证明: 存在与 $\\lambda$ 无关的常数 $c>0$, 使得 $|I(\\lambda)|\\le\\dfrac{c}{\\sqrt{\\lambda}}$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x), g(x)$ 是区间 $(0,1)$ 上的有界函数, 定义\n$$\\varphi(x)=\\sup_{t\\in(0,1)}\\left(f(t)+\\sqrt{x}\\,g(t)\\right),\\ x\\in(0,1).$$\n证明: 存在常数 $C\\ge 0$, 使得对任意 $x,y\\in(0,1)$, 有 $|\\varphi(x)-\\varphi(y)|\\le C\\sqrt{|x-y|}$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明: 函数 $f(x)=\\displaystyle\\sum_{n=2}^{\\infty}\\dfrac{\\sin nx}{n\\ln n}$ 在 $x=0$ 处连续."
+        }
+      ]
+    },
+    {
+      "school": "浙江大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "38. 浙江大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537614_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "假如 $A$ 是 4 阶整数矩阵, 其有特征值 $\\sqrt{5}+\\sqrt{3}$, 那么在复数范围内 $A$ 的相似标准型为______, $|2\\sqrt{5}E-A^{*}|=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设二次型 $f(x_1,x_2,x_3)=2x_1^2+2tx_1x_2+4x_1x_3+x_2^2+3x_3^2$, 当 $t$ 满足______时, $f$ 是正定的, 当 $t$ 满足______时, $f$ 的负惯性指数是 1."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "规范正交基",
+          "stem": "已知 $V$ 是实数域上次数小于等于 3 的多形式组成的线性空间, 当 $a=$ ______时, 该线性空间中满足 $f(1)=a$, $f(-1)=0$ 的多项式集合是 $V$ 的子空间, 关于内积 $(f,g)=\\displaystyle\\int_{-1}^{1} f(x)g(x)\\,\\mathrm{d}x$ 下该子空间的单位正交基为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知 $f_1=2+2x^2+3x^3$, $f_2=1+x+x^2+3x^3$, $f_3=5+x+5x^2+9x^3$, $f_4=2x+3x^3$, $W$ 是由它们张成的线性空间, 那么从基 $f_1,f_2$ 到基 $f_3,f_4$ 的过渡矩阵为______, 向量组 $f_1, f_3-f_2, 2f_3+f_4$ 的秩等于______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设矩阵 $A$ 的秩等于 3, $b$ 不等于零, $AX=b$ 有解\n$$X_1=(1,-1,2,3,1)^{\\mathrm{T}},\\ X_2=(0,1,-1,0,-2)^{\\mathrm{T}},\\ X_3=(-1,1,2,1,3)^{\\mathrm{T}}.$$\n那么 $AX=b$ 的通解用 $X_1,X_2,X_3$ 表示为______, 给出一个所有解集合的极大线性无关组______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x), g(x)\\in\\mathbb{R}[x]$ 是实数域中互素的多项式, 证明: $[f(x)]^2+[g(x)]^2$ 的重根为 $[f'(x)]^2+[g'(x)]^2$ 的根."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "令 $V$ 是 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 张成的线性空间, $W$ 是线性变换 $\\mathscr{T}(X)=AX$ 的核, 其中\n$$\\alpha_1=\\begin{pmatrix} 1 \\\\ -1 \\\\ 0 \\\\ -1 \\\\ -2 \\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix} -1 \\\\ 2 \\\\ 1 \\\\ 3 \\\\ 6 \\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix} 0 \\\\ 1 \\\\ 1 \\\\ 2 \\\\ 4 \\end{pmatrix},\\ \\alpha_4=\\begin{pmatrix} 0 \\\\ -1 \\\\ -1 \\\\ 1 \\\\ 2 \\end{pmatrix},\\ A=\\begin{pmatrix} 1 & -1 & -1 & 0 & 3 \\\\ 2 & -2 & -1 & 2 & 4 \\\\ 3 & -3 & -1 & 4 & 5 \\\\ 1 & -1 & 1 & 1 & 8 \\end{pmatrix}.$$\n求 $W+V$ 及 $W\\cap V$ 的基和维数."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "已知矩阵 $C$ 的极小多项式为 $(\\lambda-a)^2(\\lambda-b)^3(\\lambda-c)^4$, 而 $a,b,c$ 是互异的实数. 假设\n$$A=C^4+C^3+C^2+C+E,\\ B=C^4+2C^2+3E.$$\n证明: $|A+B|\\ge |A|+|B|$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $J=\\left(\\begin{array}{cc} O & E_n \\\\ -E_n & O \\end{array}\\right)$, $G$ 为所有满足 $g^{\\mathrm{T}} J g=J$ 的 $2n\\times 2n$ 的可逆实矩阵 $g$ 的集合. 若由 $n\\times n$ 实矩阵 $A,B,C,D$ 组成的分块矩阵 $\\left(\\begin{array}{cc} A & B \\\\ C & D \\end{array}\\right)$ 属于 $G$, 证明: 复矩阵 $\\sqrt{-1}C+D$ 为可逆矩阵."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "假如 $A^{*}$ 是 $A=\\begin{pmatrix} a & -1 & c \\\\ 5 & b & 3 \\\\ 1-c & 0 & -a \\end{pmatrix}$ 的伴随矩阵, $A$ 的行列式等于 $-1$, $\\xi=\\begin{pmatrix} -1 \\\\ -1 \\\\ 1 \\end{pmatrix}$ 是 $A^{*}$ 的对应特征值 $\\lambda_0$ 的特征向量, 求 $A$ 所相似的 Jordan 标准型."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "假如 $A,B,C$ 是实数域上 $n$ 维线性空间上的线性变换, 满足 $(A-B)C=C(A-B)$, 且 $C$ 是幂零的, 如果 $BC-CB=10(A-B)$, 证明: $A$ 和 $B$ 有相同的迹."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "msgid": "2247505144-1",
+  "exams": [
+    {
+      "school": "大连海事大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "142. 大连海事大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247505144-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to+\\infty}\\left(\\sin\\sqrt{x+1}-\\sin\\sqrt{x}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "求累次积分 $\\displaystyle\\int_0^1 \\mathrm{d}y\\int_y^1 e^{x^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求曲线积分 $I=\\displaystyle\\int_L \\dfrac{x\\,\\mathrm{d}y-y\\,\\mathrm{d}x}{4x^2+9y^2}$，其中 $L$ 为单位圆周，取逆时针方向。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知\n$$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$$\n求 $f_x(x,y)$，$f_y(x,y)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知\n$$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$$\n讨论 $f_x(x,y)$，$f_y(x,y)$ 在 $(0,0)$ 处的连续性。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知\n$$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$$\n讨论 $f(x,y)$ 在 $(0,0)$ 处的可微性。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内二次可微，证明：$\\exists\\,\\xi\\in(a,b)$ 使得\n$$f(a)-2f\\!\\left(\\dfrac{a+b}{2}\\right)+f(b)=\\dfrac{(b-a)^2}{4}f''(\\xi).$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求 $f(x,y)=2x^2+6xy+y^2$ 在 $D=\\{(x,y)\\mid x^2+2y^2\\le 3\\}$ 内的最大、最小值。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "证明：若 $f(x)$ 在 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上必有最大值、最小值。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "计算曲面积分",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint_\\Sigma (x^3+az^2)\\,\\mathrm{d}y\\mathrm{d}z+(y^3+ax^2)\\,\\mathrm{d}z\\mathrm{d}x+(z^3+ay^2)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $\\Sigma$ 为上半球面 $z=\\sqrt{a^2-x^2-y^2}$ 的上侧。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "证明",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "证明：函数\n$$\\begin{cases}e^{xu}\\cos yv=\\dfrac{x}{\\sqrt{2}};\\\\[2mm] e^{xu}\\sin yv=\\dfrac{y}{\\sqrt{2}}.\\end{cases}$$\n在点 $P_0=(x_0,y_0,u_0,v_0)=\\left(1,1,0,\\dfrac{\\pi}{4}\\right)$ 的某邻域内确定了唯一的隐函数 $u=u(x,y)$，$v=v(x,y)$，并求 $\\mathrm{d}u$ 在点 $P_0$ 处的值。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "证明",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "证明：含参量积分 $I(x)=\\displaystyle\\int_0^{+\\infty} e^{-t^2}\\cos 2xt\\,\\mathrm{d}t$ 满足方程 $\\dfrac{\\mathrm{d}I}{\\mathrm{d}x}+2xI=0$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "试确定函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(x+\\dfrac{1}{n}\\right)^{n}$ 的收敛域，并讨论该级数的一致收敛性及其和函数的连续性。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设函数 $f(x)$ 在区间 $[0,+\\infty)$ 上一致连续，且 $\\forall x\\ge 0$ 有 $\\lim\\limits_{n\\to\\infty} f(x+n)=0$（$n$ 为整数）。试证：\n$$\\lim_{x\\to+\\infty} f(x)=0.$$"
+        }
+      ]
+    },
+    {
+      "school": "大连海事大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "143. 大连海事大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247505144-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "证明：对任意非负整数 $n$，有 $x^{n+2}+(x+1)^{2n+1}$ 可被 $x^2+x+1$ 整除。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\xi_1,\\cdots,\\xi_n$ 为 $n$ 阶方阵 $A$ 分别属于不同特征值的特征向量，记 $\\alpha=\\xi_1+\\cdots+\\xi_n$，证明：向量组 $\\alpha, A\\alpha,\\cdots, A^{n-1}\\alpha$ 线性无关。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "$A$ 为 $m$ 阶正定矩阵，$B$ 为 $m\\times n$ 实矩阵，则 $B'AB$ 正定等价于 $r(B)=n$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $A$ 为 $n$ 阶方阵，且 $A^2-3A+2E=0$，求证存在一可逆阵 $T$，使 $T^{-1}AT'$ 为对角阵。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设矩阵\n$$A=\\begin{pmatrix}-1 & -2 & 6\\\\ -1 & 0 & 3\\\\ -1 & -1 & 4\\end{pmatrix}.$$\n求 $A^k$，其中 $k$ 为正整数。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "令 $\\mathscr{A}$ 为数域 $P$ 上的 $n$ 维线性空间 $V$ 的线性变换，且满足 $\\mathscr{A}^2=\\mathscr{A}$，证明：\n$\\mathscr{A}^{-1}(0)=\\{\\alpha-\\mathscr{A}(\\alpha)\\mid \\alpha\\in V\\}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（30 分）",
+          "no": "2",
+          "score": 30,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "令 $\\mathscr{A}$ 为数域 $P$ 上的 $n$ 维线性空间 $V$ 的线性变换，且满足 $\\mathscr{A}^2=\\mathscr{A}$，证明：\n$V=\\mathscr{A}^{-1}(0)\\oplus\\mathscr{A}(V)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（30 分）",
+          "no": "3",
+          "score": 30,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "令 $\\mathscr{A}$ 为数域 $P$ 上的 $n$ 维线性空间 $V$ 的线性变换，且满足 $\\mathscr{A}^2=\\mathscr{A}$，证明：\n如果 $\\mathscr{B}$ 是 $V$ 的线性变换，$\\mathscr{A}^{-1}(0)$ 和 $\\mathscr{A}(V)$ 均为 $\\mathscr{B}$ 的不变子空间，则 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 为 $n$ 维欧氏空间，$\\xi_1,\\xi_2,\\cdots,\\xi_n$ 为 $V$ 的一个标准正交基，$(\\alpha,\\beta)$ 表示向量 $\\alpha,\\beta\\in V$ 的内积，令\n$$\\eta=k_1\\xi_1+k_2\\xi_2+\\cdots+k_n\\xi_n.$$\n其中 $k_1,\\cdots,k_n$ 为 $n$ 个不全为 $0$ 的实数，对于给定的非零实数 $m$，定义 $V$ 的线性变换 $\\mathscr{A}$ 为\n$$\\mathscr{A}(\\alpha)=\\alpha+m(\\alpha,\\eta)\\eta,\\ \\forall\\alpha\\in V.$$\n求 $\\mathscr{A}$ 在基 $\\xi_1,\\cdots,\\xi_n$ 下的矩阵 $A$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $V$ 为 $n$ 维欧氏空间，$\\xi_1,\\xi_2,\\cdots,\\xi_n$ 为 $V$ 的一个标准正交基，$(\\alpha,\\beta)$ 表示向量 $\\alpha,\\beta\\in V$ 的内积，令\n$$\\eta=k_1\\xi_1+k_2\\xi_2+\\cdots+k_n\\xi_n.$$\n其中 $k_1,\\cdots,k_n$ 为 $n$ 个不全为 $0$ 的实数，对于给定的非零实数 $m$，定义 $V$ 的线性变换 $\\mathscr{A}$ 为\n$$\\mathscr{A}(\\alpha)=\\alpha+m(\\alpha,\\eta)\\eta,\\ \\forall\\alpha\\in V.$$\n求 $\\det(A)$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $V$ 为 $n$ 维欧氏空间，$\\xi_1,\\xi_2,\\cdots,\\xi_n$ 为 $V$ 的一个标准正交基，$(\\alpha,\\beta)$ 表示向量 $\\alpha,\\beta\\in V$ 的内积，令\n$$\\eta=k_1\\xi_1+k_2\\xi_2+\\cdots+k_n\\xi_n.$$\n其中 $k_1,\\cdots,k_n$ 为 $n$ 个不全为 $0$ 的实数，对于给定的非零实数 $m$，定义 $V$ 的线性变换 $\\mathscr{A}$ 为\n$$\\mathscr{A}(\\alpha)=\\alpha+m(\\alpha,\\eta)\\eta,\\ \\forall\\alpha\\in V.$$\n证明：$\\mathscr{A}$ 为正交变换等价于 $m=-\\dfrac{2}{k_1^2+k_2^2+\\cdots+k_n^2}$。"
+        }
+      ]
+    }
+  ]
+}

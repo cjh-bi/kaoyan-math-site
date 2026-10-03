@@ -1,0 +1,263 @@
+{
+  "msgid": "2247529533",
+  "exams": [
+    {
+      "school": "陕西师范大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "71. 陕西师范大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529533_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\dfrac{1!+2!+\\cdots+n!}{n!}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to+\\infty}x^2\\left[\\ln\\arctan(x+1)-\\ln\\arctan x\\right]$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)=\\int_0^x\\dfrac{\\sin t}{\\pi-t}\\,\\mathrm{d}t$，求积分 $\\int_0^{\\pi}f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $\\iint_S\\dfrac{ax\\,\\mathrm{d}y\\mathrm{d}z+(a+z)^2\\,\\mathrm{d}x\\mathrm{d}y}{\\sqrt{x^2+y^2+z^2}}$（$a>0$），$S$ 取半球面 $z=-\\sqrt{a^2-x^2-y^2}$ 的上侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算 $I=\\oint_L\\dfrac{x\\,\\mathrm{d}y-y\\,\\mathrm{d}x}{3x^2+4y^2}$，其中 $L$ 是椭圆 $2x^2+3y^2=1$，方向沿逆时针方向。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求数项级数 $\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n+1}}{n(n+1)}$ 的和。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题. 每题 10 分, 共 30 分.",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=\\sqrt[3]{x^3+y^3}$。\n(1) 讨论 $f(x,y)$ 在原点处沿任何方向的导数是否均存在？\n(2) 讨论 $f_x(0,0),f_y(0,0)$ 是否存在？若存在，求出其值。\n(3) 讨论 $f(x,y)$ 在 $(0,0)$ 处是否可微？"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题. 每题 10 分, 共 30 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求方程 $2x^2+2y^2+z^2+8zy-z+8=0$ 所确定的隐函数 $z=z(x,y)$ 的极值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题. 每题 10 分, 共 30 分.",
+          "no": "3",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $u_n\\neq 0$，且 $\\lim_{n\\to\\infty}\\dfrac{n}{u_n}=1$。讨论级数 $\\sum_{n=1}^{\\infty}(-1)^{n+1}\\left(\\dfrac{1}{u_n}+\\dfrac{1}{u_{n+1}}\\right)$ 是否绝对收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上连续，当 $x\\to+\\infty$ 时，$y=2x$ 是 $f(x)$ 的渐近线。证明：$f(x)$ 在 $[a,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f''(x)\\ge 0$。证明：$\\int_0^1 f(x^6)\\,\\mathrm{d}x\\ge f\\left(\\dfrac{1}{7}\\right)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上单调减，且 $\\lim_{x\\to+\\infty}f(x)=0$。证明：若 $f'(x)$ 在 $[0,+\\infty)$ 上连续，则反常积分 $\\int_0^{+\\infty}f'(x)\\sin^2 x\\,\\mathrm{d}x$ 收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)=\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{\\sqrt{n^3+n}}$。\n(1) 证明：$f(x)$ 在 $(-\\infty,+\\infty)$ 上连续。\n(2) 证明：$F\\left(\\dfrac{\\pi}{2}\\right)<\\dfrac{\\sqrt{2}}{2}$，其中 $F(x)=\\int_0^x f(t)\\,\\mathrm{d}t$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明 $I(y)=\\int_0^{+\\infty}e^{-px}\\cos xy\\,\\mathrm{d}x$ 在 $(-\\infty,+\\infty)$ 上一致收敛，其中 $p>0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 90 分.",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "解答如下问题：\n(1) 计算积分 $A=\\int_0^1\\!\\int_0^1\\left|xy-\\dfrac{1}{4}\\right|\\mathrm{d}x\\mathrm{d}y$。\n(2) 设 $z=f(x,y)$ 在区域 $D:[0,1]\\times[0,1]$ 上连续，且满足条件 $\\iint_D f(x,y)\\,\\mathrm{d}x\\mathrm{d}y=0$ 和 $\\iint_D xyf(x,y)\\,\\mathrm{d}x\\mathrm{d}y=1$。证明：存在 $(\\xi,\\eta)\\in D$，使得 $|f(\\xi,\\eta)|\\ge\\dfrac{1}{A}$，其中 $A$ 为 (1) 中的积分值。"
+        }
+      ]
+    },
+    {
+      "school": "陕西师范大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "71. 陕西师范大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529533_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）证明",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "证明：对于任意的非负整数 $n$，复数域上的多项式 $x^2+x+1$，$x^{n+2}+(x+1)^{2n+1}$ 都有\n$$x^2+x+1\\mid x^{n+2}+(x+1)^{2n+1}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）计算行列式",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix} x & a & a & \\cdots & a \\\\ -a & x & a & \\cdots & a \\\\ -a & -a & x & \\cdots & a \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ -a & -a & -a & \\cdots & x \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$（$n\\ge 3$）线性无关，且\n$$\\beta_1=\\alpha_1+\\alpha_2,\\ \\beta_2=\\alpha_2+\\alpha_3,\\ \\cdots,\\ \\beta_{n-1}=\\alpha_{n-1}+\\alpha_n,\\ \\beta_n=\\alpha_1+\\alpha_n.$$\n讨论向量组 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 的线性相关性。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）证明",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 是秩为 $m$ 的 $m\\times n$ 级矩阵，$B$ 是秩为 $n-m$ 的 $n\\times(n-m)$ 级矩阵，而且 $AB=O$。若 $n$ 维向量 $\\eta$ 是齐次线性方程组 $AX=0$ 的解。证明：存在唯一的 $n-m$ 维列向量 $\\xi$，使得 $\\eta=B\\xi$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）证明",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "$A,B$ 均是 $4\\times 4$ 级实矩阵，齐次线性方程组 $AX=0$ 的基础解系中包含 3 个解向量，$BX=0$ 的一个基础解系中包含 2 个解向量。证明：\n(1) $ABX=0$ 至少有 3 个线性无关的解向量。\n(2) $4A+5B$ 一定有实特征向量。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）证明并求逆",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $A,B,C$ 是 $n$ 级方阵，且 $A$ 和 $B$ 都可逆，证明：矩阵\n$$M=\\begin{pmatrix} A & A \\\\ C-B & C \\end{pmatrix}$$\n可逆，并求矩阵 $M$ 的逆。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）证明",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$V_1,V_2$ 是线性空间 $V$ 的子空间，若 $V_1\\cup V_2$ 也是 $V$ 的子空间。证明：\n(1) $V_1\\cup V_2=V_1+V_2$。\n(2) $V_1\\subset V_2$ 或者 $V_2\\subset V_1$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（20 分）证明",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是复数域上的一个 $n$ 维线性空间，$\\sigma,\\tau$ 为 $V$ 上的两个线性变换，且 $\\sigma\\tau=\\tau\\sigma$。证明：\n(1) 若 $\\lambda_0$ 是 $\\sigma$ 的一个特征值，则特征子空间 $V_{\\lambda_0}$ 是 $\\tau$ 的一个不变子空间。\n(2) $\\sigma,\\tau$ 至少有一个公共的特征向量。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）证明",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B$ 是 $n$ 级正交方阵，若 $|A|\\neq|B|$，证明：$A+B$ 是不可逆矩阵。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "msgid": "2247529092",
+  "exams": [
+    {
+      "school": "东北师范大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "30. 东北师范大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529092_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 28 分.",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\sum_{i=1}^{n}\\dfrac{e^{\\frac{i}{n}}}{n+\\frac{1}{i}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 28 分.",
+          "no": "2",
+          "score": 7,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0^+}\\dfrac{1-\\sqrt{\\cos 2x}}{\\ln(1+x)(1-\\cos\\sqrt{x})}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 28 分.",
+          "no": "3",
+          "score": 7,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求定积分 $\\displaystyle\\int_0^1\\dfrac{\\ln(1+x)}{1+x^2}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 28 分.",
+          "no": "4",
+          "score": 7,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z=\\displaystyle\\int_0^{x^2+y^2}e^t\\,\\mathrm{d}t$，求 $\\dfrac{\\partial^2 z}{\\partial x^2}+\\dfrac{\\partial^2 z}{\\partial y^2}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "(15 分) 设 $k$ 是常数, 方程 $kx-\\dfrac{1}{x}+1=0$ 在 $(0,+\\infty)$ 内恰有一根, 求 $k$ 的取值范围."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "(15 分) 求两曲面 $x+2y=1$ 和 $x^2+2y^2+z^2=1$ 的交线上距原点最近的点."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "(15 分) 设 $S:x^2+y^2+z^2=a^2$，求 $\\iint\\limits_{S}(x^2+4y^2+9z^2)\\,\\mathrm{d}S$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "(15 分) 设 $f(x)=\\begin{cases}x,&0\\le x\\le 1;\\\\ 0,&\\text{其他}.\\end{cases}$ $D$ 为 $xOy$ 面, 求二重积分 $I=\\iint\\limits_{D}f(y)f(x+y)\\,\\mathrm{d}x\\mathrm{d}y$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "(15 分) 讨论广义积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{1+x}{x^p}\\sin x^3\\,\\mathrm{d}x$ 的敛散性."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "(15 分) 求级数 $\\sum\\limits_{n=0}^{\\infty}\\dfrac{(-1)^n(n^2-n+1)}{2^n}$ 的和."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "(15 分) 证明 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\cos nx}{n^2}=\\dfrac{1}{2}(3x^2-6\\pi x+2\\pi^2)$ $(0\\le x\\le\\pi)$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 17,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "(17 分) 设 $f(x)$ 在 $[a,b]$ 上满足 $f''(x)>0$. 试证明: 对于 $[a,b]$ 中任意不同的 $x_1,x_2$, 有\n$$\\frac{1}{2}[f(x_1)+f(x_2)]>f\\left(\\frac{x_1+x_2}{2}\\right).$$"
+        }
+      ]
+    },
+    {
+      "school": "东北师范大学",
+      "year": "2025",
+      "subject": "高等代数与解析几何",
+      "header_note": "30. 东北师范大学 2025 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247529092_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "(15 分) 设 $n$ 是大于 $1$ 的正整数, $t_1,\\cdots,t_n$ 是 $n$ 个未定元, 计算下列 $n$ 阶行列式的值:\n$$\\begin{vmatrix}1+t_1&1+t_2&\\cdots&1+t_n\\\\ 2+t_1&3+t_2&\\cdots&(n+1)+t_n\\\\ \\vdots&\\vdots&&\\vdots\\\\ 2^{n-1}+t_1&3^{n-1}+t_2&\\cdots&(n+1)^{n-1}+t_n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "(15 分) 设矩阵 $A=\\begin{pmatrix}1&a&b\\\\ a&1&1\\\\ b&1&0\\end{pmatrix}$, 且与矩阵 $B=\\begin{pmatrix}1&0&0\\\\ 0&2&0\\\\ 0&0&-1\\end{pmatrix}$ 相似.\n(1) (5 分) 求整数 $a$ 和 $b$ 的值.\n(2) (10 分) 求正交矩阵 $T$, 使得 $T^{-1}AT=B$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "(15 分) 设 $A$ 是 $m$ 行 $n$ 列矩阵, $b$ 是 $m$ 维非零向量, $X$ 是 $n$ 个未知量构成的 $n$ 维向量, 向量方程 $AX=b$ 的增广矩阵记为 $C$, 若 $A$ 的秩 $r(A)$ 与 $C$ 的秩 $r(C)$ 都是 $r$, 且满足 $1\\le r<n$, 证明:\n(1) (5 分) 若 $X_1,\\cdots,X_{n-r}$ 是 $n-r$ 个线性无关的 $n$ 维向量, 且\n$$AX_k=0,\\ k=1,2,\\cdots,n-r.$$\n则 $X_1,\\cdots,X_{n-r}$ 是向量方程 $AX=0$ 的一个基础解系.\n(2) (10 分) 若 $Y_1,\\cdots,Y_{n-r+1}$ 是 $n-r+1$ 个线性无关的 $n$ 维向量, 且\n$$AY_s=b,\\ s=1,2,\\cdots,n-r+1.$$\n则向量方程 $AX=b$ 的任何一个解可由 $Y_1,\\cdots,Y_{n-r+1}$ 线性表示."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "(15 分) 设 $A$ 是 $m$ 行 $n$ 列矩阵, $B$ 是 $n$ 行 $s$ 列矩阵. 证明:\n(1) (5 分) 若 $AB=O$, 则 $r(A)+r(B)\\le n$.\n(2) (10 分) $r(AB)\\ge r(A)+r(B)-n$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "(10 分) 设矩阵 $A$ 和 $B$ 都是 $n$ 阶正定矩阵, 且 $AB=BA$, 证明: $AB$ 也是正定矩阵."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "(15 分) 设 $f(x),g(x)$ 是多项式, 且 $x^2+x+1$ 整除 $f(x^3)+xg(x^3)$.\n(1) (10 分) 证明: $x-1$ 整除 $f(x)$, 且 $x-1$ 整除 $g(x)$.\n(2) (5 分) 若 $f(x)$ 是 $x-1$ 的方幂, $h(x)$ 和 $q(x)$ 是多项式, 且 $f(x)\\mid h(x)q(x)$. 证明: 或者 $f(x)$ 整除 $h(x)$, 或者 $f(x)$ 整除 $q(x)$ 的某个方幂."
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "(15 分) 设 $V$ 是有限维向量空间, $\\Phi$ 和 $\\Psi$ 是 $V$ 上的线性变换, 且 $\\Phi\\Psi=\\Psi\\Phi$.\n(1) (5 分) 若 $M$ 是 $\\Phi$ 的不变子空间, 则 $\\Psi(M)$ 也是 $\\Phi$ 的不变子空间.\n(2) (10 分) 若 $\\Phi$ 和 $\\Psi$ 都可对角化, 证明: 存在 $V$ 的一组基, 使得 $\\Phi$ 和 $\\Psi$ 在这组基下的矩阵都是对角矩阵."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "空间直线",
+          "stem": "(15 分) 空间直角坐标系下, 已知两异面直线的方程分别为\n$$l_1:\\frac{x}{2}=\\frac{y+2}{-2}=\\frac{z-1}{-1},\\quad l_2:\\frac{x-1}{4}=\\frac{y-3}{2}=\\frac{z+1}{-1}.$$\n(1) (10 分) 求两条异面直线的公垂线方程.\n(2) (5 分) 求该公垂线在坐标平面 $xOy$ 的射影直线方程."
+        }
+      ]
+    }
+  ]
+}

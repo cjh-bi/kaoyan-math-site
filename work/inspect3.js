@@ -1,0 +1,1 @@
+﻿const fs=require("fs"); const s=fs.readFileSync("stats.html","utf8"); for(const h of ["答案覆盖","院校分布","逐年题量","一级知识点分布","知识点 × 年份 热力图","题型形式","二级知识点 Top 20","分值分布","高频解题方法 / 考点词频","一级知识点 × 形式矩阵"]){ const i=s.indexOf("<h2>"+h); const seg=s.slice(i, i+700); console.log("=====", h, "====="); console.log(seg.replace(/\s+/g," ").slice(0,420)); }

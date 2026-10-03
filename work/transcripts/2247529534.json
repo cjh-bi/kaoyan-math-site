@@ -1,0 +1,333 @@
+{
+  "msgid": "2247529534",
+  "exams": [
+    {
+      "school": "西安电子科技大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "72. 西安电子科技大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529534_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 42 分.",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim_{x\\to 0}\\dfrac{1-(\\cos x)^{\\sin x}}{x^3}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 42 分.",
+          "no": "2",
+          "score": 7,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "$\\displaystyle\\int\\dfrac{1+\\arcsin x}{(1-x^2)^{\\frac{3}{2}}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 42 分.",
+          "no": "3",
+          "score": 7,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "设 $a_n=\\displaystyle\\int_{-1}^{1}\\dfrac{x^{2n}}{1+e^x}\\,\\mathrm{d}x$，$n=0,1,2,\\cdots$，求级数 $\\displaystyle\\sum_{n=0}^{\\infty}(-1)^n a_n$ 的和。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 42 分.",
+          "no": "4",
+          "score": 7,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "计算 $I=\\iint_{\\Sigma}\\sqrt{x^2+y^2}\\,\\mathrm{d}S$，其中 $\\Sigma$：$x^2+y^2+z^2=1$，$z\\ge 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 42 分.",
+          "no": "5",
+          "score": 7,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $\\displaystyle\\iint_S x^3\\,\\mathrm{d}y\\mathrm{d}z$，$S$ 是椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ 的上半部分，取上侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 7 分, 共 42 分.",
+          "no": "6",
+          "score": 7,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)$ 在 $a$ 的某邻域内具有连续的 $n+1$ 阶导函数，求 $\\lim\\limits_{x\\to a}\\dfrac{\\mathrm{d}^n}{\\mathrm{d}x^n}\\left[\\dfrac{f(x)-f(a)}{x-a}\\right]$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断下列命题是否正确, 若正确请证明, 错误则给出反例. 每题 7 分, 共 28 分.",
+          "no": "1",
+          "score": 7,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "函数列 $\\{f_n(x)\\}=\\left\\{\\dfrac{1}{1+n^2x}\\right\\}$ 在 $(0,1)$ 上一致收敛。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断下列命题是否正确, 若正确请证明, 错误则给出反例. 每题 7 分, 共 28 分.",
+          "no": "2",
+          "score": 7,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "对任意正整数 $n$ 和 $p$，均有 $|x_{n+p}-x_n|<\\dfrac{p}{n^2}$，则数列 $\\{x_n\\}$ 是柯西列。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断下列命题是否正确, 若正确请证明, 错误则给出反例. 每题 7 分, 共 28 分.",
+          "no": "3",
+          "score": 7,
+          "form": "判断",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设二元函数 $f(x,y)$ 有二阶连续偏导数，$(x_0,y_0)$ 是 $f(x,y)$ 的严格极小值点，则\n$$f_{xx}(x_0,y_0)f_{yy}(x_0,y_0)-f_{xy}^2(x_0,y_0)>0.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "判断下列命题是否正确, 若正确请证明, 错误则给出反例. 每题 7 分, 共 28 分.",
+          "no": "4",
+          "score": 7,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设级数 $\\displaystyle\\sum_{n=1}^{\\infty}u_n$ 收敛，则级数 $\\displaystyle\\sum_{n=1}^{\\infty}u_n^3$ 收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（13 分）",
+          "no": "1",
+          "score": 13,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "有 $p\\in\\mathbb{R}$，讨论反常积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin x}{x^p}\\,\\mathrm{d}x$ 的敛散性，若收敛，判断是条件收敛还是绝对收敛。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（13 分）证明",
+          "no": "1",
+          "score": 13,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设函数\n$$k(x,y)=\\begin{cases} y(1-x), & y\\le x; \\\\ x(1-y), & y>x. \\end{cases}$$\n$f(y)$ 在 $[0,1]$ 上连续。证明：$u(x)=\\displaystyle\\int_0^1 k(x,y)f(y)\\,\\mathrm{d}y$ 在 $[0,1]$ 上满足微分方程 $\\dfrac{\\mathrm{d}^2u}{\\mathrm{d}x^2}+f(x)=0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（14 分）",
+          "no": "1",
+          "score": 14,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "$\\varphi(y)$ 有连续的导函数，且对右半平面 $x>0$ 内任意闭合曲线 $C$，均有\n$$\\oint_C\\dfrac{\\varphi(y)\\,\\mathrm{d}x+3xy^2\\,\\mathrm{d}y}{2x^2+y^6}=0.$$\n(1) 求 $\\varphi(y)$ 的表达式。\n(2) 设曲线 $L$：$x^2+2y^2=1$，取逆时针方向，求 $\\displaystyle\\int_L\\dfrac{\\varphi(y)\\,\\mathrm{d}x+3xy^2\\,\\mathrm{d}y}{2x^2+y^6}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（13 分）证明",
+          "no": "1",
+          "score": 13,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f_i(x)$（$i=1,2,\\cdots,n$）为 $[a,b]$ 上的连续函数，证明：\n$$\\sum_{k=1}^{n}\\left(\\int_a^b f_k(x)\\,\\mathrm{d}x\\right)^2\\le\\left(\\int_a^b\\sqrt{\\sum_{k=1}^{n}f_k^2(x)}\\,\\mathrm{d}x\\right)^2.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（13 分）证明",
+          "no": "1",
+          "score": 13,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设向量值函数 $\\boldsymbol{f}:(-1,1)\\to\\mathbb{R}^2$ 有连续导数，且 $\\boldsymbol{f}(0)=\\boldsymbol{0}$，$\\boldsymbol{f}'(0)\\neq\\boldsymbol{0}$，证明：存在 $\\varepsilon\\in(0,1)$，使得 $\\|\\boldsymbol{f}(t)\\|$ 关于 $t$ 在 $(0,\\varepsilon)$ 上单调递增。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（14 分）证明",
+          "no": "1",
+          "score": 14,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设函数 $f$ 在区间 $[a,b]$ 上有定义且处处存在极限，证明：\n(1) 对任意的 $\\varepsilon>0$，在 $[a,b]$ 上使 $\\left|\\lim\\limits_{t\\to x}f(t)-f(x)\\right|>\\varepsilon$ 的点 $x$ 至多有有限个。\n(2) $f$ 在 $[a,b]$ 上至多只有可列个间断点。"
+        }
+      ]
+    },
+    {
+      "school": "西安电子科技大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "72. 西安电子科技大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529534_5.png", "work/imgs/2247529534_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "实系数多项式 $f(x)=x^3+px+q$ 有一个虚根 $3+2\\mathrm{i}$，另外两个根为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "$A=\\begin{pmatrix} 0 & 0 & 4 & 1 \\\\ 0 & 0 & 1 & 4 \\\\ 4 & 1 & 0 & 0 \\\\ 1 & 4 & 0 & 0 \\end{pmatrix}$，$A$ 的特征值为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$A,B$ 为 3 阶矩阵，$|A|=2$，$|B|=3$，则 $\\begin{vmatrix} O & 2A \\\\ B & O \\end{vmatrix}=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "$A$ 为 4 阶实对称矩阵，满足 $A^2+3A=O$，且 $r(A)=2$，则 $A$ 在复数域 $\\mathbb{C}$ 上的合同规范形为______，在 $\\mathbb{R}$ 上的合同规范形为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "$A$ 为 $n$ 阶矩阵，$r(A)=r$，且 $A^2=A$，则 $\\mathrm{tr}(A)=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（10 分）计算 $n$（$n\\ge 2$）阶行列式",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$（$n\\ge 2$）阶行列式\n$$D_n=\\begin{vmatrix} 1+x^2 & x & & & \\\\ x+x^2 & 1+x^2 & x & & \\\\ & x+x^2 & 1+x^2 & x & \\\\ & & \\ddots & \\ddots & \\ddots \\\\ & & & x+x^2 & 1+x^2 & x \\\\ & & & & x+x^2 & 1+x^2 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知 $\\alpha_1=(4,1,1,1,0)'$，$\\alpha_2=(8,2,4,3,0)'$，$\\alpha_3=(4,1,5,3,0)'$ 为齐次线性方程组\n$$\\begin{cases} x_1-3x_2+x_3-2x_4-x_5=0; \\\\ -3x_1+9x_2-3x_3+6x_4+4x_5=0; \\\\ 2x_1-6x_2+2x_3-4x_4-2x_5=0. \\end{cases}$$\n的解向量。\n(1) 试判断该方程组的解是否都可以由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表示？试说明理由。\n(2) 给出该方程组的一个基础解系，尽可能多地含 $\\alpha_1,\\alpha_2,\\alpha_3$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（10 分）解答如下问题:",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "解答如下问题：\n(1) $A^*$ 为 $A$ 的伴随矩阵，$A$ 为 $n$ 阶矩阵，证明：\n$$r(A^*)=\\begin{cases} n, & r(A)=n; \\\\ 1, & r(A)=n-1; \\\\ 0, & r(A)<n-1. \\end{cases}$$\n(2) $A=(a_{ij})_{3\\times 3}$ 是非零矩阵，$A_{ij}$ 为 $a_{ij}$ 的代数余子式，且满足 $A_{ij}+a_{ij}=0$，$i,j=1,2,3$，求 $|A|$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（10 分）证明",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "$B$ 为 $n$ 阶实正定矩阵，$C$ 为 $n\\times k$ 实矩阵且列向量无关，记 $A=\\begin{pmatrix} B & C \\\\ C' & O \\end{pmatrix}$，证明：二次型 $f(X)=X'AX$ 正负惯性指数分别为 $n,k$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（10 分）证明",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "$a_1,a_2,\\cdots,a_n$ 为 $n$ 个互不相同的整数，证明：$f(x)=\\displaystyle\\prod_{i=1}^{n}(x-a_i)-1$ 在有理数域上不可约。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "在线性空间 $\\mathbb{R}^{2\\times 2}$ 中, 记\n$$V_1=\\left\\{\\begin{pmatrix} a & -a \\\\ b & c \\end{pmatrix}: a,b,c\\in\\mathbb{R}\\right\\},\\ V_2=\\left\\{\\begin{pmatrix} a & b \\\\ -a & c \\end{pmatrix}: a,b,c\\in\\mathbb{R}\\right\\}.$$\n证明:\n(1) $V_1,V_2$ 都是 $\\mathbb{R}^{2\\times 2}$ 的子空间.\n(2) 分别求 $V_1+V_2$, $V_1\\cap V_2$ 的一组基和维数。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $V$ 为数域 $P$ 上的 $n$ 维线性空间, $\\sigma,\\tau$ 为 $V$ 上的线性变换, 且 $\\sigma$ 在数域 $P$ 上有 $n$ 个互异的特征值. 证明:\n(1) $\\sigma$ 的特征向量均是 $\\tau$ 的特征向量的充要条件为 $\\sigma\\tau=\\tau\\sigma$.\n(2) 若 $\\sigma\\tau=\\tau\\sigma$, 则 $\\tau$ 为 $I,\\sigma,\\sigma^2,\\cdots,\\sigma^{n-1}$ 的线性组合。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "$\\sigma$ 为 $n$ 维复线性空间 $V$ 上的线性变换, 且存在非零特征值. 证明: 存在 $\\sigma$ 的不变子空间 $V_1,V_2$, 使得 $V=V_1\\oplus V_2$, 且 $\\sigma$ 在 $V_1$ 上的限制 $\\sigma|V_1$ 是可逆的, 在 $V_2$ 上的限制 $\\sigma|V_2$ 是幂零的。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "已知矩阵\n$$\\begin{pmatrix} 1 & 0 & 0 & 0 \\\\ 0 & a & a & 0 \\\\ a-2 & 0 & 1 & 0 \\\\ 0 & 1 & 0 & 0 \\end{pmatrix}$$\n可对角化, 求 $a$ 的值。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "$A$ 为 3 阶实矩阵, $A'A=AA'$, $A\\neq A'$. 证明: 存在正交矩阵 $P$, 使得\n$$P'AP=\\begin{pmatrix} a & 0 & 0 \\\\ 0 & b & c \\\\ 0 & -c & b \\end{pmatrix},$$\n其中 $a,b,c$ 为实数。"
+        }
+      ]
+    }
+  ]
+}

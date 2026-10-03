@@ -1,0 +1,1 @@
+﻿const fs=require("fs"); const p=fs.readFileSync("plan.html","utf8"); const i=p.indexOf("plan-item"); console.log(p.slice(i-50, i+700).replace(/\s+/g," ")); const m=[...p.matchAll(/title="([^"]*)"[^>]*>\s*<b|出现|频次|<span class="n">(\d+)</g)].slice(0,8); console.log("---freq-ish---"); m.forEach(x=>console.log(JSON.stringify(x[0]||x[1])));

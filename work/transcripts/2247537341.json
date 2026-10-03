@@ -1,0 +1,333 @@
+{
+  "msgid": "2247537341",
+  "exams": [
+    {
+      "school": "大连理工大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "26. 大连理工大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537341_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "",
+          "stem": "试构造仅在 $x=0$ 和 $x=2026$ 两点可微的函数 $f(x)$，而在其余个点皆不连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim\\limits_{x\\to 0^+}\\dfrac{\\sqrt{e^x-1}-e\\sqrt[x]{x}}{\\sqrt[x]{x}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 可微，且有 $\\lim\\limits_{x\\to+\\infty}\\dfrac{x f(x)+f'(x)}{x}=L\\in\\mathbb{R}$，证明：$\\lim\\limits_{x\\to+\\infty} f(x)=L$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $\\{a_n\\}$ 是正数列，证明：$\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_1^n+a_2^n+\\cdots+a_n^n}=\\sup\\{a_n\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明 $\\sin(x^2+y^2)$ 在 $\\mathbb{R}^2$ 上不一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "计算极限 $\\lim\\limits_{\\begin{subarray}{c}x\\to\\infty\\\\ y\\to\\infty\\end{subarray}}\\dfrac{2x-3y}{x^2-2xy+3y^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "计算 $f(x)=\\int_0^x\\dfrac{\\mathrm{d}t}{\\sqrt{1-t}}$ 的幂级数展开式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算极限 $\\lim\\limits_{x\\to\\infty}\\int_0^{\\pi}\\max\\{1,y\\}\\sin^2(xy)\\,\\mathrm{d}y$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：$\\sin x>\\dfrac{2}{\\pi}x$，$0<x<\\dfrac{\\pi}{2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题",
+          "no": "10",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "$\\{a_n\\}$ 收敛当且仅当对任给的正整数 $p$，有 $\\lim\\limits_{n\\to\\infty}|a_{n+p}-a_n|=0$，此命题是否正确？为什么？"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_L (y^2+z^2)\\,\\mathrm{d}x+(z^2+x^2)\\,\\mathrm{d}y+(x^2+y^2)\\,\\mathrm{d}z.$$\n其中曲线 $L$ 为球面 $x^2+y^2+z^2=1$（$x\\ge 0,y\\ge 0,z\\ge 0$）与三坐标轴的交线，它的定向使得球面的上侧在曲线左侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $D\\subset\\mathbb{R}^2$ 由 $x^2+y^2=2y$ 和 $y\\ge 1$ 围出，计算二重积分 $\\iint\\limits_D \\dfrac{2y-y^2-x^2}{y}\\,\\mathrm{d}x\\mathrm{d}y$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $a>0,b>0$，计算积分 $\\int_0^{+\\infty}\\dfrac{\\ln(a^2+x^2)}{b^2+x^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，且 $f(a)<0<f(b)$。证明：存在 $c\\in(a,b)$，使得 $f(c)=0$，且 $f(x)>0$，$x\\in(c,b]$ 时。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $D\\subset\\mathbb{R}^2$ 为区域，$u(x,y),v(x,y)$ 在 $D$ 上连续可微，且在 $D$ 上满足\n$$\\dfrac{\\partial u}{\\partial x}=\\dfrac{\\partial v}{\\partial y},\\ \\dfrac{\\partial u}{\\partial y}=-\\dfrac{\\partial v}{\\partial x},\\ u^2(x,y)+v^2(x,y)=2026.$$\n证明：$u(x,y),v(x,y)$ 在 $D$ 上是常数。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "定义 $f(x)=\\int_0^x\\cos\\dfrac{1}{t}\\,\\mathrm{d}t$，$x\\in\\mathbb{R}$，证明：$f(x)$ 在 $x=0$ 可导，且 $f'(0)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上以 $2\\pi$ 为周期的连续函数，定义\n$$f_n(x)=\\dfrac{1}{a_n}\\int_{-\\pi}^{\\pi} f(t)\\left(\\cos\\dfrac{t-x}{2}\\right)^{2n}\\mathrm{d}t,\\ x\\in\\mathbb{R},\\ n=1,2,3,\\cdots.$$\n其中 $a_n=\\displaystyle\\int_{-\\pi}^{\\pi}\\cos^{2n}\\left(\\dfrac{x}{2}\\right)\\mathrm{d}x$，$n=1,2,\\cdots$，证明：函数列 $\\{f_n(x)\\}$ 在 $\\mathbb{R}$ 上一致收敛于 $f(x)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $f(x)$ 在 $[1,+\\infty)$ 上非负递减，且 $\\displaystyle\\int_1^{+\\infty} x^{a} f(x)\\,\\mathrm{d}x$ 收敛，证明：$\\lim\\limits_{x\\to+\\infty} x^{a+1} f(x)=0$。"
+        }
+      ]
+    },
+    {
+      "school": "大连理工大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "26. 大连理工大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537341_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix}1&1&1&1\\\\ x_1&x_2&x_3&x_4\\\\ x_1^2&x_2^2&x_3^2&x_4^2\\\\ x_1^4&x_2^4&x_3^4&x_4^4\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "用正交线性替换化二次型\n$$f(x_1,x_2,x_3)=-3x_2^2-3x_3^2-4x_1x_2+4x_1x_3+8x_2x_3$$\n为标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "若矩阵\n$$A=\\begin{pmatrix}1&1& & &\\\\ &2&2& &\\\\ & &3&\\ddots&\\\\ & & &\\ddots&n-1\\\\ & & & &n\\end{pmatrix}$$\n的若尔当标准形 $J$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "证明方程组 $AX=\\beta$ 有解的充要条件是 $\\begin{pmatrix}A^{\\mathrm{T}}\\\\ \\beta^{\\mathrm{T}}\\end{pmatrix}X=\\begin{pmatrix}0\\\\ 1\\end{pmatrix}$ 无解。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明 $f(x)=3x^4+6x^3-3x+8$ 在有理数域上不可约。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $a<0$，$X$ 为 $n-1$ 维实列向量，$B$ 是 $n-1$ 阶正定矩阵，证明：$A=\\begin{pmatrix}a&X^{\\mathrm{T}}\\\\ X&B\\end{pmatrix}$ 的正惯性指数为 $n-1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V$ 为 $n$ 维欧氏空间，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_{n-1}$ 为 $V$ 中线性无关的向量，$\\beta_1,\\beta_2\\in V$ 与 $\\alpha_i$（$1\\le i\\le n-1$）正交，证明：$\\beta_1,\\beta_2$ 线性相关。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\mathscr{A}$ 为 $n$ 维线性空间 $V$ 上的线性变换，证明：\n$$\\operatorname{Im}\\mathscr{A}^n=\\operatorname{Im}\\mathscr{A}^{n+1}=\\operatorname{Im}\\mathscr{A}^{n+2}=\\cdots.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 为 $n$ 阶幂等矩阵，即 $A^2=A$，证明：$A$ 的秩等于迹。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换，且 $\\mathscr{A}$ 存在 $n$ 个不同的特征值，证明：$\\mathscr{A}$ 有且仅有 $2^n$ 个不变子空间。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A,B$ 为 $n$ 阶可逆矩阵，证明：存在多项式 $f(x)$，使得 $f(A)=A^{-1}$，$f(B)=B^{-1}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A=(a_{ij})_{n\\times n}$，其中 $a_{ij}=\\min\\{i,j\\}$，$1\\le i,j\\le n$。\n(1) 计算 $A$ 的 $k$ 阶顺序主子式.\n(2) 证明：$A$ 正定。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 是数域 $P$ 上的 $n$ 维线性空间，$\\operatorname{Hom}(V)$ 表示 $V$ 上所有线性变换构成的线性空间。任取 $\\mathscr{A}\\in\\operatorname{Hom}(V)$。\n(1) 令 $C(\\mathscr{A})=\\{\\mathscr{B}\\in\\operatorname{Hom}(V)\\mid \\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}\\}$，证明：$C(\\mathscr{A})$ 是 $\\operatorname{Hom}(V)$ 的子空间.\n(2) 设 $\\mathscr{A}$ 在 $P$ 中有 $n$ 个不同的特征值，求 $C(\\mathscr{A})$ 的维数和一组基.\n(3) 写出 $\\operatorname{Hom}(V)$ 上的一个线性变换 $\\sigma$，使得 $\\operatorname{Ker}\\sigma=C(\\mathscr{A})$。"
+        }
+      ]
+    }
+  ]
+}

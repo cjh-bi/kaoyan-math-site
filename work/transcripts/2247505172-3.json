@@ -1,0 +1,104 @@
+{
+  "msgid": "2247505172-3",
+  "exams": [
+    {
+      "school": "陕西师范大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "146. 陕西师范大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247505172-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "求 $t$ 的值，使得 $f(x)=x^3-3x^2+tx-1$ 有重根。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n+1$ 阶行列式\n$$D=\\begin{vmatrix} a_0 & 1 & 1 & \\cdots & 1 \\\\ 1 & a_1 & 0 & \\cdots & 0 \\\\ 1 & 0 & a_2 & \\cdots & 0 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ 1 & 0 & 0 & \\cdots & a_n \\end{vmatrix}.$$\n其中 $a_1a_2\\cdots a_n\\neq 0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 $A$ 是 $n$ 阶实对称矩阵，且 $|A|<0$，则必存在 $n$ 维实列向量 $X\\neq 0$，使得 $X^{T}AX<0$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "证明：$|A^{*}|=|A|^{n-1}$，其中 $A$ 是 $n\\times n$ 阶矩阵 $(n\\geq 2)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "若 $V_1$，$V_2$ 是线性空间 $V$ 的子空间，且 $V_1\\subseteq V_2$，证明：若 $\\dim V_1=\\dim V_2$，则有 $V_1=V_2$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $A$ 是 $n\\times n$ 矩阵，证明：存在 $n\\times n$ 的非零矩阵 $B$，使得 $AB=O$ 的充要条件是 $|A|=0$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "证明：$\\displaystyle\\sum_{i=1}^{s}V_i$ 是直和的充要条件是 $\\displaystyle V_i\\cap\\sum_{j=1}^{i-1}V_j=\\{0\\}$ $(i=2,3,\\cdots,s)$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 $A$ 是 $n\\times n$ 实矩阵，证明：存在正交矩阵 $T$，使得 $T^{-1}AT$ 为上三角形矩阵的充要条件是 $A$ 的特征多项式的根均为实数。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3,\\varepsilon_4$ 是线性空间 $V$ 的一组基，且线性变换 $\\sigma$ 在这组基下的矩阵为\n$$A=\\begin{pmatrix} 5 & -2 & -4 & 3 \\\\ 3 & -1 & -3 & 2 \\\\ -3 & \\dfrac{1}{2} & \\dfrac{9}{2} & -\\dfrac{5}{2} \\\\ -10 & 3 & 11 & -7 \\end{pmatrix}.$$\n(1) 求 $\\sigma$ 在基 $\\eta_1=\\varepsilon_1+2\\varepsilon_2+\\varepsilon_3+\\varepsilon_4$，$\\eta_2=2\\varepsilon_1+3\\varepsilon_2+\\varepsilon_3$，$\\eta_3=\\varepsilon_3$，$\\eta_4=\\varepsilon_4$ 下的矩阵。\n(2) 求 $\\sigma$ 的特征值和特征向量。\n(3) 求可逆矩阵 $T$，使得 $T^{-1}AT$ 为对角矩阵。"
+        }
+      ]
+    }
+  ]
+}

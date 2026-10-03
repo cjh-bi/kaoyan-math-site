@@ -1,0 +1,187 @@
+{
+ "msgid": "2247504380-1",
+ "exams": [
+  {
+   "school": "南开大学",
+   "year": "2021",
+   "subject": "数学分析",
+   "header_note": "南开大学 2021 年硕士研究生入学考试数学分析试卷",
+   "source_imgs": [
+    "work/imgs/2247504380-1_4.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 20,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "数列收敛性",
+     "stem": "已知数列 $\\{a_n\\}$ 满足 $a_1=-\\dfrac{1}{2}$，$a_{n+1}=-\\dfrac{1}{2}+\\dfrac{a_n^2}{2}$，证明 $\\{a_n\\}$ 收敛，并求其极限。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": 20,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "已知函数 $f(x)$ 在 $[a,+\\infty)$ 上连续，$\\lim\\limits_{x\\to+\\infty}f(x)=+\\infty$，$c\\in(a,+\\infty)$ 为 $f(x)$ 的最小值点，且 $a\\leq f(c)<c<f(a)$，证明 $f(f(x))$ 至少在两个点处取得最小值。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": 30,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "已知 $z=z(x,y)$，$w=w(x,y)$ 二阶偏导数均连续，在变换 $x=uy$，$v=x$，$w=xz-y$ 下，将\n$$x^3\\frac{\\partial^2 z}{\\partial x^2}+2x^2y\\frac{\\partial^2 z}{\\partial x\\partial y}+xy^2\\frac{\\partial^2 z}{\\partial y^2}=2(xz-y)$$\n变成 $w=w(u,v)$ 关于 $u$，$v$ 的微分方程。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": 20,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "第二型曲线积分",
+     "stem": "求第二型曲线积分\n$$I=\\int_L y\\,\\mathrm{d}x+2z\\,\\mathrm{d}y+3x\\,\\mathrm{d}z.$$\n其中 $L$ 为球面 $x^2+y^2+z^2=4$ 与平面 $x+y+z=0$ 的交线，从 $x$ 轴的正向看，方向为逆时针。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": 30,
+     "form": "计算",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分",
+     "stem": "已知不定积分\n$$\\int\\frac{\\mathrm{d}x}{1+b\\cos x}=\\frac{2}{\\sqrt{1-b^2}}\\arctan\\left(\\sqrt{\\frac{1-b}{1+b}}\\tan\\frac{x}{2}\\right)+C,\\quad |b|<1.$$\n且定积分 $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\ln(\\sin x)\\,\\mathrm{d}x=-\\frac{\\pi}{2}\\ln 2$，计算含参量积分\n$$I(a)=\\int_0^{\\pi}\\ln(1-2a\\cos x+a^2)\\,\\mathrm{d}x.$$\n其中 $a$ 为实数。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": 15,
+     "form": "综合",
+     "l1": "广义积分与含参积分",
+     "l2": "广义积分敛散性",
+     "stem": "已知 $n$ 为正整数，讨论广义积分 $\\displaystyle\\int_0^{+\\infty}x^n e^{-x^{12}\\sin^2 x}\\,\\mathrm{d}x$ 的敛散性。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": 15,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "一致连续性",
+     "stem": "已知 $r\\in(0,1)$，函数 $f(x)$ 在 $(0,a]$ 上可导，且 $\\lim\\limits_{x\\to 0^+}x^r f(x)$ 存在，证明 $f(x)$ 在 $(0,a]$ 上一致连续。"
+    }
+   ]
+  },
+  {
+   "school": "南开大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "南开大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": [
+    "work/imgs/2247504380-1_5.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 20,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算行列式\n$$\\begin{vmatrix} a & -a & -1 & 0 \\\\ a & -a & 0 & -1 \\\\ 1 & 0 & a & -a \\\\ 0 & 1 & a & -a \\end{vmatrix}.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": 20,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "秩",
+     "stem": "设 $A$ 为 $n$ 阶方阵，其中 $n\\geq 3$，且 $A$ 的第 $i$ 行第 $j$ 列元素为 $(i-j)^2$，求 $A$ 的秩。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": 20,
+     "form": "综合",
+     "l1": "欧氏空间与二次型",
+     "l2": "实对称矩阵",
+     "stem": "设 $A$ 为 $3$ 阶实对称矩阵，其特征值为 $-1$，$1$（2 重），且 $\\alpha_1=(-1,2,2)'$，$\\alpha_2=(1,1,4)'$ 是属于特征值 $1$ 的特征向量。\n(a) 求 $A$ 的属于特征值 $-1$ 的特征向量；\n(b) 求矩阵 $A$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": 10,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "设 $A$，$B$ 为 $n$ 阶实可逆方阵，且 $A+B$ 也可逆，如果 $(A+B)^{-1}=A^{-1}+B^{-1}$，证明 $|A|=|B|$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": 20,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "在 $\\mathbb{R}^4$ 当中，线性方程组\n$$\\begin{cases} x_1-7x_3-8x_4=0; \\\\ x_2+5x_3+6x_4=0. \\end{cases}$$\n与\n$$\\begin{cases} x_1+2x_2+3x_3=0; \\\\ x_4=0. \\end{cases}$$\n的解空间分别为 $V$，$W$。\n(a) 证明 $V+W$ 是 3 维线性子空间。\n(b) 求线性函数 $l$，使得 $V+W=\\{X\\in\\mathbb{R}^4\\mid l(X)=0\\}$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": 20,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "线性映射与核",
+     "stem": "给定 $A\\in\\mathbb{C}^{m\\times m}$，$B\\in\\mathbb{C}^{n\\times n}$，在线性空间 $V=\\mathbb{C}^{m\\times n}$ 上定义线性变换 $\\varphi$ 满足\n$$\\varphi(X)=AX-XB,\\quad X\\in V.$$\n如果 $A$，$B$ 没有公共的特征值，证明 $\\varphi$ 是可逆的。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": 15,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "在实线性空间 $V=\\mathbb{R}^{n\\times n}$ 上定义二次型\n$$q(A)=\\operatorname{tr}(A^2),\\quad A\\in V.$$\n试计算 $q$ 的正惯性指数和负惯性指数。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "8",
+     "score": 15,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与直和",
+     "stem": "设 $\\tau$ 是数域 $P$ 上 $n$ 维线性空间 $V$ 上的线性变换，$U$，$W$ 分别为 $\\tau^n$ 的值域与核，证明\n$$V=U\\oplus W.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "9",
+     "score": 10,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "幂零矩阵",
+     "stem": "如果 $n$ 阶方阵 $A_1,A_2,\\cdots,A_m$ 满足 $A_i^2\\neq O$（$i=1,2,\\cdots,m$），且当 $i\\neq j$ 时，$A_iA_j=O$，证明\n$$m\\leq n.$$"
+    }
+   ]
+  }
+ ]
+}

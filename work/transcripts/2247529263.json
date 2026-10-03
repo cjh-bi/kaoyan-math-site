@@ -1,0 +1,94 @@
+{
+  "msgid": "2247529263",
+  "exams": [
+    {
+      "school": "中国海洋大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "39. 中国海洋大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529263_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)$ 具有二阶导数，$f(0)=f'(0)=0$，$F(x)=f(x)(1-\\cos x)$，则 $F''(0)=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim\\limits_{x\\to 0}\\left(\\sin^2 x+\\cos x\\right)^{\\frac{a}{x\\arctan x}}=\\mathrm{e}^3$，则常数 $a=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "曲线 $y=\\dfrac{x}{1-x}+x^{\\sqrt{2}}\\cos x$ 在点处的切线斜率为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "$\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\left(\\sin\\dfrac{x}{n}+2\\sin\\dfrac{2x}{n}+\\cdots+n\\sin\\dfrac{nx}{n}\\right)=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，$F(x)=\\displaystyle\\int_{-1}^{x}xf(t)\\,\\mathrm{d}t$，则 $F'(x)=$______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "已知 $f(x)=\\begin{cases}x^2\\sin\\dfrac{1}{x}, & x\\neq 0 \\\\[2mm] 1, & x=0\\end{cases}$，则 $x=0$ 是 $f(x)$ 的______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "$\\displaystyle\\int_0^1\\mathrm{d}x\\int_x^{\\sqrt{2x-x^2}}f(x,y)\\,\\mathrm{d}y$，区域 $D$ 是______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每小题 5 分，共 40 分）",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "$f(x)=x(1+x)^{\\frac{\\ln(1+x)}{2}}$ 在 $x=0$ 处的泰勒展开式中 $x^2$ 的系数为______."
+        }
+      ]
+    }
+  ]
+}

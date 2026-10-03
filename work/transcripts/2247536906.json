@@ -1,0 +1,253 @@
+{
+  "msgid": "2247536906",
+  "exams": [
+    {
+      "school": "北京师范大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "1. 北京师范大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247536906_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）证明：",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明 $1-\\dfrac{1}{2}+\\dfrac{1}{3}-\\dfrac{1}{4}+\\cdots+\\dfrac{1}{2025}-\\dfrac{1}{2026}<\\dfrac{\\sqrt{2}}{2}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f:\\mathbb{R}\\times\\mathbb{R}\\to\\mathbb{R}$ 满足对任意的 $a\\in\\mathbb{R}$，有 $f(0,a)\\le f(0,0)\\le f(a,0)$。证明：\n$$\\sup_{b\\in\\mathbb{R}}\\inf_{a\\in\\mathbb{R}} f(a,b)=\\inf_{a\\in\\mathbb{R}}\\sup_{b\\in\\mathbb{R}} f(a,b).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty} x^2\\left[\\left(\\dfrac{3x^3-7}{3x^3-x}\\right)^{\\frac{1}{5}}-x\\sin\\dfrac{1}{x}\\right]$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "已知 $f(x)=\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\cos(nx)}{\\sqrt{n^3+n}}$。证明：\n(1)（7 分）$f(x)$ 在 $(-\\infty,+\\infty)$ 上连续。\n(2)（8 分）$\\dfrac{\\sqrt{2}}{2}-\\dfrac{1}{15}<\\displaystyle\\int_0^{\\frac{\\pi}{2}} f(x)\\,\\mathrm{d}x<\\dfrac{\\sqrt{2}}{2}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $f(x)$ 在 $[1,+\\infty)$ 上非负单调递减，证明：$\\lim\\limits_{n\\to\\infty}\\left[\\sum\\limits_{k=1}^{n} f(k)-\\displaystyle\\int_1^{n} f(x)\\,\\mathrm{d}x\\right]$ 收敛。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "计算广义积分 $\\displaystyle\\int_1^{+\\infty}\\dfrac{\\{x\\}}{x^3}\\,\\mathrm{d}x$，其中 $\\{x\\}$ 表示 $x$ 的小数部分，例如 $\\{\\pi\\}=\\pi-3$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "设 $\\delta\\in[0,+\\infty)$，讨论函数\n$$f(x,y)=\\begin{cases}\\dfrac{\\sin(x^{1+\\delta}y)}{x^2+y^2},&(x,y)\\ne(0,0);\\\\[6pt] 0,&(x,y)=(0,0).\\end{cases}$$\n的连续性，可微性。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $f(t)$ 在 $[0,+\\infty)$ 上连续，\n$$f(t)=t+\\dfrac{1}{4\\pi}\\iiint\\limits_{x^2+y^2+z^2\\le t^2}\\dfrac{f\\left(\\sqrt{x^2+y^2+z^2}\\right)}{x^2+y^2+z^2}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z,\\ t\\in[0,+\\infty).$$\n求 $f(t)$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求曲线积分\n$$I=\\int_L\\dfrac{(x-y)\\,\\mathrm{d}x+(x+4y)\\,\\mathrm{d}y}{x^2+4y^2}.$$\n其中 $L$ 从 $(1,0)$ 沿上半圆周 $x^2+y^2=1$ 到 $(-1,0)$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "",
+          "stem": "在空间直角坐标系中，已知方程 $\\cos(3x+2z)=h(4y-z)$，且函数 $h$ 在 $\\mathbb{R}$ 上可微，证明：上述方程表示空间中的一个柱面。"
+        }
+      ]
+    },
+    {
+      "school": "北京师范大学",
+      "year": "2026",
+      "subject": "高等代数与解析几何",
+      "header_note": "1. 北京师范大学 2026 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247536906_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（12 分）",
+          "no": "1",
+          "score": 12,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $P=\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&1\\end{pmatrix}$，考虑增广矩阵 $B=(A,P)$，其中 $A$ 是 $3$ 阶方阵。若 $B$ 经过若干次初等行变换化为\n$$\\left(\\begin{array}{ccc|ccc}1&0&0&2&-3&-3\\\\0&1&0&-1&2&2\\\\0&0&1&0&0&-1\\end{array}\\right).$$\n证明：$A$ 可逆，并求 $A^{-1}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（12 分）",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "证明：$n$ 维向量空间 $\\mathbb{F}^n$ 的任意一个不等于 $\\mathbb{F}^n$ 的子空间都是若干个 $n-1$ 维子空间的交。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $M$ 是秩为 $r$ 的 $m$ 阶方阵，$V$ 是全体 $m\\times n$ 矩阵构成的线性空间，定义 $V$ 上的变换 $\\varphi$ 为\n$$\\varphi(N)=MN,\\ N\\in V.$$\n证明：$\\varphi$ 是线性变换，并求 $\\varphi$ 的像空间的维数。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 是如下的实对称矩阵：\n$$A=\\begin{pmatrix}2&-1&0&1\\\\-1&2&1&0\\\\0&1&2&-1\\\\1&0&-1&2\\end{pmatrix}.$$\n证明：$A$ 为半正定矩阵，并求半正定矩阵 $B$，满足 $B^2=A$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵，若存在 $n\\times m$ 矩阵 $G$，满足 $AGA=A$，则称 $G$ 为 $A$ 的一个广义逆。若 $A$ 为 $m\\times n$ 矩阵，且满足 $A=P\\begin{pmatrix}I_r&O\\\\O&O\\end{pmatrix}Q$，其中 $P,Q$ 分别是 $m$ 阶和 $n$ 阶可逆矩阵。证明：$A$ 的全部广义逆可表示为\n$$G=Q^{-1}\\begin{pmatrix}I_r&C\\\\D&F\\end{pmatrix}P^{-1},$$\n其中 $C,D,F$ 分别是任意的 $r\\times(m-r)$，$(n-r)\\times r$，$(n-r)\\times(m-r)$ 矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f_1(x),f_2(x),f_3(x),f_4(x)\\in\\mathbb{C}[x]$，若多项式\n$$f_1(x^{2025})+xf_2(x^{2025})+x^2f_3(x^{2025})+x^3f_4(x^{2025})$$\n可以被 $1+x+x^2+x^3+x^4$ 整除，证明：$f_i(1)=0$（$i=1,2,3,4$）。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）填空题. 每题 5 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "距离与夹角",
+          "stem": "点 $P(2,-1,3)$ 关于直线 $L:\\ \\dfrac{x-1}{1}=\\dfrac{y}{2}=\\dfrac{z+2}{-2}$ 的对称点的坐标为______。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）填空题. 每题 5 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "距离与夹角",
+          "stem": "直线 $L_1:\\ \\dfrac{x-1}{2}=\\dfrac{y}{-1}=\\dfrac{z+1}{3}$ 与直线 $L_2:\\ \\dfrac{x}{1}=\\dfrac{y-1}{2}=\\dfrac{z-2}{-1}$ 之间的距离为______。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）填空题. 每题 5 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "二次曲线",
+          "stem": "平面曲线 $3x^2+4xy+5y^2-7x-8y-3=0$ 在点 $(1,1)$ 的切线方程为______。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）填空题. 每题 5 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "直纹面与直母线",
+          "stem": "方程 $f(x+y+z,2x-3y)=0$ 表示空间中的一个柱面，其母线的单位方向向量为______。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（12 分）",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "轨迹",
+          "stem": "给定平面 $\\Sigma:\\ x+y+1=0$，求平行于 $\\Sigma$ 且与直线 $L_1:\\ \\dfrac{x-2}{1}=\\dfrac{y+3}{2}=\\dfrac{z-5}{1}$ 及直线 $L_2:\\ \\dfrac{x}{1}=\\dfrac{y-2}{2}=\\dfrac{z+1}{0}$ 都相交的动直线形成的曲面方程。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（13 分）",
+          "no": "1",
+          "score": 13,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "旋转曲面",
+          "stem": "设有两条异面直线 $L_1:\\ \\dfrac{x-1}{2}=\\dfrac{y+1}{1}=\\dfrac{z-2}{0}$ 与 $L_2:\\ \\dfrac{x}{1}=\\dfrac{y-2}{-1}=\\dfrac{z-1}{2}$，求 $L_2$ 绕 $L_1$ 所得的旋转曲面方程。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "已知二次曲面方程 $2x^2+5y^2+5z^2+4xy-4xz-8yz-9=0$，使用直角坐标变换将其化为标准方程，并判断该曲面的类型（要求写出所用的坐标变换及得到这一变换的详细过程）。"
+        }
+      ]
+    }
+  ]
+}

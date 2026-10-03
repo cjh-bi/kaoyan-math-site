@@ -1,0 +1,323 @@
+{
+  "msgid": "2247529558",
+  "exams": [
+    {
+      "school": "中国石油大学(北京)",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "12.  中国石油大学(北京) 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529558_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $x_n=\\cos\\dfrac{x}{2}\\cos\\dfrac{x}{2^2}\\cdots\\cos\\dfrac{x}{2^n}$, 求 $\\lim\\limits_{x\\to 0}\\lim\\limits_{n\\to\\infty} x_n$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{\\sqrt[n]{n!}}{n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "已知 $f(x)=\\begin{cases}x^2\\sin\\dfrac{\\pi}{x}, & x>0;\\\\[2pt] A, & x=0;\\\\[2pt] ax^2+b, & x<0.\\end{cases}$ $f(x)$ 在 $x=0$ 处可导, 求 $A,a,b$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$a_1,a_2,\\cdots,a_n$ 为正数, $n>2$, $f(x)=\\left(\\dfrac{a_1^x+a_2^x+\\cdots+a_n^x}{n}\\right)^{\\frac{1}{x}}$, 求 $\\lim\\limits_{x\\to 0^+} f(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int \\dfrac{1}{x}\\sqrt{\\dfrac{x+2}{x-2}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求 $I=\\displaystyle\\int_C (x^2+2xy)\\,\\mathrm{d}y$, $C$ 表示逆时针方向上半椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "计算 $f(x)=\\arcsin x$ 的麦克劳林公式到 $x^5$ 项。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求 $f(x,y)=x^2-xy+y^2-2x+y$ 在全平面上的最大与最小值。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "作极坐标变换, 将二重积分 $\\displaystyle\\iint_D f\\left(\\sqrt{x^2+y^2}\\right)\\,\\mathrm{d}x\\mathrm{d}y$ 为定积分, $D=\\{(x,y)\\mid 0\\le y\\le x\\le 1\\}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "叙述数列 $\\{x_n\\}$ 收敛的柯西收敛原理, 并利用它证明: 若数列 $\\{b_n\\}$ 有界, 则 $$a_n=\\dfrac{b_1}{1\\cdot 2}+\\dfrac{b_2}{2\\cdot 3}+\\cdots+\\dfrac{b_n}{n(n+1)}\\ (n\\in\\mathbb{N}^+)$$ 收敛。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $a_n>0$ 且单调递减, 证明: $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 与 $\\displaystyle\\sum_{n=1}^{\\infty} 2^n a_{2^n}$ 同敛散。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "讨论积分 $I(p)=\\displaystyle\\int_0^1 x^{p-1}(\\ln x)^2\\,\\mathrm{d}x$ 在 $[p_0,+\\infty)$ 上的一致收敛性, $p_0>0$。"
+        }
+      ]
+    },
+    {
+      "school": "中国石油大学(北京)",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "12.  中国石油大学(北京) 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529558_5.jpg", "work/imgs/2247529558_6.jpg"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 4 分, 共 24 分.",
+          "no": "1",
+          "score": 4,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $A=(a_{ij})$ 是实数域上三阶非零矩阵, $A_{ij}$ 是元素 $a_{ij}$ 在行列式 $|A|$ 中的代数余子式, 若 $A_{ij}+a_{ij}=0$ $(i,j=1,2,3)$, 则 $|A|=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 4 分, 共 24 分.",
+          "no": "2",
+          "score": 4,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "设 $A,B$ 均为三阶实矩阵, $D^T$ 为 $D$ 的转置. $$D^TAD=\\begin{pmatrix}3&2&0\\\\ 2&1&0\\\\ 0&0&2\\end{pmatrix}.$$ 若 $D=(y_1,y_2,y_3)$, $C=(y_1,2y_2,y_3-y_1)$, 则 $C^TAC=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 4 分, 共 24 分.",
+          "no": "3",
+          "score": 4,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知 $V=\\left\\{\\begin{pmatrix}b+bi&c\\\\ a&b-bi\\end{pmatrix}\\ \\middle|\\ a,b,c\\in\\mathbb{R}\\right\\}$ 是实数域上的线性空间, 则 $V$ 的维数为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 4 分, 共 24 分.",
+          "no": "4",
+          "score": 4,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知实矩阵 $A$ 的特征多项式为 $f(\\lambda)=(\\lambda+1)^2(\\lambda-5)^3$, 其最小多项式为 $g(\\lambda)=(\\lambda+1)^2(\\lambda-5)^2$, 则 $A$ 的 Jordan 标准形为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 4 分, 共 24 分.",
+          "no": "5",
+          "score": 4,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "三阶实对称矩阵 $A$ 的特征值为 $\\lambda_1=1$, $\\lambda_2=-1$, $\\lambda_3=0$, $\\lambda_1$ 的特征向量为 $p_1=(1,x,1)^T$, $\\lambda_3$ 的特征向量为 $p_3=(x,x+1,1)^T$, $x\\in\\mathbb{R}$, 则 $x=$______, $\\lambda_2$ 的特征向量为 $p_2=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 4 分, 共 24 分.",
+          "no": "6",
+          "score": 4,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "$e_1,e_2,e_3,e_4,e_5$ 为欧氏空间 $V$ 上的一组标准正交基, $W$ 是由向量组 $e_3,e_1+e_3,e_1+e_2+e_3$ 生成的子空间, 则它的正交补 $W^{\\perp}=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "选择题. 1－4 为单选, 5－6 为多选, 多选题多选, 少选, 错选均不得分, 每题 6 分, 共 36 分.",
+          "no": "1",
+          "score": 6,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知实对称矩阵 $$A=\\begin{pmatrix}a_{11}&a_{12}&a_{13}&a_{14}\\\\ a_{21}&a_{22}&a_{23}&a_{24}\\\\ a_{31}&a_{32}&a_{33}&a_{34}\\\\ a_{41}&a_{42}&a_{43}&a_{44}\\end{pmatrix}$$ 满足 $A^8+9A^5+3A^4+A^2+4E=O$, 则 $\\begin{vmatrix}a_{11}&a_{12}&a_{14}\\\\ a_{12}&a_{22}&a_{24}\\\\ a_{14}&a_{24}&a_{44}\\end{vmatrix}$ 必然（\u3000）\nA. $>0$；\u3000B. $=0$；\u3000C. $<0$；\u3000D. 不确定。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "选择题. 1－4 为单选, 5－6 为多选, 多选题多选, 少选, 错选均不得分, 每题 6 分, 共 36 分.",
+          "no": "2",
+          "score": 6,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "下列多项式在复数域上有重根的是（\u3000）\nA. $x^n+1$；\u3000B. $1+x+\\dfrac{x^2}{2!}+\\cdots+\\dfrac{x^n}{n!}$；\u3000C. $nx^{n+1}-(n+1)x^n+1$；\u3000D. $x^n+x^{n-1}+\\cdots+x+1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "选择题. 1－4 为单选, 5－6 为多选, 多选题多选, 少选, 错选均不得分, 每题 6 分, 共 36 分.",
+          "no": "3",
+          "score": 6,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "实矩阵 $A=\\begin{pmatrix}2&4&-2\\\\ 4&2&2\\\\ -2&2&5\\end{pmatrix}$, $B=\\begin{pmatrix}1&0&0\\\\ 0&-2&0\\\\ 0&0&4\\end{pmatrix}$, 则 $A$ 与 $B$（\u3000）\nA. 合同, 相似；\u3000B. 不合同, 相似；\u3000C. 合同, 不相似；\u3000D. 不合同, 不相似。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "选择题. 1－4 为单选, 5－6 为多选, 多选题多选, 少选, 错选均不得分, 每题 6 分, 共 36 分.",
+          "no": "4",
+          "score": 6,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "$A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 是 4 阶正交阵, $B=\\begin{pmatrix}\\alpha_1^T\\\\ \\alpha_2^T\\\\ \\alpha_3^T\\end{pmatrix}$, $\\beta=\\begin{pmatrix}1\\\\ 1\\\\ 1\\end{pmatrix}$, $k,l$ 为任意实数, 则线性方程组 $BX=\\beta$ 通解为（\u3000）\nA. $k\\alpha_1+l\\alpha_2+\\alpha_2+\\alpha_3+\\alpha_4$。\nB. $k\\alpha_4+\\alpha_1+\\alpha_2+\\alpha_3$。\nC. $k\\alpha_3+l\\alpha_4+\\alpha_1+\\alpha_2+\\alpha_3$。\nD. $k\\alpha_2+\\alpha_1+\\alpha_3+\\alpha_4$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "选择题. 1－4 为单选, 5－6 为多选, 多选题多选, 少选, 错选均不得分, 每题 6 分, 共 36 分.",
+          "no": "5",
+          "score": 6,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "不是实数域上线性空间 $\\mathbb{R}^n$ 的子空为（\u3000）\nA. $V_1=\\{(x_1,x_2,\\cdots,x_n)^T\\mid x_1+x_3+x_n=0,\\ \\forall x_i\\in\\mathbb{R}\\}$。\nB. $V_2=\\{X=k_1\\xi_1+2\\xi_2\\mid \\forall k\\in\\mathbb{R}\\}$, 其中 $\\xi_1,\\xi_2\\in\\mathbb{R}^n$ 线性无关。\nC. $V_3=\\{(x_1,x_2,\\cdots,x_n)^T\\mid x_1^2+x_2^2+\\cdots+x_n^2=1,\\ \\forall x_i\\in\\mathbb{R}\\}$。\nD. $V_4=\\{(x_1,x_2,\\cdots,x_n)^T\\mid x_1x_2\\cdots x_n=0,\\ \\forall x_i\\in\\mathbb{R}\\}$。\nE. $V_5=\\{(x_1,x_2,\\cdots,x_n)^T\\mid x_1^2+x_2^2+\\cdots+x_n^2=0,\\ \\forall x_i\\in\\mathbb{R}\\}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "选择题. 1－4 为单选, 5－6 为多选, 多选题多选, 少选, 错选均不得分, 每题 6 分, 共 36 分.",
+          "no": "6",
+          "score": 6,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "下列正确的是（\u3000）\nA. $\\alpha,\\beta,\\gamma$ 为欧氏空间 $V$ 中的向量, 且 $\\alpha,\\beta,\\gamma$ 正交, 则对任意的 $k,l,m\\in\\mathbb{R}$, $k\\alpha$ 与 $l\\beta+m\\gamma$ 正交。\nB. $n$ 维欧氏空间 $V$ 中存在 $n+1$ 个两两正交的非零向量。\nC. $A$ 为正交阵, 则 $-(A^T)^{-1}$ 也为正交阵。\nD. 欧氏空间上保持向量距离不变的线性变换一定是正交变换。\nE. 欧氏空间上保持向量夹角不变的线性变换一定是正交变换。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题.",
+          "no": "1",
+          "score": 14,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知实数域上 $n$ 阶矩阵, $n\\ge 3$, $$A=\\begin{pmatrix}0&a_1&0&\\cdots&0\\\\ 0&0&a_2&\\cdots&0\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ 0&0&0&\\cdots&a_{n-1}\\\\ a_n&0&0&\\cdots&0\\end{pmatrix},\\ a_i\\ne 0\\ (i=1,2,\\cdots,n).$$ 若矩阵 $X$ 满足 $AXA^*-A^*-|A|E=O$, 求矩阵 $X$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题.",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知 $g(x)=x^{11}-9x^7+12x^6-3x^5-3x^3+6$, 且 $B=\\begin{pmatrix}4&6&0\\\\ -3&-5&0\\\\ -3&-6&1\\end{pmatrix}$, 求 $g(B)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题.",
+          "no": "3",
+          "score": 16,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知 $\\mathbb{R}^n$ $(n\\ge 3)$ 中向量 $$\\alpha_1=\\begin{pmatrix}1+x\\\\ 1\\\\ \\vdots\\\\ 1\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}2\\\\ 2+x\\\\ \\vdots\\\\ 2\\end{pmatrix},\\ \\cdots,\\ \\alpha_n=\\begin{pmatrix}n\\\\ n\\\\ \\vdots\\\\ n+x\\end{pmatrix},\\ \\beta=\\begin{pmatrix}1\\\\ 1\\\\ \\vdots\\\\ 1\\end{pmatrix}.$$(1) $x$ 为何值时, $\\beta$ 由 $\\alpha_1,\\cdots,\\alpha_n$ 线性表出且表达式唯一?\n(2) $x$ 为何值时, $\\beta$ 不能由 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性表出?\n(3) $x$ 为何值时, $\\beta$ 由 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性表出但不唯一? 求出全部表达式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题.",
+          "no": "4",
+          "score": 17,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知正交替换 $X=CY$ 可将二次型 $$f(x_1,x_2,x_3,x_4)=2x_1x_2+2x_1x_3-2x_1x_4-2x_2x_3+2x_2x_4+2x_3x_4$$ 化为标准型.\n(1) 求正交变换 $X=CY$.\n(2) 在实数域中, 求 $f$ 的规范型。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题.",
+          "no": "5",
+          "score": 14,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "$\\sigma$ 是数域 $P$ 上的线性空间 $V=P^{2\\times 2}$ 的线性变换, 满足 $$\\sigma(X)=AXB,\\ \\forall X\\in P^{2\\times 2},\\ A=\\begin{pmatrix}1&1\\\\ 1&1\\end{pmatrix},\\ B=\\begin{pmatrix}2&2\\\\ 2&1\\end{pmatrix}.$$(1) 求值域 $\\sigma(V)$ 的维数与它的一组基.\n(2) 求核 $\\sigma^{-1}(0)$ 的维数与它的一组基.\n(3) 判断 $\\sigma(V)\\oplus\\sigma^{-1}(0)$ 是否成立? 并给出理由。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题.",
+          "no": "6",
+          "score": 14,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "$\\mathbb{R}^{n\\times n}$ 为实数域所有 $n$ 阶矩阵构成的线性空间, 定义 $$(A,B)=\\mathrm{tr}(A^TB),\\ \\forall A,B\\in\\mathbb{R}^{n\\times n}.$$ 证明:\n(1) $(A,B)$ 是 $\\mathbb{R}^{n\\times n}$ 上的内积, 从而 $\\mathbb{R}^{n\\times n}$ 按此内积构成欧氏空间.\n(2) 若 $W=\\{A\\in\\mathbb{R}^{n\\times n}\\mid \\mathrm{tr}(A)=0\\}$, 则其正交补 $W^{\\perp}$ 是由单位阵 $E$ 生成的子空间。"
+        }
+      ]
+    }
+  ]
+}

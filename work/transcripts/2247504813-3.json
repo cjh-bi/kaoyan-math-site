@@ -1,0 +1,174 @@
+{
+ "msgid": "2247504813-3",
+ "exams": [
+  {
+   "school": "西北工业大学",
+   "year": "2021",
+   "subject": "数学分析",
+   "header_note": "103. 西北工业大学 2021 年硕士研究生入学考试数学分析试卷",
+   "source_imgs": ["work/imgs/2247504813-3_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "解答如下问题：",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "用 “$\\varepsilon-\\delta$” 语言叙述函数 $f(x)$ 在点 $x_0$ 处连续的定义，并证明：$f(x)=\\dfrac{\\sin x}{x}$ 在 $(0,1)$ 上连续。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "解答如下问题：",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "计算 $\\displaystyle\\int_{0}^{\\frac{\\pi}{2}}\\dfrac{\\cos x}{\\sin x+\\cos x}\\,\\mathrm{d}x$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "解答如下问题：",
+     "no": "3",
+     "score": null,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "数列极限计算",
+     "stem": "计算下列极限：\n(1) $\\displaystyle\\lim_{n\\to\\infty}\\left(\\dfrac{1}{\\sqrt{n^2+1}}+\\dfrac{1}{\\sqrt{n^2+2}}+\\cdots+\\dfrac{1}{\\sqrt{n^2+n}}\\right)$；\n(2) $\\displaystyle\\lim_{n\\to\\infty}\\left(\\dfrac{1}{\\sqrt{n^2+1^2}}+\\dfrac{1}{\\sqrt{n^2+2^2}}+\\cdots+\\dfrac{1}{\\sqrt{n^2+n^2}}\\right)$；\n(3) $\\displaystyle\\lim_{x\\to+\\infty}\\left(\\dfrac{x-1}{x+1}\\right)^{x}$。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "设函数 $f$ 是 $U^{\\circ}(x_0;\\delta')$ 上的有定义。证明：$\\lim\\limits_{x\\to x_0}f(x)$ 存在的充要条件是对于含于 $U^{\\circ}(x_0;\\delta')$ 且以 $x_0$ 为极限的数列 $\\{x_n\\}$，极限 $\\lim\\limits_{n\\to\\infty}f(x_n)$ 都存在且相等。",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "极限证明",
+     "stem": "设函数 $f$ 是 $U^{\\circ}(x_0;\\delta')$ 上的有定义。证明：$\\lim\\limits_{x\\to x_0}f(x)$ 存在的充要条件是对于含于 $U^{\\circ}(x_0;\\delta')$ 且以 $x_0$ 为极限的数列 $\\{x_n\\}$，极限 $\\lim\\limits_{n\\to\\infty}f(x_n)$ 都存在且相等。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "解答如下问题：",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "一致连续性",
+     "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上连续，$\\lim\\limits_{x\\to+\\infty}f(x)$ 存在，证明：$f(x)$ 在 $[a,+\\infty)$ 上一致连续。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "解答如下问题：",
+     "no": "2",
+     "score": null,
+     "form": "综合",
+     "l1": "极限与连续",
+     "l2": "一致连续性",
+     "stem": "讨论 $f(x)=\\sin x^{\\alpha}$（$\\alpha>0$）在 $(0,1)$ 上的一致连续性。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "解答如下问题：",
+     "no": "1",
+     "score": null,
+     "form": "综合",
+     "l1": "级数",
+     "l2": "数项级数敛散性",
+     "stem": "讨论 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin^2 n}{n^{p}}$ 的收敛性。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "解答如下问题：",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "级数",
+     "l2": "幂级数",
+     "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{n+1}{n}x^{n}$ 的收敛域及和函数。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "解答如下问题：",
+     "no": "3",
+     "score": null,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "傅里叶级数",
+     "stem": "设 $f(x)$ 是以 $2\\pi$ 为周期的函数，且其二阶导数连续，证明：$f(x)$ 的傅里叶级数一致收敛。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "已知二元函数 $f(x,y)=\\begin{cases}(x^2+y^2)^2\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$ 讨论 $f(x,y)$ 在 $(0,0)$ 处的连续性、可微性以及其偏导数的连续性。",
+     "no": "1",
+     "score": null,
+     "form": "综合",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "已知二元函数\n$$f(x,y)=\\begin{cases}(x^2+y^2)^2\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$$\n讨论 $f(x,y)$ 在 $(0,0)$ 处的连续性、可微性以及其偏导数的连续性。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "解答如下问题：",
+     "no": "1",
+     "score": null,
+     "form": "综合",
+     "l1": "广义积分与含参积分",
+     "l2": "广义积分敛散性",
+     "stem": "讨论反常积分 $\\displaystyle\\int_{1}^{+\\infty}\\dfrac{1}{x^{p}\\ln^{q} x}\\,\\mathrm{d}x$ 的收敛性。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "解答如下问题：",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "求积分 $\\displaystyle\\int_{0}^{1}\\dfrac{x^{b}-x^{a}}{\\ln x}\\,\\mathrm{d}x$（$b>a>0$）。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "解答如下问题：",
+     "no": "3",
+     "score": null,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "二重积分",
+     "stem": "求曲面 $z=\\sqrt{x^2+y^2}$ 与 $x^2+y^2=2z$ 所围图形的体积。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "已知函数列 $f_n(x)=(1-x)x^n$。",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "已知函数列 $f_n(x)=(1-x)x^n$。证明：函数列 $f_n(x)$ 在 $[0,1]$ 上一致收敛。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "已知函数列 $f_n(x)=(1-x)x^n$。",
+     "no": "2",
+     "score": null,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "已知函数列 $f_n(x)=(1-x)x^n$。证明：函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}f_n(x)$ 在 $[0,1]$ 上收敛，但不一致收敛。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "已知函数列 $f_n(x)=(1-x)x^n$。",
+     "no": "3",
+     "score": null,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "已知函数列 $f_n(x)=(1-x)x^n$。证明：函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^n f_n(x)$ 在 $[0,1]$ 上一致收敛。"
+    }
+   ]
+  }
+ ]
+}

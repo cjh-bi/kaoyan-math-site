@@ -1,0 +1,358 @@
+{
+ "msgid": "2247504813-1",
+ "exams": [
+  {
+   "school": "长安大学",
+   "year": "2021",
+   "subject": "数学分析",
+   "header_note": "105. 长安大学 2021 年硕士研究生入学考试数学分析试卷",
+   "source_imgs": [
+    "work/imgs/2247504813-1_4.png",
+    "work/imgs/2247504813-1_5.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分)选择题.",
+     "no": "1",
+     "score": 5,
+     "form": "填空",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "当 $x\\to 0$ 时，无穷小量中阶数最高的为 ______.\nA. $\\sqrt[3]{1+x^4}-1$\nB. $x^3-x^4+x^5$\nC. $x^2+\\arctan x$\nD. $x^2\\ln(1+x^2)$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分)选择题.",
+     "no": "2",
+     "score": 5,
+     "form": "填空",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "设 $f(x)=\\dfrac{x(x^2-1)}{|x-1|}\\sin\\dfrac{1}{x}$，则函数 $f(x)$ 有 ______.\nA. $1$ 个可去间断点，$1$ 个跳跃间断点\nB. $2$ 个跳跃间断点\nC. $1$ 个可去间断点，$1$ 个无穷间断点\nD. $2$ 个无穷间断点"
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分)选择题.",
+     "no": "3",
+     "score": 5,
+     "form": "填空",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "设 $f(x)$ 在 $U(a)$ 邻域内连续，且 $\\lim\\limits_{x\\to a}\\dfrac{f(x)}{(x-a)^2}=1$，则点 $x=a$ 是 ______.\nA. $f(x)$ 的极大值点\nB. $f(x)$ 的驻点，但非极值点\nC. $f(x)$ 的极小值点\nD. $f(x)$ 的极值点，但非驻点"
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分)选择题.",
+     "no": "4",
+     "score": 5,
+     "form": "填空",
+     "l1": "级数",
+     "l2": "数项级数敛散性",
+     "stem": "下列级数条件收敛的是 ______.\nA. $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{\\sqrt{n^3}}$\nB. $\\sum\\limits_{n=1}^{\\infty}\\dfrac{(-1)^{n-1}}{\\ln(n+1)}$\nC. $\\sum\\limits_{n=1}^{\\infty}\\dfrac{(-1)^{n-1}+1}{n}$\nD. $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{2^n+1}$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分)选择题.",
+     "no": "5",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "设 $f(u)$ 为可导函数，且 $f(2)=f'(2)=1$，则曲面 $z=x f\\left(\\dfrac{y}{x}\\right)$ 在点 $(1,2,1)$ 处的切平面方程为 ______.\nA. $x-y+z=1$\nB. $x-y+z=0$\nC. $x-y-z=1$\nD. $x-y-z=0$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分)选择题.",
+     "no": "6",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "设二元函数 $f(x,y)=\\sqrt{|xy|}$，则函数 $f(x,y)$ 在点 $(0,0)$ 处 ______.\nA. 偏导存在但不连续\nB. 连续但偏导数不存在\nC. 不连续且偏导数不存在\nD. 连续且偏导数存在"
+    },
+    {
+     "section": "二",
+     "section_instruction": "(6 × 5 = 30 分)填空题.",
+     "no": "7",
+     "score": 5,
+     "form": "填空",
+     "l1": "极限与连续",
+     "l2": "函数极限计算",
+     "stem": "已知 $x\\to 0$ 时，$\\sqrt{1+x^2}-\\sqrt{1-x^2}$ 与 $c x^k$ 是等价无穷小，则 $c=$ ______，$k=$ ______."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(6 × 5 = 30 分)填空题.",
+     "no": "8",
+     "score": 5,
+     "form": "填空",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "曲线 $y=\\dfrac{x^2}{x^2-1}$ 有 ______ 条渐近线."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(6 × 5 = 30 分)填空题.",
+     "no": "9",
+     "score": 5,
+     "form": "填空",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "曲线 $\\sqrt{\\dfrac{x}{a}}+\\sqrt{\\dfrac{y}{b}}=1$ $(a>0,\\ b>0)$ 与坐标轴所围面积为 ______."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(6 × 5 = 30 分)填空题.",
+     "no": "10",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "设 $z=\\sin y+f(\\sin x-\\sin y)$，其中 $f$ 是可微函数，则 $\\dfrac{\\partial z}{\\partial x}\\sec x+\\dfrac{\\partial z}{\\partial y}\\sec y=$ ______."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(6 × 5 = 30 分)填空题.",
+     "no": "11",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元积分学",
+     "l2": "二重积分",
+     "stem": "设 $D=\\{(x,y)\\mid x^2+y^2\\leq 1\\}$，则 $\\iint\\limits_{D}\\dfrac{xy}{1+x^2+y^2}\\,\\mathrm{d}\\sigma=$ ______."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(6 × 5 = 30 分)填空题.",
+     "no": "12",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元积分学",
+     "l2": "第一型曲面积分",
+     "stem": "设 $\\Sigma=\\{(x,y,z)\\mid x^2+y^2+z^2=r^2\\}$，则 $\\iint\\limits_{\\Sigma}(x^2+y^2+z^2)\\,\\mathrm{d}S=$ ______."
+    },
+    {
+     "section": "三",
+     "section_instruction": "(6 × 10 = 60 分)计算题.",
+     "no": "13",
+     "score": 10,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "函数极限计算",
+     "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}(\\pi-2\\arctan x)\\ln x$."
+    },
+    {
+     "section": "三",
+     "section_instruction": "(6 × 10 = 60 分)计算题.",
+     "no": "14",
+     "score": 10,
+     "form": "计算",
+     "l1": "一元微分学",
+     "l2": "高阶导数",
+     "stem": "设 $y=\\arcsin x$.\n(1) 验证 $(1-x^2)y^{(n+2)}-(2n+1)x y^{(n+1)}-n^2 y^{(n)}=0$ $(n\\geq 0)$；\n(2) 求 $y^{(n)}\\mid_{x=0}$."
+    },
+    {
+     "section": "三",
+     "section_instruction": "(6 × 10 = 60 分)计算题.",
+     "no": "15",
+     "score": 10,
+     "form": "计算",
+     "l1": "级数",
+     "l2": "幂级数",
+     "stem": "求级数 $\\sum\\limits_{n=0}^{\\infty}\\dfrac{x^{2n+1}}{2n+1}$ 的收敛域及其和函数."
+    },
+    {
+     "section": "三",
+     "section_instruction": "(6 × 10 = 60 分)计算题.",
+     "no": "16",
+     "score": 10,
+     "form": "综合",
+     "l1": "多元微分学",
+     "l2": "条件极值",
+     "stem": "求函数 $f(x,y,z)=x y^2 z^3$ 在 $x+y+z=a$ $(x>0,y>0,z>0,a>0)$ 的条件下的最大值，并由此证明不等式\n$$x y^2 z^3\\leq 108\\left(\\dfrac{x+y+z}{6}\\right)^{6},\\ x>0,y>0,z>0.$$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "(6 × 10 = 60 分)计算题.",
+     "no": "17",
+     "score": 10,
+     "form": "证明",
+     "l1": "多元积分学",
+     "l2": "第二型曲线积分",
+     "stem": "设函数 $u(x,y)$ 在由封闭的光滑曲线 $L$ 所围成的区域 $D$ 上具有二阶连续偏导，证明：\n$$\\iint\\limits_{D}\\left(\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}\\right)\\mathrm{d}\\sigma=\\oint_{L}\\dfrac{\\partial u}{\\partial \\boldsymbol{n}}\\mathrm{d} S.$$\n其中 $\\dfrac{\\partial u}{\\partial \\boldsymbol{n}}$ 是 $u(x,y)$ 沿 $L$ 外法线方向 $\\boldsymbol{n}$ 的方向导数."
+    },
+    {
+     "section": "三",
+     "section_instruction": "(6 × 10 = 60 分)计算题.",
+     "no": "18",
+     "score": 10,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "三重积分",
+     "stem": "计算\n$$\\iiint\\limits_{\\Omega}z^2\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $\\Omega=\\left\\{(x,y,z)\\ \\middle|\\ \\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}\\leq 1\\right\\}$，$a,b,c$ 为正实数."
+    },
+    {
+     "section": "四",
+     "section_instruction": "(3 × 10 = 30 分)叙述论证题.",
+     "no": "19",
+     "score": 10,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "极限证明",
+     "stem": "解答如下问题：\n(1) 用“$\\varepsilon-N$”极限定义证明：$\\lim\\limits_{n\\to\\infty}\\sqrt[n]{n}=1$.\n(2) 设 $f(x)$ 在区间 $[a,b]$ 上有界，证明：\n$$\\sup_{x\\in[a,b]}f(x)-\\inf_{x\\in[a,b]}f(x)=\\sup_{x',x''\\in[a,b]}\\left|f(x')-f(x'')\\right|.$$"
+    },
+    {
+     "section": "四",
+     "section_instruction": "(3 × 10 = 30 分)叙述论证题.",
+     "no": "20",
+     "score": 10,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "已知函数 $f(x)$ 为 $[a,b]$ 上的二阶可导函数，且 $f(a)=f(b)=0$，并存在一点 $c\\in(a,b)$，使得 $f(c)>0$。证明：至少存在一点 $\\xi\\in(a,b)$，使得 $f''(\\xi)<0$."
+    },
+    {
+     "section": "四",
+     "section_instruction": "(3 × 10 = 30 分)叙述论证题.",
+     "no": "21",
+     "score": 10,
+     "form": "证明",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分",
+     "stem": "设 $I(y)=\\displaystyle\\int_{1}^{+\\infty}\\dfrac{x^2-y^2}{(x^2+y^2)^2}\\mathrm{d}x$，证明：当 $y\\in(-\\infty,+\\infty)$ 时，$I(y)$ 一致收敛."
+    }
+   ]
+  },
+  {
+   "school": "长安大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "106. 长安大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": [
+    "work/imgs/2247504813-1_6.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分) 填空题.",
+     "no": "1",
+     "score": 5,
+     "form": "填空",
+     "l1": "多项式",
+     "l2": "整除",
+     "stem": "设多项式\n$$f(x)=x^4-3x^3+6x^2+ax+b,\\ g(x)=x^2-1.$$\n如果 $f(x)$ 能被 $g(x)$ 整除，则 $a=$ __________，$b=$ __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分) 填空题.",
+     "no": "2",
+     "score": 5,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "分块矩阵",
+     "stem": "设分块矩阵 $M=\\begin{pmatrix} A & O \\\\ C & B\\end{pmatrix}$，且 $A,B$ 均为可逆矩阵，则 $M$ 的逆矩阵 $M^{-1}=$ __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分) 填空题.",
+     "no": "3",
+     "score": 5,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "秩",
+     "stem": "设线性方程组 $A_{m\\times n}X=b$ $(m<n)$ 对任意的 $m$ 维列向量 $b$ 都有解，则矩阵 $A$ 的秩 = __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分) 填空题.",
+     "no": "4",
+     "score": 5,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "相似",
+     "stem": "设矩阵 $A=\\begin{pmatrix} -2 & 0 & 0 \\\\ 2 & x & 2 \\\\ 3 & 1 & 1\\end{pmatrix}$ 和 $B=\\begin{pmatrix} -1 & 0 & 0 \\\\ 0 & 2 & 0 \\\\ 0 & 0 & y\\end{pmatrix}$ 相似，则 $x=$ __________，$y=$ __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分) 填空题.",
+     "no": "5",
+     "score": 5,
+     "form": "填空",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "二次型 $f(x_1,x_2,x_3)=x_1^2+2x_1x_2-2x_2x_3+x_3^2$ 的正惯性指数 = __________."
+    },
+    {
+     "section": "一",
+     "section_instruction": "(6 × 5 = 30 分) 填空题.",
+     "no": "6",
+     "score": 5,
+     "form": "填空",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "矩阵 $A=\\begin{pmatrix} 4 & 5 & -2 \\\\ -2 & -2 & 1 \\\\ -1 & -1 & 1\\end{pmatrix}$ 的若尔当标准形为 __________."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(10 分)",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "设多项式 $f(x)=x^n-6$.\n1. 证明：$f(x)$ 无重根.\n2. 证明：当 $n\\geq 2$ 时，$f(x)$ 有无理根."
+    },
+    {
+     "section": "三",
+     "section_instruction": "(10 分) 证明：",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "对称变换",
+     "stem": "反对称实矩阵的特征值是零或纯虚数."
+    },
+    {
+     "section": "四",
+     "section_instruction": "(10 分)",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "线性变换",
+     "stem": "设 $\\sigma$ 是线性空间 $V$ 上的线性变换，如果存在 $\\xi\\in V$ 及正整数 $k$ 使得 $\\sigma^{k-1}\\xi\\neq 0$，但 $\\sigma^{k}\\xi=0$，证明：$\\xi,\\ \\sigma\\xi,\\ \\sigma^2\\xi,\\ \\cdots,\\ \\sigma^{k-1}\\xi$ 线性无关."
+    },
+    {
+     "section": "五",
+     "section_instruction": "(10 分) 已知 $\\mathbb{R}^3$ 上的两组基：",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "已知 $\\mathbb{R}^3$ 上的两组基：\n$$(\\mathrm{I}):\\ \\begin{cases}\\alpha_1=(1,1,1)\\\\ \\alpha_2=(1,1,0)\\\\ \\alpha_3=(1,0,0)\\end{cases}\\qquad (\\mathrm{II}):\\ \\begin{cases}\\beta_1=(1,1,2)\\\\ \\beta_2=(1,2,1)\\\\ \\beta_3=(2,1,1)\\end{cases}$$\n1. 求由基 (I) 到基 (II) 的过渡矩阵.\n2. 求向量 $\\alpha=\\beta_1-2\\beta_2+\\beta_3$ 在基 (I) 下的坐标."
+    },
+    {
+     "section": "六",
+     "section_instruction": "(15 分) 计算 $n$ 阶行列式.",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} 1 & 1 & \\cdots & 1 \\\\ x_1 & x_2 & \\cdots & x_n \\\\ x_1^2 & x_2^2 & \\cdots & x_n^2 \\\\ \\vdots & \\vdots & & \\vdots \\\\ x_1^{n-2} & x_2^{n-2} & \\cdots & x_n^{n-2} \\\\ x_1^{n} & x_2^{n} & \\cdots & x_n^{n}\\end{vmatrix}.$$"
+    },
+    {
+     "section": "七",
+     "section_instruction": "(15 分) 设有线性方程组",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "设有线性方程组\n$$\\begin{cases}x_1+3x_2+x_3=0;\\\\ 3x_1+2x_2+3x_3=-1;\\\\ -x_1+4x_2+mx_3=k.\\end{cases}$$\n讨论 $m$，$k$ 取什么值时，方程组有唯一解？无解？有无穷解？并在有无穷解时，求出一般解."
+    }
+   ]
+  }
+ ]
+}

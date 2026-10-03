@@ -1,0 +1,213 @@
+{
+  "msgid": "2247528857",
+  "exams": [
+    {
+      "school": "北京师范大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "1. 北京师范大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528857_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "已知数列 $\\{a_{n}\\}$ 满足 $a_{1}=\\sqrt{3}$, $a_{n+1}=\\sqrt{3+a_{n}}$, 证明: $\\{a_{n}\\}$ 收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\displaystyle\\lim_{n\\to\\infty}\\dfrac{\\pi}{n}\\sum_{k=1}^{n}\\dfrac{1}{2+\\cos\\frac{k\\pi}{n}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "已知 $f(x)$ 在 $[0,2]$ 上可导, 且 $f(0)=0$, $f'(x)$ 在 $[0,2]$ 上连续. 证明:\n$$\\int_{0}^{2}|f(x)f'(x)|\\,\\mathrm{d}x\\leq\\int_{0}^{2}|f'(x)|^{2}\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求级数和 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{1}{n!}(n+1)(n+2)x^{n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "已知 $A\\in\\mathbb{R}$, 函数 $f(x)$ 在 $[0,+\\infty)$ 上连续, 且 $\\displaystyle\\lim_{x\\to+\\infty}f(x)=A$. 证明:\n$$\\lim_{x\\to+\\infty}\\dfrac{1}{x}\\int_{0}^{x}f(t)\\,\\mathrm{d}t=A.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判断 $\\displaystyle\\int_{2}^{+\\infty}\\dfrac{\\sin x}{\\ln x}\\arctan x\\,\\mathrm{d}x$ 的敛散性, 并说明理由。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求\n$$f(x,y)=-x^{2}y(x+y-4)$$\n在与 $x$ 轴, $y$ 轴, 直线 $y=6-x$ 围成的闭区域 $D$ 中的极值, 最大值与最小值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "已知 $f(x,y)=g(|xy|)$, 且 $g(0)=0$, 在 $z>0$ 附近, 有 $|g(z)|\\leq z^{\\alpha}$, $\\alpha>\\dfrac{1}{2}$. 证明: $f(x,y)$ 在 $(0,0)$ 处可微。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "已知 $\\Sigma$ 为单位球面 $x^{2}+y^{2}+z^{2}=1$, 取外侧. 求曲面积分\n$$\\iint\\limits_{\\Sigma}\\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{\\left(2x^{2}+2y^{2}+z^{2}\\right)^{\\frac{3}{2}}}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求三重积分\n$$\\iiint\\limits_{x^{2}+y^{2}+z^{2}\\leq 2z}\\left(\\sqrt{x^{2}+y^{2}+z^{2}}+x-y^{3}\\right)\\mathrm{d}V.$$"
+        }
+      ]
+    },
+    {
+      "school": "北京师范大学",
+      "year": "2025",
+      "subject": "高等代数与空间解析几何",
+      "header_note": "1. 北京师范大学 2025 年高等代数与空间解析几何试卷",
+      "source_imgs": ["work/imgs/2247528857_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 为正整数且 $n\\geq2$. 求\n$$D_{n}=\\begin{vmatrix}a_{1}+b_{1}&a_{1}+b_{2}&\\cdots&a_{1}+b_{n}\\\\ a_{2}+b_{1}&a_{2}+b_{2}&\\cdots&a_{2}+b_{n}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{n}+b_{1}&a_{n}+b_{2}&\\cdots&a_{n}+b_{n}\\end{vmatrix}$$\n的值, 其中 $a_{1},a_{2},\\cdots,a_{n},b_{1},b_{2},\\cdots,b_{n}$ 都是实数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设向量组 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性无关, 向量组 $\\beta_{1},\\beta_{2},\\beta_{3}$ 是\n$$\\begin{cases}\\beta_{1}=2\\alpha_{1}+\\alpha_{2}+\\alpha_{3};\\\\ \\beta_{2}=-\\alpha_{1}+3\\alpha_{2}+4\\alpha_{3};\\\\ \\beta_{3}=\\alpha_{1}+\\alpha_{3}.\\end{cases}$$\n问 $\\beta_{1},\\beta_{2},\\beta_{3}$ 是线性相关还是无关? 并说明理由。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设\n$$A=\\begin{pmatrix}\\lambda&1&0\\\\ 0&\\lambda&1\\\\ 0&0&\\lambda\\end{pmatrix}.$$\n证明: 若 $3\\times3$ 矩阵 $B$ 和 $A$ 乘积可交换, 则存在多项式 $f(x)$, 使得 $B=f(A)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设\n$$A=\\begin{pmatrix}1&-1&0&2\\\\ 2&0&2&1\\\\ 3&1&4&0\\end{pmatrix}.$$\n求关于变元 $x_{1},x_{2},x_{3},x_{4}$ 的方程 $\\begin{pmatrix}x_{1}&x_{2}&x_{3}&x_{4}\\end{pmatrix}A^{T}A\\begin{pmatrix}x_{1}\\\\ x_{2}\\\\ x_{3}\\\\ x_{4}\\end{pmatrix}$【?】的所有实数解。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $M_{n}(\\mathbb{R})$ 为所有 $n\\times n$ 实矩阵构成的向量空间, 设\n$$f:\\,M_{n}(\\mathbb{R})\\mapsto M_{n}(\\mathbb{R});$$\n$$X\\to\\dfrac{1}{2}(X+X^{T}).$$\n证明: $f$ 为线性变换, 并求 $f$ 的核与秩。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶正定实对称矩阵, $\\alpha,\\beta$ 为 $n$ 维实列向量. 证明:\n$$(\\alpha^{T}\\beta)^{2}\\leq(\\alpha^{T}A\\alpha)(\\beta^{T}A^{-1}\\beta).$$\n等号成立当且仅当 $A\\alpha$ 与 $\\beta$ 线性相关。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 填空题, 每题 5 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "向量代数",
+          "stem": "$v=(-1,1,0),w=(1,1,1)$, 求 $v\\times(v\\times(v\\times(v\\times w)))=$ ______。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 填空题, 每题 5 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "距离与夹角",
+          "stem": "直线 $l_{1}:\\ \\dfrac{x-1}{2}=\\dfrac{y+2}{3}=\\dfrac{2z-1}{4}$, $l_{2}:\\ \\dfrac{x+2}{-1}=\\dfrac{y-2}{-2}=\\dfrac{z-\\frac{1}{2}}{0}$, 求 $l_{1}$ 与 $l_{2}$ 的距离 ______。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 填空题, 每题 5 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "平面束",
+          "stem": "求过直线 $\\begin{cases}x-2y-z+1=0\\\\ 2x+y=0\\end{cases}$ 且与平面 $x-y-z+1=0$ 垂直的平面方程 ______。"
+        }
+      ]
+    }
+  ]
+}

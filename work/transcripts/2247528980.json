@@ -1,0 +1,203 @@
+{
+  "msgid": "2247528980",
+  "exams": [
+    {
+      "school": "湖南大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "54. 湖南大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528980_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "已知 $x_1=1$, $x_{n+1}=\\sqrt{5x_n}$, 证明: $\\{x_n\\}$ 收敛并求其极限."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知 $\\{a_n\\}$ 是无界数列, 但不是无穷大量. 证明: $\\{a_n\\}$ 存在两个子列, 一个是收敛数列, 另一个是无穷大量."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上的连续函数, 若 $\\lim\\limits_{|x|\\to+\\infty}f(x)=+\\infty$, 则存在 $x_0\\in\\mathbb{R}$, 使得 $f(x)$ 可以取到 $\\inf\\limits_{x\\in\\mathbb{R}}f(x)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "解答如下问题:\n(1) 若 $0<\\eta<1$, 证明: $f(x)=\\sin\\dfrac{1}{x^2}$ 在 $(\\eta,1)$ 上一致连续.\n(2) 证明 $f(x)=\\sin\\dfrac{1}{x^2}$ 在 $(0,1)$ 上不一致收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "讨论 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^p}$ $(p\\in\\mathbb{R})$ 的敛散性."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $(a,b)$ 上可导, 任取 $x_1,x_2\\in(a,b)$, 满足 $f'(x_1)f'(x_2)<0$. 证明: 至少存在一点 $\\xi$ 介于 $x_1,x_2$ 之间, 使得 $f'(\\xi)=0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "解答如下问题:\n(1) 证明: $\\displaystyle\\int_a^b\\left|x-\\dfrac{a+b}{2}\\right|^n\\mathrm{d}x=\\dfrac{b^{n+1}-a^{n+1}}{2^n(n+1)}$.\n(2) 已知 $\\displaystyle\\int_0^1 x^n f(x)\\,\\mathrm{d}x=1$, $\\displaystyle\\int_0^1 x^k f(x)\\,\\mathrm{d}x=0$ $(k=0,1,2,\\cdots,n-1)$. 证明:\n$$\\max_{x\\in[0,1]}|f(x)|\\ge 2^n(n+1).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明: $x\\to a$ 时 $f(x,y)$ 一致收敛于 $\\varphi(y)$ 的充条件是对任意趋近于 $a$ 的数列 $\\{x_n\\}$, $f(x_n,y)$ 一致收敛于 $\\varphi(y)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算\n$$I=\\iint_{\\Sigma}4xz\\,\\mathrm{d}y\\mathrm{d}z-2yz\\,\\mathrm{d}z\\mathrm{d}x+(1-z^2)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 是由 $z=e^y$ $(0\\le y\\le a)$ 绕 $z$ 轴旋转一周生成的曲面, 取下侧."
+        }
+      ]
+    },
+    {
+      "school": "湖南大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "54. 湖南大学 2025 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247528980_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设非零多项式 $f(x),g(x)\\in K[x]$, $k$ 为正整数, 满足\n$$(k+1)\\deg(g(x))>\\deg(f(x))\\ge k\\deg(g(x)).$$\n证明: 存在 $p_0(x),p_1(x),\\cdots,p_k(x)\\in K[x]$, 满足 $\\deg(p_i(x))<\\deg(g(x))$ 或 $p_i(x)=0$, 使得\n$$f(x)=p_0(x)+p_1(x)g(x)+\\cdots+p_k(x)g^k(x).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "求解线性方程组\n$$\\begin{cases} x_1+2x_2+\\cdots+nx_n=n+1;\\\\ x_1+2^2x_2+\\cdots+n^2x_n=(n+1)^2;\\\\ \\cdots\\cdots\\cdots\\\\ x_1+2^nx_2+\\cdots+n^nx_n=(n+1)^n.\\end{cases}$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "给定向量组\n$$\\alpha_1=(*,*,*,*,*),\\ \\alpha_2=(*,*,*,*,*),\\ \\alpha_3=(*,*,*,*,*),\\ \\beta_1=(*,*,*,*,*),\\ \\beta_2=(*,*,*,*,*).$$\n记 $V_1=L(\\alpha_1,\\alpha_2,\\alpha_3)$, $V_2=L(\\beta_1,\\beta_2)$, 求 $V_1+V_2$ 与 $V_1\\cap V_2$ 的一组基和维数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "对于 $n$ 阶实对称矩阵 $A$, 存在 $Y\\in\\mathbb{R}^n$ 使得 $Y^TAY>0$. 证明: 对任意的 $X\\in\\mathbb{R}^n$, 有\n$$(X^TAY)^2\\ge(X^TAX)(Y^TAY)$$\n的充要条件是 $X^TAX$ 的正惯性指数等于 $1$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $V=\\mathbb{R}^{2\\times 2}$, $V$ 上的线性变换 $\\varphi$ 满足 $\\varphi(X)=A^TXA$, $X\\in V$, 其中\n$$A=\\left(\\begin{array}{cc} 1 & 1\\\\ 0 & 1\\end{array}\\right).$$\n求 $V$ 中的一组基, 使得 $\\varphi$ 在这组基下的矩阵为若尔当形矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $n$ 阶实矩阵, 且 $\\det(A)=0$, 证明: $r(A)=n-1$ 当且仅当存在列向量 $X,Y\\in\\mathbb{R}^n$, 使得\n$$\\det(A+XY^T)\\ne 0.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B$ 均为数域 $K$ 上的 $n$ 阶方阵. 若存在数域 $K$ 上的 $n$ 阶可逆矩阵 $P$, 使得 $P^{-1}AP$ 为上三角矩阵, 则称 $A$ 在数域 $K$ 上可相似上三角化. 证明:\n(1) 数域 $K$ 上的矩阵 $A$ 可相似上三角化的充要条件是 $A$ 的所有复特征值都在数域 $K$ 中.\n(2) 若数域 $K$ 上的矩阵 $A,B$ 均可相似上三角化, 且 $AB=BA$, 则 $A,B$ 可同时相似上三角化, 即存在可逆矩阵 $Q$, 使得 $Q^{-1}AQ,Q^{-1}BQ$ 同时为上三角矩阵.\n(3) 若 $AB=BA$, 其中 $B$ 还是幂零矩阵, 证明: $\\det(A)=\\det(A+B)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "实矩阵 $A=(a_{ij})_{n\\times n}$ 满足 $a_{ii}>0$, $a_{ij}=-a_{ji}$ $(i\\ne j)$, 证明: $\\det(A)>0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A}$ 为数域 $F$ 上 $n$ 维线性空间 $V$ 上的线性变换, 令\n$$V_1=\\{\\alpha\\in V\\mid \\text{存在正整数 } r, \\text{ 使得 } \\mathscr{A}^r(\\alpha)=0\\},\\ V_2=\\bigcap_{i=1}^{\\infty}\\mathscr{A}^i(V).$$\n证明:\n(1) $V_1$ 和 $V_2$ 都是 $\\mathscr{A}$ 的不变子空间.\n(2) $\\mathscr{A}$ 限制在 $V_1$ 上是幂零变换.\n(3) $\\mathscr{A}$ 限制在 $V_2$ 上是可逆变换.\n(4) $V=V_1\\oplus V_2$."
+        }
+      ]
+    }
+  ]
+}

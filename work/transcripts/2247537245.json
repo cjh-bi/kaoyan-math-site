@@ -1,0 +1,173 @@
+{
+  "msgid": "2247537245",
+  "exams": [
+    {
+      "school": "上海交通大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "16. 上海交通大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537245_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算下列极限\n$$\\lim_{x\\to 0}\\dfrac{1+\\cos x-\\cos x\\cos (2x)-\\sqrt[3]{\\cos x}}{\\ln (1-x)+\\ln (1+x)}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u(x,y)$ 在 $\\mathbb{R}^2$ 上具有二阶连续偏导数，并且满足\n$$\\dfrac{\\partial^2 u}{\\partial x^2}-\\dfrac{\\partial^2 u}{\\partial y^2}=0.$$\n若 $u(x,2x)=x$，$u_x^{\\prime}(x,2x)=x^2$，求 $u_{xx}^{\\prime\\prime}(x,2x),u_{xy}^{\\prime\\prime}(x,2x),u_{yy}^{\\prime\\prime}(x,2x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $f(x,y,z)$ 是 $\\Omega=\\{(x,y,z)\\in\\mathbb{R}^3\\mid x^2+y^2+z^2\\leq 1\\}$ 上的黎曼可积函数，$p\\in\\mathbb{R}$，若 $|f(x,y,z)|$ 在原点附近有正下界，试求广义积分\n$$I=\\iiint_{\\Omega}\\dfrac{f(x,y,z)\\ln\\sqrt{x^2+y^2+z^2}}{(x^2+y^2+z^2)^p}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$$\n收敛时 $p$ 的取值范围。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $f(x)$ 在区间 $[0,a]$ 上有二阶连续导数，$f^{\\prime}(0)=1$，$f^{\\prime\\prime}(0)\\neq 0$，且 $0<f(x)<x$，$x\\in(0,a)$，任取 $x_1\\in(0,a)$，令 $x_{n+1}=f(x_n)$，$n=1,2,\\cdots$，证明：数列 $\\{x_n\\}$ 和 $\\{nx_n\\}$ 都收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "证明：若函数 $f(x)$ 在 $\\mathbb{R}$ 上有定义，并且满足：$\\forall x\\in\\mathbb{R},\\exists\\delta_x>0$，当 $x_1,x_2\\in(x-\\delta_x,x+\\delta_x)$ 且 $x_1<x<x_2$ 时，必有 $f(x_1)>f(x)>f(x_2)$，则 $f(x)$ 在 $\\mathbb{R}$ 上是严格单调减少函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 是 $(0,+\\infty)$ 上的一致连续函数，$\\{\\lambda_n\\}$ 是正数列，若对任意固定的 $x\\in(0,+\\infty)$，有\n$$\\lim_{n\\to\\infty}f(x+\\lambda_n)=0.$$\n证明：函数列 $\\{f(x+\\lambda_n)\\}$ 在闭区间 $[a,b]$（$a>0$）上一致收敛于零。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上有界的连续函数，若存在正常数 $a$，使得\n$$f(x)+a\\int_{x-1}^{x}f(t)\\,\\mathrm{d}t$$\n为 $\\mathbb{R}$ 上的常值函数，证明：$f(x)$ 是 $\\mathbb{R}$ 上的常值函数。"
+        }
+      ]
+    },
+    {
+      "school": "上海交通大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "16. 上海交通大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537245_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明：对任意相异整数 $a_1,a_2,\\cdots,a_n$，多项式\n$$f(x)=(x-a_1)(x-a_2)\\cdots(x-a_n)-1$$\n在有理数域上不可约。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知线性方程组\n$$\\begin{cases}x_1+2x_2+2x_4=0,\\\\ x_1-2x_2+(b-1)x_3+x_4=1,\\\\ 4x_1-4x_2+3x_3+5x_4=a.\\end{cases}$$\n解空间的维数是 2，求 $a,b$ 的值并求出方程组的通解.（题目表述有误，非齐次线性方程组的解集不构成线性空间，因此不存在“维数”一说）"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $V$ 是复数域上的有限维线性空间，$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 是 $V$ 的一组基，$V$ 到 $V$ 的线性算子 $\\varphi$ 在 $V$ 上的作用如下：\n$$\\varphi(\\alpha_1)=5\\alpha_1,\\ \\varphi(\\alpha_2)=5\\alpha_2,\\ \\varphi(\\alpha_3)=3\\alpha_1+2\\alpha_2+5\\alpha_3,\\ \\varphi(\\alpha_4)=6\\alpha_4.$$\n(1) 求 $\\varphi$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 下的矩阵 $A$。\n(2) 确定 $A$ 的若尔当标准型 $J$。\n(3) 试找 $V$ 的一组新的基，使得 $\\varphi$ 在其下的矩阵为 $J$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "假设 $A$ 和 $B$ 是 $3\\times 3$ 的实矩阵，且满足条件\n$$\\det (A)=\\det (B)=\\det (A+B)=\\det (A-B)=0.$$\n证明：对于任何实数 $x,y\\in\\mathbb{R}$，都有 $\\det (xA+yB)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A=\\begin{pmatrix}1 & -1 & 1\\\\ 1 & 1 & -1\\end{pmatrix}$。\n(1) 计算 $A$ 的奇异值 $s_1\\geq s_2>0$。\n(2) 写出 $A$ 的奇异值分解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "设 $V$ 是有限维内积空间，$\\mathscr{P}\\in L(V)$ 满足 $\\mathscr{P}^2=\\mathscr{P}$，证明：$\\mathscr{P}$ 是某个子空间 $U$ 上的投影算子当且仅当 $\\mathscr{P}$ 是自伴的。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "证明：实数域 $\\mathbb{R}$ 上的内积空间 $V$ 中保持任意两个向量内积不变的变换一定是线性的，从而是正交变换。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "任取数域 $F$ 上的一个 $m\\times n$ 的矩阵 $A$，$n\\times s$ 的矩阵 $B$。\n(1) 证明：$r(AB)+n\\geq r(A)+r(B)$，此处 $r$ 为矩阵的秩函数。\n(2) 证明：上述等式成立当且仅当 $N(A)\\subset C(B)$，此处 $N(A)$ 为矩阵 $A$ 的零空间，$C(B)$ 为矩阵 $B$ 的列空间。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "msgid": "2247529532",
+  "exams": [
+    {
+      "school": "云南大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "73. 云南大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529532_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "极限 $\\lim\\limits_{x\\to 3} \\dfrac{\\sqrt{x^{3}+9}-6}{2-\\sqrt{x^{3}-23}}$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "积分 $\\displaystyle\\int_{2}^{+\\infty} \\dfrac{5}{x^{4}+3 x^{3}-4}\\,\\mathrm{d}x$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "曲面 $z=\\dfrac{x^{2}}{2}+y^{2}-2$ 的平行于平面 $2 x+2 y-z=0$ 的切平面方程是______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设连续函数 $f(x)$ 满足 $f(x+2)-f(x)=x$, $\\displaystyle\\int_{0}^{2} f(x)\\,\\mathrm{d}x=0$, 则 $\\displaystyle\\int_{1}^{3} f(x)\\,\\mathrm{d}x$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $F(x)=\\displaystyle\\int_{0}^{x}\\left(\\int_{0}^{y^{2}} \\dfrac{\\sin t}{1+t^{2}}\\,\\mathrm{d}t\\right) \\mathrm{d}y$, 则 $F^{\\prime \\prime}(x)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "级数 $\\displaystyle\\sum_{n=0}^{\\infty} \\dfrac{x^{2 n}}{(2 n) !}$ 的和函数是______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设数列 $\\left\\{x_{n}\\right\\}$ 满足: $x_{1}>0$, $x_{n} e^{x_{n+1}}=e^{x_{n}}-1$, $n=1,2, \\cdots$.\n(1) 证明数列 $\\left\\{x_{n}\\right\\}$ 收敛.\n(2) 求 $\\lim\\limits_{n\\to\\infty} x_{n}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "若函数 $f(x)$ 在 $[a, b]$ 上连续且单调增加. 证明: $\\displaystyle\\int_{a}^{b} x f(x)\\,\\mathrm{d}x \\geq \\dfrac{a+b}{2} \\int_{a}^{b} f(x)\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知 $f(x)=\\displaystyle\\int_{1}^{x} e^{u^{2}}\\,\\mathrm{d}u$.\n(1) 证明: 存在 $\\xi \\in(1,2)$, 使得 $f(\\xi)=(2-\\xi) e^{\\xi^{2}}$.\n(2) 证明: 存在 $\\eta \\in(1,2)$, 使得 $f(2)=\\ln 2 \\cdot \\eta \\cdot e^{\\eta^{2}}$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "讨论当 $p$ 取得何值时, 级数 $\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{(-1)^{n}}{n^{p+\\frac{1}{n}}}$ 发散? 条件收敛? 绝对收敛?"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f_{n}(x)=x n^{\\alpha} e^{-n x}$, $n=1,2, \\cdots$.\n(1) 当 $\\alpha$ 为何值时, 函数序列 $\\left\\{f_{n}(x)\\right\\}$ 在 $[0,1]$ 上收敛?\n(2) 当 $\\alpha$ 为何值时, 函数序列 $\\left\\{f_{n}(x)\\right\\}$ 在 $[0,1]$ 上一致收敛?\n(3) 当 $\\alpha$ 为何值时, $\\lim\\limits_{n\\to\\infty} \\displaystyle\\int_{0}^{1} f_{n}(x)\\,\\mathrm{d}x$ 和 $\\displaystyle\\int_{0}^{1} \\lim\\limits_{n\\to\\infty} f_{n}(x)\\,\\mathrm{d}x$ 不相等?"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设\n$$f(x, y)= \\begin{cases}x y \\sin \\dfrac{1}{x^{2}+y^{2}}, & x^{2}+y^{2} \\neq 0 ; \\\\ 0, & x^{2}+y^{2}=0 .\\end{cases}$$\n(1) 证明 $f(x, y)$ 的两个一阶偏导数在点 $(0,0)$ 不连续.\n(2) 证明 $f(x, y)$ 在 $(0,0)$ 可微."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "计算三重积分\n$$I=\\iiint_{\\Omega} z\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z .$$\n其中积分区域 $\\Omega$ 是球面 $x^{2}+y^{2}+z^{2}=8$ 的上半部分和抛物面 $z=\\dfrac{1}{2}\\left(x^{2}+y^{2}\\right)$ 所围立体区域."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 是曲面 $\\Sigma: 4 x^{2}+y^{2}+z^{2}=1,\\ x \\geq 0, y \\geq 0, z \\geq 0$ 的边界, 曲面方向朝上, 曲线 $L$ 的方向和曲面的方向符合右手法则, 求曲线积分\n$$I=\\oint_{L}\\left(y z^{2}-\\cos z\\right) \\mathrm{d} x+2 x z^{2}\\,\\mathrm{d} y+\\left(2 x y z+x \\sin z\\right) \\mathrm{d} z .$$"
+        }
+      ]
+    },
+    {
+      "school": "云南大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "73. 云南大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529532_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $\\alpha, \\beta$ 是 $n$ 维欧氏空间 $V$ 中的两个向量, 且 $|\\alpha|=2,|\\beta|=3$. 则 $|\\alpha+\\beta|^{2}+|\\alpha-\\beta|^{2}$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V_{1}, V_{2}$ 是有限维线性空间 $V$ 的两个子空间, 若维 $\\left(V_{1}\\right) \\leq$ 维 $\\left(V_{2}\\right)$, 维 $\\left(V_{1}+V_{2}\\right)=2025$, 维 $\\left(V_{1} \\cap V_{2}\\right)=2024$, 则维 $\\left(V_{1}\\right)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "实二次型 $-4 x_{1} x_{2}+2 x_{1} x_{3}+2 x_{2} x_{3}$ 的规范型为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "若 $A$ 是 $n$ 阶可对角化幂零阵, 则 $A=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "若 2024 阶方阵 $A=\\left(a_{i j}\\right)$, 其中 $a_{i j}=\\begin{cases}0, & \\text{ 若 } j-1>i ; \\\\ C_{i}^{j-1}, & \\text{ 若 } j-1 \\leq i .\\end{cases}$ 这里 $C_{i}^{j-1}=\\dfrac{i !}{(j-1) !(i-j+1) !}$, 则 $|A|=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x)=x^{3}-x+2$, $g(x)=x^{4}+x-1$, 则 $(f(x), g(x))=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "求多项式 $f(x)=x^{5}-5 x^{4}+7 x^{3}-2 x^{2}+4 x-8$ 的所有有理根, 计算重数."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 10 阶方阵 $A=\\left(a_{i j}\\right)$, 其中 $a_{i j}=\\begin{cases}1, & \\text{ 若 } i=j+1 ; \\\\ 0, & \\text{ 若 } i \\neq j+1 .\\end{cases}$ 求 $A^{3}$ 的 Jordan 标准型."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "记 $M_{2}(\\mathbb{R})$ 为由所有 2 阶实方阵构成的欧氏空间, 内积定义为: $(A, B)=\\operatorname{tr}\\left(A^{T} B\\right)$, 对 $\\forall A, B \\in M_{2}(\\mathbb{R})$, 这里 $\\operatorname{tr}(H)$ 是指方阵 $H$ 的所有主对角元的和.\n(1) 记 $W=\\left\\{A \\in M_{2}(\\mathbb{R}) \\mid \\operatorname{tr}(A)=0\\right\\}$, 求 $W$ 的维数与 $W^{\\perp}$.\n(2) 设 $A=\\left(\\begin{array}{ll}2 & 1 \\\\ 1 & 2\\end{array}\\right)$, 求 $A$ 在 $W$ 上的内投影 (亦称正交投影).\n(3) 对 $A=\\left(\\begin{array}{ll}2 & 1 \\\\ 1 & 2\\end{array}\\right), B=\\left(\\begin{array}{ll}1 & 1 \\\\ 1 & 1\\end{array}\\right), C=\\left(\\begin{array}{ll}0 & 1 \\\\ 1 & 0\\end{array}\\right)$, 定义 $M_{2}(\\mathbb{R})$ 上的线性变换 $\\sigma$ 为\n$$\\sigma(D)=A D+B D C, \\ \\forall D \\in M_{2}(\\mathbb{R}) .$$\n请找出 $M_{2}(\\mathbb{R})$ 的一组标准正交基, 使得 $\\sigma$ 在此基下的矩阵是对角阵, 并写出此对角阵."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "证明: 反对称矩阵的秩一定是偶数."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是数域 $F$ 上的一个 $n$ 维线性空间, $\\sigma$ 是 $V$ 上的线性变换. 对多项式 $f(x), g(x) \\in F[x]$, 记 $d(x)=(f(x), g(x))$, $m(x)=[f(x), g(x)]$, 对多项式 $h(x) \\in F[x]$, 记 $h(\\sigma)(V)=\\{h(\\sigma) \\alpha \\mid \\alpha \\in V\\}$ 为线性变换 $h(\\sigma)$ 的象空间. 证明:\n(1) $m(\\sigma)(V)=f(\\sigma)(V) \\cap g(\\sigma)(V)$.\n(2) $d(\\sigma)(V)=f(\\sigma)(V)+g(\\sigma)(V)$.\n(3) 存在多项式 $h_{1}(x), h_{2}(x) \\in F[x]$, 使得 $h_{1}(\\sigma)(V)$ 与 $h_{2}(\\sigma)(V)$ 都是 $\\sigma$ 的不变子空间, 且 $\\sigma \\mid h_{1}(\\sigma)(V)$ 可逆, $\\sigma \\mid h_{2}(\\sigma)(V)$ 幂零, 且 $V=h_{1}(\\sigma)(V) \\oplus h_{2}(\\sigma)(V)$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\varepsilon_{i}=\\left(0, \\cdots, 0,1,0, \\cdots, 0\\right) \\in \\mathbb{R}^{n+1}$ 第 $i$ 个元素为 1 , 其余皆为 $0,\\ i=1,2, \\cdots, n+1$, 这里\n$$\\mathbb{R}^{n+1}=\\left\\{\\left(a_{1}, a_{2}, \\cdots, a_{n+1}\\right) \\mid a_{i} \\in \\mathbb{R},\\ i=1,2, \\cdots, n+1\\right\\}$$\n是 $n+1$ 维欧氏空间, 其上内积为通常内积. 对 $i=1,2, \\cdots, n$, 记 $\\alpha_{i}=\\varepsilon_{i}-\\varepsilon_{i+1}$, 又记 $\\mathbb{R}^{n+1}$ 上的 $n$ 个线性变换 $\\sigma_{i}$ 的定义为 $\\sigma_{i}(\\beta)=\\beta-2\\left(\\beta, \\alpha_{i}\\right) \\alpha_{i},\\ \\forall \\beta \\in \\mathbb{R}^{n+1}$, 设\n$$W=\\left\\{\\sigma_{i_{1}} \\sigma_{i_{2}} \\cdots \\sigma_{i_{t}} \\mid t \\text{ 取遍自然数, 对任意的 } i_{1}, i_{2}, \\cdots, i_{t} \\in\\{1,2, \\cdots, n\\}\\right\\} .$$\n证明:\n(1) 线性变换 $\\sigma_{i}$ 是第二类正交变换.\n(2) 对任意的 $\\gamma \\in \\mathbb{R}^{n+1}$, 存在 $\\sigma \\in W$, 使得 $\\left(\\sigma(\\gamma), \\alpha_{i}\\right) \\geq 0$ 对一切 $i=1,2, \\cdots, n$ 成立, 并且满足该不等式的向量 $\\sigma(\\gamma)$ 由 $\\gamma$ 唯一确定."
+        }
+      ]
+    }
+  ]
+}

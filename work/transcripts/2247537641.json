@@ -1,0 +1,223 @@
+{
+  "msgid": "2247537641",
+  "exams": [
+    {
+      "school": "新疆大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "72. 新疆大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537641_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限:\n(1)（7 分）$\\lim_{n\\to\\infty}\\left(1+\\dfrac{1}{n}+\\dfrac{1}{n^2}\\right)^n$.\n(2)（8 分）$\\lim_{x\\to 1^-}(1-x^2)^{\\frac{1}{\\ln(1-x)}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "叙述实数上的区间套定理并证明."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "证明: 若 $f(x)$ 在 $(a,b)$ 上可导且无界, 则 $f'(x)$ 也无界, 反之则不然."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求下列积分:\n(1)（7 分）$\\int x\\arcsin x\\,\\mathrm{d}x$.\n(2)（8 分）$\\int_{e^{-1}}^{e} |\\ln x|\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "讨论 $\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^p}\\left(1+\\dfrac{1}{n}\\right)^n$ ($0<x<2\\pi$, $p>0$) 的敛散性."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\sum_{n=0}^{\\infty}\\dfrac{x^n}{a^n+b^n}$ ($a>0,b>0$) 的收敛域."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论下列广义积分的敛散性:\n(1)（7 分）$\\int_1^{+\\infty}\\dfrac{x}{1-e^x}\\,\\mathrm{d}x$.\n(2)（8 分）$\\int_0^1\\dfrac{\\ln x}{1-x}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "证明函数\n$$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{\\sqrt{x^2+y^2}}, & x^2+y^2\\ne 0;\\\\ 0, & x^2+y^2=0.\\end{cases}$$\n在点 $(0,0)$ 连续且偏导数存在, 但偏导数在点 $(0,0)$ 不连续, 而 $f(x,y)$ 在点 $(0,0)$ 可微."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续, 证明不等式:\n$$\\left[\\int_a^b f(x)\\,\\mathrm{d}x\\right]^2\\le (b-a)\\int_a^b f^2(x)\\,\\mathrm{d}x.$$\n其中等号当且仅当 $f(x)$ 为常值函数时成立."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "计算第一型曲面积分 $\\iint_S (x^2+y^2)\\,\\mathrm{d}S$, 其中 $S$ 为几何体 $\\sqrt{x^2+y^2}\\le z\\le 1$ 的边界曲面."
+        }
+      ]
+    },
+    {
+      "school": "新疆大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "72. 新疆大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537641_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "求一个 3 次多项式 $f(x)$, 使得 $f(x)+1$ 能被 $(x-1)^2$ 整除, 而 $f(x)-1$ 能被 $(x+1)^2$ 整除."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)$ 是有理数域 $\\mathbb{Q}$ 上的 $m$ 次多项式 ($m\\ge 0$), $n$ 是大于 $m$ 的正整数. 证明:\n(1)（3 分）$x^n-2$ 在 $\\mathbb{Q}[x]$ 中不可约.\n(2)（7 分）$\\sqrt[3]{2}$ 不是 $f(x)$ 的实根."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式的值:\n$$D_n=\\begin{vmatrix}1+a&2&\\cdots&n\\\\ 1&2+a&\\cdots&n\\\\ \\vdots&\\vdots&&\\vdots\\\\ 1&2&\\cdots&n+a\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "$n$ 阶矩阵 $A=(a_{ij})$ 是正定阵, $b_1,b_2,\\cdots,b_n$ 是任意 $n$ 个非零实数, 证明: 矩阵 $B=(a_{ij}b_ib_j)$ 也是正定阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\alpha_1=(2,1,0,0)$, $\\alpha_2=(4,1,4,0)$, $\\alpha_3=(1,0,2,0)$, $\\alpha_4$ 是一个非零的 4 维向量, 证明: 若向量组 $\\beta_1,\\beta_2,\\beta_3,\\beta_4$ 可由向量组 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性表示, 则向量组 $\\beta_1,\\beta_2,\\beta_3,\\beta_4$ 线性相关."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A,B$ 为 $n$ 阶整数矩阵 (即 $A,B$ 的元素都是整数), 且 $AB=E-A$, 其中 $E$ 为 $n$ 阶单位阵.\n(1)（7 分）求证: $|A|=\\pm 1$.\n(2)（8 分）设 $B=\\begin{pmatrix}-2&0&0\\\\ 1&-2&0\\\\ 2&3&-2\\end{pmatrix}$, 求 $A$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知如下非齐次线性方程组有三个线性无关的解.\n$$\\begin{cases}x_1+x_2+x_3+x_4=-1,\\\\ 3x_1+2x_2+4x_3-x_4=0,\\\\ 5x_1+3x_2+7x_3-3x_4=1,\\\\ ax_1+x_2+5x_3+bx_4=3.\\end{cases}$$\n(1)（8 分）记系数矩阵为 $A$, 证明: $r(A)=2$.\n(2)（7 分）求 $a,b$ 的值, 并求方程组的通解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V$ 是定义在实数域上的所有函数所组成的线性空间, $V_1$ 是偶函数构成的集合, $V_2$ 是奇函数构成的集合. 证明:\n(1)（10 分）$V_1,V_2$ 均是 $V$ 的子空间.\n(2)（10 分）$V=V_1\\oplus V_2$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B\\in\\mathbb{R}^{2\\times 2}$, 且 $A^2=B^2=E$, $AB+BA=O$.\n(1)（10 分）证明: 矩阵 $A$ 的特征值一个为 1, 另一个为 $-1$.\n(2)（10 分）证明: 存在可逆矩阵 $P\\in\\mathbb{R}^{2\\times 2}$, 使得 $P^{-1}AP=\\begin{pmatrix}1&0\\\\ 0&-1\\end{pmatrix}$, $P^{-1}BP=\\begin{pmatrix}0&1\\\\ 1&0\\end{pmatrix}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设复矩阵 $A=\\begin{pmatrix}0&1&2\\\\ 0&0&3\\\\ 0&0&0\\end{pmatrix}$.\n(1)（7 分）求矩阵 $A$ 的若尔当标准型矩阵.【?】(图片到此页结束, 本题可能有后续分问未包含)"
+        }
+      ]
+    }
+  ]
+}

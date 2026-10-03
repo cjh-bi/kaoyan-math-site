@@ -1,0 +1,303 @@
+{
+  "msgid": "2247536932",
+  "exams": [
+    {
+      "school": "中山大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "55. 中山大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247536932_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0^+}\\left(\\dfrac{\\sin x}{x}\\right)^{\\frac{1}{x^2}}$=______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设函数 $y=y(x)$ 由方程 $\\ln(xy)=x^2-y^2$ 隐式定义，求点 $(x,y)=(1,1)$ 处的导数 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}(1,1)=$____。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求定积分 $\\displaystyle\\int_0^{\\pi}\\dfrac{\\mathrm{d}x}{\\sqrt{2}+\\sin x}=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "曲线由参数方程 $x=t$，$y=t^2$ 给出，求该曲线在 $t=1$ 处的曲率______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "已知函数 $f(x,y)=\\begin{cases}\\dfrac{xy}{(x^2+y^2)^p},&x^2+y^2\\ne 0\\\\[6pt] 0,&x^2+y^2=0\\end{cases}$ 在 $(0,0)$ 处连续，求 $p$ 的取值范围______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "求函数 $u(x,y,z)=xy^2+z^3-xyz$ 在点 $(1,1,2)$ 处沿方向 $\\boldsymbol{l}=\\left(\\dfrac{1}{2},\\dfrac{\\sqrt{2}}{2},\\dfrac{1}{2}\\right)$ 的方向导数______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "计算积分 $\\displaystyle\\iint\\limits_{0\\le s\\le 1,\\, s\\le t\\le\\sqrt{s}}\\dfrac{\\sin t}{t}\\,\\mathrm{d}t\\mathrm{d}s=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "设 $L$ 为球面 $x^2+y^2+z^2=4$ 被平面 $x+y+z=0$ 所截得的圆周，计算积分 $\\displaystyle\\int_L x^2\\,\\mathrm{d}s=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "9",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "级数 $\\displaystyle\\sum_{n=2}^{\\infty}\\dfrac{1^n+2^n+\\cdots+10^n}{n(\\ln n)^2}e^{nx}$ 的一致收敛区域为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "10",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "如果级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(1-\\dfrac{p\\ln n}{2n}\\right)^{n}$ 是收敛的，则 $p$ 的取值范围是______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "11",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $S(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin 2nx}{n}$，则 $S\\left(\\dfrac{\\pi}{6}\\right)=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 60 分.",
+          "no": "12",
+          "score": 5,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "$\\displaystyle\\int_0^1\\dfrac{1}{x}\\ln\\dfrac{1+x}{1-x}\\,\\mathrm{d}x=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设 $f(x)$ 在 $(0,1)$ 上有定义，$f(x)\\tan x$ 单调递增，$\\tan(f(x))$ 单调递减，证明：$f(x)$ 在 $(0,1)$ 上连续。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明：函数 $f(x)=x\\cos\\dfrac{1}{x}$ 在 $(0,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算积分 $I(b)=\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\mathrm{d}x}{b+\\tan x}$，$b>0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上一致连续，且对任意固定的 $x\\in[0,1]$，有 $\\lim\\limits_{n\\to\\infty} f(x+n)=0$，证明：函数列 $\\{f(x+n)\\mid n\\ge 1\\}$ 在 $[0,1]$ 上一致收敛于 $0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $\\{a_n(x)\\}$ 在 $[0,1]$ 上有定义，且存在不依赖于 $x,n$ 的常数 $K$，使得\n$$|a_1(x)|\\le K,\\ \\sum_{n=1}^{m}|a_n(x)-a_{n+1}(x)|\\le K,\\ \\forall m\\ge 1.$$\n证明：如果级数 $\\displaystyle\\sum_{n=1}^{\\infty} c_n$ 收敛，$c_n\\ge 0$，则级数 $\\displaystyle\\sum_{n=1}^{\\infty} c_n a_n(x)$ 在 $[0,1]$ 上一致收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "不等式证明",
+          "stem": "令 $B_R=\\{(x_1,x_2)\\in\\mathbb{R}^2\\mid x_1^2+x_2^2\\le R^2\\}$ 是 $\\mathbb{R}^2$ 中的半径为 $R$ 的闭球，$R>0$。设 $f(\\boldsymbol{x})$ 是 $B_2$ 上的连续函数，满足条件：对任意的 $\\boldsymbol{x},\\boldsymbol{y}\\in B_2$，成立 $\\dfrac{f(\\boldsymbol{x})+f(\\boldsymbol{y})}{2}\\ge f\\left(\\dfrac{\\boldsymbol{x}+\\boldsymbol{y}}{2}\\right)$。证明：\n(1) 对任意的 $\\boldsymbol{x},\\boldsymbol{y}\\in B_2$ 和任意的 $\\lambda\\in(0,1)$，成立 $\\lambda f(\\boldsymbol{x})+(1-\\lambda)f(\\boldsymbol{y})\\ge f(\\lambda\\boldsymbol{x}+(1-\\lambda)\\boldsymbol{y})$。\n(2) 存在一个常数 $C>0$，使得如下不等式成立：\n$$|f(\\boldsymbol{x})-f(\\boldsymbol{y})|\\le C\\|\\boldsymbol{x}-\\boldsymbol{y}\\|,\\ \\forall \\boldsymbol{x},\\boldsymbol{y}\\in B_1.$$\n这里 $\\|\\boldsymbol{x}-\\boldsymbol{y}\\|$ 表示 $\\boldsymbol{x}=(x_1,x_2)$ 和 $\\boldsymbol{y}=(y_1,y_2)$ 之间的距离 $\\sqrt{(x_1-y_1)^2+(x_2-y_2)^2}$。"
+        }
+      ]
+    },
+    {
+      "school": "中山大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "55. 中山大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247536932_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "下面行列式\n$$d(x)=\\begin{vmatrix}2x&x&1&2\\\\1&x&1&-1\\\\3&2&x&1\\\\1&1&1&x\\end{vmatrix}$$\n中 $x^k$ 的系数记为 $a_k$，求 $a_2$ 及 $a_3$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知实数域上关于 $X=(x_1,x_2,x_3)^{\\mathrm T}$ 的线性方程组\n$$\\begin{cases}x_1+ax_2+x_3=4\\\\ bx_1+x_2+x_3=3\\\\ 2bx_1+x_2+x_3=3\\end{cases}$$\n有解，求 $a,b$ 的值，并求出方程组的解。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "实矩阵\n$$A=\\begin{pmatrix}1&-2&-4\\\\-2&x&-2\\\\-4&-2&1\\end{pmatrix}$$\n与对角阵 $\\Lambda=\\mathrm{diag}\\{5,-4,y\\}$ 相似，求 $x,y$ 的值。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A=\\begin{pmatrix}0&1&1\\\\1&0&1\\\\1&1&1\\end{pmatrix}$，求正交矩阵 $P$ 及对角矩阵 $D$，使得 $P^{\\mathrm T}AP=D$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设\n$$A=\\begin{pmatrix}4&-15&6\\\\1&-4&2\\\\1&-5&3\\end{pmatrix}\\in M_3(\\mathbb{C}).$$\n求 $A$ 的 Jordan 标准形 $J$ 及 $A$ 的最小多项式 $g(\\lambda)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A\\in M_n(\\mathbb{C})$，任意给定非零列向量 $\\alpha\\in\\mathbb{C}^n$，求证：存在次数小 $n$ 的多项式 $h(x)\\in\\mathbb{C}[x]$，使得 $h(A)\\alpha$ 为 $A$ 的特征向量。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A,B\\in M_n(\\mathbb{R})$ 为可逆矩阵，满足 $ABA=B$ 且 $BAB=A$，证明：$A^4=B^4=I$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A=(a_{ij})_{n\\times n}\\in M_n(\\mathbb{R})$ 是正定对称矩阵，其对角元 $a_{ii}$ 及特征值 $\\lambda_i$ 满足\n$$a_{11}\\le a_{22}\\le\\cdots\\le a_{nn},\\ \\lambda_1\\le\\lambda_2\\le\\cdots\\le\\lambda_n.$$\n问 $\\lambda_i\\le a_{ii}$ 是否对所有 $1\\le i\\le n$ 成立？若成立，给出证明；若不成立，举出反例。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "对非负整数 $n$，已知 $M_{2n+1}(\\mathbb{R})$ 关于矩阵加法与数乘构成一个实线性空间，设 $V$ 是 $M_{2n+1}(\\mathbb{R})$ 的一个非零子空间，满足 $V$ 中任意非零矩阵都可逆。求证：$\\dim V=1$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "记 $E_{ij}$ 是 $(i,j)$ 元素是 $1$ 其余元素是 $0$ 的 $n$ 阶实矩阵。设 $\\varphi$ 是实列向量空间 $\\mathbb{R}^n$ 上的线性变换，定义映射\n$$f_\\varphi:\\mathbb{R}^n\\to\\mathbb{R}^n$$\n$$\\alpha\\mapsto\\sum_{i,j=1}^{n} E_{ij}\\varphi(E_{ji}\\alpha).$$\n求证：存在常数 $c_\\varphi$，满足 $f_\\varphi=c_\\varphi\\mathrm{Id}$，$\\mathrm{Id}$ 为 $\\mathbb{R}^n$ 上的恒等变换。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "msgid": "2247537598",
+  "exams": [
+    {
+      "school": "湘潭大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "73. 湘潭大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537598_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 30,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算题.\n(1)（10 分）求极限 $\\lim\\limits_{x\\to 0}\\left(\\cos x-\\dfrac{x^2}{2}\\right)^{\\frac{1}{x^2}}$。\n(2)（10 分）求极限 $\\lim\\limits_{x\\to 0}x\\left[\\dfrac{1}{x}\\right]$。\n(3)（10 分）求积分 $\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\sin^2 x}{\\sin x+\\cos x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "计算题.\n(1)（10 分）设 $y=\\sqrt[3]{x-\\tan x}$，求 $\\mathrm{d}y$ 及 $\\mathrm{d}^2 y$。\n(2)（10 分）设 $F(y)=\\int_a^b f(x)|y-x|\\,\\mathrm{d}x$，其中 $f(x)$ 可微，求 $F''(y)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "计算重积分 $\\iiint\\limits_V \\sqrt{1-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}-\\dfrac{z^2}{c^2}}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $V=\\left\\{(x,y,z)\\mid \\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}\\le 1\\right\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分 $\\iint\\limits_\\Sigma \\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{(x^2+y^2+z^2)^{\\frac{3}{2}}}$，其中 $\\Sigma:\\ x^2+2y^2+3^2=1$，取外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "讨论广义积分 $I=\\int_0^1 x^{p-1}\\ln^2 x\\,\\mathrm{d}x$ 的一致收敛性:\n(1)（10 分）$p\\ge p_0>0$。\n(2)（10 分）$p>0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续.\n(1)（10 分）证明: $f(x)$ 在 $[a,b]$ 上有界.\n(2)（10 分）证明: $f(x)$ 在 $[a,b]$ 上一定有最大值和最小值."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $S_n(x)=n^\\alpha x e^{-nx}$，其中 $\\alpha$ 是参数, 求 $\\alpha$ 的取值范围, 使得函数列 $\\{S_n(x)\\}$ 在 $[0,1]$ 上:\n(1)（6 分）一致收敛.\n(2)（6 分）积分运算与极限运算可以交换, 即 $\\lim\\limits_{n\\to\\infty}\\int_0^1 S_n(x)\\,\\mathrm{d}x=\\int_0^1\\lim\\limits_{n\\to\\infty} S_n(x)\\,\\mathrm{d}x$.\n(3)（8 分）求导运算与极限运算可以交换, 即对一切 $x\\in[0,1]$, 成立 $\\lim\\limits_{n\\to\\infty}\\dfrac{\\mathrm{d}}{\\mathrm{d}x}S_n(x)=\\dfrac{\\mathrm{d}}{\\mathrm{d}x}\\lim\\limits_{n\\to\\infty}S_n(x)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求 $\\cos x$ 的全部零点的倒数平方之和."
+        }
+      ]
+    }
+  ]
+}

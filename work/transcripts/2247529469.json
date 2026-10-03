@@ -1,0 +1,303 @@
+{
+  "msgid": "2247529469",
+  "exams": [
+    {
+      "school": "电子科技大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "64. 电子科技大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529469_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求 $\\lim\\limits_{n\\to\\infty} n\\left[\\left(1+\\dfrac{1}{n}\\right)^{n}-e\\right]$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $z=x\\ln\\dfrac{x}{y}$, 求 $\\left.\\mathrm{d}^{2} z\\right|_{(1,1)}$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "计算 $\\oint_{L}(xy+yz+zx)\\,\\mathrm{d}s$ = ______, 其中 $L$ 为 $x^{2}+y^{2}+z^{2}=a^{2}$ 与 $x+y+z=0$ 的交线."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}\\right)^{2} x^{n}$ 的收敛域为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "已知 $f(x)=x(\\pi-x)$, $x\\in[0,\\pi]$, 展开为余弦级数为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知 $b>a>0$, 计算 $\\displaystyle\\int_{0}^{1} \\dfrac{x^{b}-x^{a}}{\\ln x}\\,\\mathrm{d}x$ = ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知数列 $\\{a_n\\}$: $a_{1}=0$, $a_{2 m}=\\dfrac{a_{2 m-1}}{2}$, $a_{2 m+1}=\\dfrac{1}{2}+a_{2 m}$, 求 $\\{a_n\\}$ 的上下极限."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "求 $\\displaystyle\\int_{0}^{\\frac{\\pi}{2}} \\dfrac{f(x)}{\\sqrt{x}}\\,\\mathrm{d}x$, 其中 $f(x)=\\displaystyle\\int_{\\sqrt{\\frac{\\pi}{2}}}^{\\sqrt{x}} \\dfrac{1}{1+\\tan u^{2}}\\,\\mathrm{d}u$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算 $\\displaystyle\\lim_{n\\to\\infty} \\dfrac{1}{n} \\sum_{j=1}^{n} \\sum_{k=1}^{n} \\dfrac{j}{j^{2}+k^{2}}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算 $\\displaystyle\\int_{L} \\dfrac{y\\,\\mathrm{d}x-(x-1)\\,\\mathrm{d}y}{(x-1)^{2}+y^{2}}$, 其中 $L$ 为椭圆 $x^{2}-4 x+4 y^{2}=0$, 取逆时针方向."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求第二类曲面积分 $\\displaystyle\\iint_{S} \\dfrac{x}{x^{2}+y^{2}+z^{2}}\\,\\mathrm{d}y\\mathrm{d}z$, 其中 $S$ 为圆柱面 $x^{2}+y^{2}=1$ $(-1 \\leq z \\leq 1)$, 方向为外侧."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "$A$ 是由数码 0,1 组成的所有数列的集合, 证明 $A$ 不可数."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明函数 $f(x)=\\sqrt{x} \\ln x$ 在 $[1,+\\infty)$ 上一致连续."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明级数 $\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{\\sin (n+1) \\cos (n-1)}{n^{p}}$ 在 $p>1$ 时收敛, 在 $p \\leq 1$ 时发散."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^{n} \\dfrac{x^{2}+n}{n^{2}}$ 在闭区间 $[a, b]$ 上一致收敛, 但对任意的 $x$ 不绝对一致收敛."
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题. 每题 15 分, 共 30 分.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "$(x)$ 表示 $x$ 的小数部分, 已知 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{(n x)}{n^{2}}$ $(x \\in \\mathbb{R})$.\n(1) 求 $f(x)$ 所有间断点.\n(2) 证明 $f(x)$ 在有界闭区间 $[a, b]$ 上黎曼可积."
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题. 每题 15 分, 共 30 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "已知数列 $\\{a_n\\}$ 满足 $a_{n+1}>a_{n}>0$, 且 $\\displaystyle\\sum_{n=1}^{\\infty} a_{n}$ 收敛.\n(1) 证明: $\\lim\\limits_{n\\to\\infty} n a_{n}=0$.\n(2) 证明: $\\displaystyle\\sum_{n=1}^{\\infty} n(a_{n}-a_{n+1})$ 收敛."
+        }
+      ]
+    },
+    {
+      "school": "电子科技大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "64. 电子科技大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529469_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 2025 阶方阵 $A, B$ 的秩均为 2020, 则 $A B$ 的秩 $r(A B)$ 能取到的最小值为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $A, B, C, D, E, F$ 均为 3 阶方阵, 且\n$$\\left(\\begin{array}{lll} I_{3} & A & B \\\\ O & I_{3} & C \\\\ O & O & I_{3} \\end{array}\\right)^{-1}=\\left(\\begin{array}{lll} I_{3} & D & F \\\\ O & I_{3} & E \\\\ O & O & I_{3} \\end{array}\\right) .$$\n已知 $A=\\left(\\begin{array}{lll}3 & 0 & 0 \\\\ 0 & 4 & 0 \\\\ 0 & 0 & 5\\end{array}\\right)$, $B=\\left(\\begin{array}{lll}1 & 0 & 1 \\\\ 0 & 2 & 0 \\\\ 3 & 0 & 1\\end{array}\\right)$, 且 $C=A+B-I$, 则行列式 $\\det F$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A$ 为 4 阶方阵满足 $A^{4}+3 A^{2}+2 I=3 A^{3}+3 A$, 伴随阵 $(A-I)^{*}$, $(A-2 I)^{*}$ 秩均为 0, 则 $A^{2}$ 的迹 $\\operatorname{tr}(A^{2})$ = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "多项式 $x^{2025}+1$ 除以 $(x-1)^{2}$ 的余式 $r(x)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设正交矩阵 $P=\\left(\\alpha_{1}, \\alpha_{2}, \\alpha_{3}, \\alpha_{4}\\right)$, 若二次型 $f\\left(x_{1}, x_{2}, x_{3}, x_{4}\\right)$ 在线性替换 $X=P Y$ 下化为标准型 $3 y_{1}^{2}+2 y_{2}^{2}-y_{3}^{2}$, 令 $Q=\\left(-\\alpha_{3}, \\alpha_{1}, \\alpha_{2}\\right)$, 则 $f\\left(x_{1}, x_{2}, x_{3}\\right)$ 在线性替换 $X=Q Y$ 下化为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设复方阵 $A$ 的初等因子组为 $\\lambda, \\lambda^{2}, \\lambda^{2}, (\\lambda-1)^{2}, \\lambda+2, (\\lambda+2)^{2}$, 则 $A$ 的最小多项式为______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分, 共 60 分.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知向量组 (I):\n$$\\alpha_{1}=(1,1,4)^{T}, \\alpha_{2}=(1,0,4)^{T}, \\alpha_{3}=(1,2, a^{2}+3)^{T} .$$\n向量组 (II):\n$$\\beta_{1}=(1,1, a+3)^{T}, \\beta_{2}=(0,2,1-a)^{T}, \\beta_{3}=(1,3, a^{2}+3)^{T} .$$\n若向量组 (I), (II) 等价, 求 $a$ 的值, 并将 $\\beta_{3}$ 用 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 表示."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分, 共 60 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $x_{1}, x_{2}, x_{3}$ 为多项式 $f(x)=x^{3}-a x+3$ 的 3 个复根, $a$ 为整数.\n(1) 求行列式 $\\left|\\begin{array}{lll} x_{1} & x_{2} & x_{3} \\\\ x_{2} & x_{3} & x_{1} \\\\ x_{3} & x_{1} & x_{2} \\end{array}\\right|$.\n(2) 若 $f(x)$ 在有理数域可约, 求 $a$.\n(3) 若 $f(x)$ 有重根, 求 $a$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分, 共 60 分.",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "若 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 是复数域上 3 维线性空间 $V$ 的一组基, $V$ 上的线性变换 $\\mathscr{A}$ 满足\n$$\\mathscr{A} \\alpha_{1}=3 \\alpha_{1}-2 \\alpha_{2}-\\alpha_{3}, \\ \\mathscr{A} \\alpha_{2}=\\alpha_{1}-\\alpha_{3}, \\ \\mathscr{A} \\alpha_{3}=-\\alpha_{1}+2 \\alpha_{2}+3 \\alpha_{3} .$$\n(1) 求 $\\mathscr{A}$ 在基 $\\alpha_{1}, \\alpha_{2}, \\alpha_{3}$ 下的矩阵 $A$, 以及 $A$ 的 Jordan 标准形 $J$.\n(2) 求 $V$ 的另一组基, 使得该基下 $\\mathscr{A}$ 的矩阵恰为 $J$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分, 共 60 分.",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "在 $\\mathbb{R}^{4}$ 关于标准内积构成的线性空间中, $\\alpha=(1,2,1,1), \\beta=(-2,0,0,1)$, $V=\\operatorname{span}(\\alpha, \\beta)$ 是 $\\mathbb{R}^{4}$ 的子空间.\n(1) 求 $V$ 在 $\\mathbb{R}^{4}$ 中的正交补的一组基.\n(2) 求 $\\gamma=(3,4-2,2)$【?】在 $V$ 中的正交投影, 即求 $\\delta \\in V$, 使得 $\\|\\delta-\\gamma\\|$ 最小."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 前 4 题每题 10 分, 最后一题 20 分, 共 60 分.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V_{1}, V_{2}$ 都是数域 $F$ 上的 $n$ 维线性空间 $V$ 的子空间, 且 $\\operatorname{dim} V_{1}=\\operatorname{dim} V_{2}$. 证明: 存在 $V$ 的子空间 $W$, 使得 $W=V_{1} \\oplus W=V_{2} \\oplus W$【?】."
+        }
+      ]
+    }
+  ]
+}

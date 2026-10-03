@@ -1,0 +1,273 @@
+{
+ "msgid": "2247504665-1",
+ "exams": [
+  {
+   "school": "华东师范大学",
+   "year": "2021",
+   "subject": "数学分析",
+   "header_note": "71. 华东师范大学 2021 年硕士研究生入学考试数学分析试卷",
+   "source_imgs": ["work/imgs/2247504665-1_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "（5 × 6 = 30 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
+     "no": "1",
+     "score": 5,
+     "form": "判断",
+     "l1": "极限与连续",
+     "l2": "数列收敛性",
+     "stem": "数列 $\\{a_n\\}$ 收敛的充要条件是对 $\\forall \\varepsilon > 0, \\exists N > 0$，当 $n > N$ 时，有 $|a_n - a_{2n}| < \\varepsilon$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "（5 × 6 = 30 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
+     "no": "2",
+     "score": 5,
+     "form": "判断",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "若函数 $f(x)$ 在闭区间 $[0, 2]$ 上连续，且有 $f(0) = f(2)$，则方程 $f(x) - f(x + 1) = 0$ 有解。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "（5 × 6 = 30 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
+     "no": "3",
+     "score": 5,
+     "form": "判断",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "若函数 $f(x)$ 在 $[a, b]$ 上存在原函数，则 $f(x)$ 在 $[a, b]$ 上黎曼可积。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "（5 × 6 = 30 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
+     "no": "4",
+     "score": 5,
+     "form": "判断",
+     "l1": "广义积分与含参积分",
+     "l2": "广义积分敛散性",
+     "stem": "若无穷积分 $\\displaystyle\\int_1^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛，且 $f(x)$ 在 $[1, +\\infty)$ 上连续，则 $\\displaystyle\\lim_{x \\to +\\infty} f(x) = 0$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "（5 × 6 = 30 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
+     "no": "5",
+     "score": 5,
+     "form": "判断",
+     "l1": "一元微分学",
+     "l2": "导数计算",
+     "stem": "若函数 $f(x)$ 在 $(-1, 1)$ 上有定义，在 $(-1, 0) \\cup (0, 1)$ 上可导，且 $\\displaystyle\\lim_{x \\to 0} f'(x)$ 存在，则 $f'(0)$ 也存在。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（5 × 9 = 45 分）求解下列题目。",
+     "no": "1",
+     "score": 9,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "数列极限计算",
+     "stem": "求极限\n$$\\lim_{n \\to \\infty} \\frac{\\sqrt[n]{n(n+1)(n+2) \\cdots (2n-1)}}{n}.$$"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（5 × 9 = 45 分）求解下列题目。",
+     "no": "2",
+     "score": 9,
+     "form": "综合",
+     "l1": "多元微分学",
+     "l2": "调和函数",
+     "stem": "假设二元函数 $u = f(x, y)$ 满足 $u_{xx} + u_{yy} = 0$。令 $v = f\\left(\\dfrac{x}{x^2 + y^2}, \\dfrac{y}{x^2 + y^2}\\right)$，且 $x^2 + y^2 \\neq 0$。计算并证明\n$$v_{xx} + v_{yy} = 0,\\ \\text{其中}\\ x^2 + y^2 \\neq 0.$$"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（5 × 9 = 45 分）求解下列题目。",
+     "no": "3",
+     "score": 9,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "第二型曲线积分",
+     "stem": "求 $\\displaystyle\\int_L \\frac{\\mathrm{d}y - \\mathrm{d}x}{x - y + 1}$，其中 $L$ 表示下半圆周 $x^2 + y^2 = 2x\\ (y \\leq 0)$ 沿 $x$ 增长的方向。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（5 × 9 = 45 分）求解下列题目。",
+     "no": "4",
+     "score": 9,
+     "form": "综合",
+     "l1": "级数",
+     "l2": "傅里叶级数",
+     "stem": "将 $f(x) = (x - 1)^2$ 在 $(0, 1)$ 上展成余弦级数，并由此证明 $\\displaystyle\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi}{6}$。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（5 × 9 = 45 分）求解下列题目。",
+     "no": "5",
+     "score": 9,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "二重积分",
+     "stem": "设 $f(x, y)$ 在 $D = \\{(x, y) \\mid x^2 + y^2 \\leq 1\\}$ 上非负连续，求\n$$\\lim_{n \\to \\infty} \\left( \\iint_D f^n(x, y)\\,\\mathrm{d}x\\mathrm{d}y \\right)^{\\frac{1}{n}}.$$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（5 × 15 = 75 分）证明下列题目。",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "数项级数敛散性",
+     "stem": "若数项级数 $\\displaystyle\\sum_{n=1}^{+\\infty} a_n$ 收敛，且 $\\{a_n\\}$ 单调，证明：$\\displaystyle\\lim_{n \\to \\infty} n a_n = 0$。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（5 × 15 = 75 分）证明下列题目。",
+     "no": "2",
+     "score": 15,
+     "form": "证明",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分",
+     "stem": "证明：对任意的 $x \\in (-\\infty, +\\infty)$，有\n$$\\int_0^{+\\infty} \\frac{e^{-t} \\sin(tx)}{t}\\,\\mathrm{d}t = \\arctan x.$$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（5 × 15 = 75 分）证明下列题目。",
+     "no": "3",
+     "score": 15,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "设函数 $f(u)$ 在闭区间 $I$ 上连续，函数列 $\\{g_n(x)\\}$ 在 $[a, b]$ 上一致收敛，且 $\\forall n \\in \\mathbb{N},\\ \\forall x \\in [a, b]$，有 $g_n(x) \\in I$，证明：$\\{f(g_n(x))\\}$ 在 $[a, b]$ 上一致收敛。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（5 × 15 = 75 分）证明下列题目。",
+     "no": "4",
+     "score": 15,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "连续与有界性",
+     "stem": "如果函数 $f(x)$ 在 $[a, b]$ 上连续，且存在常数 $\\tau \\in (0, 1)$ 满足 $\\forall x \\in [a, b],\\ \\exists y \\in [a, b]$，使得\n$$|f(x)| \\leq \\tau |f(y)|.$$\n证明：存在 $\\xi \\in [a, b]$，使得 $f(\\xi) = 0$。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（5 × 15 = 75 分）证明下列题目。",
+     "no": "5",
+     "score": 15,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "设函数 $f(x)$ 在 $[a, +\\infty)$ 上连续可微，且\n$$f(x+1) - f(x) = f'(x),\\ \\forall x \\in [a, +\\infty),\\ \\lim_{x \\to +\\infty} f'(x) = A.$$\n证明：$f'(x) \\equiv A,\\ \\forall x \\in [a, +\\infty)$。"
+    }
+   ]
+  },
+  {
+   "school": "华东师范大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "72. 华东师范大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": ["work/imgs/2247504665-1_5.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "（15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "设 $A \\in M_{m \\times n}(\\mathbb{C})$，$\\beta \\in M_{m \\times 1}(\\mathbb{C})$，记 $\\mathrm{rank}(A) = r$。则线性方程组 $Ax = \\beta$ 有多少个线性无关的解？并说明理由。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "设 $2n$ 阶方阵\n$$S = \\begin{pmatrix} O & E_n \\\\ -E_n & O \\end{pmatrix}.$$\n给出复线性空间 $SP_n = \\{X \\in M_{2n \\times 2n}(\\mathbb{C}) \\mid SX = -X^{T}S\\}$ 的一组基，并计算其维数。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "设 $n$ 阶矩阵 $A(t) = (a_{ij}(t))_{n \\times n}$ 中元素 $(a_{ij}(t))$ 为实变量 $t$ 的可微函数。记\n$$A'(t) = \\left(\\frac{\\mathrm{d}}{\\mathrm{d}t} a_{ij}(t)\\right)_{n \\times n}.$$\n证明：若对 $\\forall t \\in \\mathbb{R}$，有 $|A(t)| > 0$，则\n$$\\frac{\\mathrm{d}}{\\mathrm{d}t} \\ln |A(t)| = \\mathrm{tr}(A^{-1}(t) A'(t)).$$"
+    },
+    {
+     "section": "四",
+     "section_instruction": "（15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "可对角化",
+     "stem": "$n$ 阶复矩阵 $A, B$ 满足 $AB = BA$，且 $B$ 有 $n$ 个不同的特征值，证明：$A$ 可以对角化。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "设 $c_1, c_2, c_3$ 是多项式 $f(x) = 2x^3 - 4x^2 + 6x - 1$ 的三个复根，求 $(c_1 c_2 + c_3^2)(c_2 c_3 + c_1^2)(c_1 c_3 + c_2^2)$。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "（20 分）",
+     "no": "1",
+     "score": 20,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "设 $\\mathbb{R}^2$ 上的函数 $f(x, y) = a_{11}x^2 + 2a_{12}xy + a_{22}y^2 + 2b_1 x + 2b_2 y + c$。令\n$$A_f = \\begin{pmatrix} a_{11} & a_{12} \\\\ a_{12} & a_{22} \\end{pmatrix},\\quad B_f = \\begin{pmatrix} a_{11} & a_{12} & b_1 \\\\ a_{12} & a_{22} & b_2 \\\\ b_1 & b_2 & c \\end{pmatrix}.$$\n证明：函数 $f$ 在坐标变换 $\\begin{pmatrix} x' \\\\ y' \\end{pmatrix} = Q \\begin{pmatrix} x \\\\ y \\end{pmatrix} + \\begin{pmatrix} d_1 \\\\ d_2 \\end{pmatrix}$ 下，对应 $\\mathrm{tr}(A_f)$，$\\det(A_f)$，$\\det(B_f)$ 保持不变。其中 $Q$ 是二阶正交矩阵。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "（20 分）",
+     "no": "1",
+     "score": 20,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "特征值与特征向量",
+     "stem": "设实矩阵\n$$A = \\begin{pmatrix} a & b \\\\ c & d \\end{pmatrix},\\ a, b, c, d > 0.$$\n证明：一定存在 $A$ 的特征向量 $\\begin{pmatrix} x \\\\ y \\end{pmatrix} \\in \\mathbb{R}^2$，满足 $x, y > 0$。"
+    },
+    {
+     "section": "八",
+     "section_instruction": "（15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "幂零矩阵",
+     "stem": "设 6 阶复矩阵 $A, B$ 都是幂零矩阵，且它们有相同的秩和极小多项式，证明：$A, B$ 相似。"
+    },
+    {
+     "section": "九",
+     "section_instruction": "（20 分）设 $A$ 是 $n$ 阶实矩阵，$B$ 是 $n$ 阶实对称正定矩阵。",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "设 $A$ 是 $n$ 阶实矩阵，$B$ 是 $n$ 阶实对称正定矩阵。证明：存在唯一 $n$ 阶实矩阵 $C$ 满足 $BC + CB = A$。"
+    },
+    {
+     "section": "九",
+     "section_instruction": "（20 分）设 $A$ 是 $n$ 阶实矩阵，$B$ 是 $n$ 阶实对称正定矩阵。",
+     "no": "2",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "设 $A$ 是 $n$ 阶实矩阵，$B$ 是 $n$ 阶实对称正定矩阵。对 (1) 中实矩阵 $C$，证明：$BC = CB$ 当且仅当 $AB = BA$。"
+    }
+   ]
+  }
+ ]
+}

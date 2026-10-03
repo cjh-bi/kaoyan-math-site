@@ -1,0 +1,253 @@
+{
+  "msgid": "2247504743-3",
+  "exams": [
+    {
+      "school": "山东师范大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "89. 山东师范大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504743-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(2 × 5 = 10 分) 简答题",
+          "no": "1",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "叙述数列 $\\{a_n\\}$ 不是无穷大数列的定义。并指出下列数列中哪些不是无穷大数列（不需证明）。\n(1) $\\{n!\\}$；\n(2) $\\{n^{(-1)^n}\\}$；\n(3) $\\{2^n - n\\}$；\n(4) $\\{\\sqrt[3]{n}\\}$；\n(5) $\\left\\{n\\sin\\dfrac{n\\pi}{2}\\right\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "(2 × 5 = 10 分) 简答题",
+          "no": "2",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "叙述函数 $f(x)$ 在区间 $I$ 上一致连续的定义。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\left(\\dfrac{1}{n^2+n+1}+\\dfrac{2}{n^2+n+2}+\\cdots+\\dfrac{n}{n^2+n+n}\\right)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\left(\\dfrac{\\sin x}{x}\\right)^{\\frac{1}{x^2}}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算积分 $\\int_{-2}^{2}(|x|+x)e^{-|x|}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int\\frac{\\mathrm{d}x}{\\sin(2x)+2\\sin x}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{2^n}{n}x^n$ 的收敛域与和函数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $z(x,y)$ 是由方程 $z=x+\\arctan\\dfrac{y}{z-x}$ 所确定的隐函数，试求 $\\mathrm{d}z$，$z_{xy}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(7 × 10 = 70 分) 计算题",
+          "no": "7",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(x,y)$ 在闭区域 $D=\\{(x,y)\\mid x^2+y^2\\leq y,\\ x\\geq 0\\}$ 上连续，且\n$$f(x,y)=\\sqrt{1-x^2-y^2}-\\frac{8}{\\pi}\\iint_D f(x,y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n求 $f(x,y)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(3 × 10 = 30 分) 判断讨论题",
+          "no": "1",
+          "score": 10,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{n^2}{(a+\\frac{1}{n})^n}$ 的敛散性，其中 $a\\geq 0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(3 × 10 = 30 分) 判断讨论题",
+          "no": "2",
+          "score": 10,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $p<3$，讨论反常积分 $\\displaystyle\\int_0^1\\frac{1}{x^p}\\cos\\frac{1}{x^2}\\,\\mathrm{d}x$ 的敛散性，收敛时请判别是绝对收敛还是条件收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(3 × 10 = 30 分) 判断讨论题",
+          "no": "3",
+          "score": 10,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "给定函数列 $f_n(x)=\\dfrac{x(\\ln n)^x}{n^x}$，$n=2,3,\\cdots$，讨论 $\\{f_n(x)\\}$ 在 $[0,+\\infty)$ 上的一致收敛性。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(4 × 10 = 40 分) 证明题",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $u(x)$，$v(x)$ 在区间 $[0,1]$ 上连续，且对任意 $x,\\ y\\in[0,1]$，有 $(u(x)-u(y))(v(x)-v(y))\\leq 0$，证明：\n$$\\int_0^1 u(x)v(x)\\,\\mathrm{d}x\\leq \\int_0^1 u(x)\\,\\mathrm{d}x\\int_0^1 v(x)\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(4 × 10 = 40 分) 证明题",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上可积，且在 $[a,b]$ 上满足 $|f(x)|\\geq m>0$，证明：$\\dfrac{1}{f(x)}$ 在 $[a,b]$ 上可积。"
+        }
+      ]
+    },
+    {
+      "school": "山东师范大学",
+      "year": "2021",
+      "subject": "高等代数与解析几何",
+      "header_note": "90. 山东师范大学 2021 年硕士研究生入学考试高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247504743-3_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "高等代数 (15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "叙述并证明“高斯引理”。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "高等代数 (15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} x & a & a & \\cdots & a & a \\\\ -a & x & a & \\cdots & a & a \\\\ -a & -a & x & \\cdots & a & a \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ -a & -a & -a & \\cdots & x & a \\\\ -a & -a & -a & \\cdots & -a & x \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "高等代数 (15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知 $n$ 个向量 $\\alpha_1,\\ \\alpha_2,\\ \\cdots,\\ \\alpha_n$ 线性相关，但其中任意 $n-1$ 个向量线性无关，证明：\n(1) 若 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_n\\alpha_n=0$，则 $k_1,\\ k_2,\\ \\cdots,\\ k_n$ 要么全为 $0$，要么全部不为 $0$。\n(2) 已知两个等式\n$$k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_n\\alpha_n=0;$$\n$$l_1\\alpha_1+l_2\\alpha_2+\\cdots+l_n\\alpha_n=0.$$\n其中 $l_1\\neq 0$，证明：\n$$\\frac{k_1}{l_1}=\\frac{k_2}{l_2}=\\cdots=\\frac{k_n}{l_n}.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "高等代数 (15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A^3=2E$，$B=A^2-2A+2E$，求 $B^{-1}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "高等代数 (20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设实对称矩阵 $A$ 的特征值全大于 $a$，实对称矩阵 $B$ 的特征值全大于 $b$，证明：$A+B$ 的特征值全大于 $a+b$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "高等代数 (20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "在数域 $P$ 上一切 $n$ 阶方阵所组成的线性空间 $V$ 中，取定 $A,B,C,D\\in V$，证明：\n$$\\mathscr{A}(z)=AzB+Cz+zD,\\ z\\in V.$$\n是 $V$ 的线性变换，并证明：当 $C=D=O$ 时，$\\mathscr{A}$ 可逆的充要条件是 $|AB|\\neq 0$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "解析几何 (15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "空间直线",
+          "stem": "求通过点 $A(1,0,-2)$ 与平面 $3x-y+2z-1=0$ 平行，且与直线 $l_1:\\ \\dfrac{x-1}{4}=\\dfrac{y-3}{-2}=\\dfrac{z}{1}$ 相交的直线的方程。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "解析几何 (15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "证明：方程 $4x^2+25y^2+z^2+4xz-20x-10z=0$ 表示的曲面是柱面。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "解析几何 (20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "求二次曲面 $x^2+4xy+3y^2-5x-6y+3=0$ 与直线 $x+4y=0$ 平行的切线，并求出切点的坐标。"
+        }
+      ]
+    }
+  ]
+}

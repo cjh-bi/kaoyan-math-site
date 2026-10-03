@@ -1,0 +1,203 @@
+{
+  "msgid": "2247537412",
+  "exams": [
+    {
+      "school": "山东大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "45. 山东大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537412_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}n\\left(e-\\left(1+\\dfrac{1}{n}\\right)^n\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)=x^{\\alpha}$, $x\\in[1,+\\infty)$, 求 $\\alpha$ 的取值范围使得 $f(x)$ 在 $[1,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "已知定义在 $D=\\{(x,y)\\mid x^2+y^2\\le 1\\}$ 上的二阶连续可微函数 $f(x,y)$ 满足 $\\dfrac{\\partial^2 f}{\\partial x^2}+\\dfrac{\\partial^2 f}{\\partial y^2}=x^2+y^2$. 计算 $$\\iint_D\\left(\\dfrac{x}{\\sqrt{x^2+y^2}}\\dfrac{\\partial f}{\\partial x}+\\dfrac{y}{\\sqrt{x^2+y^2}}\\dfrac{\\partial f}{\\partial y}\\right)\\,\\mathrm{d}x\\mathrm{d}y.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "已知 $k>0$, 若 $\\lim_{n\\to\\infty}\\dfrac{b_1+b_2+\\cdots+b_n}{n^k}=b$, 求证: $\\lim_{n\\to\\infty}\\dfrac{b_n}{n^k}=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知 $f(x)\\in C[0,2\\pi]$, 证明: $\\lim_{n\\to\\infty}\\displaystyle\\int_0^{2\\pi}f(x)|\\sin nx|\\,\\mathrm{d}x=\\dfrac{2}{\\pi}\\displaystyle\\int_0^{2\\pi}f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "设 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^n}{n^2\\ln (1+n)}$, 讨论 $f(x)$ 在 $[-1,1]$ 上的连续性, 以及在 $x=-1$ 和 $x=1$ 时的可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设 $f(x)=x^3\\left(e^{\\frac{1}{x}}+e^{-\\frac{1}{x}}-c\\right)$ 满足 $\\lim_{x\\to\\infty}[f(x)-(ax+b)]=0$, 求 $a,b,c$, 并说明其几何意义。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(t)$ 在 $[0,+\\infty)$ 上连续, 且 $$f(t)=\\iint\\limits_{x^2+y^2\\le t^2}(x^2+y^2)f(\\sqrt{x^2+y^2})\\,\\mathrm{d}x\\mathrm{d}y+t^4,\\ t>0.$$\n求 $f(t)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "已知球面 $\\Gamma:\\,x^2+y^2+z^2=a^2$ $(a>0)$, 球面 $\\Sigma$ 的球心在 $\\Gamma$ 上, 半径为 $R$, 当 $R$ 为何值时, 球面 $\\Sigma$ 位于 $\\Gamma$ 内的面积取最大值? 并求出最大面积。"
+        }
+      ]
+    },
+    {
+      "school": "山东大学",
+      "year": "2026",
+      "subject": "线性代数与常微分方程",
+      "header_note": "45. 山东大学 2026 年线性代数与常微分方程试卷",
+      "source_imgs": ["work/imgs/2247537412_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "高等代数部分",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知线性方程组 $$\\begin{cases}\\lambda x_1+x_2+x_3=-3,\\\\ x_1+\\lambda x_2+x_3=-3,\\\\ x_1+x_2+\\lambda x_3=-3.\\end{cases}$$\n当 $\\lambda$ 为何值时, 方程组无解, 有解, 有解时求解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数部分",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $A$ 为 $n$ 阶方阵。\n(1) 若 $r(A)=1$, 证明: $A$ 可以写作 $\\begin{pmatrix}a_1\\\\ a_2\\\\ \\vdots\\\\ a_n\\end{pmatrix}\\left(\\begin{array}{cccc}b_1 & b_2 & \\cdots & b_n\\end{array}\\right)$。\n(2) 若 $r(A)=1$, 证明: 存在常数 $k$, 使得 $A^2=kA$。\n(3) 若 $r(A)=1$, 且存在 $m\\ge 2$ 满足 $A^m=O$, 证明: $A^2=O$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数部分",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知 $A=\\begin{pmatrix}A_{11} & A_{12}\\\\ A_{21} & A_{22}\\end{pmatrix}$ 为对称矩阵, $A_{11}$ 为方阵. 证明下面几个条件等价:\n(i) $A$ 为正定矩阵。\n(ii) $A_{11}$ 和 $A_{22}-A_{21}A_{11}^{-1}A_{12}$ 为正定矩阵。\n(iii) $A_{22}$ 和 $A_{11}-A_{12}A_{22}^{-1}A_{21}$ 为正定矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数部分",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知实矩阵 $$A=\\begin{pmatrix}a & -b & & & &\\\\ b & a & 1 & & &\\\\ & & a & -b & &\\\\ & & b & a & 1 &\\\\ & & & & a & -b\\\\ & & & & b & a\\end{pmatrix}.$$\n其中 $b\\ne 0$. 求 $A$ 的不变因子, 初等因子以及若尔当标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数部分",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "在欧氏空间 $V$ 中, $\\alpha$ 为非零向量, 向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m\\in V$, 满足 $$(\\alpha,\\alpha_i)>0\\ (i=1,2,\\cdots,m),\\ (\\alpha_i,\\alpha_j)\\le 0\\ (i,j=1,2,\\cdots,m;\\ i\\ne j).$$\n证明: $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数部分",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 为线性空间 $V$ 的一组基, $V$ 上的线性变换 $\\sigma$ 满足 $$\\sigma(\\alpha_i)=\\alpha_{i+1}\\ (i=1,2,\\cdots,n-1),\\ \\sigma(\\alpha_n)=0.$$\n(1) 求 $\\sigma$ 在基 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 下的矩阵。\n(2) 证明: $\\sigma^n=0$, $\\sigma^{n-1}\\ne 0$, 这里 $0$ 为零变换。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程部分",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "求解 $y^3\\,\\mathrm{d}x+2(x^2-xy^2)\\,\\mathrm{d}y=0$, 初值 $y(1)=1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程部分",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "求解 $y=x(y'+\\sqrt{1+(y')^2})$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程部分",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "已知 $y'+y=f(x)$, 其中 $f(x)$ 连续且 $|f(x)|\\le M$. 证明: $y=y(x)$ 在 $(-\\infty,+\\infty)$ 存在有界解, 并求出该解。"
+        }
+      ]
+    }
+  ]
+}

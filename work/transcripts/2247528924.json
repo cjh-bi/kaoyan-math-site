@@ -1,0 +1,263 @@
+{
+  "msgid": "2247528924",
+  "exams": [
+    {
+      "school": "中南大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "55. 中南大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528924_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0^+}\\dfrac{\\sin(\\tan x)-\\tan(\\sin x)}{\\sin^4 x}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算定积分 $\\int_0^2 \\dfrac{\\mathrm{d}x}{e^x+e^{-x}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\left(1-\\dfrac{1}{n}+\\dfrac{1}{n^2}\\right)^{1-n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算定积分 $\\int_0^1 \\dfrac{\\cos x\\cos(\\sin x)}{\\sin(\\sin x)+\\cos(\\sin x)}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "确定如下级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{2n+1}{3^{n+2}}\\,x^{2n}$ 的收敛域, 并计算在收敛域内的和函数."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明: 函数 $y=\\dfrac{x}{1+x^4}$ 在实数域 $\\mathbb{R}$ 上有界且一致连续."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算曲线 $x=e^t\\cos t$, $y=e^t\\sin t$ 在 $t\\in[0,\\pi]$ 的长度."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求由方程 $x^2+2xy+2y^2=1$ 所确定的隐函数的极值."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "证明: 若函数 $u=f(x,y)$ 满足拉普拉斯方程 $u_{xx}+u_{yy}=0$, 则函数 $v=f(x-\\sqrt{3}y,\\sqrt{3}x+y)$ 也满足拉普拉斯方程."
+        },
+        {
+          "section": "七",
+          "section_instruction": "设 $f:(0,1)\\to\\mathbb{R}$ 满足以下条件 (*): 存在 $L>0$, $\\alpha\\in(0,1)$, 使得对任意的 $x,y\\in(0,1)$, 始终有 $|f(x)-f(y)|\\le L|x-y|^{\\alpha}$.",
+          "no": "1",
+          "score": 6,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f:(0,1)\\to\\mathbb{R}$ 满足以下条件 (*): 存在 $L>0$, $\\alpha\\in(0,1)$, 使得对任意的 $x,y\\in(0,1)$, 始终有\n$$|f(x)-f(y)|\\le L|x-y|^{\\alpha}.$$\n证明: $f$ 在 $(0,1)$ 上连续."
+        },
+        {
+          "section": "七",
+          "section_instruction": "设 $f:(0,1)\\to\\mathbb{R}$ 满足以下条件 (*): 存在 $L>0$, $\\alpha\\in(0,1)$, 使得对任意的 $x,y\\in(0,1)$, 始终有 $|f(x)-f(y)|\\le L|x-y|^{\\alpha}$.",
+          "no": "2",
+          "score": 6,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f:(0,1)\\to\\mathbb{R}$ 满足以下条件 (*): 存在 $L>0$, $\\alpha\\in(0,1)$, 使得对任意的 $x,y\\in(0,1)$, 始终有\n$$|f(x)-f(y)|\\le L|x-y|^{\\alpha}.$$\n证明: $f$ 在 $(0,1)$ 上一致连续."
+        },
+        {
+          "section": "七",
+          "section_instruction": "设 $f:(0,1)\\to\\mathbb{R}$ 满足以下条件 (*): 存在 $L>0$, $\\alpha\\in(0,1)$, 使得对任意的 $x,y\\in(0,1)$, 始终有 $|f(x)-f(y)|\\le L|x-y|^{\\alpha}$.",
+          "no": "3",
+          "score": 3,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f:(0,1)\\to\\mathbb{R}$ 满足以下条件 (*): 存在 $L>0$, $\\alpha\\in(0,1)$, 使得对任意的 $x,y\\in(0,1)$, 始终有\n$$|f(x)-f(y)|\\le L|x-y|^{\\alpha}.$$\n如果函数 $f$ 满足条件 (*), 则称其为 $C^{\\alpha}$ 函数, 请举出一个例子, 满足对于 $0<\\beta<\\alpha$, 该函数是 $C^{\\beta}$ 函数, 但它不是 $C^{\\alpha}$ 函数."
+        },
+        {
+          "section": "八",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "计算 $f(x)=\\dfrac{2x\\sin\\theta}{1-2x\\cos\\theta+x^2}$ 在 $x=0$ 处的泰勒展开式."
+        },
+        {
+          "section": "八",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $|x|<1$, 计算 $\\displaystyle\\int_0^{\\pi}\\ln(1-2x\\cos\\theta+x^2)\\,\\mathrm{d}\\theta$."
+        }
+      ]
+    },
+    {
+      "school": "中南大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "55. 中南大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247528924_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $p(x)$ 是 $n$ 次有理系数多项式, $n$ 为大于 $1$ 的奇数, 且 $p(x)$ 在 $\\mathbb{Q}$ 上不可约. 证明: 如果 $c_1,c_2$ 是 $p(x)$ 的两个不同复根, 那么 $c_1+c_2$ 不是有理数."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 18,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求行列式\n$$\\begin{vmatrix} \\sin\\theta_1 & \\sin 2\\theta_1 & \\cdots & \\sin 2025\\theta_1\\\\ \\sin\\theta_2 & \\sin 2\\theta_2 & \\cdots & \\sin 2025\\theta_2\\\\ \\vdots & \\vdots & & \\vdots\\\\ \\sin\\theta_{2025} & \\sin 2\\theta_{2025} & \\cdots & \\sin 2025\\theta_{2025}\\end{vmatrix}$$\n的值."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 18,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)\\in C^1[x_0,x_2]$, $x_0<x_1<x_2$. 问是否存在次数不超过 $2$ 的多项式 $p(x)$, 满足\n$$p(x_0)=f(x_0),\\ p'(x_1)=f'(x_1),\\ p(x_2)=f(x_2).$$\n若存在, 则求出所有的 $p(x)$, 若不存在, 则给出一个反例."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A,B$ 分别为 $m\\times n$ 和 $n\\times m$ 矩阵, $I_n$ 为 $n$ 阶单位矩阵. 证明:\n$$r(A)+r(B)=r(AB)+n$$\n的充要条件是存在矩阵 $X,Y$, 使得 $XA-BY=I_n$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $\\mathbb{C}^{n\\times n}$ 是 $n$ 阶复方阵全体在通常运算下构成的复数域 $\\mathbb{C}$ 上的线性空间, 方阵 $F=\\begin{pmatrix} 0 & 0 & 0 & \\cdots & 0 & -a_n\\\\ 1 & 0 & 0 & \\cdots & 0 & -a_{n-1}\\\\ 0 & 1 & 0 & \\cdots & 0 & -a_{n-2}\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 0 & -a_2\\\\ 0 & 0 & 0 & \\cdots & 1 & -a_1\\end{pmatrix}$.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $\\mathbb{C}^{n\\times n}$ 是 $n$ 阶复方阵全体在通常运算下构成的复数域 $\\mathbb{C}$ 上的线性空间, 方阵\n$$F=\\begin{pmatrix} 0 & 0 & 0 & \\cdots & 0 & -a_n\\\\ 1 & 0 & 0 & \\cdots & 0 & -a_{n-1}\\\\ 0 & 1 & 0 & \\cdots & 0 & -a_{n-2}\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 0 & -a_2\\\\ 0 & 0 & 0 & \\cdots & 1 & -a_1\\end{pmatrix}.$$\n假设 $A=(a_{ij})_{n\\times n}$, 且 $AF=FA$, 证明: $A=a_{n1}F^{n-1}+a_{n-1,1}F^{n-2}+\\cdots+a_{21}F+a_{11}E$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $\\mathbb{C}^{n\\times n}$ 是 $n$ 阶复方阵全体在通常运算下构成的复数域 $\\mathbb{C}$ 上的线性空间, 方阵 $F=\\begin{pmatrix} 0 & 0 & 0 & \\cdots & 0 & -a_n\\\\ 1 & 0 & 0 & \\cdots & 0 & -a_{n-1}\\\\ 0 & 1 & 0 & \\cdots & 0 & -a_{n-2}\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 0 & -a_2\\\\ 0 & 0 & 0 & \\cdots & 1 & -a_1\\end{pmatrix}$.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\mathbb{C}^{n\\times n}$ 是 $n$ 阶复方阵全体在通常运算下构成的复数域 $\\mathbb{C}$ 上的线性空间, 方阵\n$$F=\\begin{pmatrix} 0 & 0 & 0 & \\cdots & 0 & -a_n\\\\ 1 & 0 & 0 & \\cdots & 0 & -a_{n-1}\\\\ 0 & 1 & 0 & \\cdots & 0 & -a_{n-2}\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 0 & -a_2\\\\ 0 & 0 & 0 & \\cdots & 1 & -a_1\\end{pmatrix}.$$\n求 $\\mathbb{C}^{n\\times n}$ 的子空间 $C(F)=\\{X\\in\\mathbb{C}^{n\\times n}\\mid FX=XF\\}$ 的维数."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\varphi$ 是 $n$ 维复线性空间上的线性变换, $f(x)=x^m+a_1x^{m-1}+\\cdots+a_m$ 与 $g(x)$ 是两个复多项式, $\\sigma=f(\\varphi)$, $\\tau=g(\\varphi)$. 矩阵 $F$ 是 $f(x)$ 的友矩阵. 已知 $g(F)$ 是可逆矩阵. 证明:\n$$\\mathrm{Ker}(\\sigma\\tau)=\\mathrm{Ker}\\,\\sigma\\oplus\\mathrm{Ker}\\,\\tau.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $V$ 是复数域 $\\mathbb{C}$ 上的 $n$ $(n>0)$ 维线性空间, $f,g$ 是 $V$ 上的线性变换, 满足 $fg-gf=f$. 证明: $f$ 的特征值都是 $0$, 且 $f,g$ 有公共的特征向量."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 18,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A$ 为 $n$ 阶实方阵, 试找出 $\\lim\\limits_{k\\to\\infty}A^k$ 存在的充分必要条件."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $S$ 为实对称方阵, 证明: 当且仅当 $S$ 可逆时, 存在方阵 $A$, 使得 $SA+A^{\\mathrm T}S$ 正定."
+        }
+      ]
+    }
+  ]
+}

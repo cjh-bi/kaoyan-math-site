@@ -1,0 +1,333 @@
+{
+  "msgid": "2247529108",
+  "exams": [
+    {
+      "school": "大连理工大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "27. 大连理工大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529108_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "1",
+          "score": 6,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "将 $f(x,y)=\\dfrac{\\cos x}{\\cos y}$ 在 $(0,0)$ 展开为麦克劳林多项式到二阶。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "2",
+          "score": 6,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $\\varphi(x)=\\displaystyle\\int_{\\sin x}^{\\cos x} e^{t^2+xt}\\,\\mathrm{d}t$, 求 $\\varphi'(0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "3",
+          "score": 6,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明 $\\zeta(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^x}$ 在 $(1,+\\infty)$ 上连续可微。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "4",
+          "score": 6,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^{n-1}(\\sqrt[n]{n}-1)$ 条件收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "5",
+          "score": 6,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $|a_{n+p}-a_n|\\le\\dfrac{p}{n^2},\\ n,p=1,2,\\cdots$, $\\{a_n\\}$ 收敛吗?"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "6",
+          "score": 6,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "当 $x\\in(0,\\pi)$ 时, 证明: $4(1-\\cos x)<x(x+\\sin x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "7",
+          "score": 6,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "$\\lim\\limits_{n\\to\\infty}a_n=A$ 的充要条件是对任意的 $\\varepsilon\\ge 0$, 存在正整数 $N$, 当 $n>N$ 时, 有 $|a_n-A|\\le\\varepsilon$ 是否正确?"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "8",
+          "score": 6,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "$f(x)$ 在 $[a,b]$ 上可微, $f(a)=f(b)=0$。证明: 存在 $\\xi\\in(a,b)$, 使得 $f'(\\xi)=2025f(\\xi)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "9",
+          "score": 6,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "$f(x)$ 在 $\\mathbb{R}$ 上连续, 以 $T>0$ 为周期, $\\displaystyle\\int_0^T f(x)\\,\\mathrm{d}x=0$, $g(x)$ 在 $[0,+\\infty)$ 上单调, $\\lim\\limits_{x\\to+\\infty}g(x)=0$。证明: 广义积分 $\\displaystyle\\int_0^{+\\infty} f(x)g(x)\\,\\mathrm{d}x$ 收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 6 分, 共 60 分.",
+          "no": "10",
+          "score": 6,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明: $x\\sin x$ 在 $\\mathbb{R}$ 上不一致连续。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "$\\Gamma: y=\\sqrt{2x-x^2}$, 从 $(0,0)$ 到 $(2,0)$。求第二型曲线积分\n$$\\int_\\Gamma (e^x\\sin y-4y)\\,\\mathrm{d}x+(e^x\\cos y+4x)\\,\\mathrm{d}y.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "$V=\\{(x,y,z)\\mid \\sqrt{x^2+y^2}\\le z\\le 3\\}$, 求 $\\displaystyle\\iiint_V \\sqrt{x^2+y^2}\\sin(z^2)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "求 $\\displaystyle\\int_0^{+\\infty}\\dfrac{e^{-x}-e^{-3x}}{x}\\sin x\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 12 分, 共 60 分",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上一致连续且有界, 证明: $f_n(x)=\\dfrac{n}{1-e^{-n}}\\displaystyle\\int_0^1 f(x+t)e^{-nt}\\,\\mathrm{d}t$ 一致收敛于 $f(x)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 12 分, 共 60 分",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "$\\{a_n\\}$ 单调递减且 $\\lim\\limits_{n\\to\\infty}a_n=0$。记 $f(x)=\\displaystyle\\sum_{n=0}^{\\infty}a_nx^n,\\ x\\in(-1,1)$, 证明: $\\lim\\limits_{x\\to1^-}(1-x)f(x)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 12 分, 共 60 分",
+          "no": "3",
+          "score": 12,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "证明在 $(0,0)$ 的邻域内方程 $x-\\cos(x^2y)+e^{x+y^2}=0$ 决定连续可微函数 $x=x(y)$, 并证明在 $y=0$ 处取得极大值。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 12 分, 共 60 分",
+          "no": "4",
+          "score": 12,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续非负, 且对任意的 $x,y\\ge 0$, 有 $f(x+y)\\le f(x)+f(y)$。证明: $\\lim\\limits_{x\\to+\\infty}\\dfrac{f(x)}{x}$ 存在且有限。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 12 分, 共 60 分",
+          "no": "5",
+          "score": 12,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上单调递增, 记 $F(x)=\\displaystyle\\int_0^x f(t)\\,\\mathrm{d}\\ t\\ (x\\ge 0)$。证明: $F(x)$ 在 $x=0$ 处存在右导数, 并求 $F'_+(0)$。"
+        }
+      ]
+    },
+    {
+      "school": "大连理工大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "27. 大连理工大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529108_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求行列式\n$$\\begin{vmatrix} 2 & 1 & \\cdots & 1 \\\\ 1 & 3 & \\cdots & 1 \\\\ \\vdots & \\vdots & \\ddots & \\vdots \\\\ 1 & 1 & \\cdots & n+1 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "非齐次线性方程组\n$$\\begin{cases} kx_1+x_2+x_3=k; \\\\ x_1+kx_2+x_3=1; \\\\ x_1+x_2+kx_3=k. \\end{cases}$$\n何时有唯一解, 有无穷多解, 无解? 并在有无穷多解时求通解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $f(x,y,z)=x^2+ty^2+z^2+2xy-2txz-2yz$ 的正负惯性指数都为 1, 求 $t$ 的值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "$f(x)$ 是首 1 的 $n$ 次多项式, 且 $f(1)=0$。若 $f'(x)\\mid f(x)$, 证明: $f(x)=(x-1)^n$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 的秩为 $r$, 任取 $t$ 个向量 $\\alpha_{i_1},\\alpha_{i_2},\\cdots,\\alpha_{i_t}$, 证明它的秩大于等式 $r-s+t$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $A$ 是实反称矩阵, 证明: $E+A$ 可逆, 且 $Q=(E-A)(E+A)^{-1}$ 为 $|Q|=1$ 的正交矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $n$ 阶矩阵 $A$ 满足 $A^3=O$, 证明: $E+A+\\dfrac{A^2}{2}$ 可逆。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $A,B$ 为 $n$ 阶矩阵, 证明: $AB$ 与 $BA$ 有相同的特征多项式。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "6",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A}$ 为欧氏空间 $V$ 上的正交变换, $W\\subseteq V$ 是 $\\mathscr{A}$ 的不变子空间, 证明: $W^{\\perp}$ 也是 $\\mathscr{A}$ 的不变子空间。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "7",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 均为 $n$ 阶正定矩阵, 且 $AB=BA$, 证明: $AB$ 也正定。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题. 每题 10 分, 共 80 分.",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 是实矩阵, 其特征值均为实数, 证明: 存在正交矩阵 $T$, 使得 $T^{-1}AT$ 为上三角矩阵。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题. 每题 20 分, 共 40 分.",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $n$ 阶矩阵 $A,B$ 满足 $AB=A-B$。证明:\n(1) $E+A$ 可逆。\n(2) $AB=BA$。\n(3) $A,B$ 秩相同。\n(4) 若 $A=\\begin{pmatrix} -1 & 0 & 1 \\\\ 0 & 1 & 0 \\\\ 3 & 0 & -1 \\end{pmatrix}$, 求 $B$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题. 每题 20 分, 共 40 分.",
+          "no": "2",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是数域 $P$ 上的 $n$ 维线性空间, $V_1,V_2$ 是 $V$ 的子空间。\n(1) 若 $V=V_1\\oplus V_2$, 证明: 在 $V$ 上存在唯一的幂等变换 $\\mathscr{A}$ ($\\mathscr{A}^2=\\mathscr{A}$), 使得\n$$V_1=\\mathrm{Ker}\\,\\mathscr{A},\\ V_2=\\mathrm{Im}\\,\\mathscr{A}.$$\n(2) 设\n$$V_1=\\{(x_1,x_2,\\cdots,x_n)\\in P^n\\mid x_1+x_2+\\cdots+x_n=0\\},$$\n$$V_2=\\{(x_1,x_2,\\cdots,x_n)\\in P^n\\mid x_1=x_2=\\cdots=x_n\\}.$$\n证明: $P^n=V_1\\oplus V_2$, 并求 $P^n$ 上的幂等变换 $\\mathscr{A}$, 使得 $V_1=\\mathrm{Ker}\\,\\mathscr{A},\\ V_2=\\mathrm{Im}\\,\\mathscr{A}$。"
+        }
+      ]
+    }
+  ]
+}

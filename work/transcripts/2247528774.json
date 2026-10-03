@@ -1,0 +1,94 @@
+{
+  "msgid": "2247528774",
+  "exams": [
+    {
+      "school": "南开大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "21. 南开大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247528774_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 30,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "若线性方程组 $\\begin{cases}x_1+x_2+ax_3=1;\\\\ x_1+ax_2+x_3=1;\\\\ ax_1+x_2+x_3=-2.\\end{cases}$ 有无穷多组解, 求 $a$ 的值, 并写出方程组的一般解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $\\begin{vmatrix}0&1&2&3&4\\\\ 1&0&1&2&3\\\\ 2&1&0&1&2\\\\ 3&2&1&0&1\\\\ 4&3&2&1&0\\end{vmatrix}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求矩阵 $A=\\begin{pmatrix}0&1&0&0\\\\ -1&3&1&0\\\\ 1&-2&0&0\\\\ 0&1&1&1\\end{pmatrix}$ 的若尔当标准形."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若正定矩阵 $A$ 满足 $A^2=\\begin{pmatrix}10&-6&0&0\\\\ -6&10&0&0\\\\ 0&0&10&-6\\\\ 0&0&-6&10\\end{pmatrix}$. 求所有这样的 $A$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\mathscr{L}$ 是线性空间 $V$ 上的线性变换, 且 $\\mathrm{Ker}\\,\\mathscr{L}^k=\\mathrm{Ker}\\,\\mathscr{L}^{k+1}$ 对某个正整数 $k$ 成立, 证明: $\\mathrm{Ker}\\,\\mathscr{L}^j=\\mathrm{Ker}\\,\\mathscr{L}^{j+1}$ 对任意整数 $j\\geq k$ 成立."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A,B\\in\\mathbb{R}^{n\\times n}$ 满足 $A^2=A$, $B^2=B$, 求证: $A$ 与 $B$ 相似当且仅当它们的秩相等."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V^*$ 是线性空间 $V$ 的对偶空间, $V_1^*,V_2^*$ 是 $V^*$ 的子空间. 记\n$W=\\{v\\in V\\mid f(v)=0,\\ \\forall f\\in V_1^*\\cap V_2^*\\}$;\n$W_i=\\{v\\in V\\mid f(v)=0,\\ \\forall f\\in V_i^*\\}$, $i=1,2$.\n证明: $W=W_1+W_2$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $B\\in\\mathbb{R}^{2\\times 2},C\\in\\mathbb{R}^{2\\times n},D\\in\\mathbb{R}^{n\\times n}$, 且 $B,D$ 均为对称矩阵. 设 $B$ 的两个特征值为 $\\mu_1,\\mu_2$, 矩阵 $A=\\begin{pmatrix}B&C\\\\ C'&D\\end{pmatrix}$ 的特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_{n+2}$, 求证: $\\min\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_{n+2}\\}\\leq\\min\\{\\mu_1,\\mu_2\\}$."
+        }
+      ]
+    }
+  ]
+}

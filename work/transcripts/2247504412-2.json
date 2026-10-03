@@ -1,0 +1,203 @@
+{
+  "msgid": "2247504412-2",
+  "exams": [
+    {
+      "school": "西南大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "西南大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504412-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（3 × 10 = 30 分）计算题",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限\n$$\\lim_{n\\to\\infty}\\left(1+\\dfrac{1}{n^{2}}\\right)^{n}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（3 × 10 = 30 分）计算题",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限\n$$\\lim_{x\\to 0}\\dfrac{x-\\arcsin x}{\\sin^{3}x}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（3 × 10 = 30 分）计算题",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z=f(x^{2}y,\\,xy)$，且 $f$ 具有二阶连续偏导数，求 $\\dfrac{\\partial^{2}z}{\\partial x\\partial y}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（3 × 10 = 30 分）完成下列各题",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求定积分\n$$\\int_{0}^{\\frac{\\pi}{2}}\\dfrac{\\cos x}{\\sin x+\\cos x}\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（3 × 10 = 30 分）完成下列各题",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分\n$$I=\\iint_{D}e^{\\frac{x}{x+y}}\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $D=\\{(x,y)\\mid x+y\\leq 1,\\ x\\geq 0,\\ y\\geq 0\\}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（3 × 10 = 30 分）完成下列各题",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "求曲线积分\n$$I=\\int_{L}z\\,\\mathrm{d}s.$$\n其中 $L$ 为圆锥螺线 $x=t\\cos t$，$y=t\\sin t$，$z=t$，$t\\in[0,\\pi]$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "证明 $f(x)=x^{3}e^{-x^{2}}$ 在 $(-\\infty,+\\infty)$ 上是有界函数。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续，且 $\\displaystyle\\int_{0}^{1}f^{2}(x)\\,\\mathrm{d}x=0$，证明：在 $[0,1]$ 上，$f(x)\\equiv 0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明 $f(x)=\\sin\\dfrac{1}{x}$ 在 $(0,1)$ 上不一致连续。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明 $\\displaystyle\\int_{1}^{+\\infty}\\dfrac{y^{2}-x^{2}}{(x^{2}+y^{2})^{2}}\\,\\mathrm{d}x$ 在 $(-\\infty,+\\infty)$ 上一致收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $\\{a_{n}\\}$ 为非负单调递减数列，证明 $\\displaystyle\\sum_{n=1}^{\\infty}a_{n}$ 收敛的充要条件是 $\\displaystyle\\sum_{k=0}^{\\infty}2^{k}a_{2^{k}}$ 收敛。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上可微，且 $0\\leq f^{\\prime}(x)\\leq f(x)$，$f(0)=0$，证明：在 $[0,+\\infty)$ 上，$f(x)\\equiv 0$。"
+        }
+      ]
+    },
+    {
+      "school": "西南大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "西南大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504412-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$（$n\\geq 3$）阶行列式\n$$D_{n}=\\begin{vmatrix} 0 & 1 & 1 & \\cdots & 1 & 1 \\\\ 1 & 0 & x & \\cdots & x & x \\\\ 1 & x & 0 & \\cdots & x & x \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ 1 & x & x & \\cdots & 0 & x \\\\ 1 & x & x & \\cdots & x & 0 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "用正交线性替换把二次型\n$$f(x_{1},x_{2},x_{3})=x_{1}^{2}+x_{2}^{2}+x_{3}^{2}-4x_{1}x_{2}-4x_{1}x_{3}-4x_{2}x_{3}$$\n化为标准形，并写出所做的正交替换。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\mathbb{C}$ 为复数域，$a,b\\in\\mathbb{C}$，令\n$$V_{a}=\\{f(x)\\in\\mathbb{C}[x]\\mid f(a)=0\\},\\quad V_{b}=\\{f(x)\\in\\mathbb{C}[x]\\mid f(b)=0\\}.$$\n证明\n(1) $V_{a}$，$V_{b}$ 为 $\\mathbb{C}[x]$ 的线性子空间；\n(2) $V_{a}$ 与 $V_{b}$ 同构。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $f(x)=x^{2}-6x+8\\in\\mathbb{Q}[x]$，$V$ 为 $\\mathbb{Q}$ 上的 $n$（$n\\geq 2$）维线性空间，$\\sigma$ 为 $V$ 上的一个非数乘变换的线性变换，且 $f(\\sigma)=0$。证明\n(1) $\\sigma$ 只有两个互不相同的特征值 $\\lambda_{1}$，$\\lambda_{2}$（不考虑重数）；\n(2) $V=V_{\\lambda_{1}}\\oplus V_{\\lambda_{2}}$，其中 $V_{\\lambda}$ 表示特征子空间。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设\n$$A=\\begin{pmatrix} 2 & 1 & 0 & 0 \\\\ 0 & 2 & 0 & 0 \\\\ 0 & 0 & 3 & 2 \\\\ 0 & 0 & 0 & 3 \\end{pmatrix}.$$\n(1) 求 $A^{n}$；\n(2) 求 $A^{-1}$；\n(3) 求 $A$ 的最小多项式。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设\n$$V=\\left\\{\\,A\\;\\middle|\\;A=\\begin{pmatrix} \\lambda_{1} & & & \\\\ & \\lambda_{2} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{n} \\end{pmatrix},\\ \\lambda_{i}\\in P\\,\\right\\}$$\n为数域 $P$ 上所有对角矩阵构成的集合。$i_{1}i_{2}\\cdots i_{n}$ 是 $1,2,\\cdots,n$ 的一个排列。证明\n(1) $V$ 是数域 $P$ 上的线性空间，并求其维数；\n(2) 【?——本页底部起后续小题被截断，无法辨认】"
+        }
+      ]
+    }
+  ]
+}

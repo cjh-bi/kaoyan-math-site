@@ -1,0 +1,203 @@
+{
+  "msgid": "2247528864",
+  "exams": [
+    {
+      "school": "中国科学院大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "7. 中国科学院大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528864_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算下列极限。\n(1) $\\lim\\limits_{x\\to 1} x^{\\frac{1}{1-x}}$。\n(2) $\\lim\\limits_{n\\to\\infty} \\dfrac{1}{n^4}\\left(1+2^3+\\cdots+n^3\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "用闭区间套定理证明 $[0,1]$ 不可数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续可微，$f(0)=0$。证明：\n$$\\int_0^1 \\left|f'(x)f(x)\\right| \\mathrm{d}x \\le \\dfrac{1}{2}\\int_0^1 \\left|f'(x)\\right|^2 \\mathrm{d}x.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分\n$$\\iint\\limits_{D} (x+y)\\sin(x-y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $D=\\{(x,y)\\mid 0\\le x+y\\le \\pi,\\ 0\\le x-y\\le \\pi\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$\\iint\\limits_{\\Gamma} (y^2-x)\\,\\mathrm{d}y\\mathrm{d}z+(z^2-y)\\,\\mathrm{d}z\\mathrm{d}x+(x^2-z)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Gamma=\\{(x,y,z)\\mid z=1-x^2-y^2,\\ z\\ge 0\\}$，方向取外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 在 $\\left(-\\dfrac{\\pi}{2},0\\right)$ 上可积或绝对可积，怎么将 $f(x)$ 延拓为到 $(-\\pi,\\pi)$ 上，满足其傅里叶级数为\n$$\\sum_{n=1}^{\\infty} b_{2n-1}\\sin(2n-1)x.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 在 $[0,\\pi]$ 上可积，且 $\\displaystyle\\int_0^\\pi f(x)\\,\\mathrm{d}x=\\pi$。求系数 $c_1,c_2,\\cdots,c_n$，使得\n$$\\int_0^\\pi \\left[f(x)-\\sum_{k=1}^{n} c_k\\cos kx\\right]^2 \\mathrm{d}x$$\n最小，并求 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\sum_{k=1}^{n} c_k\\cos kx=F(x)$ 的表达式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $f(x)$ 三次连续可微，且\n$$f'(0)=1,\\quad f''(0)=0,\\quad f'''(0)=-1.$$\n设 $f(a_n)=a_{n+1}$，且 $\\lim\\limits_{n\\to\\infty} a_n=0$。求 $\\lim\\limits_{n\\to\\infty} n(a_n)^2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{a_n\\}$ 单调收敛到 $0$，$\\alpha\\in(0,\\pi)$，证明：$\\displaystyle\\sum_{n=1}^{\\infty} a_n\\cos nx$ 在 $[\\alpha,2\\pi-\\alpha]$ 上一致收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}\\right)x^n$ 的收敛域与和函数。"
+        }
+      ]
+    },
+    {
+      "school": "中国科学院大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "7. 中国科学院大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247528864_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 18,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $F(x)=\\displaystyle\\prod_{i=1}^{n}(x-a_i)$，其中 $a_1,a_2,\\cdots,a_n$ 是两两不同的实数。\n(1) 记 $l_i(x)=\\dfrac{F(x)}{(x-a_i)F'(a_i)}$，证明：$l_1(x),l_2(x),\\cdots,l_n(x)$ 线性无关。\n(2) 证明：$\\displaystyle\\sum_{i=1}^{n} l_i(x)=1$。\n(3) 任取次数小于 $n$ 的多项式 $f(x)$，将 $f(x)$ 用 $l_1(x),l_2(x),\\cdots,l_n(x)$ 进行线性表示。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $n$ 阶矩阵 $A$ 为实对称正定矩阵 $(n>2)$。证明：$A=I$ 当且仅当 $A^{*}=A$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $n+1$ 阶矩阵 $A$ 有特征值 $0$ 和 $n$ 个不同的单位根 $\\omega_1,\\omega_2,\\cdots,\\omega_n$ $\\left((\\omega_i)^n=1\\right)$。证明：$2I-A$ 可逆，并求其逆矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $B\\in M^{n\\times n}(\\mathbb{R})$ 为正定矩阵，$C\\in M^{n\\times m}(\\mathbb{R})$ 为列满秩矩阵，记\n$$A=\\begin{pmatrix} B & C \\\\ C^{T} & O \\end{pmatrix}.$$\n求 $A$ 的正负惯性指数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "数域 $\\mathbb{F}$ 上的 $n$ 阶矩阵 $A$ 有 $n$ 个不同的特征值 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 为对应的特征向量，记 $\\beta=\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$。\n(1) 证明：$\\beta, A\\beta,\\cdots, A^{n-1}\\beta$ 线性无关。\n(2) 若 $A^{n}\\beta=A\\beta$，求 $A-I_n$ 的秩。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 18,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $n$ 阶矩阵 $A$ 的特征多项式为 $f(x)$，其中 $f(x)=g(x)h(x)$，$(g(x),h(x))=1$，且 $\\deg(g(x))<n$，$\\deg(h(x))<n$。证明：存在可逆矩阵 $P$ 和 $m_1$ 阶矩阵 $A_1$，$m_2$ 阶矩阵 $A_2$，使得\n$$P^{-1}AP=\\begin{pmatrix} A_1 & \\\\ & A_2 \\end{pmatrix},$$\n且 $m_1,m_2<n$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 18,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A,B,X\\in M^{3\\times 3}(\\mathbb{C})$，对于复系数多项式 $f(t),g(t)$，有 $f(X)=A$，$g(X)=B$，且 $A^2=B^2=O$。证明：存在 $\\lambda\\in\\mathbb{C}$，满足 $A=\\lambda B$ 或 $B=\\lambda A$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\varphi: M^{n\\times n}(\\mathbb{F})\\to M^{m\\times m}(\\mathbb{F})$ 为线性映射，且满足 $\\varphi(I_n)=I_m$，对任意的 $A,B\\in M^{n\\times n}(\\mathbb{F})$，有 $\\varphi(AB)=\\varphi(A)\\varphi(B)$。证明：\n(1) $\\varphi$ 为单射。\n(2) $n\\mid m$。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "msgid": "2247529252",
+  "exams": [
+    {
+      "school": "武汉理工大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "52. 武汉理工大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529252_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim\\limits_{x\\to0}\\dfrac{\\sqrt[3]{1+\\tan^2 x}-\\sqrt{\\cos x}}{x\\sin x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(u,v)$ 在 $\\mathbb{R}^2$ 上有二阶连续偏导数，且 $\\dfrac{\\partial^2 f}{\\partial u^2}+\\dfrac{\\partial^2 f}{\\partial v^2}=1$，设 $g(x,y)=f\\left(xy,\\dfrac{x^2-y^2}{2}\\right)$，求 $\\dfrac{\\partial^2 g}{\\partial x^2}+\\dfrac{\\partial^2 g}{\\partial y^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算 $\\iint_D \\dfrac{x\\sin^2 y}{y^2}\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D$ 是由 $y=x$，$x=0$，$y=\\pi$ 围成的区域。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算 $\\int_L ye^{y^2}\\,\\mathrm{d}y+(xe^{y^2}+2xy^2e^{y^2})\\,\\mathrm{d}x$，其中 $L:\\ y=\\sqrt[3]{x}$ 从 $(0,0)$ 到 $(1,1)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "设曲线 $C:\\begin{cases}x^2+y^2=2az;\\\\x^2+y^2+xy=a^2.\\end{cases}$ 求曲线上点到坐标系平面 $xOy$ 的最大值与最小值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "讨论级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{2^n}{n}x^{2n+1}$ 的收敛域并求其和函数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $\\varphi(x,y)$ 在 $(0,0)$ 的某邻域内连续，$f(x,y)=|x-y|\\varphi(x,y)$。\n(1) 讨论 $\\varphi(x,y)$ 满足什么条件时，$f_x(0,0),f_y(0,0)$ 存在。\n(2) 讨论 $\\varphi(x,y)$ 满足什么条件时，$f(x,y)$ 在 $(0,0)$ 处可微。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论反常积分 $\\int_1^{+\\infty}\\dfrac{\\sin x}{x^p}\\,\\mathrm{d}x$ $(p>0)$ 的敛散性，并说明收敛时是绝对收敛还是条件收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $(-\\infty,+\\infty)$ 上一致连续，$f(x)\\in[a,b]$，$g(x)$ 在 $[a,b]$ 上连续，证明：$g(f(x))$ 在 $(-\\infty,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "证明：$f(x)$ 在 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上有界。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设数列 $\\{a_n\\}$ 为恒正的单调增数列，证明：\n(1) 若 $\\{a_n\\}$ 有界，则 $\\sum\\limits_{n=1}^{\\infty}\\left(1-\\dfrac{a_n}{a_{n+1}}\\right)$ 收敛。\n(2) 若 $\\{a_n\\}$ 无界，则 $\\sum\\limits_{n=1}^{\\infty}\\left(1-\\dfrac{a_n}{a_{n+1}}\\right)$ 发散。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续，$A>0$，$\\int_A^{+\\infty}\\dfrac{f(x)}{x}\\,\\mathrm{d}x$ 存在，证明：对任意的 $a,b>0$，有 $$\\int_0^{+\\infty}\\dfrac{f(bx)-f(ax)}{x}\\,\\mathrm{d}x=f(0)\\ln\\dfrac{a}{b}$$。"
+        }
+      ]
+    },
+    {
+      "school": "武汉理工大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "52. 武汉理工大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529252_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知矩阵 $A=\\begin{pmatrix}2a_1b_1&a_1b_2+a_2b_1&\\cdots&a_1b_n+a_nb_1\\\\a_2b_1+a_1b_2&2a_2b_2&\\cdots&a_2b_n+a_nb_2\\\\\\vdots&\\vdots&&\\vdots\\\\a_nb_1+a_1b_n&a_nb_2+a_2b_n&\\cdots&2a_nb_n\\end{pmatrix}$，求 $|A|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知矩阵 $$A^*=\\begin{pmatrix}5&1&0\\\\1&1&0\\\\0&0&1\\end{pmatrix}.$$ 存在矩阵 $B$ 满足 $A^*BA=4E-BA$，其中 $A^*$ 为 $A$ 的伴随矩阵，$E$ 为单位矩阵。求 $B$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知向量组 $\\alpha_1=(1+a,1,1,1)$，$\\alpha_2=(2,2+a,2,2)$，$\\alpha_3=(3,3,3+a,3)$，$\\alpha_4=(4,4,4,4+a)$。\n(1) $a$ 为何值时，向量组 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性相关？\n(2) 在向量组 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性相关的前提下，求 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 的一个极大线性无关组，并用其线性表出其余向量。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $A$ 为 $3$ 阶方阵，满足 $|A-E|=|A-2E|=|A+E|=\\lambda$。\n(1) 当 $\\lambda=0$ 时，求行列式 $|A+3E|$。\n(2) 当 $\\lambda=2$ 时，求行列式 $|A+3E|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设集合 $W=\\{f(t)=a_0+a_1t+a_2t^2+a_3t^3\\mid f(2)=0,\\ a_0,a_1,a_2,a_3\\in\\mathbb{R}\\}$。\n(1) 证明：$W$ 是一个线性空间。\n(2) 求 $W$ 的一组基和维数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 为欧氏空间 $V$ 的一组标准正交基，设向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 为 $V$ 的另一组基，其中 $$\\alpha_1=3\\varepsilon_1+2\\varepsilon_2+\\varepsilon_3,\\ \\alpha_2=2\\varepsilon_1+\\varepsilon_2,\\ \\alpha_3=\\varepsilon_1.$$ 设 $T$ 为 $V$ 上的一个线性变换，且满足 $T\\varepsilon_1=\\alpha_1$，$T\\varepsilon_2=\\alpha_1+\\alpha_2$，$T\\varepsilon_3=\\alpha_1+\\alpha_2+\\alpha_3$。\n(1) 判断 $T$ 是否为可逆变换？是否为正交变换？\n(2) 求 $2T-T^{-1}$ 在 $\\alpha_1,\\alpha_2,\\alpha_3$ 这组基下的矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设非齐次线性方程组 $AX=b$：$$\\begin{cases}x_3=1;\\\\x_1+x_2+x_3=1;\\\\x_1+x_2=1.\\end{cases}$$\n定义欧氏空间 $\\mathbb{R}^3$ 中的内积：设 $X,Y\\in\\mathbb{R}^3$，$X=(x_1,x_2,x_3)'$，$Y=(y_1,y_2,y_3)'$，$$(X,Y)=2x_1y_1+x_2y_2+x_3y_3.$$ 范数为 $\\|X\\|=\\sqrt{(X,X)}$。\n(1) 求集合 $W=\\{X\\in\\mathbb{R}^3\\mid \\|AX-b\\|=\\min\\limits_{Y\\in\\mathbb{R}^3}\\|AY-b\\|$。\n(2) 求满足 $\\|X_0\\|=\\max\\limits_{X\\in W}\\|X\\|$ 的 $X_0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A=\\alpha\\beta'$，其中 $\\alpha,\\beta$ 为复数域上的 $n$ 维列向量，记 $k=\\alpha'\\beta$。\n(1) 求 $A$ 的最小多项式。\n(2) 求 $A$ 的 Jordan 标准形。"
+        }
+      ]
+    }
+  ]
+}

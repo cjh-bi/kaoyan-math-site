@@ -1,0 +1,411 @@
+{
+  "msgid": "2247537094",
+  "exams": [
+    {
+      "school": "北京工业大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "4. 北京工业大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537094_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "应用柯西准则证明 $\\left\\{1+\\dfrac{1}{1!}+\\dfrac{1}{2!}+\\cdots+\\dfrac{1}{n!}\\right\\}$ 收敛并求极限。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[-1,1]$ 上具有连续三阶导数，且 $f(-1)=0$，$f(1)=1$，$f'(0)=0$，证明：在 $(-1,1)$ 内至少存在一点 $\\xi$，使 $f'''(\\xi)=3$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "叙述致密性定理并证明：设 $D_1,D_2$ 是 $\\mathbb{R}^2$ 的两个非空闭集且 $D_1$ 有界，则存在 $x_0\\in D_1,y_0\\in D_2$，使\n$$\\|x_0-y_0\\|=\\inf_{\\substack{x\\in D_1\\\\ y\\in D_2}}\\|x-y\\|.$$\n其中 $\\|\\cdot\\|$ 表示 $\\mathbb{R}^2$ 中的欧氏距离。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(1+\\dfrac{1}{2}+\\dfrac{1}{3}+\\cdots+\\dfrac{1}{n}\\right)x^n$ 的收敛域与和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=\\begin{cases}\\dfrac{xy(x^2-y^2)}{x^2+y^2}, & x^2+y^2\\neq 0,\\\\ 0, & x^2+y^2=0.\\end{cases}$ 求 $f''_{xy}(0,0)$ 和 $f''_{yx}(0,0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明 $\\displaystyle\\sum_{n=0}^{\\infty}x^n(1-x)^2$ 在 $[0,1]$ 上一致收敛，但 $\\displaystyle\\sum_{n=0}^{\\infty}x^n(1-x)$ 在 $[0,1]$ 上非一致收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设抛物线 $y=ax^2+bx$ 满足当 $x\\in[0,1]$ 时，$y\\ge 0$，已知该抛物线与 $x$ 轴及直线 $x=1$ 所围图形的面积为 $\\dfrac{1}{3}$，试确定 $a,b$ 使该抛物线与直线 $x=1$ 及 $x$ 轴所围图形绕 $x$ 轴旋转一周而成的旋转体的体积最小。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "利用三重积分计算椭球体 $\\Omega:(x+y)^2+(y+z)^2+(z+x)^2\\le 1$ 的体积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设一致连续的非负函数 $f(x)$ 满足 $\\displaystyle\\int_1^{+\\infty}f(x)\\,\\mathrm{d}x<+\\infty$，证明：$\\lim\\limits_{x\\to+\\infty}f(x)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $I=\\displaystyle\\iint_{\\Sigma}\\dfrac{2\\,\\mathrm{d}y\\mathrm{d}z}{x\\cos^2 x}+\\dfrac{\\mathrm{d}z\\mathrm{d}x}{\\cos^2 y}-\\dfrac{\\mathrm{d}x\\mathrm{d}y}{z\\cos^2 z}$，$\\Sigma:x^2+y^2+z^2=1$，取外侧。"
+        }
+      ]
+    },
+    {
+      "school": "北京科技大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "5. 北京科技大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537094_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "解答题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to\\left(\\frac{\\pi}{2}\\right)^{-}}(\\cos x)^{\\frac{\\pi}{2}-x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设 $a=\\displaystyle\\sum_{i=1}^{n}a_i$，$a_i>0$，求 $S=\\displaystyle\\sum_{i=1}^{n}a_i^2$ 的最小值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求积分 $\\displaystyle\\int_{\\frac{1}{2}}^{\\frac{3}{4}}\\dfrac{\\arcsin\\sqrt{x}}{\\sqrt{x(1-x)}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $\\{x_n\\}$ 满足 $x_1=1$，$x_{n+1}=x_n+\\dfrac{1}{2x_n}$ $(n=1,2,\\cdots)$，求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{x_n^2-n}{\\ln n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续可微，$\\lim\\limits_{x\\to+\\infty}f'(x)=A$（$A$ 为常数），证明：$\\lim\\limits_{x\\to+\\infty}\\dfrac{f(x)}{x}=A$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "已知 $f(x,y)=\\varphi(|xy|)$，其中 $\\varphi(0)=0$，且 $u=0$ 附近满足 $|\\varphi(u)|\\le u^2$，证明：$f(x,y)$ 在 $(0,0)$ 处可微。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "利用有限覆盖定理证明连续函数的根的存在定理。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n a^n}{n\\ln(n^2+n)}x^{2n-1}$ 的收敛域，其中 $a>0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "对于级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\ln(1+n^2x)}{n}x^{-(n+1)}$．证明：\n(1) 该级数在 $[1+\\varepsilon_0,+\\infty)$ $(\\varepsilon_0>0)$ 上一致收敛。\n(2) 该级数在 $(1,+\\infty)$ 上不一致收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "讨论 $I(a)=\\displaystyle\\int_0^{+\\infty}\\dfrac{a}{1+x^2a^2}\\,\\mathrm{d}x$ 在 $[a_0,+\\infty)$ 和 $(0,+\\infty)$ 的一致收敛性，其中 $a_0>0$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $f(x)$ 是可导函数，对任意围绕原点一周的定向闭曲线 $L$，曲线积分 $\\displaystyle\\int_L\\dfrac{x\\,\\mathrm{d}y-y\\,\\mathrm{d}x}{f(x)+4y^2}$ 的值恒为常数 $A$，且 $f(1)=2$，求 $A$ 的值与 $f(x)$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论 $\\displaystyle\\int_0^{+\\infty}\\dfrac{x^{p-1}}{1+x}\\,\\mathrm{d}x$ 的敛散性。"
+        }
+      ]
+    },
+    {
+      "school": "北京工业大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "4. 北京工业大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537094_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix}a&a+b&\\cdots&a+b&a+b\\\\ a-b&a&\\cdots&a+b&a+b\\\\ \\vdots&\\vdots&&\\vdots&\\vdots\\\\ a-b&a-b&\\cdots&a&a+b\\\\ a-b&a-b&\\cdots&a-b&a\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 4 阶方阵 $A$ 的秩是 3，$\\eta_1,\\eta_2,\\eta_3$ 是方程组 $AX=\\beta$ 的三个不同的解，且满足\n$$\\eta_1+\\eta_2+\\eta_3=(3,3,0,3)^{\\mathrm{T}},\\ 2\\eta_2+3\\eta_3=(6,2,3,0)^{\\mathrm{T}}.$$\n(1) 证明：$\\beta\\neq 0$，即 $\\beta$ 不是零向量。\n(2) 求方程组 $AX=\\beta$ 的通解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 是 $n\\times n$ 阶矩阵 $(n\\ge 2)$，满足 $A^2=A$，$B,C$ 是 $m\\times n$ 阶矩阵。\n(1) 证明：$r(A)+r(A-E_n)=n$。\n(2) 若 $E_n+C^{\\mathrm{T}}B$ 可逆，则 $E_m+BC^{\\mathrm{T}}$ 可逆，并求 $E_m+BC^{\\mathrm{T}}$ 的逆。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "",
+          "stem": "解答如下问题：\n(1) 设 $A,B$ 是 $n\\times n$ 阶实对称矩阵，且 $A$ 是正定矩阵，证明：存在 $n\\times n$ 阶可逆矩阵 $P$，使得 $P^{\\mathrm{T}}AP,P^{\\mathrm{T}}BP$ 同时为对角矩阵。\n(2) 设二次型 $f(x_1,x_2,x_3)=(x_1-x_2)^2+(x_2-x_3)^2+(x_3-x_1)^2$，写出该二次型的矩阵，并用正交线性替换把该二次型化为标准型，判断该二次型是否正定。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $P$ 是一个数域，记 $V_1$ 是由向量\n$$\\alpha_1=(1,2,1,0)^{\\mathrm{T}},\\ \\alpha_2=(-1,1,1,1)^{\\mathrm{T}},\\ \\alpha_3=(0,3,2,1)^{\\mathrm{T}}$$\n生成的 $P^4$ 的子空间，即 $V_1=L(\\alpha_1,\\alpha_2,\\alpha_3)$，记 $V_2$ 是由向量\n$$\\beta_1=(2,-1,0,1)^{\\mathrm{T}},\\ \\beta_2=(1,-1,3,7)^{\\mathrm{T}}$$\n生成的 $P^4$ 的子空间，即 $V_2=L(\\beta_1,\\beta_2)$，分别求 $V_1\\cap V_2,V_1+V_2$ 的维数和一组基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "记 $\\mathbb{C}^{2\\times 2}$ 是复数域 $\\mathbb{C}$ 上的全体 $2\\times 2$ 阶矩阵构成的线性空间，定义 $\\mathbb{C}^{2\\times 2}$ 上的线性变换 $\\sigma(X)=AX$，对任意的 $X\\in\\mathbb{C}^{2\\times 2}$，$A=\\begin{pmatrix}1&2\\\\2&4\\end{pmatrix}$。\n(1) 求 $\\sigma$ 在基 $E_{11}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},E_{12}=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix},E_{21}=\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix},E_{22}=\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}$ 下的矩阵。\n(2) 求 $\\sigma$ 的值域的维数和一组基以及 $\\sigma$ 的核的维数和一组基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $V$ 是实数域 $\\mathbb{R}$ 上全体 $n\\times n$ $(n\\ge 2)$ 阶实对称矩阵构成的线性空间，对任意 $A,B\\in V$，定义 $(A,B)=\\mathrm{tr}(AB)$，其中 $\\mathrm{tr}(AB)$ 表示 $AB$ 的迹。\n(1) 证明：$V$ 是欧氏空间。\n(2) $W=\\{A\\in V\\mid \\mathrm{tr}(A)=0\\}$．证明：$W$ 是 $V$ 的子空间，并求 $W$ 的维数。\n(3) 求 $W$ 的正交补空间 $W^{\\perp}$ 的维数。"
+        }
+      ]
+    },
+    {
+      "school": "北京科技大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "5. 北京科技大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537094_7.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式 $D_n$ 的值，其中\n$$D_n=\\begin{vmatrix}1+x_1&1+x_1^2&\\cdots&1+x_1^n\\\\ 1+x_2&1+x_2^2&\\cdots&1+x_2^n\\\\ \\vdots&\\vdots&&\\vdots\\\\ 1+x_n&1+x_n^2&\\cdots&1+x_n^n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $n$ 阶非零矩阵，其中 $n\\ge 1$，记矩阵 $A$ 的秩为 $r$，若 $A^2=O$，$O$ 为零矩阵。\n(1) 证明：$r(A)\\le\\dfrac{n}{2}$。\n(2) 若已知非齐次线性方程组 $AX=b$ 有解，证明：该方程组的线性无关的解向量的最大个数为 $n-r+1$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "已知 $A=\\begin{pmatrix}2&4&0&0\\\\1&2&0&0\\\\0&0&2&0\\\\0&0&4&2\\end{pmatrix}$，求 $A^{2026}$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "证明题(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 是实数域的 $n$ 维线性空间，$\\{\\xi_1,\\xi_2,\\cdots,\\xi_n\\}$ 是 $V$ 的一组基，令 $\\xi_{n+1}=-\\xi_1-\\xi_2-\\cdots-\\xi_n$．证明：\n(1) 对 $i=1,2,\\cdots,n+1$，$\\{\\xi_1,\\cdots,\\xi_{i-1},\\xi_{i+1},\\cdots,\\xi_{n+1}\\}$ 都构成 $V$ 的基。\n(2) 对任意的 $\\alpha\\in V$，在 (1) 中的 $n+1$ 组基中，存在一组基使得 $\\alpha$ 在此基下的坐标分量均为非负。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "简答题(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $V$ 为 $n$ 阶实方阵全体在矩阵的加法和数乘运算下构成的实数域上的线性空间，$\\sigma$ 是 $V$ 上的线性变换，且对任意的 $A\\in V$，都有 $\\sigma(A)=2A^{\\mathrm{T}}$。\n(1) 求 $\\sigma$ 的特征值。\n(2) 求 $\\sigma$ 的属于每一个特征值的特征子空间的维数和一组基。\n(3) 证明：$V$ 恰为 $\\sigma$ 的所有特征子空间的直和。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "计算题(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V$ 为欧氏空间，$v_1,v_2,v_3,v_4$ 是 $V$ 的一组标准正交基，令向量\n$$\\alpha=v_1+v_2,\\ \\beta=v_1+v_3,\\ \\gamma=2v_1+v_2+2v_3+v_4.$$\n子空间 $W=L(\\alpha,\\beta)$，$W^{\\perp}$ 为 $W$ 的正交补．求 $\\gamma_1,\\gamma_2$，使得 $\\gamma=\\gamma_1+\\gamma_2$，且 $\\gamma_1\\in W,\\gamma_2\\in W^{\\perp}$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "简答题(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵，且存在 $n$ 阶实矩阵 $B$，使得 $AB+B^{\\mathrm{T}}A$ 为正定矩阵，判断矩阵 $A$ 是否可逆，并给出理由。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "证明题(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $n$ 为正整数，$f_1(x),f_2(x),\\cdots,f_n(x)$ 是 $n$ 个多项式，若\n$$(x^n+x^{n-1}+\\cdots+x+1)\\mid\\left(f_1(x^{n+1})+xf_2(x^{n+1})+\\cdots+x^{n-1}f_n(x^{n+1})\\right),$$\n证明：$(x-1)^n\\mid f_1(x)f_2(x)\\cdots f_n(x)$。"
+        }
+      ]
+    }
+  ]
+}

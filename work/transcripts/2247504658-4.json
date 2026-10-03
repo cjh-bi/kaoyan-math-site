@@ -1,0 +1,94 @@
+{
+ "msgid": "2247504658-4",
+ "exams": [
+  {
+   "school": "华中师范大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "70. 华中师范大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": ["work/imgs/2247504658-4_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算行列式\n$$D=\\det(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4).$$\n其中 $\\alpha_i=(1,\\cos\\theta_i,\\cos 2\\theta_i,\\cos 3\\theta_i)^{\\prime}$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": null,
+     "form": "综合",
+     "l1": "矩阵与线性方程组",
+     "l2": "秩",
+     "stem": "解答如下问题：\n(1) 已知 $A$ 为 $n$ 阶矩阵，证明：$\\mathrm{rank}(A)=1$ 当且仅当存在非零向量\n$$\\alpha=(a_1,a_2,\\cdots,a_n),\\ \\beta=(\\beta_1,\\beta_2,\\cdots,\\beta_n).$$\n使得 $A=\\alpha^{\\prime}\\beta$。\n(2) 对上述矩阵 $A=\\alpha^{\\prime}\\beta$，计算行列式 $\\det(E_n+A)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": null,
+     "form": "综合",
+     "l1": "多项式",
+     "l2": "互素与最大公因式",
+     "stem": "已知 $f(x)=x^3+(a+1)x^2+bx-4$ 与 $g(x)=x^3+ax^2+(b-2)x-b$ 的首一最大公因式为 $d(x)$，且 $d(x)$ 为二次多项式。\n(1) 求 $a,b$ 的值；\n(2) 求多项式 $u(x),v(x)$，使得 $u(x)f(x)+v(x)g(x)=d(x)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": null,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "(可能有误) 已知矩阵\n$$A=\\begin{pmatrix} 0 & 0 & 0 & 1\\\\ 1 & 0 & 0 & 1\\\\ 0 & 1 & 0 & -1\\\\ 0 & 0 & 1 & 1\\end{pmatrix}.$$\n(1) 求 $\\lambda E_4-A$ 的标准形；\n(2) 求 $A$ 的若尔当标准形。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": null,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "可对角化",
+     "stem": "设 $A,B$ 为 $n$ 阶复方阵，且有 $AB=BA$。\n(1) 设 $\\lambda_1$ 是 $A$ 的特征值，$V_{\\lambda_1}$ 是对应的特征子空间，证明：对任意的 $X\\in\\mathbb{C}^n$，有 $BX\\in V_{\\lambda_1}$；\n(2) 证明：$A,B$ 有公共的特征向量；\n(3) 若 $A$ 有 $n$ 个不同的特征值，证明：存在可逆矩阵 $P$，使得 $P^{-1}AP$、$P^{-1}BP$ 都为对角矩阵。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": null,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "线性映射与核",
+     "stem": "设 $V$ 是实数域上所有 $2\\times 2$ 矩阵构成的线性空间，$A,B\\in V$ 是两个给定的 $2$ 阶实矩阵，定义 $V$ 上的映射 $f$ 为 $f(X)=AX+XB$，$X\\in V$。\n(1) 证明：$f$ 为 $V$ 上的线性变换；\n(2) 若 $A=\\begin{pmatrix} * & *\\\\ * & *\\end{pmatrix}$，$B=\\begin{pmatrix} * & *\\\\ * & *\\end{pmatrix}$（具体数值未知），求 $\\mathrm{Im}\\ f$ 及 $\\mathrm{Ker}\\ f$ 以及它们的维数。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": null,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "已知矩阵\n$$A=\\begin{pmatrix} B & C\\\\ C^{\\prime} & O\\end{pmatrix}.$$\n其中 $B$ 为 $n$ 阶正定矩阵，$C$ 为 $n$ 阶可逆实矩阵，求 $A$ 的正惯性指数与负惯性指数。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "8",
+     "score": null,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "内积与度量",
+     "stem": "设 $V$ 为 $n$ 维欧氏空间，$\\langle *,*\\rangle$ 是 $V$ 上的内积，已知 $V$ 上的线性变换 $\\varphi$ 满足：对任意的 $\\alpha,\\beta\\in V$，有\n$$\\langle\\varphi(\\alpha),\\beta\\rangle=-\\langle\\alpha,\\varphi(\\beta)\\rangle.$$\n(1) 若 $\\varphi$ 为同构映射，证明 $n$ 为偶数；\n(2) 若 $\\lambda$ 是 $\\varphi$ 的一个特征值，则 $\\lambda$ 是零或者纯虚数。"
+    }
+   ]
+  }
+ ]
+}

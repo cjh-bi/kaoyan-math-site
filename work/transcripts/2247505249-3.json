@@ -1,0 +1,136 @@
+{
+ "msgid": "2247505249-3",
+ "exams": [
+  {
+   "school": "国防科技大学",
+   "year": "2021",
+   "subject": "数学分析和高等代数",
+   "header_note": "163. 国防科技大学 2021 年硕士研究生入学考试数学分析和高等代数试卷",
+   "source_imgs": [
+    "work/imgs/2247505249-3_4.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "求 $y=\\dfrac{x^2+1}{x-1}$ 的渐近线。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算下列极限",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "函数极限计算",
+     "stem": "$$\\lim_{x\\to 0}(\\cos x)^{\\frac{1}{x^2}}.$$"
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算下列极限",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "数列极限计算",
+     "stem": "$$\\lim_{n\\to\\infty}\\sqrt[n]{1+a^{2n}+\\cos^2 n}.$$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "一元微分学",
+     "l2": "高阶导数",
+     "stem": "已知 $f(x)=x^5\\arctan x$，求 $f^{n}(0)$。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "条件极值",
+     "stem": "求曲面 $z=\\sqrt{2+x^2+4y^2}$ 到平面 $x-2y+3z=1$ 的最近点。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "三重积分",
+     "stem": "求三重积分\n$$\\iiint_{\\Omega}(xy+2z)\\,\\mathrm{d}V.$$\n其中 $\\Omega$：$x^2+y^2=z^2$ 锥体的上半部分和 $x^2+y^2+z^2=4$ 所围的立体。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "已知函数 $f(x)$ 在 $\\mathbb{R}$ 上有界且二次可导，证明：存在 $\\xi\\in\\mathbb{R}$，使得 $f''(\\xi)=0$。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "矩阵多项式",
+     "stem": "已知 $A$，$B$ 为 3 阶方阵，且 $A^{-1}BA=6A+BA$，其中\n$$A=\\begin{pmatrix}\\dfrac{1}{3} & 0 & 0\\\\[2mm] 0 & \\dfrac{1}{4} & 0\\\\[2mm] 0 & 0 & \\dfrac{1}{7}\\end{pmatrix},$$\n求 $B$。"
+    },
+    {
+     "section": "八",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "相似",
+     "stem": "已知\n$$A=\\begin{pmatrix}1 & b & 1\\\\ b & a & 1\\\\ 1 & 1 & 1\\end{pmatrix}$$\n与\n$$B=\\begin{pmatrix}0 & 0 & 0\\\\ 0 & 1 & 0\\\\ 0 & 0 & 4\\end{pmatrix}$$\n相似，求 $a$，$b$ 的值。"
+    },
+    {
+     "section": "九",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "已知 $A$，$B$ 为 $n$ 阶实正交矩阵，且 $|A|\\neq|B|$，证明：$A+B$ 不可逆。"
+    },
+    {
+     "section": "十",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "幂等矩阵",
+     "stem": "已知 $n$ 阶矩阵 $A$，满足 $A^2=A$，证明：$A$ 与对角矩阵\n$$C=\\begin{pmatrix}1 & & & & &\\\\ & \\ddots & & & &\\\\ & & 1 & & &\\\\ & & & 0 & &\\\\ & & & & \\ddots &\\\\ & & & & & 0\\end{pmatrix}$$\n相似。"
+    },
+    {
+     "section": "十",
+     "section_instruction": "",
+     "no": "2",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "幂等矩阵",
+     "stem": "已知 $n$ 阶矩阵 $A$，$B$ 满足 $A^2=A$，$B^2=B$，$AB=BA$，证明：存在 $n$ 阶矩阵 $P$，使得 $P^{-1}AP$ 与 $P^{-1}BP$ 都为对角矩阵，且对角线元素为 $0$ 或 $1$。"
+    }
+   ]
+  }
+ ]
+}

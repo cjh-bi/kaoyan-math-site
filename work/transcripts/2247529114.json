@@ -1,0 +1,223 @@
+{
+  "msgid": "2247529114",
+  "exams": [
+    {
+      "school": "东华大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "18. 东华大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529114_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分, 共 40 分.",
+          "no": "1",
+          "score": 8,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}n\\sin(2\\pi n!\\,e)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分, 共 40 分.",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\left(\\dfrac{\\sin x}{x}\\right)^{\\frac{1}{1-\\cos x}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分, 共 40 分.",
+          "no": "3",
+          "score": 8,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求积分 $\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\ln\\sin(2x)\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分, 共 40 分.",
+          "no": "4",
+          "score": 8,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求曲线积分 $\\displaystyle\\oint_L \\dfrac{y\\,\\mathrm{d}x-x\\,\\mathrm{d}y}{3x^2-2xy+3y^2}$, 其中 $L$ 为 $|x|+|y|=1$, 沿逆时针一周."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分, 共 40 分.",
+          "no": "5",
+          "score": 8,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $\\Omega=\\{(x,y,z)\\mid x^2+y^2+z^2\\le 1,\\ x\\ge 0, y\\ge 0, z\\ge 0\\}$, 求 $\\displaystyle\\iiint_{\\Omega}\\left(\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}\\right)\\mathrm{d}V$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "设 $f(x)$ 在区间 $[a,b]$ 上为增函数, 且 $f(a)\\ge a$, $f(b)\\le b$, 证明: 存在 $\\xi\\in[a,b]$, 使得 $f(\\xi)=\\xi$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x)$ 在区间 $[0,2024]$ 上连续(应该是连续可微), 且 $f(0)=0$. 证明:\n$$\\int_0^{2024}|f(x)f'(x)|\\,\\mathrm{d}x\\le 1012\\int_0^{2024}(f'(x))^2\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "讨论函数\n$$f(x,y)=\\begin{cases}x-y+\\dfrac{xy^3}{x^2+y^4}, & x^2+y^2\\ne 0;\\\\[4pt] 0, & x^2+y^2=0.\\end{cases}$$\n在原点 $(0,0)$ 是否连续, 偏导数是否存在, 是否可微?"
+        },
+        {
+          "section": "五",
+          "section_instruction": "解答如下问题. 每题 15 分, 共 45 分.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断并证明级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\sin(\\sqrt{n^2+1}\\,\\pi)$ 的收敛性."
+        },
+        {
+          "section": "五",
+          "section_instruction": "解答如下问题. 每题 15 分, 共 45 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "判断并证明积分 $\\displaystyle\\int_1^{+\\infty}\\dfrac{y\\sin(xy)}{x(1+y^2)}\\,\\mathrm{d}y$ 在 $(0,1)$ 上的一致收敛性."
+        },
+        {
+          "section": "五",
+          "section_instruction": "解答如下问题. 每题 15 分, 共 45 分.",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "判断并证明函数列 $f_n(x)=nx(1-x)^n$ 在 $[0,1]$ 上的一致收敛性."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "证明: $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^n}=\\int_0^1 x^{-x}\\,\\mathrm{d}x$."
+        }
+      ]
+    },
+    {
+      "school": "东华大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "18. 东华大学 2025 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247529114_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D=\\begin{vmatrix}a_1 & x & \\cdots & x\\\\ x & a_2 & \\cdots & x\\\\ \\vdots & \\vdots & \\ddots & \\vdots\\\\ x & x & \\cdots & a_n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 为 $m\\times n$ 矩阵, $X$ 为 $n\\times s$ 矩阵.\n(1) 证明: $r(A)=n$ 当且仅当矩阵方程 $AX=O$ 只有零解.\n(2) 若 $r(A)<n$, $n-r(A)\\le s$, 证明: $AX=O$ 有解 $X=B$, 且满足 $A\\beta=0$ 的 $\\beta$ 都有 $BX=\\beta$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $C=\\begin{pmatrix}A & O\\\\ O & B\\end{pmatrix}$.\n(1) 证明: $C$ 可逆当且仅当 $A,B$ 都可逆. $C$ 可逆时, 求 $C$ 的逆. 一般情况下, 求 $C$ 的伴随.\n(2) 证明: $C$ 正定当且仅当 $A,B$ 都正定."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\varphi$ 是 $U$ 到 $V$ 的一个线性映射, 且 $\\dim U=\\dim V$. 证明下列断言等价:\n(1) $\\varphi$ 是满射.\n(2) $\\varphi$ 是单射.\n(3) 取 $U$ 的一组基 $\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$, 则 $\\varphi(\\varepsilon_1),\\varphi(\\varepsilon_2),\\cdots,\\varphi(\\varepsilon_n)$ 是 $V$ 的一组基."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\mathscr{A}$ 是线性空间 $V$ 上的线性变换, $\\mathscr{E}$ 是恒等变换.\n(1) 证明: $\\mathscr{A}^2=\\mathscr{E}$ 当且仅当 $V=\\mathrm{Ker}(\\mathscr{E}-\\mathscr{A})\\oplus\\mathrm{Ker}(\\mathscr{E}+\\mathscr{A})$.\n(2) 存在正整数 $k$ 使得 $\\mathscr{A}^k=\\mathscr{E}$, 证明: $V=\\mathrm{Ker}(\\mathscr{E}-\\mathscr{A})\\oplus\\mathrm{Ker}(\\mathscr{E}+\\mathscr{A}+\\cdots+\\mathscr{A}^{k-1})$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A=E_n-\\alpha\\beta^T$, 其中 $\\alpha\\beta^T\\ne O$, 且 $\\beta^T\\alpha=c$.\n(1) 计算 $A^2$, 并说明 $A$ 不可逆等价于 $c=1$.\n(2) 当 $c\\ne 1$ 时, 求 $A$ 的逆.\n(3) 当 $c=0$ 时, 求 $A$ 的若尔当标准形, 并针对不同的特征值 $\\lambda$, 分别求对应的特征子空间."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "在数域 $\\mathbb{K}$ 上的 $n$ 阶矩阵空间中选取 $A$, 定义线性变换 $\\varphi(X)=AX-XA^T$.\n(1) 当 $n=2$, $A=\\begin{pmatrix}0 & 1\\\\ 0 & 0\\end{pmatrix}$ 时, 求 $\\varphi$ 在 $E_{11},E_{12},E_{21},E_{22}$ 下的矩阵, 并判断是否可对角化.\n(2) $\\alpha,\\beta$ 为 $A$ 的两个任意的特征向量, 证明: $\\alpha\\beta^T$ 是 $\\varphi$ 的特征向量.\n(3) 若 $A$ 有 $n$ 个互异的特征值, 证明: $\\varphi$ 可对角化, 且 $V=\\mathrm{Ker}(\\varphi)\\oplus\\mathrm{Im}\\,\\varphi$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "在次数小于 3 的多项式空间 $V=\\mathbb{R}[x]_3$ 中定义内积\n$$(f(x),g(x))=f(-1)g(-1)+f(0)g(0)+f(1)g(1).$$\n(1) 求基 $\\alpha_1=1,\\alpha_2=x,\\alpha_3=x^2$ 的度量矩阵.\n(2) 求由 $\\alpha_2,\\alpha_3$ 生成的子空间 $L(\\alpha_2,\\alpha_3)$ 的正交补空间的基元 $\\beta_1$.\n(3) 求向量 $\\beta_1,\\beta_2,\\beta_3$, 使得 $(\\alpha_i,\\beta_j)=\\delta_{ij}$, 其中当 $i=j$ 时, $\\delta_{ij}=1$, 当 $i\\ne j$ 时, $\\delta_{ij}=0$. 并证明 $\\beta_1,\\beta_2,\\beta_3$ 也是 $V$ 的一组基."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "msgid": "2247529076",
+  "exams": [
+    {
+      "school": "上海交通大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "16. 上海交通大学 2025 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247529076_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明: $x^p+px-p+1$ 在有理数域上不可约, 其中 $p$ 为奇素数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "求矩阵 $A=\\begin{pmatrix}2&0&3&7\\\\ 2&0&-3&-7\\\\ 2&0&-3&7\\\\ 2&0&-3&-7\\end{pmatrix}$ 的行空间, 列空间, 零空间, 左零空间的一组基(此处原本为三个矩阵相乘)。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $A=\\begin{pmatrix}4&1&1\\\\ 1&4&1\\\\ 1&1&4\\end{pmatrix}$.\n(1) 求 $A$ 的特征多项式, 特征值.\n(2) 求矩阵 $P$, 使得 $P^TAP$ 为对角阵.\n(3) 将 $4x_1^2+4x_2^2+4x_3^2+2x_1x_2+2x_1x_3+2x_2x_3$ 化为标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $N=\\begin{pmatrix}0&1& &\\\\ &0&\\ddots&\\\\ &&\\ddots&1\\\\ &&&0\\end{pmatrix}_{10\\times 10}$.\n(1) 求 $N^3$ 的若尔当标准形 $J$.\n(2) 求置换矩阵 $P$ 使得 $P^{-1}N^3P=J$, $P$ 用标准单位列向量 $e_1,e_2,\\cdots,e_{10}$ 表示.\n(3) 对于一般的 $n$ 阶若尔当块 $J_n(0)$ 和任意的正整数 $k$, 考虑 $J_n^k(0)$ 的若尔当标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "证明: $A^2=I$ 的充要条件是 $r(A+I)+r(A-I)=n$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "设 $\\varphi$ 是 $n$ 维酉空间 $V$ 上的线性变换, 证明: $\\varphi$ 是正规算子的充要条件是存在复系数多项式 $f(x)$, 使得\n$$\\varphi^*=f(\\varphi).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "在 $n$ 维欧氏空间中, 两两内积为负的向量的个数至多是多少? 请证明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$, $W$ 为线性空间(有限或无限维), $V'$, $W'$ 为 $V$ 和 $W$ 的对偶空间, $T$ 与 $T'$ 为线性算子, 且 $T\\in L(V,W)$, $T'\\in L(W',V')$. 证明: $T$ 为满射的充要条件是 $T'$ 为单射。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)=x^n+a_1x^{n-1}+\\cdots+a_n$, $\\mu$ 为 $f(x)$ 的根, 证明: $|\\mu|\\le\\max\\left\\{1,\\sum\\limits_{j=1}^{n}|a_j|\\right\\}$, 且\n$$|\\mu|\\le\\max\\{\\{1+|a_j|,\\ j=1,2,\\cdots,n\\}\\cup\\{|a_n|\\}\\}.$$"
+        }
+      ]
+    }
+  ]
+}

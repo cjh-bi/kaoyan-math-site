@@ -1,0 +1,213 @@
+{
+  "msgid": "2247529057",
+  "exams": [
+    {
+      "school": "天津大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "22. 天津大学 2025 年数学分析试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247529057_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "证明: $\\displaystyle\\int_{1}^{+\\infty}\\dfrac{\\sin \\pi x}{x}\\,\\mathrm{d}x<0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "$f(x)$ 是定义在 $[a,b]$ 上的函数, 且每一个点处极限都存在. 证明: $f(x)$ 在 $[a,b]$ 上有界."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[0,\\pi]$ 上有连续可微, 且 $\\displaystyle\\int_{0}^{\\pi}f(x)\\,\\mathrm{d}x=0$. 证明: $$\\int_{0}^{\\pi}f^{2}(x)\\,\\mathrm{d}x\\leq\\int_{0}^{\\pi}[f'(x)]^{2}\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知 $f(x)$ 在 $[0,1]$ 上二阶可导, 且 $f(0)=0$, $f(1)=3$, $\\min\\limits_{x\\in[0,1]}f(x)=-1$. 证明: 存在 $c\\in(0,1)$, 使得 $$f''(c)\\geq 18.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $x,y>0$, 证明: $\\dfrac{1}{4}(x^{2}+y^{2})\\leq e^{x+2y-2}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $a_n,b_n\\to 0$ $(n\\to\\infty)$, 且 $b_1>b_2>b_3>\\cdots$, 若 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n-a_{n-1}}{b_n-b_{n-1}}=A$, 证明: $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{b_n}=A$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 是 $[0,+\\infty)$ 上的可导函数, 且 $\\lim\\limits_{x\\to+\\infty}f'(x)=A$ ($A$ 为有限数或 $+\\infty$), 证明: $f(x)$ 在 $[0,+\\infty)$ 上一致连续的充要条件是 $A$ 为有限数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $\\boldsymbol{x}\\in\\mathbb{R}^{3}$, 定义范数 $N(\\boldsymbol{x}):\\mathbb{R}^{3}\\to\\mathbb{R}$ 若满足\n(1) $N(\\boldsymbol{x})\\geq 0$, 且仅当 $\\boldsymbol{x}=\\boldsymbol{0}$ 时, 有 $N(\\boldsymbol{x})=0$.\n(2) $N(\\boldsymbol{x}+\\boldsymbol{y})\\leq N(\\boldsymbol{x})+N(\\boldsymbol{y})$, $\\forall \\boldsymbol{x},\\boldsymbol{y}\\in\\mathbb{R}^{3}$.\n(3) $N(k\\boldsymbol{x})=|k|N(\\boldsymbol{x})$, $\\forall \\boldsymbol{x}\\in\\mathbb{R}^{3}$, $k\\in\\mathbb{R}$.\n上述空间被称为欧氏空间. 内积定义的范数 $\\|\\boldsymbol{x}\\|=\\sqrt{\\boldsymbol{x}\\cdot\\boldsymbol{x}}$.\n(1) 证明: $N(\\boldsymbol{x})$ 在 $B=\\{\\boldsymbol{x}\\in\\mathbb{R}^{3}\\mid\\|\\boldsymbol{x}\\|\\leq 1\\}$ 上有界.\n(2) $N(\\boldsymbol{x})$ 在 $\\mathbb{R}^{3}$ 上连续.\n(3) 对任意的 $\\boldsymbol{x}\\in\\mathbb{R}^{3}$, 记 $r=\\|\\boldsymbol{x}\\|$, 存在 $a,b\\in\\mathbb{R}$, 使得 $$ar\\leq N(\\boldsymbol{x})\\leq br.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "记 $H$ 为黑塞矩阵.\n(1) 在点 $(a,b)$ 处, 已知 $f_x(a,b)=f_y(a,b)=0$, $H=\\begin{pmatrix}f_{xx}(x,y) & f_{xy}(x,y)\\\\ f_{yx}(x,y) & f_{yy}(x,y)\\end{pmatrix}$, 且 $H$ 在 $(a,b)$ 处正定, 证明: $(a,b)$ 为 $f$ 的严格极小值点.\n(2) 若 $H$ 在 $\\mathbb{R}^{2}$ 上处处正定, 则 $f$ 在 $\\mathbb{R}^{2}$ 上至多有一个极值点."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $B$ 为单位球, $f$ 在 $B$ 上有定义, $\\boldsymbol{v}=(v_1,v_2,v_3)$, $\\nabla\\cdot\\boldsymbol{v}=0$. 在 $B$ 上有 $\\boldsymbol{v}=0$.\n(1) 求证: $\\displaystyle\\int_{B}\\nabla f\\cdot\\boldsymbol{v}\\,\\mathrm{d}x=0$.\n(2) 求证: $\\displaystyle\\int_{B}v_{1}\\,\\mathrm{d}x=0$."
+        }
+      ]
+    },
+    {
+      "school": "天津大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "22. 天津大学 2025 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247529057_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "",
+          "stem": "记 $$s_1(x_1,x_2,x_3,x_4)=x_1+x_2+x_3+x_4,\\ s_2(x_1,x_2,x_3,x_4)=\\sum_{i<j}x_ix_j;$$ $$s_3(x_1,x_2,x_3,x_4)=\\sum_{i<j<k}x_ix_jx_k,\\ s_4(x_1,x_2,x_3,x_4)=x_1x_2x_3x_4.$$\n(1) 证明: $s_i$ 为对称多项式($i=1,2,3,4$).\n(2) $f(y_1,y_2,y_3,y_4)=2y_1^{2}-3y_3y_4$, 计算 $f(s_1,s_2,s_3,s_4)$, 并证明其是对称多项式."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "证明: $n$ 阶矩阵 $A$ 与任意 $n$ 阶可逆矩阵 $B$ 可交换的充要条件是 $A=kI_n$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "$A$ 为 $m\\times n$ 矩阵, $B$ 为 $s\\times n$ 矩阵, $XA=B$ 有解的充要条件是 $r(A^{T}\\mid B^{T})=r(A^{T})$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 是线性无关的向量组, 记 $$\\beta_1=\\alpha_1+\\alpha_2,\\beta_2=\\alpha_2+\\alpha_3,\\cdots,\\beta_n=\\alpha_n+\\alpha_1.$$ 证明: 当 $n$ 为奇数时, $\\beta_1,\\cdots,\\beta_n$ 线性无关, 当 $n$ 为偶数时, $\\beta_1,\\cdots,\\beta_n$ 线性相关."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$\\mathbb{C}_n[x]$ 表示次数小于 $n$ 的多项式与零多项式生成的集合, $\\lambda_1,\\cdots,\\lambda_n$ 为 $n$ 个不同的 $n$ 次单位根. 证明:\n(1) $\\mathbb{C}_n[x]$ 中多项式构成 $\\mathbb{C}$ 上的线性空间, 并说明维数, 且 $1,x,\\cdots,x^{n-1}$ 为 $\\mathbb{C}_n[x]$ 的一组基.\n(2) 设 $f_i(x)=(x-\\lambda_1)\\cdots(x-\\lambda_{i-1})(x-\\lambda_{i+1})\\cdots(x-\\lambda_n)$, 证明: $f_1,\\cdots,f_n$ 构成 $\\mathbb{C}_n[x]$ 的一组基, 并求 $1,x,\\cdots,x^{n-1}$ 到 $f_1,\\cdots,f_n$ 的过渡矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答如下问题:",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "(1) 设 $A$ 为实对称矩阵, $C$ 为任意的可逆矩阵, 证明: $A$ 正定的充要条件是 $C^{T}AC$ 正定.\n(2) 设 $A=\\begin{pmatrix}1 & 2t & 5\\\\ 2t & 16 & 6\\\\ 4 & 6 & 1\\end{pmatrix}$ 为正定阵, 求 $t$ 的取值范围."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "$A$ 为 $n$ 阶实对称矩阵, 定积内积 $(\\alpha\\mid\\beta)=\\alpha^{T}\\beta$.\n(1) 证明: $\\lambda_1(\\alpha^{T}\\mid\\alpha)\\leq\\alpha^{T}A\\alpha=\\lambda_n(\\alpha^{T}\\mid\\alpha)$, 其中 $\\lambda_1\\leq\\lambda_2\\leq\\cdots\\leq\\lambda_n$ 为 $A$ 的全部特征值.\n(2) 求 $f(x,y,z)=x^{2}+y^{2}+z^{2}-2xy-2xz+2yz$ 在 $x^{2}+y^{2}+z^{2}=1$ 的情况下的最大值, 取最大值时, $x,y,z$ 分别是多少?"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知 $$A=\\begin{pmatrix}1 & 1 & \\cdots & 1\\\\ 0 & 1 & \\cdots & 1\\\\ \\vdots & \\vdots & & \\vdots\\\\ 0 & 0 & \\cdots & 1\\end{pmatrix}.$$\n(1) 求 $\\displaystyle\\sum_{i=1}^{3}\\sum_{j=1}^{3}A_{ij}$.\n(2) 求 $A$ 的 Jordan 标准形.\n(3) 设 $C$ 为幂零阵, $B=I-C$, 求 $B^{-1}$ 的若尔当标准形."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "$M_{n\\times n}(\\mathbb{K})$ 为 $n$ 阶矩阵全体, $A,X\\in M_{n\\times n}(\\mathbb{K})$, 定义 $\\varphi(X)=AX$.\n(1) 证明: $\\varphi$ 为 $M_{n\\times n}(\\mathbb{K})$ 上的线性变换.\n(2) 证明: 存在 $M_{n\\times n}(\\mathbb{K})$ 的一组基 $X_{ij}$ 与常数 $c_{ij}$, 使得 $\\varphi(X_{ij})=c_{ij}X_{ij}$."
+        }
+      ]
+    }
+  ]
+}

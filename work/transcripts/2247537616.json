@@ -1,0 +1,223 @@
+{
+  "msgid": "2247537616",
+  "exams": [
+    {
+      "school": "西北大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "64. 西北大学 2026 年数学分析试卷(回忆版) (注. 题目来自考生回忆, 部分表述或数据可能有误)",
+      "source_imgs": ["work/imgs/2247537616_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(15 分) 解答如下问题:",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "(1) 用极限的定义证明: 当 $\\lim\\limits_{n\\to\\infty} a_n=0$ 时, 有 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_1+a_2+\\cdots+a_n}{n}=0$.\n(2) 若 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_1+a_2+\\cdots+a_n}{n}=0$, 是否有 $\\lim\\limits_{n\\to\\infty} a_n=0$? 为什么?\n(3) 求 $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{\\dfrac{1}{n!}}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "已知 $f(x,y)$ 在 $(0,0)$ 的某邻域连续, 且 $F(t)=\\displaystyle\\iint_{x^2+y^2\\le t^2} f(x,y)\\,\\mathrm{d}x\\mathrm{d}y$, 求 $\\lim\\limits_{t\\to 0}\\dfrac{F'(t)}{e^{3t}-1}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分) 解答如下问题:",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "(1) 证明: 若 $\\lim\\limits_{n\\to\\infty}(a_{n+1}-a_n)=a$, 则 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{n}=a$.\n(2) 已知 $0<x_1<1$, $x_{n+1}=x_n(1-x_n)$, 证明: $\\lim\\limits_{n\\to\\infty} n x_n=1$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设函数 $f(x)$ 在 $x=0$ 的某邻域存在连续的一阶导数, 且 $f'(0)=0$, $f''(0)$ 存在, 求极限\n$$\\lim_{x\\to 0}\\dfrac{f(x)-f(\\ln(1+x))}{x^3}.$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求 $\\displaystyle\\sum_{k=1}^{\\infty}\\left(\\dfrac{(-1)^k}{2k+1}+\\dfrac{1}{k(k+1)}\\right)$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求第二型曲面积分\n$$\\iint_S (y+z)\\,\\mathrm{d}y\\mathrm{d}z+(x^2+z^2)y\\,\\mathrm{d}z\\mathrm{d}x+(x+y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n(另一个版本为 $\\displaystyle\\iint_S yz\\,\\mathrm{d}y\\mathrm{d}z+(x^2+z^2)y\\,\\mathrm{d}z\\mathrm{d}x+xy\\,\\mathrm{d}x\\mathrm{d}y$)\n其中 $S$: $4-y=x^2+z^2$ $(y\\ge 0)$ 的右侧."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "叙述并证明康托尔(Cantor)定理."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=|x-y|\\,\\varphi(x,y)$, 其中 $\\varphi(x,y)$ 在 $(0,0)$ 的某邻域内有定义, 且在 $(0,0)$ 处连续. 证明: $\\varphi(0,0)=0$ 的充分必要条件是 $f(x,y)$ 在 $(0,0)$ 处可微."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知黎曼函数\n$$R(x)=\\begin{cases} \\dfrac{1}{q}, & x=\\dfrac{p}{q}, \\text{ 其中 } p,q \\text{ 为正整数, 且 } (p,q)=1; \\\\ 0, & x \\text{ 为无理数}; \\\\ 1, & x=0,1. \\text{ (可能有误, 黎曼函数在端点处取值应为 0)} \\end{cases}$$\n讨论并说明 $R(x)$ 在 $[0,1]$ 上的可积性与连续性."
+        },
+        {
+          "section": "十",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知 $g(0)=\\dfrac{\\sqrt{\\pi}}{2}$, 求 $g(\\alpha)=\\displaystyle\\int_0^{+\\infty} e^{-x^2}\\cos 2\\alpha x\\,\\mathrm{d}x$."
+        }
+      ]
+    },
+    {
+      "school": "西北大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "64. 西北大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537616_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $x_1,x_2,x_3$ 是多项式\n$$f(x)=x^3+ax+1$$\n的全部根, 求一个三次多项式 $g(x)$, 使得 $g(x)$ 以 $x_1^2,x_2^2,x_3^2$ 为根."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 是 $n$ 维线性空间, $n\\ge 1$, 证明: $V$ 中存在一个由无穷多个向量构成的向量组, 使得该向量组中任意 $n$ 个向量都是 $V$ 的一组基."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 是数域上的 $n$ 阶方阵, $n\\ge 2$, $A^{*}$ 是 $A$ 的伴随矩阵, 且存在 $n$ 维非零向量 $\\alpha$, 满足 $A\\alpha=0$. 证明: 非齐次线性方程组 $A^{*}X=\\alpha$ 有解当且仅当秩$(A)=n-1$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A$ 为三阶矩阵, $X$ 为三维列向量, 满足 $X,AX,A^2X$ 线性无关, 以及 $A^3X=3AX-2A^2X$.\n(1) 记 $P=(X,AX,A^2X)$, 求三阶矩阵 $B$, 使得 $A=PBP^{-1}$.\n(2) 计算行列式 $|A+E|$, 其中 $E$ 为单位矩阵."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设\n$$A=\\begin{pmatrix} 1 & 0 & 0 \\\\ 1 & 0 & 1 \\\\ 0 & 1 & 0 \\end{pmatrix}.$$\n证明: $A^n=A^{n-2}+A^2-E$, 其中 $n\\ge 3$, $E$ 为单位矩阵, 并求出 $A^{1000}$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V$ 为有限维线性空间, $V_1$ 为 $V$ 的非零子空间. 证明: 如果有且仅有一个子空间 $V_2$, 使得 $V=V_1\\oplus V_2$, 则必有 $V_1=V$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是数域上的 $n$ 维线性空间, $\\sigma$ 是 $V$ 上的一个线性变换, $\\sigma(V)$ 表示 $\\sigma$ 的值域, $\\sigma^{-1}(0)$ 表示 $\\sigma$ 的核. 证明:\n(1) 维$(\\sigma(V)+\\sigma^{-1}(0))\\ge\\dfrac{n}{2}$.\n(2) 维$(\\sigma(V)+\\sigma^{-1}(0))=\\dfrac{n}{2}$ 当且仅当 $\\sigma(V)=\\sigma^{-1}(0)$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为实对称矩阵, $S$ 为实反称矩阵, $AS=SA$, $A$ 可逆, 证明: $A-S$ 可逆, 且\n$$(A+S)(A-S)^{-1}$$\n为正交矩阵."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B$ 为数域上的 $n$ 阶方阵, 且 $A$ 的 $n$ 个特征值两两不同. 证明: $A$ 的特征向量都是 $B$ 的特征向量当且仅当 $AB=BA$."
+        },
+        {
+          "section": "十",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 为五维欧几里得空间 $V$ 的一组标准正交基,\n$$W=\\{x_1\\alpha_1+x_2\\alpha_2+x_3\\alpha_3+x_4\\alpha_4 \\mid x_1+x_2+x_3+x_4=0\\}.$$\n证明: $W$ 是 $V$ 的子空间, 求出 $W$ 的维数与一组基, 并求出 $W$ 的正交补."
+        }
+      ]
+    }
+  ]
+}

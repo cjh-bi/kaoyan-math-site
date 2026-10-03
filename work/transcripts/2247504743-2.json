@@ -1,0 +1,303 @@
+{
+  "msgid": "2247504743-2",
+  "exams": [
+    {
+      "school": "上海理工大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "87. 上海理工大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504743-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $S=\\left\\{(-1)^n\\dfrac{n}{n+1}\\ \\middle|\\ n=1,2,\\cdots\\right\\}$，则 $\\sup S=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim\\limits_{x\\to+\\infty}\\dfrac{\\sin x^2}{x}=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设曲线 $y=f(x)$ 与 $y=e^x$ 在点 $(0,1)$ 处相切，则 $\\lim\\limits_{n\\to\\infty}n\\left[f\\left(\\dfrac{2}{n}\\right)-1\\right]=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "$\\int\\ln\\sqrt[3]{x}\\,\\mathrm{d}x=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "$\\displaystyle\\int_0^{+\\infty}x^2 e^{-x}\\,\\mathrm{d}x=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "设 $a_1=a_2=1$，$a_{n+2}=a_n+a_{n+1}$（$n=1,2,\\cdots$），则 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{2^n}=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z=\\sqrt{x^2+y^2}$，则 $\\mathrm{d}z|_{(1,1)}=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $D$ 是由曲线 $|x|+|y|=1$ 所围成的区域，则 $\\displaystyle\\iint_D|x|\\,\\mathrm{d}x\\mathrm{d}y=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "9",
+          "score": null,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 是 $y=x^3$ 从点 $(0,0)$ 到 $(1,1)$ 的一段弧长，则 $\\displaystyle\\int_L x\\,\\mathrm{d}y+y\\,\\mathrm{d}x=$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "10",
+          "score": null,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(3+(-1)^n\\right)^n x^n$ 的收敛半径 $R=$ __________。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{e^{2-2\\cos x}-e^{x^2}}{x^4}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\sqrt[n]{(n+1)(n+2)\\cdots(2n)}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求积分 $\\displaystyle\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\dfrac{x+\\sin^2 x}{(1+\\cos x)^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求函数 $f(x,y)=\\left(y+\\dfrac{x^3}{3}\\right)e^{x+y}$ 的极值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分 $$I=\\iint_\\Sigma x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y,$$ 其中 $\\Sigma$ 是曲面 $z=x^2+y^2$（$0\\le z\\le 1$），方向取上侧。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "已知函数 $f(x)$，$g(x)$ 定义在 $(-\\infty,+\\infty)$ 上，且 $g(x)$ 单调递增，证明：若 $\\lim\\limits_{x\\to\\infty}g(f(x))=\\infty$，则 $\\lim\\limits_{x\\to\\infty}f(x)=\\infty$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $0<\\alpha\\le 1$，证明：$f(x)=\\sin(x^{\\alpha})$ 在 $[0,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上一阶连续可微，且 $$f(x+1)-f(x)=f'(x),\\quad x\\in(-\\infty,+\\infty).$$ 证明：若 $\\lim\\limits_{x\\to+\\infty}f'(x)=A$ 存在，则 $f'(x)\\equiv A$，$x\\in(-\\infty,+\\infty)$。"
+        }
+      ]
+    },
+    {
+      "school": "上海理工大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "88. 上海理工大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504743-2_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $$\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\ a_{21}&a_{22}&\\cdots&a_{2n}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{n1}&a_{n2}&\\cdots&a_{nn}\\end{vmatrix}=1,$$ 且满足 $a_{ij}=-a_{ji}$（$i,j=1,2,\\cdots,n$），对任意的数 $b$，求 $$\\begin{vmatrix}a_{11}+b&a_{12}+b&\\cdots&a_{1n}+b\\\\ a_{21}+b&a_{22}+b&\\cdots&a_{2n}+b\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{n1}+b&a_{n2}+b&\\cdots&a_{nn}+b\\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "若整系数线性方程组 $$\\begin{pmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\ a_{21}&a_{22}&\\cdots&a_{2n}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{n1}&a_{n2}&\\cdots&a_{nn}\\end{pmatrix}\\begin{pmatrix}x_1\\\\ x_2\\\\ \\vdots\\\\ x_n\\end{pmatrix}=\\begin{pmatrix}b_1\\\\ b_2\\\\ \\vdots\\\\ b_n\\end{pmatrix},$$ 对任意的整数 $b_1,b_2,\\cdots,b_n$ 都有整数解，则求该方程组的系数矩阵的行列式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 为 $n$ 阶方阵，证明：存在一可逆矩阵 $B$ 及一个幂等矩阵 $C$，使得 $A=BC$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)$ 是实数域 $\\mathbb{R}$ 上的多项式，若 $f(x+y)=f(x)f(y)$，$\\forall x,y\\in\\mathbb{R}$，求 $f(x)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知实二次型 $$f(x_1,x_2,x_3)=x_1^2+ax_2^2+x_3^2+2bx_1x_2+2x_1x_3+2x_2x_3$$ 经过正交线性替换 $(x_1,x_2,x_3)^T=P(y_1,y_2,y_3)^T$ 化为标准形 $y_1^2+4y_2^2$，求 $a,b$ 的值及正交矩阵 $P$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "若 $n$ 维线性空间的两个线性子空间的和的维数减 1 等于它们交的维数。证明：它们的和与其中一个子空间相等，它们的交与另外一个子空间相等。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A$ 为 3 阶矩阵，$\\alpha$ 为 3 维列向量，且 $\\alpha$，$A\\alpha$，$A^2\\alpha$ 线性无关，$A^3\\alpha=3A\\alpha-2A^2\\alpha$，证明：矩阵 $B=(\\alpha,A\\alpha,A^4\\alpha)$ 可逆。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求 $A$ 的若尔当标准形，其中 $$A=\\begin{pmatrix}3&0&8&0\\\\ 3&-1&6&0\\\\ -2&0&-5&0\\\\ 0&0&0&2\\end{pmatrix}.$$"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶正定矩阵，判断 $A+A^{-1}-E$ 是否正定矩阵，并说明理由。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A,B$ 为 2 阶矩阵，且 $A=AB-BA$，求 $A^2$。"
+        }
+      ]
+    }
+  ]
+}

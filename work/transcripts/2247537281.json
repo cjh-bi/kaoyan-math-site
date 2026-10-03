@@ -1,0 +1,273 @@
+{
+  "msgid": "2247537281",
+  "exams": [
+    {
+      "school": "华东理工大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "20. 华东理工大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537281_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "写出基本数列(Cauchy 数列)的定义。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $x_1>0$, 对 $n\\ge 1$, 有 $x_{n+1}=\\arctan x_n$, 证明: $\\{x_n\\}$ 是基本数列。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f$ 在闭区间 $[a,b]$ 上有二阶导数, 且 $f'(a)=f'(b)=0$, 证明: 存在 $\\xi\\in(a,b)$, 使得\n$$|f''(\\xi)|\\ge 4\\dfrac{|f(b)-f(a)|}{(b-a)^2}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "在 $\\mathbb{R}^2$ 上的函数\n$$f(x,y)=\\begin{cases}\\dfrac{x^2-y^2}{x^2+y^2}, & x^2+y^2\\ne 0,\\\\[1mm] 0, & x^2+y^2=0.\\end{cases}$$\n讨论 $f$ 在 $(0,0)$ 点的连续性。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "$f$ 在 $[0,1]$ 上可积, 说明: $\\displaystyle\\int_{0}^{1}f(x)\\,\\mathrm{d}x=\\lim_{n\\to\\infty}\\sum_{k=1}^{n}\\dfrac{1}{n}f\\left(\\dfrac{k-1}{n}\\right)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "对 $n\\ge 1$, 定义 $A_n=\\dfrac{\\sum\\limits_{k=1}^{n}k\\sin\\left(\\frac{k-1}{n}\\pi\\right)}{n^2}$, 求 $\\lim\\limits_{n\\to\\infty}A_n$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "记 $I_p=\\displaystyle\\int_{2}^{+\\infty}\\dfrac{(\\ln x)^p\\sin x}{x}\\,\\mathrm{d}x$, $p\\in\\mathbb{R}$",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "记 $I_p=\\displaystyle\\int_{2}^{+\\infty}\\dfrac{(\\ln x)^p\\sin x}{x}\\,\\mathrm{d}x$, $p\\in\\mathbb{R}$。当 $p=0$ 时, 求 $I_p$ 的敛散性。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "记 $I_p=\\displaystyle\\int_{2}^{+\\infty}\\dfrac{(\\ln x)^p\\sin x}{x}\\,\\mathrm{d}x$, $p\\in\\mathbb{R}$",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "记 $I_p=\\displaystyle\\int_{2}^{+\\infty}\\dfrac{(\\ln x)^p\\sin x}{x}\\,\\mathrm{d}x$, $p\\in\\mathbb{R}$。当 $p=1$ 时, 求 $I_p$ 的敛散性。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分 $I=\\displaystyle\\oint_{\\Gamma}|\\sqrt{3}y-x|\\,\\mathrm{d}x-5z\\,\\mathrm{d}z$, 其中\n$$\\Gamma:\\begin{cases}x^2+y^2+z^2=8,\\\\ x^2+y^2=2z.\\end{cases}$$\n从 $z$ 轴正向往坐标原点看去取逆时针方向。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "已知 $F$ 有二阶连续导数, $z=z(x,y)$ 是由 $F\\left(z+\\dfrac{1}{x},z-\\dfrac{1}{y}\\right)=0$ 确定的隐函数. 且 $z$ 有连续二阶偏导数. 证明:",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "已知 $F$ 有二阶连续导数, $z=z(x,y)$ 是由 $F\\left(z+\\dfrac{1}{x},z-\\dfrac{1}{y}\\right)=0$ 确定的隐函数, 且 $z$ 有连续二阶偏导数。证明: $x^2\\dfrac{\\partial z}{\\partial x}-y^2\\dfrac{\\partial z}{\\partial y}=1$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "已知 $F$ 有二阶连续导数, $z=z(x,y)$ 是由 $F\\left(z+\\dfrac{1}{x},z-\\dfrac{1}{y}\\right)=0$ 确定的隐函数. 且 $z$ 有连续二阶偏导数. 证明:",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "已知 $F$ 有二阶连续导数, $z=z(x,y)$ 是由 $F\\left(z+\\dfrac{1}{x},z-\\dfrac{1}{y}\\right)=0$ 确定的隐函数, 且 $z$ 有连续二阶偏导数。证明: $x^3\\dfrac{\\partial^2 z}{\\partial x^2}+xy(x-y)\\dfrac{\\partial^2 z}{\\partial x\\partial y}-y^3\\dfrac{\\partial^2 z}{\\partial y^2}+2=0$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "设 $\\Sigma$ 是单位球面 $\\{(x,y,z)\\in\\mathbb{R}^3: x^2+y^2+z^2=1\\}$, 记 $I_p=\\displaystyle\\iint_{\\Sigma}(x+y+z)^p\\,\\mathrm{d}S$, $p$ 是正整数, 求 $I_1,I_2$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "给出函数列一致收敛的定义。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "对 $n\\ge 1$, 设 $S_n(x)=\\dfrac{x}{1+n^2x^2}$, 证明: 函数列 $\\{S_n(x)\\}$ 在 $(0,+\\infty)$ 上一致收敛。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "解答如下问题:",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "当 $n\\ge 1$ 时, $T_n(x)=\\dfrac{\\sqrt{x}}{1+n^2x^2}$, 问: 函数列 $\\{T_n(x)\\}$ 在 $(0,+\\infty)$ 上是否一致收敛? 请证明你的结论。"
+        }
+      ]
+    },
+    {
+      "school": "华东理工大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "20. 华东理工大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537281_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "求所有整数 $m$, 使多项式 $f(x)=x^5+mx+1$ 在有理数域上可约。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ $(n>2)$ 阶行列式 $D$ 所有元素为 $1$ 或 $-1$, 求证: $D$ 的绝对值 $|D|\\le(n-1)!(n-1)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\alpha,\\beta$ 为不同的 $n$ 维实列向量, 若 $\\|\\alpha\\|=\\|\\beta\\|$, 证明: 存在 $n$ 阶方阵 $H=I_n-2uu'$, 使得 $H\\alpha=\\beta$, 其中 $u$ 为某个单位向量。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设四元齐次线性方程组\n$$(1):\\begin{cases}x_1+x_2=0,\\\\ x_3-x_4=0.\\end{cases}$$\n又已知某齐次线性方程组 (2) 的基础解系为\n$$\\eta_1=\\begin{pmatrix} 0\\\\ 1\\\\ 1\\\\ 0 \\end{pmatrix},\\ \\eta_2=\\begin{pmatrix} -1\\\\ 2\\\\ 2\\\\ 1 \\end{pmatrix}.$$\n求方程组 (1) 与 (2) 的公共解。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设\n$$\\alpha_1=(1,1,0,0)',\\ \\alpha_2=(0,1,1,0)',\\ \\alpha_3=(0,0,1,1)',$$\n$$\\beta_1=(1,0,1,0)',\\ \\beta_2=(0,2,1,1)',\\ \\beta_3=(1,2,1,2)'.$$\n求向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 和向量组 $\\beta_1,\\beta_2,\\beta_3$ 所生成的两个线性空间的和与交的维数与一组基。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $M$ 是数域 $F$ 上的 $n$ 阶方阵, $f(x),g(x)$ 是数域 $F$ 上的多项式, $A=f(M),B=g(M)$, $W,W_1,W_2$ 分别为方程组 $ABX=0,AX=0,BX=0$ 的解空间. 若 $f(x),g(x)$ 互素, 求证: $W=W_1\\oplus W_2$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设\n$$A=\\begin{pmatrix} 1 & a & b\\\\ 0 & \\omega & c\\\\ 0 & 0 & \\omega^2 \\end{pmatrix}.$$\n其中 $a,b,c$ 为任意数, $\\omega=\\dfrac{-1+\\sqrt{-3}}{2}$, 求 $A^{100}$ 及 $A^{-1}$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 为 $n$ 维欧氏空间 $V$ 的两组向量. 证明: 若\n$$(\\alpha_i,\\alpha_j)=(\\beta_i,\\beta_j),\\ i,j=1,2,\\cdots,m,$$\n则由向量组生成的子空间 $L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_m)$ 与 $L(\\beta_1,\\beta_2,\\cdots,\\beta_m)$ 同构。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶正定对称矩阵, $n$ 维实列向量组 $\\alpha,\\beta$ 满足 $\\alpha'\\beta>0$, 求证:\n$$H=A-\\dfrac{A\\beta\\beta'A}{\\beta'A\\beta}+\\dfrac{\\alpha\\alpha'}{\\alpha'\\beta}$$\n是正定矩阵。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "判定实二次型 $f(x_1,x_2,x_3)=5x_1^2+x_2^2+5x_3^2+4x_1x_2-8x_1x_3-4x_2x_3$ 是否正定。"
+        }
+      ]
+    }
+  ]
+}

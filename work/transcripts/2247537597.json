@@ -1,0 +1,213 @@
+{
+  "msgid": "2247537597",
+  "exams": [
+    {
+      "school": "湖南大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "52. 湖南大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537597_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "试求极限 $\\lim\\limits_{n\\to\\infty}\\sum_{i=1}^{n}\\dfrac{\\sin\\frac{i}{n}\\pi}{n+\\frac{i}{n}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 上二阶可导，$f(0)f(1)>0$ 且 $f''(x)>0$，$\\displaystyle\\int_0^1 f(x)\\,\\mathrm{d}x=0$.\n(1) 证明：$f(x)$ 在 $(0,1)$ 上恰有两个零点.\n(2) 证明：存在 $c\\in(0,1)$，使得 $f'(c)=\\displaystyle\\int_0^c f(x)\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "解答如下问题：\n(1) 证明：$f(x,y)=\\sqrt{x^2+y^2}$ 在 $\\mathbb{R}^2$ 上一致连续.\n(2) 证明：$h(x,y)=(x^2+y^2)^{\\frac{3}{2}}$ 在 $\\mathbb{R}^2$ 上非一致连续."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "设 $(x_0,y_0)\\in\\mathbb{R}^2$，$f(x,y)$ 在 $(x_0,y_0)$ 处连续，$g(x,y)$ 在 $(x_0,y_0)$ 处可微且 $g(x_0,y_0)=0$，证明：$f(x,y)g(x,y)$ 在 $(x_0,y_0)$ 处可微."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f\\in C^2[0,1]$，$f(0)=f(1)=0$，$f(x)$ 在 $(0,1)$ 上无零点，证明：$\\displaystyle\\int_0^1\\left|\\dfrac{f''(x)}{f(x)}\\right|\\,\\mathrm{d}x>4$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "设 $k>1$，且 $ky-\\sin y+x\\cos y=0$.\n(1) 证明：该方程在 $|x|<k-1$，$|y|<+\\infty$ 上确定唯一一个连续可导解 $y=y(x)$.\n(2) 求 $\\lim\\limits_{x\\to 0}\\dfrac{y(x)}{x}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "解答如下问题：\n(1) 证明：$\\displaystyle\\sum_{n=0}^{\\infty}\\int_0^{x}t^n\\sin\\pi t\\,\\mathrm{d}t=\\int_0^{x}\\dfrac{\\sin\\pi t}{1-t}\\,\\mathrm{d}t$，其中 $0\\le x\\le 1$.\n(2) 证明：$\\displaystyle\\sum_{n=0}^{\\infty}\\int_0^{x}t^n\\sin\\pi t\\,\\mathrm{d}t$ 在 $[0,1]$ 上一致收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "设有收敛级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n=S$.\n(1) 求 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_1+2a_2+\\cdots+na_n}{n}$.\n(2) 证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_1+2a_2+\\cdots+na_n}{n(n+1)}$ 收敛，并求其和."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求 $I=\\displaystyle\\iiint_D (x+y)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $D$ 为 $x=0$，$x=1$，$x^2+1=\\dfrac{y^2}{a^2}+\\dfrac{z^2}{b^2}$ $(a,b>0)$ 围成的区域."
+        }
+      ]
+    },
+    {
+      "school": "湖南大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "52. 湖南大学 2026 年高等代数试卷(回忆版)（注. 题目来自考生回忆, 部分表述或数据可能有误）",
+      "source_imgs": ["work/imgs/2247537597_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设\n$$f(x)=\\begin{vmatrix} x & & & & 9 \\\\ -1 & x & & & 33 \\\\ & -1 & x & & 19 \\\\ & & -1 & x & 12 \\\\ & & & -1 & x+6 \\end{vmatrix}.$$\n将 $f(x)$ 在有理数域 $\\mathbb{Q}$ 上分解为不可约多项式的乘积."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $f_k(x)=1+x+\\cdots+x^{k-1}$，求\n$$D_n=|f_i(j)|=\\begin{vmatrix} f_1(1) & f_1(2) & \\cdots & f_1(n) \\\\ f_2(1) & f_2(2) & \\cdots & f_2(n) \\\\ \\vdots & \\vdots & & \\vdots \\\\ f_n(1) & f_n(2) & \\cdots & f_n(n) \\end{vmatrix}.$$\n"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "给定有理数域上的线性方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4=0; \\\\ x_2+2x_3+2x_4=1; \\\\ -x_2+\\lambda x_3-2x_4=\\mu; \\\\ 3x_1+2x_2+x_3+(\\lambda+3)x_4=-1. \\end{cases}$$\n(1) $\\lambda,\\mu\\in\\mathbb{Q}$ 取何值时，线性方程组无解？\n(2) $\\lambda,\\mu\\in\\mathbb{Q}$ 取何值时，线性方程组有唯一解？并求其解.\n(3) $\\lambda,\\mu\\in\\mathbb{Q}$ 取何值时，线性方程组有无穷多解？并求其所有解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "在复数域上有 $n$ 阶矩阵\n$$A=\\begin{pmatrix} 0 & -1 & 0 & \\cdots & 0 \\\\ 0 & 0 & -1 & \\cdots & 0 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ 0 & 0 & 0 & \\cdots & -1 \\\\ -1 & 0 & 0 & \\cdots & 0 \\end{pmatrix}.$$\n求出 $A$ 的所有复特征值以及其对应的特征子空间."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "$E_n$ 是单位矩阵，$\\alpha,\\beta\\in\\mathbb{R}^n$ 是列向量，证明：$E_n+\\alpha\\beta^{\\mathrm{T}}$ 可逆的充要条件是 $1+\\beta^{\\mathrm{T}}\\alpha\\ne 0$，并求 $E_n+\\alpha\\beta^{\\mathrm{T}}$ 的逆."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "证明：$A$ 的行向量组可以由 $B$ 的行向量组线性表出的充要条件是 $BX=0$ 的解都是 $AX=0$ 的解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $P$ 是 $m\\times s$ 矩阵，$Q$ 是 $t\\times n$ 矩阵，$A$ 是 $s\\times t$ 矩阵，证明：$r(PAQ)\\ge r(PA)+r(AQ)-r(A)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "$A$ 为 $n$ 阶实对称矩阵，$p$ 为正整数，$f(X)=X^{\\mathrm{T}}AX$，其中 $X=(x_1,x_2,\\cdots,x_n)^{\\mathrm{T}}$，证明：$A$ 的正惯性指数大于等于 $p$ 的充要条件是存在 $\\mathbb{R}^n$ 的 $p$ 维子空间 $W$，使得 $f(X)>0$，$\\forall X\\in W$ 且 $X\\ne 0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "在欧氏空间中 $\\mathbb{R}^n$，定义标准内积\n$$\\langle X,Y\\rangle=x_1y_1+x_2y_2+\\cdots+x_ny_n.$$\n其中 $X=(x_1,x_2,\\cdots,x_n)^{\\mathrm{T}}$，$Y=(y_1,y_2,\\cdots,y_n)^{\\mathrm{T}}$，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 和 $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 是 $\\mathbb{R}^n$ 中的向量组，证明：$\\langle\\alpha_i,\\alpha_j\\rangle=\\langle\\beta_i,\\beta_j\\rangle$，$1\\le i,j\\le m$ 的充要条件是存在正交变换 $\\mathscr{A}$，使得 $\\mathscr{A}(\\alpha_i)=\\beta_i$，$1\\le i\\le m$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $M_n(\\mathbb{C})$ 复数域 $\\mathbb{C}$ 上所有 $n$ 阶矩阵对通常矩阵加法和数乘运算构成的线性空间，定义 $M_n(\\mathbb{C})$ 上的线性变换 $\\varphi_A(X)=AXA$，其中 $A\\in M_n(\\mathbb{C})$. 证明：若 $A$ 可相似对角化，则存在 $M_n(\\mathbb{C})$ 的一组基，使得 $\\varphi_A$ 在这组基下的矩阵也为对角矩阵."
+        }
+      ]
+    }
+  ]
+}

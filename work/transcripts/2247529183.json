@@ -1,0 +1,243 @@
+{
+  "msgid": "2247529183",
+  "exams": [
+    {
+      "school": "华中师范大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "53. 华中师范大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529183_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求极限 $\\lim\\limits_{R\\to+\\infty}\\iint\\limits_D (x^2+y^2)e^{-(x^2+y^2)}\\,\\mathrm{d}x\\mathrm{d}y$，其中区域 $D=\\{(x,y)\\mid |x|\\le R,\\ |y|\\le R\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $\\varphi(t)=\\int_0^1 \\ln\\sqrt{x^2+t^2}\\,\\mathrm{d}x$ $(0\\le t\\le 1)$，求 $\\varphi$ 在 $t=0$ 处的单侧导数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算 $J=\\int_0^{\\pi} \\dfrac{x\\sin x}{1+\\cos^2 x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "求全微分 $(y+z)\\,\\mathrm{d}x+(z+x)\\,\\mathrm{d}y+(x+y)\\,\\mathrm{d}z$ 的原函数 $u(x,y,z)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 50 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $\\iint_S z^3\\,\\mathrm{d}x\\mathrm{d}y$，其中 $S$ 是椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ $(a,b,c>0)$ 的上半部分，并取外侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "用数列极限的柯西准则证明 $\\lim\\limits_{n\\to\\infty}\\sin n$ 不存在。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设不含原点的开区域 $D\\subset\\mathbb{R}^2$ 上的二元可微函数 $F$ 在直角坐标系下可表示为 $$z=F(x,y)=f(x)g(y),\\ f(x)\\ne 0,\\ g(y)\\ne 0.$$ 它在极坐标系可表示为 $$z=F(r\\cos\\theta,r\\sin\\theta)=h(r).$$ 求二元函数 $z=F(x,y)$ 的显式表达式。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "考察级数 $\\sum\\limits_{n=1}^{\\infty}\\left(1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}\\right)\\dfrac{\\sin n}{n}$ 的敛散性。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设函数 $f$ 在 $\\mathbb{R}$ 上的二阶导数 $f''(x)>0$，又设存在点 $x_0\\in\\mathbb{R}$，使得 $f(x_0)<0$，且 $$\\lim\\limits_{x\\to-\\infty} f'(x)=\\alpha<0,\\quad \\lim\\limits_{x\\to+\\infty} f'(x)=\\beta>0.$$ 证明：$f(x)$ 有且仅有 2 个零点。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设函数 $f$ 在有限区间 $[a,b]$ 上连续，且对任意的 $[\\alpha,\\beta]\\subset[a,b]$，有 $$\\left|\\int_\\alpha^\\beta f(x)\\,\\mathrm{d}x\\right|\\le M|\\beta-\\alpha|^{s+1},$$ 其中 $M,s$ 为正常数。证明：$f(x)\\equiv 0$，$x\\in[a,b]$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设函数 $f$ 在任意有界区间上可积，并且 $\\lim\\limits_{x\\to+\\infty} f(x)=\\alpha$（$\\alpha$ 为有限数）。证明：$$\\lim\\limits_{y\\to 0^+} y\\int_0^{+\\infty} e^{-yx} f(x)\\,\\mathrm{d}x=\\alpha.$$"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "给定级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n}{n^x}$，其中 $a_n$ 均为实数。证明：\n(1)（8 分）若 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n}{n^\\lambda}$ 收敛，则对任意的 $x>\\lambda$，$\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n}{n^x}$ 收敛。\n(2)（12 分）存在 $r\\in[-\\infty,+\\infty]$，使得 $x>r$ 时，$\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n}{n^x}$ 收敛；$x<r$ 时，$\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n}{n^x}$ 发散。"
+        }
+      ]
+    },
+    {
+      "school": "华中师范大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "53. 华中师范大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529183_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 20 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设矩阵 $$A=\\begin{pmatrix} 1 & 0 & 1\\\\ 0 & 1 & 1\\\\ 0 & a & -1 \\end{pmatrix},\\quad B=\\begin{pmatrix} 2 & 0 & 2 & 4\\\\ 1 & 2 & 3 & 4\\\\ 5 & 6 & 7 & 8 \\end{pmatrix}.$$ 若 $\\mathrm{rank}(AB)<3$，求 $a=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 20 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "当 $x=$______时，矩阵 $\\begin{pmatrix} 2 & 0 & 1\\\\ 3 & 1 & x\\\\ 4 & 0 & 5 \\end{pmatrix}$ 可相似对角化。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 20 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "$n$ 阶实对称矩阵有______种不同的合同标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 20 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "若 3 阶复方阵 $A$ 恰有两个互异的特征值 $\\lambda_1=1$，$\\lambda_2=-1$，$A$ 不能相似对角化且 $\\mathrm{tr}(A)=-1$。则 $A$ 的初等因子组为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$\\begin{vmatrix} 1^{2023} & 2^{2023} & \\cdots & 2025^{2023}\\\\ 2^{2023} & 3^{2023} & \\cdots & 2026^{2023}\\\\ \\vdots & \\vdots & & \\vdots\\\\ 2025^{2023} & 2026^{2023} & \\cdots & 4049^{2023} \\end{vmatrix},$$ 其中所有元素指数均为 2023，各行各列的底数为等差数列。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "2",
+          "score": 25,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "设 $A,A_1,B_1$ 为复数域上的 $n$ 阶方阵。\n(1) 如果对于任意自然数 $k\\ge 1$，有 $\\mathrm{tr}(A^k)=0$，证明：$A$ 是幂零矩阵。\n(2) 如果 $A=A_1B_1-B_1A_1$，且 $AA_1=A_1A$，证明：$A$ 是幂零矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明：$f(x)=x^3+x^2+2025$ 在有理数域上不可约。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "4",
+          "score": 25,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $f(X)=X^TAX$ 是正定二次型，$A=(a_{ij})_{n\\times n}$ 是实对称阵，其中 $X=(x_1,x_2,\\cdots,x_n)^T$ 是 $n$ 维实向量。\n(1) 证明：关于 $Y=(y_1,y_2,\\cdots,y_n)^T$ 的二次型 $g(Y)=\\det\\begin{pmatrix} A & Y\\\\ Y^T & 0 \\end{pmatrix}$ 是负定二次型。\n(2) 证明：$|A|\\le a_{nn}A_{n-1}$，其中 $A_{n-1}$ 是 $A$ 的 $n-1$ 阶顺序主子式。\n(3) 证明：$|A|\\le a_{11}a_{22}\\cdots a_{nn}$。\n(4) 对实方阵 $B=(b_{ij})_{n\\times n}$，证明：$|B|\\le\\sqrt{\\prod\\limits_{i=1}^{n}(b_{1i}^2+b_{2i}^2+\\cdots+b_{ni}^2)}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "5",
+          "score": 25,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设典型基矩阵 $E_{ij}$ 是第 $i$ 行第 $j$ 列元素为 1，其余元素为 0 的 $n$ 阶方阵。\n(1) 讨论 $E_{ij}E_{kl}$。\n(2) 对 $n$ 阶方阵 $A,B$，证明：$\\mathrm{tr}(AB-BA)=0$。\n(3) 记 $W$ 是由 $AB-BA$ 生成的线性子空间，其中 $A,B$ 取遍 $n$ 阶方阵。求 $\\dim W$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "6",
+          "score": 25,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 1 和 2 是 4 阶复方阵 $A$ 的所有非零特征值，$\\mathrm{rank}(A)=3$。\n(1) 写出 $A$ 的所有可能的若尔当标准形（不考虑若尔当块的顺序）。\n(2) 若 $\\mathrm{tr}(A)=5$ 且 $A$ 不能相似对角化，求 $A$ 的特征多项式和极小多项式。\n(3) 在 (2) 的条件下，对任意的正整数 $k$，求 $A^k$ 的若尔当标准形。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "msgid": "2247529112",
+  "exams": [
+    {
+      "school": "哈尔滨工业大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "31. 哈尔滨工业大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529112_4.jpg"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "判断题. 正确的给出证明, 错误的给出反例.\n(1) 设 $b_n=\\dfrac{a_1+a_2+\\cdots+a_n}{n}$, 若数列 $\\{b_n\\}$ 收敛, 则 $\\{a_n\\}$ 收敛.\n(2) 两个在 $x_0$ 附近无界的函数之积仍为无界函数.\n(3) 若 $y=f(x)$ 在点 $x_0$ 不连续, $u=g(y)$ 在点 $y_0=f(x_0)$ 不连续, 则复合函数 $u=g(f(x))$ 在点 $x_0$ 不连续.\n(4) 一元函数的定积分, 若 $|f(x)|$ 可积, 则 $f(x)$ 可积.\n(5) 若二元函数 $f(x,y)$ 在点 $(x_0,y_0)$ 的两个二次极限都存在, 则 $f(x,y)$ 在 $(x_0,y_0)$ 的二重极限也存在."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "解答如下问题:\n(1) 若函数 $f(x)$ 在 $(a,b)$ 上一致连续, 证明: $f(x)$ 在 $(a,b)$ 上有界.\n(2) 用两种方法证明函数 $y=\\ln x$ 在 $(0,1)$ 上不一致连续."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数 $f(x,y)=\\begin{cases}(x^2+y^2)^{\\alpha}\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$\n(1) 求 $\\alpha$ 的范围, 使函数 $f(x,y)$ 在 $(0,0)$ 连续.\n(2) 求 $\\alpha$ 的范围, 使函数 $f(x,y)$ 在 $(0,0)$ 可微.\n(3) 求 $\\alpha$ 的范围, 使函数 $f(x,y)$ 在 $(0,0)$ 的偏导数连续."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "分别从微积分的角度, 用五种方法证明: $e^x\\ge 1+x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "若对 $\\forall x\\in[a,b]$, 函数 $f(x)$ 满足 $f(x)\\ge 0$, $f''(x)\\le 0$。求证: $f(x)\\le\\dfrac{2}{b-a}\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设函数 $f(x)$ 在 $(a,b)$ 上连续且无极大值点, $\\{x_n\\}\\subset(a,b)$ 满足 $\\lim\\limits_{n\\to\\infty} f(x_n)=\\inf\\limits_{a<x<b} f(x)$。\n(1) 用肯定语言叙述 $\\lim\\limits_{n\\to\\infty} x_n\\neq\\bar x$ 的 $\\varepsilon-N$ 定义.\n(2) 若 $\\lim\\limits_{n\\to\\infty} x_n=x_0$, 是否有 $x_0\\in(a,b)$? 如果有, 请加以证明, 否则请举反例.\n(3) 证明 $\\lim\\limits_{n\\to\\infty} x_n$ 存在."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设正项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{p_n}$ 收敛. 记 $A_n=\\displaystyle\\sum_{k=1}^{n}p_k$, $B_n=\\displaystyle\\sum_{k=1}^{n}\\dfrac{k^2}{A_k^2}$, $C_n=\\displaystyle\\sum_{k=1}^{n}\\dfrac{1}{p_k}$, $S_n=\\displaystyle\\sum_{k=1}^{n}\\dfrac{k}{A_k}$。证明:\n(1) $B_n<\\dfrac{5}{p_1}+2S_n+C_n$.\n(2) $S_n<\\sqrt{B_nC_n}$.\n(3) $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{n}{p_1+p_2+\\cdots+p_n}$ 收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明:\n(1) $\\displaystyle\\sum_{n=1}^{\\infty}x^n\\ln x$ 在 $(0,1]$ 上不一致收敛.\n(2) $\\displaystyle\\sum_{n=1}^{\\infty}x^n\\dfrac{\\ln x}{1+|\\ln(-\\ln x)|}$ 在 $(0,1)$ 上一致收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $I(k,a)=\\displaystyle\\int_0^{+\\infty} e^{-kx}\\dfrac{\\sin ax}{x}\\,\\mathrm{d}x$。\n(1) 证明: 对固定的 $k\\in[0,+\\infty)$, 积分 $I(k,a)$ 关于 $a$ 在 $|a|\\ge\\delta$ $(\\delta>0)$ 上一致收敛. 对固定的 $a\\neq 0$, 积分 $I(k,a)$ 关于 $k$ 在 $[0,+\\infty)$ 上一致收敛."
+        }
+      ]
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "31. 哈尔滨工业大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529112_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵, 证明: 秩$(A)=r$ 的充分必要条件是存在 $m\\times r$ 矩阵 $B$ 和 $r\\times n$ 矩阵 $C$, 满足秩$(B)=$ 秩$(C)=r$, 且 $A=BC$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix} a_1^2 & a_1a_2+1 & \\cdots & a_1a_n+1 \\\\ a_2a_1+1 & a_2^2 & \\cdots & a_2a_n+1 \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_na_1+1 & a_na_2+1 & \\cdots & a_n^2 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $p(x)$ 是数域 $F$ 上次数大于等于 1 的多项式. 证明下列说法等价:\n(1) $p(x)$ 是不可约多项式.\n(2) 对任意的 $f(x),g(x)\\in F[x]$, 如果 $p(x)\\mid f(x)g(x)$, 则有 $p(x)\\mid f(x)$ 或 $p(x)\\mid g(x)$.\n(3) 对任意的 $f(x)\\in F[x]$, 都有 $p(x)\\mid f(x)$ 或 $(p(x),f(x))=1$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "讨论当 $\\lambda$ 取何值时, 如下方程有解, 并求解.\n$$\\begin{cases} x_1+\\lambda x_2+\\lambda x_3+x_4=0; \\\\ 2x_1+x_2+x_3+2x_4=0; \\\\ 3x_1+(\\lambda+2)x_2+(\\lambda+4)x_3+4x_4=1. \\end{cases}$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵, 证明: 非齐次线性方程组 $AX=\\beta$ 有解的充分必要条件是齐次线性方程组 $A^TY=0$ 的任意解 $\\alpha$ 满足 $\\alpha^T\\beta=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设实数 $x_1,x_2,x_3,x_4$ 满足 $x_1^2+x_2^2+x_3^2+x_4^2=1$, 求\n$$y=x_1x_2+x_2x_3+x_3x_4+x_4x_1-2(x_1x_3+x_2x_4)$$\n的取值范围."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设实数数列 $x_0=1,x_1=12,x_2=-10,x_3,x_4,\\cdots,x_n,\\cdots$ 满足\n$$x_{n+3}+30x_n=31x_{n+1},\\ n\\ge 0.$$\n求 $\\{x_n\\}$ 的通项公式."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "设矩阵 $A=\\begin{pmatrix} -5 & 5 \\\\ -6 & 6 \\end{pmatrix}$, 求满足 $AB+BA=ABA$ 的所有复矩阵 $B$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设矩阵 $A$ 的特征多项式为 $\\lambda^3-6\\lambda^2+32$, 求 $A$ 的若尔当标准形."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $a$ 为实数, 矩阵\n$$A=\\begin{pmatrix} 0 & a \\\\ 1 & 1 \\end{pmatrix}.$$\n若存在正交矩阵 $P$, 使得 $P^{-1}AP$ 为上三角的实矩阵, 求 $a$ 的取值范围."
+        }
+      ]
+    }
+  ]
+}

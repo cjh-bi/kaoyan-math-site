@@ -1,0 +1,263 @@
+{
+  "msgid": "2247504544-2",
+  "exams": [
+    {
+      "school": "中国科学技术大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "45. 中国科学技术大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504544-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim_{x\\to 0}\\dfrac{(1+x^2)^2-\\cos x}{\\sin^2 x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算积分 $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\sin\\frac{2n+1}{2}x}{\\sin\\frac{x}{2}}\\,\\mathrm{d}x$，其中 $n$ 为正整数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z=\\dfrac{1}{x}f(x^2y)+xyg(x+y)$，其中 $f$, $g$ 具有二阶连续导数，计算 $\\dfrac{\\partial^2 z}{\\partial x^2}$, $\\dfrac{\\partial^2 z}{\\partial x\\partial y}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $y(x)=\\displaystyle\\int_x^{4x}\\sin((x-t)^2)\\,\\mathrm{d}t$，求 $y'(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "设曲线 $\\gamma$ 由 $y^2=\\dfrac{1}{3}x^2(1-4x)$, $y\\ge 0$, $x\\in\\left[0,\\dfrac{1}{4}\\right]$ 所定义，计算 $\\gamma$ 的弧长。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二型曲面积分\n$$I=\\iint_S \\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+z^4\\,\\mathrm{d}x\\mathrm{d}y}{x^2+y^2+z^2}$$\n其中 $S$ 是圆柱面 $x^2+y^2=1$ 和平面 $z=-1$, $z=1$ 所围成的立体的表面外侧。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(1-x)x^n}{1-x^{2n}}\\cos(nx)$\n(1) 在区间 $\\left[0,\\dfrac{1}{2}\\right]$ 上一致收敛；\n(2) 在区间 $\\left(\\dfrac{1}{2},1\\right)$ 上一致收敛。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "求函数 $f(x)=\\cos(\\alpha x)$ 在 $[-\\pi,\\pi]$ 上的傅里叶级数，其中 $\\alpha$ 不是整数，并证明：\n(1) $\\displaystyle\\sum_{n=-\\infty}^{+\\infty}\\dfrac{(-1)^n}{n+\\alpha}=\\dfrac{\\pi}{\\sin(\\pi\\alpha)}$；\n(2) $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{(4n^2-1)^2}=\\dfrac{\\pi^2-8}{16}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 是 $[0,1]$ 上的连续函数，证明：存在 $c\\in(0,1)$ 使得 $\\displaystyle\\int_0^c f(x)\\,\\mathrm{d}x=(1-c)f(c)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求实系数二次多项式 $p(x)$，使得 $\\left|p(x)+\\dfrac{1}{x-3}\\right|<0.02,\\ \\forall x\\in[-1,1]$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x)$ 为 $[0,1]$ 上的连续函数，且 $\\displaystyle\\int_0^1 f(x)\\,\\mathrm{d}x=1$, $\\displaystyle\\int_0^1 xf(x)\\,\\mathrm{d}x=\\dfrac{27}{2}$，证明：\n$$\\int_0^1 f^2(x)\\,\\mathrm{d}x>2021.$$"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上的一个有界连续函数，且满足\n$$\\lim_{h\\to 0}\\sup_{x\\in\\mathbb{R}}|f(x+h)-2f(x)+f(x+h)|=0.$$\n证明：$f(x)$ 在 $\\mathbb{R}$ 上一致连续。"
+        }
+      ]
+    },
+    {
+      "school": "中国科学技术大学",
+      "year": "2021",
+      "subject": "高等代数与解析几何",
+      "header_note": "46. 中国科学技术大学 2021 年硕士研究生入学考试高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247504544-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 40 分, 需化简答案)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "距离与夹角",
+          "stem": "已知空间中三个定点 $A=(1,1,1)$, $B=(2,1,2)$, $C=(1,-1,0)$，则三角形 $\\triangle ABC$ 的面积为 ______，已知点 $(0,a,1)$ 与 $A$, $B$, $C$ 共面，则 $a=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 40 分, 需化简答案)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "解析几何",
+          "l2": "旋转曲面",
+          "stem": "空间中直线 $l_1: x-1=2-y=z$ 绕 $l_2: y=z=0$ 旋转所得的旋转面的一般方程为 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 40 分, 需化简答案)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "方阵 $A=\\begin{pmatrix}1&0&1&1\\\\ 3&1&1&1\\\\ 0&0&1&0\\\\ 0&0&2&1\\end{pmatrix}$ 的逆为 ______，行列式 $\\det\\begin{pmatrix}I_n&2I_n\\\\ 2I_n&2I_n\\end{pmatrix}=$ ______，其中 $I_n$ 表示 $n$ 阶单位方阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 40 分, 需化简答案)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知实系数二次型 $2x^2+2y^2+2z^2-xy-byz$ 是正定的，则系数 $b$ 的取值范围是 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 40 分, 需化简答案)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A=\\begin{pmatrix}5&1&1\\\\ 9&8&3\\\\ 2&7&3\\end{pmatrix}$，$|A|$ 第二行元素的代数余子式为 $A_{21},A_{22},A_{23}$，则 $A_{21}-A_{22}+2A_{23}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 40 分, 需化简答案)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设 $\\mathbb{R}_2[x]$ 为全体次数不超过 2 的实系数多项式及零多项式生成的线性空间，考虑线性变换 $\\mathscr{A}=x\\dfrac{\\mathrm{d}}{\\mathrm{d}x}:\\mathbb{R}_2[x]\\to\\mathbb{R}_2[x]$，则 $\\mathscr{A}$ 的最小多项式为 ______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "给定四维向量组\n$$\\alpha_1=(1,2,-1,1),\\ \\alpha_2=(1,3,-1,2),\\ \\alpha_3=(2,5,0,5),\\ \\alpha_4=(1,2,1,3),\\ \\alpha_5=(5,12,1,13).$$\n试求出其所有的极大线性无关组。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "给定二次曲面在空间直角坐标系下的方程为 $y^2+\\sqrt{2}xy+yz-2y+5=0$，试用正交替换及平移变换将其化为标准方程，并判断这是什么类型的曲面。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "3",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $\\mathbb{R}_3[x]$ 为由全体次数不超过 3 的实系数多项式及零多项式生成的线性空间，对任意的 $f(x),g(x)\\in\\mathbb{R}_3[x]$，我们定义 $(f(x),g(x))=\\displaystyle\\int_{-1}^{1}f(x)g(x)\\,\\mathrm{d}x$。\n(1) 试证明：$(f(x),g(x))$ 定义了 $\\mathbb{R}_3[x]$ 上的内积结构；\n(2) 在上述内积下，对基 $\\{1,x,x^2,x^3\\}$ 按顺序进行 Gram-Schmidt 正交化，将其变为标准正交基。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "4",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$, $B$ 为 $n$ 阶实对称矩阵，其中 $A$ 为正定矩阵，证明：当正实数 $a$ 充分大时，矩阵 $aA+B$ 总是正定矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为 $n$ 阶复方阵，证明：对任意的正整数 $N,M\\ge n$，总有 $\\mathrm{rank}(A^N)=\\mathrm{rank}(A^M)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "已知 $A$, $B$, $C$, $D$ 均为 $n$ 阶方阵，且 $BD=DB$，证明：\n$$\\det\\begin{pmatrix}A&B\\\\ C&D\\end{pmatrix}=\\det(DA-BC).$$"
+        }
+      ]
+    }
+  ]
+}

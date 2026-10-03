@@ -1,0 +1,223 @@
+{
+  "msgid": "2247505127-1",
+  "exams": [
+    {
+      "school": "四川大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "135. 四川大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247505127-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "(1) 计算 $\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\sin 2021x}{\\sin x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "(2) 求极限 $\\lim\\limits_{x\\to+\\infty} e^{-\\sqrt{x}}\\left(1+\\dfrac{1}{\\sqrt{x}}\\right)^{x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "(3) 求 $y=e^{-x^2}$ 绕 $x$ 轴旋转所得旋转体的体积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "",
+          "stem": "(4) 求曲线 $\\begin{cases} x+y+z=1; \\\\ x^2+y^2+z^2=9 \\end{cases}$ 在点 $(2,1,-2)$ 处的切线方程。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "(5) 求曲面积分\n$$I=\\iint_{\\Sigma} x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+z^3\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $\\Sigma$ 为上半球面 $z=\\sqrt{1-x^2-y^2}$，方向为上侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明：$f(x)=x\\cos\\dfrac{1}{x}$ 在 $(0,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$，$g(x)$ 在 $[0,1]$ 上黎曼可积，且 $0\\le f(x)\\le 1$，问复合函数 $g(f(x))$ 在 $[0,1]$ 上是否黎曼可积？给出证明或反例。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "试将级数 $\\sum\\limits_{n=1}^{\\infty} x_n=\\sum\\limits_{n=1}^{\\infty}\\dfrac{(-1)^n}{n}$ 进行重排，使得重排的级数 $\\sum\\limits_{n=1}^{\\infty} x_n'=+\\infty$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "将长度为一米的铁丝分为三段，分别围成圆形，正方形，三角形，问三者面积之和何时最小？"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论反常二重积分 $\\displaystyle\\iint_{\\mathbb{R}^2}\\dfrac{\\sin(x^2+y^2)}{(x^2+y^2)^p}\\,\\mathrm{d}x\\mathrm{d}y$ $(p>0)$ 的收敛性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $x_1\\in\\mathbb{R}$，且 $x_{n+1}=x_n-x_n^3$ $(n=1,2,\\cdots)$，讨论数列 $\\{x_n\\}$ 的收敛性。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，$f(0)=f(1)=0$，$|f''(x)|\\le 1$，证明：$|f'(x)|\\le\\dfrac{1}{2}$，$|f(x)|\\le\\dfrac{1}{8}$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "求函数项级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nx}{n+1}$ 的收敛域 $D$，并讨论和函数 $S(x)$ 在 $D$ 上每一点的连续性。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设函数 $f(r)$ 在 $(0,+\\infty)$ 上连续，$L$ 为 $\\mathbb{R}^2$ 上不过原点的封闭曲线，问是否一定有\n$$\\oint_L f(x^2+y^2)(x\\mathrm{d}x+y\\mathrm{d}y)=0?$$\n并说明理由。"
+        }
+      ]
+    },
+    {
+      "school": "四川大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "136. 四川大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247505127-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "已知多项式 $f(x)=x^6-2x^4+2x^2-1$ 的全部复根为 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_6$。\n(1) 将 $f(x)$ 化为有理数域 $\\mathbb{Q}$ 上的不可约多项式的乘积；\n(2) 求 $\\sum\\limits_{i=1}^{6}\\alpha_i^{2021}$；\n(3) 设 $g(x)=\\prod\\limits_{i=1}^{6}(x-\\alpha_i^{12})$ 为某方阵 $A$ 的特征多项式，求 $|A^2+A+E_6|$，其中 $E_6$ 为 $6$ 阶单位矩阵；\n(4) 设 $K$ 为包含 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_6$ 的最小数域，求 $K$ 作为 $\\mathbb{Q}$ 上的线性空间的维数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $K$ 为数域，$M_{m\\times n}(K)$ 为 $K$ 上所有 $m\\times n$ 矩阵构成的集合。\n(1) 设 $n$ 元非齐次线性方程组 $AX=\\beta$ 有解，且 $r(A)=r$，证明 $AX=\\beta$ 的解集秩为 $n-r+1$；\n(2) 设非齐次线性方程组 $AX=\\beta$ 有无穷多解，且任意解都可以表示为\n$$(1,0,1,-1)',\\ (1,1,-1,-1)',\\ (3,2,-1,-3)'$$\n的线性组合，求 $A$ 的秩的取值范围；\n(3) 设 $A\\in M_{m\\times n}(K)$，$B\\in M_{m\\times l}(K)$，证明矩阵方程 $AX=B$ 有解当且仅当 $A$ 的秩与分块矩阵 $(A\\mid B)$ 的秩相等；\n(4) 设 $A,B\\in M_{n\\times n}(K)$，且 $A$，$B$ 的秩都为 $1$。设 $A$ 的一个行向量与 $B$ 的一个行向量线性无关，且 $A$ 的一个列向量与 $B$ 的一个列向量线性无关，求 $A+B$ 的秩。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V$ 为内积空间。\n(1) 设 $U$ 为 $V$ 的有限维子空间，$U^{\\perp}$ 为 $U$ 的正交补，证明：$V=U\\oplus U^{\\perp}$；\n(2) 设 $U$ 为 $V$ 的无限维子空间，$V=U\\oplus U^{\\perp}$ 是否仍然成立？证明你的结论。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "二次型 $f(x_1,x_2,x_3)=ax_1^2+3x_2^2-3x_3^2+2bx_1x_3$ 矩阵的全部特征值和为 $1$，乘积为 $-48$，求 $a$，$b$ 的值，并用非退化线性替换将 $f$ 化为标准形。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "对于数域 $F$ 上的任意两个线性空间 $U$，$V$，记 $\\mathrm{Hom}(U,V)$ 表示从 $U$ 到 $V$ 的所有线性映射构成的线性空间。现在设 $U$，$V$，$W$ 为 $F$ 上的有限维线性空间，其维数分别为 $l$，$m$，$n$，若 $f\\in\\mathrm{Hom}(U,V)$，$g\\in\\mathrm{Hom}(U,W)$ 满足 $\\mathrm{Ker}\\,f\\subseteq\\mathrm{Ker}\\,g$。\n(1) 证明存在 $h\\in\\mathrm{Hom}(V,W)$，使得 $g=h\\circ f$，并且 $h$ 唯一当且仅当 $f$ 为满射；\n(2) 已知 $f$ 的像空间 $\\mathrm{Im}\\,f$ 的维数为 $t$，记\n$$S=\\{h\\in\\mathrm{Hom}(V,W)\\mid g=h\\circ f\\},\\ T=\\{\\rho\\in\\mathrm{Hom}(V,W)\\mid \\exists h_1,h_2\\in S\\ \\mathrm{s.t.}\\ \\rho=h_1-h_2\\}.$$\n证明：$T$ 为 $\\mathrm{Hom}(V,W)$ 的子空间，并求其维数。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是实数域 $\\mathbb{R}$ 上的 $n$ 维线性空间，其中 $n>1$。\n(1) 举出有无穷多个不变子空间的 $V$ 上的线性变换的例子；\n(2) 设 $\\mathscr{A}$ 为 $V$ 上的线性变换，$\\mathscr{A}$ 有 $n$ 个实特征值（重根按重数计算），若 $\\mathscr{A}$ 有有限多个不变子空间，请写出 $\\mathscr{A}$ 的所有可能的 Jordan 标准形，并说明理由。\n(3) 设 $\\mathscr{B}$ 为 $V$ 上的线性变换，$\\mathscr{B}$ 有 $n$ 个实特征值（重根按重数计算），且 $\\mathscr{B}$ 有有限多个不变子空间，用 $\\mathscr{B}$ 的初等因子给出 $\\mathscr{B}=\\mathscr{C}^2$ 成立的充要条件，其中 $\\mathscr{C}$ 为 $V$ 上的线性变换。"
+        }
+      ]
+    }
+  ]
+}

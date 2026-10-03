@@ -1,0 +1,333 @@
+{
+  "msgid": "2247529415",
+  "exams": [
+    {
+      "school": "中国矿业大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "9. 中国矿业大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529415_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "已知函数 $f(x)$ 是区间 $[a,b]$ 上的单调递增函数，且 $f(a)>a$，$f(b)<b$。证明：存在一个数 $\\xi\\in(a,b)$，使得 $f(\\xi)=\\xi$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "已知函数 $f(x)=\\dfrac{2x}{1+x^2}$，求 $f(x)$ 的单调区间，极值点，凹凸区间，渐近线，并作出大致草图。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "已知 $f(x)$ 是 $[a,b]$ 上的连续函数，$x_1<x_2<\\cdots<x_n$ 是 $[a,b]$ 上的点。\n(1) 叙述闭区间上的连续函数介值定理。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "已知 $f(x)$ 是 $[a,b]$ 上的连续函数，$x_1<x_2<\\cdots<x_n$ 是 $[a,b]$ 上的点。\n(2) 证明：存在 $\\xi\\in[x_1,x_n]$，使得 $f(\\xi)=\\sum\\limits_{j=1}^{n}\\dfrac{f(x_j)}{n}$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "求下列不定积分：",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "(1) $\\displaystyle\\int\\dfrac{1}{e^x-e^{-x}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "求下列不定积分：",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "(2) $\\displaystyle\\int\\dfrac{1}{x+\\sqrt{x^2-x+1}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 5,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知 $f(x)$ 在 $[a,b]$ 上可积。\n(1) 若 $f(x)$ 是 $[a,b]$ 上的连续非负函数，且存在 $x_0\\in[a,b]$，使得 $\\lim\\limits_{x\\to x_0}f(x)=A>0$。证明：$\\displaystyle\\int_{a}^{b}f(x)\\,\\mathrm{d}x>0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知 $f(x)$ 在 $[a,b]$ 上可积。\n(2) 若 $\\displaystyle\\int_{a}^{b}f(x)\\,\\mathrm{d}x>0$，证明：存在闭区间 $[\\alpha,\\beta]\\subset[a,b]$，使得 $f(x)$ 在 $[\\alpha,\\beta]$ 上满足 $f(x)>0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "已知 $a_n=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}(\\tan x)^n\\,\\mathrm{d}x$，其中 $n=1,2,\\cdots$。\n(1) 求级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n+a_{n+2}}{n}$ 的和。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "已知 $a_n=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}(\\tan x)^n\\,\\mathrm{d}x$，其中 $n=1,2,\\cdots$。\n(2) 证明：对任意常数 $p>0$，数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{n^p}$ 都收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分 $I=\\displaystyle\\iint_{D}\\dfrac{3x}{y^2+xy^3}\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D=\\{(x,y)\\in\\mathbb{R}^2\\mid 1\\leq xy\\leq 3,\\ x\\leq y^2\\leq 3x\\}$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "已知 $f(x,y)$ 在 $P_0(x_0,y_0)$ 的某邻域 $U(P_0)$ 上有二阶连续偏导数，且 $f_x(x_0,y_0)=0$，$f_{xx}(x_0,y_0)>0$。证明：存在关于 $y_0$ 的某邻域 $V(y_0)$，对任意 $y\\in V(y_0)$，$f(x,y)$ 作为关于 $x$ 的函数存在极小值 $g(y)$，且 $g'(y_0)=f_y(x_0,y_0)$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "已知 $u(x,y)$ 在 $\\mathbb{R}^2$ 上有二阶连续偏导数，若 $u_{xx}+u_{yy}=0$ 对任意 $(x,y)\\in\\mathbb{R}^2$ 都成立，则称 $u(x,y)$ 为 $\\mathbb{R}^2$ 上的调和函数。证明：$u(x,y)$ 为 $\\mathbb{R}^2$ 上的调和函数的充要条件是 $\\displaystyle\\oint_{C}\\dfrac{\\partial u}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}s=0$，其中 $C$ 为 $\\mathbb{R}^2$ 上任意光滑闭曲线，$\\boldsymbol{n}$ 为 $u(x,y)$ 沿 $C$ 的单位外法线方向。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知欧拉积分 $\\displaystyle\\int_{0}^{+\\infty}e^{-x^2}\\,\\mathrm{d}x=\\dfrac{\\sqrt{\\pi}}{2}$，求含参量积分 $I(a)=\\displaystyle\\int_{0}^{+\\infty}e^{-\\left(x^2+\\frac{a^2}{x^2}\\right)}\\,\\mathrm{d}x$ 的值，其中 $a>0$。"
+        }
+      ]
+    },
+    {
+      "school": "中国矿业大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "9. 中国矿业大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529415_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "多项式 $4x^4-7x^2-5x-1$ 的有理根是______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$f(x)=\\begin{vmatrix}x&1&2&3\\\\ 1&x&1&-1\\\\ 2&1&x&1\\\\ 3&-1&2x&1\\end{vmatrix}$，则 $f(x)$ 中 $x^3$ 的系数是______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关，判断向量组 $\\alpha_1+\\alpha_2,\\alpha_2+\\alpha_3,\\cdots,\\alpha_{n-1}+\\alpha_n,\\alpha_n+\\alpha_1$ 的线性相关性______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "$A=\\begin{pmatrix}\\dfrac{3}{2}&-\\dfrac{1}{2}\\\\[4pt] \\dfrac{1}{2}&\\dfrac{1}{2}\\end{pmatrix}$，则 $A^{2025}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "5",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "设 $A$ 为 $n$ 阶实可逆矩阵，且满足 $A$ 与 $-A$ 合同，则______。\nA. $n$ 一定是奇数。\nB. $n$ 一定是偶数。\nC. $n$ 可能是奇数也可能是偶数。\nD. $\\dfrac{n-1}{2}$ 和 $\\dfrac{n}{2}$ 中有一个为偶数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 是 8 阶半正定矩阵，$A$ 的秩为 3，则实向量空间 $\\mathbb{R}^8$ 的子空间 $W=\\{X\\in\\mathbb{R}^8\\mid X^{T}AX=0\\}$ 的维数等于______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 是 4 阶方阵 $|2E+A|=0$，$AA^{T}=2E$，$|A|>0$，求伴随矩阵 $A^{*}$ 的两个特征值______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\sigma$ 是实向量空间 $\\mathbb{R}^n$ 上的线性变换，满足 $\\sigma(x_1,x_2,\\cdots,x_n)=(0,x_1,\\cdots,x_{n-1})$，则 $\\sigma$ 的核的维数及 $\\sigma$ 的一组基分别是______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "9",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $A,B$ 都为 $n$ 阶正交矩阵，且 $|A|\\neq|B|$，则 $|A+B|=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分.",
+          "no": "10",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "$A=\\begin{pmatrix}1&3&2\\\\ -2&-6&-4\\\\ 3&9&6\\end{pmatrix}$，$A$ 的最小多项式是______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整值多项式",
+          "stem": "设 $f(x)$ 是一个整系数多项式，证明：若存在一个偶数 $a$ 和奇数 $b$ 使得 $f(a)$ 和 $f(b)$ 都是奇数，则 $f(x)$ 没有整数解。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $A$ 为 $n$ 阶矩阵，$n\\geq 2$，$A^{*}$ 是 $A$ 的伴随矩阵，若存在 $n$ 维非零列向量 $\\alpha$ 满足 $A\\alpha=0$，证明：非齐次线性方程组 $A^{*}X=\\alpha$ 有解的充分必要条件是 $A$ 的秩为 $n-1$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $A$ 为 $n$ 阶可逆矩阵，$B$ 为 $n$ 阶幂零矩阵(即存在正整数 $k$，使得 $B^k=O$)，若 $AB=BA$，证明：$A+B$ 可逆，并求 $A+B$ 的逆。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知 $B$ 为 $n$ 阶正定矩阵，$C$ 是 $n\\times m$ 列满秩矩阵，记 $A=\\begin{pmatrix}B&C\\\\ C^{T}&O\\end{pmatrix}$，证明：二次型 $f(X)=X^{T}AX$ 的正，负惯性指数分别为 $n$，$m$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $A$ 是数域 $P$ 上的 $n$ 阶方阵，$f(x),g(x)$ 是数域 $P$ 上的两个多项式，且有 $(f(x),g(x))=1$，记 $V,V_1,V_2$ 分别是齐次线性方程组 $BCX=0,BX=0,CX=0$ 的解空间，其中 $B=f(A),C=g(A)$，证明：$V=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知 $A$ 是 3 阶正交矩阵，且 $|A|=1$。\n(1) 证明：1 是 $A$ 的一个特征值。\n(2) 证明：$A$ 的特征多项式形如 $f(\\lambda)=\\lambda^3-a\\lambda^2+a\\lambda-1$，其中 $a$ 是一个常数。\n(3) 若 $A$ 的特征值都是实数，且 $|A+E|\\neq 0$，证明：$A^{T}=A^2-3A+3E_3$，这里 $E_3$ 表示 3 阶单位矩阵。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $\\sigma$ 是 $n$ 维线性空间 $V$ 上的线性变换。【?】（图片到此结束，本题设问部分缺失）"
+        }
+      ]
+    }
+  ]
+}

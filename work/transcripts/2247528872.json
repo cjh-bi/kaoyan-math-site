@@ -1,0 +1,193 @@
+{
+  "msgid": "2247528872",
+  "exams": [
+    {
+      "school": "北京工业大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "4. 北京工业大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528872_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $p>1$，证明：数列 $\\left\\{1+\\dfrac{1}{2^p}+\\cdots+\\dfrac{1}{n^p}\\right\\}$ 收敛，且其极限 $a$ 满足\n$$1+\\dfrac{1}{2^{p-1}(p-1)}\\le a\\le \\dfrac{p}{p-1}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "证明：方程组 $\\dfrac{5}{x-1}+\\dfrac{7}{x-2}+\\dfrac{16}{x-3}=0$ 在 $(1,2)$ 与 $(2,3)$ 内各有一实根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上可导，$f(0)=0$，$f(1)=2$。证明：在 $(0,1)$ 上存在两个 $\\xi_1$ 与 $\\xi_2$，使得\n$$\\dfrac{1}{f'(\\xi_1)}+\\dfrac{1}{f'(\\xi_2)}=1.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明：若函数 $f(x)$ 在 $[a,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty}\\left[bx-f(x)\\right]=0$，其中 $b$ 为非零实数。则 $f(x)$ 在 $[a,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：存在常数 $A<1$，对任意的正整数 $n>1$，都有 $\\sqrt{1}+\\sqrt{2}+\\cdots+\\sqrt{n}<An^{\\frac{3}{2}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "判别函数列 $\\left\\{nx(1-x)^n\\right\\}$ 在 $[0,1]$ 上的一致收敛性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty} n^2 x^{n+1}$ 的收敛域与和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求函数 $f(x,y,z)=x-2y+2z$ 在条件 $x^2+y^2+z^2=1$ 的约束下的最大值和最小值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "求函数 $f(x)=\\displaystyle\\int_0^{+\\infty} \\dfrac{\\ln(1+y^3)}{y^x}\\,\\mathrm{d}y$ 的定义域。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "记\n$$F(t)=\\iiint\\limits_{V} f(x^2+y^2+z^2)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z,$$\n其中 $V=\\{(x,y,z)\\mid x^2+y^2+z^2\\le t^2\\}$ $(t>0)$，若 $f$ 可微，求 $F'(t)$。"
+        }
+      ]
+    },
+    {
+      "school": "北京工业大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "4. 北京工业大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247528872_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$\\begin{vmatrix} a^2+b^2 & a^2b^2 & 0 & \\cdots & 0 & 0 \\\\ 1 & a^2+b^2 & a^2b^2 & \\cdots & 0 & 0 \\\\ 0 & 1 & a^2+b^2 & \\cdots & 0 & 0 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & a^2+b^2 & a^2b^2 \\\\ 0 & 0 & 0 & \\cdots & 1 & a^2+b^2 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设\n$$A=\\begin{pmatrix} 3 & 2 & -2 \\\\ -k & 1 & k \\\\ 4 & 3 & -3 \\end{pmatrix}$$\n（数据可能有误，可对比 2019 年真题）。\n$k$ 取何值时，存在可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵，求 $P$ 及相应的对角矩阵 $P^{-1}AP$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "证明：欧氏空间中的向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关的充要条件是\n$$\\begin{vmatrix} (\\alpha_1,\\alpha_1) & (\\alpha_1,\\alpha_2) & \\cdots & (\\alpha_1,\\alpha_n) \\\\ (\\alpha_2,\\alpha_1) & (\\alpha_2,\\alpha_2) & \\cdots & (\\alpha_2,\\alpha_n) \\\\ \\vdots & \\vdots & & \\vdots \\\\ (\\alpha_n,\\alpha_1) & (\\alpha_n,\\alpha_2) & \\cdots & (\\alpha_n,\\alpha_n) \\end{vmatrix}\\neq 0.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "$n$ 阶实对称矩阵 $A$ 的 $n$ 个特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，且 $\\lambda_1\\ge\\lambda_2\\ge\\cdots\\ge\\lambda_n$。证明：\n$$\\lambda_k=\\min_{\\dim S=n-k+1}\\max_{X\\in S,\\,X\\neq 0}\\dfrac{(AX,X)}{(X,X)},\\quad k=1,2,\\cdots,n.$$\n其中 $S$ 为向量空间，$X=(x_1,x_2,\\cdots,x_n)^{T}$，内积 $(\\ ,\\ )$ 为\n$$(X,Y)=\\sum_{i=1}^{n}x_iy_i.$$\n其中 $Y=(y_1,y_2,\\cdots,y_n)^{T}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "解答如下问题：\n(1) $A$ 是 $m$ 阶正定矩阵，$B$ 是 $m\\times n$ 实矩阵，则 $B^{T}AB$ 是正定矩阵的充要条件是 $r(B)=n$。\n(2) $A$ 是 $n$ 阶实对称矩阵，证明：$A$ 为半正定矩阵的充要条件是存在 $n$ 阶实矩阵 $B$，使得 $A=B^{T}B$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A,B$ 为 $n$ 阶方阵，且 $AB=A+2025B$。证明：\n(1) $r(A)+r(B)\\le r(AB)+n$。\n(2) $r(A)+r(B)\\ge r(A+B)+r(AB)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "设 $\\sigma,\\tau$ 为 $n$ 维欧氏空间 $V$ 中的线性变换，若对任意的 $\\alpha,\\beta\\in V$，都有\n$$(\\sigma(\\alpha),\\beta)=(\\alpha,\\tau(\\beta)),$$\n则称 $\\sigma$ 是 $\\tau$ 的共轭。证明：\n(1) $\\sigma$ 是 $\\tau$ 的共轭的充分必要条件是两者在同一组标准正交基下的矩阵互为转置。\n(2) 若 $\\sigma$ 是 $\\tau$ 的共轭，则 $\\sigma$ 的值域为 $\\tau$ 核空间的正交补，即 $\\operatorname{Im}\\sigma=(\\operatorname{Ker}\\sigma)^{\\perp}$。"
+        }
+      ]
+    }
+  ]
+}

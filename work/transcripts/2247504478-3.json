@@ -1,0 +1,96 @@
+{
+ "msgid": "2247504478-3",
+ "exams": [
+  {
+   "school": "哈尔滨工业大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "28. 哈尔滨工业大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": [
+    "work/imgs/2247504478-3_4.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "判断如下说法是否正确, 并说明理由.",
+     "no": "1",
+     "score": null,
+     "form": "判断",
+     "l1": "矩阵与线性方程组",
+     "l2": "伴随矩阵",
+     "stem": "设 $A$ 是 3 阶实矩阵, 则 $A$ 的伴随矩阵的行列式的值为非负实数;"
+    },
+    {
+     "section": "一",
+     "section_instruction": "判断如下说法是否正确, 并说明理由.",
+     "no": "2",
+     "score": null,
+     "form": "判断",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "设 $S=\\{A\\in\\mathbb{C}^{n\\times n}\\mid |E+A|\\neq 0\\}$, $A\\in S$, 定义 $\\varphi(A)=(E-A)(E+A)^{-1}$, 则 $\\varphi(\\varphi(A))=A$."
+    },
+    {
+     "section": "二",
+     "section_instruction": "解答如下问题:",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "设矩阵 $A=(a_{ij})_{6\\times 6}$, 其中 $a_{ii}=2i$, $i\\neq j$ 时, $a_{ij}=i$, 求 $A$ 的行列式的值;"
+    },
+    {
+     "section": "二",
+     "section_instruction": "解答如下问题:",
+     "no": "2",
+     "score": null,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "特征值与特征向量",
+     "stem": "设矩阵 $A=(a_{ij})_{6\\times 6}$, 其中 $a_{ij}=2ij-i-j$, 求 $A$ 的特征值."
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "设 3 阶复矩阵 $A$ 的秩为 1, 求满足条件 $AB=2BA$ 的复矩阵 $B$ 全体构成的复线性空间 $V$ 的维数."
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "相似",
+     "stem": "设 $A$ 是迹为 0 行列式为 1 的 4 阶实矩阵, 求 $A^2+A^4$ 的迹的最小值."
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "设一元三次实系数多项式 $f(x)$ 满足\n$$f(-2)=-125,\\ f(1)=1,\\ f(0)=-1,\\ f(-1)=-27.$$\n求 $f(1)+f(2)+\\cdots+f(100)$ 的值."
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "综合",
+     "l1": "欧氏空间与二次型",
+     "l2": "正交补与直和",
+     "stem": "设 $V=\\{ax^3+bx^2+cx+d\\mid a,b,c,d\\in\\mathbb{R}\\}$, 在 $V$ 上定义内积\n$$(f(x),g(x))=\\int_0^2 f(x)g(x)\\,\\mathrm{d}x.$$\n求 $V$ 的子空间 $W=\\{f(x)\\in V\\mid f(1)=0\\}$ 的维数, 并求 $W$ 的正交补."
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+  "msgid": "2247529436",
+  "exams": [
+    {
+      "school": "华南师范大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "61. 华南师范大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529436_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限. 每题 10 分, 共 50 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{\\sqrt{n+5}-\\sqrt{n}}{\\sqrt{n}-\\sqrt{n+2005}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限. 每题 10 分, 共 50 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{n+2}{n-1}\\right)^{n}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限. 每题 10 分, 共 50 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\sin\\sqrt{x+1}-\\sin\\sqrt{x}\\right)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限. 每题 10 分, 共 50 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{x\\cos x-\\sin x}{x^2\\sin x}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限. 每题 10 分, 共 50 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "求极限 $\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{xy}{\\sqrt{xy+1}-1}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $n$ 为正整数, $y=\\dfrac{x^n}{2-x}$, 求 $y^{(n)}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u=f\\left(\\dfrac{y}{x}+\\dfrac{z}{y}+\\dfrac{x}{z}\\right)$, 其中 $f$ 二阶可导, 求 $\\dfrac{\\partial u}{\\partial x},\\dfrac{\\partial^2 u}{\\partial x\\partial y}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求 $\\displaystyle\\int e^{-x}\\left(\\dfrac{1+x}{1+x^2}\\right)^{2}\\mathrm dx$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 40 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算 $\\displaystyle\\iint_{D}|\\sin(x+y)|\\,\\mathrm dx\\mathrm dy$, $D=[0,\\pi]\\times[0,\\pi]$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "讨论题. 10 分.",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "对于二元函数 $f(x,y)$, 如果两个累次极限存在, 且\n$$\\lim_{x\\to 0}\\lim_{y\\to 0}f(x,y)=\\lim_{y\\to 0}\\lim_{x\\to 0}f(x,y),$$\n问 $\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)$ 是否一定存在? 请说明理由."
+        },
+        {
+          "section": "四",
+          "section_instruction": "解答题.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "(10 分) 设 $f_n(x)=\\dfrac{x^2}{1+n^3x^3}$, $n=1,2,\\cdots$, 试证明函数列 $\\{f_n(x)\\}$ 在 $(0,+\\infty)$ 内一致收敛."
+        },
+        {
+          "section": "四",
+          "section_instruction": "解答题.",
+          "no": "2",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "(20 分) 判断下列级数或反常积分的敛散性.\n(1) $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n}\\sin\\dfrac{1}{n^q}$, $q\\ge 0$.\n(2) $\\displaystyle\\int_{3}^{+\\infty}\\dfrac{\\ln x\\,\\mathrm dx}{(x-\\sqrt{x}+2)^{q}}$, $q>0$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "解答题.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "(10 分) 求函数 $f(x)=\\dfrac{4}{x^2-2x-3}$ 在 $x=2$ 处的幂级数展开式."
+        },
+        {
+          "section": "四",
+          "section_instruction": "解答题.",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "(10 分) 设在矩形区域 $D=[a,b]\\times[c,d]$ 上, $F(x,y)$ 关于 $x$ 连续, $F_y(x,y)$ 存在且有界. 证明: $F(x,y)$ 在 $D$ 上连续."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "msgid": "2247528899",
+  "exams": [
+    {
+      "school": "苏州大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "35. 苏州大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528899_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设\n$$f(x)=\\begin{cases}\\dfrac{\\sin(x^2)}{x^2}, & x\\neq 0;\\\\[4pt] 1, & x=0.\\end{cases}$$\n求 $f^{(2024)}(0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "已知 $f(x)=\\cos(x^p)$ 在 $(0,+\\infty)$ 上一致连续，求 $p$ 的范围。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $I(x)=\\displaystyle\\int_0^{+\\infty} e^{-xy^2}\\sin x\\,\\mathrm{d}y$，$x\\ge 0$，求 $\\displaystyle\\int_0^{+\\infty} I(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "设平面 $x+y+z=1$ 在球 $x^2+y^2+z^2\\le 1$ 内部的平面部分为 $S$，计算\n$$\\iint\\limits_{S} (1-x^2-y^2-z^2)\\,\\mathrm{d}S.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x),g(x)$ 在 $[a,b]$ 上黎曼可积，证明：$f(x)g(x)$ 在 $[a,b]$ 上黎曼可积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续可微，$\\displaystyle\\int_0^1 f(x)\\,\\mathrm{d}x=0$，且有\n$$f'(x)+f(x)\\tan x=\\int_0^x f(t)\\,\\mathrm{d}t.$$\n求证：$f(x)$ 在 $[0,1]$ 上恒为零。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "函数 $f(x,y)$ 存在二阶连续偏导数，且 $f(0,0)=2024$，$f_{xx}+f_{yy}=2xy$，记 $L_r:\\ x^2+y^2=r^2$ $(r>0)$，求\n$$I(r)=\\dfrac{1}{2\\pi r}\\int_{L_r} f(x,y)\\,\\mathrm{d}s.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数\n$$\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n}{\\sqrt{n}},\\quad \\sum_{n=1}^{\\infty}\\dfrac{(-1)^n}{\\sqrt{n}-(-1)^n},\\quad \\sum_{n=1}^{\\infty}\\dfrac{(-1)^{[\\sqrt{n}]}}{n}$$\n的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上二阶连续可微，$f(0)<0<f(1)$，且 $f'(x)>0$，$f''(x)>0$。\n(1) 证明：存在唯一的 $\\xi\\in(0,1)$，满足 $f(\\xi)=0$。\n(2) 记 $x_1=1$，$x_{n+1}=x_n-\\dfrac{f(x_n)}{f'(x_n)}$，证明：$\\lim\\limits_{n\\to\\infty}x_n=\\xi$。\n(3) 求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{x_{n+1}-\\xi}{(x_n-\\xi)^2}$。"
+        }
+      ]
+    },
+    {
+      "school": "苏州大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "35. 苏州大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247528899_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "解答如下问题。\n(1) 设 $\\mu$ 为实数，记\n$$A=\\begin{pmatrix} 1 & 0 & 1 \\\\ 1 & 1 & \\mu \\\\ 0 & 0 & 1 \\end{pmatrix}.$$\n求 $A$ 的若尔当标准形 $J$。\n(2) 求 $\\mu$ 为何值时，存在正交矩阵 $P$，使得 $P^{-1}AP=J$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)$ 为数域 $F$ 上的 $n\\ge 1$ 次多项式，$f'(x)$ 为 $f(x)$ 的导数。证明：$f'(x)\\mid f(x)$ 当且仅当 $f(x)$ 有 $n$ 重根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 为数域 $F$ 上的 $n$ 维线性空间，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 为 $V$ 的一组基。证明：\n(1) 对于 $V$ 的任意 $m$ 个非平凡子空间 $V_1,V_2,\\cdots,V_m$，有 $\\displaystyle\\bigcup_{i=1}^{m}V_i\\neq V$。\n(2) 对任意的正整数 $s$，存在 $\\alpha_{n+1},\\cdots,\\alpha_{n+s}\\in V$，使得向量组 $\\alpha_1,\\cdots,\\alpha_n,\\alpha_{n+1},\\cdots,\\alpha_{n+s}$ 中任意 $n$ 个向量够构成 $V$ 的一组基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 为数域 $F$ 上的 $2n$ 维线性空间，$\\sigma$ 为 $V$ 上的线性变换。证明：$\\mathrm{Ker}\\,\\sigma=\\mathrm{Im}\\,\\sigma$ 当且仅当存在 $V$ 的一组基，使得 $\\sigma$ 在这组基下矩阵为\n$$\\begin{pmatrix} O & E_n \\\\ O & O \\end{pmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 为有理数域 $\\mathbb{Q}$ 上 $n$ 维线性空间 $V$ 的一组基，$V$ 上线性变换 $\\sigma$ 在这组基下的矩阵为\n$$\\begin{pmatrix} 0 & I \\\\ E_{n-1} & 0 \\end{pmatrix}.$$\n令 $U=\\left\\{\\displaystyle\\sum_{i=1}^{n}k_i\\varepsilon_i\\ \\middle|\\ \\sum_{i=1}^{n}k_i=0,\\ k_i\\in\\mathbb{Q}\\right\\}$，$W=\\left\\{\\displaystyle k\\sum_{i=1}^{n}\\varepsilon_i,\\ k\\in\\mathbb{Q}\\right\\}$。\n(1) 证明：$V=W\\oplus U$。\n(2) 当 $n$ 为素数时，求 $V$ 的所有 $\\sigma-$子空间。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $V$ 为 $n$ 维欧氏空间，对于任意的 $\\alpha\\in V$，$\\alpha\\neq 0$，定义 $\\sigma_\\alpha(\\gamma)=\\gamma-2\\dfrac{(\\gamma,\\alpha)}{(\\alpha,\\alpha)}\\alpha$，$\\gamma\\in V$，其中 $(\\ ,\\ )$ 表示内积，$\\sigma_\\alpha$ 称为镜面反射。\n(1) 证明：$\\sigma_\\alpha$ 是正交变换。\n(2) 设 $\\eta_1,\\eta_2,\\eta_1',\\eta_2'$ 为 $V$ 中的单位向量，$(\\eta_1,\\eta_2)=(\\eta_1',\\eta_2')$，证明：存在 $V$ 上的线性变换 $\\tau$，使得\n(i) $\\tau(\\eta_i)=\\eta_i'$，$i=1,2$。\n(ii) $\\tau$ 为镜面反射或者两个镜面反射的乘积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma,\\tau$ 为 $n$ 维复线性空间 $V$ 上的线性变换，满足 $\\sigma\\tau-\\tau\\sigma=\\tau$。证明：\n(1) 若 $W$ 为 $\\sigma-$子空间，则 $\\tau(W)$ 仍是 $\\sigma-$子空间。\n(2) 存在 $V$ 的一组基，使得 $\\sigma,\\tau$ 在这组基下的矩阵都是下三角矩阵。"
+        }
+      ]
+    }
+  ]
+}

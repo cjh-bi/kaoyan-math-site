@@ -1,0 +1,203 @@
+{
+  "msgid": "2247537053",
+  "exams": [
+    {
+      "school": "中国科学院大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "7. 中国科学院大学 2026 年数学分析试卷(回忆版)\n(注. 题目来自考生回忆, 部分表述或数据可能有误)",
+      "source_imgs": ["work/imgs/2247537053_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限.\n(1) $\\lim_{n\\to\\infty}\\dfrac{1}{n!}\\sum_{p=1}^{n}p!$.\n(2) $\\lim_{\\varepsilon\\to0^+}\\varepsilon\\ln\\left(e^{\\frac{a}{\\varepsilon}}+e^{\\frac{b}{\\varepsilon}}\\right)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "数列 $\\{a_n\\}$ 满足 $a_1=1$, $a_{n+1}=\\dfrac{1}{1+a_n}$ $(n=1,2,\\cdots)$, 证明: $\\{a_n\\}$ 收敛, 并求其极限值."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求函数 $f(x_1,x_2,\\cdots,x_n)=x_1^2+x_2^2+\\cdots+x_n^2$ 在条件 $\\sum_{i=1}^{n}a_ix_i=1$ 下的最小值."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "函数 $f(x)$ 在 $[0,a]$ 上二阶可导, 且 $|f''(x)|\\le M$, $x\\in[0,a]$. 若 $f(x)$ 在 $(0,a)$ 上存在最大值, 证明:\n$$|f'(0)+f'(a)|\\le Ma.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$\\iint_{\\Sigma}x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+z^3\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为上半椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ $(z\\ge0)$, 取上侧."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $P(x,y)$, $Q(x,y)$ 存在连续的偏导数, 且对任意以 $(x_0,y_0)\\in\\mathbb{R}^2$ 为圆心以 $r>0$ 为半径的上半圆周 $L: x=x_0+r\\cos\\theta$, $y=y_0+r\\sin\\theta$, $\\theta\\in[0,\\pi]$, 都有\n$$\\int_L P(x,y)\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y=0.$$\n证明 $P(x,y)=\\dfrac{\\partial Q}{\\partial x}(x,y)\\equiv0$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "求积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos(ax)}{1+x^2}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知 $F_n=\\displaystyle\\int_a^{\\pi}\\left(\\dfrac{\\sin\\frac{x-a}{2}}{\\sin\\frac{x+a}{2}}\\right)^{n}\\mathrm{d}x$, 其中 $0<a<\\pi$, 证明:\n$$F_n=\\dfrac{2\\sin a}{n-1}F_{n-1}-F_{n-2}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "证明:\n$$\\iint_D f(m\\sin\\theta\\cos\\varphi+n\\sin\\theta\\sin\\varphi+p\\cos\\theta)\\sin\\theta\\,\\mathrm{d}\\theta\\mathrm{d}\\varphi=2\\pi\\int_0^1 f(u\\sqrt{m^2+n^2+p^2})\\,\\mathrm{d}u.$$\n其中 $D:\\theta\\in[0,\\pi]$, $\\varphi\\in[0,2\\pi]$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明: $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_a^b f(x)|\\sin nx|\\,\\mathrm{d}x=\\dfrac{2}{\\pi}\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x$."
+        }
+      ]
+    },
+    {
+      "school": "中国科学院大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "7. 中国科学院大学 2026 年高等代数试卷(回忆版)\n(注. 题目来自考生回忆, 部分表述或数据可能有误)",
+      "source_imgs": ["work/imgs/2247537053_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x),g(x),h(x)$ 为实系数多项式, 试给出“存在实系数多项式 $u(x),v(x)$ 使得 $u(x)f(x)+v(x)g(x)=h(x)$”的充要条件, 并求出满足条件下的 $u(x),v(x)$ 的表达式."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $A=(a_{ij})_{n\\times n}$ 是 $n$ 阶实对称正定矩阵, 其特征值 $t_1<t_2<\\cdots<t_n$, 考虑下面二次型\n$$f(x_1,x_2,\\cdots,x_n)=\\begin{vmatrix} a_{11}&a_{12}&\\cdots&a_{1n}&x_1\\\\ a_{21}&a_{22}&\\cdots&a_{2n}&x_2\\\\ \\vdots&\\vdots&&\\vdots&&\\vdots\\\\ a_{n1}&a_{n2}&\\cdots&a_{nn}&x_n\\\\ x_1&x_2&\\cdots&x_n&a(x_1^2+x_2^2+\\cdots+x_n^2) \\end{vmatrix}.$$\n试确定 $a$ 的取值, 使二次型 $f(x_1,x_2,\\cdots,x_n)$ 分别正定, 负定, 不定, 写出解与秩."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B$ 为 $n$ 阶正交矩阵, 且 $\\det(A)+\\det(B)=0$, 证明: $A+B$ 非可逆."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 25,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\mathscr{A}$ 为 $n$ 维线性空间 $V$ 上的一个幂等线性变换, 即满足 $\\mathscr{A}^2=\\mathscr{A}$. 证明:\n(1) $\\mathrm{Ker}\\,\\mathscr{A}=\\{X-\\mathscr{A}X\\mid X\\in V\\}$.\n(2) $V=\\mathrm{Ker}\\,\\mathscr{A}\\oplus\\mathrm{Im}\\,\\mathscr{A}$.\n(3) 设 $\\mathscr{B}$ 是 $V$ 上的另一个线性变换, 那么 $\\mathrm{Ker}\\,\\mathscr{A},\\mathrm{Im}\\,\\mathscr{A}$ 都是 $\\mathscr{B}$ 的不变子空间当且仅当 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\mathscr{A},\\mathscr{B}$ 为 $n$ 维复向量空间 $V$ 上的线性变换, 且满足 $\\mathscr{A}\\mathscr{B}-\\mathscr{B}\\mathscr{A}=2026\\mathscr{B}$, 证明: 存在 $V$ 的一组基, 使得 $\\mathscr{A},\\mathscr{B}$ 在这组基下的矩阵均为下三角矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V_1,V_2,\\cdots,V_m$ 为数域 $\\mathbb{F}$ 上的 $n$ 维向量空间 $V$ 的任意 $m$ 个 $r$ 维子空间, 证明: 存在 $V$ 的子空间 $W$, 使得\n$$V=V_1\\oplus W=V_2\\oplus W=\\cdots=V_m\\oplus W.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $M\\in M_n(\\mathbb{C})$, $\\overline{M}$ 为 $M$ 的复共轭矩阵. 证明: 若 $M$ 与 $\\overline{M}$ 相似, 则 $M$ 复相似于一个实矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $(V,(-,-))$ 是 $n$ 维欧氏空间, $(e_1,e_2,\\cdots,e_n)$ 和 $(e^1,e^2,\\cdots,e^n)$ 为 $V$ 的两组基, 满足\n$$(e_i,e^j)=\\delta_{ij}\\ (i,j=1,2,\\cdots,n).$$\n证明: 若 $(e_i,e_j)\\le0$ 对所有的 $i\\ne j$, 则 $(e^i,e^j)\\ge0$ 对所有的 $i\\ne j$."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+ "msgid": "2247505184-2",
+ "exams": [
+  {
+   "school": "新疆大学",
+   "year": "2021",
+   "subject": "数学分析",
+   "header_note": "153. 新疆大学 2021 年硕士研究生入学考试数学分析试卷",
+   "source_imgs": ["work/imgs/2247505184-2_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "计算题（每题 15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "函数极限计算",
+     "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\dfrac{\\pi}{2}-\\arctan x\\right)^{\\frac{1}{\\ln x}}$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "计算题（每题 15 分）",
+     "no": "2",
+     "score": 15,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "函数极限计算",
+     "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\dfrac{\\left(\\int_0^x \\mathrm{e}^{t^2}\\,\\mathrm{d}t\\right)^2}{\\int_0^x \\mathrm{e}^{2t^2}\\,\\mathrm{d}t}$。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "级数",
+     "l2": "幂级数",
+     "stem": "求函数 $f(x)=e^{-\\frac{x^2}{2}}$ 的麦克劳林展开式，并求 $f^{(98)}(0)$ 和 $f^{(99)}(0)$。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "一元积分学",
+     "l2": "不定积分",
+     "stem": "求不定积分 $\\displaystyle\\int e^{x}\\left(\\dfrac{1-x}{1+x^2}\\right)^2\\mathrm{d}x$。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "级数",
+     "l2": "傅里叶级数",
+     "stem": "求函数\n$$f(x)=\\begin{cases}ax,&-\\pi<x\\le 0;\\\\ bx,&0<x<\\pi,\\end{cases}\\quad(a\\neq b,ab\\neq 0)$$\n的傅里叶展开式。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "隐函数求导",
+     "stem": "已知 $z=f(x+y+z,xyz)$，求 $\\dfrac{\\partial z}{\\partial x}$，$\\dfrac{\\partial x}{\\partial y}$，$\\dfrac{\\partial y}{\\partial z}$。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "讨论二元函数 $f(x,y)$ 在 $(0,0)$ 点处的连续性，其中\n$$f(x,y)=\\begin{cases}\\dfrac{x}{(x^2+y^2)^p},&x^2+y^2\\neq 0\\ (p>0);\\\\[2mm] 0,&x^2+y^2=0.\\end{cases}$$"
+    },
+    {
+     "section": "七",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "第二型曲线积分",
+     "stem": "求曲线积分 $\\displaystyle\\oint_L (x+y)^2\\mathrm{d}x-(x^2+y^2)\\mathrm{d}y$，其中 $L$ 是以 $A(1,1)$，$B(3,2)$，$C(2,5)$ 为顶点的三角形，取逆时针方向。"
+    },
+    {
+     "section": "八",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "连续与有界性",
+     "stem": "已知 $f(x)$ 在 $(a,b)$ 上连续，且 $f(a+0)=f(b-0)=+\\infty$，证明 $f(x)$ 在 $(a,b)$ 上可以取到最小值。"
+    },
+    {
+     "section": "九",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "已知 $f(x)$ 在 $[0,a]$ 上二阶可导，且 $|f''(x)|\\le M$，若 $f(x)$ 在 $(0,a)$ 内可取到最大值，求证：\n$$|f'(0)|+|f'(a)|\\le Ma.$$"
+    },
+    {
+     "section": "十",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "广义积分与含参积分",
+     "l2": "广义积分敛散性",
+     "stem": "已知 $f(x)$ 是 $[a,+\\infty)$ 上的单调递减且连续可微函数，且 $\\lim\\limits_{x\\to+\\infty}f(x)=0$，求证：$\\displaystyle\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛等价于 $\\displaystyle\\int_a^{+\\infty} xf'(x)\\,\\mathrm{d}x$ 收敛。"
+    }
+   ]
+  },
+  {
+   "school": "新疆大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "154. 新疆大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": ["work/imgs/2247505184-2_5.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "（10 分）",
+     "no": "1",
+     "score": 10,
+     "form": "计算",
+     "l1": "多项式",
+     "l2": "既约性",
+     "stem": "把多项式 $f(x)=(x^8-1)(x^6-1)$ 表示为实数域上的不可约因式的乘积。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（20 分）",
+     "no": "1",
+     "score": 5,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "考虑如下线性方程组，其中 $a$，$b$ 是实数。\n$$\\begin{cases}x_1+x_2+x_3=1;\\\\ x_1+ax_2=0;\\\\ bx_1=0.\\end{cases}$$\n讨论 $a$，$b$ 的取值，回答问题：\n上面线性方程组有解的充要条件。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（20 分）",
+     "no": "2",
+     "score": 5,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "考虑如下线性方程组，其中 $a$，$b$ 是实数。\n$$\\begin{cases}x_1+x_2+x_3=1;\\\\ x_1+ax_2=0;\\\\ bx_1=0.\\end{cases}$$\n讨论 $a$，$b$ 的取值，回答问题：\n上面线性方程组有唯一解的充要条件。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（20 分）",
+     "no": "3",
+     "score": 5,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "考虑如下线性方程组，其中 $a$，$b$ 是实数。\n$$\\begin{cases}x_1+x_2+x_3=1;\\\\ x_1+ax_2=0;\\\\ bx_1=0.\\end{cases}$$\n讨论 $a$，$b$ 的取值，回答问题：\n上面线性方程组有唯一解时，求出其唯一解。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "（20 分）",
+     "no": "4",
+     "score": 5,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "考虑如下线性方程组，其中 $a$，$b$ 是实数。\n$$\\begin{cases}x_1+x_2+x_3=1;\\\\ x_1+ax_2=0;\\\\ bx_1=0.\\end{cases}$$\n讨论 $a$，$b$ 的取值，回答问题：\n当 $a=b=0$ 时，给出线性方程组的通解。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（20 分）",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "相似",
+     "stem": "已知 $A$，$B$ 都是 $n$ 阶实矩阵。\n若 $A$ 或 $B$ 可逆，证明 $AB$ 与 $BA$ 相似。"
+    },
+    {
+     "section": "三",
+     "section_instruction": "（20 分）",
+     "no": "2",
+     "score": 10,
+     "form": "综合",
+     "l1": "矩阵与线性方程组",
+     "l2": "相似",
+     "stem": "已知 $A$，$B$ 都是 $n$ 阶实矩阵。\n若 $A$ 与 $B$ 都不可逆，$AB$ 与 $BA$ 还相似吗？若相似给出证明；若不相似举出反例。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "（40 分）",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "线性变换",
+     "stem": "设 $V=\\mathbb{R}^n$ 是 $n$ 维实列向量空间，记 $\\varphi(X)=AX$ 是 $V$ 到自身的映射，其中 $A$ 是所有元素为 $1$ 的 $n$ 阶矩阵。\n证明 $\\varphi$ 是 $V$ 到自身的线性变换。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "（40 分）",
+     "no": "2",
+     "score": 10,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "线性映射与核",
+     "stem": "设 $V=\\mathbb{R}^n$ 是 $n$ 维实列向量空间，记 $\\varphi(X)=AX$ 是 $V$ 到自身的映射，其中 $A$ 是所有元素为 $1$ 的 $n$ 阶矩阵。\n求 $\\varphi(V)$ 和 $\\varphi^{-1}(0)$ 的一组基。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "（40 分）",
+     "no": "3",
+     "score": 10,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "线性映射与核",
+     "stem": "设 $V=\\mathbb{R}^n$ 是 $n$ 维实列向量空间，记 $\\varphi(X)=AX$ 是 $V$ 到自身的映射，其中 $A$ 是所有元素为 $1$ 的 $n$ 阶矩阵。\n求 $\\varphi(V)$ 和 $\\varphi^{-1}(0)$ 的维数（即 $\\varphi$ 的秩与 $\\varphi$ 的零度）。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "（40 分）",
+     "no": "4",
+     "score": 10,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与直和",
+     "stem": "设 $V=\\mathbb{R}^n$ 是 $n$ 维实列向量空间，记 $\\varphi(X)=AX$ 是 $V$ 到自身的映射，其中 $A$ 是所有元素为 $1$ 的 $n$ 阶矩阵。\n证明：$V=\\varphi(V)\\oplus\\varphi^{-1}(0)$。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（30 分）",
+     "no": "1",
+     "score": 5,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "已知 $\\lambda-8$，$(\\lambda-8)^2$，$(\\lambda-4)^3$ 是一实方阵 $A$ 的所有初等因子。\n求 $A$ 的全部不变因子。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（30 分）",
+     "no": "2",
+     "score": 5,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "已知 $\\lambda-8$，$(\\lambda-8)^2$，$(\\lambda-4)^3$ 是一实方阵 $A$ 的所有初等因子。\n求 $A$ 的各阶行列式因子。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（30 分）",
+     "no": "3",
+     "score": 5,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "特征多项式",
+     "stem": "已知 $\\lambda-8$，$(\\lambda-8)^2$，$(\\lambda-4)^3$ 是一实方阵 $A$ 的所有初等因子。\n求 $A$ 的特征多项式。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（30 分）",
+     "no": "4",
+     "score": 5,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "极小多项式",
+     "stem": "已知 $\\lambda-8$，$(\\lambda-8)^2$，$(\\lambda-4)^3$ 是一实方阵 $A$ 的所有初等因子。\n求 $A$ 的最小多项式。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（30 分）",
+     "no": "5",
+     "score": 5,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "已知 $\\lambda-8$，$(\\lambda-8)^2$，$(\\lambda-4)^3$ 是一实方阵 $A$ 的所有初等因子。\n求 $A$ 的行列式。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "（30 分）",
+     "no": "6",
+     "score": 5,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "已知 $\\lambda-8$，$(\\lambda-8)^2$，$(\\lambda-4)^3$ 是一实方阵 $A$ 的所有初等因子。\n求 $A$ 的若尔当标准形。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "（30 分）",
+     "no": "1",
+     "score": 10,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "已知\n$$f(x_1,x_2,x_3)=x_1^2+x_2^2+(t-2)x_3^2+2tx_1x_2$$\n是一个实二次型。\n写出二次型 $f(x_1,x_2,x_3)$ 的矩阵 $A$，并求 $A$ 的特征值。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "（30 分）",
+     "no": "2",
+     "score": 10,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "正定与半正定",
+     "stem": "已知\n$$f(x_1,x_2,x_3)=x_1^2+x_2^2+(t-2)x_3^2+2tx_1x_2$$\n是一个实二次型。\n实数 $t$ 在什么范围内取值时，$f(x_1,x_2,x_3)=x_1^2+x_2^2+tx_3^2+2tx_1x_2$ 为正定二次型？"
+    },
+    {
+     "section": "六",
+     "section_instruction": "（30 分）",
+     "no": "3",
+     "score": 10,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "正交变换",
+     "stem": "已知\n$$f(x_1,x_2,x_3)=x_1^2+x_2^2+(t-2)x_3^2+2tx_1x_2$$\n是一个实二次型。\n求一个正交变换将 $f(x_1,x_2,x_3)$ 化为标准形。"
+    }
+   ]
+  }
+ ]
+}

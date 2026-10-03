@@ -1,0 +1,134 @@
+{
+  "msgid": "2247505144-4",
+  "exams": [
+    {
+      "school": "华中农业大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "144. 华中农业大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247505144-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\int_0^{\\sin x}\\arctan t^2\\,\\mathrm{d}t}{\\int_0^{x}(2t^2+t^3\\cos t)\\,\\mathrm{d}t}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求二重积分 $\\iint\\limits_{D}(x+y)\\sin(x-y)\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D$ 满足 $\\begin{cases}0\\le x+y\\le \\pi;\\\\ 0\\le x-y\\le \\pi.\\end{cases}$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "函数 $f(x)$ 在 $[0,1]$ 上连续，$I(h)=\\int_0^1 \\dfrac{h}{h^2+x^2}[f(x)-f(0)]\\,\\mathrm{d}x$，$h>0$。证明：$\\lim\\limits_{h\\to 0}I(h)=0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "函数 $f(x)$ 在 $[0,1]$ 上连续，$I(h)=\\int_0^1 \\dfrac{h}{h^2+x^2}[f(x)-f(0)]\\,\\mathrm{d}x$，$h>0$。证明：$\\lim\\limits_{h\\to 0}\\int_0^1 \\dfrac{h}{h^2+x^2}f(x)\\,\\mathrm{d}x=\\dfrac{\\pi}{2}f(0)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "函数在 $[a,b]$ 上二次可微，且存在常数 $m$, $M$，$m\\le f''(x)\\le M$，证明：\n$$\\dfrac{(b-a)^2}{24}m\\le \\dfrac{1}{b-a}\\int_a^b f(x)\\,\\mathrm{d}x-f\\left(\\dfrac{a+b}{2}\\right)\\le \\dfrac{(b-a)^2}{24}M.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "已知函数列 $u_n(x)=ne^{-nx}$，$n\\ge 1$。",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "已知函数列 $u_n(x)=ne^{-nx}$，$n\\ge 1$。证明：$\\sum\\limits_{n=1}^{\\infty}u_n(x)$ 在 $[\\ln 2,\\ln 3]$ 上一致收敛。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "已知函数列 $u_n(x)=ne^{-nx}$，$n\\ge 1$。",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "已知函数列 $u_n(x)=ne^{-nx}$，$n\\ge 1$。求 $\\int_{\\ln 2}^{\\ln 3}\\sum\\limits_{n=1}^{\\infty}u_n(x)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：$x-\\dfrac{x^2}{2}<\\ln(1+x)<x$（$x>0$），并用其计算：\n(1) $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}\\ln\\left(1+\\dfrac{k}{n^2}\\right)$；"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：$x-\\dfrac{x^2}{2}<\\ln(1+x)<x$（$x>0$），并用其计算：\n(2) $\\lim\\limits_{n\\to\\infty}\\prod\\limits_{k=1}^{n}\\left(1+\\dfrac{k}{n^2}\\right)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "求曲面 $3x^2+2y^2=2z+1$ 和 $x^2+y^2+z^2-4y-2z+2=0$ 在点 $(1,1,2)$ 处的法线夹角，并求两曲面的交线在该点处的切线方程。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "有一可求弧长曲线 $L$，其弧长为 $S$。",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "有一可求弧长曲线 $L$，其弧长为 $S$。函数 $P(x,y)$, $Q(x,y)$ 在 $L$ 上连续，证明：\n$$\\left|\\int_L P(x,y)\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y\\right|\\le S\\cdot\\max_{x,y\\in L}\\sqrt{P^2(x,y)+Q^2(x,y)}.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "有一可求弧长曲线 $L$，其弧长为 $S$。",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "证明：\n$$\\lim_{R\\to+\\infty}\\left|\\oint_L \\dfrac{y\\,\\mathrm{d}x-x\\,\\mathrm{d}y}{(x^2+xy+y^2)^2}\\right|=0.$$\n其中 $L$ 为 $x^2+y^2=R^2$，取逆时针方向。"
+        }
+      ]
+    }
+  ]
+}

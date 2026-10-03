@@ -1,0 +1,114 @@
+{
+  "msgid": "2247528879",
+  "exams": [
+    {
+      "school": "同济大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "15. 同济大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247528879_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $\\alpha,\\beta$ 为正实数, 证明:\n$$\\lim_{n\\to\\infty}\\left(1+\\frac{\\alpha+\\sqrt{-1}\\beta}{n}\\right)^{n}=e^{\\alpha}(\\cos\\alpha+\\sqrt{-1}\\sin\\beta).$$\n注: 若数列 $\\{a_n\\},\\{b_n\\}$ 分别收敛于 $a,b$, 则称复数列 $\\{a_n+\\sqrt{-1}b_n\\}$ 收敛于 $a+\\sqrt{-1}b$, 记作\n$$\\lim_{n\\to\\infty}(a_n+\\sqrt{-1}b_n)=a+\\sqrt{-1}b.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "证明: 存在 $f(x)\\in C^1(\\mathbb{R})$, 满足 $f(x)$ 在 $(-\\infty,1)$ 上恒为 0, 在 $(2,+\\infty)$ 上恒为 1。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f$ 在 $\\mathbb{R}$ 上二阶可微, 证明: 对任意的 $a,b\\in\\mathbb{R}$, $t\\in(0,1)$, 存在 $\\xi\\in\\mathbb{R}$, 满足\n$$f((1-t)a+tb)=(1-t)f(a)+tf(b)-\\frac{f''(\\xi)}{2}t(1-t)(b-a)^2.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $\\alpha$ 为正实数, 讨论 $\\lim\\limits_{x\\to 0}\\dfrac{\\frac{1}{\\sqrt{\\pi}}\\displaystyle\\int_0^{+\\infty}e^{-t^2}\\cos(2xt)\\,\\mathrm{d}t-\\frac{1}{2}}{x^{\\alpha}}$ 的敛散性及极限。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $u_n(x)\\in R[0,1]$, 且 $\\sum\\limits_{n=1}^{\\infty}u_n(x)$ 的部分和函数列一致有界. 令 $v_n(x)=\\displaystyle\\int_0^1 u_n(x)\\sqrt{x+t}\\,\\mathrm{d}t$.\n(1) 证明: $v_n(x)\\in C^1(0,1)$.\n(2) 证明: 若 $\\sum\\limits_{n=1}^{\\infty}v_n(x)$ 收敛于 $S(x)$, 则 $S(x)\\in C^0(0,1)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "设 $f,g\\in C^0(\\mathbb{R}^2)$, 且当 $\\boldsymbol{x}\\ne\\boldsymbol{0}$ 时, 成立 $f(\\boldsymbol{x})=g(\\boldsymbol{x})\\sin\\dfrac{1}{\\|\\boldsymbol{x}\\|}$. 若 $f$ 在原点可微, 求 $\\mathrm{d}f(\\boldsymbol{0})$, 并分析 $g$ 在原点的可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判断 $\\iint\\limits_{x+y\\ge 1}\\dfrac{\\sin x\\sin y}{(x+y)^3}\\,\\mathrm{d}x\\mathrm{d}y$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "曲线 $L$ 是 $x^2+y^2+z^2=8$ 与 $x^2+y^2=2z$ 的交线, 且从 $z$ 轴正向往坐标原点看去取逆时针方向. 计算\n$$I=\\int_L|\\sqrt{3}y-x|\\,\\mathrm{d}x+3y\\,\\mathrm{d}y-2z\\,\\mathrm{d}z.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 25,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "设 $f(x)$ 是在 $x_0$ 局部有定义的实函数, 如果 $f(x)$ 在 $x_0$ 的某邻域上可以展开为收敛于 $f(x)$ 的关于 $(x-x_0)$ 的幂级数, 则称 $f(x)$ 在 $x_0$ 点解析. 若 $f(x)$ 在开区间 $I$ 上点点解析, 则称 $f(x)$ 在 $I$ 上解析.\n(1) 若 $f,g$ 都为区间 $I$ 上的实解析函数, 且 $E=\\{x\\in I\\mid f(x)=g(x)\\}$ 在 $I$ 上有聚点, 证明: $f\\equiv g$.\n(2) 设 $f,g$ 为 $\\mathbb{R}$ 上的实解析函数, $w(f,g)=\\det\\begin{pmatrix}f&g\\\\ f'&g'\\end{pmatrix}$ 为 Wronski 行列式, 证明: $w(f,g)=0$ 当且仅当 $f,g$ 线性相关.\n(3) 若 $f(x),g(x)\\in C^{\\infty}(\\mathbb{R})$, (2) 中结论是否成立? 说明理由。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $P(x,y),Q(x,y)$ 为单连通区域 $\\Omega$ 上的 $C^1$ 函数, 且 $\\dfrac{\\partial P}{\\partial y}=\\dfrac{\\partial Q}{\\partial x}$ 在 $\\Omega$ 上成立. 证明: 曲线积分 $\\displaystyle\\int_L P\\,\\mathrm{d}x+Q\\,\\mathrm{d}y$ 与路径无关, 其中 $L$ 为 $\\Omega$ 中的分段光滑曲线。"
+        }
+      ]
+    }
+  ]
+}

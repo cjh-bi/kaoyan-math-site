@@ -1,0 +1,273 @@
+{
+  "msgid": "2247529253",
+  "exams": [
+    {
+      "school": "厦门大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "44. 厦门大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529253_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{(2024n)^n}{2025^n n!}$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f_1(x)$ 是 $[a,b]$ 上的连续函数，$x_0\\in[a,b]$，$f_{n+1}(x)=\\int_{x_0}^{x}f_n(t)\\,\\mathrm{d}t$，讨论函数列 $\\{f_n(x)\\}$ 在 $[a,b]$ 上的一致收敛性，并求出极限函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续可导，$f(a)=0$，证明：$\\int_a^b f^2(x)\\,\\mathrm{d}x\\le \\dfrac{(b-a)^2}{2}\\int_a^b [f'(x)]^2\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 在 $(a,+\\infty)$ 上有界且可导，若 $x^{2025}f'(x)$ 单调，证明：$\\lim\\limits_{x\\to+\\infty}(x\\ln x)f(x)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "设 $\\{F_\\lambda\\}_{\\lambda\\in\\Gamma}$ 是一族闭集，其中至少有一个是有界闭集，且 $\\bigcap\\limits_{\\lambda\\in\\Gamma}F_\\lambda=\\varnothing$。证明：存在有限个 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\in\\Gamma$，使得 $\\bigcap\\limits_{k=1}^{n}F_{\\lambda_k}=\\varnothing$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "计算 $\\iiint_{\\Omega} e^{3z^2-z^3}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $\\Omega:\\ x^2+y^2+z^2\\le 2z$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "在 $\\mathbb{R}^3$ 中函数 $u(\\boldsymbol{x})=u(x_1,x_2,x_3)$ 二阶可微，设 $\\|\\boldsymbol{x}\\|=\\sqrt{x_1^2+x_2^2+x_3^2}$，$B_r$ 表示以原点为球心，半径为 $r$ 的球。记 $$H(r)=\\int_{B_r}u^2(\\boldsymbol{x})(r^2-\\|\\boldsymbol{x}\\|^2)^{\\alpha}\\,\\mathrm{d}\\boldsymbol{x},\\ I(r)=\\int_{B_r}\\|\\nabla u(\\boldsymbol{x})\\|^2(r^2-\\|\\boldsymbol{x}\\|^2)^{\\alpha+1}\\,\\mathrm{d}\\boldsymbol{x},\\ \\alpha\\ge2.$$\n(1) 证明：$H'(r)=2\\alpha r\\displaystyle\\int_{B_r}u^2(\\boldsymbol{x})(r^2-\\|\\boldsymbol{x}\\|^2)^{\\alpha-1}\\,\\mathrm{d}\\boldsymbol{x}$。\n(2) 进一步地，若 $u(\\boldsymbol{x})$ 为调和函数，证明：$H'(r)=\\dfrac{2\\alpha+1}{r}H(r)+\\dfrac{1}{(\\alpha+1)r}I(r)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)=x^2$，$x\\in[-\\pi,\\pi]$。\n(1) 求 $f(x)$ 的傅里叶级数。\n(2) 求 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n^2}$。"
+        }
+      ]
+    },
+    {
+      "school": "厦门大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "44. 厦门大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529253_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "$\\left(\\begin{array}{cc}O&E_3\\\\E_2&O\\end{array}\\right)^2=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B$ 均是可逆的 $4$ 阶方阵，且 $A$ 的每行元素之和为 $2$，$B$ 的每行元素之和为 $3$，则 $A^{-1}B+B^{-1}A$ 的每行元素之和为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A,B$ 为 $n$ 阶矩阵，方程组 $AX=0$，$BX=0$ 分别有 $k$ 个和 $m$ 个线性无关的解向量，其中 $k+m>n$，则 $(A+B)X=0$ ______(有无)非零解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V_1,V_2$ 是 $V$ 的两个子空间，且 $V=V_1\\oplus V_2$，记 $\\alpha$ 是 $V$ 中非零向量，且 $\\alpha\\notin V_1\\cap V_2$，$\\langle\\alpha\\rangle$ 是由 $\\alpha$ 生成的子空间，令 $U_1=V_1\\oplus\\langle\\alpha\\rangle$，$U_2=V_2\\oplus\\langle\\alpha\\rangle$，则 $\\dim(U_1+U_2)=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\xi_1,\\xi_2,\\xi_3$ 与 $\\eta_1,\\eta_2$ 分别为线性空间 $V,W$ 的一组基，线性映射 $\\varphi:\\ V\\to W$ 满足 $$\\varphi\\left(\\begin{array}{ccc}\\xi_1&\\xi_2&\\xi_3\\end{array}\\right)=\\left(\\begin{array}{cc}\\eta_1&\\eta_2\\end{array}\\right)\\begin{pmatrix}1&2&1\\\\-1&1&0\\end{pmatrix}.$$ 则 $\\mathrm{Ker}\\,\\varphi=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $g(x)=x^2-4x+a$，若存在一个唯一的首一三次多项式 $f(x)$，使得 $g(x)\\mid f(x)$，且 $f(x)\\mid g^2(x)$，则 $f(x)=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A$ 为 $4$ 阶方阵，且 $\\mathrm{tr}(A^i)=4$ $(i=1,2,3,4)$，则 $|A|=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "$n$ 阶方阵 $A$ 的特征值全为 $2$，且只有一个线性无关的特征向量，则 $A$ 的行列式因子为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "9",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "$2024$ 阶方阵 $A$ 的极小多项式为 $(\\lambda-1)(\\lambda-2)^{2021}$，则 $A$ 互不相似的 Jordan 标准形共有______种。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "no": "10",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若实二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+(a-1)x_3^2+2x_1x_3-2x_2x_3$ 是正惯性指数为 $2$ 的半正定型，则 $a=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A^*=\\begin{pmatrix}1&0&0\\\\0&9&0\\\\0&0&1\\end{pmatrix}$，若 $|A|>0$，且 $ABA^{-1}=BA^{-1}+2E$，求 $B$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A=\\begin{pmatrix}k&1&1\\\\0&k-1&0\\\\1&1&k\\end{pmatrix}$，$\\beta=\\begin{pmatrix}a\\\\1\\\\1\\end{pmatrix}$，已知 $AX=\\beta$ 有无穷多解。\n(1) 求 $k,a$ 的值。\n(2) 求 $AX=\\beta$ 的通解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A$ 为 $n$ 阶可逆矩阵，证明：存在 $n-1$ 次多项式 $g(x)$，使得 $A^{-1}=g(A)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设数域 $\\mathbb{F}$ 上的 $n$ 阶矩阵 $A$ 满足 $|A|\\neq0$，且 $A=\\left(\\begin{array}{c}A_1\\\\A_2\\end{array}\\right)$，记 $V_1,V_2$ 是 $A_1X=0$ 和 $A_2X=0$ 的解空间。证明：$\\mathbb{F}^n=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 都是正定矩阵，证明：$AB$ 的特征值都是实数。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A_{m\\times m},B_{n\\times n},C_{m\\times n}$ 满足 $AC=CB$，证明：$A,B$ 至少有 $r$ 个相同的特征值。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 为复数域上 $n$ 阶对称矩阵构成的线性空间，$U$ 为复数域上 $n$ 阶反称矩阵构成的线性空间，任取 $A\\in V$，定义 $$\\varphi:\\ V\\to U,\\ X\\mapsto AX-XA.$$ 证明：$\\varphi$ 为满射的充要条件是 $A$ 的特征多项式在 $\\mathbb{C}$ 上无重根。"
+        }
+      ]
+    }
+  ]
+}

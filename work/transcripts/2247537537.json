@@ -1,0 +1,323 @@
+{
+  "msgid": "2247537537",
+  "exams": [
+    {
+      "school": "湖南师范大学",
+      "year": "2026",
+      "subject": "数学分析",
+      "header_note": "54. 湖南师范大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537537_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "极限 $\\lim\\limits_{x\\to 0}\\dfrac{1}{x^2}\\ln\\dfrac{\\sin x}{x}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "极限 $\\lim\\limits_{n\\to\\infty}\\left(1-\\dfrac{1}{2}+\\cdots+(-1)^{n-1}\\dfrac{1}{n}\\right)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)=\\dfrac{x^4}{1-x^2}$，则 $f^{(2026)}(0)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，$f'(0)$ 存在，且\n$$f(x)=x^3+x^2\\lim_{x\\to 0}\\dfrac{f(x)}{x}-x\\int_0^1 f(x)\\,\\mathrm{d}x.$$\n则 $f(x)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "曲面 $x=\\sqrt{2y^2+3z^2-4}$ 上垂直于直线 $\\dfrac{x-2}{1}=\\dfrac{y-3}{2}=\\dfrac{z}{3}$ 的切平面方程为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设 $f(x)$ 二次可微，且 $\\sup\\limits_{x\\in[0,1]} f''(x)\\le 2$，若 $f(0)=f(1)=2$，且曲线 $y=f(x)-x^2$ 与直线 $y=2-x$ 交于点 $(x_0,y_0)$ $(0<x_0<1)$，则对任意的 $x\\in(0,1)$，$f(x)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $p>0$，广义积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin x}{x^p+\\sin x}\\,\\mathrm{d}x$ 条件收敛，则实数 $p$ 满足的条件是______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{(2n)!}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "9",
+          "score": null,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设曲线 $L:x^2+y^2=16$，取逆时针方向，则 $\\displaystyle\\oint_L\\dfrac{y\\,\\mathrm{d}x-x\\,\\mathrm{d}y}{x^2+xy+y^2}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "10",
+          "score": null,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint_S \\dfrac{2x\\,\\mathrm{d}y\\mathrm{d}z+(x+2)^2\\,\\mathrm{d}x\\mathrm{d}y}{\\sqrt{x^2+y^2+z^2}}.$$\n其中 $S:z=-\\sqrt{4-x^2-y^2}$，取上侧，则 $I=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上有一阶连续导数，定义 $s_n=\\displaystyle\\int_0^1 f(x)\\,\\mathrm{d}x-\\dfrac{1}{n}\\sum_{k=1}^{n} f\\left(\\dfrac{k}{n}\\right)$，求 $\\lim\\limits_{n\\to\\infty} s_n$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(x,y)$ 在闭区域 $D=\\{(x,y)\\mid x^2+y^2\\le 1\\}$ 上有二阶连续偏导数，且\n$$\\dfrac{\\partial^2 f}{\\partial x^2}+\\dfrac{\\partial^2 f}{\\partial y^2}=\\sin(x^2+y^2).$$\n求 $\\displaystyle\\iint_D\\left(x\\dfrac{\\partial f}{\\partial x}+y\\dfrac{\\partial f}{\\partial y}\\right)\\,\\mathrm{d}x\\mathrm{d}y$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设函数 $I(\\alpha)=\\displaystyle\\int_0^1\\dfrac{\\ln(1+\\alpha x)}{1+x^2}\\,\\mathrm{d}x$ $(\\alpha\\ge 0)$，求 $I(1)$ 的值."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x),g(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $g'(x)\\ne 0$，证明：存在 $\\xi\\in(a,b)$，使得\n$$\\dfrac{f'(\\xi)}{g'(\\xi)}=\\dfrac{f(\\xi)-f(a)}{g(b)-g(\\xi)}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "用有限覆盖定理证明：闭区间 $[a,b]$ 上的连续函数 $f(x)$ 一定在 $[a,b]$ 上一致连续."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x),g(x)$ 在 $[a,b]$ 上连续，且有相同的单调性，证明：\n$$(b-a)\\int_a^b f(x)g(x)\\,\\mathrm{d}x\\ge\\int_a^b f(x)\\,\\mathrm{d}x\\int_a^b g(x)\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $f(x)$ 定义在 $[-1,1]$ 上，且 $f''(0)$ 存在，证明：$\\displaystyle\\sum_{n=1}^{\\infty} f\\left(\\dfrac{1}{n}\\right)$ 绝对收敛当且仅当 $f(0)=f'(0)=0$."
+        }
+      ]
+    },
+    {
+      "school": "湖南师范大学",
+      "year": "2026",
+      "subject": "高等代数",
+      "header_note": "54. 湖南师范大学 2026 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247537537_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 5 分，共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "两个 $n$ 阶正定矩阵的和是否正定？为什么？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 5 分，共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "若多项式 $f(x)$ 与 $g(x)$ 互素，那么 $f(x^2)$ 与 $g(x^2)$ 是否互素？为什么？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 5 分，共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "若 3 阶非零方阵的所有二阶余子式均等于 0，那么其秩是多少？为什么？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 5 分，共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "正交矩阵的复特征值一定是 $-1$ 或 $1$ 吗？为什么？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "简答题. 每题 5 分，共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "若 $f'(x)$ 有 2 重根 $a$，那么 $a$ 是多项式 $f(x)$ 的 3 重根吗？为什么？"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分，共 60 分.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算如下 $n$ 阶行列式的值\n$$D_n=\\begin{vmatrix} 3 & 2 & 0 & 0 & \\cdots & 0 & 0 \\\\ 1 & 3 & 2 & 0 & \\cdots & 0 & 0 \\\\ 0 & 1 & 3 & 2 & \\cdots & 0 & 0 \\\\ \\vdots & \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ 0 & 0 & 0 & 0 & \\cdots & 3 & 2 \\\\ 0 & 0 & 0 & 0 & \\cdots & 1 & 3 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分，共 60 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "记与矩阵 $A=\\begin{pmatrix} 1 & 2 & 0 \\\\ 0 & 1 & 2 \\\\ 2 & 0 & 1 \\end{pmatrix}$ 乘法可交换的所有实矩阵构成的集合为 $C(A)$，证明：$C(A)$ 是矩阵空间 $\\mathbb{R}^{3\\times 3}$ 的线性子空间，并计算出一个基底."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分，共 60 分.",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 是实线性空间，$v_1,v_2$ 是 $V$ 的一组基，且 $V$ 上线性变换 $\\mathscr{T}$ 满足\n$$\\mathscr{T}(v_1)=v_1+v_2,\\ \\mathscr{T}(v_2)=-2v_1+4v_2.$$\n计算 $\\mathscr{T}^{2026}(v_1)$ 在基 $v_1,v_2$ 下的坐标."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 15 分，共 60 分.",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $n$ 为正整数，且有理数域上二次型\n$$f(x_1,x_2,x_3)=2x_1^2+x_2^2+x_3^2+2nx_1x_2+4x_1x_3$$\n有三个不小于 $-4$ 的整数特征值，确定 $n$ 的取值并计算此二次型在有理数域上的标准形."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明：多项式 $x^7+7x+1$ 在有理数域上不可约."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $n\\ge 2$，$\\mathscr{T}$ 是 $n$ 维线性空间 $V$ 上的线性变换，且向量 $v$ 满足 $\\mathscr{T}^{n-1}v\\ne 0$，$\\mathscr{T}^n v=0$.\n(1) 证明：向量组 $v,\\mathscr{T}v,\\cdots,\\mathscr{T}^{n-1}v$ 线性无关.\n(2) 证明：$\\mathscr{T}$ 不可以对角化."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 为 2026 阶非零实矩阵，且 $A$ 的伴随矩阵与其转置矩阵相等，证明：$A$ 是行列式为 1 的正交矩阵."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分，共 60 分.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设实方阵 $A$ 满足 $A^4=-A^2$，证明：$A$ 的迹等于 0."
+        }
+      ]
+    }
+  ]
+}

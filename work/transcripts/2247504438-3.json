@@ -1,0 +1,94 @@
+{
+ "msgid": "2247504438-3",
+ "exams": [
+  {
+   "school": "中北大学",
+   "year": "2021",
+   "subject": "高等代数",
+   "header_note": "14. 中北大学 2021 年硕士研究生入学考试高等代数试卷",
+   "source_imgs": ["work/imgs/2247504438-3_4.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "设\n$$D=\\begin{vmatrix} a_{11} & a_{12} & \\cdots & a_{1n} \\\\ a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n1} & a_{n2} & \\cdots & a_{nn} \\end{vmatrix}.$$\n$A_{ij}$ 表示 $D$ 中元素 $a_{ij}$ 的代数余子式，证明\n$$\\begin{vmatrix} a_{11}+x_1 & a_{12}+x_2 & \\cdots & a_{1n}+x_n \\\\ a_{21}+x_1 & a_{22}+x_2 & \\cdots & a_{2n}+x_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_{n1}+x_1 & a_{n2}+x_2 & \\cdots & a_{nn}+x_n \\end{vmatrix}=D+\\sum_{j=1}^{n}x_j\\sum_{i=1}^{n}A_{ij}.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "秩",
+     "stem": "设 $A$, $B$ 分别为 $n\\times m$ 与 $m\\times n$ 矩阵，证明：若 $AB=E_n$，则 $B$ 的列向量线性组无关。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": null,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "正交变换",
+     "stem": "已知二次型\n$$f(x_1,x_2,x_3)=2x_1^2+3x_2^2+3x_3^2+2ax_2x_3\\ (a>0)$$\n通过正交替换化为 $y_1^2+2y_2^2+5y_3^2$，求 $a$ 的值及对应的正交矩阵。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": null,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "线性变换",
+     "stem": "已知 $\\mathscr{A}$ 为 3 维线性空间 $V$ 上的线性变换，$\\varepsilon_1,\\ \\varepsilon_2,\\ \\varepsilon_3$ 为 $V$ 的一组基，且 $\\mathscr{A}$ 在这组基下的矩阵为\n$$A=\\begin{pmatrix} 1 & 2 & -1 \\\\ 2 & 1 & 0 \\\\ 3 & 0 & 1 \\end{pmatrix}.$$\n(1) 求 $\\mathscr{A}$ 在基 $\\eta_1,\\ \\eta_2,\\ \\eta_3$ 下的矩阵，其中\n$$\\begin{cases} \\eta_1=2\\varepsilon_1+\\varepsilon_2+3\\varepsilon_3; \\\\ \\eta_2=\\varepsilon_1+\\varepsilon_2+2\\varepsilon_3; \\\\ \\eta_3=-\\varepsilon_1+\\varepsilon_2+\\varepsilon_3. \\end{cases}$$\n(2) 求 $\\mathscr{A}V$ 和 $\\mathrm{Ker}\\ \\mathscr{A}$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": null,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "求如下 $\\lambda-$矩阵的标准形：\n$$\\begin{pmatrix} \\lambda^2+\\lambda & 0 & 0 \\\\ 0 & \\lambda & 0 \\\\ 0 & 0 & (\\lambda+1)^2 \\end{pmatrix}.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": null,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "特征值与特征向量",
+     "stem": "设 $n\\ge 2$，且 $A=(a_1,a_2,\\cdots,a_n)$，记 $B=A'A$，其中 $A'$ 为 $A$ 的转置。\n(1) 求 $B$ 的特征值；\n(2) 求 $B$ 相似于对角矩阵的条件，并说明理由。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "已知方程组 $AX=b$ 的 3 个解为\n$$\\eta_1=(1,-1,1,1)',\\ \\eta_2=(2,1,0,1)',\\ \\eta_3=(3,2,1,0)'.$$\n且 $r(A)=2$，求 $AX=b$ 的通解。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "8",
+     "score": null,
+     "form": "计算",
+     "l1": "多项式",
+     "l2": "互素与最大公因式",
+     "stem": "已知 $f(x)=x^4-x^3-4x^2+4x+1$，$g(x)=x^2-x-1$，利用辗转相除法求 $(f(x),g(x))$。"
+    }
+   ]
+  }
+ ]
+}

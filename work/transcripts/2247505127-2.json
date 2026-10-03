@@ -1,0 +1,323 @@
+{
+  "msgid": "2247505127-2",
+  "exams": [
+    {
+      "school": "电子科技大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "137. 电子科技大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247505127-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim\\limits_{x\\to 0}\\left[\\dfrac{1}{\\ln(1+x)}-\\dfrac{1}{e^x-1}\\right]=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "已知 $F(x)=\\displaystyle\\int_x^{2x}\\dfrac{f(t)}{t}\\,\\mathrm{d}t$，则 $\\dfrac{\\mathrm{d}F(x)}{\\mathrm{d}x}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "若函数 $z=f(x,y)$ 由方程 $x^2+y^2+z^2=4z$ 所确定，则 $\\dfrac{\\partial^2 z}{\\partial x^2}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "已知 $\\begin{cases}x=\\sqrt{1+t^2};\\\\[2pt] y=\\dfrac{t}{\\sqrt{1+t^2}}.\\end{cases}$ 则 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(n!)^2}{(2n)!}x^n$ 的收敛半径为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "$\\displaystyle\\int_0^1 \\mathrm{d}y\\int_{\\sqrt{y}}^{1}\\sqrt{x^3+1}\\,\\mathrm{d}x=$ ______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 且 $f(0)=2$，求 $I_1=\\lim\\limits_{h\\to 0^+}\\displaystyle\\int_0^1\\dfrac{h}{h^2+x^2}\\,\\mathrm{d}x$ 和 $I_2=\\lim\\limits_{h\\to 0^+}\\displaystyle\\int_0^1\\dfrac{h}{h^2+x^2}f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求函数 $u=x-2y+2z$ 在条件 $x^2+y^2+z^2=1$ 下的极值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "已知 $L_1$ 为椭圆 $(x-1)^2+y^2=4$，取逆时针方向，求 $\\displaystyle\\oint_{L_1}\\dfrac{x\\,\\mathrm{d}y-y\\,\\mathrm{d}x}{4x^2+y^2}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "已知 $V$ 是由 $z=\\sqrt{x^2+y^2}$ 与 $x^2+y^2+z^2=1$ 所围成的区域, 求重积分\n$$\\iiint\\limits_{V} z\\,e^{-(x^2+y^2+z^2)}\\,\\mathrm{d}x\\,\\mathrm{d}y\\,\\mathrm{d}z.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "若 $f(x)$ 在 $[0,+\\infty)$ 上连续，$f(0)=1$，且 $\\lim\\limits_{x\\to+\\infty}f(x)=0$，求 $\\displaystyle\\int_0^{+\\infty}\\dfrac{f(x)-f(2x)}{x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "6",
+          "score": 10,
+          "form": "综合",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "【?】（卷面此题仅标注「未知」，无题目内容）"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 30 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知 $f(x)$ 在 $[0,+\\infty)$ 上可导，$f(0)=0$，且 $|f'(x)|\\le |f(x)|$，证明 $f(x)\\equiv 0,\\ x\\in[0,+\\infty)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 30 分)",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上单调递减, 证明：对任意的 $\\alpha\\in(0,1)$，有 $\\displaystyle\\int_0^{\\alpha}f(x)\\,\\mathrm{d}x\\ge \\alpha\\int_0^{1}f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 30 分)",
+          "no": "3",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{1+n^2x^2}$ 的收敛性。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题(每题 15 分, 共 30 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\alpha\\in(0,2\\ln^2 2)$，证明 $\\displaystyle\\sum_{n=2}^{\\infty}\\ln\\left(1+\\dfrac{x}{n\\ln^2 n}\\right)$ 在 $(-\\alpha,\\alpha)$ 上一致收敛。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题(每题 15 分, 共 30 分)",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设数列 $\\{a_n\\}$ 满足 $a_1>0$，$a_{n+1}=\\ln(1+a_n)\\ (n=1,2,\\cdots)$。\n(1) 证明 $\\{a_n\\}$ 收敛, 且 $\\lim\\limits_{n\\to\\infty}a_n=0$；\n(2) 求极限 $\\lim\\limits_{n\\to\\infty}n a_n$；\n(3) 探求数列 $\\{n a_n-2\\}$ 的等价无穷小量。"
+        }
+      ]
+    },
+    {
+      "school": "电子科技大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "138. 电子科技大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247505127-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 6 分, 共 30 分)",
+          "no": "1",
+          "score": 6,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "若矩阵 $(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 经过初等行变换可化为\n$$\\begin{pmatrix}1 & 1 & 1 & 3\\\\ 0 & 1 & 1 & 2\\\\ 0 & 0 & 1 & 1\\end{pmatrix}.$$\n则 $\\alpha_4$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 表示为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 6 分, 共 30 分)",
+          "no": "2",
+          "score": 6,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "若 $V_1$ 是所有实对称矩阵构成的线性空间,\n$$V_2=\\left\\{\\begin{pmatrix}a & b & c\\\\ c & a & b\\\\ b & c & a\\end{pmatrix}\\ \\middle|\\ a,b,c\\in\\mathbb{R}\\right\\}.$$\n则 $\\dim_{\\mathbb{R}}(V_1+V_2)=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 6 分, 共 30 分)",
+          "no": "3",
+          "score": 6,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "若 $(1,1,3,4)'$，$(1,-b,-3,-2)'$ 是方程组 $AX=0$ 的基础解系, $(1,0,0,a)'$ 是 $AX=0$ 的一个解, 则 $a+b=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 6 分, 共 30 分)",
+          "no": "4",
+          "score": 6,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $P^{n\\times n}$ 上的线性变换 $\\mathscr{A}$ 为 $\\mathscr{A}(A)=A+A'$，$A\\in P^{n\\times n}$，则 $\\mathscr{A}$ 的迹为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 6 分, 共 30 分)",
+          "no": "5",
+          "score": 6,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知 3 阶实对称矩 $A$ 的各行元素之和均为 4，且 $r(A)=2$，$\\mathrm{tr}(A)=5$，则二次型 $X'AX$ 的规范形为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求行列式\n$$D_n=\\begin{vmatrix}x_1^2+1 & x_1x_2 & \\cdots & x_1x_n\\\\ x_2x_1 & x_2^2+2 & \\cdots & x_2x_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ x_nx_1 & x_nx_2 & \\cdots & x_n^2+n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $\\alpha,\\beta,\\gamma$ 为 3 维列向量, 方阵\n$$A=(\\alpha+\\beta,\\ \\beta+\\gamma,\\ \\gamma+\\alpha),\\quad B=(\\alpha+2\\beta,\\ \\beta+2\\gamma,\\ \\gamma+2\\alpha).$$\n若 $\\det(A)=2$, 求 $\\det(B^*)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分) 设 $A$, $B$ 均为 6 阶方阵, 且方程组 $AX=0$ 和 $BX=0$ 分别有 4 个和 3 个线性无关的解向量.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$, $B$ 均为 6 阶方阵, 且方程组 $AX=0$ 和 $BX=0$ 分别有 4 个和 3 个线性无关的解向量。证明: 方程组 $ABX=0$ 至少有 4 个线性无关的解向量。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分) 设 $A$, $B$ 均为 6 阶方阵, 且方程组 $AX=0$ 和 $BX=0$ 分别有 4 个和 3 个线性无关的解向量.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$, $B$ 均为 6 阶方阵, 且方程组 $AX=0$ 和 $BX=0$ 分别有 4 个和 3 个线性无关的解向量。证明: 矩阵 $3A-2B$ 有一个实特征【?】向量。（卷面原文如此，疑为「实特征值」）"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分) 已知 $A$, $B$, $C$ 均为 $n$ 阶方阵.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $A$, $B$, $C$ 均为 $n$ 阶方阵。证明: $r(A)-r(A-ABA)=n-r(I-AB)$, 其中 $I$ 为 $n$ 阶单位矩阵。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分) 已知 $A$, $B$, $C$ 均为 $n$ 阶方阵.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $A$, $B$, $C$ 均为 $n$ 阶方阵。若 $ABC=O$, 则 $r(A)+r(B)+r(C)\\le 2n$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分) 已知 $A$ 为 3 阶矩阵, 其各行元素之和均为 6, 且 $A$ 的伴随矩阵为零矩阵, 求 $A$.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $A$ 为 3 阶矩阵, 其各行元素之和均为 6, 且 $A$ 的伴随矩阵为零矩阵, 求 $A$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分) (可能有误)已知 $\\mathscr{A}$, $\\mathscr{B}$ 是 $n$ 维线性空间 $V$ 上的线性变换, 且 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$, 若存在 $V$ 的一组基 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$, 使得 $\\mathscr{A}\\alpha_i=i\\alpha_i\\ (i=1,2,\\cdots,n)$。",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "(可能有误) 已知 $\\mathscr{A}$, $\\mathscr{B}$ 是 $n$ 维线性空间 $V$ 上的线性变换, 且 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$, 若存在 $V$ 的一组基 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$, 使得 $\\mathscr{A}\\alpha_i=i\\alpha_i\\ (i=1,2,\\cdots,n)$。\n【?】（图片在此处截断，后续小题内容缺失）"
+        }
+      ]
+    }
+  ]
+}
