@@ -1,0 +1,263 @@
+{
+  "msgid": "2247521745-3",
+  "exams": [
+    {
+      "school": "北京邮电大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "6. 北京邮电大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521745-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $$\\lim_{x\\to 0}\\dfrac{1-\\cos x\\sqrt{\\cos 2x}\\sqrt[3]{\\cos 3x}}{x^2}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算 $$\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\dfrac{1+\\sin 3x}{1+\\cos^2 x}\\,dx.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{(n-1)}}{2n-1}x^{2n}$ 的收敛域及和函数。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求二元函数 $f(x,y)=x^2(2+y^2)+y\\ln y$ 的极值。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "若 $a_n>0$，$\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{a_{n+1}}=l>1$，证明：$\\lim\\limits_{n\\to\\infty}a_n=0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "讨论 $\\ln^2 x-2\\ln x+2x+k=0$ 的实根个数，其中 $k$ 是常数。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "已知 $xe^{-\\frac{x}{2}}-\\ln(1+x)$ 与 $\\alpha x^{n}$ 是等价无穷小量，求 $\\alpha$ 和 $n$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判别 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\ln x}{\\sqrt[3]{x^4-x}}\\,dx$ 的敛散性。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求圆锥体 $z\\ge\\sqrt{x^2+y^2}$ 与 $x^2+y^2+(z-1)^2\\le 1$ 所围立体的体积。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "计算",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算 $$I=\\int_L 3xy\\,dx+(x^3+x-2y)\\,dy,$$其中 $L$ 是第一象限从 $(0,0)$ 沿圆周 $x^2+y^2-2x=0$ 到 $(2,0)$，再从 $(2,0)$ 沿圆周 $x^2+y^2=4$ 到 $(0,2)$ 的曲线。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "平面 $2x+y+2z=2$ 与三个坐标平面围成 $\\Omega$，$\\Sigma$ 为 $\\Omega$ 的整个表面，取外侧，求 $$I=\\iint_{\\Sigma}(x^2+1)\\,dy\\,dz-2y\\,dz\\,dx+3z\\,dx\\,dy.$$"
+        },
+        {
+          "section": "十二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "讨论 $\\alpha>0$ 时，$f(x)=x^{\\alpha}$ 在 $(0,+\\infty)$ 上的一致连续性。"
+        },
+        {
+          "section": "十三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n}{x^2+n}$ 在 $(-\\infty,+\\infty)$ 上一致收敛。"
+        },
+        {
+          "section": "十四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "$f(x)$ 在 $(0,+\\infty)$ 上可微，$0\\le f(x)\\le\\dfrac{x}{1+x^2}$，证明存在 $\\xi>0$，使 $f'(\\xi)=\\dfrac{1-\\xi^2}{(1+\\xi^2)^2}$。"
+        },
+        {
+          "section": "十五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $f(x)$ 可导且 $f(0)=1$，$0<f'(x)<\\dfrac{1}{2}$，数列 $\\{x_n\\}$ 满足 $x_{n+1}=f(x_n)$ $(n=1,2,\\cdots)$。证明：\n(1) 级数 $\\displaystyle\\sum_{n=1}^{\\infty}(x_{n+1}-x_n)$ 绝对收敛。\n(2) $\\lim\\limits_{n\\to\\infty}x_n$ 存在且 $0<\\lim\\limits_{n\\to\\infty}x_n<2$。"
+        }
+      ]
+    },
+    {
+      "school": "北京邮电大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "6. 北京邮电大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521745-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "证明：在 $\\mathbb{Q}[x]$ 中，如果 $(x+1)\\mid f(x^{2k+1})$，那么 $(x^{2k+1}+1)\\mid f(x^{2k+1})$，其中 $k$ 为任意自然数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知矩阵 $$A=\\begin{pmatrix}1&1&0\\\\ 0&0&1\\\\ 0&1&0\\end{pmatrix}.$$\n(1) 证明当 $n\\ge 3$ 时，有 $A^n=A^{n-2}+A^2-E$，其中 $E$ 为 3 阶单位矩阵。\n(2) 求 $A^{100}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "当 $$A^{-1}=\\begin{pmatrix}1&1&1\\\\ 1&2&1\\\\ 1&1&3\\end{pmatrix}.$$求 $A^{*}$，$|A^{*}|$，$\\displaystyle\\sum_{j=1}^{3}\\sum_{i=1}^{3}A_{ij}$，其中 $A^{*}$ 是 $A$ 的伴随矩阵，$A_{ij}$ 是 $|A|$ 中第 $i$ 行第 $j$ 列的代数余子式。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $\\alpha_1=(1,2,3),\\alpha_2=(3,-1,2),\\alpha_3=(2,3,c)$，当 $c$ 为何值时，$\\alpha_1,\\alpha_2,\\alpha_3$ 线性相关？当 $c$ 为何值时，$\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关？"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 3 阶实对称矩阵 $A$ 的特征值是 $1,2,3$，$\\alpha_1=(-1,-1,1)'$，$\\alpha_2=(1,-2,-1)'$ 分别为 $A$ 对应于 $1,2$ 的特征向量。\n(1) 求 $A$ 对应于特征值 3 的特征向量。\n(2) 求矩阵 $A$。\n(3) 设 $\\beta=(2,1,0)'$，计算 $A^n\\beta$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知实二次型 $f(x_1,x_2,x_3)=ax_1^2+2x_2^2-2x_3^2+2bx_1x_3$（其中 $b>0$），它的矩阵 $A$ 的特征值之和为 1，特征值之积为 $-12$。\n(1) 求 $a,b$ 的值。\n(2) 求正交变换，把上述二次型 $f(x_1,x_2,x_3)$ 化为标准形。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设实矩阵 $A=(a_{ij})_{m\\times n}$，$V_1$ 是 $AX=0$ 的解空间。令 $\\alpha_i=(a_{i1},a_{i2},\\cdots,a_{in})'$ $(i=1,2,\\cdots,m)$，$V_2$ 为向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 生成的向量空间，即 $V_2=L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_m)$，证明：$\\mathbb{R}^n=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $M_2(P)$ 表示数域 $P$ 上全体 2 阶矩阵关于矩阵加法和数乘构成的 $P$ 上的线性空间，在 $M_2(P)$ 中定义的变换 $\\sigma$ 如下 $$\\sigma((a_{ij}))=(b_{ij}),\\ \\forall A=(a_{ij})\\in M_2(P),$$其中 $b_{ij}=\\begin{cases}a_{ij},& i\\ne j;\\\\ \\mathrm{tr}(A),& i=j.\\end{cases}$ 这里 $\\mathrm{tr}(A)$ 表示矩阵的迹，即对角线元素之和。\n(1) 证明 $\\sigma$ 是 $M_2(P)$ 上的线性变换。\n(2) 求出 $\\sigma$ 的核 $\\mathrm{Ker}(\\sigma)$ 的维数和一个基。\n(3) 求出 $\\sigma$ 的全部特征子空间。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V_1,V_2$ 是 4 维欧几里得空间 $\\mathbb{R}^4$ 的两个子空间，其中 $V_1$ 是由向量 $$\\alpha_1=(1,0,1,-2)',\\alpha_2=(1,2,-1,0)',\\alpha_3=(1,1,0,-1)'$$生成的子空间，$V_2$ 由向量 $$\\beta_1=(0,-2,2,-2)',\\beta_2=(-1,3,0,4)',\\beta_3=(1,5,0,2)',\\beta_4=(-1,1,2,2)'$$生成的子空间，求 $V_1+V_2$ 的正交补。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "msgid": "2247521519-1",
+  "exams": [
+    {
+      "school": "浙江大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "40. 浙江大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521519-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算题。\n(1) 求极限 $\\lim_{n\\to\\infty}\\sqrt[n]{\\cos\\dfrac{\\pi}{2n}\\cdot\\cos\\dfrac{2\\pi}{2n}\\cdots\\cos\\dfrac{(n-1)\\pi}{2n}}$。\n(2) 求积分 $\\displaystyle\\iint_{x^2+y^2\\le 1}|3x+4y|\\,\\mathrm dx\\mathrm dy$。\n(3) 求极限 $\\lim_{x\\to 0}\\left[\\dfrac{1}{\\ln(1+x)}-\\dfrac{1}{\\ln\\left(x+\\sqrt{1+x^2}\\right)}\\right]$。\n(4) 求极限 $\\lim_{x\\to+\\infty}\\dfrac{1}{x}\\int_0^x|\\sin t|\\,\\mathrm dt$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "解答如下问题：\n(1) 请叙述确界存在定理。\n(2) 请利用闭区间套定理证明确界存在定理。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $x_1=1$，$x_{n+1}=\\sqrt{\\dfrac{2x_n^2}{2+x_n^2}}$，$n=1,2,3,\\cdots$。\n(1) 证明：$\\lim_{n\\to\\infty}x_n=0$。\n(2) 计算 $\\lim_{n\\to\\infty}n\\left(x_n-\\ln(1+x_n)\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数 $f_1(x)$ 在 $[0,1]$ 上连续，$K(x,y)$ 在 $[0,1]\\times[0,1]$ 上连续。对任意 $x\\in[0,1]$，定义\n$$f_{n+1}(x)=\\int_0^x K(x,y)f_n(y)\\,\\mathrm dy,\\ n=1,2,\\cdots.$$\n请证明：函数列 $\\{f_n(x)\\}$ 在 $[0,1]$ 上一致收敛于 $0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "设函数 $f,g$ 在 $[0,1]$ 上连续，且存在包含于 $[0,1]$ 的数列 $\\{x_n\\}$，使得对于任意 $n\\ge 1$，有 $f(x_n)=g(x_{n+1})$。请证明：存在 $\\xi\\in[0,1]$，使得 $f(\\xi)=g(\\xi)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设 $f$ 是定义在 $[a,b]$ 上的函数，且 $G=\\{(x,f(x))\\mid x\\in[a,b]\\}$ 是 $\\mathbb R^2$ 上的有界闭集。请证明：$f$ 是 $[a,b]$ 上的连续函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "设函数 $f$ 是 $(0,1]$ 上的无界的单调函数，且广义积分 $\\displaystyle\\int_0^1 f(x)\\,\\mathrm dx$ 收敛。证明：\n$$\\lim_{n\\to\\infty}\\dfrac{1}{n}\\sum_{k=2}^{n}f\\left(\\dfrac{k-1}{n}\\right)=\\int_0^1 f(x)\\,\\mathrm dx.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f$ 在 $\\mathbb R$ 上可微，且满足对任意 $x\\in\\mathbb R$，有 $f(x+1)-f(x)=f'(x)$ 以及 $\\lim_{x\\to+\\infty}f'(x)=1$。请证明：存在常数 $C$，使得 $f(x)=x+C$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设函数 $f$ 在 $[0,1]$ 上连续，定义\n$$g(t)=\\int_0^1\\dfrac{t f(x)}{x^2+t^2}\\,\\mathrm dx,\\ t\\in\\mathbb R.$$\n请证明：函数 $g$ 在点 $0$ 处连续当且仅当 $f(0)=0$。"
+        }
+      ]
+    },
+    {
+      "school": "浙江大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "40. 浙江大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521519-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "假设 $\\dfrac{5}{11}$ 是整系数多项式 $f(x)$ 的根，证明：$f(\\sqrt{-1})f(-\\sqrt{-1})$ 是正整数，且是 $146$ 的倍数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "求线性方程组\n$$\\begin{cases}x_1-2x_2+3x_3-x_4=0;\\\\ 3x_1+x_2+x_3-3x_4=0;\\\\ x_1+5x_2-5x_3-x_4=0.\\end{cases}$$\n的基础解系，假设该方程组的解和另外一个解为 $k_1\\begin{pmatrix}3\\\\-4\\\\-3\\\\0\\end{pmatrix}+k_2\\begin{pmatrix}0\\\\2\\\\2\\\\1\\end{pmatrix}$ 的方程组有公共解，求出所有公共解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $X=(x_1,x_2,x_3,x_4)$，$X^{T}$ 是 $X$ 的转置，问是否存在一次多项式\n$$u_i(x)=a_ix_1+b_ix_2+c_ix_3+d_ix_4\\ (i=1,2,3,4)$$\n满足\n$$X\\begin{pmatrix}2&0&2&4\\\\ 0&2&4&2\\\\ 2&4&2&0\\\\ 4&2&0&2\\end{pmatrix}X^{T}=\\begin{vmatrix}u_1(x)&u_2(x)\\\\ u_3(x)&u_4(x)\\end{vmatrix}.$$\n并说明理由。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "假设 $\\mathbb R$ 是实数域，实向量空间 $\\mathbb R^3$ 两组向量分别为 $\\alpha_1=(-1,1,0),\\alpha_2=(2,-1,2),\\alpha_3=(0,1,b)$ 和 $\\beta_1=(1,0,-1),\\beta_2=(-1,1,1),\\beta_3=(1,1,c)$。\n(1) 当 $b,c$ 取何值时，不存在 $\\mathbb R^3$ 上的线性变换 $\\mathscr T$，满足 $\\mathscr T(\\alpha_i)=\\beta_i$，$i=1,2,3$。\n(2) 当 $b,c$ 取何值时，至少存在两个 $\\mathbb R^3$ 上的线性变换 $\\mathscr T$ 满足 $\\mathscr T(\\alpha_i)=\\beta_i$，$i=1,2,3$。\n(3) 当 $b,c$ 取何值时，存在 $\\mathbb R^3$ 上唯一的线性变换 $\\mathscr T$，满足 $\\mathscr T(\\alpha_i)=\\beta_i$，$i=1,2,3$。这样的线性变换是正交变换吗？为什么？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "假设 $A$ 是 $2024$ 阶方阵，主对角线上全是偶数，其余的都是奇数。证明该矩阵为可逆矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "求 $f(x)=x^4+2x^3-x^2-4x-2$，$g(x)=x^4+x^3-x^2-2x-2$ 的最大公因式 $d(x)$ 以及多项式 $u(x),v(x)$ 满足 $d(x)=u(x)f(x)+v(x)g(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix}3&a&6\\\\ -5&-7&-1\\\\ b&-6&-7\\end{pmatrix}$$\n的特征值 $\\lambda$ 对应的特征向量 $\\alpha=\\begin{pmatrix}-2\\\\1\\\\2\\end{pmatrix}$，求该矩阵的若当(Jordan)标准型。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A$ 是 $n$ 阶非零幂零矩阵，$S$ 是使得 $\\lambda A$ 与 $\\lambda$ 【?】相似的复数 $\\lambda$ 的集合，证明 $S$ 是一个有限集。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\alpha,\\beta,\\gamma$ 是有理数域上线性空间 $V$ 中的向量，其中 $\\alpha\\neq 0$，假如存在 $V$ 上线性变换 $\\mathscr T$，使得\n$$\\mathscr T\\alpha=\\beta,\\ \\mathscr T\\beta=-\\gamma,\\ \\mathscr T\\gamma=\\alpha-\\beta.$$\n证明：$\\alpha,\\beta,\\gamma$ 在 $V$ 中线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "已知 $\\mathscr A,\\mathscr B,\\mathscr C$ 是有限维线性空间上的三个线性变换，证明：$\\mathscr A+\\mathscr B-\\mathscr A\\mathscr C\\mathscr B$ 和 $\\mathscr A+\\mathscr B-\\mathscr B\\mathscr C\\mathscr A$ 核空间是同构的。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,293 @@
+{
+  "msgid": "2247521757-2",
+  "exams": [
+    {
+      "school": "长安大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "69. 长安大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521757-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left(1+\\dfrac{1}{n}+\\dfrac{1}{n^2}\\right)^{n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt[5]{x^5+x^4}-\\sqrt[5]{x^5-x^4}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int x^2 e^{-x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "$y=\\dfrac{h}{\\sqrt{\\pi}}e^{-h^2x^2}$ 在 $x=\\pm\\delta$ ($\\delta>0$) 处为拐点, 求 $h$ 的值 ($h>0$)。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求心形线 $r=a(1+\\cos\\theta)$ ($a>0$) 所围图形的面积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求坐标平面与 $x=2, y=3, x+y+z=4$ 所围成的角柱体的体积。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题. 每题 10 分, 共 40 分.",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "证明数列 $\\left\\{\\left(1+\\dfrac{1}{n+1}\\right)^{n}\\right\\}$ 是递增数列, 并求极限 $\\lim\\limits_{n\\to\\infty}\\left(1+\\dfrac{1}{n+1}\\right)^{n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题. 每题 10 分, 共 40 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $S(x)=\\displaystyle\\sum_{n=1}^{\\infty} n e^{-nx}$ ($x>0$), 求 $\\displaystyle\\int_{\\ln 2}^{\\ln 3} S(t)\\,\\mathrm{d}t$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题. 每题 10 分, 共 40 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "计算曲面积分 $\\displaystyle\\iint_{S}(x+y+z)\\,\\mathrm{d}S$, 其中 $S$ 是上半球面 $x^2+y^2+z^2=a^2$, $z\\ge 0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题. 每题 10 分, 共 40 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分 $\\displaystyle\\int_{L}\\dfrac{x\\,\\mathrm{d}y-y\\,\\mathrm{d}x}{x^2+y^2}$, 其中 $L$ 是 $xOy$ 平面上任一光滑的封闭曲线, 且不过原点, $L$ 的方向为逆时针方向。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 在 $(a,+\\infty)$ 上可导, 且 $\\lim\\limits_{x\\to+\\infty} f'(x)=0$, 证明: $\\lim\\limits_{x\\to+\\infty}\\dfrac{f(x)}{x}=0$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 为 $[a,b]$ 上的连续增函数, 记\n$$F(x)=\\begin{cases}\\dfrac{1}{x-a}\\displaystyle\\int_{a}^{x} f(t)\\,\\mathrm{d}t, & x\\in(a,b];\\\\[4pt] f(a), & x=a.\\end{cases}$$\n证明: $F(x)$ 为 $[a,b]$ 上的单调增函数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=\\begin{cases}\\dfrac{x^2 y}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[4pt] 0, & x^2+y^2=0.\\end{cases}$\n(1) 讨论 $f(x,y)$ 在 $(0,0)$ 点的连续性.\n(2) 证明 $f(x,y)$ 在 $(0,0)$ 点偏导数存在.\n(3) 讨论 $f(x,y)$ 在 $(0,0)$ 点的可微性。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明含参量广义积分 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\sin xy}{y}\\,\\mathrm{d}y$\n(1) 在 $[\\delta,+\\infty)$ 上一致收敛 ($\\delta>0$).\n(2) 在 $(0,+\\infty)$ 上不一致收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上有连续的导函数, 且 $f(a)=0$.\n(1) 证明: $M^2\\le (b-a)\\displaystyle\\int_{a}^{b}[f'(x)]^2\\,\\mathrm{d}x$, $M=\\max\\limits_{a\\le x\\le b}|f(x)|$.\n(2) 证明: $\\displaystyle\\int_{a}^{b} f^2(x)\\,\\mathrm{d}x\\le \\dfrac{(b-a)^2}{2}\\int_{a}^{b}[f'(x)]^2\\,\\mathrm{d}x$。"
+        }
+      ]
+    },
+    {
+      "school": "长安大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "69. 长安大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521757-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $(x-1)^2\\mid Ax^4+Bx^2+1$, 则 $A=$______, $B=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$n$ 阶行列式 $D=|d_{ij}|$, 其中 $d_{ij}=\\begin{cases}-1, & i>j;\\\\ 1, & i\\le j.\\end{cases}$ 则 $D$ 的展开式中正项总数为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为 3 阶方阵, 若 $A+E, A+2E, A+3E$ 均为退化矩阵, 则 $|2A+8E|=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "当 $a=$______时, 二次型 $f(x,y,z)=a(x^2+y^2+z^2)+2xy+2xz-2yz$ 是负定的。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A, B, A+B$ 均为 $n$ 阶可逆方阵, 则 $A^{-1}+B^{-1}$ 的逆矩阵为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A=\\begin{pmatrix} 1 & -1 & 1\\\\ 2 & 4 & -2\\\\ -3 & -3 & a\\end{pmatrix}$, $B=\\begin{pmatrix} 2 & 0 & 0\\\\ 0 & 2 & 0\\\\ 0 & 0 & b\\end{pmatrix}$, 则当 $P=$______时, 满足 $P^{-1}AP=B$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "应用一元多项式理论证明 $\\sin 10^{\\circ}$ 为无理数。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $x_1x_2\\cdots x_n\\neq 0$, 计算下面 $n$ 阶行列式\n$$D=\\begin{vmatrix} 1 & 1 & 1 & \\cdots & 1\\\\ x_1^2 & x_2^2 & x_3^2 & \\cdots & x_n^2\\\\ x_1^3 & x_2^3 & x_3^3 & \\cdots & x_n^3\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ x_1^n & x_2^n & x_3^n & \\cdots & x_n^n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $c\\neq 0$, 求下面线性方程组的通解\n$$\\begin{cases} x_1+x_2 & = c;\\\\ x_2+x_3 & = c;\\\\ \\cdots\\cdots\\\\ x_{n-1}+x_n & = c;\\\\ x_1+x_n & = c.\\end{cases}$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A, B$ 是 $n$ 阶方阵, 且满足 $AB=A+B$, 证明: $AB=BA$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix} 1 & 1 & \\cdots & 1\\\\ 1 & 1 & \\cdots & 1\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & \\cdots & 1\\end{pmatrix}_{n\\times n}.$$\n(1) 求满足 $f(A)=O$ 的一个二次多项式 $f(x)$.\n(2) 求 $A^{100}$.\n(3) 求 $(E_n+A)^{100}$.\n(4) 求 $(E_n+A)^{-1}$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设 $\\mathscr{A}$ 是数域 $P$ 上 $n$ 维线性空间 $V$ 的一个线性变换. 证明:\n(1) 在 $P[x]$ 中有一个次数不超过 $n^2$ 的多项式 $f(x)$, 使得 $f(\\mathscr{A})=\\mathscr{O}$.\n(2) 如果 $f(\\mathscr{A})=\\mathscr{O}$, $g(\\mathscr{A})=\\mathscr{O}$, 那么 $d(\\mathscr{A})=\\mathscr{O}$, 这里 $d(x)$ 是 $f(x)$ 与 $g(x)$ 的最大公因式.\n(3) $\\mathscr{A}$ 可逆的充要条件是存在一个常数项不为 $0$ 的多项式 $f(x)$ 使得 $f(\\mathscr{A})=\\mathscr{O}$。"
+        }
+      ]
+    }
+  ]
+}

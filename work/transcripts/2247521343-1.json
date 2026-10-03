@@ -1,0 +1,263 @@
+{
+  "msgid": "2247521343-1",
+  "exams": [
+    {
+      "school": "安徽大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "43. 安徽大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521343-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）计算极限.",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "计算极限 $\\lim\\limits_{n\\to\\infty} n\\left[\\dfrac{1^2+3^2+\\cdots+(2n+1)^2}{n^3}-\\dfrac{4}{3}\\right]$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "（15 分）计算极限.",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim\\limits_{x\\to\\infty}\\left[\\dfrac{1}{e}\\left(1+\\dfrac{1}{x}\\right)^{x}\\right]^{x}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设数列 $\\{x_n\\}$ 有界, 且 $\\lim\\limits_{n\\to\\infty}(x_{n+1}-x_n)=0$. 再设 $m=\\varliminf\\limits_{n\\to\\infty}x_n$ 和 $M=\\varlimsup\\limits_{n\\to\\infty}x_n$, 其中 $m<M$. 证明区间 $(m,M)$ 上任意一个数都是此数列的一个子列的极限."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设函数 $f(x)$ 在区间 $I$ 上有定义, 令 $\\omega_f(\\delta)=\\sup\\limits_{\\substack{x,y\\in I\\\\|x-y|<\\delta}}|f(x)-f(y)|$. 证明:\n(1) $\\lim\\limits_{\\delta\\to0^+}\\omega_f(\\delta)$ 存在.\n(2) $f(x)$ 在区间 $I$ 上一致连续等价于 $\\lim\\limits_{\\delta\\to0^+}\\omega_f(\\delta)=0$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设函数 $f(x)$ 为 $(a,b)$ 上的凸函数, 即对任意的 $x_1,x_2\\in(a,b)$ 以及 $\\lambda\\in(0,1)$, 有\n$$f(\\lambda x_1+(1-\\lambda)x_2)\\le\\lambda f(x_1)+(1-\\lambda)f(x_2).$$\n证明:\n(1) 对任意的 $x\\in(a,b)$, 左右导数 $f'_-(x),f'_+(x)$ 均存在, 且 $f'_-(x)\\le f'_+(x)$.\n(2) $f'_-(x),f'_+(x)$ 均在 $(a,b)$ 上单调递增."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $f(n)=a_0+\\sum\\limits_{k=1}^{\\infty}\\dfrac{a_k}{n^k}$, 且满足 $|a_k|\\le M$, 这里 $n,k$ 均为正整数. 试证: 数项级数 $\\sum\\limits_{n=1}^{\\infty}f(n)$ 收敛的充要条件为 $a_0=a_1=0$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "给定方程 $x^2+y+\\sin(xy)=0$.\n(1) 说明在点 $(0,0)$ 的充分小的邻域内, 此方程确定唯一的可导的函数 $y=y(x)$, 使得 $y(0)=0$, 并求出 $y=y(x)$ 的导函数表达式.\n(2) 判断在点 $(0,0)$ 的充分小的邻域内, 此方程是否确定唯一的函数 $x=x(y)$, 使得 $x(0)=0$, 说明理由."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 Gauss 曲面积分 $I=\\iint\\limits_{S}\\dfrac{\\cos(\\widehat{\\boldsymbol{n},\\boldsymbol{r}})}{r^2}\\,\\mathrm{d}S$, 其中 $S$ 为光滑封闭曲面, 原点不在 $S$ 上, $r$ 为 $S$ 上动点至原定的距离, $(\\widehat{\\boldsymbol{n},\\boldsymbol{r}})$ 为动点处外法向量 $\\boldsymbol{n}$ 与径向 $\\boldsymbol{r}$ 的夹角."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "计算 $I(x)=\\displaystyle\\int_0^{+\\infty} e^{-t^2}\\cos(2xt)\\,\\mathrm{d}t$."
+        }
+      ]
+    },
+    {
+      "school": "安徽大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "43. 安徽大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521343-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(本大题共六小题, 每小题 5 分, 共 30 分).",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A=\\begin{pmatrix}1&2\\\\2&3\\end{pmatrix}$, $B=\\begin{pmatrix}1&0&0\\\\-1&1&0\\\\0&2&1\\end{pmatrix}$, $C=\\begin{pmatrix}0&1&0\\\\-1&0&2\\end{pmatrix}$. 若矩阵满足 $AXB=C$, 则 $X=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(本大题共六小题, 每小题 5 分, 共 30 分).",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A=(a_{ij})$ 为 2 阶复方阵, 满足 $\\mathrm{tr}(A^k)=k$ $(k=1,2,)$, 其中 $\\mathrm{tr}(A)=a_{11}+a_{22}$ 为矩阵 $A$ 的迹, 则行列式 $|A|=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(本大题共六小题, 每小题 5 分, 共 30 分).",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设矩阵 $A=\\begin{pmatrix}-2&1&1&1\\\\-1&-1&0&1\\\\0&0&-1&0\\\\-1&1&1&0\\end{pmatrix}$, 则 $A$ 的最小多项式为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(本大题共六小题, 每小题 5 分, 共 30 分).",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $n$ 阶矩阵 $A$ 的各行元素之和均为 3, $E$ 为单位阵, 则矩阵 $A^2-2A+E$ 的各行元素之和为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(本大题共六小题, 每小题 5 分, 共 30 分).",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "规范正交基",
+          "stem": "设 $\\mathbb{R}^3$ 为带标准内积的 3 维欧氏空间, 对 $\\mathbb{R}^3$ 的基 $\\alpha_1=(-1,1,1),\\alpha_2=(0,-1,1),\\alpha_3=(0,0,1)$ 所 Schmidt 正交化得 $\\mathbb{R}^3$ 的标准正交基 $\\beta_1,\\beta_2,\\beta_3$, 则 $\\beta_3=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(本大题共六小题, 每小题 5 分, 共 30 分).",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $\\lambda$–矩阵\n$$A(\\lambda)=\\begin{pmatrix}(\\lambda-1)^3&&\\\\&(\\lambda+1)^2&\\\\&& (\\lambda-1)^2(\\lambda+1)^4\\end{pmatrix}.$$\n则 $A(\\lambda)$ 的所有不变因子为______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "辨析题(本题共四小题, 每小题 5 分, 共 20 分. 先判断对错, 再简要说明).",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)$ 为实系数多项式, 且次数为奇数, 则 $f(x)$ 必有实根."
+        },
+        {
+          "section": "二",
+          "section_instruction": "辨析题(本题共四小题, 每小题 5 分, 共 20 分. 先判断对错, 再简要说明).",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A,B$ 都为 4 阶复方阵, 则 $A$ 与 $B$ 相似当且仅当 $A$ 与 $B$ 有相同的特征多项式, 且每个特征值的几何重数(即对应特征子空间的维数)也相同."
+        },
+        {
+          "section": "二",
+          "section_instruction": "辨析题(本题共四小题, 每小题 5 分, 共 20 分. 先判断对错, 再简要说明).",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma$ 是 $n$ 维复线性空间 $V$ 上的线性变换, $n>1$, 若 $\\sigma^n=0$ 且 $\\sigma^{n-1}\\ne0$, 则存在两个 $\\sigma$ 的非平凡子空间 $U$ 和 $W$, 使得 $V=U\\oplus W$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "辨析题(本题共四小题, 每小题 5 分, 共 20 分. 先判断对错, 再简要说明).",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A(\\lambda),B(\\lambda)$ 都是数域 $P$ 上 $m\\times n$ 的 $\\lambda$–矩阵, 则 $A(\\lambda),B(\\lambda)$ 等价的充要条件为 $A(\\lambda)$ 与 $B(\\lambda)$ 有相同的初等因子组."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题(本大题共五小题, 每小题 10 分, 共 50 分).",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A=(a_{ij})$, 其中 $a_{ij}=\\dfrac{1-x_i^n y_j^n}{1-x_iy_j}$, $x_iy_j\\ne1$, $i,j=1,2,\\cdots,n$, 求行列式 $|A|$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题(本大题共五小题, 每小题 10 分, 共 50 分).",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设多项式\n$$f(x)=2x^4+2x^3-5x^2-13x-2,\\ g(x)=x^3+x^2-3x-6.$$\n求 $f(x)$ 与 $g(x)$ 的首一最大公因式 $(f(x),g(x))$ 以及多项式 $u(x)$ 与 $v(x)$, 使得\n$$u(x)f(x)+v(x)g(x)=(f(x),g(x)).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题(本大题共五小题, 每小题 10 分, 共 50 分).",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 是 $5\\times4$ 矩阵, 且秩 $(A)=3$, $\\beta$ 为 5 维非零列向量. 已知 $\\gamma_1,\\gamma_2,\\gamma_3$ 为方程组 $AX=\\beta$ 的 3 个不同的解, 且 $\\gamma_1+\\gamma_2=(2,2,0,2)^T$, $\\gamma_1+\\gamma_3=(0,0,2,0)^T$. 求 $AX=\\beta$ 的通解."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题(本大题共五小题, 每小题 10 分, 共 50 分).",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设复二次型 $f(x_1,x_2,x_3)=2x_1^2+x_2^2-4x_1x_2-4x_2x_3$, 求非退化线性替换 $X=CY$, 将二次型 $f(x_1,x_2,x_3)$ 化为规范形, 其中 $X=(x_1,x_2,x_3)^T$, $Y=(y_1,y_2,y_3)^T$, 并写出规范形."
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算题(本大题共五小题, 每小题 10 分, 共 50 分).",
+          "no": "5",
+          "score": 10,
+          "form": "综合",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "设实矩阵\n$$A=\\begin{pmatrix}-1&1&2\\\\-1&1&1\\\\-2&1&3\\end{pmatrix}.$$\n【?】(图片在此截断, 本题的具体问题要求缺失)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "msgid": "2247521404-1",
+  "exams": [
+    {
+      "school": "重庆大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "23. 重庆大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521404-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "计算数列极限\n$$\\lim_{n\\to\\infty}\\left(\\dfrac{1}{\\ln(1+n)-\\ln n}-n\\right).$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "计算第一类曲面积分 $\\iint_S (x^2+y^2)\\,\\mathrm{d}S$，其中 $S$ 是立体 $\\sqrt{x^2+y^2}\\le z\\le 1$ 的边界。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n}{n(2n-1)}$ 的和。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算第二类曲线积分\n$$\\int_L (y^2-z^2)\\,\\mathrm{d}x+(2z^2-x^2)\\,\\mathrm{d}y+(3x^2-y^2)\\,\\mathrm{d}z,$$\n其中 $L$ 是平面 $x+y+z=2$ 与柱面 $|x|+|y|=1$ 的交线，从 $z$ 轴正方向往下看，$L$ 是顺时针方向。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "已知三元函数 $f(x,y,z)$ 在 $\\mathbb{R}^3$ 上具有连续的二阶偏导数，设 $\\mathbb{R}^3$ 中光滑简单封闭曲面的全体为 $\\Sigma$，对于 $S\\in\\Sigma$，用 $\\boldsymbol{n}$ 表示 $S$ 的外法线单位方向向量，$\\dfrac{\\partial f}{\\partial \\boldsymbol{n}}$ 表示 $f$ 沿 $\\boldsymbol{n}$ 的方向导数。\n(1) 证明：$f$ 在 $\\mathbb{R}^3$ 上满足\n$$\\dfrac{\\partial^2 f}{\\partial x^2}+\\dfrac{\\partial^2 f}{\\partial y^2}+\\dfrac{\\partial^2 f}{\\partial z^2}=0$$\n（即 $f$ 为 $\\mathbb{R}^3$ 上的调和函数）当且仅当 $\\displaystyle\\iint_S \\dfrac{\\partial f}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}S=0$（$\\forall S\\in\\Sigma$）。\n(2) 设 $f(x,y,z)$ 为 $\\mathbb{R}^3$ 上的调和函数，$S\\in\\Sigma$，且 $S$ 围成的有界闭区域记作 $V$。证明：\n$$f(x_0,y_0,z_0)=\\dfrac{1}{4\\pi}\\iint_S\\left(f\\dfrac{\\cos(\\boldsymbol{r},\\boldsymbol{n})}{|\\boldsymbol{r}|^2}+\\dfrac{1}{|\\boldsymbol{r}|}\\dfrac{\\partial f}{\\partial \\boldsymbol{n}}\\right)\\,\\mathrm{d}S,$$\n其中 $(x_0,y_0,z_0)$ 为 $V$ 内部的一个定点，$\\boldsymbol{r}=(x-x_0,y-y_0,z-z_0)$，$(\\boldsymbol{r},\\boldsymbol{n})$ 表示两向量的夹角，$|\\boldsymbol{r}|$ 表示向量 $\\boldsymbol{r}$ 的模长。\n(3) 若函数 $f$ 和闭区间 $[0,1]$ 上的连续函数 $g$ 在单位球 $\\Omega=\\{(x,y,z)\\mid x^2+y^2+z^2\\le 1\\}$ 上满足\n$$\\dfrac{\\partial^2 f}{\\partial x^2}+\\dfrac{\\partial^2 f}{\\partial y^2}+\\dfrac{\\partial^2 f}{\\partial z^2}=g(x^2+y^2+z^2).$$\n证明：\n$$\\iiint_\\Omega\\left(x\\dfrac{\\partial f}{\\partial x}+y\\dfrac{\\partial f}{\\partial y}+z\\dfrac{\\partial f}{\\partial z}\\right)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\pi\\int_0^1\\sqrt{t}\\,(t-1)g(t)\\,\\mathrm{d}t.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "判断下列四个命题的正误。正确的，请给出证明；错误的，需举出反例。\n(1) 若正项级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 收敛，则 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}=1$。\n(2) 若函数 $f(x)$ 在 $\\mathbb{R}$ 上连续且有界，则 $f(x)$ 在 $\\mathbb{R}$ 上一致连续。\n(3) 若二元函数 $f(x,y)$ 在 $(0,0)$ 点关于 $x$ 和 $y$ 都不存在偏导数，则 $f(x,y)$ 在点 $(0,0)$ 沿 $x$ 轴的方向导数必不存在。\n(4) 若函数 $f(x)$ 在闭区间 $[a,b]$ 上有界且只存在有限个不连续点，则函数 $f(x)$ 在 $[a,b]$ 上 Riemann 可积。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设参数 $\\alpha>0$，讨论广义积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{e^{\\sin x}\\sin(2x)}{x^{\\alpha}}\\,\\mathrm{d}x$ 的收敛性（包括条件收敛和绝对收敛）。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "若函数 $f(x)$ 和 $g(x)$ 都在闭区间 $[a,b]$ 上连续，在 $(a,b)$ 上二阶可导，并且它们在 $(a,b)$ 内有相等的最大值，$f(a)=g(a)$，$f(b)=g(b)$，求证：存在 $\\xi\\in(a,b)$，使得 $f''(\\xi)=g''(\\xi)$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "函数列 $\\{f_n(x)\\}_{n=1}^{\\infty}$ 在闭区间 $[a,b]$ 上逐点收敛于 $f(x)$。【?】（卷面在此截断，本题后续条件与求证内容缺失）"
+        }
+      ]
+    },
+    {
+      "school": "重庆大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "23. 重庆大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521404-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分，共 40 分.",
+          "no": "1",
+          "score": 8,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "$a,b$ 满足什么条件时，实系数多项式 $f(x)=x^3+3ax+b$ 有重因式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分，共 40 分.",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix}1+a_1 & 1 & 1 & \\cdots & 1\\\\ 1 & 1+a_2 & 1 & \\cdots & 1\\\\ 1 & 1 & 1+a_3 & \\cdots & 1\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & 1 & \\cdots & 1+a_n\\end{vmatrix}.$$\n其中 $a_i\\ne 0$（$i=1,2,\\cdots,n$）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分，共 40 分.",
+          "no": "3",
+          "score": 8,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设线性方程组\n$$\\begin{cases}kx_1+x_2+x_3=k-3,\\\\ x_1+kx_2+x_3=-2,\\\\ x_1+x_2+kx_3=-2.\\end{cases}$$\n(1) $k$ 为何值时，方程组无解？\n(2) $k$ 为何值时，方程组存在唯一解？\n(3) $k$ 为何值时，方程组存在无穷多解？并求出通解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 8 分，共 40 分.",
+          "no": "4",
+          "score": 8,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "在线性空间 $P^3$ 中，已知 $\\alpha_1=(1,1,0),\\alpha_2=(0,1,1),\\alpha_3=(0,0,1)$，线性变换定义如下：\n$$\\mathscr{A}\\alpha_1=(2,1,1),\\ \\mathscr{A}\\alpha_2=(1,0,1),\\ \\mathscr{A}\\alpha_3=(1,1,2).$$\n求 $\\mathscr{A}$ 在 $\\beta_1=(1,0,0),\\beta_2=(-1,1,0),\\beta_3=(0,-1,1)$ 下的矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（10 分）解答如下问题:",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "(1) 设不可约多项式 $p(x)$ 是多项式 $f(x)$ 的 $k$（$k\\ge 2$）重因式。证明：$p(x)$ 是 $f'(x)$ 的 $k-1$ 重因式。并用反例说明反之不成立。\n(2) 求一个三次多项式 $f(x)$，使得 $f(x)+1$ 能被 $(x-1)^2$ 整除，$f(x)-1$ 能被 $(x+1)^2$ 整除。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设矩阵 $A=(\\alpha_1,\\alpha_2,\\alpha_3)$，$B=(\\alpha_1,\\alpha_2,\\alpha_3,\\beta+\\alpha_3)$，其中 $\\alpha_1,\\alpha_2,\\alpha_3,\\beta$ 为 4 维列向量。方程组 $AX=\\beta$ 的通解为 $X=\\xi_0+k\\xi$，其中 $k$ 为任意常数，$\\xi=\\begin{pmatrix}1\\\\1\\\\1\\\\1\\end{pmatrix}$，$\\xi_0=\\begin{pmatrix}1\\\\2\\\\3\\end{pmatrix}$。\n(1) 求矩阵 $A,B$ 的秩。\n(2) 求方程组 $BY=\\alpha_1-\\alpha_2$ 的通解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A,B$ 为 $n$ 阶矩阵，$C=\\begin{pmatrix}A&O\\\\ O&B\\end{pmatrix}$。\n(1) 当 $A,B$ 可逆时，求 $C$ 的逆矩阵和伴随矩阵。\n(2) 当 $A,B$ 中至少一个不可逆时，证明 $C$ 也不可逆。\n(3) 当 $A,B$ 中至少一个不可逆时，求 $C$ 的伴随矩阵。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 是 $n$ 阶实对称矩阵，证明：$A$ 可逆当且仅当存在实矩阵 $B$，使得 $AB+B'A$ 正定，其中 $B'$ 是 $B$ 的转置矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 为 $n$ 维线性空间，$1\\le r<n$，证明：$V$ 有无穷多个 $r$ 维的子空间。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设向量 $\\alpha=(a_1,a_2,\\cdots,a_n)$，$\\beta=(b_1,b_2,\\cdots,b_n)$，令 $c=\\beta\\alpha'=a_1b_1+a_2b_2+\\cdots+a_nb_n$，$A=\\alpha'\\beta$，其中 $\\alpha'$ 是 $\\alpha$ 的转置。【?】（卷面在此截断，本题后续问题内容缺失）"
+        }
+      ]
+    }
+  ]
+}

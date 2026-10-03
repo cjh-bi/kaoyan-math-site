@@ -1,0 +1,303 @@
+{
+  "msgid": "2247521498-1",
+  "exams": [
+    {
+      "school": "郑州大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "49. 郑州大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521498-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求函数极限 $\\lim\\limits_{x\\to 0^+}\\left[\\dfrac{1}{x(1+x)^{\\frac{1}{x}}}-\\dfrac{1}{xe}\\right]$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求定积分 $\\displaystyle\\int_0^{2024}\\dfrac{x}{e^{2024-x}+e^x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设椭圆 $\\dfrac{x^2}{4}+\\dfrac{y^2}{9}=1$ 在点 $A\\left(1,\\dfrac{3\\sqrt{3}}{2}\\right)$ 的切线交 $y$ 轴于点 $B$，$L$ 是从 $A$ 到 $B$ 的直线段，计算\n$$\\int_L\\left(\\dfrac{\\sin y}{x+1}-\\sqrt{3}y\\right)\\mathrm{d}x+\\left(\\cos y\\ln(1+x)+2\\sqrt{3}x-\\sqrt{3}\\right)\\mathrm{d}y.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin x}{x^{p-1}+\\frac{1}{x}}\\,\\mathrm{d}x$ $(p\\geq 0)$ 的条件收敛和绝对收敛性。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求函数 $f(x)=\\displaystyle\\int_0^x\\dfrac{\\ln(1+2t)}{t}\\,\\mathrm{d}t$ 的麦克劳林级数展开式。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "讨论方程 $f(x)=-\\dfrac{1}{2}\\left(1+e^{-1}\\right)+\\displaystyle\\int_{-1}^{1}|x-t|e^{-t^2}\\,\\mathrm{d}t=0$ 在 $[-1,1]$ 上根的个数。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设\n$$f(x,y)=\\begin{cases}\\dfrac{|x|^{\\alpha}|y|^{\\alpha}}{x^2+y^2},&x^2+y^2\\neq 0;\\\\[4pt] 0,&x^2+y^2=0,\\end{cases}$$\n证明：\n(1) $\\alpha>1$ 时，$f(x,y)$ 在 $(0,0)$ 连续。\n(2) $\\alpha>\\dfrac{3}{2}$ 时，$f(x,y)$ 在 $(0,0)$ 可微。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明：函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^2}{(1+x^2)^n}$ 在 $(-\\infty,+\\infty)$ 上点点收敛，但并非一致收敛。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "证明题（35 分）",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "已知 $\\lim\\limits_{x\\to+\\infty}[f(x)-(ax+b)]=0$，求 $a,b$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "证明题（35 分）",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上一致连续，$g(x)\\in C([a,+\\infty))$，且 $\\lim\\limits_{x\\to+\\infty}[f(x)-g(x)]=0$。证明：$g(x)$ 在 $[a,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "证明题（35 分）",
+          "no": "3",
+          "score": 5,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "用 (2) 的结论说明 $f(x)=\\dfrac{1}{x}+\\ln(1+e^x)$ 在 $[1,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "证明题（35 分）",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上可导，且存在常数 $a,b,c,d$ $(a<c)$ 使得\n$$\\lim_{x\\to-\\infty}[f(x)-(ax+b)]=0,\\quad \\lim_{x\\to+\\infty}[f(x)-(cx+d)]=0.$$\n证明：对任意的 $\\lambda\\in(a,c)$，存在 $\\xi\\in(-\\infty,+\\infty)$，使得 $f'(\\xi)=\\lambda$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明：$\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin ux}{x}\\,\\mathrm{d}x$ 在任何不包含 $u=0$ 的闭区间 $[a,b]$ 上一致收敛。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（20 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x=\\dfrac{\\pi}{2}$，求 $F(x)=\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin^2 xt}{t^2}\\,\\mathrm{d}t$ $(x>0)$。"
+        }
+      ]
+    },
+    {
+      "school": "郑州大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "49. 郑州大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521498-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$\\begin{vmatrix}1&-1&1&x-1\\\\ 1&-1&x+1&-1\\\\ 1&x-1&1&-1\\\\ x+1&-1&1&-1\\end{vmatrix}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $n$ 阶矩阵 $A=\\begin{pmatrix}1&a&a&\\cdots&a\\\\ a&1&a&\\cdots&a\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ a&a&a&\\cdots&1\\end{pmatrix}$，$n\\geq 3$，$A$ 的秩为 $n-1$，则 $a=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 为 4 阶矩阵，$A^*$ 为 $A$ 的伴随矩阵，若单个向量 $\\beta\\neq 0$ 是方程组 $AX=0$ 的一个基础解系，则 $A^*X=0$ 的基础解系含有解向量的个数是 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "实二次型 $f(x_1,x_2,x_3)=(x_1+2x_2)^2+(2x_2-x_3)^2+(x_1+x_3)^2$ 的正惯性指数为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $\\alpha_1=\\begin{pmatrix}a\\\\1\\\\1\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}1\\\\a\\\\1\\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix}1\\\\1\\\\a\\end{pmatrix},\\ \\alpha_4=\\begin{pmatrix}1\\\\1\\\\-2\\end{pmatrix}$，且 $\\alpha_1,\\alpha_2,\\alpha_3$ 与 $\\alpha_2,\\alpha_3,\\alpha_4$ 等价，则 $a$ 满足 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma$ 是 $n$ 维线性空间 $V$ 上的线性变换，$\\sigma$ 有 $n$ 个不同的特征值 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，则 $V$ 的所有 $\\sigma$ 不变子空间的个数是 ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "如果实系数多项式 $f(x)$ 满足 $f(2x^2+1)=2f^2(x)+1$，$\\forall x\\in\\mathbb{R}$，$f(0)=0$，证明：$f(x)\\equiv x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A=\\begin{pmatrix}1&a\\\\ 1&0\\end{pmatrix}$，$B=\\begin{pmatrix}0&1\\\\ 1&b\\end{pmatrix}$，当 $a,b$ 为何值时，存在矩阵 $C$，使得 $AC-CA=B$，并求所有矩阵 $C$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A$ 是 $n$ 阶矩阵，$n>1$。如果对任意 $n$ 阶矩阵 $B$ 都有 $|A+B|=|A|+|B|$，证明：$A=O$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知实二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2+ax_3^2+2x_1x_2+2x_1x_3+2x_2x_3$ 用正交替换 $X=TY$ 化为标准形 $f(x_1,x_2,x_3)=by_1^2+cy_2^2$，$b,c\\neq 0$，求 $a,b,c$ 并写出正交替换及所化成的标准二次型。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "5",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求复矩阵 $A=\\begin{pmatrix}3&2&1\\\\ 1&4&1\\\\ -3&-6&-1\\end{pmatrix}$ 的约当标准形 $J$，并求可逆矩阵 $T$，使得 $T^{-1}AT=J$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设\n$$\\alpha_1=\\begin{pmatrix}a_1+b\\\\ a_1\\\\ \\vdots\\\\ a_1\\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix}a_2\\\\ a_2+b\\\\ \\vdots\\\\ a_2\\end{pmatrix},\\cdots,\\ \\alpha_n=\\begin{pmatrix}a_n\\\\ a_n\\\\ \\vdots\\\\ a_n+b\\end{pmatrix},$$\n其中 $\\displaystyle\\sum_{i=1}^{n}a_i\\neq 0$。这 $W=L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_n)$，求 $W$ 的维数与一组基。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $A$ 是 $n$ 阶实矩阵，$A^2=E$，证明：\n(1) $r(A+E)+r(A-E)=n$。\n(2) $A$ 与对角矩阵相似。\n(3) $\\mathbb{R}^n=V_1\\oplus V_2$，其中 $V_1=\\{X\\in\\mathbb{R}^n\\mid (A+E)X=0\\}$，$V_2=\\{X\\in\\mathbb{R}^n\\mid (A-E)X=0\\}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明. 每题 15 分, 共 120 分.",
+          "no": "8",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V=P^{2\\times 2}$ 是数域 $P$ 上的线性空间，$A=\\begin{pmatrix}a&b\\\\ c&d\\end{pmatrix}\\in V$，线性变换 $\\sigma:X\\to AX$，$\\forall X\\in P^{2\\times 2}$。【?】（卷面此题的具体问题部分被截断，无法辨认）"
+        }
+      ]
+    }
+  ]
+}

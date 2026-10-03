@@ -1,0 +1,243 @@
+{
+  "msgid": "2247521405-1",
+  "exams": [
+    {
+      "school": "西南大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "24. 西南大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521405-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "叙述题. 每题 5 分, 共 15 分.",
+          "no": "1",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "函数极限的柯西收敛准则."
+        },
+        {
+          "section": "一",
+          "section_instruction": "叙述题. 每题 5 分, 共 15 分.",
+          "no": "2",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "函数 $f(x)$ 在区间 $I$ 上不一致连续的定义."
+        },
+        {
+          "section": "一",
+          "section_instruction": "叙述题. 每题 5 分, 共 15 分.",
+          "no": "3",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "函数极限 $\\lim\\limits_{x\\to+\\infty} f(x)$ 的归结原则."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 5 分, 共 15 分.",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\int \\sin(\\ln x)\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 5 分, 共 15 分.",
+          "no": "2",
+          "score": 5,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left[\\dfrac{(1+x)^{\\frac{1}{x}}}{e}\\right]^{\\frac{1}{x}}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 5 分, 共 15 分.",
+          "no": "3",
+          "score": 5,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f$ 具有二阶连续的偏导数, 且 $z=f(x^2y^2,xy)$, 求 $z_{xy}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设有界函数 $f(x)$ 在 $[a,b]$ 上的不连续点的全体为 $\\{x_n\\mid n=1,2,\\cdots\\}$, 且 $\\lim\\limits_{n\\to\\infty} x_n=a$, 证明: $f(x)$ 在 $[a,b]$ 上可积."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设数列 $\\{a_n\\}$ 严格递减, 且 $a_n>0$. 证明: $\\lim\\limits_{n\\to\\infty} a_n=0$ 的充要条件是级数 $\\sum\\limits_{n=1}^{\\infty}\\left(1-\\dfrac{a_{n+1}}{a_n}\\right)$ 发散."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "已知 $f(x)$ 在 $(-\\infty,+\\infty)$ 上二阶可导, 且 $f''(x)\\le 0$, $\\lim\\limits_{x\\to 0}\\dfrac{f(x)}{2x}=2$, 证明: $f(x)\\le 4x$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "用区间套定理证明确界原理."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设函数 $f(x)$ 在 $[1,+\\infty)$ 上连续, 恒正且单调递减, 记\n$$u_n=\\sum_{k=1}^{n} f(k)-\\int_1^n f(x)\\,\\mathrm{d}x.$$\n证明数列 $\\{u_n\\}$ 收敛."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上一致连续, $\\varphi(x)$ 在 $[a,+\\infty)$ 上连续, 且 $\\lim\\limits_{x\\to+\\infty}[f(x)-\\varphi(x)]=0$, 证明: $\\varphi(x)$ 在 $[a,+\\infty)$ 上一致连续."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "证明半径为 $R$ 的球的体积为 $\\dfrac{4\\pi R^3}{3}$."
+        },
+        {
+          "section": "十",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_L y\\,\\mathrm{d}x+z\\,\\mathrm{d}y+x\\,\\mathrm{d}z.$$\n其中 $L$ 是 $x^2+y^2+z^2=1$ 和 $x+y+z=1$ 的交线, 从 $x$ 轴正向看去取逆时针方向."
+        }
+      ]
+    },
+    {
+      "school": "西南大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "24. 西南大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521405-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} a+x_1 & a+x_1^2 & \\cdots & a+x_1^n \\\\ a+x_2 & a+x_2^2 & \\cdots & a+x_2^n \\\\ \\vdots & \\vdots & & \\vdots \\\\ a+x_n & a+x_n^2 & \\cdots & a+x_n^n \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设矩阵 $A=\\begin{pmatrix} 1 & 4 & 1 \\\\ 1 & 1 & 2 \\\\ 0 & 0 & 5 \\end{pmatrix}$, 求 $A^{2024}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 是一个二阶实对称矩阵, $A$ 的特征值为 $\\lambda_1=2,\\lambda_2=3$. 并设 $\\alpha=\\begin{pmatrix} 1 \\\\ 1 \\end{pmatrix}$ 是属于特征值 $\\lambda_1=2$ 的特征向量, 求矩阵 $A$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "请问 $a,b$ 取什么值时, 线性方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4+x_5=1; \\\\ 2x_1+x_2-4x_5=a; \\\\ x_1+2x_2+3x_3+3x_4+7x_5=4; \\\\ 5x_1+4x_2+3x_3+3x_4-x_5=b. \\end{cases}$$\n有解, 并求其解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设\n$$f(x)=x^3+ax^2+bx+c$$\n是一个整系数多项式, 且 $ac+bc$ 是奇数. 证明: $f(x)$ 在有理数域上不可约."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $f(x_1,x_2,\\cdots,x_n)$ 是一个 $n$ 元实二次型. 证明: 存在 $n$ 元正定二次型 $g(x_1,x_2,\\cdots,x_n)$ 和 $n$ 元负定二次型 $h(x_1,x_2,\\cdots,x_n)$ 使得\n$$f(x_1,x_2,\\cdots,x_n)=g(x_1,x_2,\\cdots,x_n)+h(x_1,x_2,\\cdots,x_n).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\sigma$ 为 $n$ 维线性空间 $V$ 上的线性变换, $\\lambda$ 为 $\\sigma$ 的一个特征根, $k$ 为 $\\lambda$ 的代数重数. 记\n$$W=\\mathrm{Ker}(\\lambda I_V-\\sigma)^k.$$\n其中 $I_V$ 是 $V$ 上的恒等变换. 证明: $W$ 的维数恰为 $k$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "",
+          "stem": "解答如下问题:\n(1) 设 $V$ 为数域 $F$ 上的线性空间, $W$ 为集合, $f$ 为 $V$ 到 $W$ 的双射. 证明: $W$ 也可以做成数域 $F$ 上的线性空间.\n(2) 自然数集是否可以构成有理数域上的 $2$ 维线性空间? 请说明理由."
+        }
+      ]
+    }
+  ]
+}

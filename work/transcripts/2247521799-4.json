@@ -1,0 +1,233 @@
+{
+  "msgid": "2247521799-4",
+  "exams": [
+    {
+      "school": "湘潭大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "75. 湘潭大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521799-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\tan x-\\sin x}{x^3}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\int_0^1 \\dfrac{x^n}{1+x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 10 分, 共 30 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty} x^{\\frac{1}{x}}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 20 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $y=\\dfrac{\\sqrt{1+x^2}}{x}$, 求 $\\mathrm{d}^2 y$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 20 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $I(y)=\\displaystyle\\int_y^{y^2} \\dfrac{\\cos xy}{x}\\,\\mathrm{d}x$, 求 $I'(y)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $\\Omega$ 为球面 $x^2+y^2+z^2=3$ 和抛物面 $2z=x^2+y^2$ 所围成的区域, 计算重积分\n$$\\iiint\\limits_{\\Omega} (x+y+z)^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "已知 $\\Sigma$ 为封闭曲面, $\\mathbf{l}$ 为固定向量, $\\mathbf{n}$ 为 $\\Sigma$ 的外法向量, 证明: $\\displaystyle\\iint\\limits_{\\Sigma} \\cos(\\mathbf{n},\\mathbf{l})\\,\\mathrm{d}S=0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知含参量积分 $I=\\displaystyle\\int_0^{+\\infty} \\mathrm{e}^{-\\alpha x}\\sin x\\,\\mathrm{d}x$。\n(1) 对于 $\\alpha\\ge\\alpha_0>0$, 讨论 $I$ 的一致收敛性.\n(2) 对于 $\\alpha>0$, 讨论 $I$ 的一致收敛性."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "叙述 $\\lim\\limits_{x\\to x_0^{+}} f(x)$ 存在且有限的柯西收敛准则并证明."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "将 $f(x)=x^2$ 在 $[0,2\\pi]$ 上傅里叶展开."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\zeta(s)=\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{1}{n^s}$, $E(s)=\\displaystyle\\prod_{n=1}^{\\infty} \\dfrac{1}{1-p_n^{s}}$, $s>1$, 其中 $p_n$ 为第 $n$ 个质数.\n(1) 证明: $\\zeta(s)$ 与 $E(s)$ 均收敛.\n(2) 证明: $\\zeta(s)=E(s)$."
+        }
+      ]
+    },
+    {
+      "school": "湘潭大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "75. 湘潭大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521799-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D=\\begin{vmatrix} x+y & xy & 0 & \\cdots & 0 & 0 \\\\ 1 & x+y & xy & \\cdots & 0 & 0 \\\\ 0 & 1 & x+y & \\cdots & 0 & 0 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & x+y & xy \\\\ 0 & 0 & 0 & \\cdots & 1 & x+y \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设矩阵\n$$A=\\begin{pmatrix} 1 & 1 & 1 & \\cdots & 1 \\\\ a_1 & a_2 & a_3 & \\cdots & a_s \\\\ a_1^2 & a_2^2 & a_3^2 & \\cdots & a_s^2 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ a_1^{n-1} & a_2^{n-1} & a_3^{n-1} & \\cdots & a_s^{n-1} \\end{pmatrix}.$$\n其中 $a_i\\ne a_j$ ($i\\ne j$), $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 分别为 $A$ 的列向量, 讨论 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 的线性相关性."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4=-1; \\\\ 4x_1+3x_2+5x_3-x_4=-1; \\\\ ax_1+x_2+3x_3+bx_4=1. \\end{cases}$$\n线性无关的解向量有 3 个.\n(1) 求系数矩阵的秩.\n(2) 求 $a,b$ 的值与方程组的通解."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为 $n$ 阶方阵, 证明: $r(A^n)=r(A^{n+1})$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵, 若 $A-E$ 为正定矩阵.\n(1) 证明: $A$ 为正定矩阵.\n(2) 证明: $E-A^{-1}$ 为正定矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=(x-a_1)(x-a_2)\\cdots(x-a_n)-1$, 其中 $a_1,a_2,\\cdots,a_n$ 为互不相同的整数. 证明: $f(x)$ 在有理数域上不可约."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设数域 $P$ 上线性空间上的向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 的秩为 $r$, 证明: 使得 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_n\\alpha_n=0$ 的 $n$ 维向量 $(k_1,k_2,\\cdots,k_n)$ 全体构成的集合 $V_1$ 是线性空间 $P^n$ 的 $n-r$ 维子空间."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\alpha_1,\\alpha,\\cdots,\\alpha_n$ 为线性空间 $V$ 的一组基, 若 $(\\beta_1,\\beta_2,\\cdots,\\beta_m)=(\\alpha_1,\\alpha_2,\\cdots,\\alpha_n)A$, 其中 $A$ 为 $n\\times m$ 矩阵. 证明: $\\dim L(\\beta_1,\\beta_2,\\cdots,\\beta_m)=r(A)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $a,b,c$ 为实数, 矩阵\n$$A=\\begin{pmatrix} b & c & a \\\\ c & a & b \\\\ a & b & c \\end{pmatrix},\\quad B=\\begin{pmatrix} c & a & b \\\\ a & b & c \\\\ b & c & a \\end{pmatrix},\\quad C=\\begin{pmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{pmatrix}.$$\n(1) 证明: $A,B,C$ 彼此相似.\n(2) 若 $BC=CB$, 则 $A$ 至少有两个特征值为 0."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "对称变换",
+          "stem": "设 $V_1$ 是有限维欧氏空间 $V$ 的子空间, 定义 $V$ 到 $V_1$ 的投影变换 $\\sigma$ 如下: $\\forall X\\in V$, 设 $X=X_1+X_2$, $X_1\\in V_1, X_2\\in V_1^{\\perp}$, 则 $\\sigma(X)=X_1$.\n(1) 证明: $\\sigma$ 为 $V$ 上的线性变换.\n(2) 证明: $\\sigma$ 是满足 $\\sigma=\\sigma^2$ 的对称变换."
+        }
+      ]
+    }
+  ]
+}

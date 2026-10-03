@@ -1,0 +1,193 @@
+{
+  "msgid": "2247521860-3",
+  "exams": [
+    {
+      "school": "天津大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "22. 天津大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521860-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "构造一个二元函数满足以下条件并证明.\n(1) 在原点处连续且偏导数存在;\n(2) 在原点处不可微."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上二阶可导, $f(a)=f(b)$, 且 $|f''(x)|\\le c$, 证明: $|f'(x)|\\le\\dfrac{1}{2}c(b-a)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上可导, $f(a)>a$, 且 $f'(x)+f(x)>1+x$, 证明: $f(x)>x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[1,+\\infty)$ 上一致连续, 证明: 存在 $M>0$, 满足 $\\dfrac{|f(x)|}{x}\\le M,\\ x\\in[1,+\\infty)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设数列 $\\{a_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{n^\\alpha}=1$ ($\\alpha>0$), 求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_1+a_2+\\cdots+a_n}{n^{1+\\alpha}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 是以 $2\\pi$ 为周期且在 $[-\\pi,\\pi]$ 上可积的函数, $a_n,b_n$ 为 $f(x)$ 的傅里叶级数.\n(1) 求 $f(x+1)$ 的傅里叶系数.\n(2) 求 $f(2x)$ 的傅里叶系数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)$ 为 $[a,b]$ 上的单调函数, $g(x)$ 是周期为 $T$ 的连续函数, 且 $\\int_0^T g(x)\\,\\mathrm{d}x=0$, 证明:\n$$\\lim_{\\lambda\\to+\\infty}\\int_a^b f(x)g(\\lambda x)\\,\\mathrm{d}x=0.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知序列 $\\{x_n\\},\\{y_n\\}$ 满足 $x_{n+1}=y_n+\\dfrac{1}{2}x_n$, 证明: $\\{y_n\\}$ 收敛的充要条件是 $\\{x_n\\}$ 收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "记 $D_R=\\{|x|\\le R,\\,|y|\\le R,\\,|z|\\le R\\mid R>0\\}$. 求极限\n$$\\lim_{R\\to+\\infty}\\iiint_{D_R}(x+y+z)^2e^{-(x^2+y^2+z^2)}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "求积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{(\\sin x)^2}{x^2}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 为 $x^2+y^2+z^2=2Rx$ 与 $x^2+y^2=2rx$ 的交线($R>r>0$)的上半部分($z\\ge 0$), 求曲线积分\n$$\\int_L (y^2+z^2)\\,\\mathrm{d}x+(z^2+x^2)\\,\\mathrm{d}y+(x^2+y^2)\\,\\mathrm{d}z.$$\n从 $z$ 轴正向看, $L$ 取逆时针方向."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{f_n(x)\\}$ 为定义在 $[a,b]\\setminus\\{x_0\\}$ 上的函数列, 且在 $[a,b]\\setminus\\{x_0\\}$ 上一致收敛于 $f(x)$, 同时\n$$\\lim_{x\\to x_0}f_n(x)=c_n\\ (n=1,2,\\cdots).$$\n(1) 证明: $\\lim\\limits_{n\\to\\infty}c_n$ 存在.\n(2) 证明: $\\lim\\limits_{x\\to x_0}f(x)$ 存在, 且 $\\lim\\limits_{x\\to x_0}f(x)=\\lim\\limits_{n\\to\\infty}c_n$."
+        }
+      ]
+    },
+    {
+      "school": "天津大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "22. 天津大学 2024 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521860-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f(x)$ 在复数域上无重根, 且\n$$f(f(x))=f^n(x)+a_{n-1}f^{n-1}(x)+\\cdots+a_1f(x)+a_0.$$\n(1) 证明: $f(x)$ 的系数为整数.\n(2) 证明: 若 $a_0,a_1,\\cdots,a_{n-1}$ 都是奇数, 则 $f(x)$ 无整数根."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $a_1,a_2,\\cdots,a_n\\neq 0$, 记 $m=\\displaystyle\\prod_{i=1}^{n}a_i$, 且\n$$D_n(\\lambda)=\\det\\begin{pmatrix}1 & 1 & \\cdots & 1\\\\ a_1 & a_2 & \\cdots & a_n\\\\ a_1^2 & a_2^2 & \\cdots & a_n^2\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_1^{n-2} & a_2^{n-2} & \\cdots & a_n^{n-2}\\\\ a_1^n+\\dfrac{\\lambda m}{a_1} & a_2^n+\\dfrac{\\lambda m}{a_2} & \\cdots & a_n^n+\\dfrac{\\lambda m}{a_n}\\end{pmatrix}.$$\n(1) 求 $D_n(\\lambda)$.\n(2) 记 $S=\\displaystyle\\sum_{i=1}^{n}a_i$, $D_s(\\lambda)\\neq 0$, 求\n$$D=\\det\\begin{pmatrix}x & a_2 & \\cdots & a_n\\\\ a_1 & x & \\cdots & a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_1 & a_2 & \\cdots & x\\end{pmatrix}+(-1)^n(x+s).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $\\alpha>0$, $A=\\begin{pmatrix}1 & \\dfrac{\\alpha}{n}\\\\[4pt] \\dfrac{\\alpha}{n} & 1\\end{pmatrix}$.\n(1) 求 $B=\\lim\\limits_{n\\to\\infty}A^n$.\n(2) 设上一问的 $B=\\begin{pmatrix}a & b\\\\ c & d\\end{pmatrix}$, 同时\n$$D=\\begin{pmatrix}a & 1 & & \\\\ & a & \\ddots & \\\\ & & \\ddots & 1\\\\ & & & a\\end{pmatrix}.$$\n求 $\\det D$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 都是正定的实对称 $n$ 阶方阵, 证明:\n(1) $A+B$ 为正定的实对称方阵.\n(2) 存在 $t>0$, 满足 $A-tB$ 为正定的实对称矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $M_n(\\mathbb{R})$ 为实数域上所有 $n$ 阶矩阵构成的线性空间, 记\n$$V=\\{A\\in M_n(\\mathbb{R})\\mid \\operatorname{tr}(A)=0\\}.$$\n(1) 证明: $V$ 为 $M_n(\\mathbb{R})$ 的子空间."
+        }
+      ]
+    }
+  ]
+}
