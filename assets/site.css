@@ -463,3 +463,23 @@ footer.site .wrap { display: flex; justify-content: space-between; gap: 16px; fl
   .plan-row > div:nth-of-type(1) { grid-area: title; }
   .plan-row > .levels { grid-area: levels; }
 }
+
+/* papers.html 年份筛选条 */
+.yearbar {
+  position: sticky; top: 58px; z-index: 10;
+  display: flex; flex-wrap: wrap; gap: 6px; align-items: center;
+  margin: 0 0 18px; padding: 9px 12px;
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: saturate(140%) blur(8px);
+  border: 1px solid var(--line); border-radius: var(--radius-sm);
+}
+.ychip {
+  font: inherit; font-size: 13px; line-height: 1.5;
+  padding: 2px 10px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--surface); color: var(--ink-2);
+  cursor: pointer;
+}
+.ychip:hover { border-color: var(--accent); color: var(--accent); }
+.ychip.active { background: var(--accent-soft); border-color: transparent; color: var(--accent-ink); font-weight: 600; }
+#yearhint { color: var(--muted); font-size: 13px; margin-left: 6px; }
+@media print { .yearbar { display: none; } }

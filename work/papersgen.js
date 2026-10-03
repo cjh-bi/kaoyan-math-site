@@ -37,16 +37,27 @@ const sections = schoolOrder.map(name => {
   const years = [...new Set(qs.map(q => q.year))].sort(yearOrder);
   const papers = pids.map(pid => { const pq = byPaper[pid]; return { pid, year: pq[0].year, subject: pq[0].subject }; })
     .sort((a, b) => yearOrder(b.year) - yearOrder(a.year) || a.subject.localeCompare(b.subject));
-  return `<section class="section">
+  return `<section class="section" data-school="${esc(name)}">
   <div class="section-head">
     <h2><a href="school/${qs[0].school}.html">${esc(name)}</a></h2>
     <p>${pids.length} 套卷 · ${qs.length} 题 · ${years[0]}–${years[years.length - 1]}</p>
   </div>
   <div class="toolbar" style="margin:0">
-${papers.map(p => `    <a class="chip" href="paper/${p.pid}.html">${p.year} ${p.subject}</a>`).join('\n')}
+${papers.map(p => `    <a class="chip" data-year="${p.year}" href="paper/${p.pid}.html">${p.year} ${p.subject}</a>`).join('\n')}
   </div>
 </section>`;
 });
+
+// 年份筛选条：全部 + 各年份（按 4 位年聚合，2007/2008 这类跨年卷两边都计入）
+const allPapers = Object.entries(byPaper).map(([pid, pq]) => ({ pid, year: pq[0].year }));
+const yearBuckets = {};
+for (const p of allPapers) for (const y of p.year.split('/')) (yearBuckets[y] = yearBuckets[y] || new Set()).add(p.pid);
+const yearsSorted = Object.keys(yearBuckets).sort();
+const yearbar = `<div class="yearbar" id="yearbar" role="tablist" aria-label="按年份筛选试卷">
+    <button class="ychip active" data-year="">全部 ${allPapers.length}</button>
+${yearsSorted.map(y => `    <button class="ychip" data-year="${y}">${y} · ${yearBuckets[y].size}</button>`).join('\n')}
+    <span id="yearhint"></span>
+  </div>`;
 
 const page = `<!doctype html>
 <html lang="zh-CN">
@@ -65,8 +76,10 @@ ${topbar('papers.html')}
   <div class="wrap">
 <div class="section-head page-head">
   <h1>试卷</h1>
-  <p>按院校浏览 · 共 ${schoolOrder.length} 所高校 · ${Object.keys(byPaper).length} 套真题卷，点击任一卷名进入整卷视图（可打印）</p>
+  <p>按院校浏览 · 共 ${schoolOrder.length} 所高校 · ${allPapers.length} 套真题卷，点击任一卷名进入整卷视图（可打印）；用下方年份条可按年份筛选，如 <a href="papers.html?year=2025">只看 2025 年</a></p>
 </div>
+
+${yearbar}
 
 ${sections.join('\n')}
   </div>
@@ -80,6 +93,7 @@ ${sections.join('\n')}
 <script defer src="assets/katex/katex.min.js"></script>
 <script defer src="assets/katex/auto-render.min.js"></script>
 <script defer src="assets/math.js?v=${V}"></script>
+<script defer src="assets/papers-filter.js?v=${V}"></script>
 </body>
 </html>
 `;
