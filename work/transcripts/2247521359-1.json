@@ -1,0 +1,223 @@
+{
+  "msgid": "2247521359-1",
+  "exams": [
+    {
+      "school": "武汉大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "50. 武汉大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521359-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求导数或极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{\\sin x-\\arctan x}{\\tan x-\\arcsin x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求导数或极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $y=\\dfrac{\\arcsin x}{\\sqrt{1-x^2}}$，求 $y^{(2023)}(0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求导数或极限.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\sum_{k=1}^{n}\\sin\\dfrac{k}{n}\\cdot\\sin\\dfrac{k}{n^2}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "求积分.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "以 $x=ty$ 参数化曲线 $x^2+y^3=xy$，求曲线所围区域的面积。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "求积分.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求曲面积分 $$\\iint\\limits_{S}(xy+yz+zx)\\,\\mathrm{d}S,$$ 其中 $S$ 是 $z=\\sqrt{x^2+y^2}$ 被 $x^2+y^2=2ay$ 截掉的部分。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "求积分.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "用含参量积分求 $\\int_0^1\\dfrac{\\arctan x}{x\\sqrt{1-x^2}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：$$\\dfrac{2n}{2n+1}\\le\\dfrac{\\left(1+\\frac{1}{n}\\right)^n}{e}\\le\\dfrac{2n+1}{2n+2}\\quad(n\\ge 1).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $(0,+\\infty)$ 上三次可导，且 $\\lim\\limits_{x\\to+\\infty}f(x)$ 与 $\\lim\\limits_{x\\to+\\infty}f'''(x)$ 均存在，证明：$$\\lim_{x\\to+\\infty}f'(x)=\\lim_{x\\to+\\infty}f''(x)=\\lim_{x\\to+\\infty}f'''(x)=0.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)$ 是 $[-1,1]$ 上的连续函数，证明：$$\\lim_{\\varepsilon\\to 0^+}\\int_{-1}^{1}\\dfrac{\\varepsilon f(x)}{\\varepsilon^2+x^2}\\,\\mathrm{d}x=\\pi f(0).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $x>0,y>0$，证明：$$xy-e^{x-1}\\le y\\ln y.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明：$\\displaystyle\\int_0^1(x\\ln x)^n\\,\\mathrm{d}x=\\dfrac{(-1)^n n!}{(n+1)^{n+1}}$，并利用此结论证明：$$\\int_0^1 x^{-x}\\,\\mathrm{d}x=\\sum_{n=1}^{\\infty}\\dfrac{1}{n^n}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{f_n(x)\\}$ 是区间 $[a,b]$ 上一致收敛于 $f$ 的可积函数列。证明：$f$ 在 $[a,b]$ 上可积，且 $$\\int_a^b f(x)\\,\\mathrm{d}x=\\lim_{n\\to\\infty}\\int_a^b f_n(x)\\,\\mathrm{d}x.$$"
+        }
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "50. 武汉大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521359-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设数域 $K$ 上的 $n$ 阶矩阵 $A$ 的第 $i$ 行第 $j$ 列的元素是 $a_i-b_j$。\n(1) 求行列式 $|A|$。\n(2) $n\\ge 2$，$a_1\\ne a_2$，$b_1\\ne b_2$ 时，求方程组 $AX=0$ 的解空间的维数和一个基。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $n$ 阶实方阵 $A$ 的特征值全是实数，且 $A$ 的所有一阶主子式之和与二阶主子式之和都是零。证明：$A^n=O$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $n$ 维欧氏空间 $V$ 上的线性变换 $\\mathscr{T}$ 满足 $\\mathscr{T}^3+\\mathscr{T}=\\mathscr{O}$，证明：$\\mathscr{T}$ 的迹（即 $\\mathscr{T}$ 在 $V$ 的某一下基下对应矩阵的迹）等于零。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B$ 是 $n$ 阶实矩阵，且 $A^2+B^2=AB$。证明：若 $AB-BA$ 是可逆矩阵，则 $n$ 是 $3$ 的倍数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A,B$ 是 $n$ 阶复矩阵。证明：若 $AB=BA$，那么存在 $n$ 阶可逆复矩阵 $P$，使得 $P^{-1}AP,P^{-1}BP$ 都是上三角矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设方阵 $A$ 的特征值全是 $1$。证明：对每个自然数 $s$，$A^s$ 与 $A$ 相似。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f_1(x),f_2(x),\\cdots,f_n(x)$ 为多项式（$n\\ge 2$），且满足 $$x^{n-1}+x^{n-2}+\\cdots+x+1\\mid f_1(x^n)+xf_2(x^n)+\\cdots+x^{n-1}f_n(x^n).$$ 证明：存在常数 $c$，使得 $(x-1)^n\\mid\\prod\\limits_{i=1}^{n}(f_i(x)-c)$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $f(x),g(x)$ 是数域 $K$ 上互素的多项式，$A$ 是数域 $K$ 上的 $n$ 阶矩阵。证明：$f(A)g(A)=O$ 的充分必要条件是 $\\mathrm{rank}(f(A))+\\mathrm{rank}(f(B))=n$，其中 $\\mathrm{rank}$ 表示矩阵的秩。"
+        }
+      ]
+    }
+  ]
+}

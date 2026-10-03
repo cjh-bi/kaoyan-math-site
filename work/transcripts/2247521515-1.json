@@ -1,0 +1,303 @@
+{
+  "msgid": "2247521515-1",
+  "exams": [
+    {
+      "school": "云南大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "72. 云南大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521515-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "极限 $\\lim_{x\\to 0}\\left(\\cot x-\\dfrac{1}{x}\\right)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)=\\begin{cases} e^{ax}, & x\\leqslant 0;\\\\ (x-b)^3, & x>0. \\end{cases}$ 在 $x=0$ 处可导, 则 $a$ 和 $b$ 的值分别是 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "不定积分 $\\displaystyle\\int \\dfrac{\\mathrm{d}x}{2e^{-x}+e^{x}+2}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "曲面 $z=x+2y+\\ln(1+x^2+y^2)$ 在 $(0,0,0)$ 的切平面方程是 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $f(x,y)=\\displaystyle\\int_0^{xy} e^{xt^2}\\,\\mathrm{d}t$, 则 $\\dfrac{\\partial^2 f}{\\partial x\\,\\partial y}\\Big|_{(1,1)}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "曲线 $y=\\displaystyle\\int_0^x \\tan t\\,\\mathrm{d}t$, $0\\leqslant x\\leqslant \\dfrac{\\pi}{4}$ 的弧长 $s=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "按定义证明: $\\lim_{x\\to 1}\\dfrac{x(x-1)}{x^2-1}=\\dfrac{1}{2}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判别级数 $\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{a^n n!}{n^n}$ $(a>0)$ 的敛散性."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 和 $g(x)$ 在区间 $[a,b]$ 上二阶可导, 并且 $g''(x)\\neq 0$, $f(a)=f(b)=g(a)=g(b)=0$. 证明:\n(1) 在开区间 $(a,b)$ 内, $g(x)\\neq 0$.\n(2) 在开区间 $(a,b)$ 内, 至少存在一点 $\\xi$, 使得 $\\dfrac{f(\\xi)}{g(\\xi)}=\\dfrac{f''(\\xi)}{g''(\\xi)}$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知函数 $z=u e^{ax+by}$, 其中 $u=u(x,y)$ 具有二阶偏导数, 且 $\\dfrac{\\partial^2 u}{\\partial x\\,\\partial y}=0$. 确定常数 $a,b$, 使得函数 $z=z(x,y)$ 满足方程\n$$\\dfrac{\\partial^2 z}{\\partial x\\,\\partial y}+2\\dfrac{\\partial z}{\\partial x}+3\\dfrac{\\partial z}{\\partial y}+6z=0.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $f(x)$ 在 $t\\neq 0$ 时一阶连续可导, 且 $f(1)=0$. 求函数 $f(x^2+y^2)$, 使得曲线积分\n$$\\int_L y\\left(2-f(x^2+y^2)\\right)\\mathrm{d}x+x f(x^2+y^2)\\,\\mathrm{d}y$$\n与路径无关, 其中 $L$ 为不经过原点的光滑曲线."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求级数 $\\displaystyle\\sum_{n=1}^{\\infty} n(n+2)x^{n-1}$ 的和函数."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算极限 $\\displaystyle\\lim_{a\\to+\\infty}\\iint_D \\min\\{x,y\\}\\,e^{-(x^2+y^2)}\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $D:\\,[-a,a]\\times[-a,a]$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上一致连续, $g(x)$ 在 $[a,+\\infty)$ 上连续, 且 $\\lim_{x\\to+\\infty}[f(x)-g(x)]=0$. 证明: $g(x)$ 在 $[a,+\\infty)$ 上一致连续."
+        }
+      ]
+    },
+    {
+      "school": "云南大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "72. 云南大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521515-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "多项式 $(x^{2023}-1,\\,x^{2024}-1)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "秩为 $r$ 的 $n$ 阶方阵 $A$ 满足 $A^2=A$, 则 $A$ 的所有 一阶主子式之和 = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "实二次型 $x_1^2-3x_3^2-2x_1x_2+2x_1x_3-2x_2x_3$ 的符号差为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "由所有 $n$ 阶对称矩阵构成的实线性空间的维数 = ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "若 3 阶方阵 $A$ 的行列式是 1, 迹是 2, 并且多项式 $f(x)=x^2-2x$ 与 $A$ 的特征多项式不互素, 写出 $A$ 的所有特征值 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "记 $E$ 是 $n$ 阶单位阵, 若 $n$ 阶方阵 $A,B$ 满足 $AB-BA=E+A$, 则 $A^{2024}$ 的行列式等于 ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "求实数 $b$, 使得实系数线性方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4=2;\\\\ 2x_1+2x_3=0;\\\\ 2x_1+x_2+2x_3+x_4=2;\\\\ bx_1+2x_2+bx_3+2x_4=b. \\end{cases}$$\n有解, 并在有解的情况下求所有的解."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶矩阵 $\\begin{pmatrix} 1 & 2 & 3 & \\cdots & n\\\\ 2 & 2 & 3 & \\cdots & n\\\\ 3 & 3 & 3 & \\cdots & n\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ n & n & n & \\cdots & n \\end{pmatrix}$ 的行列式."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设矩阵 $A=\\begin{pmatrix} 2 & 0 & 2 & 4\\\\ 0 & 2 & 0 & 2\\\\ 0 & 0 & 2 & 0\\\\ 0 & 0 & 0 & 2 \\end{pmatrix}$. 求 $A$ 的 Jordan 标准形."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "用正交的线性替换化四元实二次型 $\\displaystyle\\sum_{1\\leqslant i<j\\leqslant 4} x_i x_j$ 成平方和的形式."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "证明: 每一个 $n$ 维线性空间都可以写成 $n$ 个 1 维线性空间的直和."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "证明: $n$ 阶实对称矩阵\n$$A=\\begin{pmatrix} 2 & -1 & & &\\\\ -1 & 2 & -1 & &\\\\ & -1 & 2 & \\ddots &\\\\ & & \\ddots & \\ddots & -1\\\\ & & & -1 & 2 \\end{pmatrix}$$\n正定, 并且它有 $n$ 个互不相同的正特征值."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $V$ 是 $n$ 维欧氏空间, $\\gamma,\\alpha_1,\\cdots,\\alpha_m\\in V$ 满足 $(\\gamma,\\alpha_k)>0$, $(\\alpha_i,\\alpha_j)\\leqslant 0$ 对一切的 $i,j,k\\in\\{1,2,\\cdots,m\\}$ 且 $i\\neq j$. 证明: $\\alpha_1,\\cdots,\\alpha_m$ 线性无关."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "记 $\\mathrm{End}(V)$ 是由 $n$ 维复线性空间 $V$ 上的所有线性变换构成的线性空间. 固定 $\\sigma\\in\\mathrm{End}(V)$, 定义 $\\mathrm{End}(V)$ 上的变换 $\\varphi$ 为 $\\varphi(\\rho)=\\sigma\\rho-\\rho\\sigma$, $\\forall\\rho\\in\\mathrm{End}(V)$. 证明: $\\varphi$ 是 $\\mathrm{End}(V)$ 上的线性变换, 并且若线性变换 $\\tau\\in\\mathrm{End}(V)$ 使得对某个正整数 $m$ 有 $\\varphi^m(\\tau)=0$, 则 $\\sigma$ 的任一个根子空间都是 $\\tau-$子空间."
+        }
+      ]
+    }
+  ]
+}

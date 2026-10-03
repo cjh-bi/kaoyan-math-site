@@ -1,0 +1,243 @@
+{
+  "msgid": "2247521304-1",
+  "exams": [
+    {
+      "school": "华东师范大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "14. 华东师范大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521304-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算曲面 $z=e^{x^2-y^2}+x^2$ 与曲面 $z=e^{x^2-y^2}-y^2+1$ 所围成的封闭区域的体积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上以 $2\\pi$ 为周期的连续函数，以 $a_n,b_n$ 为其傅里叶级数的系数，求\n$$F(x)=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(t)f(x+t)\\,\\mathrm{d}t$$\n的傅里叶系数（用 $a_n,b_n$ 表示）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_1+a_2+\\cdots+a_n}{n}=a$（$-\\infty<a<+\\infty$）。\n(1) 判断 $\\lim\\limits_{n\\to\\infty}a_n$ 是否存在，若存在，请给出严格证明；若不存在，请举例并详细说明。\n(2) 若 $\\lim\\limits_{n\\to\\infty}n(a_n-a_{n-1})=0$ 或 $\\{a_n\\}$ 单调递增，判断 $\\lim\\limits_{n\\to\\infty}a_n$ 是否存在，若存在，请给出严格证明；若不存在，请举例并给出详细证明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上有连续的导数，$f(0)=0$ 或 $\\displaystyle\\int_0^1 f(x)\\,\\mathrm{d}x=0$。判断不等式\n$$\\int_0^1 [f(x)]^2\\,\\mathrm{d}x\\le \\int_0^1 [f'(x)]^2\\,\\mathrm{d}x$$\n是否成立，若成立，请给出严格证明；若不成立，请举例并给出详细证明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "讨论 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n-1}}{[n+(-1)^{n-1}]^p}$（$p>0$）的敛散性（收敛时需指明是绝对收敛还是条件收敛）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "解答如下问题：\n(1) 证明：$\\{u_n(x)\\}=\\left\\{\\left(1+\\dfrac{x}{n}\\right)^n\\right\\}$ 在 $x\\in[0,1]$ 上一致收敛。\n(2) 证明：$\\{v_n(x)\\}=\\left\\{\\dfrac{1}{e^{\\frac{x}{n}}+\\left(1+\\frac{x}{n}\\right)^n}\\right\\}$ 在 $x\\in[0,1]$ 上一致收敛。\n(3) 求 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^1\\dfrac{\\mathrm{d}x}{e^{\\frac{x}{n}}+\\left(1+\\frac{x}{n}\\right)^n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 25,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设 $f$ 是定义在 $(-\\infty,+\\infty)$ 上的非常数函数，请判断下列说法是否正确。若正确，请给出严格证明；若不正确，请举例并给出详细说明。\n(1) 若 $f$ 是处处不连续的周期函数，则 $f$ 必有最小正周期。\n(2) 若 $f$ 是处处不连续的周期函数，则 $f$ 必没有最小正周期。\n(3) 若 $f$ 是周期函数但没有最小正周期，则 $f$ 必有一列趋于 $0$ 的周期。\n(4) 若 $f$ 是连续的周期函数，则 $f$ 必有最小正周期。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f$ 在 $(a,+\\infty)$ 上有连续的导数且 $\\lim\\limits_{x\\to+\\infty}f(x)=A$（$-\\infty<A<+\\infty$）。\n(1) 请给出例子详细说明 $\\lim\\limits_{x\\to+\\infty}f'(x)$ 未必存在。\n(2) 若 $\\lim\\limits_{x\\to+\\infty}f'(x)$ 存在，求它的值。\n(3) 若 $f(x)$ 满足 $n$ 阶可导且 $\\lim\\limits_{x\\to+\\infty}f(x)$ 与 $\\lim\\limits_{x\\to+\\infty}f^{(n)}(x)$ 存在。判断对任意的 $k=1,2,\\cdots,n-1$，$\\lim\\limits_{x\\to+\\infty}f^{(k)}(x)$ 是否存在。若存在，请求出极限；若不存在，请举例并给出详细说明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "设 $f:\\mathbb{R}^2\\to\\mathbb{R}$ 连续可微，$f(0,0)=0$ 且 $f_y(0,0)\\neq 0$。考虑迭代：\n$$y_{n+1}(x)=y_n(x)-(f_y(0,0))^{-1}f(x,y_n(x)),\\quad y_0(x)=0.$$\n定义 $u_{n+1}(x)=y_{n+1}(x)-y_n(x)$，$n\\ge 0$。\n(1) 证明：对任何 $\\varepsilon>0$，存在 $\\delta>0$，当 $x\\in(-\\delta,\\delta)$ 时，$|y_n(x)|<\\varepsilon$ 对任何 $n\\ge 0$ 成立，进而当 $\\delta$ 充分小时，存在 $0<\\rho<1$ 使得对任意的 $|x|<\\delta$，有 $|u_{n+1}(x)|\\le\\rho|u_n(x)|$。\n(2) 证明：$y(x)=\\displaystyle\\sum_{n=1}^{\\infty}u_n(x)$ 时 $f(x,y)=0$ 在 $(0,0)$ 附近确定的一个连续的隐函数。"
+        }
+      ]
+    },
+    {
+      "school": "华东师范大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "14. 华东师范大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521304-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x)=x^3+3x+1$，满足同余方程 $v(x)f'(x)\\equiv 1\\pmod{f(x)}$ 且次数最小的多项式 $v(x)$ 为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "实系数多项式 $f(x)=2x^3-5x^2+4x-1$ 及 $g(x)=4x^3-8x^2+5x-1$ 的最大公因式为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "使得实对称矩阵 $\\begin{pmatrix}3+t & 2 & 1\\\\ 2 & 3 & 2\\\\ 1 & 2 & 3-t\\end{pmatrix}$ 正定的实数 $t$ 的范围为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "已知方阵 $A$ 的初等因子为 $\\lambda,\\lambda^2,(\\lambda+1)^3,(\\lambda-1)^2,(\\lambda-1)^2$，则 $A$ 的极小多项式 $m_A(\\lambda)$ 为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "考虑标准欧氏空间 $\\mathbb{R}^4$ 中的向量\n$$\\alpha_1=(1,1,1,-1),\\ \\alpha_2=(1,1,1,1),\\ \\alpha_3=(-1,1,1,1),\\ \\beta=(1,-1,1,1).$$\n设 $\\gamma$ 与诸 $\\alpha_i$ 均正交，则 $\\gamma$ 与 $\\beta$ 的夹角的最小值为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设诸 $\\alpha_i$ 同上一小题，使得 $|\\alpha_1-t\\alpha_2|$ 达到最小的实数 $t$ 为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "7",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "已知线性映射 $\\varphi:\\mathbb{R}^4\\to\\mathbb{R}^4$ 满足\n$$\\varphi(x,y,z,w)=(x+3y+z+6w,\\ 2y+z+4w,\\ 2x-z,\\ -x+3y+2z+6w).$$\n那么核空间 $\\mathrm{Ker}\\,\\varphi$ 的维数为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "8",
+          "score": 5,
+          "form": "填空",
+          "l1": "近世代数",
+          "l2": "群",
+          "stem": "置换 $\\tau^{-1}\\sigma\\tau$ 等于______，这里\n$$\\sigma=\\begin{pmatrix}1&2&3&4&5&6&7\\\\ 7&6&5&4&3&2&1\\end{pmatrix},\\quad \\tau=\\begin{pmatrix}1&2&3&4&5&6&7\\\\ 6&4&2&7&5&3&1\\end{pmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "9",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "实对称矩阵 $A=\\begin{pmatrix}4&-2&0\\\\ -2&3&-2\\\\ 0&-2&2\\end{pmatrix}$ 可通过正交相似变换化为对角阵______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "共 10 题，每题 5 分，共 50 分。",
+          "no": "10",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$J_n(-1)+J_n(-1)^{-1}$ 的行列式值为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "每题 20 分，共 100 分。",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知 $C(A)=\\{X\\in M_3(\\mathbb{C})\\mid AX=XA\\}$ 是 $\\mathbb{C}$ 上的线性空间，这里\n$$A=\\begin{pmatrix}1&1&0\\\\ 0&1&0\\\\ 0&0&1\\end{pmatrix}.$$\n(1) 求 $C(A)$ 的维数。\n(2) 考虑线性映射\n$$\\varphi:C(A)\\to C(A),\\ X\\mapsto AX.$$\n求复合映射 $\\varphi^n$ 对应的表示矩阵的 Jordan 典范形（$n\\ge 1$）。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "每题 20 分，共 100 分。",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设\n$$A=\\begin{pmatrix}-2&-9&2&-31\\\\ 0&-2&1&-5\\\\ 1&4&0&12\\\\ 0&1&-1&4\\end{pmatrix}.$$\n(1) 求 $A$ 的特征值及相应的特征子空间。\n(2) 求 $A^{2024}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "每题 20 分，共 100 分。",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A,B\\in M_n(\\mathbb{K})$，$k\\in\\mathbb{K}$ 是非零常数。\n(1) 证明：如果 $AB=kI_n$，则 $BA=kI_n$。\n(2) 证明：如果 $AB=O$，则 $\\mathrm{rank}\\,A+\\mathrm{rank}\\,B\\le n$。"
+        }
+      ]
+    }
+  ]
+}

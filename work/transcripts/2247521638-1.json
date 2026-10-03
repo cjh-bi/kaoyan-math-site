@@ -1,0 +1,263 @@
+{
+  "msgid": "2247521638-1",
+  "exams": [
+    {
+      "school": "哈尔滨工业大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "31. 哈尔滨工业大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521638-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "下面命题正确请说明理由, 错误请举出反例.",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "正数列 $\\{a_n\\},\\{b_n\\}$ 发散, 则 $\\{a_n+b_n\\}$ 发散。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "下面命题正确请说明理由, 错误请举出反例.",
+          "no": "2",
+          "score": null,
+          "form": "判断",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "$f(x)$ 在 $(-1,1)$ 上可微, $f'(0)>0$, 则存在 $\\varepsilon>0$ 满足 $f(x)$ 在邻域 $O(0,\\varepsilon)\\subset(-1,1)$ 上单调。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "下面命题正确请说明理由, 错误请举出反例.",
+          "no": "3",
+          "score": null,
+          "form": "判断",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "若 $\\int_a^b (f(x))^{2024}\\,\\mathrm{d}x=0$, 则 $f(x)\\equiv 0,\\ x\\in[a,b]$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "下面命题正确请说明理由, 错误请举出反例.",
+          "no": "4",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设非负项级数 $\\sum_{n=1}^{\\infty}a_n,\\ \\sum_{n=1}^{\\infty}b_n$ 收敛, 则 $\\sum_{n=1}^{\\infty}\\min\\{a_n,b_n\\}$ 收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "下面命题正确请说明理由, 错误请举出反例.",
+          "no": "5",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "设 $f(x,y)$ 沿任意方向趋于 $(0,0)$ 的方向极限都存在且相等, 则重极限 $\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)$ 一定存在。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设 $m,n\\ge 1$, 求 $\\lim\\limits_{x\\to 1}\\left(\\dfrac{m}{1-x^m}-\\dfrac{n}{1-x^n}\\right)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "$f(x)$ 是定义在 $(a,b)$ 上的函数, 对于任意收敛数列 $\\{x_n\\}\\subset(a,b)$, $\\{f(x_n)\\}$ 收敛. 证明:\n(1) $f(x)\\in C(a,b)$.\n(2) $\\lim\\limits_{x\\to a^+}f(x)$, $\\lim\\limits_{x\\to b^-}f(x)$ 存在.\n(3) $f(x)$ 在 $(a,b)$ 上一致连续。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上二阶可微, 对任意的 $x\\in\\mathbb{R}$, $|f(x)|\\le M_0$, $|f''(x)|\\le M_2$.\n(1) 写出 $\\forall x\\in\\mathbb{R}$, $\\forall h>0$, $f(x+h),f(x-h)$ 关于 $h$ 带有 Lagrange 余项的 Taylor 公式.\n(2) 证明: $\\forall x\\in\\mathbb{R}$, $\\forall h>0$, $|f'(x)|\\le\\dfrac{M_0}{h}+\\dfrac{h}{2}M_2$.\n(3) 证明: $\\forall x\\in\\mathbb{R}$, $|f'(x)|\\le\\sqrt{2M_0M_2}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明: $\\lim\\limits_{b\\to 1^-}\\displaystyle\\int_0^b\\dfrac{\\cos x}{\\sqrt{1-x^2}}\\,\\mathrm{d}x$ 存在。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明: $\\lim\\limits_{b\\to 1^-}\\displaystyle\\int_0^b\\dfrac{\\cos x}{\\sqrt{1-x^2}}\\,\\mathrm{d}x>1$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $\\{a_n\\}$ 是单调递增的正数列, 证明:\n(1) 若 $\\{a_n\\}$ 有界, 则 $\\sum\\limits_{n=1}^{\\infty}\\left(1-\\dfrac{a_n}{a_{n+1}}\\right)$ 收敛.\n(2) 若 $\\{a_n\\}$ 无界, 则 $\\sum\\limits_{n=1}^{\\infty}\\left(1-\\dfrac{a_n}{a_{n+1}}\\right)$ 发散。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{f_n(x)\\}=\\{xn^{\\alpha}e^{-nx}\\}$, $n=1,2,\\cdots$.\n(1) 当 $\\alpha$ 为何值时, $\\{f_n(x)\\}$ 在 $[0,1]$ 上收敛.\n(2) 当 $\\alpha$ 为何值时, $\\{f_n(x)\\}$ 在 $[0,1]$ 上一致收敛.\n(3) 讨论 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^1 f_n(x)\\,\\mathrm{d}x$ 和 $\\displaystyle\\int_0^1\\lim\\limits_{n\\to\\infty}f_n(x)\\,\\mathrm{d}x$ 的关系。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $\\varphi(x,y)$ 在 $(0,0)$ 的某一邻域上连续, $f(x,y)=|x-y|\\varphi(x,y)$.\n(1) 当 $\\varphi(x,y)$ 满足什么条件时, $f_x'(0,0),f_y'(0,0)$ 存在?\n(2) 当 $\\varphi(x,y)$ 满足什么条件时, $f(x,y)$ 在 $(0,0)$ 处可微?"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n^4}\\iiint\\limits_{r\\le n}[r]\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$, 其中 $r=\\sqrt{x^2+y^2+z^2}$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求 $\\iint\\limits_S x^2\\,\\mathrm{d}y\\mathrm{d}z+y^2\\,\\mathrm{d}z\\mathrm{d}x+z^2\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $S$ 是 $z=x^2+y^2$ 从 $z=0$ 到 $z=1$ 的部分, 取下侧。"
+        }
+      ]
+    },
+    {
+      "school": "哈尔滨工业大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "31. 哈尔滨工业大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521638-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "解答如下问题:\n(1) 证明: 每个次数 $\\ge 3$ 的实系数多项式在实数域上一定可约.\n(2) 证明: 三次实系数多项式在实数域上一定有根.\n(3) 四次实系数多项式在实数域上一定有根吗? 说明理由。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "讨论 $a,b$ 取何值时下列方程组有解, 并求解\n$$\\begin{cases}x_1+x_2+x_3+x_4+x_5=1,\\\\ 3x_1+2x_2+x_3+x_4+ax_5=-3,\\\\ x_2+2x_3+2x_4+6x_5=3,\\\\ 5x_1+4x_2+3x_3+3x_4-x_5=b.\\end{cases}$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\eta$ 是非齐次线性方程组 $AX=\\beta$ ($\\beta\\neq 0$) 的一个解向量, $\\xi_1,\\xi_2,\\cdots,\\xi_t$ 是对应齐次线性方程组 $AX=0$ 的一个基础解系, 证明:\n(1) $\\eta,\\xi_1,\\xi_2,\\cdots,\\xi_t$ 线性无关.\n(2) $\\eta,\\xi_1+\\eta,\\xi_2+\\eta,\\cdots,\\xi_t+\\eta$ 是 $AX=\\beta$ 的线性无关的解向量.\n(3) $AX=\\beta$ 的任意解 $Y$ 都可以表示成 $$Y=k_0\\eta+k_1(\\xi_1+\\eta)+k_2(\\xi_2+\\eta)+\\cdots+k_t(\\xi_t+\\eta),$$ 其中 $k_0+k_1+\\cdots+k_t=1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V=\\{(x_1,x_2,x_3,x_4,x_5)^T\\in\\mathbb{R}^5\\mid x_1+7x_2+5x_3-4x_4+2x_5=0\\}$.\n(1) 证明: $S=\\{(-2,0,0,-1,-1)^T,(1,1,-2,-1,-1)^T,(-5,1,0,1,1)^T\\}$ 是 $V$ 的一个线性无关的子集.\n(2) 将 $S$ 扩充为 $V$ 的一组基底。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 是线性无关的 $n$ 维列向量, $\\beta_i=\\sum\\limits_{j=1}^{r}a_{ij}\\alpha_j,\\ i=1,2,\\cdots,r$, 证明: $\\beta_1,\\beta_2,\\cdots,\\beta_r$ 线性相关的充要条件为\n$$\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1r}\\\\ a_{21}&a_{22}&\\cdots&a_{2r}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{r1}&a_{r2}&\\cdots&a_{rr}\\end{vmatrix}=0.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为 $n$ 阶方阵, $\\lambda_0$ 是 $A$ 的几何重数为 $m$ 的特征值, 证明: $(\\lambda-\\lambda_0)^m\\mid|\\lambda E_n-A|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $P^n$ 是数域 $P$ 上的 $n$ 维线性空间, $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 和 $\\beta_1,\\beta_2,\\cdots,\\beta_t$ 是 $P^n$ 中的两组向量.\n(1) 给出并证明 $L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_s)\\cup L(\\beta_1,\\beta_2,\\cdots,\\beta_t)$ 是 $P^n$ 的子空间的充要条件.\n(2) 给出并证明 $L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_s)\\cup L(\\beta_1,\\beta_2,\\cdots,\\beta_t)=P^n$ 的充要条件。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $A$ 是实对称矩阵, $X=(x_1,x_2,x_3,x_4)^T\\in\\mathbb{R}^4$, $f(X)=X^TAX$ 是四元实二次型.\n(1) $S=\\{X\\in\\mathbb{R}^4\\mid f(X)=0\\}$ 是不是 $\\mathbb{R}^4$ 的子空间? 为什么?\n(2) 若矩阵 $A$ 的正负惯性指数都是 1, 证明: 存在 $\\mathbb{R}^3$ 的 3 维子空间 $W$, 使得当 $X\\in W$ 时, $f(X)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是 $n$ 维复线性空间, $\\mathscr{A},\\mathscr{B}$ 是 $V$ 的线性变换, $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$, $f(t)$ 是一个复系数多项式. 证明:\n(1) $\\mathscr{B}$ 的特征子空间与核空间的和是 $\\mathscr{A}$ 的不变子空间.\n(2) $f(\\mathscr{A})$ 和 $f(\\mathscr{B})$ 有共同的特征向量。"
+        }
+      ]
+    }
+  ]
+}

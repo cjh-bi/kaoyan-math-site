@@ -1,0 +1,293 @@
+{
+  "msgid": "2247521819-3",
+  "exams": [
+    {
+      "school": "华东理工大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "20. 华东理工大学 2024 年数学分析试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521819-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\sqrt[n]{2\\sin^2 n+\\cos^2 n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{\\cos x-e^{-\\frac{x^2}{2}}}{x^4}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分 $\\iint_D e^{\\max\\{x^2,y^2\\}}\\,\\mathrm dx\\mathrm dy$，其中 $D:\\,[0,1]\\times[0,1]$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $f(x)$ 是 $[1,+\\infty)$ 上单调递减的连续函数。证明：当 $\\int_1^{+\\infty} f(x)\\,\\mathrm dx$ 收敛时，有 $\\lim_{x\\to+\\infty} xf(x)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "举例说明：存在不单调递减的函数 $f(x)$ 使得 $\\int_1^{+\\infty} f(x)\\,\\mathrm dx$ 收敛，但 $f(x)$ 在 $+\\infty$ 的极限不存在。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求 $f(x,y,z)=\\ln x+2\\ln y+3\\ln z$ 在 $x^2+y^2+z^2=r^2$ $(x,y,z>0,\\,r>0)$ 下的最大值，并证明对任意的正数 $a,b,c$，都有\n$$ab^2c^3\\le 108\\left(\\dfrac{a+b+c}{6}\\right)^{6}.$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知 $a_n>0$，证明：\n$$\\varliminf_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}\\le\\varliminf_{n\\to\\infty}\\sqrt[n]{a_n}\\le\\varlimsup_{n\\to\\infty}\\sqrt[n]{a_n}\\le\\varlimsup_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $\\{S_n(x)\\}$ 在 $[0,a]$ 上连续，且 $S_n(x)=\\int_0^x S_{n-1}(t)\\,\\mathrm dt$，证明：$\\{S_n(x)\\}$ 在 $[0,a]$ 上一致收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$I=\\iint_\\Sigma \\dfrac{x\\,\\mathrm dy\\mathrm dz+y\\,\\mathrm dz\\mathrm dx+z\\,\\mathrm dx\\mathrm dy}{(x^2+y^2+z^2)^{\\frac{3}{2}}},$$\n其中 $\\Sigma$ 是立方体 $|x|\\le 1,\\,|y|\\le 2,\\,|z|\\le 3$ 的表面，取外侧。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明函数\n$$f(x)=\\begin{cases} x^{\\alpha}\\cos\\dfrac{1}{x}, & x\\in\\left(0,\\dfrac{\\pi}{2}\\right];\\\\[2mm] \\left(x-\\dfrac{\\pi}{2}\\right)^{2024} e^{-x}, & x\\in\\left(\\dfrac{\\pi}{2},+\\infty\\right)\\end{cases}$$\n在 $(0,+\\infty)$ 上一致连续，其中 $\\alpha>0$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论 $\\int_1^{+\\infty}\\cos(x^p)\\,\\mathrm dx$ 的绝对收敛性和条件收敛性。"
+        }
+      ]
+    },
+    {
+      "school": "华东理工大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "20. 华东理工大学 2024 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521819-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "求一个三次多项式 $f(x)$ 使得 $(x-1)^2\\mid f(x)+1$，$(x+1)^2\\mid f(x)-1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设矩阵\n$$A=\\begin{pmatrix}1&0&0\\\\1&1&0\\\\1&1&1\\end{pmatrix},\\quad B=\\begin{pmatrix}0&1&1\\\\1&0&1\\\\1&1&0\\end{pmatrix}.$$\n若矩阵 $X$ 满足 $AXA+BXB=AXB+BXA+E$，求 $X$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设行列式\n$$D=\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{n-1,1}&a_{n-1,2}&\\cdots&a_{n-1,n}\\\\ 1&1&\\cdots&1\\end{vmatrix}.$$\n$D_i$ 是用 $(x_1,x_2,\\cdots,x_{n-1},1)^{T}$ 替换掉 $D$ 的第 $i$ 列后得到的行列式，证明：$D_1+D_2+\\cdots+D_n=D$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是秩为 $r$ 的 $m\\times n$ 矩阵，$B$ 是秩为 $n-r$ 的 $n\\times p$ 矩阵，且 $AB=O$。若向量 $b$ 满足 $Ab=0$。证明：方程组 $BX=b$ 有解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 是秩为 $r$ 的 $m\\times n$ 矩阵，$B$ 是秩为 $n-r$ 的 $n\\times p$ 矩阵，且 $AB=O$。若向量 $b$ 满足 $Ab=0$。证明：当 $p=n-r$ 时，方程组 $BX=b$ 有唯一解。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 为 $n$ 个列向量，满足\n$$\\alpha_i^{T}\\alpha_j=\\pm\\cos\\theta,\\quad i\\ne j,\\ \\cos\\theta\\ne 1.$$\n记 $X_i=\\alpha_i\\alpha_i^{T}$，$i=1,2,\\cdots,n$。求 $\\mathrm{tr}(X_i)$ 和 $\\mathrm{tr}(X_iX_j)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 为 $n$ 个列向量，满足\n$$\\alpha_i^{T}\\alpha_j=\\pm\\cos\\theta,\\quad i\\ne j,\\ \\cos\\theta\\ne 1.$$\n记 $X_i=\\alpha_i\\alpha_i^{T}$，$i=1,2,\\cdots,n$。证明：$X_1,X_2,\\cdots,X_n$ 线性无关。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设实矩阵 $A$ 满足 $A+A^{T}=J-E$，其中 $J$ 是元素全为 $1$ 的 $n$ 阶方阵。证明：对任意复向量 $\\alpha$，有 $0\\le\\alpha^{H}J\\alpha\\le n\\alpha^{H}\\alpha$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设实矩阵 $A$ 满足 $A+A^{T}=J-E$，其中 $J$ 是元素全为 $1$ 的 $n$ 阶方阵。证明：$A$ 的特征值在 $\\left[-\\dfrac{1}{2},\\dfrac{n-1}{2}\\right]$ 之间。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "在所有 $n$ 阶实对称矩阵构成的线性空间 $V$ 上定义内积 $(A,B)=\\mathrm{tr}(AB)$。证明：$V$ 构成欧几里得空间。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "在所有 $n$ 阶实对称矩阵构成的线性空间 $V$ 上定义内积 $(A,B)=\\mathrm{tr}(AB)$。设 $S$ 是 $V$ 中满足 $\\mathrm{tr}(A)=0$ 的矩阵组成的子空间，求 $\\dim S$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "在所有 $n$ 阶实对称矩阵构成的线性空间 $V$ 上定义内积 $(A,B)=\\mathrm{tr}(AB)$。求 $\\dim(S^{\\perp})$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V$ 是酉空间，$W$ 是 $V$ 的子空间，$\\beta\\in V$ 是一个向量，如果 $W$ 中的向量 $\\alpha$ 满足对任意的 $\\gamma\\in W$ 都有 $\\|\\beta-\\alpha\\|\\le\\|\\beta-\\gamma\\|$，则称 $\\alpha$ 是 $\\beta$ 到 $W$ 的投影。证明：$\\alpha$ 属于 $W$ 的正交补。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $V$ 是酉空间，$W$ 是 $V$ 的子空间，$\\beta\\in V$ 是一个向量，如果 $W$ 中的向量 $\\alpha$ 满足对任意的 $\\gamma\\in W$ 都有 $\\|\\beta-\\alpha\\|\\le\\|\\beta-\\gamma\\|$，则称 $\\alpha$ 是 $\\beta$ 到 $W$ 的投影。证明：$\\alpha$ 是唯一的。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $n$ 维欧氏空间 $V$ 上的两个线性变换 $\\sigma,\\tau$ 满足\n$$(\\sigma(\\alpha),\\sigma(\\beta))=(\\tau(\\alpha),\\tau(\\beta)),\\ \\forall\\alpha,\\beta\\in V.$$\n证明：$\\mathrm{Im}\\,\\sigma$ 和 $\\mathrm{Im}\\,\\tau$ 同构。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "线性空间 $V$ 和 $V$ 的子空间 $V_1,V_2$ 满足 $V=V_1\\oplus V_2$，$\\sigma,\\tau$ 是两个线性变换，$\\sigma(\\alpha)=\\alpha_1+\\alpha_2$ $(\\alpha_i\\in V_i)$，证明：$V_1,V_2$ 都是 $\\tau$ 的不变子空间的充要条件是 $\\sigma\\tau=\\tau\\sigma$。"
+        }
+      ]
+    }
+  ]
+}

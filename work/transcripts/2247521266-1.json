@@ -1,0 +1,183 @@
+{
+  "msgid": "2247521266-1",
+  "exams": [
+    {
+      "school": "南开大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "21. 南开大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521266-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\left[\\dfrac{e^x}{\\ln(1+x)}-\\dfrac{1}{x}\\right]$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $z$ 是由方程\n$$2x^3z-3x^2y^2-2xyz^2-4y^3z+4=0$$\n确定的关于 $x,y$ 的隐函数，在 $x=2,y=1,z=2$ 处计算全微分 $dz$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判断广义积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{x\\ln x}{x^3+1}\\,\\mathrm{d}x$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 25,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_L (x^3y+e^x)\\,\\mathrm{d}x+(xy^3+5x^3y^2+xe^y)\\,\\mathrm{d}y.$$\n其中 $L$ 为椭圆 $4x^2+9y^2=36$，取逆时针方向。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 25,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty} n(n+1)\\left(\\dfrac{x-1}{x}\\right)^{n}$ 的收敛域及和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上单调递增，$f(0)=0$，$f(1)=1$，$n$ 为正整数，$\\xi_k\\in\\left[\\dfrac{k-1}{n},\\dfrac{k}{n}\\right]$，$k=1,2,\\cdots,n$，证明：\n$$\\left|\\int_0^1 f(x)\\,\\mathrm{d}x-\\dfrac{1}{n}\\sum_{k=1}^{n} f(\\xi_k)\\right|\\le \\dfrac{1}{n}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，$f(a)<f(b)$，证明：存在 $[c,d]\\subseteq[a,b]$，使得 $f(x)$ 在 $[c,d]$ 上的最小值为 $f(a)$，最大值为 $f(b)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 是一个收敛的正项级数，令 $f(x)=\\sum\\limits_{n=1}^{\\infty} a_n|\\sin nx|$，已知 $f(x)$ 在 $(-\\infty,+\\infty)$ 上满足利普希茨条件，即存在常数 $L>0$，使得对任意的 $x,y\\in(-\\infty,+\\infty)$，均有\n$$|f(x)-f(y)|\\le L|x-y|.$$\n证明：级数 $\\displaystyle\\sum_{n=1}^{\\infty} n a_n$ 收敛。"
+        }
+      ]
+    },
+    {
+      "school": "南开大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "21. 南开大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521266-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 30,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "若\n$$f(x)=x^5-x^3-x-1,\\quad g(x)=x^4+2x^2+5x+2.$$\n计算 $f(x)$ 与 $g(x)$ 的首项系数为 $1$ 的最大公因式 $(f(x),g(x))$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix} 1+x & x & 0 & 0 \\\\ x & x+x^2 & x^2 & 0 \\\\ 0 & x^2 & x^2+x^3 & x^3 \\\\ 0 & 0 & x^3 & x^3+x^4 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "若四阶方阵 $A$ 的伴随矩阵为\n$$\\begin{pmatrix} -1 & -1 & 1 & 0 \\\\ 0 & -1 & 0 & 1 \\\\ 0 & 0 & -1 & -1 \\\\ 0 & 0 & 0 & -1 \\end{pmatrix}.$$\n求 $A^3$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $V=\\mathbb{R}[x]_4$ 为次数小于 $4$ 的实系数多项式构成的实线性空间，定义线性变换 $\\mathscr{A}:V\\to V$ 如下：\n$$\\mathscr{A}(f(x))=(1-x^2)f''(x)-2xf'(x),\\ \\forall f(x)\\in V.$$\n求 $V$ 的一组基，设 $\\mathscr{A}$ 在这组基下的矩阵为对角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求矩阵\n$$A=\\begin{pmatrix} 1 & 1 & 0 & 2 \\\\ 0 & 2 & -1 & 0 \\\\ 0 & 1 & 0 & 0 \\\\ 0 & -1 & 1 & 1 \\end{pmatrix}$$\n的若尔当标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\tilde{A},\\tilde{B}\\in\\mathbb{R}^{m\\times(n+1)}$ 分别是两个线性方程组的增广矩阵，如果两个线性方程组都有解且解集相同，证明：$\\tilde{A},\\tilde{B}$ 的行向量组等价。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知 $A,B\\in\\mathbb{R}^{n\\times n}$，且 $A$ 为正定矩阵，$B$ 为半正定矩阵，证明：$|A+B|\\ge |A|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V=\\mathbb{C}^{n\\times n}$ 为 $n$ 阶复方阵构成的复线性空间，$A\\in V$，线性变换 $\\mathscr{D}:V\\to V$ 定义为\n$$\\mathscr{D}(X)=AX-XA',\\ \\forall X\\in V.$$\n如果 $A$ 有 $n$ 个互不相同的特征值，证明：$V=\\mathscr{D}^{-1}(0)\\oplus\\mathscr{D}(V)$。"
+        }
+      ]
+    }
+  ]
+}

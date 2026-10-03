@@ -1,0 +1,253 @@
+{
+  "msgid": "2247521819-2",
+  "exams": [
+    {
+      "school": "西南交通大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "64. 西南交通大学 2024 年数学分析试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521819-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "已知 $\\lim_{n\\to\\infty} a_n = a$，证明：$\\lim_{n\\to\\infty} \\dfrac{[na_n]}{n} = a$，其中 $[\\,\\cdot\\,]$ 表示取整。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $(a,b)$ 上连续，且 $f(a+0), f(b-0)$ 存在，证明：$f(x)$ 在 $(a,b)$ 上一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 上可导，证明：存在 $\\xi \\in (a,b)$，使得 $f'(\\xi) + \\lambda f(\\xi) = 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "判断",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上有界，判断 $f, |f|, f^2$ 之间的可积性关系。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论级数 $\\sum_{n=1}^{\\infty} \\dfrac{\\sin nx}{n^p}$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "证明 $f(x,y) = \\sqrt{|xy|}$ 在点 $(0,0)$ 处连续，并求 $f_x(0,0), f_y(0,0)$，判断 $f(x,y)$ 在点 $(0,0)$ 的可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $f(x)$ 在 $(0,+\\infty)$ 上连续，当 $x \\to 0^+$ 时，$f(x) \\to +\\infty$，且 $\\int_0^1 f(x)\\,\\mathrm{d}x$ 收敛，证明：$\\lim_{x\\to 0^+} x f(x) = 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u = f(x,y)$，其中 $x = r\\cos\\theta, y = r\\sin\\theta$，且 $\\dfrac{\\partial u}{\\partial x} = \\dfrac{\\partial v}{\\partial y}$，$\\dfrac{\\partial u}{\\partial y} = -\\dfrac{\\partial v}{\\partial x}$，证明：\n\n$$\\dfrac{\\partial^2 u}{\\partial x^2} = \\dfrac{1}{r^2}\\dfrac{\\partial^2 v}{\\partial y^2},\\ \\dfrac{\\partial^2 u}{\\partial y^2} = -\\dfrac{1}{r^2}\\dfrac{\\partial^2 v}{\\partial x^2}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求 $y = mx^2, y = nx^2$（$0 < m < m$），$y = \\alpha x, y = \\beta x$（$0 < \\alpha < \\beta$）所围区域的面积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "设 $\\Omega$ 是单连通区域，$L$ 为其边界，在 $\\Omega$ 内部或外部取一定点，设其为原点，$\\boldsymbol{r}$ 为 $L$ 上的点到原点的向量，$\\boldsymbol{n}$ 为该点的单位切向量，求 $\\oint_L \\dfrac{\\cos(\\boldsymbol{n}, \\boldsymbol{r})}{|\\boldsymbol{r}|}\\,\\mathrm{d}s$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上无界，证明：存在 $x_0 \\in (a,b)$，使得对任意的 $\\delta > 0$，满足 $f(x)$ 在 $(x_0 - \\delta, x_0 + \\delta) \\cap [a,b]$ 上无界。"
+        }
+      ]
+    },
+    {
+      "school": "西南交通大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "64. 西南交通大学 2024 年高等代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521819-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知矩阵 $A = \\begin{pmatrix} 1 & 0 & 1 \\\\ 0 & 2 & 0 \\\\ 1 & 0 & 1 \\end{pmatrix}$，求 $A^n - 2A^{n-1} = $____。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "已知矩阵 $B = \\begin{pmatrix} 0 & 0 & 1 \\\\ 0 & 1 & 0 \\\\ 1 & 0 & 0 \\end{pmatrix}$，且 $A$ 与 $B$ 相似，则 $r(A-E) + r(A-2E) = $____。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $\\alpha_1 = (*,*,*), \\alpha_2 = (*,*,*), \\alpha_3 = (*,*,*)$ 不能被 $\\beta_1 = (*,*,*), \\beta_2 = (*,*,*), \\beta_3 = (*,*,a)$ 线性表出，求 $a$ 的值为____。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A, B$ 为正交矩阵，且 $\\dfrac{|A|}{|B|} = -1$，则 $|A + B| = $____。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x) = x^2 + x + 1$，$g(x) = x^{2023} - (x+1)^{4045}$，求 $f$ 和 $g$ 的最大公因式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "求实二次型 $f(x_1, x_2, \\cdots, x_n) = \\sum_{i=1}^{n} x_i^2 + 4\\sum_{1 \\le i < j \\le n} x_i x_j$ 的秩和符号差。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "讨论方程组\n\n$$\\begin{cases} x_1 + a x_2 + x_3 = 2; \\\\ x_1 + x_2 + 2b x_3 = 2; \\\\ x_1 + x_2 - b x_3 = -1, \\end{cases}$$\n\n在什么情况下无解，有唯一解，有无穷多解，并在有解时求解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A = \\begin{pmatrix} 17 & 0 & 25 \\\\ 0 & 3 & 0 \\\\ 9 & 0 & -13 \\end{pmatrix}$。求 $A$ 的若尔当标准形 $J$，并求可逆矩阵 $P$，使得 $P^{-1} A P = J$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A = \\begin{pmatrix} 2 & -1 & 3 \\\\ a & 1 & b \\\\ 4 & c & 6 \\end{pmatrix}$，存在秩为 2 的矩阵 $B$，使得 $BA = O$，求 $A^{10}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "已知 $\\alpha_1, \\alpha_2, \\alpha_3$ 是欧氏空间 $V$ 的一组基，其度量矩阵为\n\n$$\\begin{pmatrix} 2 & -1 & 1 \\\\ -1 & 3 & -1 \\\\ 1 & -1 & 2 \\end{pmatrix}.$$\n（数据可能有误）\n\n记 $W = L(\\alpha_1 + \\alpha_2, \\alpha_2 + \\alpha_3)$。\n\n(1) 求 $W$ 的一组标准正交基。\n(2) 求 $W^{\\perp}$ 的维数和一组基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 是秩为 $r$ 的 $n$ 阶方阵，证明：$A^2 = A$ 的充要条件是存在 $r \\times n$ 矩阵 $B$ 和 $n \\times r$ 矩阵 $C$，使得 $A = BC$，且 $BC = E_r$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "定义 $\\mathbb{R}_0 = \\{a \\in \\mathbb{R} \\mid a > 0\\}$ 上的“加法”和“数乘”为 $\\oplus, \\otimes$，满足\n\n$$a \\oplus b = ab,\\ k \\otimes a = a^k,\\ \\forall a, b \\in \\mathbb{R}_0,\\ k \\in \\mathbb{R}.$$\n\n证明 $\\mathbb{R}_0$ 关于 $\\oplus$ 和 $\\otimes$ 构成线性空间，并求 $\\mathbb{R}_0$ 的一组基和维数。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "msgid": "2247521568-1",
+  "exams": [
+    {
+      "school": "河北工业大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "25. 河北工业大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521568-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求和函数 $\\sum\\limits_{n=1}^{\\infty} n x^{n-1}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{e^{x}\\sin x - x(1+x)}{x^{3}}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "求球面 $x^{2}+y^{2}+z^{2}=1$ 在点 $(x,y,z)=\\left(\\dfrac{\\sqrt{2}}{2}, 0, \\dfrac{\\sqrt{2}}{2}\\right)$ 处的切平面方程______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "求函数 $f(x)=(x-2)^{\\frac{2}{3}}$ 在区间 $[-1,2]$ 上的最大值和最小值______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $S=\\{(x,y,z)\\mid x^{2}+y^{2}+z^{2}=1\\}$, 方向向外, 求曲面积分 $\\iint\\limits_{S} x\\,\\mathrm{d}y\\mathrm{d}z + y\\,\\mathrm{d}z\\mathrm{d}x + z\\,\\mathrm{d}x\\mathrm{d}y=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left[\\dfrac{1}{n\\ln^{2} n}+\\dfrac{1}{(n+1)\\ln^{2}(n+1)}+\\cdots+\\dfrac{1}{(2n-1)\\ln^{2}(2n-1)}\\right]=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "判断函数 $f(x)=\\dfrac{x^{2}}{4}-\\cos x$ 的凸性."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $F$ 为二阶可微的三元函数, 又设由方程\n$$F(xy,\\, y+z,\\, xz)=0$$\n可以确定隐函数 $z=f(x,y)$, 求偏导数 $\\dfrac{\\partial f}{\\partial x}$ 和 $\\dfrac{\\partial f}{\\partial y}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "设曲面 $\\Sigma$ 为球面 $x^{2}+y^{2}+z^{2}=1$ 在 $z^{2}\\ge\\dfrac{1}{2}$ 的部分, 求 $I=\\iint\\limits_{\\Sigma}(1-z^{2})\\,\\mathrm{d}S$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 是从 $A$ 点 $(2,0)$ 出发, 先沿直线 $x+2y=2$ 到 $B$ 点 $(0,1)$, 再沿圆周 $x^{2}+y^{2}=1$ 到 $C$ 点 $(-1,0)$, 最后由 $C$ 点沿 $x$ 轴到 $A$ 的定向曲线, 计算第二型曲线积分\n$$\\int_{L}(x^{2}-3y)\\,\\mathrm{d}x+(3x+e^{y})\\,\\mathrm{d}y.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求解不定积分 $\\displaystyle\\int \\dfrac{1}{1+x^{3}}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{e^{-x^{2}}-e^{-4x^{2}}}{x^{2}}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)=x^{s}$, 其中参数 $0<s<1$, 证明: $f(x)$ 在 $[0,+\\infty)$ 上一致连续."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $D$ 为平面上一个有界区域, 它在 $x$ 轴与 $y$ 轴上投影长度分别为 $a$ 和 $b$, $D$ 的面积为 $A$, $(x_0,y_0)\\in D$, 证明:\n(1) $\\left|\\iint\\limits_{D}(x-x_0)(y-y_0)\\,\\mathrm{d}x\\mathrm{d}y\\right|\\le abA$.\n(2) $\\left|\\iint\\limits_{D}(x-x_0)(y-y_0)\\,\\mathrm{d}x\\mathrm{d}y\\right|\\le\\dfrac{1}{4}a^{2}b^{2}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "证明函数 $J(x)=\\dfrac{1}{\\pi}\\displaystyle\\int_{0}^{\\pi}\\cos\\left(t-x\\sin(t)\\right)\\mathrm{d}t$ 满足 Bessel 方程\n$$x^{2}J''(x)+xJ'(x)+(x^{2}-1)J(x)=0.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上连续, 证明: $M(x)=\\sup\\limits_{a\\le t\\le x} f(t)$ 在 $[a,b]$ 上连续."
+        }
+      ]
+    },
+    {
+      "school": "河北工业大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "25. 河北工业大学 2024 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247521568-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f_0(x), f_1(x), \\cdots, f_{n-1}(x)$ 为 $n$ 个实系数多项式, 且\n$$(x^{n}-2)\\ \\Big|\\ \\sum_{i=0}^{n-1} f_i(x_i^{n})x^{i}.$$\n证明: $x-2\\mid f_i(x)$, $i=0,1,\\cdots,n-1$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix} x & 0 & 0 & \\cdots & 0 & 1 \\\\ -1 & x & 0 & \\cdots & 0 & 2 \\\\ 0 & -1 & x & \\cdots & 0 & 3 \\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & x & 2023 \\\\ 0 & 0 & 0 & \\cdots & -1 & x+2024 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为 $5$ 阶矩阵, $k$ 为大于 $5$ 的正整数, 证明: $r(A^{5})=r(A^{k})$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为 $4$ 阶实对称矩阵, 且 $A$ 的特征值为 $\\lambda_1=\\lambda_2=1$, $\\lambda_3=\\lambda_4=2$, 且 $(1,1,0,0)'$, $(1,1,0,1)'$ 为 $A$ 的属于特征值 $1$ 的特征向量, 求矩阵 $A$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设线性方程组的一个解为 $\\eta$, 其导出组的一个基础解系为 $\\xi_1, \\xi_2, \\cdots, \\xi_s$, 记\n$$\\gamma_0=\\eta,\\ \\gamma_1=\\eta+\\xi_1,\\ \\gamma_2=\\eta+\\xi_2,\\ \\cdots,\\ \\gamma_s=\\eta+\\xi_s.$$\n证明: 方程组的任意一个解 $\\gamma$ 可表示为 $\\displaystyle\\sum_{i=0}^{s}\\mu_i\\gamma_i$, 其中 $\\displaystyle\\sum_{i=0}^{s}\\mu_i=1$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $W$ 是数域 $P$ 上所有形如\n$$\\begin{pmatrix} a_1 & a_2 & a_3 & \\cdots & a_n \\\\ a_n & a_1 & a_2 & \\cdots & a_{n-1} \\\\ a_{n-1} & a_n & a_1 & \\cdots & a_{n-2} \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ a_2 & a_3 & a_4 & \\cdots & a_1 \\end{pmatrix}$$\n的矩阵关于矩阵的加法和数量乘法构成的线性空间, $U$ 是数域 $P$ 上 $n$ 阶对角阵全体关于矩阵的加法和数量乘法构成的线性空间, 证明: $W$ 和 $U$ 同构."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V_1$ 是数域 $P$ 上全体 $n$ 阶对称矩阵的集合, $V_2$ 是数域 $P$ 上全体 $n$ 阶反称矩阵的集合, $P^{n\\times n}$ 是 $n$ 阶矩阵生成的线性空间.\n(1) 证明: $P^{n\\times n}=V_1\\oplus V_2$.\n(2) 证明: 存在唯一的线性变换 $\\sigma$, 使得 $\\sigma$ 的值域为 $V_1$, 核为 $V_2$, 且 $\\sigma^{2}=\\sigma$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A, B$ 均为 $n$ 阶实对称矩阵, 且 $B$ 为正定矩阵.\n(1) 若 $A$ 为半正定矩阵, 证明: $A+B$ 为正定矩阵.\n(2) 证明: 存在一实可逆矩阵 $S$, 使得 $S'AB$ 与 $S'BS$ 均为对角形."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 为任意 $m\\times n$ 矩阵, $X$ 为未知 $n\\times m$ 矩阵. 证明: 矩阵方程 $AXA=A$ 一定有解."
+        }
+      ]
+    }
+  ]
+}
