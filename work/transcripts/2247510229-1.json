@@ -1,0 +1,323 @@
+{
+  "msgid": "2247510229-1",
+  "exams": [
+    {
+      "school": "重庆大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "22. 重庆大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510229-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（40 分）计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\left[\\dfrac{\\ln(1+x)}{x}\\right]^{\\frac{1}{e^x-1}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（40 分）计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设 $f(x)=\\lim_{n\\to\\infty}\\dfrac{x^2 e^{n(x-1)}+ax+b}{e^{n(x-1)}+1}$，试问 $a$，$b$ 取何值时，$f(x)$ 可导？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（40 分）计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "计算不定积分 $\\displaystyle\\int \\dfrac{\\arcsin e^x}{e^x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（40 分）计算题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设函数 $f(u,v)$ 具有二阶连续偏导数，$y=f(e^x,\\cos x)$，求 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\big|_{x=0}$ 和 $\\dfrac{\\mathrm{d}^2 y}{\\mathrm{d}x^2}\\big|_{x=0}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（40 分）计算题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分 $I=\\displaystyle\\iint_{\\Sigma} x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+z^3\\,\\mathrm{d}x\\mathrm{d}y$，其中 $\\Sigma$ 是上半球面 $z=\\sqrt{1-x^2-y^2}$ 的上侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（10 分）证明",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "对任意的正整数 $n$，都有 $\\dfrac{1}{n+1}<\\ln\\left(1+\\dfrac{1}{n}\\right)<\\dfrac{1}{n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（10 分）证明",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设 $a_n=1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}-\\ln n$，证明数列 $\\{a_n\\}$ 收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（10 分）已知函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 上可导，且 $f(0)=0$，$f(1)=1$。证明",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "已知函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 上可导，且 $f(0)=0$，$f(1)=1$。证明：存在 $\\xi\\in(0,1)$，使得 $f(\\xi)=1-\\xi$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（10 分）已知函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 上可导，且 $f(0)=0$，$f(1)=1$。证明",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知函数 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 上可导，且 $f(0)=0$，$f(1)=1$。证明：存在两个不同的点 $\\xi,\\eta\\in(0,1)$，使得 $f'(\\xi)f'(\\eta)=1$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上可导，$f(1)=0$ 且 $\\displaystyle\\int_0^1 x f'(x)\\,\\mathrm{d}x=1$。证明：存在 $\\xi\\in(0,1)$，使得 $f'(\\xi)=2$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（10 分）证明",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明：数项级数 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 收敛的充分必要条件是对任何正整数列 $\\{k_n\\}$，都有 $\\displaystyle\\lim_{n\\to\\infty}\\left(a_{n+1}+a_{n+2}+\\cdots+a_{n+k_n}\\right)=0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "已知函数 $f(x,y)=x+y+xy$，曲线 $C:\\ x^2+y^2+xy=3$，求 $f(x,y)$ 在曲线 $C$ 上的最大方向导数。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）解答如下问题",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "写出非空数集的上确界的定义，并叙述确界存在定理。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）解答如下问题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "用确界存在定理证明：若 $f(x)$ 在 $[a,b]$ 上连续，且 $f(a)f(b)<0$，则在 $(a,b)$ 内存在一点 $c$，使得 $c=\\max\\{x\\mid f(x)=0,\\ x\\in(a,b)\\}$（即 $f(x)$ 在 $(a,b)$ 内存在最大零点）。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（10 分）证明等式",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "证明等式：$\\displaystyle\\int_0^1 \\mathrm{d}x\\int_0^x \\mathrm{d}y\\int_0^y f(z)\\,\\mathrm{d}z=\\dfrac{1}{2}\\int_0^1 (1-z)^2 f(z)\\,\\mathrm{d}z$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设上半平面 $D=\\{(x,y)\\mid y>0\\}$ 内，函数 $f(x,y)$ 具有连续偏导数，且对任意的 $t>0$，都有 $f(tx,ty)=t^{-2}f(x,y)$。证明：对 $D$ 内任意分段光滑的有向简单闭曲线 $L$，都有 $\\displaystyle\\oint_L y f(x,y)\\,\\mathrm{d}x-x f(x,y)\\,\\mathrm{d}y=0$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）设有函数项级数 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$，$x\\in(0,1)$。证明",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设有函数项级数 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$，$x\\in(0,1)$。证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$ 在 $(0,1)$ 内收敛。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）设有函数项级数 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$，$x\\in(0,1)$。证明",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设有函数项级数 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$，$x\\in(0,1)$。证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$ 在 $(0,1)$ 内非一致收敛。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）设有函数项级数 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$，$x\\in(0,1)$。证明",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设有函数项级数 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n}$，$x\\in(0,1)$。证明：$f(x)$ 在 $(0,1)$ 内连续。"
+        }
+      ]
+    },
+    {
+      "school": "重庆大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "22. 重庆大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510229-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "解答如下问题：\n(1) 设有行列式 $\\begin{vmatrix} 1 & 3 & 2 & 4 \\\\ 9 & 11 & -8 & 12 \\\\ 0 & 1 & -1 & 2 \\\\ 2 & 1 & 1 & 3 \\end{vmatrix}$，求 $A_{21}-2A_{22}+3A_{23}-4A_{24}$。\n(2) 设多项式 $f(x)=\\begin{vmatrix} x-1 & 1 & 2 & 3 \\\\ 4 & 5 & 6 & x+2 \\\\ 7 & x-3 & 9 & 8 \\\\ 1 & 3 & x+4 & 5 \\end{vmatrix}$，求 $x^3$ 的系数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $A,B,C,D$ 都是 $n$ 阶方阵，且 $|A|\\neq 0$，$AC=CA$，证明：$\\begin{vmatrix} A & B \\\\ C & D \\end{vmatrix}=|AD-CB|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 12,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $\\begin{vmatrix} a_1 & -1 & 0 & \\cdots & 0 & 0 \\\\ a_2 & x & -1 & \\cdots & 0 & 0 \\\\ a_3 & 0 & x & \\cdots & 0 & 0 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ a_{n-1} & 0 & 0 & \\cdots & x & -1 \\\\ a_n & 0 & 0 & \\cdots & 0 & x \\end{vmatrix}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 16,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "解答如下问题：\n(1) 设 $A=\\mathrm{diag}\\{a_1,a_2,\\cdots,a_n\\}$ 是 $n$ 阶对角矩阵，且 $a_1,a_2,\\cdots,a_n$ 互不相等，证明：与 $A$ 可交换的矩阵只能是对角矩阵。\n(2) 求所有与矩阵 $A=\\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}$ 可交换的矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 14,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A=(a_{ij})_{m\\times n}$ 是线性方程组 $AX=B\\neq 0$ 的系数矩阵，且线性方程组有解，$\\mathrm{rank}(A)=r$，证明：方程组有 $n-r+1$ 个线性无关的解向量。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 9,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "证明：多项式 $1+x+\\dfrac{x^2}{2!}+\\cdots+\\dfrac{x^n}{n!}$ 无重根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设有实二次型 $f(x_1,x_2,\\cdots,x_n)=\\displaystyle\\sum_{i=1}^{s}\\left(a_{i1}x_1+a_{i2}x_2+\\cdots+a_{in}x_n\\right)^2$，证明：$f(x_1,x_2,\\cdots,x_n)$ 的秩等于矩阵 $A=(a_{ij})_{s\\times n}$ 的秩。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 14,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求矩阵 $A=\\begin{pmatrix} 1 & 1 & -1 \\\\ -3 & -3 & 3 \\\\ -2 & -2 & 2 \\end{pmatrix}$ 的初等因子和 Jordan 标准型。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 12,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$，$B$ 都是 $n$ 阶矩阵，证明：$AB$ 与 $BA$ 有相同的特征值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 14,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A=(a_{ij})_{n\\times n}$ 是实矩阵，证明：线性方程组 $AX=B$ 有解的充要条件是向量 $B$ 与齐次线性方程组 $A^{T}X=0$ 的解空间正交。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": 16,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $a_1,a_2,\\cdots,a_n$ 是互不相等的整数，证明：多项式 $f(x)=(x-a_1)(x-a_2)\\cdots(x-a_n)-1$ 在有理数域上不可约。"
+        }
+      ]
+    }
+  ]
+}

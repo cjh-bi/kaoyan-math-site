@@ -1,0 +1,213 @@
+{
+  "msgid": "2247515992-1",
+  "exams": [
+    {
+      "school": "北京师范大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "1. 北京师范大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247515992-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "已知 $|f(x)-f(y)|\\le L|x-y|$，$L\\in(0,1)$。证明：存在唯一的 $x$，使得 $f(x)=x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "已知 $f(x)$ 在 $[a,b]$ 上连续，证明：$M(x)=\\max\\limits_{a\\le x\\le t} f(t)$ 在 $[a,b]$ 上也连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f(a)=f(b)=0$，证明：\n$$\\max_{x\\in[a,b]}|f(x)|\\le\\frac{1}{8}(b-a)^2\\max_{x\\in[a,b]}|f''(x)|.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知 $a_n=\\displaystyle\\int_0^1 \\frac{x^n}{1+x}\\,\\mathrm{d}x$，证明：$a_n=\\dfrac{1}{2n}-\\dfrac{1}{4n^2}+o\\!\\left(\\dfrac{1}{n^2}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "已知 $f(x,y)=|x-y|\\varphi(x,y)$，其中 $\\varphi(x,y)$ 在原点的某邻域有定义，且在原点处连续。证明：$\\varphi(0,0)=0$ 当且仅当 $f(x,y)$ 在 $(0,0)$ 处可微。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求抛物面 $x^2+y^2=2az$ 被 $x^2+xy+y^2=a^2$ 所截曲线的高度（$z$ 的坐标的最值）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算由球面 $x^2+y^2+z^2=2ax$ 与柱面 $x^2+y^2=a^2$ 所围成的立体图形的体积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二型曲面积分\n$$\\iint_S \\frac{xz}{a^2}\\,\\mathrm{d}y\\mathrm{d}z+\\frac{yz}{b^2}\\,\\mathrm{d}z\\mathrm{d}x+\\frac{z^2}{c^2}\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S=\\left\\{(x,y,z)\\ \\middle|\\ \\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1,\\ z\\ge 0\\right\\}$ 为上半椭球面。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "确定含参量积分 $g(\\alpha)=\\displaystyle\\int_0^{+\\infty}\\frac{\\ln(1+x^3)}{x^{\\alpha}}\\,\\mathrm{d}x$ 的连续区间。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "解答如下问题，其中 $\\alpha\\in(0,1)$。\n(1)（9 分）将 $f(x)=\\cos\\alpha x$ 在 $[-\\pi,\\pi]$ 上展开成傅里叶级数；\n(2)（6 分）证明：$\\pi=\\displaystyle\\int_0^{\\pi}\\frac{\\sin x}{x}\\,\\mathrm{d}x+\\sum_{n=1}^{\\infty}(-1)^n\\int_0^{\\pi}\\frac{2x\\sin x}{x^2-n^2\\pi^2}\\,\\mathrm{d}x$。"
+        }
+      ]
+    },
+    {
+      "school": "北京师范大学",
+      "year": "2023",
+      "subject": "高等代数与解析几何",
+      "header_note": "1. 北京师范大学 2023 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247515992-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix}1+a&2&3&\\cdots&n\\\\1&2+a&3&\\cdots&n\\\\1&2&3+a&\\cdots&n\\\\\\vdots&\\vdots&\\vdots&&\\vdots\\\\1&2&3&\\cdots&n+a\\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设矩阵 $A=\\begin{pmatrix}4&4&4\\\\0&4&4\\\\0&0&4\\end{pmatrix}$，二次型 $p(x_1,x_2,x_3)=(x_1,x_2,x_3)A(x_1,x_2,x_3)^T$，求正交矩阵 $T$，作非退化线性替换 $\\begin{pmatrix}x_1\\\\x_2\\\\x_3\\end{pmatrix}=T\\begin{pmatrix}y_1\\\\y_2\\\\y_3\\end{pmatrix}$，使得 $p(y_1,y_2,y_3)$ 是标准形。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设复数 $c$ 是 $\\mathbb{Q}[x]$ 上某多项式的根，设 $J=\\{f(x)\\in\\mathbb{Q}[x]\\mid f(c)=0\\}$，证明：存在以 $c$ 为根的整系数多项式 $p(x)$，对 $J$ 中任一 $f(x)$，有 $f(x)=p(x)q(x)$，其中 $q(x)\\in\\mathbb{Q}[x]$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 是 $\\mathbb{R}$ 上的向量空间，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 是 $V$ 中不为零的向量，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 的秩是 $r$。设\n$$W=\\{(k_1,k_2,\\cdots,k_n)\\in\\mathbb{R}^n\\mid \\sum_{k=1}^{n}k_i\\alpha_i=0\\}.$$\n证明：$W$ 是 $\\mathbb{R}^n$ 的 $n-r$ 维子空间。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 是正定矩阵。证明：\n(1) 存在在主对角元素都是正数的上三角矩阵 $C$，使得 $A=C'C$；\n(2) 上述分解唯一。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 是 $m$ 阶复矩阵，$B$ 是 $n$ 阶复矩阵，且 $A,B$ 没有公共的特征值。证明：矩阵方程 $AX=XB$ 只有零解。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "",
+          "stem": "分为几何。\n(1) 计算外积。\n(2) 求曲面切平面。\n(3) 求锥面或旋转面方程。\n(4) 与直纹面有关的问题。\n(5) 判断二次曲面的类型。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "空间直线",
+          "stem": "给定两条异面直线，求通过公垂线中点且与公垂线垂直的平面方程。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "给定二次曲面，将其转化为标准方程，并判断类型。"
+        }
+      ]
+    }
+  ]
+}

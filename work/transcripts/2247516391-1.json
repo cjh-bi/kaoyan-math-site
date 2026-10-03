@@ -1,0 +1,213 @@
+{
+  "msgid": "2247516391-1",
+  "exams": [
+    {
+      "school": "西北大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "66. 西北大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516391-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求下列极限.\n(1) $\\lim\\limits_{x\\to 0}\\dfrac{(1+\\sin^2 x)^{1902}-(\\cos x)^{2022}}{\\tan^2 x}$;\n(2) $\\lim\\limits_{n\\to\\infty}\\dfrac{\\sqrt[n]{(n+1)(n+1)\\cdots(n+n)}}{n}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $0<x_0<\\dfrac{\\pi}{2}$, 作迭代序列 $x_n=\\sin x_{n-1}$ $(n=1,2,\\cdots)$.\n(1) 证明: $\\lim\\limits_{n\\to\\infty}x_n=0$;\n(2) 证明: $\\{nx_n^2\\}$ 收敛, 并求其极限."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 有连续的二阶导数, 且 $f(a)=f(b)=0$, 证明:\n(1) $\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x=\\dfrac{1}{2}\\int_a^b (x-a)(x-b)f''(x)\\,\\mathrm{d}x$;\n(2) $\\left|\\int_a^b f(x)\\,\\mathrm{d}x\\right|\\le\\dfrac{1}{12}(b-a)^3\\max\\limits_{x\\in[a,b]}|f''(x)|$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $z=z(x,y)$ 是方程 $z^3=1+3xyz$ 所确定的隐函数, 求 $\\dfrac{\\partial^2 z}{\\partial x\\partial y}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "不等式证明",
+          "stem": "证明: 当 $x\\ge 0$ 且 $y\\ge 0$ 时, 有 $\\dfrac{x^2+y^2}{4}\\le e^{x+y-2}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分 $$I=\\iint\\limits_{\\Sigma}4xz\\,\\mathrm{d}y\\mathrm{d}z-2yz\\,\\mathrm{d}z\\mathrm{d}x+(1-z^2)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 是由 $z=e^y$ $(0\\le y\\le 1)$ 绕 $z$ 轴旋转一周所得的曲面, 方向取下侧."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明: $f(x)=\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin xy}{y}\\,\\mathrm{d}y$ 在 $(0,+\\infty)$ 上不一致收敛, 但在 $(0,+\\infty)$ 上连续."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求函数 $f(x)=\\arctan\\dfrac{1-2x}{1+2x}$ 在 $x=0$ 处的幂级数展开式, 并求 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{2n+1}$ 的和."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $D$ 是由简单光滑闭曲线 $L$ 围成的区域, $f(x,y)$ 在 $\\overline{D}$ 上具有连续的偏导数, 记 $$d=\\max_{(x,y)\\in D}\\sqrt{x^2+y^2}.$$\n(1) 证明: $\\displaystyle\\iint_D f(x,y)\\,\\mathrm{d}x\\mathrm{d}y=\\int_L xf(x,y)\\,\\mathrm{d}y-\\iint_D x\\dfrac{\\partial f}{\\partial x}\\,\\mathrm{d}x\\mathrm{d}y$;\n(2) 若对任意的 $(x,y)\\in L$, 有 $f(x,y)=0$. 证明: $$\\iint_D f^2(x,y)\\,\\mathrm{d}x\\mathrm{d}y\\le d^2\\iint_D\\left[\\left(\\dfrac{\\partial f}{\\partial x}\\right)^2+\\left(\\dfrac{\\partial f}{\\partial y}\\right)^2\\right]\\mathrm{d}x\\mathrm{d}y.$$"
+        }
+      ]
+    },
+    {
+      "school": "西北大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "66. 西北大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516391-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "已知 $f(x)$ 是数域 $P$ 上的一元多项式, $a,b\\in P$, $a\\ne b$, 求多项式 $x^2-(a+b)x+ab$ 除 $f(x)$ 的余式."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $k$ 为整数, 将 $$x^8-4x^7+6x^6+(4k-4)x^5-(16k-2)x^4+(24k-4)x^3-(16k-6)x^2+(4k-4)x+1$$ 分解为有理数域上不可约多项式的乘积."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求行列式 $$\\begin{vmatrix}1+a_1 & 1 & \\cdots & 1\\\\ 2 & 2+a_2 & \\cdots & 2\\\\ \\vdots & \\vdots & & \\vdots\\\\ n & n & \\cdots & n+a_n\\end{vmatrix},$$ 其中 $a_1a_2\\cdots a_n\\ne 0$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关, $k$ 为常数. 试问: $k$ 取何值时, 向量组 $$k\\alpha_1-\\alpha_2-\\alpha_3-\\cdots-\\alpha_n,\\ -\\alpha_1+k\\alpha_2-\\alpha_3-\\cdots-\\alpha_n,\\cdots,\\ -\\alpha_1-\\alpha_2-\\cdots-\\alpha_{n-1}+k\\alpha_n$$ 是线性无关的? $k$ 取何值时, 该向量组线性相关?"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知齐次线性方程组 $$\\begin{cases}x_2+ax_3+bx_4=0;\\\\ -x_1+cx_3+dx_4=0;\\\\ ax_1+cx_2-ex_4=0;\\\\ bx_1+dx_2-ex_3=0.\\end{cases}$$ 的通解以 $x_3,x_4$ 为自由未知量.\n(1) 求系数 $a,b,c,d,e$ 满足的条件;\n(2) 求该齐次线性方程组的基础解系."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $A,B$ 为 3 阶方阵且满足 $2A^{-1}B=B-4E$.\n(1) 证明: $A-2E$ 可逆, 并求 $A-2E$ 的逆;\n(2) 若 $B=\\begin{pmatrix}1 & -2 & 0\\\\ 1 & 2 & 0\\\\ 0 & 0 & 2\\end{pmatrix}$, 求 $A$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 是 $n$ 阶方阵, $A^*$ 是 $A$ 的伴随矩阵. 证明: 若 $A^2=E$, 则\n(1) $r(A+E)+r(A-E)=n$;\n(2) $r(A^*+E)+r(A^*-E)=n$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是元素全为 1 的 $n$ 阶方阵, $E$ 是 $n$ 阶单位阵.\n(1) 求 $|aE+bA|$, 其中 $a,b$ 是实常数;\n(2) 已知 $1<r(aE+bA)<n$, 试确定 $a,b$ 满足的条件, 并求子空间 $W=\\{X\\in\\mathbb{R}^n\\mid (aE+bA)X=0\\}$ 的维数."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $f(x)$ 和 $g(x)$ 是数域 $P$ 上互素的一元多项式, $A$ 是数域 $P$ 上的 $n$ 阶方阵. 证明: $n$ 元齐次线性方程组 $f(A)g(A)X=0$ 的解空间 $V$ 是 $f(A)X=0$ 的解空间 $V_1$ 与 $g(A)X=0$ 的解空间 $V_2$ 的直和, 其中 $X=(x_1,x_2,\\cdots,x_n)^T$."
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 是 $n$ 维线性空间, $\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 是 $V$ 的一组基, $V$ 上的线性变换 $T$ 定义为当 $i=1,2,\\cdots,n-1$ 时, $T\\varepsilon_i=\\varepsilon_{i+1}$, $T\\varepsilon_n=0$. 【?】(图片在此页末尾截断, 本题后续设问缺失)"
+        }
+      ]
+    }
+  ]
+}

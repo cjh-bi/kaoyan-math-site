@@ -1,0 +1,213 @@
+{
+  "msgid": "2247516267-2",
+  "exams": [
+    {
+      "school": "武汉大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "50. 武汉大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516267-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{\\int_0^{n\\pi}x|\\sin x|\\,\\mathrm{d}x}{n(n+1)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\ln\\left(e^{\\tan x}+\\sqrt[3]{1-\\cos x}\\right)+\\tan x}{\\arcsin\\left(2023\\sqrt[3]{1-\\cos x}\\right)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $z=z(x,y)$ 是由 $z=x+y\\varphi(z)$ 确定的隐函数，$u=f(z)$，求 $\\dfrac{\\partial^2 u}{\\partial y^2}+\\dfrac{\\partial}{\\partial x}\\left[\\varphi^2(z)\\dfrac{\\partial u}{\\partial x}\\right]$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求 $\\displaystyle\\int_0^{\\pi}\\dfrac{1}{3+\\sin^2 x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "已知 $f$ 连续可微，且 $f(1)=2$，$f(4)=3$，求 $\\displaystyle\\oint_L\\dfrac{f(xy)}{y}\\,\\mathrm{d}y$，$L$ 是 $y=x,y=4x,xy=1,xy=4$ 所围区域的边界，取逆时针方向。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求曲面积分 $\\displaystyle\\iint_S z\\left(\\dfrac{\\alpha x}{a^2}+\\dfrac{\\beta y}{b^2}+\\dfrac{\\gamma z}{c^2}\\right)\\mathrm{d}S$，其中 $S$ 为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ 的上半部分，$\\alpha,\\beta,\\gamma$ 为 $S$ 的外方向余弦。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "求 $F(\\alpha)=\\displaystyle\\int_0^{+\\infty}\\dfrac{\\ln(1+x^{\\frac{5}{2}})}{x^{\\alpha}}\\,\\mathrm{d}x$ 的连续区间。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "对点列 $z_n=(x_n,y_n)$ $(n=1,2,\\cdots)$，有 $\\varliminf\\limits_{n\\to\\infty}\\|z_n\\|=\\alpha$，$\\varlimsup\\limits_{n\\to\\infty}\\|z_n\\|=\\beta$，$\\lim\\limits_{n\\to\\infty}\\|z_{n+1}-z_n\\|=0$。证明：对任意的 $\\gamma\\in(\\alpha,\\beta)$，$x^2+y^2=r^2$ 上至少存在 $\\{z_n\\}$ 的一个聚点。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "3",
+          "score": null,
+          "form": "判断",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "问是否存在 $[0,5]$ 上的函数 $f(x)$ 满足下列条件，并说明。\n(1) $f(x)$ 连续可微；\n(2) $f(0)=f(5)=1$；\n(3) $|f'(x)|\\leqslant\\dfrac{2}{5}$；\n(4) $\\left|\\displaystyle\\int_0^5 f(x)\\,\\mathrm{d}x\\right|\\leqslant\\dfrac{5}{2}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "已知 $u(x,y)$ 在 $D:\\ x^2+y^2\\leqslant 1$ 上连续，且在 $x^2+y^2<1$ 满足 $\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}=u$。\n(1) 证明：若在 $x^2+y^2=1$ 上有 $u(x,y)\\geqslant 0$，则在 $x^2+y^2\\leqslant 1$ 上也有 $u(x,y)\\geqslant 0$；\n(2) 证明：若在 $x^2+y^2=1$ 上 $u(x,y)>0$，则在 $x^2+y^2\\leqslant 1$ 上也有 $u(x,y)>0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "设 $f(x)$ 是仅有正实根的多项式，且 $\\dfrac{f'(x)}{f(x)}=-\\displaystyle\\sum_{n=0}^{\\infty}c_nx^n$。\n(1) 证明 $c_n>0$ $(n>0)$；\n(2) 证明极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{\\sqrt[n]{c_n}}$ 存在，且为 $f(x)$ 的根最小值。"
+        }
+      ]
+    },
+    {
+      "school": "武汉大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "50. 武汉大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516267-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $M_{2\\times 2}(\\mathbb{C})$ 是全体 $2$ 阶复矩阵组成的线性空间，线性变换\n$$\\mathscr{A}(X)=MXN,\\ M=\\begin{pmatrix}1&0\\\\1&1\\end{pmatrix},\\ N=\\begin{pmatrix}1&-1\\\\-1&1\\end{pmatrix}.$$ \n求一组基使得 $\\mathscr{A}$ 在该基下的矩阵为 Jordan 矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "实矩阵 $A=\\begin{pmatrix}2&2\\\\2&a\\end{pmatrix}$，$B=\\begin{pmatrix}4&b\\\\3&1\\end{pmatrix}$。证明：\n(1) $AX=B$ 有解但 $BY=A$ 无解的充要条件是 $a\\ne 2,b=\\dfrac{4}{3}$；\n(2) $A$ 相似于 $B$ 的充要条件是 $a=3,b=\\dfrac{2}{3}$；\n(3) $A$ 合同于 $B$ 的充要条件是 $a<2,b=3$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $M_{n\\times n}(\\mathbb{C})$ 是 $n\\times n$ 复矩阵全体在通常运算下所构成复数域 $\\mathbb{C}$ 上的线性空间。\n$$F=\\begin{pmatrix}0&0&0&\\cdots&0&-a_n\\\\1&0&0&\\cdots&0&-a_{n-1}\\\\0&1&0&\\cdots&0&-a_{n-2}\\\\\\vdots&\\vdots&\\vdots&&\\vdots&\\vdots\\\\0&0&0&\\cdots&0&-a_2\\\\0&0&0&\\cdots&1&-a_1\\end{pmatrix}.$$\n(1) 设\n$$A=\\begin{pmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\a_{21}&a_{22}&\\cdots&a_{2n}\\\\\\vdots&\\vdots&&\\vdots\\\\a_{n1}&a_{n2}&\\cdots&a_{nn}\\end{pmatrix}.$$\n若 $AF=FA$，证明：$A=a_{n1}F^{n-1}+a_{n-1,1}F^{n-2}+\\cdots+a_{21}F+a_{11}E$；\n(2) 求 $M_{n\\times n}(\\mathbb{C})$ 的子空间 $C(F)=\\{X\\in M_{n\\times n}\\mid FX=XF\\}$ 的维数。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明：有理数域 $\\mathbb{Q}$ 上次数大于 $1$ 的多项式 $f(x)$ 恒可表示为两个不可约有理系数多项式 $g(x)$ 与 $h(x)$ 之和。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "$V$ 是实 $n$ 阶对称矩阵构成的线性空间，$\\forall A,B\\in V$，$(A,B)=\\mathrm{tr}(AB)$，$\\mathrm{tr}(AB)$ 为 $AB$ 的迹。\n(1) 证明 $V$ 构成一欧氏空间；\n(2) 求 $S=\\{A\\in V\\mid \\mathrm{tr}(A)=0\\}$ 与 $S^{\\perp}$ 的维数。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\lambda$ 是复数域 $\\mathbb{C}$ 上 $n$ 阶方阵 $A$ 的 $r$ 重特征值，证明子空间 $\\{X\\in\\mathbb{C}^n\\mid(\\lambda E-A)^rX=0\\}$ 的维数为 $r$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $A$ 是 $m$ 阶方阵，$B$ 是 $n$ 阶方阵，$Q$ 是 $m\\times n$ 矩阵。$f_A(x),f_B(x)$ 是 $A,B$ 的特征多项式。\n(1) 证明：$f_B(A)$ 可逆的充要条件是 $(f_A(x),f_B(x))=1$；\n(2) 证明：若 $(f_A(x),f_B(x))=1$，且 $AQ=QB$，则 $Q=O$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "$A$ 是 $n$ 阶矩阵，且有 $n$ 个特征值为偶数。证明：关于 $X$ 的矩阵方程 $X+AX-XA^2=O$ 只有零解。"
+        }
+      ]
+    }
+  ]
+}

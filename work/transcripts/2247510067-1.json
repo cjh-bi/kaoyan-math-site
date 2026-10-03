@@ -1,0 +1,283 @@
+{
+  "msgid": "2247510067-1",
+  "exams": [
+    {
+      "school": "北京师范大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "1. 北京师范大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510067-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "已知 $\\lim\\limits_{n\\to+\\infty}a_n=+\\infty$，证明：$\\lim\\limits_{n\\to+\\infty}\\dfrac{a_1+a_2+\\cdots+a_n}{n}=+\\infty$。举例说明其逆命题不成立。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 6,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "设 $f(x,y)=\\dfrac{x^3+2xy^2}{x^2+y^2}$，$(x,y)\\ne(0,0)$；$f(0,0)=0$。证明：$f(x,y)$ 在 $(0,0)$ 点连续。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "2",
+          "score": 6,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "设 $f(x,y)=\\dfrac{x^3+2xy^2}{x^2+y^2}$，$(x,y)\\ne(0,0)$；$f(0,0)=0$。证明：$f(x,y)$ 在 $(0,0)$ 点沿任意方向的方向导数都存在。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "3",
+          "score": 6,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=\\dfrac{x^3+2xy^2}{x^2+y^2}$，$(x,y)\\ne(0,0)$；$f(0,0)=0$。证明：$f(x,y)$ 在 $(0,0)$ 点不可微。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设函数 $z=f(x,y)$ 由方程 $z^3-3xyz=a^3$ 所确定，其中 $a>0$，求 $\\dfrac{\\partial^2 z}{\\partial x^2}$，$\\dfrac{\\partial^2 z}{\\partial y\\partial x}$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 14,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上可微，证明：若 $\\int_{1/2}^{1}x^2 f(x)\\,\\mathrm{d}x=0$，则存在 $\\theta\\in(0,1)$，使得 $f'(\\theta)=-\\dfrac{2f(\\theta)}{\\theta}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求函数 $f(x,y,z)=x^2y^2z^2$ 在集合 $D=\\{(x,y,z)\\in\\mathbb{R}^3\\mid x^2+y^2+z^2\\le 1\\}$ 上的最值。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $a>0$，讨论级数 $\\sum\\limits_{n=1}^{+\\infty}\\dfrac{1}{a^{\\ln n}}$ 的敛散性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 14,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算二重积分 $\\iint\\limits_D e^{\\frac{x-y}{x+y}}\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D$ 为直线 $x=0$，$y=0$，$x+y=1$ 所围的区域。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算含参变量积分 $\\int_0^{+\\infty}\\dfrac{e^{-ax}-e^{-bx}}{x}\\sin x\\,\\mathrm{d}x$。其中 $a,b>0$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二型曲面积分 $\\iint\\limits_S x^3\\,\\mathrm{d}y\\,\\mathrm{d}z$。其中 $S$ 是椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ 的上半部分（即 $z\\ge 0$ 的部分），其中 $a,b,c>0$，曲面的定向指定为上侧。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 7,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设实值函数 $\\varphi(y)$ 在实数域 $\\mathbb{R}$ 上连续可微，且存在常数 $C$，使得对任意围绕原点的分段光滑简单闭曲线 $L$，均有 $\\oint_L\\dfrac{\\varphi(y)}{x^2+y^2}\\,\\mathrm{d}x+\\dfrac{x}{x^2+y^2}\\,\\mathrm{d}y=C$。证明：对右半平面 $\\{(x,y)\\in\\mathbb{R}^2\\mid x>0\\}$ 中任意分段光滑简单闭曲线 $L$，均有 $\\oint_L\\dfrac{\\varphi(y)}{x^2+y^2}\\,\\mathrm{d}x+\\dfrac{x}{x^2+y^2}\\,\\mathrm{d}y=0$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "2",
+          "score": 7,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设实值函数 $\\varphi(y)$ 在实数域 $\\mathbb{R}$ 上连续可微，且存在常数 $C$，使得对任意围绕原点的分段光滑简单闭曲线 $L$，均有 $\\oint_L\\dfrac{\\varphi(y)}{x^2+y^2}\\,\\mathrm{d}x+\\dfrac{x}{x^2+y^2}\\,\\mathrm{d}y=C$。求 $\\varphi(y)$ 的表达式。"
+        }
+      ]
+    },
+    {
+      "school": "北京师范大学",
+      "year": "2022",
+      "subject": "高等代数与解析几何",
+      "header_note": "1. 北京师范大学 2022 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247510067-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 阶行列式 $|A|=c$。求将 $|A|$ 的第一列移到最后，其余各列按原来次序依次向左移得到的行列式的值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 阶行列式 $|A|=c$。求将 $|A|$ 的每个元素 $a_{ij}$ 换成 $(-1)^{i+j}a_{ij}$ 得到的行列式的值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $A$，$B$ 均是可逆矩阵，求分块矩阵 $\\begin{pmatrix}A&C\\\\O&B\\end{pmatrix}$ 的逆矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$，$B$ 均是方阵，求分块对角矩阵 $C=\\begin{pmatrix}A&O\\\\O&B\\end{pmatrix}$ 的伴随矩阵 $C^*$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "假设 $V$ 是数域 $F$ 上的 $2$ 维向量空间，$v_1,v_2$ 是 $V$ 的一组基，假设 $\\sigma$ 是 $V$ 上的线性变换，满足 $\\sigma(v_1)=v_2$，$\\sigma(v_2)=0$。求 $\\sigma$ 的所有不变子空间。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（专硕，15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "假设向量空间 $V$ 中的向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关，证明向量组 $\\alpha_1+\\alpha_2,\\ \\alpha_2-\\alpha_3,\\ \\alpha_1+2\\alpha_3$ 也线性无关。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（学硕，15 分）解答如下问题：",
+          "no": "1",
+          "score": 7,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设复多项式 $f(x)=x^{2n+1}-1$ 的不等于 $1$ 的根为 $\\omega_1,\\omega_2,\\cdots,\\omega_{2n}$，求证：$(1-\\omega_1)(1-\\omega_2)\\cdots(1-\\omega_{2n})=2n+1$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（学硕，15 分）解答如下问题：",
+          "no": "2",
+          "score": 8,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f(x)$ 是复多项式，满足 $f(a+b)=f(a)+f(b)$ 对任意的 $a,b$ 成立，求证：存在复数 $k$，使得 $f(x)=kx$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（专硕，15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "求二次型 $q(x_1,x_2,x_3,x_4)=x_1x_4+x_2x_3$ 的规范形，秩以及符号差。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（学硕，15 分）解答如下问题：",
+          "no": "1",
+          "score": 7,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "设 $I_n$ 代表 $n$ 阶单位阵，在实数域上 $I_n$ 与 $-I_n$ 是否合同？在复数域上呢？并说明理由。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（学硕，15 分）解答如下问题：",
+          "no": "2",
+          "score": 8,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 是 $n$ 阶实对称矩阵，证明：如果 $\\mathbb{R}^n$ 中有列向量 $\\alpha_1,\\alpha_2$，使得 $\\alpha_1^TA\\alpha_1>0$，$\\alpha_2^TA\\alpha_2<0$，那么在 $\\mathbb{R}^n$ 中有非零列向量 $\\alpha$ 使得 $\\alpha^TA\\alpha=0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（专硕，15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "令 $\\mathbb{R}^3$ 代表 $3$ 维实列向量空间，用 $(-,-)$ 代表 $\\mathbb{R}^3$ 上的标准内积，记 $\\alpha=(1,1,1)^T$，定义\n$T_\\alpha:\\mathbb{R}^3\\to\\mathbb{R}^3$\n$\\xi\\mapsto\\xi-2\\dfrac{(\\xi,\\alpha)}{(\\alpha,\\alpha)}\\alpha$。\n证明 $T_\\alpha$ 是线性变换，并求出 $\\mathbb{R}^3$ 的一组标准正交基，使得 $T_\\alpha$ 在这组基下的矩阵为 $\\begin{pmatrix}-1& & \\\\ &1& \\\\ & &1\\end{pmatrix}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（学硕，15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "假设 $\\sigma$ 是 $n$ 维复向量空间 $V$ 上的线性变换，说明 $\\sigma$ 有如下分解：$\\sigma=d+h$。\n其中 $d:V\\to V$ 是可对角化的线性变换，$h:V\\to V$ 是幂零线性变换，且满足\n(1) $dh=hd$；\n(2) 存在多项式 $f(x),g(x)\\in\\mathbb{C}[x]$，使得 $d=f(\\sigma)$，$h=g(\\sigma)$。"
+        }
+      ]
+    }
+  ]
+}

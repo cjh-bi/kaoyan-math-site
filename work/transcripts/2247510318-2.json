@@ -1,0 +1,84 @@
+{
+  "msgid": "2247510318-2",
+  "exams": [
+    {
+      "school": "苏州大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "34. 苏州大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510318-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "已知 $f(x)=a_nx^n+\\cdots+a_1x+a_0$ 为整系数多项式，且 $a_n+\\cdots+a_1+a_0$ 为奇数，证明：$f(x)$ 既不等被 $x-1$ 整除，也不能被 $x+1$ 整除。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "若对 $n$ 阶方阵 $A$，存在正整数 $k$，使得 $A^k=O$，则称 $A$ 为幂零矩阵。\n(1) 证明：$A$ 是幂零矩阵的充要条件是 $A$ 的特征值全为 $0$；\n(2) 若 $A$ 即不可逆也不零幂，则存在可逆矩阵 $P$，使得\n$$P^{-1}AP=\\begin{pmatrix} B & O \\\\ O & C \\end{pmatrix}.$$\n其中 $B$ 为可逆矩阵，$C$ 为幂零矩阵。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（25 分）（可能有误）",
+          "no": "1",
+          "score": 25,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "（可能有误）已知二次型 $f(x_1,x_2,x_3)=-ax_1^2+(1-a)x_2^2-ax_3^2+2x_1x_3-2x_2x_3$。\n(1) 求二次型 $f(x_1,x_2,x_3)$ 相应对称矩阵的特征值；\n(2) 若二次型 $f(x_1,x_2,x_3)$ 的实规范型为 $-y_1^2+y_2^2$，求 $a$ 的值；\n(3) 若二次型 $f(x_1,x_2,x_3)$ 的复规范型为 $y_1^2+y_2^2$，求 $a$ 的值。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（25 分）",
+          "no": "1",
+          "score": 25,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知复矩阵 $A=\\begin{pmatrix} a_0 & a_1 & a_2 \\\\ a_2 & a_0 & a_1 \\\\ a_1 & a_2 & a_0 \\end{pmatrix}$，$B=\\begin{pmatrix} 0 & 1 & 0 \\\\ 0 & 0 & 1 \\\\ 1 & 0 & 0 \\end{pmatrix}$。\n(1) 试求多项式 $f(x)$，使得 $A=f(B)$；\n(2) 试证明存在可逆矩阵 $P$，使得 $P^{-1}AP$，$P^{-1}BP$ 都为对角矩阵。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为 $n$ 阶实矩阵，证明：$A^2=AA^T$ 当且仅当 $A=A^T$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $A$，$B$ 分别为数域 $F$ 上的 $m\\times n$ 和 $n\\times m$ 矩阵，记\n$$W=\\{X\\in F^n\\mid BAX=0\\},\\ V=\\{AX\\mid X\\in W\\}.$$\n试证：$V$ 是 $F^m$ 的子空间，且 $V$ 的维数等于 $r(A)-r(BA)$，其中 $r(\\cdot)$ 代表秩。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$，$B$ 为 $n$ 阶实对称矩阵，且 $B$ 是半正定矩阵。证明：\n(1) 对任意的 $\\alpha\\in\\mathbb{R}^n$，若 $\\alpha^TB\\alpha=0$，则 $B\\alpha=0$；\n(2) 若 $A+\\mathrm{i}B$ 行列式为零，则方程组 $(A+\\mathrm{i}B)X=0$ 有非零实解，其中 $\\mathrm{i}$ 是虚数单位。"
+        }
+      ]
+    }
+  ]
+}

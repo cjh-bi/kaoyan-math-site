@@ -1,0 +1,353 @@
+{
+  "msgid": "2247516038-3",
+  "exams": [
+    {
+      "school": "中国人民大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "8. 中国人民大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516038-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $a,b,c>0$，求极限 $\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{\\sqrt[n]{a}+\\sqrt[n]{b}+\\sqrt[n]{c}}{3}\\right)^{n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设函数 $f(x)$ 为定义在区间 $[0,1]$ 上的连续函数，且 $f(0)=0$，$f(1)=1$。证明：对任意的正整数 $n$，存在 $\\xi_n\\in[0,1)$，使得 $$f\\left(\\xi_n+\\dfrac{1}{n}\\right)=f(\\xi_n)+\\dfrac{1}{n}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设函数 $F(x)=\\displaystyle\\int_0^x e^{-t}\\cos t\\,\\mathrm{d}t$，计算 $F(x)$ 在 $[0,2\\pi]$ 上的最大值与最小值。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内有二阶导数。$c$ 为 $(a,b)$ 内任意一点，证明：存在 $\\xi\\in(a,b)$，使得 $$\\dfrac{f(a)}{(a-b)(a-c)}+\\dfrac{f(b)}{(b-c)(b-a)}+\\dfrac{f(c)}{(c-a)(c-b)}=\\dfrac{1}{2}f''(\\xi).$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x),g(x)$ 为定义在 $[a,b]$ 上的连续函数，$f(x)\\ge 0,\\;g(x)>0$。记 $M=\\max\\limits_{x\\in[a,b]}f(x)$。证明： $$\\lim_{n\\to\\infty}\\left(\\int_a^b (f(x))^n g(x)\\,\\mathrm{d}x\\right)^{\\frac{1}{n}}=M.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "求曲面 $e^z-z+xy=3$ 在点 $(2,1,0)$ 处的切平面与法线方程。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $p(x)$ 是定义在 $[a,b]$ 上的非负连续函数，$f(x),g(x)$ 是定义在 $[a,b]$ 上的连续单调递增函数。证明： $$\\int_a^b p(x)f(x)\\,\\mathrm{d}x\\int_a^b p(x)g(x)\\,\\mathrm{d}x\\le\\int_a^b p(x)\\,\\mathrm{d}x\\int_a^b p(x)f(x)g(x)\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $r>0$，计算球面 $x^2+y^2+z^2=r^2$ 与圆柱面 $x^2+y^2=rx\\;(r>0)$ 所围区域的体积。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设定义在 $\\mathbb{R}\\setminus\\{0\\}$ 的函数 $f(t)$ 在 $(-\\infty,0)$ 及 $(0,+\\infty)$ 有连续导数，$f(1)=0$，试确定 $f$，使得对任意与直线 $y=x$ 及 $y=-x$ 不相交的光滑闭曲线 $L$，都有 $$\\int_L (2-f(x^2-y^2))y\\,\\mathrm{d}x+f(x^2-y^2)x\\,\\mathrm{d}y=0.$$"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数 $f(x)$ 为定义在 $[0,1]$ 上的连续函数，令 $f_n(x)=\\displaystyle\\int_0^x f(t^n)\\,\\mathrm{d}t$，$x\\in[0,1]$，$n\\ge 1$，证明：函数列 $\\{f_n(x)\\}$ 在 $[0,1]$ 上一致收敛。"
+        }
+      ]
+    },
+    {
+      "school": "中国人民大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "8. 中国人民大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516038-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "判断题.",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f(x)=g(x)h(x)$，其中 $f(x),g(x)$ 都是整系数多项式，$h(x)$ 是有理系数多项式，则 $h(x)$ 也是整系数多项式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题.",
+          "no": "2",
+          "score": null,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "多项式 $x^6+5x-54$ 在任意数域上可约。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题.",
+          "no": "3",
+          "score": null,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "若把同构的子空间称作一类，则 $n$ 维线性空间的子空间共分成 $n$ 类。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题.",
+          "no": "4",
+          "score": null,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V_1,V_2$ 是 $P^n$ 的子空间，且 $\\dim V_1+\\dim V_2=n$，则 $P^n=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题.",
+          "no": "5",
+          "score": null,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A,B$ 是 $n$ 阶可逆方阵，$A^{*}$ 是 $A$ 的伴随矩阵，则 $(AB)^{*}=B^{*}A^{*}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题.",
+          "no": "6",
+          "score": null,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "对任意一个实矩阵 $A_{m\\times n}$，都有 $E+A^{T}A$ 正定。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $n$ 是正整数，则 $x^{2n+1}$ 在实数域 $\\mathbb{R}$ 上的标准分解式为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是多项式 $x^3+px^2+qx+r$ 的三个根，其中 $r\\neq 0$，则 $\\dfrac{1}{\\alpha_1^2}+\\dfrac{1}{\\alpha_2^2}+\\dfrac{1}{\\alpha_3^2}=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "集合 $V=\\{(x_1,x_2+\\mathrm{i}x_3,x_2-\\mathrm{i}x_3,-x_1)^{T}\\in\\mathbb{C}^4\\mid x_1,x_2,x_3\\in\\mathbb{R}\\}$ 对于向量的加法和数乘构成实数域 $\\mathbb{R}$ 上的线性空间，则 $V$ 的一组基为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "",
+          "stem": "已知 $\\mathcal{B}$ 和 $\\mathcal{B}'$ 是三维线性空间 $V$ 的两组基，$V$ 中的任意向量 $\\gamma$ 在这两组基下的坐标 $(x_1,x_2,x_3)$ 和 $(x_1',x_2',x_3')$ 满足 $x_1'=x_1, x_2'=x_2-x_1, x_3'=x_3-x_2$，则有 $\\mathcal{B}$ 到 $\\mathcal{B}'$ 的过渡矩阵是______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "若 $A,B$ 是 $3\\times 2$ 和 $2\\times 3$ 的矩阵，且 $AB=\\begin{pmatrix}3&0&3\\\\ 0&6&0\\\\ 3&0&3\\end{pmatrix}$，则 $A$ 的秩 $r=$______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若 $t$ 满足条件______时，二次型 $x_1^2+x_2^2+5x_3^2+2tx_1x_2-2x_1x_3+4x_2x_3$ 是正定的。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "设 $a,b$ 是互异常数.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $a,b$ 是互异常数。求 $(x-a)(x-b)$ 除多项式 $f(x)$ 的余式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "设 $a,b$ 是互异常数.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $a,b$ 是互异常数。求 $x^2-1$ 除 $f(x)=x^4+x^3+x+1$ 的商和余式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "设 $a,b$ 是互异常数.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $a,b$ 是互异常数。求 $99999999$ 除 $10001000000010001$ 的商和余数。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设有 $\\mathbb{R}^4$ 的两个子空间 $W_1=\\{(x_1,x_2,x_3,x_4)^T\\mid x_1+2x_2-x_4=0\\}$，$W_2=L(\\alpha_1,\\alpha_2)$，其中 $\\alpha_1=(1,-1,0,1)^T,\\alpha_2=(1,0,2,3)^T$，求 $W_1+W_2$ 和 $W_1\\cap W_2$ 的基和维数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $f(x)=4x^3-21x-2019$.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=4x^3-21x-2019$。证明 $f(x)$ 在有理数域 $\\mathbb{Q}$ 上不可约。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $f(x)=4x^3-21x-2019$.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "近世代数",
+          "l2": "多项式与扩域",
+          "stem": "设 $f(x)=4x^3-21x-2019$。设 $\\alpha$ 是 $f(x)$ 在复数域 $\\mathbb{C}$ 的一个根，记 $$\\mathbb{Q}[\\alpha]=\\{a_0+a_1\\alpha+a_2\\alpha^2\\mid a_0,a_1,a_2\\in\\mathbb{Q}\\}.$$ 证明：对任意的 $g(x)\\in\\mathbb{Q}[x]$，有 $g(\\alpha)\\in\\mathbb{Q}[\\alpha]$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $f(x)=4x^3-21x-2019$.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "近世代数",
+          "l2": "环与域",
+          "stem": "设 $f(x)=4x^3-21x-2019$。证明：若 $\\beta\\in\\mathbb{Q}[\\alpha]$，且 $\\beta\\neq 0$，则存在 $\\gamma\\in\\mathbb{Q}[\\alpha]$，使得 $\\beta\\gamma=1$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵，$B$ 是 $n\\times s$ 矩阵。证明：$\\dim N(AB)=\\dim N(A)+\\dim N(B)$ 的充分必要条件是 $N(A)\\subset R(B)$，其中 $N(A)=\\{X\\in\\mathbb{R}^n\\mid AX=0\\}$，$R(B)=\\{BX\\in\\mathbb{R}^n\\mid X\\in\\mathbb{R}^s\\}$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A$ 是 $n\\times m$ 矩阵，$B$ 是 $m\\times n$ 矩阵，如果 $E_n-AB$ 是可逆矩阵（$E_n$ 是 $n$ 阶单位矩阵），试讨论 $E_m-BA$ 的可逆性。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "证明实对称矩阵正定的充分必要条件是所有顺序主子式都大于 $0$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "判断矩阵 $A=\\left(\\dfrac{1}{i+j-1}\\right)_{n\\times n}$ 的正定性。"
+        }
+      ]
+    }
+  ]
+}

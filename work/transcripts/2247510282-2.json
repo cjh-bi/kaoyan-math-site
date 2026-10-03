@@ -1,0 +1,243 @@
+{
+  "msgid": "2247510282-2",
+  "exams": [
+    {
+      "school": "东北师范大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "29. 东北师范大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510282-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 6 分, 共 30 分)",
+          "no": "1",
+          "score": 6,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{2022^n}{n!}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 6 分, 共 30 分)",
+          "no": "2",
+          "score": 6,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\int_0^{x^2}\\sqrt{1+t^2}\\,\\mathrm{d}t}{e^x\\sin x-\\sin x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 6 分, 共 30 分)",
+          "no": "3",
+          "score": 6,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\left(\\sin\\dfrac{1}{n}\\pi+\\sin\\dfrac{2}{n}\\pi+\\cdots+\\sin\\dfrac{n-1}{n}\\pi\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 6 分, 共 30 分)",
+          "no": "4",
+          "score": 6,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "计算 $\\int_0^{\\frac{\\pi}{2}}\\mathrm{d}y\\int_y^{\\frac{\\pi}{2}}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 6 分, 共 30 分)",
+          "no": "5",
+          "score": 6,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求和 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{n^2+3n}{2^n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设 $f(u)$ 连续可微, $z=z(x,y)$ 由方程 $x^2+y^2+z^2=yf\\left(\\dfrac{y}{z}\\right)$ 确定, 求 $\\dfrac{\\partial z}{\\partial x}$, $\\dfrac{\\partial z}{\\partial y}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 为 $\\left[0,\\dfrac{\\pi}{2}\\right]$ 上的连续函数, 求极限 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^{\\frac{\\pi}{2}}f(x)\\sin^n x\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$I=\\iint_S (x+\\cos(y-z))\\,\\mathrm{d}y\\mathrm{d}z+(2y+e^{x+z})\\,\\mathrm{d}z\\mathrm{d}x+(3z+\\sin(x-y))\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 为封闭曲面 $|x-y+z|+|y-z+x|+|z-x+y|=1$, 取外侧。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $(a,b)$ 上一致连续, 证明 $f(x)$ 在 $(a,b)$ 上有界。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明 $\\sum\\limits_{n=1}^{\\infty}\\left(x+\\dfrac{3}{2n}\\right)^n$ 在 $(-1,1)$ 上连续。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 上二阶可导, 且 $f(0)=f(1)=0$, 且 $\\forall x\\in(0,1)$, 有 $f''(x)>0$, $f(x)$ 在 $[0,1]$ 上的最小值 $m<0$。证明:\n(1) 对任意的正整数 $n$, 存在唯一的 $x_n\\in(0,1)$, 使得 $f'(x_n)=\\dfrac{m}{n}$;\n(2) 极限 $\\lim\\limits_{n\\to\\infty}x_n$ 存在, 并且 $f\\left(\\lim\\limits_{n\\to\\infty}x_n\\right)=m$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $\\Omega$ 为平面上具有光滑边界的有界闭区域, $u\\in C^2(\\Omega)\\cap C^1(\\overline{\\Omega})$, 满足 $u|_{\\partial\\Omega}=0$, 证明:\n$$\\iint_\\Omega u\\left(\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}\\right)\\,\\mathrm{d}x\\mathrm{d}y=0$$\n当且仅当 $u\\equiv 0$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $f(x)$ 是定义在 $\\mathbb{R}$ 上, 且以 $T>0$ 为周期的连续函数, 试证明:\n$$\\lim_{n\\to\\infty}n\\int_n^{+\\infty}\\dfrac{f(x)}{x^2}\\,\\mathrm{d}x=\\dfrac{1}{T}\\int_0^T f(x)\\,\\mathrm{d}x.$$"
+        }
+      ]
+    },
+    {
+      "school": "东北师范大学",
+      "year": "2022",
+      "subject": "高等代数与解析几何",
+      "header_note": "29. 东北师范大学 2022 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247510282-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A=\\begin{pmatrix}2&2&-2\\\\2&5&-4\\\\-2&-4&5\\end{pmatrix}$, 求正交矩阵 $T$, 使得 $T^{-1}AT$ 为对角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix}a_1+b_1&a_1+b_2&\\cdots&a_1+b_n\\\\a_2+b_1&a_2+b_2&\\cdots&a_2+b_n\\\\\\vdots&\\vdots&&\\vdots\\\\a_n+b_1&a_n+b_2&\\cdots&a_n+b_n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A$ 是数域 $F$ 上的 $n$ 阶可逆矩阵, 证明: 存在 $g(x)\\in F[x]$, 使得 $A^{-1}=g(A)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\sigma$ 是向量空间 $V$ 的一个线性变换, $v_1$ 是 $\\sigma$ 的属于特征值 $\\lambda$ 的特征向量, 向量组 $v_1,v_2,\\cdots,v_n$ 满足 $(\\sigma-\\lambda E)(v_{i+1})=v_i$ ($i=1,2,\\cdots,n-1$), 其中 $E$ 是恒同变换, 证明: $v_1,v_2,\\cdots,v_n$ 线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x),g(x)\\in F[x]$, 其中 $\\deg(f(x))=n>0$, $\\deg(g(x))=m>0$, 则 $f(x)$ 和 $g(x)$ 有非常数的公因式当且仅当存在 $u(x),v(x)\\in F[x]$, 使得 $u(x)f(x)=v(x)g(x)$, 并且 $\\deg(u(x))<m$, $\\deg(v(x))<n$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 30,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\eta$ 是 $n$ 维欧氏空间 $V$ 的一个单位向量, 定义线性变换 $\\sigma$ 如下: $\\sigma(\\alpha)=\\alpha-2(\\eta,\\alpha)\\eta$, $\\forall\\alpha\\in V$, 称这样的线性变换为一个镜面反射。\n(1) 证明: 镜面反射是一个正交变换;\n(2) 设 $\\rho$ 是 $V$ 的一个正交变换, 有特征值 $\\lambda_0=1$, 且 $V_{\\lambda_0}=n-1$, 证明: $\\rho$ 是一个镜面反射;\n(3) 设 $v_1,v_2$ 是两个不同的单位向量, 证明: 存在一个镜面反射 $\\sigma$, 使得 $\\sigma(v_1)=v_2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "空间直线",
+          "stem": "在空间直角坐标系下, $l_1$, $l_2$ 的方程分别为\n$$\\begin{cases}x-2y-1=0;\\\\ x-y+z-1=0.\\end{cases}\\quad\\text{与}\\quad\\begin{cases}x+z-1=0;\\\\ x-4y-z-1=0.\\end{cases}$$\n(1) 求直线 $l_1$ 与 $l_2$ 所成角的正弦值;\n(2) 求过 $l_1$ 且平面于 $l_2$ 的平面方程。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "二次曲线",
+          "stem": "在平面直角坐标系下, 二次曲线的方程为 $4x^2+8xy+4y^2+13x+3y+4=0$。\n(1) 判断该二次曲线的类型, 并说明理由;\n(2) 求该曲线的对称轴方程及顶点坐标;\n(3) 求该曲线的标准方程, 并在原坐标系中作出它的形状。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "轨迹",
+          "stem": "已知 $l_1$, $l_2$ 是两条相互垂直的直线, 分别过 $l_1$, $l_2$ 作动平面 $\\alpha$, $\\beta$, 使得 $\\alpha$ 与 $\\beta$ 所成角大小为 $\\dfrac{\\pi}{6}$, 证明: 动平面 $\\alpha$ 与 $\\beta$ 交线轨迹是锥面。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "msgid": "2247516391-6",
+  "exams": [
+    {
+      "school": "西安电子科技大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "71. 西安电子科技大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516391-6_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $\\mathbb{R}$ 为实数域，$\\mathrm{i}$ 为虚数单位，$f_1(x), f_2(x) \\in \\mathbb{R}[x]$，$f(x) = f_1(x) + \\mathrm{i} f_2(x)$，并且 $(f_1(x), f_2(x)) = d(x) \\neq 1$，证明：$f(x)$ 与 $d(x)$ 的实根相同。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D_n = \\begin{vmatrix} x & y & y & \\cdots & y & y \\\\ z & x & y & \\cdots & y & y \\\\ z & z & x & \\cdots & y & y \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ z & z & z & \\cdots & x & y \\\\ z & z & z & \\cdots & z & x \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A \\in \\mathbb{R}^{n \\times n}$，且 $I_n + A$ 可逆，其中 $I_n$ 为 $n$ 阶单位阵，令 $c(A) = (I_n - A)(I_n + A)^{-1}$.\n(1) 证明：$I_n + c(A)$ 可逆；\n(2) 求 $c(c(A))$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "(可能有误) 已知三阶矩阵 $A$ 的第一行是 $(a, b, c)$，$a, b, c$ 不全为零，矩阵 $B = \\begin{pmatrix} 1 & 2 & 3 \\\\ 2 & 4 & 6 \\\\ 3 & 6 & k \\end{pmatrix}$，其中 $k$ 为常数，且 $AB = O$，求线性方程组 $AX = 0$ 的通解。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A \\in \\mathbb{R}^{n \\times n}$ 为正定矩阵，$\\beta$ 与 $x$ 均为 $n$ 维实向量，$c$ 为实常数，试证二次函数\n$$f(x) = x'Ax - 2\\beta'x + c$$\n的极小值为 $c - \\beta'A^{-1}\\beta$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知实矩阵 $A = \\begin{pmatrix} 2 & 2 & -2 \\\\ 2 & 5 & -4 \\\\ -2 & -4 & 5 \\end{pmatrix}$.\n(1) 求一个正交矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵；\n(2) 令 $V$ 是所有与 $A$ 可交换的实矩阵全体，证明：$V$ 是实数域上的一个线性空间，并确定 $V$ 的维数。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是数域 $P$ 上的有限维线性空间，$\\sigma$ 是 $V$ 上的一个线性变换，$\\lambda_1, \\lambda_2, \\cdots, \\lambda_m$ 是 $\\sigma$ 的不同特征值，而 $\\alpha_i$ 是属于 $\\lambda_i$ ($i = 1, 2, \\cdots, m$) 的特征向量，$W$ 是 $\\sigma$ 的一个不变子空间。试证：如果 $\\alpha_1 + \\alpha_2 + \\cdots + \\alpha_m = \\alpha \\in W$，则有 $\\alpha_i \\in W$，$i = 1, 2, \\cdots, m$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $n$ 阶矩阵\n$$A = \\begin{bmatrix} 0 & 1 & & & \\\\ 1 & 0 & 1 & & \\\\ & 1 & 0 & 1 & \\\\ & & \\ddots & \\ddots & \\ddots \\\\ & & & 1 & 0 & 1 \\\\ & & & & 1 & 0 \\end{bmatrix}.$$\n(1) 求 $A$ 的不变因子；\n(2) 证明：$A$ 有 $n$ 个两两互异的实特征值。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设矩阵 $A = \\begin{pmatrix} -1 & -2 & 6 \\\\ -1 & 0 & 3 \\\\ -1 & -1 & 4 \\end{pmatrix}$，求 $A^k$。"
+        }
+      ]
+    }
+  ]
+}

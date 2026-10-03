@@ -1,0 +1,273 @@
+{
+  "msgid": "2247516351-3",
+  "exams": [
+    {
+      "school": "广西大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "61. 广西大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516351-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算 $\\lim\\limits_{x\\to+\\infty}\\sin\\dfrac{3}{x}\\ln(1+2^x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "若 $e^{x^2+y}-x^2y=0$，求 $\\dfrac{\\mathrm{d}^2y}{\\mathrm{d}x^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求定积分 $\\displaystyle\\int_0^a x^2\\sqrt{a^2-x^2}\\,\\mathrm{d}x$，其中 $a>0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求由抛物线 $y=x^2$ 与直线 $x-2y-3=0$ 所围平面的面积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "求椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ $(a,b>0)$ 在第一象限的一条切线, 使其被坐标轴所截得的线段最短。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "求第一型曲线积分 $\\displaystyle\\int_\\Gamma\\sqrt{1-x^2-y^2}\\,\\mathrm{d}s$，其中 $\\Gamma$ 是曲线 $x^2+y^2=x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "7",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求三重积分 $\\displaystyle\\iiint_V\\dfrac{\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z}{(1+x+y+z)^3}$，其中 $V$ 是由平面 $x+y+z=1$ 及三个坐标平面围成的立体图形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "8",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "将 $f(x)=\\arcsin(\\sin x)$ 展成傅里叶级数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 90 分.",
+          "no": "9",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求曲面积分 $I=\\displaystyle\\iint_{x^2+y^2+z^2=R^2}\\dfrac{\\mathrm{d}S}{\\sqrt{x^2+y^2+(z-h)^2}}$，其中 $h\\neq R$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题, 每题 10 分, 共 60 分.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $a_1,a_2,\\cdots,a_k$ 是 $k$ 个正数, 证明：\n$$\\lim_{n\\to\\infty}\\sqrt[n]{a_1^n+a_2^n+\\cdots+a_k^n}=\\max\\{a_1,a_2,\\cdots,a_k\\}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题, 每题 10 分, 共 60 分.",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "用一致连续的定义证明: 若 $f,g$ 都在区间 $I$ 上一致连续, 则 $f+g$ 在 $I$ 上也一致连续。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题, 每题 10 分, 共 60 分.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "求证 $y=x^\\alpha$ 在 $[1,+\\infty)$ 上一致连续, 其中 $0<\\alpha<1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题, 每题 10 分, 共 60 分.",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明 $\\displaystyle\\int_{-\\infty}^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x$ 条件收敛。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题, 每题 10 分, 共 60 分.",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "利用闭区间套定理证明: 有界数列必有收敛子列。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题, 每题 10 分, 共 60 分.",
+          "no": "6",
+          "score": 10,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "证明 Green 定理: 设闭区间 $D$ 由分段光滑的简单曲线 $L$ 围成, 函数 $P(x,y)$ 及 $Q(x,y)$ 在 $D$ 上有连续的一阶偏导数. 则有\n$$\\iint_D\\left(\\dfrac{\\partial Q}{\\partial x}-\\dfrac{\\partial P}{\\partial y}\\right)\\mathrm{d}x\\mathrm{d}y=\\oint_L P\\,\\mathrm{d}x+Q\\,\\mathrm{d}y.$$\n其中 $L$ 是 $D$ 的取正向的边界曲线。"
+        }
+      ]
+    },
+    {
+      "school": "广西大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "61. 广西大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516351-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "若 $f(x)=x^3-3x^2+tx-1$ 有重根, $t$ 为整数, 则 $t=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "若 $f(x)=\\begin{vmatrix}5x & x & 1 & x\\\\ 1 & x & 1 & -1\\\\ 3 & 2 & x & 1\\\\ 3 & 1 & 1 & x\\end{vmatrix}$，则 $x^4$ 的系数为______, $x^3$ 的系数为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $\\alpha_1=(2,0,0)^T,\\alpha_2=(-1,3,0)^T,\\alpha_3=(7,-4,0)^T$，则向量组 $\\alpha_1,\\alpha_2,\\alpha_3$ 的秩为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "矩阵 $\\begin{pmatrix}3 & 1 & 0 & 0\\\\ 0 & 3 & 0 & 0\\\\ 0 & 0 & 5 & 0\\\\ 0 & 0 & 0 & 5\\end{pmatrix}$ 的初等因子组为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $f(x_1,x_2,x_3)=5x_1^2+5x_2^2+cx_3^2-2x_1x_2+6x_1x_3-6x_2x_3$ 的秩为 2, 则 $c=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设\n$$(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)=\\begin{pmatrix}1 & 1 & 1 & 1\\\\ 1 & 1 & -1 & -1\\\\ 1 & -1 & 1 & -1\\\\ 1 & -1 & -1 & 1\\end{pmatrix},\\ (\\beta_1,\\beta_2,\\beta_3,\\beta_4)=\\begin{pmatrix}2 & 1 & -1 & 1\\\\ 0 & 3 & 1 & 0\\\\ 5 & 3 & 2 & 1\\\\ 6 & 6 & 1 & 3\\end{pmatrix}.$$\n则基 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 到 $\\beta_1,\\beta_2,\\beta_3,\\beta_4$ 的过渡矩阵为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "若方程组\n$$\\begin{cases}x_1+x_2+2x_3+3x_4=1;\\\\ x_1+3x_2+6x_3+x_4=3;\\\\ 3x_1-x_2-kx_3+15x_4=3;\\\\ x_1-5x_2-10x_3+12x_4=1.\\end{cases}$$\n有唯一解, 则 $k=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "三阶复方阵 $A=\\begin{pmatrix}0 & 0 & 1\\\\ 0 & 1 & 0\\\\ 1 & 0 & 0\\end{pmatrix}$ 的最小多项式为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算 $n$ 阶行列式",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$A=\\begin{vmatrix}1 & 2 & 3 & \\cdots & n-1 & n\\\\ 2 & 3 & 4 & \\cdots & n & 1\\\\ 3 & 4 & 5 & \\cdots & 1 & 2\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ n & 1 & 2 & \\cdots & n-2 & n-1\\end{vmatrix}$$\n的值。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A}$ 是数域 $F$ 上的线性空间 $V$ 上的线性变换, $W$ 是 $\\mathscr{A}$ 的非平凡不变子空间, 在 $W$ 中取一个基 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$，把它扩充成 $V$ 的一个基 $\\alpha_1,\\cdots,\\alpha_r,\\alpha_{r+1},\\cdots,\\alpha_n$，$\\mathscr{A}$ 在 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 下的矩阵为\n$$\\left(\\begin{array}{cc}A_1 & A_3\\\\ O & A_2\\end{array}\\right).$$\n其中 $A_1$ 为 $r$ 阶方阵. 定义 $\\overline{\\mathscr{A}}: V/W\\to V/W$, $\\alpha+W\\mapsto\\mathscr{A}\\alpha+W$，证明：\n(1) $\\overline{\\mathscr{A}}$ 是 $V/W$ 上的线性变换;\n(2) $A_2$ 是 $\\overline{\\mathscr{A}}$ 在基 $\\alpha_{r+1}+W,\\cdots,\\alpha_n+W$ 下的矩阵。"
+        }
+      ]
+    }
+  ]
+}

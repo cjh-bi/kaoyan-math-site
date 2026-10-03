@@ -1,0 +1,293 @@
+{
+  "msgid": "2247516351-4",
+  "exams": [
+    {
+      "school": "西南交通大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "64. 西南交通大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516351-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "若 $\\lim\\limits_{n\\to\\infty} a_n = a$。证明：$\\lim\\limits_{n\\to\\infty} \\dfrac{a_1 + a_2 + \\cdots + a_n}{n} = a$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求 $\\lim\\limits_{x\\to 0} \\dfrac{1 - \\cos x \\cos 2x \\cos 3x}{1 - \\cos x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $(a, +\\infty)$ 内可微，且 $\\lim\\limits_{x\\to a^+} f(x) = \\lim\\limits_{x\\to +\\infty} f(x) = L$。求证：存在 $\\xi \\in (a, +\\infty)$，使得 $f'(\\xi) = 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明：$\\lim\\limits_{n\\to\\infty} \\displaystyle\\int_0^{\\frac{\\pi}{4}} \\sin^{n+\\frac{1}{3}} x \\, \\mathrm{d}x = 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x, y) = \\begin{cases} xy\\dfrac{x^2 - y^2}{x^2 + y^2}, & x^2 + y^2 \\neq 0, \\\\ 0, & x^2 + y^2 = 0, \\end{cases}$ 证明：$f''_{xy}(0, 0) \\neq f''_{yx}(0, 0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数的敛散性，若收敛，指出是条件收敛还是绝对收敛：$\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{(-1)^n \\cos n}{n} \\left(1 + \\dfrac{1}{n}\\right)^n$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明：$F(x) = \\displaystyle\\sum_{n=1}^{\\infty} e^{-nx} \\cos nx$ 在 $(0, +\\infty)$ 上不一致收敛，但是连续的。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设有界函数 $f(x)$ 在 $(-\\infty, +\\infty)$ 上二次可微，求证：存在 $x_0 \\in (-\\infty, +\\infty)$，使得 $f''(x_0) = 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z = f(x, y)$ 是二次连续可微函数，又有关系式 $u = x + ay, v = x - ay$，其中 $a$ 是不为 $0$ 的常数。证明：$$a^2 \\dfrac{\\partial^2 z}{\\partial x^2} - \\dfrac{\\partial^2 z}{\\partial y^2} = 4a^2 \\dfrac{\\partial^2 z}{\\partial u \\partial v}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求 $\\displaystyle\\iiint\\limits_{V} y \\cos(x + z) \\, \\mathrm{d}V$，其中 $V$ 由 $y = \\sqrt{x}, y = 0, z = 0$ 及 $x + z = \\dfrac{\\pi}{2}$ 所围成。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "设 $S$ 是锥面 $z^2 = x^2 + y^2$ 与平面 $z = \\sqrt{2}\\left(\\dfrac{x}{2} + 1\\right)$ 所围区域 $V$ 的全表面，求 $S$ 的面积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $S$ 是单位球面 $x^2 + y^2 + z^2 = 1$ 的外侧，求曲面积分 $$\\iint\\limits_{S} \\dfrac{x \\, \\mathrm{d}y\\mathrm{d}z + y \\, \\mathrm{d}z\\mathrm{d}x + z \\, \\mathrm{d}x\\mathrm{d}y}{(\\sqrt{2x^2 + 2y^2 + z^2})^3}.$$"
+        }
+      ]
+    },
+    {
+      "school": "西南交通大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "64. 西南交通大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516351-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 25 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "若 $(x+1)^2$ 整除 $ax^4 + bx^2 + 1$，则 $a = $______，$b = $______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 25 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A, B, C$ 为 3 阶实方阵，且 $BAA^T = CAA^T$，则秩 $(BA - CA) = $______（$A^T$ 表示矩阵 $A$ 的转置）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 25 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设实数域上 $n$ 阶方阵 $A$ 的每行元素之和等于常数 $a$，则 $A^2 + E$ 的每行元素之和等于______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 25 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A$ 为实数域上的奇数阶正交矩阵，且 $\\det(A) = 1$，则 $\\det(E - A) = $______（$\\det(A)$ 表示矩阵 $A$ 的行列式）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 25 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵，且 $A^2 - 3A + aE = O$。若 $A$ 为正定矩阵，则 $a$ 的取值范围是______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f(x)$ 为数域 $K$ 上次数小于 5 的一元多项式，若 $x^2 + 1$ 整除 $f(x)$，且 $x^3 + x^2 + 1$ 整除 $f(x) + 1$，求 $f(x)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A = \\begin{pmatrix} 0 & 1 & 0 \\\\ -4 & 4 & 0 \\\\ -2 & 1 & 2 \\end{pmatrix}$，求 $A^{10}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 为数域 $K$ 上四维线性空间，$\\{\\alpha_1, \\alpha_2, \\alpha_3, \\alpha_4\\}$ 为 $V$ 的一组基，$\\mathscr{A}$ 为 $V$ 上的线性变换，且 $$\\mathscr{A}(\\alpha_1) = \\alpha_2,\\ \\mathscr{A}(\\alpha_2) = \\alpha_2,\\ \\mathscr{A}(\\alpha_3) = \\alpha_2,\\ \\mathscr{A}(\\alpha_4) = \\alpha_1.$$ 令 $\\mathrm{Im}\\,\\mathscr{A} = \\{\\beta \\in V \\mid \\beta = \\mathscr{A}(\\alpha),\\ \\forall \\alpha \\in V\\}$ 为 $\\mathscr{A}$ 的像空间，$\\mathrm{Ker}\\,\\mathscr{A} = \\{\\alpha \\in V \\mid \\mathscr{A}(\\alpha) = 0\\}$ 为 $\\mathscr{A}$ 的核。求 $\\mathrm{Im}\\,\\mathscr{A}, \\mathrm{Ker}\\,\\mathscr{A}, \\mathrm{Im}\\,\\mathscr{A} + \\mathrm{Ker}\\,\\mathscr{A}, \\mathrm{Im}\\,\\mathscr{A} \\cap \\mathrm{Ker}\\,\\mathscr{A}$ 的一组基和维数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 为 3 阶方阵，$\\beta = (9, 0, 0)^T$。若非齐次线性方程组 $AX = \\beta$ 的通解为 $$a_1(2, 1, -2)^T + a_2(-2, 1, 2)^T + (2, -2, 1)^T.$$ 其中 $a_1, a_2$ 为任意常数，求矩阵 $A$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "5",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设矩阵 $$A = \\begin{pmatrix} 0 & 1 & 0 & 0 \\\\ 1 & 0 & 0 & 0 \\\\ 0 & 0 & a & 1 \\\\ 0 & 0 & 1 & 2 \\end{pmatrix}.$$\n(1) 已知 $A$ 的一个特征值为 3，求 $a$ 的值；\n(2) 求矩阵 $B$，使得 $(AB)^T(AB)$ 为对角矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "6",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $V$ 为有限维欧氏空间，对任意 $\\alpha, \\beta \\in V$，内积记为 $(\\alpha, \\beta)$，$\\mathscr{A}$ 为 $V$ 上的正交变换。令 $V_1 = \\{\\alpha \\in V \\mid \\mathscr{A}\\alpha = \\alpha\\}$，$V_2 = \\{\\beta - \\mathscr{A}\\beta \\mid \\beta \\in V\\}$。证明：$V_1, V_2$ 为 $V$ 的子空间，且 $V = V_1 \\oplus V_2$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "7",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 为实数域上的全体 $n$ 元二次型组成的集合。证明：$V$ 对于多项式的加法和数与多项式的乘法构成线性空间，并给出 $V$ 的维数和一组基。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为数域 $K$ 上的 $m \\times n$ 矩阵，且秩 $(A) = r$。则对任意一个自然数 $k$（$k \\leq r$），都存在数域 $K$ 上的 $m \\times n$ 矩阵 $B$ 和 $m \\times n$ 矩阵 $C$，满足 $A = B + C$，其中秩 $(B) = k$，秩 $(C) = r - k$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "9",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A$ 为 $n$ 阶实方阵，且 $A^T A$ 的特征值全都大于 1。证明：$E - A$ 可逆。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "10",
+          "score": 10,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $\\alpha, \\beta$ 为实数域上 $n$ 维非零列向量，且 $A = \\alpha\\beta^T + \\beta\\alpha^T$，求二次型 $$f(x_1, x_2, \\cdots, x_n) = (x_1, x_2, \\cdots, x_n) A \\begin{pmatrix} x_1 \\\\ x_2 \\\\ \\vdots \\\\ x_n \\end{pmatrix}$$ 的符号差。"
+        }
+      ]
+    }
+  ]
+}

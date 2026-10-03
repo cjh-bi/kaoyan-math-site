@@ -1,0 +1,273 @@
+{
+  "msgid": "2247510531-2",
+  "exams": [
+    {
+      "school": "兰州大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "72. 兰州大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510531-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "判断题(每题 5 分, 共 20 分)",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设数列 $\\{x_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}\\prod\\limits_{k=1}^{n}x_k^{\\frac{1}{n}}=1$，则 $\\{x_n\\}$ 的极限存在且 $\\lim\\limits_{n\\to\\infty}x_n=1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题(每题 5 分, 共 20 分)",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设函数 $f(x)$ 在 $x_0$ 点的左、右导数均存在，则函数 $f(x)$ 在 $x_0$ 点连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题(每题 5 分, 共 20 分)",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "若数项级数 $\\sum\\limits_{n=1}^{\\infty}a_n^2$ 收敛，则数项级数 $\\sum\\limits_{n=1}^{\\infty}a_n^3$ 也收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题(每题 5 分, 共 20 分)",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设二元函数 $f(x,y)$ 在 $(x_0,y_0)$ 点的邻域内有定义，且在 $(x_0,y_0)$ 点可微，偏导数 $f_x(x,y)$ 和 $f_y(x,y)$ 在 $(x_0,y_0)$ 的某个邻域内存在，则 $f_x(x,y)$ 和 $f_y(x,y)$ 在 $(x_0,y_0)$ 点连续。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 14 分, 共 70 分)",
+          "no": "1",
+          "score": 14,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "计算极限 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}\\dfrac{(2k-1)^4}{n^5+k^4}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 14 分, 共 70 分)",
+          "no": "2",
+          "score": 14,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求函数 $f(x,y,z)=z$ 在条件 $2x^2+y^2+z^2+2xy-2x-2y-4z+4=0$ 下的极值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 14 分, 共 70 分)",
+          "no": "3",
+          "score": 14,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $\\Omega$ 为曲面 $z=1+x^2+y^2$ 和 $z=2(x^2+y^2)$ 所围成的封闭区域，求三重积分 $$\\iiint\\limits_{\\Omega}x^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 14 分, 共 70 分)",
+          "no": "4",
+          "score": 14,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算含参量积分 $$I(t)=\\int_{1}^{+\\infty}\\dfrac{\\arctan(tx)}{x^2\\sqrt{x^2-1}}\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 14 分, 共 70 分)",
+          "no": "5",
+          "score": 14,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分 $$\\iint\\limits_{S}x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}x\\mathrm{d}z+z^3\\,\\mathrm{d}x\\mathrm{d}y,$$ 其中 $S$ 为球面 $x^2+y^2+z^2=2z$ 的外侧。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设函数 $f(x)$ 为 $[a,b]$ 上的凸函数，证明：极限 $\\lim\\limits_{x\\to a^+}f(x)$ 和 $\\lim\\limits_{x\\to b^-}f(x)$ 存在。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "已知函数 $f(x)$ 在 $[0,+\\infty)$ 上连续且无穷积分 $\\int_{0}^{+\\infty}f(x)\\,\\mathrm{d}x$ 收敛，证明：函数 $f(x)$ 在 $[0,+\\infty)$ 上一致连续的充分必要条件为 $\\lim\\limits_{x\\to+\\infty}f(x)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "3",
+          "score": 12,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上连续.\n(1) 若 $\\int_{a}^{b}f(x)\\,\\mathrm{d}x=\\int_{a}^{b}f(x)e^{x}\\,\\mathrm{d}x=0$，证明：函数 $f(x)$ 在 $(a,b)$ 内至少存在两个互异的零点;\n(2) 若 $\\int_{a}^{b}f(x)e^{(k-1)x}\\,\\mathrm{d}x=0$ $(k=1,2,\\cdots,n+1)$，证明：函数 $f(x)$ 在 $(a,b)$ 内至少存在 $n+1$ 个互异的零点。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "4",
+          "score": 12,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "已知函数 $f(x)$ 在 $[a,b]$ 上黎曼可积，证明：存在 $[a,b]$ 上的逐段为常数的函数列 $\\{f_n(x)\\}$（即对任意的正整数 $n\\in\\mathbb{N}$，存在对 $[a,b]$ 的分割 $a=x_0<x_1<x_2<\\cdots<x_{m_n}=b$ 以及相应常数 $\\{c_k\\}_{k=1}^{m_n}$，使得 $f_n(x)=c_k$，$x\\in[x_{k-1},x_k)$，$1\\le k<m_n$；$f_n(x)=c_{m_n}$，$x\\in[x_{m_n-1},x_{m_n}]$），使得 $$\\lim_{n\\to\\infty}\\int_{a}^{b}|f_n(x)-f(x)|\\,\\mathrm{d}x=0.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "5",
+          "score": 12,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "已知级数 $\\sum\\limits_{k=1}^{\\infty}a_k$ 收敛，证明：$\\lim\\limits_{n\\to\\infty}\\dfrac{\\sum\\limits_{k=1}^{n}ka_k}{n}=0$。"
+        }
+      ]
+    },
+    {
+      "school": "兰州大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "72. 兰州大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510531-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(22 分) 解答如下问题:",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)$ 是一个 $n$ 次多项式，证明：$f'(x)$ 整除 $f(x)$ 的充分必要条件是 $f(x)$ 有 $n$ 重根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "(22 分) 解答如下问题:",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $c$ ($c$ 不必是有理数)为一常数，$M=\\{f(x)\\in\\mathbb{Q}[x]\\mid f(c)=0\\}$，证明：存在唯一的首项系数为 $1$ 的不可约多项式 $p(x)\\in M$，使得 $M$ 中每个多项式都可以表示为 $q(x)p(x)$ 的形式，其中 $q(x)\\in\\mathbb{Q}[x]$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(18 分) 计算下列 $n$ 阶行列式的值.",
+          "no": "1",
+          "score": 8,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$\\begin{vmatrix} x & a & a & \\cdots & a \\\\ -a & x & a & \\cdots & a \\\\ -a & -a & x & \\cdots & a \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ -a & -a & -a & \\cdots & x \\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(18 分) 计算下列 $n$ 阶行列式的值.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$\\begin{vmatrix} x_1+a_1b_1 & x_1+a_1b_2 & \\cdots & x_1+a_1b_n \\\\ x_2+a_2b_1 & x_2+a_2b_2 & \\cdots & x_2+a_2b_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ x_n+a_nb_1 & x_n+a_nb_2 & \\cdots & x_n+a_nb_n \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分) 设 $A$, $B$ 分别为 $m\\times n$ 与 $m\\times s$ 矩阵, 而 $X$ 为 $n\\times s$ 未知矩阵.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$, $B$ 分别为 $m\\times n$ 与 $m\\times s$ 矩阵，而 $X$ 为 $n\\times s$ 未知矩阵.\n(1) 证明：矩阵方程 $AX=B$ 有解的充分必要条件是 $\\text{秩}(A)=\\text{秩}(A,B)$;\n(2) 给出矩阵方程 $AX=B$ 有唯一解的充分必要条件。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(23 分) 解答如下问题:",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 和 $B$ 分别是 $s\\times n$ 与 $n\\times m$ 矩阵，证明：$\\text{秩}(A)+\\text{秩}(B)-n\\le\\text{秩}(AB)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(23 分) 解答如下问题:",
+          "no": "2",
+          "score": 13,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A$, $B$ 都是 $n$ 阶方阵，且 $A^2=B^2=E$，$AB=BA$，证明：存在可逆矩阵 $P$，使得 $P^{-1}AP$ 和 $P^{-1}BP$ 同时为对角矩阵，且对角线上元素为 $\\pm1$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分) 设 $\\eta$ 是欧氏空间 $V$ 中的一个单位向量, 定义 $\\sigma(\\alpha)=\\alpha-2(\\eta,\\alpha)\\eta$, $\\alpha\\in V$. 证明:",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\eta$ 是欧氏空间 $V$ 中的一个单位向量，定义 $\\sigma(\\alpha)=\\alpha-2(\\eta,\\alpha)\\eta$，$\\alpha\\in V$。证明:\n(1) $\\sigma$ 是正交变换(这样的正交变换称为镜面反射);\n(2) 设 $V$ 为有限维空间时，$\\sigma$ 在标准正交基下的矩阵的行列式为 $-1$;\n(3) 设 $V$ 为 $n$ 维欧氏空间，正交变换 $\\sigma'$ 有特征值 $1$，且属于特征值 $1$ 的特征子空间的维数为 $n-1$，则 $\\sigma'$ 是镜面反射。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(20 分) 设 $\\sigma$ 是数域 $P$ 上线性空间 $V$ 的一个线性变换, $f(x),g(x)\\in P[x]$, $h(x)=f(x)g(x)$. 证明:",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\sigma$ 是数域 $P$ 上线性空间 $V$ 的一个线性变换，$f(x),g(x)\\in P[x]$，$h(x)=f(x)g(x)$。证明:\n(1) $\\mathrm{Ker}(f(\\sigma))+\\mathrm{Ker}(g(\\sigma))\\subseteq\\mathrm{Ker}(h(\\sigma))$;\n(2) 当 $(f(x),g(x))=1$ 时，$\\mathrm{Ker}(f(\\sigma))\\oplus\\mathrm{Ker}(g(\\sigma))=\\mathrm{Ker}(h(\\sigma))$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分) 设 $V$ 是数域 $P$ 上的有限维线性空间, $\\sigma$ 是 $V$ 上的一个线性变换, $\\lambda_1,\\lambda_2,\\cdots,\\lambda_m$ 是 $\\sigma$ 的不同特征值.",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是数域 $P$ 上的有限维线性空间，$\\sigma$ 是 $V$ 上的一个线性变换，$\\lambda_1,\\lambda_2,\\cdots,\\lambda_m$ 是 $\\sigma$ 的不同特征值，而 $\\alpha_i$ 是关于 $\\lambda_i$ $(i=1,2,\\cdots,m)$ 的特征向量，$W$ 是 $\\sigma$ 的一个不变子空间。证明：如果 $\\alpha_1+\\alpha_2+\\cdots+\\alpha_m=\\alpha\\in W$，则对每个 $i=1,2,\\cdots,m$，有 $\\alpha_i\\in W$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "(17 分) 设三阶实对称矩阵 $A=\\begin{pmatrix} 2 & 2 & -2 \\\\ 2 & 5 & -4 \\\\ -2 & -4 & 5 \\end{pmatrix}$.",
+          "no": "1",
+          "score": 17,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设三阶实对称矩阵 $$A=\\begin{pmatrix} 2 & 2 & -2 \\\\ 2 & 5 & -4 \\\\ -2 & -4 & 5 \\end{pmatrix}.$$\n(1) 求一个正交矩阵 $P$ 及对角矩阵 $\\Lambda$，使得 $P^{-1}AP=\\Lambda$;\n(2) 求一个对称矩阵 $B$，使得 $A=B^2$。"
+        }
+      ]
+    }
+  ]
+}

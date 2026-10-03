@@ -1,0 +1,114 @@
+{
+  "msgid": "2247510261-2",
+  "exams": [
+    {
+      "school": "东北大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "27. 东北大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510261-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x)=x^4+x^3+2x^2+x-1$，$g(x)=x^3+2x^2+2x+1$，求 $f(x)$ 与 $g(x)$ 的首项系数是 $1$ 的最大公因式 $(f(x),g(x))$，并求 $u(x),v(x)$ 使得 $(f(x),g(x))=u(x)f(x)+v(x)g(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 级行列式\n$$\\begin{vmatrix} ab & a & a & \\cdots & a \\\\ b & a^2b^2 & a & \\cdots & a \\\\ b & b & a^3b^3 & \\cdots & a \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ b & b & b & \\cdots & a^nb^n \\end{vmatrix}$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知三元二次型 $f(x_1,x_2,x_3)=-7x_1^2+2x_2^2-4x_3^2-2ax_1x_2+20x_1x_3+8ax_2x_3$ 的符号差等于 $0$，其中 $a>0$。\n(1)（5 分）求 $a$ 的值；\n(2)（10 分）用正交线性替换将该二次型化为标准形，并写出所用的正交线性替换，其中正交矩阵的行列式为 $-1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 是三维线性空间 $V$ 的一组基，$V$ 上的线性变换 $\\mathscr{A}$ 满足\n$$\\mathscr{A}\\varepsilon_1=\\varepsilon_1-\\varepsilon_2,\\ \\mathscr{A}\\varepsilon_2=2\\varepsilon_1+4\\varepsilon_2,\\ \\mathscr{A}\\varepsilon_3=k\\varepsilon_1+3\\varepsilon_2+2\\varepsilon_3.$$\n已知存在一组基，使得线性变换 $\\mathscr{A}$ 在该基下的矩阵为对角矩阵。\n(1)（5 分）求 $k$ 的值；\n(2)（10 分）给出一组基，使得线性变换 $\\mathscr{A}$ 在该基下的矩阵为对角矩阵，同时写出该对角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "5",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求矩阵 $A=\\begin{pmatrix} 5 & 0 & 8 & 0 \\\\ 3 & 1 & 6 & 0 \\\\ -2 & 0 & -3 & 0 \\\\ 0 & 0 & 0 & 2 \\end{pmatrix}$ 的若尔当标准形 $J$，并求可逆矩阵 $P$，使得 $P^{-1}AP=J$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B,C$ 都是 $n\\times n$ 矩阵，其中 $C$ 的所有列向量都是齐次线性方程组 $BX=0$ 的解向量，而 $A$ 的列向量组可由 $C$ 的列向量组线性表出，同时矩阵 $A$ 与矩阵 $C$ 不等价，证明：$A,B$ 有公共的特征向量。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A,B$ 都是 $m\\times n$ 矩阵，如果存在 $n\\times n$ 矩阵 $P$ 和 $n\\times n$ 矩阵 $Q$，使得 $AP=B$，$BQ=A$，证明：\n(1)（5 分）存在 $n$ 级矩阵 $K$，使得 $P+(PQ-E)K$ 为可逆矩阵，其中 $E$ 为 $n$ 级单位矩阵；\n(2)（10 分）存在可逆的 $n$ 级矩阵 $M$，使得 $AM=B$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $A$ 是 $n\\times n$ 矩阵，令 $S(A)=\\{B\\in P^{n\\times n}\\mid ABA=O\\}$，其中 $O$ 是 $n\\times n$ 零矩阵，证明：\n(1)（5 分）$S(A)$ 是 $P^{n\\times n}$ 的子空间；\n(2)（10 分）如果矩阵 $A$ 的秩为 $r$，则 $S(A)$ 的维数等于 $n^2-r^2$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A}$ 是数域 $P$ 上 $n$ 维线性空间 $V$ 的一个线性变换，证明：\n(1)（5 分）$\\mathscr{A}$ 的属于特征值 $\\lambda_0$ 的特征子空间 $V_{\\lambda_0}$ 是 $\\mathscr{A}$ 的不变子空间；\n(2)（10 分）$\\mathscr{A}$ 的任一组特征向量生成的子空间都是 $\\mathscr{A}$ 的不变子空间。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "10",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "对称变换",
+          "stem": "设 $\\varepsilon$ 是 $n$ 维欧氏空间 $V$ 中一单位向量，定义 $\\mathscr{A}\\alpha=\\alpha-k(\\alpha,\\varepsilon)\\varepsilon$，$\\forall\\alpha\\in V$。证明：\n(1)（5 分）$\\mathscr{A}$ 是 $V$ 的线性变换。若 $k\\neq 0$，那么 $\\mathscr{A}$ 以 $1$ 作为特征值，且属于特征值 $1$ 的特征子空间的维数为 $n-1$；\n(2)（5 分）$\\mathscr{A}$ 是对称变换；\n(3)（5 分）当 $k=2$ 时，$\\mathscr{A}$ 是正交变换，且 $\\mathscr{A}$ 的行列式等于 $-1$。"
+        }
+      ]
+    }
+  ]
+}

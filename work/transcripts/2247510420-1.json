@@ -1,0 +1,173 @@
+{
+  "msgid": "2247510420-1",
+  "exams": [
+    {
+      "school": "湖南大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "53. 湖南大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510420-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $\\lim\\limits_{n\\to\\infty} x_n = a$，$\\lim\\limits_{n\\to\\infty} y_n = b$，证明：\n$$\\lim_{n\\to\\infty} \\dfrac{x_1 y_n + x_2 y_{n-1} + \\cdots + x_n y_1}{n} = ab.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "证明：$\\lim\\limits_{x\\to 1^-}\\left(\\sqrt{\\dfrac{1}{1-x}+1}-\\sqrt{\\dfrac{1}{1-x}-1}\\right)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "",
+          "stem": "证明：在实数轴 $\\mathbb{R}$ 上满足方程\n$$f(x+y)=f(x)f(y)$$\n的唯一不恒等于零的连续函数是 $f(x)=a^x$（$a>0$ 为常数）。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设函数 $f(x)$ 在 $(0,1)$ 上有定义，且函数 $e^x f(x)$ 与 $e^{-f(x)}$ 在 $(0,1)$ 上单调不减，证明：函数 $f(x)$ 在 $(0,1)$ 上连续。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知函数 $f(x)$ 在区间 $[0,1]$ 内具有二阶连续导数，且满足 $f(0)=f(1)$，$|f''(x)|\\le M$，证明：对 $\\forall x\\in[0,1]$，都有 $|f'(x)|\\le \\dfrac{M}{2}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：对于任何正实数 $a,b,c$，都有下面不等式成立：\n$$a^2 b^2 c \\le 16\\left(\\dfrac{a+b+c}{5}\\right)^5.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{f_n(x)\\}$ 是定义在 $[a,b]$ 上的无穷次可微的函数列，且逐点收敛。并且存在 $M>0$，使得对任意的正整数 $n$ 及 $x\\in[a,b]$，有 $|f_n'(x)|\\le M$。\n(1) 证明：$\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛；\n(2) 设 $f(x)=\\lim\\limits_{n\\to\\infty} f_n(x)$，问：$f(x)$ 是否一定在 $[a,b]$ 上处处可导，如果是请给出证明，如果不是请给出反例。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（18 分）",
+          "no": "1",
+          "score": 18,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设函数 $f(x,y)$ 在点 $(x_0,y_0)$ 的邻域上二次连续可微，且 $f_x(x_0,y_0)=0$，$f_{xx}(x_0,y_0)>0$。证明：\n(1) 存在 $y_0$ 的 $\\delta$ 邻域 $U(y_0;\\delta)$，使得对任何 $y\\in U(y_0;\\delta)$ 能求得 $f(x,y)$ 关于 $x$ 的一个极小值 $g(y)$；\n(2) $g_y(y_0)=f_y(x_0,y_0)$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（16 分）",
+          "no": "1",
+          "score": 16,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$J=\\iint_S y(x-z)\\,\\mathrm{d}y\\mathrm{d}z + x^2\\,\\mathrm{d}z\\mathrm{d}x + (y^2+xz)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 为曲面 $z=5-x^2-y^2$ 在 $z\\ge 1$ 的部分，方向取外侧。"
+        }
+      ]
+    },
+    {
+      "school": "湖南大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "53. 湖南大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510420-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "记 $K[x]$ 为数域 $K$ 上的全体多项式，$f(x),g(x)\\in K[x]$。\n(1) 若 $(f(x),g(x))=1$，且 $\\deg(f(x))\\ge 1$，$\\deg(g(x))\\ge 1$，证明：存在唯一的一对多项式 $u(x),v(x)\\in K[x]$，使得 $u(x)f(x)+v(x)g(x)=1$，其中 $\\deg(u(x))<\\deg(g(x))$，$\\deg(v(x))<\\deg(f(x))$；\n(2) 设 $f(x)=x^3-x^2-x+1$，$g(x)=x^2+x+2$，求多项式 $u(x),v(x)$ 使得 $u(x)f(x)+v(x)g(x)=(f(x),g(x))$，且 $\\deg(u(x))<\\deg(g(x))$，$\\deg(v(x))<\\deg(f(x))$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "记 $M_{m,n}(K)$ 是数域 $K$ 上全体 $m\\times n$ 矩阵。\n(1) 设 $A\\in M_{m,n}(K)$，$B\\in M_{n,m}(K)$，证明：$\\det(E_m+AB)=\\det(E_n+BA)$，其中 $E_m$，$E_n$ 分别是 $m$ 阶和 $n$ 阶单位矩阵，$\\det(\\cdot)$ 表示行列式；\n(2) 设 $\\alpha,\\beta\\in K^n$ 是列向量，请给出方阵 $A=E_n+\\alpha\\beta^T$ 是可逆矩阵的充分必要条件，说明理由并求出 $A^{-1}$；\n(3) 求矩阵 $A=\\begin{pmatrix} 2 & -1 & -1 & -1 \\\\ -1 & 2 & -1 & -1 \\\\ -1 & -1 & 2 & -1 \\\\ -1 & -1 & -1 & 2 \\end{pmatrix}$ 的逆矩阵。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设二次型 $f(X)=XAX^T$，其中 $X=(x_1,x_2,x_3,x_4)$，$A=\\begin{pmatrix} 1 & 0 & 4 & -1 \\\\ -2 & 1 & -2 & 5 \\\\ 2 & -2 & 1 & -1 \\\\ -3 & 1 & -1 & 1 \\end{pmatrix}$。\n(1) 求出二次型 $f(X)$ 对应的矩阵；\n(2) 用正交线性替换化二次型 $f(X)$ 为标准形，并写出该替换。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "记 $M_n(K)$ 是数域 $K$ 上的全体 $n$ 阶方阵，$K[x]$ 是数域 $K$ 上的全体多项式。给定 $A\\in M_n(K)$，令 $V=\\{f(A)\\in M_n(K)\\mid f(x)\\in K[x]\\}$。\n(1) 证明：$V$ 是 $M_n(K)$ 的线性子空间；\n(2) 若 $f_0(x)$ 是 $A$ 的最小零化多项式（即 $f_0(x)\\in K[x]$ 是满足 $f(A)=O$ 的非零多项式中次数最小的），记 $m=\\deg(f_0(x))$，证明：$V$ 的维数等于 $m$；\n(3) 若 $A=\\begin{pmatrix} -1 & 1 & 0 & 0 & 0 \\\\ 0 & -1 & 1 & 0 & 0 \\\\ 0 & 0 & -1 & 0 & 0 \\\\ 0 & 0 & 0 & 2 & 1 \\\\ 0 & 0 & 0 & 0 & 2 \\end{pmatrix}$，求 $V$ 的维数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $V$ 是数域 $K$ 上的 $n$ 维线性空间，$I$ 是 $V$ 上的恒等变换，证明：$V$ 上的线性变换 $\\mathscr{A}$ 可以对角化当且仅当存在互不相同的 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_k\\in K$，使得 $(\\lambda_1 I-\\mathscr{A})(\\lambda_2 I-\\mathscr{A})\\cdots(\\lambda_k I-\\mathscr{A})=\\mathscr{O}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "记 $M_n(\\mathbb{R})$ 是实数域 $\\mathbb{R}$ 上全体 $n$ 阶方阵，$A\\in M_n(\\mathbb{R})$。\n(1) 证明：若 $A$ 是上三角的正交矩阵，则 $A$ 必定是对角矩阵，且对角线元素为 $\\pm 1$；\n(2) 证明：若 $A$ 是可逆矩阵，则存在唯一的正交矩阵 $Q$ 与对角线元素大于零的上三角矩阵 $U$，使得 $A=QU$；\n(3) 证明：若 $A$ 是正定矩阵，则存在上三角矩阵 $B$，使得 $A=B^T B$。"
+        }
+      ]
+    }
+  ]
+}

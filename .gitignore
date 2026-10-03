@@ -7,7 +7,7 @@ verify-*.png
 
 # 抓取缓存：公众号文章原 HTML 体积大（每篇 3MB+），可由 fetch.js/fetch2021.js 重新下载
 work/arts/
-work/arts2021/
+work/arts*/
 
 # 转录员工作期临时裁图与散图（源图在 work/imgs/，产物在 work/transcripts/）
 work/crops/

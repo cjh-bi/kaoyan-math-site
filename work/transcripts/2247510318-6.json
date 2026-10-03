@@ -1,0 +1,326 @@
+{
+  "msgid": "2247510318-6",
+  "exams": [
+    {
+      "school": "南京航空航天大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "38. 南京航空航天大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510318-6_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{x^2-\\sin^2 x}{x^3\\left(\\sqrt{1+x}-\\sqrt{1-x}\\right)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\sum\\limits_{i=1}^{n}\\sec^2\\dfrac{i\\pi}{4n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "写出数列 $\\{a_n\\}$ 不收敛于 $a$ 的定义。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "证明：数列 $\\{a_n\\}$ 不收敛于 $a$ 的充要条件是存在 $\\varepsilon_0>0$ 和子列 $\\{a_{n_k}\\}$ 满足 $|a_{n_k}-a|\\geqslant \\varepsilon_0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上可导，$f\\left(\\dfrac{a+b}{2}\\right)=0$，且 $|f'(x)|\\leqslant M$。证明：$\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x\\leqslant \\dfrac{M}{4}(b-a)^2$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求曲线 $y=\\displaystyle\\int_0^x \\sqrt{\\sin t}\\,\\mathrm{d}t$ $(0\\leqslant x\\leqslant \\pi)$ 的全长。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "求 $a$，$b$ 使得 $\\cot x=\\dfrac{1+ax^2}{x+bx^3}+o(x^3)$ $(x\\to 0)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论反常积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin^2 x}{x^p}\\,\\mathrm{d}x$ 的收敛性，绝对收敛性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $\\{f_n(x)\\}$ 在区间 $D$ 上收敛于 $f(x)$，且存在数列 $\\{a_n\\}$，使得对任意的正整数 $n$ 及 $x\\in[a,b]$，有 $|f_n(x)-f(x)|\\leqslant a_n$，同时 $\\lim\\limits_{n\\to\\infty}a_n=0$。证明：$\\{f_n(x)\\}$ 在 $D$ 上一致收敛于 $f(x)$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "（卷面标注“可能有误”）设 $f(x,y)=e^{-x}(ax^2+b-y)$，当 $a$，$b$ 满足什么条件时，$(-1,0)$ 是 $f(x,y)$ 的极值点？是极大值点还是极小值点？"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数 $$f(x,y)=\\begin{cases}y\\sin\\dfrac{1}{\\sqrt{x^2+y^2}}, & (x,y)\\neq (0,0);\\\\[4pt] 0, & (x,y)=0.\\end{cases}$$ 讨论 $f(x,y)$ 在 $(0,0)$ 处的连续性，偏导数及方向导数的存在性。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "（卷面标注“可能有误”）求累次积分 $I=\\displaystyle\\int_{-1}^{+\\infty}\\mathrm{d}x\\int_0^{\\sqrt{1-x^2}}\\mathrm{d}y\\int_1^{1+\\sqrt{1-x^2-y^2}}\\dfrac{1}{\\sqrt{x^2+y^2+z^2}}\\,\\mathrm{d}z$。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "求 $a$，$b$ 的值，使得级数 $\\sum\\limits_{n=1}^{\\infty}\\ln\\left[n(n+1)^a(n+2)^b\\right]$ 收敛。"
+        },
+        {
+          "section": "十二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "已知曲线积分 $\\displaystyle\\int_L 2xy\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y$ 与路径 $L$ 无关，且对任意的 $t\\in\\mathbb{R}$，有 $$\\int_{(0,0)}^{(1,t)}2xy\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y=\\int_{(0,0)}^{(t,1)}2xy\\,\\mathrm{d}x+Q(x,y)\\,\\mathrm{d}y.$$ 求 $Q(x,y)$。"
+        }
+      ]
+    },
+    {
+      "school": "南京航空航天大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "（手写回忆版，图片无印刷标题；据文章标题为南京航空航天大学 2022 年高等代数试题，大题一～八均标注全题分值，部分小题卷面空白或表达式未写出，已用【?】标记并跳过无法辨认的小题，小题编号保留卷面原样）",
+      "source_imgs": [
+        "work/imgs/2247510318-6_5.png",
+        "work/imgs/2247510318-6_6.png"
+      ],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（本题 15 分）",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $4$ 阶矩阵 $A$ 的特征多项式是 $f(x)=x^4-2x^2+ax+b$，且 $(x-1)^2\\mid f(x)$。求 $a$，$b$ 的值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（本题 15 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $4$ 阶矩阵 $A$ 的特征多项式是 $f(x)=x^4-2x^2+ax+b$，且 $(x-1)^2\\mid f(x)$。求 $A$ 的全部特征值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（本题 15 分）",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设 $4$ 阶矩阵 $A$ 的特征多项式是 $f(x)=x^4-2x^2+ax+b$，且 $(x-1)^2\\mid f(x)$。若 $x^2-1$ 是 $A$ 的最小多项式，求 $r(A+E)+r(A-E)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（本题 15 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "线性方程组 $\\left\\{\\begin{array}{l}【?】\\end{array}\\right.$（卷面只写了“方程组”及大括号，具体方程未写出）。证明：方程组系数矩阵的秩为 $2$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（本题 15 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "线性方程组 $\\left\\{\\begin{array}{l}【?】\\end{array}\\right.$（卷面具体方程未写出，方程中含参数 $a$，$b$）。求 $a$，$b$ 的值。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\mathbb{R}^3$ 的线性变换 $T$ 使得 $T\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}=\\begin{pmatrix}x_1【?】\\\\ 【?】\\\\ 【?】\\end{pmatrix}$（卷面像的表达式未写全）。求 $T$ 在基 $\\varepsilon_1=(1,0,0)^{\\mathrm{T}}$，$\\varepsilon_2=(0,1,0)^{\\mathrm{T}}$，$\\varepsilon_3=(0,0,1)^{\\mathrm{T}}$ 下的矩阵 $A$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（本题 20 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $\\mathbb{R}^3$ 的线性变换 $T$ 在基 $\\varepsilon_1=(1,0,0)^{\\mathrm{T}}$，$\\varepsilon_2=(0,1,0)^{\\mathrm{T}}$，$\\varepsilon_3=(0,0,1)^{\\mathrm{T}}$ 下的矩阵为 $A$（$T$ 的表达式卷面未写全【?】，$A$ 中含参数 $a$，$b$）。若 $A$ 可对角化，求 $a$，$b$ 的值。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（本题 20 分）",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设上题矩阵 $A$。若 $a=$【?】，$b=$【?】（卷面数值未填写），求证 $A$ 不可对角化，并求 $A$ 的若尔当标准形。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $3$ 阶实对称矩阵 $A$ 的各行元素之和为 $5$，二次型 $f(x)=x^{\\mathrm{T}}Ax$ 在正交变换 $x=Py$ 下的标准形是 $f=-\\eta_2^2-\\eta_3^2$。求正交矩阵 $P$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（本题 20 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $3$ 阶实对称矩阵 $A$ 的各行元素之和为 $5$，二次型 $f(x)=x^{\\mathrm{T}}Ax$ 在正交变换 $x=Py$ 下的标准形是 $f=-\\eta_2^2-\\eta_3^2$。求矩阵 $A$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（本题 20 分，卷面题干缺失，第 1 小题空白）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "【题干缺失】若 $A=\\begin{pmatrix}【?】\\end{pmatrix}$（卷面矩阵未写出），求 $g(x)$ 使 $g(A)=0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\{AX\\mid AX\\ 【?】\\}$ 与 $\\{X\\mid AX=0\\}$（卷面记号与条件未写全）。求证：$R(A)\\cap V(A)=0$，$R(A)\\cap R(B)=0$【?】。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $AB=A-B$，$\\begin{pmatrix}A&0\\\\ 0&B\\end{pmatrix}$ 为正定矩阵。求证：$A$ 正定，$B$ 正定。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（本题 20 分）",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $AB=A-B$，$\\begin{pmatrix}A&0\\\\ 0&B\\end{pmatrix}$ 为正定矩阵。求证：$AB$ 正定。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（本题 20 分）",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $AB=A-B$，$\\begin{pmatrix}A&0\\\\ 0&B\\end{pmatrix}$ 为正定矩阵。若 $A^2-B^2$ 正定，求证：$A-B$ 正定。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "证明：$r(ABC)\\geqslant r(AB)+r(BC)-r(B)$。"
+        }
+      ]
+    }
+  ]
+}

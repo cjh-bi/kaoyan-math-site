@@ -1,0 +1,253 @@
+{
+  "msgid": "2247516229-5",
+  "exams": [
+    {
+      "school": "福州大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "45. 福州大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516229-5_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $a_1 > 0$，且 $a_{n+1} = \\dfrac{3(1+a_n)}{3+a_n}$ $(n=1,2,\\cdots)$，证数列 $\\{a_n\\}$ 收敛，并求出极限。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "证明闭区间 $[a,b]$ 上的连续函数 $f(x)$ 如果满足端点处函数值异号，则 $f(x)$ 在开区间 $(a,b)$ 内存在零点，即存在 $\\xi \\in (a,b)$，使得 $f(\\xi)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上可微，当 $x \\in (0,1)$ 时，$0 < f'(x) < 1$，$f(0)=0$。证明：\n$$\\left(\\int_0^1 f(x)\\,\\mathrm{d}x\\right)^{2} > \\int_0^1 f^{3}(x)\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明 $\\xi(x) = \\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{1}{n^{x}}$ 在 $(1,+\\infty)$ 连续，并有连续的各阶导函数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y) = |x-y|\\,\\varphi(x,y)$，其中 $\\varphi(x,y)$ 在点 $(0,0)$ 的某邻域连续。\n(1) $\\varphi(x,y)$ 在什么条件下，偏导数 $f_x(0,0), f_y(0,0)$ 存在？\n(2) $\\varphi(x,y)$ 在什么条件下，$f(x,y)$ 在点 $(0,0)$ 处可微？"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求平面 $\\alpha x + \\beta y + \\gamma z = 0$ 与圆柱面 $\\dfrac{x^{2}}{A^{2}} + \\dfrac{y^{2}}{B^{2}} = 1$ 截出的椭圆面积。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求曲面积分\n$$\\iint_{S} \\left(x^{2}\\cos^{2}\\alpha + y^{2}\\cos^{2}\\beta + z^{2}\\cos^{2}\\gamma\\right)\\mathrm{d}S.$$\n其中 $S: x^{2}+y^{2}=z^{2},\\ 0 \\le z \\le 1$，$\\cos\\alpha, \\cos\\beta, \\cos\\gamma$ 为外法线方向余弦。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "讨论 $\\displaystyle\\sum_{n=1}^{\\infty} \\left(1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}\\right)\\dfrac{\\sin nx}{n}$ 的敛散性。"
+        }
+      ]
+    },
+    {
+      "school": "福州大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "45. 福州大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516229-5_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $n$ 阶方阵 $A$ 满足 $A^{2}+2A-3E=O$，$E$ 为单位阵。则 $(A+4E)^{-1}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设实系数多项式 $f(x)=x^{3}+px+q$ 有一个根 $3+\\sqrt{-1}$，则 $p=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V_1, V_2$ 为 $n$ 维线性空间 $V$ 的子空间，且 $\\dim(V_1+V_2)=\\dim V_1 + 1$，则 $\\dim V_2 - \\dim(V_1 \\cap V_2)=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\varphi$ 是线性空间 $V$ 到 $W$ 的线性映射，$\\xi_1,\\xi_2,\\cdots,\\xi_n$ 及 $\\eta_1,\\eta_2,\\cdots,\\eta_n$ 分别为 $V$ 和 $W$ 的基，$A$ 是在这基下的矩阵，则 $\\varphi$ 为单射的充分必要条件是 $\\mathrm{rank}(A)=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A=\\begin{pmatrix} 6 & -10 \\\\ 2 & -3 \\end{pmatrix}$，则 $\\mathrm{tr}(A^{2023})=$ ______，其中 $\\mathrm{tr}(A)$ 表示矩阵 $A$ 的迹。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "1",
+          "score": 5,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A=\\begin{pmatrix} 2 & 1 \\\\ 1 & 4 \\end{pmatrix}$，矩阵 $B$ 满足 $BA=B+2E$，求 $\\det(B)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "2",
+          "score": 5,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设齐次线性方程组\n$$\\begin{cases} a x_1 + x_2 + x_3 = 0; \\\\ x_1 + a x_2 + x_3 = 0; \\\\ x_1 + x_2 + a x_3 = 0. \\end{cases}$$\n有非零解，求 $a$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "3",
+          "score": 5,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设向量 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ $(n>1)$ 线性无关，$\\beta=\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$，证明 $\\beta-\\alpha_1,\\beta-\\alpha_2,\\cdots,\\beta-\\alpha_n$ 线性无关。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "4",
+          "score": 5,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "确定二次型 $f(x_1,x_2,x_3)=4x_1 x_2+4x_1 x_3+4x_2 x_3$ 的正负惯性指数。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "简答题",
+          "no": "5",
+          "score": 5,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求矩阵 $A=\\begin{pmatrix} 3 & 2 & -5 \\\\ 2 & 6 & -10 \\\\ 1 & 2 & -3 \\end{pmatrix}$ 的不变因子组，初等因子组和 Jordan 标准形。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "1",
+          "score": 12,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "齐次线性方程组\n$$\\begin{cases} x_1 + x_2 + x_3 = 0; \\\\ a x_1 + b x_2 + x_3 = 0; \\\\ a^{2} x_1 + b^{2} x_2 + x_3 = 0. \\end{cases}$$\n(1) 当 $a,b$ 存在何种关系时，齐次线性方程组没有非零解？\n(2) 当 $a,b$ 存在何种关系时，齐次线性方程组有非零解？且求出全部解。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为实对称矩阵，证明：$\\mathrm{rank}(A)=\\mathrm{rank}(A^{T}A)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "3",
+          "score": 12,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "已知 $a,b,c,d$ 属于数域 $F$，且满足 $\\begin{vmatrix} a & b \\\\ c & d \\end{vmatrix} \\neq 0$，$f(x),g(x)$ 是数域 $F$ 上的多项式，证明：\n$$(af(x)+bg(x),\\,cf(x)+dg(x))=(f(x),g(x)).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "4",
+          "score": 12,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "已知 $\\Phi,\\Psi$ 为线性映射，且 $\\Phi:\\mathbb{R}^{n}\\to\\mathbb{R}^{s}$，$\\Psi:\\mathbb{R}^{m}\\to\\mathbb{R}^{n}$。证明：\n$$\\dim\\mathrm{Ker}(\\Phi\\Psi) \\le \\dim\\mathrm{Ker}(\\Phi)+\\dim\\mathrm{Ker}(\\Psi).$$\n其中 $\\mathrm{Ker}$ 为核空间。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "5",
+          "score": 12,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为 3 阶实对称矩阵，且 $A$ 的秩为 2，$\\lambda_1=\\lambda_2=2$，$\\lambda_1,\\lambda_2$ 对应的特征向量分别为 $\\alpha_1=(1,1,0)^{T}, \\alpha_2=(2,1,1)^{T}$，求另一个特征值及对应的特征向量，并求出矩阵 $A$。"
+        }
+      ]
+    }
+  ]
+}

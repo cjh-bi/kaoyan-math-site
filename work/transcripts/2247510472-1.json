@@ -1,0 +1,313 @@
+{
+  "msgid": "2247510472-1",
+  "exams": [
+    {
+      "school": "四川大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "61. 四川大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510472-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1^3+3^3+5^3+\\cdots+(2n+1)^3}{n^4}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to+\\infty}\\left(n-\\dfrac{1}{\\sqrt[n]{e}-1}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\cos x^2}{x}\\left[1-\\dfrac{\\ln(1+x)}{x}\\right]$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\int_0^x (u\\tan u-\\sin^2 u)\\,\\mathrm{d}u}{x^5}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算下列积分.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "计算 $\\displaystyle\\int\\dfrac{\\mathrm{d}x}{(2+\\sin x)\\cos x}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算下列积分.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求 $\\displaystyle\\int_L \\dfrac{(4x+y)\\,\\mathrm{d}x+(y-x)\\,\\mathrm{d}y}{4x^2+y^2}$，其中 $L$ 为右半圆周 $x=\\sqrt{1-y^2}$，从点 $A(0,-1)$ 到点 $B(0,1)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算下列积分.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求 $\\displaystyle\\iint_\\Sigma x^2\\,\\mathrm{d}y\\mathrm{d}z+z\\,\\mathrm{d}x\\mathrm{d}y$，其中 $\\Sigma$ 为 $z=x^2+y^2$ 介于 $z=0$ 与 $z=1$ 之间，方向取下侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算下列积分.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "求 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin^2 3x}{x^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "求级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{(n+1)^2}{4^n n!}$ 的和.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{(n+1)^2}{4^n n!}$ 的和。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数 $z=z(x,y)$ 具有一阶连续偏导数，且满足下列微分方程\n$$(xy+z)\\dfrac{\\partial z}{\\partial x}+(1-y^2)\\dfrac{\\partial z}{\\partial y}=x+yz.\\qquad(1)$$\n令 $u=yz-x$，$v=xz-y$，$w=xy-z$，证明：$\\dfrac{\\partial w}{\\partial v}=0$，并求方程 (1) 的通解。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $f(a)=f(b)$，证明：存在两个不同的点 $c,d\\in(a,b)$，使得 $f'(c)=-f'(d)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上可积，且 $\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x>0$，证明：存在 $[c,d]\\subset[a,b]$，使得 $f(x)>0$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求椭圆 $18x^2+5y^2=45$ 到直线 $4x+3y=16$ 的最短距离。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明：$f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^2\\sqrt[3]{n}}$ 在 $(-\\infty,+\\infty)$ 上连续且具有连续导函数。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上一致连续，则存在正数 $a,b$，使得 $|f(x)|\\le a|x|+b$。"
+        }
+      ]
+    },
+    {
+      "school": "四川大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "卷面无印刷标题（手写稿，据文章标题为四川大学 2022 年高等代数考研真题）",
+      "source_imgs": ["work/imgs/2247510472-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $A^2-2A+4E=0$，证明 $A-E$ 可逆，并将 $(A-E)^{-1}$ 表示成关于 $A$ 的多项式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "非零矩阵 $A$ 的列向量都是线性方程组\n$$\\begin{cases}x_1+x_2+x_3=0,\\\\ ax_1+2x_2+2x_3=0,\\\\ 2x_1+ax_2+2x_3=0\\end{cases}$$\n的解，求 $a$ 的值及 $|A|$ 的值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $A=\\begin{pmatrix} B & \\alpha \\\\ \\alpha^{\\mathsf T} & 1\\end{pmatrix}$（$|A|\\neq 0$【?】）可逆，求 $B$ 的秩的最小值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $A=(\\alpha_1,\\cdots,\\alpha_n)$，$\\alpha_1,\\cdots,\\alpha_n$ 为 $A$ 的 $n$ 个列向量，且 $AX=0$ 的通解为 $k\\,(1,\\cdots,1)^{\\mathsf T}$【?】，求 $A^{*}x=0$ 的一组基础解系。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $A=\\begin{pmatrix}2&0&0\\\\0&1&0\\\\1&1&1\\end{pmatrix}$ 且 $A^{*}BA=BA+E$，求 $B$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=x^{p}+x^{p-1}+\\cdots+x+1$，$p$ 为素数，且对 $n$ 阶矩阵 $A$ 有 $f(A)=0$。\n判断：$f(x)$ 在 $\\mathbb{Q}$ 上是否可约（并给出理由）。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设 $f(x)=x^{p}+x^{p-1}+\\cdots+x+1$，$p$ 为素数，且对 $n$ 阶矩阵 $A$ 有 $f(A)=0$。\n证明：$p-1\\mid n$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $f(x)=x^{p}+x^{p-1}+\\cdots+x+1$，$p$ 为素数，且对 $n$ 阶矩阵 $A$ 有 $f(A)=0$。\n若 $p-1=n$，求 $W=\\{X\\mid AX=XA,\\ X\\in\\mathbb{R}^{n\\times n}\\}$ 的维数。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设 $M_{2\\times 2}$【?】为全体二阶矩阵所成之空间，$A=\\begin{pmatrix}1&2022\\\\0&1\\end{pmatrix}$，$\\mathfrak{A}$ 是 $M$ 上的线性变换，对于 $X\\in M$ 有 $\\mathfrak{A}(X)=AX-XA$。\n求 $\\mathfrak{A}$ 的最小多项式和若尔当标准型。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $M_{2\\times 2}$【?】为全体二阶矩阵所成之空间，$A=\\begin{pmatrix}1&2022\\\\0&1\\end{pmatrix}$，$\\mathfrak{A}$ 是 $M$ 上的线性变换，对于 $X\\in M$ 有 $\\mathfrak{A}(X)=AX-XA$。\n是否存在 $M$ 的一组基，使得 $\\mathfrak{A}$ 在这组基下的矩阵是 $B=\\begin{pmatrix}*&*&*&*\\\\*&*&*&*\\\\*&*&*&*\\\\*&*&*&*\\end{pmatrix}$（注：具体数值忘了，但不影响，$B$ 满足：① $|\\lambda E-B|=\\lambda^4$；② 且 $B^2\\neq 0$，$B^3=0$。只要找出发满足①②即可）。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $M_{2\\times 2}$【?】为全体二阶矩阵所成之空间，$A=\\begin{pmatrix}1&2022\\\\0&1\\end{pmatrix}$，$\\mathfrak{A}$ 是 $M$ 上的线性变换，对于 $X\\in M$ 有 $\\mathfrak{A}(X)=AX-XA$。\n是否存在 $M$ 上的线性变换 $\\varphi$ 使得 $\\mathfrak{A}=\\varphi^{3}$？"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "规范正交基",
+          "stem": "$\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 是欧氏空间 $\\mathbb{R}^3$ 的一组基，其度量矩阵为 $G=\\begin{pmatrix}3&1&1\\\\1&2&1\\\\1&1&2\\end{pmatrix}$。\n给出两种求标准正交基的方法（不需要证明），并求出 $\\mathbb{R}^3$ 的一组标准正交基。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "$f(x)$，$g(x)$ 都是有理系数多项式，存在无穷多个有理数 $c_i$（$i=1,\\cdots$）使得 $f(c_i)\\mid g(c_i)h(c_i)$【?】。\n证明：存在有理系数多项式 $h(x)$ 使得 $f(x)\\mid g(x)h(x)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "判断",
+          "l1": "多项式",
+          "l2": "整值多项式",
+          "stem": "$f(x)$，$g(x)$ 都是有理系数多项式，存在无穷多个有理数 $c_i$（$i=1,\\cdots$）使得 $f(c_i)\\mid g(c_i)h(c_i)$【?】。\n$h(x)$ 是否为整系数多项式？（原稿注：忘了是问\"是否为整系数多项式\"还是\"证明一定为整系数多项式了\"，但不影响，都是围绕 $h(x)$ 是否为整系数多项式。）"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "msgid": "2247510505-2",
+  "exams": [
+    {
+      "school": "西安交通大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "66. 西安交通大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510505-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "解如下问题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$D_n=\\begin{vmatrix} x & 0 & 0 & \\cdots & 0 & a_0 \\\\ -1 & x & 0 & \\cdots & 0 & a_1 \\\\ 0 & -1 & x & \\cdots & 0 & a_2 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & x & a_{n-2} \\\\ 0 & 0 & 0 & \\cdots & -1 & x+a_{n-1} \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解如下问题.",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "若 $A$ 为幂零矩阵，即存在正整数 $l$，使得 $A^l=O$。证明 $I-A$ 可逆，并求出逆。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $n$ 阶矩阵 $A$ 存在 $n$ 个互不相同的特征值，且 $n$ 阶矩阵 $B$ 满足 $AB=BA$，证明：存在多项式 $$f(x)=c_0+c_1x+\\cdots+c_nx^n.$$ 使得 $f(A)=B$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "若 $n$ 阶矩阵 $A,B,C$ 满足 $AB-BA=C$，$AC=CA$，证明：对任意正整数 $k$，有 $\\mathrm{tr}(C^k)=0$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $n$ 阶矩阵 $$A=\\begin{pmatrix} 0 & 1 & & & \\\\ 1 & 0 & 1 & & \\\\ & 1 & 0 & \\ddots & \\\\ & & \\ddots & \\ddots & 1 \\\\ & & & 1 & 0 \\end{pmatrix}.$$ 证明：$A$ 的特征值均为实数，且两两互不相同。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V$ 为实数域上的函数构成的集合。\n(1) 证明 $V$ 关于函数的加法及数与函数的乘法构成实数域上的线性空间；\n(2) 记 $V_1$ 是偶函数构成的集合，$V_2$ 是奇函数构成的集合，证明：$V=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 是实数域上二阶矩阵构成的线性空间，$A\\in V$，定义线性变换 $\\sigma(X)=AX$，$X\\in V$。\n(1) 证明 $\\sigma$ 为可逆线性变换的充要条件是 $A$ 可逆；\n(2) 若 $A=\\begin{pmatrix} 1 & 4 \\\\ 4 & 16 \\end{pmatrix}$，证明存在 $V$ 的一组基，使得 $\\sigma$ 在这组基下的矩阵为对角矩阵。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $V$ 是数域 $P$ 上的四维线性空间，$\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 为 $V$ 的一组基，定义 $V$ 上的线性变换 $T$，其在 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 下对应的矩阵为 $A=$（数据未知），记 $$\\eta_1=\\alpha_1-2\\alpha_2+\\alpha_4,\\ \\eta_2=\\alpha_2+\\alpha_3+2\\alpha_4,\\ \\eta_3=（数据未知）,\\ \\eta_4=2\\alpha_4.$$ 求 $T$ 在 $\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 下的矩阵。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $M$ 为 $n\\times m$ 矩阵，若 $\\lambda_0$ 是 $$\\begin{pmatrix} O & M \\\\ M^T & O \\end{pmatrix}$$ 的特征值，则 $-\\lambda_0$ 也为它的特征值。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $n$ 为奇数，$n$ 阶矩阵 $A$ 的主对角线元素为零，每行其余元素均为 $1$ 或 $-1$，且 $1$ 与 $-1$ 的个数相同，证明：$A$ 的秩 $\\mathrm{rank}(A)=n-1$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $$A=\\begin{pmatrix} 2 & -1 & 1 \\\\ 1 & 2 & -1 \\\\ -1 & 1 & 2 \\end{pmatrix},$$ 证明：对任意正整数 $k$，$A^k$ 中所有元素之和可以被 $6$ 整除。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "msgid": "2247516337-2",
+  "exams": [
+    {
+      "school": "中山大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "57. 中山大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516337-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）计算积分.",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "计算积分 $\\int \\dfrac{1+x^4}{1+x^6}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（15 分）计算积分.",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算积分 $\\int_0^{\\frac{\\pi}{2}} \\dfrac{\\cos x}{\\sin x+\\cos x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）判别敛散性.",
+          "no": "1",
+          "score": 7,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判别敛散性：$\\displaystyle\\sum_{n=1}^{\\infty} 2022^n \\sin \\dfrac{\\pi}{2023^n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）判别敛散性.",
+          "no": "2",
+          "score": 8,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判别敛散性：$\\displaystyle\\sum_{n=1}^{\\infty} (-1)^n \\dfrac{1}{2^n}\\left(1+\\dfrac{1}{n}\\right)^{n^2}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求 $f(x)=\\dfrac{x^2}{(1+x^2)^2}$ 的幂级数展开式."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 为 $(-\\infty,+\\infty)$ 上的连续函数, 且当 $x\\neq 0$ 时, 有 $|f(x)|<|x|$, 定义\n$$f_1(x)=f(x), f_2(x)=f(f_1(x)), \\cdots, f_{n+1}(x)=f(f_n(x)), \\cdots .$$\n求证: $\\{f_n(x)\\}$ 在任意有限区间 $[-a,a]$ 上一致收敛于 $0$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设 $f(x)$ 是以 $2\\pi$ 为周期的函数, 其傅里叶级数展开式系数为 $a_0, a_n, b_n$ $(n=1,2,\\cdots)$, 若存在 $L\\in(0,1]$, 使得对任意的 $x,y$, 有\n$$|f(x)-f(y)|\\le L|x-y|^{\\alpha}.$$\n求证: $a_n, b_n=o\\left(\\dfrac{1}{n^{\\alpha}}\\right)$, 即存在常数 $D>0$, 使得 $|a_n|,|b_n|\\le \\dfrac{D}{n^{\\alpha}}$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求重积分 $\\displaystyle\\iint_{|x|+|y|\\le 1} \\cos(x+y)\\,\\mathrm{d}x\\mathrm{d}y$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ $(a,b,c>0)$ 上一点处的切平面, 使得该平面与坐标平面围成立体的体积最小."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）求曲线积分",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求曲线积分\n$$\\int_L e^{y}\\cos x\\,\\mathrm{d}x+(e^{y}\\sin x-x^2)\\,\\mathrm{d}y.$$\n其中 $L$ 为右半圆 $x^2+y^2=ay$ $(y\\ge 0)$, 方向从 $(0,0)$ 到 $(0,a)$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求 $\\displaystyle\\iint_{\\Sigma} x^2\\,\\mathrm{d}y\\mathrm{d}z$, $\\Sigma$ 为 $(x-1)^2+(y-2)^2+(z-3)^2=1$, 方向取外侧."
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $\\dfrac{\\partial f}{\\partial x}, \\dfrac{\\partial f}{\\partial y}$ 在 $(x_0,y_0)$ 的一个邻域内存在, 且 $\\dfrac{\\partial f}{\\partial x}, \\dfrac{\\partial f}{\\partial y}$ 在 $(x_0,y_0)$ 处可微, 证明:\n$$\\dfrac{\\partial^2 f}{\\partial x\\partial y}(x_0,y_0)=\\dfrac{\\partial^2 f}{\\partial y\\partial x}(x_0,y_0).$$"
+        }
+      ]
+    },
+    {
+      "school": "中山大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "57. 中山大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516337-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）已知行列式",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知行列式\n$$\\begin{vmatrix} 1 & 9 & 2 & 4 \\\\ 1 & 9 & 2 & 6 \\\\ 2 & 0 & 0 & 1 \\\\ 2 & 0 & 2 & 3 \\end{vmatrix}.$$\n$M_{ij}$ 表示 $(i,j)$ 元素的余子式, 求 $M_{21}-2M_{22}-3M_{23}+4M_{24}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）已知矩阵",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix} 4 & 1 & 0 & -1 \\\\ 0 & 3 & 0 & 1 \\\\ 0 & 0 & 4 & 0 \\\\ 1 & 0 & 0 & 5 \\end{pmatrix}.$$\n(1) 求 $A$ 的特征多项式 $f_A(x)$;\n(2) 求 $A$ 的最小多项式 $m_A(x)$;\n(3) 求 $A$ 的若尔当标准形."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "已知 $f(x)=x^4+2x^3-4x^2-7x-2$, $g(x)=x^3-2x-4$.\n(1) 求 $f(x)$ 与 $g(x)$ 的首一最大公因式 $(f(x),g(x))$;\n(2) 求多项式 $u(x),v(x)$ 使得\n$$u(x)f(x)+v(x)g(x)=(f(x),g(x)).$$\n且 $\\deg(u(x))<\\deg(f(x))$, $\\deg(v(x))<\\deg(g(x))$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $\\mathbb{R}^4$ 中多项式\n$$Q=x_1^2+x_2^2+x_3^2-2x_4^2+6x_1x_2+4x_1x_4+4x_2x_3+6x_2x_4-2x_3x_4.$$\n求 $Q$ 的正负惯性指数."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $V$ 是 $n$ 维复线性空间, $A,B$ 是 $V$ 上的线性变换, 且 $AB-BA=2023B$. 证明: 存在 $A$ 的特征向量 $u$, 使得 $B(u)=0$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A,B$ 是 $n$ 阶复方阵, 证明: $A,B$ 有公共的特征值当且仅当存在 $n$ 阶非零复方阵 $X$, 使得 $AX=XB$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 是 $n$ 阶矩阵, $A^2=A$, 证明: $r(A)+r(A-I)=n$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为 $n$ 阶复方阵, $\\lambda$ 为 $A$ 的特征值, 假设存在正数 $M$, 使得对任意正整数 $p$, $A^p$ 的所有元素模长都小于 $M$, 证明: $|\\lambda|\\le 1$, 且当 $\\lambda=1$ 时, $\\lambda$ 的几何重数等于代数重数."
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\langle\\ ,\\ \\rangle$ 为 $\\mathbb{R}^2$ 上的标准内积, 记 $S:=\\left\\{\\left(\\cos\\dfrac{k\\pi}{3}, \\sin\\dfrac{k\\pi}{3}\\right)\\mid k\\in\\mathbb{Z}\\right\\}$, $f$ 是 $\\mathbb{R}^2\\to\\mathbb{R}^2$ 的线性变换, 且满足\n(1) $\\forall u\\in S$, $f(u)\\in S$;\n(2) 存在 $S$ 中的向量 $a$ 与 $\\mathbb{R}^2$ 中非零向量 $b$, 使得 $f(a)=-a$, $f(b)=b$.\n证明: 对任意的 $v\\in\\mathbb{R}^2$, 有 $f(v)=v-2\\langle v,a\\rangle a$."
+        },
+        {
+          "section": "十",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $3$ 阶正定矩阵, $v_1,v_2,\\cdots,v_k$ 为 $\\mathbb{R}^3$ 中的 $k$ 个列向量, 满足 $\\forall i,j\\in\\{1,2,\\cdots,k\\}$, 当 $i\\neq j$ 时, $v_i^T A v_j\\le -\\dfrac{1}{2023}$, $v_i^T$ 表示 $v_i$ 的转置, 证明: $k\\le 4$."
+        }
+      ]
+    }
+  ]
+}

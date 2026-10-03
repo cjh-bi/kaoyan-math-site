@@ -1,0 +1,343 @@
+{
+  "msgid": "2247510505-4",
+  "exams": [
+    {
+      "school": "长安大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "68. 长安大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510505-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0^+} x^x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\dfrac{\\int_1^x [t^2(e^{\\frac{1}{t}}-1)-t]\\,\\mathrm{d}t}{x^2\\ln(1+\\frac{1}{x})}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int \\sqrt{x}\\sin\\sqrt{x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算定积分 $\\displaystyle\\int_1^e \\dfrac{\\mathrm{d}x}{x(2+\\ln^2 x)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算定积分 $\\displaystyle\\int_0^{\\frac{\\pi}{2}} \\sin^n x\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "求 $x^y = x^2 y$ 在 $(1,1)$ 处的切线方程。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "计算广义积分 $\\displaystyle\\int_0^{+\\infty} \\dfrac{e^{-ax}-e^{-bx}}{x}\\,\\mathrm{d}x$ $(0<a<b)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二型曲面积分\n$$\\iint\\limits_{\\Sigma} (x-1)^3\\,\\mathrm{d}y\\mathrm{d}z+(y-1)^3\\,\\mathrm{d}z\\mathrm{d}x+(z-1)^3\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为 $z=x^2+y^2$ 在 $z\\le 1$ 的部分，方向取上侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "论述题(判断下列说法是否正确, 正确的给出证明, 错误的举出反例)",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "若数列 $\\{a_n\\}$ 的子列 $\\{a_{2k}\\}$ 和 $\\{a_{2k+1}\\}$ 收敛到同一极限, 则数列 $\\{a_n\\}$ 收敛。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "论述题(判断下列说法是否正确, 正确的给出证明, 错误的举出反例)",
+          "no": "2",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $a_n>0$, 且 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{\\frac{1}{n}}=0$, 那么数项级数 $\\displaystyle\\sum_{n\\ge 1}^{\\infty} a_n$ 收敛。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "论述题(判断下列说法是否正确, 正确的给出证明, 错误的举出反例)",
+          "no": "3",
+          "score": null,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "已知 $\\displaystyle\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛, 且 $\\lim\\limits_{x\\to+\\infty} f(x)=A$, 则 $A=0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "论述题(判断下列说法是否正确, 正确的给出证明, 错误的举出反例)",
+          "no": "4",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "若 $f(x,y)$ 沿任一直线极限都存在且相等, 则当 $(x,y)\\to(0,0)$ 时, 有 $f(x,y)$ 在 $(0,0)$ 处极限存在。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知函数 $f(x)$ 在 $[a,b]$ 上连续, 在 $(a,b)$ 上可导, 证明: 存在 $\\xi\\in(a,b)$, 使得\n$$2\\xi[f(b)-f(a)]=(b^2-a^2)f'(\\xi).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "若函数 $f(x)$, $g(x)$ 在 $[a,b]$ 上连续, $g(x)$ 在 $[a,b]$ 上不变号, 则至少存在一点 $\\xi\\in[a,b]$, 使得\n$$\\int_a^b f(x)g(x)\\,\\mathrm{d}x=f(\\xi)\\int_a^b g(x)\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明: 若正项级数 $\\displaystyle\\sum_{n=1}^{\\infty} u_n$ 收敛, 且 $\\{u_n\\}$ 单调, 则 $\\lim\\limits_{n\\to\\infty} n u_n=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明: 函数 $f(x)$ 在 $(a,b)$ 上一致收敛的充要条件为 $f(x)$ 在 $(a,b)$ 上连续且 $f(a+0)$ 与 $f(b-0)$ 为有限值。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明: $\\displaystyle\\int_c^{+\\infty} f(x,y)\\,\\mathrm{d}y$ 在 $I$ 上一致收敛的充要条件为: 对任意趋于 $+\\infty$ 的递增数列 $\\{A_n\\}$, 其中 $A_1=c$, 函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\int_{A_n}^{A_{n+1}} f(x,y)\\,\\mathrm{d}y=\\sum_{n=1}^{\\infty} u_n(x)$ 在 $I$ 上一致收敛。"
+        }
+      ]
+    },
+    {
+      "school": "长安大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "68. 长安大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510505-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "公共根",
+          "stem": "若多项式 $f(x)=x^3-\\lambda x+2$ 与 $g(x)=x^2+\\lambda x+2$ 有公共根, 则 $\\lambda=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $n$ 阶行列式 $D_n$ 的元素 $d_{ij}=\\begin{cases}a_i & (i=j)\\\\ x & (i\\ne j)\\end{cases}$, 则 $D_n$ 的值为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "设 $n\\ge 3$, $J_n$, $E_n$ 分别是 $n$ 阶元素全为 $1$ 的方阵和单位矩阵, 若对角矩阵 $D$ 的主对角线元 $d_1\\ge d_2\\ge\\cdots\\ge d_n$, 且 $D$ 与 $J_n-2E_n$ 合同, 则 $d_i$ 满足条件______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $n$ 阶可逆方阵 $H$ 的元素 $h_{ij}=\\begin{cases}a_i & (i=1,2,\\cdots,n-1;\\ j=i+1)\\\\ a_n & (i=n,\\ j=1)\\\\ 0 & (\\text{其余情况})\\end{cases}$, 则 $H^{-1}=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "三阶矩阵 $A$ 的行列式因子为 $1,\\lambda-2,(\\lambda-2)^3$, 则 $A$ 的有理标准形为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "欧氏空间 $\\mathbb{R}^4$ 中, 向量 $\\alpha=(1,2,2,3)^T$ 和 $\\beta=(3,1,5,1)^T$ 的夹角为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "已知\n$$f_1(x)=af(x)+bg(x),\\ g_1(x)=cf(x)+dg(x).$$\n其中 $ad-bc\\ne 0$, 证明: $(f(x),g(x))=(f_1(x),g_1(x))$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $n$ 阶方阵, 若 $A^2=E$, 证明: $r(A+E)+r(A-E)=n$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "求解矩阵方程\n$$X\\begin{pmatrix}1 & 0 & 5\\\\ 1 & 1 & 2\\\\ 1 & 2 & 5\\end{pmatrix}=\\begin{pmatrix}1 & 1 & 2\\\\ 0 & 0 & -6\\end{pmatrix}.$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 是 $n$ 阶实对称矩阵, 证明: 存在可逆实对称矩阵 $B$ 使得 $B^2=A$ 的充分必要条件是 $A$ 为正定矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A=\\begin{pmatrix}3 & -1 & -1\\\\ -1 & 3 & -1\\\\ -1 & -1 & 3\\end{pmatrix}$, $B=A^2+2A$, 求正交矩阵 $U$ 及对角矩阵 $\\Lambda$, 使得 $\\Lambda=U^TBU$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求矩阵 $A=\\begin{pmatrix}3 & -1 & 0 & 0\\\\ 1 & 1 & 0 & 0\\\\ 3 & 0 & 5 & -3\\\\ 4 & -1 & 3 & -1\\end{pmatrix}$ 的若尔当标准形和最小多项式。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\eta$ 是 $n$ 维欧氏空间 $V$ 中的单位向量, 定义线性变换 $\\sigma(\\alpha)=\\alpha-2(\\eta,\\alpha)\\eta$, $\\alpha\\in V$。\n(1) 证明: $\\sigma$ 是 $V$ 上的正交变换, 且这样的正交变换称为镜面反射;\n(2) 证明: 如果 $V$ 上的正交变换 $\\tau$ 以 $1$ 作为特征值, 且属于特征值 $1$ 的特征子空间的维数为 $n-1$, 那么 $\\tau$ 是镜面反射。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设\n$$A=\\begin{pmatrix}1 & k & 1\\\\ 1 & -1 & 1\\\\ k & 1 & 2\\end{pmatrix},\\ e=\\begin{pmatrix}1\\\\ 1\\\\ 1\\end{pmatrix}.$$\n讨论 $k$ 取何值时, 方程组 $AX=e$ 无解, 有唯一解, 有无穷多解, 并在有无穷多解时求通解。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "(10 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "叙述并证明线性变换(或矩阵)的哈密顿-凯莱定理。"
+        }
+      ]
+    }
+  ]
+}

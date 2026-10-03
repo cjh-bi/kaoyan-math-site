@@ -1,0 +1,303 @@
+{
+  "msgid": "2247516351-2",
+  "exams": [
+    {
+      "school": "电子科技大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "63. 电子科技大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516351-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "$\\lim_{n\\to\\infty}\\left(\\dfrac{1}{n+1}+\\dfrac{1}{n+2}+\\cdots+\\dfrac{1}{2n}\\right)=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim_{x\\to 0}(\\cos x)^{x^{-2}}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim_{x\\to 0}\\dfrac{x^2}{\\int_{\\cos x}^{1}e^{-t^2}\\,\\mathrm{d}t}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "曲面 $z-e^{z}-xy+3=0$ 在点 $(2,1,0)$ 处的法线方程为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u=e^{x}+\\sin y+t$, $x=st$, $y=s+t$, 则 $\\dfrac{\\partial u}{\\partial t}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "$f(x)=\\begin{cases}x, & x\\in[-\\pi,0);\\\\ 0, & x\\in[0,\\pi).\\end{cases}$ 的 Fourier 级数的和函数 $S(x)=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求使得不等式 $\\left(1+\\dfrac{1}{n}\\right)^{n+\\alpha}>e$ 对所有正整数 $n$ 都成立的最小的数 $\\alpha$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设 $z=z(x,y)$ 是由方程\n$$2x^{2}+y^{2}+z^{2}+2xy-2x-2y-4z+4=0$$\n确定的二元函数, 求 $z=z(x,y)$ 的极值点与极值."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求三重积分\n$$I=\\iiint_{\\Omega}x^{2}\\sqrt{x^{2}+y^{2}}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $\\Omega$ 是由锥面 $z=\\sqrt{x^{2}+y^{2}}$ 与旋转抛物面 $z=x^{2}+y^{2}$ 所围成的有界区域."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $\\Gamma$ 是以 $(1,0)$ 为中心、$r$ 为半径的圆周 $(r\\neq 1)$, 取逆时针方向为正向. 求第二型曲线积分\n$$I=\\oint_{\\Gamma}\\dfrac{-y\\,\\mathrm{d}x+x\\,\\mathrm{d}y}{4x^{2}+y^{2}}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求定积分 $\\displaystyle\\int_{0}^{1}\\dfrac{x^{2}-x}{\\ln x}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 40 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f$ 在 $[a,b]$ 上连续, 在 $(a,b)$ 上可导, 且存在 $c\\in(a,b)$, 使得 $f'(c)=0$. 证明: 存在 $\\xi\\in(a,b)$, 使得 $f'(\\xi)-f(\\xi)+f(a)=0$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 40 分)",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设函数 $f\\in C^{1}[0,+\\infty)$, $f(0)>0$ 且 $f'(x)\\ge 0$, $x\\in[0,+\\infty)$. 证明: 若反常积分 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{1}{f(x)+f'(x)}\\,\\mathrm{d}x$ 收敛, 则反常积分 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{1}{f(x)}\\,\\mathrm{d}x$ 也收敛."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 40 分)",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "若 $p>1$, 证明: 数项级数 $\\displaystyle\\sum_{n=2}^{\\infty}\\dfrac{\\sin(2\\pi\\sqrt{n^{2}+1})}{(\\ln n)^{p}}$ 收敛."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 10 分, 共 40 分)",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设函数 $g\\in C[a,b]$, $f$ 在 $g$ 的值域上有定义. 证明: 若 $f\\circ g\\in C[a,b]$, 则 $f$ 在 $g$ 的值域上连续."
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题(每题 15 分, 共 30 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设函数 $f\\in C^{2}[0,1]$, $f'(0)=1$, $f''(0)\\neq 0$ 且 $0<f(x)<x$, $x\\in(0,1)$. 另\n$$a_{1}\\in(0,1),\\ a_{n+1}=f(a_{n})\\ (n=1,2,\\cdots).$$\n(1) 证明: 数列 $\\{a_{n}\\}$ 收敛, 并求 $\\lim\\limits_{n\\to\\infty}a_{n}$;\n(2) 试问数列 $\\{na_{n}\\}$ 是否一定收敛? 若不一定收敛, 请举出反例; 若收敛, 求其极限 $\\lim\\limits_{n\\to\\infty}na_{n}$."
+        }
+      ]
+    },
+    {
+      "school": "电子科技大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "63. 电子科技大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516351-2_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "行列式 $D_{5}=\\begin{vmatrix}1&2&3&4&5\\\\2&1&2&3&4\\\\3&2&1&2&3\\\\4&3&2&1&2\\\\5&4&3&2&1\\end{vmatrix}$ 的值为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "设 2023 阶矩阵 $A$ 满足 $A^{8}=O$, 则 $\\operatorname{rank} A$ 的最大值为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V$ 是全体 4 阶实矩阵关于矩阵加法和数乘构成的实线性空间, 记\n$$V_{1}=\\{A\\in V\\mid A^{T}=A\\},\\ V_{2}=\\{(a_{ij})\\mid a_{ij}=0,\\ \\forall i>j\\}.$$\n则 $\\dim(V_{1}+V_{2})-\\dim(V_{1}\\cap V_{2})=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "将 $\\{A\\in\\mathbb{R}^{4}\\mid A^{2}=2A+3I\\}$ 按其在实数域上是否相似来分类, 共分为 ______ 类."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设实二次型 $f(x_{1},x_{2},x_{3})=x_{1}^{2}-x_{2}^{2}+2ax_{1}x_{3}+4x_{2}x_{3}$ 的负惯性指数为 1, 则 $a$ 的范围是 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设 $A=\\begin{pmatrix}1&1\\\\-3&5\\end{pmatrix}$, $B=\\begin{pmatrix}4&0&1\\\\0&2&0\\\\4&0&4\\end{pmatrix}$, $f(x)$ 是使得 $f(A)=O$ 且 $f(B)=O$ 的次数最小的首项系数为 1 的多项式, 则 $f'(0)=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 12 分, 共 60 分)",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "$\\lambda$ 为何值时, 齐次线性方程组\n$$\\begin{cases}(\\lambda-2)x_{1}-3x_{2}-2x_{3}=0;\\\\ -x_{1}+(\\lambda-8)x_{2}-2x_{3}=0;\\\\ 2x_{1}+14x_{2}+(\\lambda+3)x_{3}=0.\\end{cases}$$\n有非零解? 并求方程组的通解."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 12 分, 共 60 分)",
+          "no": "2",
+          "score": 12,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "4 阶实矩阵 $A$ 的秩为 2, 线性无关的向量 $\\alpha,\\beta\\in\\mathbb{R}^{4}$ 满足 $A(\\alpha+\\beta)=4\\alpha+3\\beta$, $A(\\alpha-\\beta)=2\\alpha-3\\beta$, 试确定线性空间 $S=\\{B\\in\\mathbb{R}^{4\\times 4}\\mid AB=BA\\}$ 的维数."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 12 分, 共 60 分)",
+          "no": "3",
+          "score": 12,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "记 $F[x]_{4}$ 为数域 $F$ 上次数不超过 3 的多项式关于多项式的加法与 $F$ 数乘构成的线性空间. 线性变换 $\\mathscr{A}:F[x]_{4}\\to F[x]_{4}$, $f(x)\\mapsto f(2-x)$. 求 $\\mathscr{A}$ 的特征多项式和最小多项式."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 12 分, 共 60 分)",
+          "no": "4",
+          "score": 12,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $n$ ($n>1$) 元实二次型\n$$f(x_{1},x_{2},\\cdots,x_{n})=(x_{1},x_{2},\\cdots,x_{n})A\\begin{pmatrix}x_{1}\\\\x_{2}\\\\\\vdots\\\\x_{n}\\end{pmatrix},\\ \\text{其中}\\ A=\\begin{pmatrix}1&0&\\cdots&0\\\\2a&1&\\cdots&0\\\\\\vdots&\\vdots&\\ddots&\\vdots\\\\2a&2a&\\cdots&1\\end{pmatrix},\\ a\\in\\mathbb{R}.$$\n(1) 求 $f$ 在正交线性替换下的标准形(不用写出正交线性替换);\n(2) 若二次型 $f$ 正定, 求 $a$ 的取值范围."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 12 分, 共 60 分)",
+          "no": "5",
+          "score": 12,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $B=\\begin{pmatrix}2&-\\dfrac{1}{2}\\\\3&-\\dfrac{1}{2}\\end{pmatrix}$, $X=\\begin{pmatrix}1\\\\1\\end{pmatrix}$, 求 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\sum\\limits_{i=0}^{n-1}X^{T}B^{i}X$ 的值."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A},\\mathscr{B}$ 是 $n$ 维复线性空间 $V$ 上的线性变换, 满足 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$, $\\lambda$ 是 $\\mathscr{A}$ 的复特征值, 此时 $\\mathscr{A}$ 的相应特征子空间 $V_{\\lambda}=\\{\\alpha\\mid\\mathscr{A}\\alpha=\\lambda\\alpha\\}\\neq 0$. 【?】(图片在此截断，需证明的结论缺失)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "msgid": "2247516410-4",
+  "exams": [
+    {
+      "school": "湘潭大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "75. 湘潭大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516410-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限.\n(1) $\\lim\\limits_{x\\to 0}\\dfrac{e^x\\sin x - x(1+x)}{x^3}$；\n(2) $\\lim\\limits_{x\\to 0}\\dfrac{\\int_0^x \\sin t\\,\\mathrm{d}t}{x\\sin x}$；\n(3) $\\lim\\limits_{n\\to\\infty}\\left(1+\\dfrac{1}{2}+\\dfrac{1}{3}+\\cdots+\\dfrac{1}{n}\\right)^{\\frac{1}{n}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "解答如下问题:\n(1) 设函数 $y=y(x)$ 由 $e^{x^2+y}-x^2y=0$ 确定, 求 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x},\\dfrac{\\mathrm{d}^2y}{\\mathrm{d}x^2}$；\n(2) 设 $\\begin{cases}x=t(1-\\sin t);\\\\ y=t\\cos t.\\end{cases}$ 求 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x},\\dfrac{\\mathrm{d}^2y}{\\mathrm{d}x^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $a>0$, 计算曲线积分\n$$I=\\int_L (e^x\\sin y - y^2)\\,\\mathrm{d}x + e^x\\cos y\\,\\mathrm{d}y.$$\n$L$ 是从 $A(a,0)$ 到 $O(0,0)$ 的上半圆周 $x^2+y^2=ax$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint_S 2x^2\\,\\mathrm{d}y\\mathrm{d}z + 2y^2\\,\\mathrm{d}z\\mathrm{d}x + 2z^2\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 是锥面 $x^2+y^2=z^2$ $(0\\le z\\le h)$ 的外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty} x e^{-n x^2}$\n(1) 在 $[\\delta,+\\infty)$ 一致收敛(其中 $\\delta>0$)；\n(2) 在 $[0,+\\infty)$ 非一致收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "叙述非空数集 $E$ 的下确界定义, 并证明: 若 $E$ 为有界非空数集, 实数 $\\alpha=\\inf E$ ($E$ 的下确界), 且 $\\alpha\\notin E$, 则在 $E$ 中可选取严格单调递减数列 $\\{x_n\\}$, 使得 $\\lim\\limits_{n\\to\\infty} x_n=\\alpha$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "若 $f(x)$ 在 $(a,+\\infty)$ 内可导(其中 $a$ 是给定的实数), 且 $\\lim\\limits_{x\\to+\\infty} f'(x)=A$, 试证明: $\\lim\\limits_{x\\to+\\infty}\\dfrac{f(x)}{x}=A$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "解答如下问题:\n(1) 假设 $f$ 与 $g$ 都是区间 $[a,b]$ 上的连续函数, 证明:\n$$\\left|\\int_a^b f(x)g(x)\\,\\mathrm{d}x\\right|^2 \\le \\int_a^b f^2(x)\\,\\mathrm{d}x \\int_a^b g^2(x)\\,\\mathrm{d}x.$$\n(2) 对任意的 $\\varepsilon>0$, 存在常数 $C_\\varepsilon>0$, 使得对任意的 $f(x)\\in C^1[a,b]$, 有\n$$\\sup_{x\\in[a,b]} |f(x)|^2 \\le C_\\varepsilon \\int_a^b f^2(x)\\,\\mathrm{d}x + \\varepsilon\\int_a^b |f'(x)|^2\\,\\mathrm{d}x.$$"
+        }
+      ]
+    },
+    {
+      "school": "湘潭大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "75. 湘潭大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516410-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)$ 是一个整系数多项式, 且满足 $f(0)f(1)=2023$, 请问 $f(x)$ 是否有整数根? 并证明你的结论。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求行列式\n$$D_n=\\begin{vmatrix} 1 & a_1 & a_1^2 & \\cdots & a_1^{n-3} & a_1^{n-1} & a_1^n \\\\ 1 & a_2 & a_2^2 & \\cdots & a_2^{n-3} & a_2^{n-1} & a_2^n \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots & \\vdots \\\\ 1 & a_n & a_n^2 & \\cdots & a_n^{n-3} & a_n^{n-1} & a_n^n \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设有齐次线性方程组\n$$\\begin{cases} (1+\\lambda)x_1 + 2x_2 + 3x_3 + \\cdots + n x_n = 0;\\\\ x_1 + (2+\\lambda)x_2 + 3x_3 + \\cdots + n x_n = 0;\\\\ \\cdots\\cdots\\cdots\\\\ x_1 + 2x_2 + 3x_3 + \\cdots + (n+\\lambda)x_n = 0. \\end{cases}$$\n讨论该方程组解的情况。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $n$ 阶方阵, 满足 $A^2=2022A+2023E$, 求实数 $C_0,C_1$ $(C_0<C_1)$ 使得\n$$r(A+C_0E)+r(A+C_1E)=n.$$\n并证之, 这里 $r(A)$ 表示矩阵 $A$ 的秩。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 是 $n$ 阶正定矩阵。\n(1) 证明: $A^*$ 是正定矩阵；\n(2) $AB=BA$ 是 $AB$ 为正定矩阵的什么条件? 并证明你的结论。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $A=(a_{ij})_{m\\times n}$, $V_1$ 为 $AX=0$ 的解空间, 令\n$$\\alpha_i=(a_{i1},a_{i2},\\cdots,a_{in})\\ (i=1,2,\\cdots,m),$$\n$V_2=(\\alpha_1,\\alpha_2,\\cdots,\\alpha_m)$, 证明: $\\mathbb{R}^n=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $n$ 阶方阵 $A$ 和 $B$ 满足 $AB=A-B$, 证明:\n(1) $\\lambda=1$ 不是 $B$ 的特征值；\n(2) 若 $B$ 相似于对角阵, 则有可逆矩阵 $T$, 使得 $T^{-1}AT$ 与 $T^{-1}BT$ 均为对角矩阵。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "已知方阵 $A$ 的最小多项式为 $m(\\lambda)=\\lambda^3+\\lambda^2-\\lambda-1$。\n(1) 证明: $A$ 可逆, $A+E$, $A-E$ 均不可逆；\n(2) 如果 $A$ 的特征多项式为 $f(\\lambda)=(\\lambda-1)^2(\\lambda+1)^3$, 求 $A$ 的 Jordan 标准形。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\Gamma$ 是线性空间 $V$ 上的线性变换, $\\lambda_1,\\lambda_2,\\cdots,\\lambda_k$ 是 $\\Gamma$ 的 $k$ 个不同的特征值, 且 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_k$ 分别为这些特征值对应的特征向量. 证明: 若 $\\alpha_1+\\alpha_2+\\cdots+\\alpha_k\\in W$, 且 $W$ 是 $\\Gamma$ 的不变子空间, 则 $\\dim(W)\\ge k$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 均为 $n\\times n$ 实对称矩阵, 且 $|A|\\ne 0$. 证明: $A$ 为正定矩阵的充分必要条件是对所有正定矩阵 $B$, 恒有 $\\mathrm{tr}(AB)>0$, 这里 $\\mathrm{tr}(A)$ 表示矩阵 $A$ 的迹, 即 $A$ 的主对角元素之和。"
+        }
+      ]
+    }
+  ]
+}

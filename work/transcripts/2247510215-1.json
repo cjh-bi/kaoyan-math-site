@@ -1,0 +1,173 @@
+{
+  "msgid": "2247510215-1",
+  "exams": [
+    {
+      "school": "南开大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "20. 南开大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510215-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）计算定积分",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算定积分 $$\\int_0^{\\frac{\\pi}{4}} \\dfrac{\\sin x\\cos x}{\\sin^4 x+\\cos^4 x-5}\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "已知区域 $D=\\{(x,y)\\mid 0\\le x\\le \\sqrt{\\pi},\\,0\\le y\\le \\sqrt{\\pi}\\}$，计算二重积分 $$\\iint_D \\sin\\left(\\max\\{x^2,y^2\\}\\right)\\,\\mathrm{d}x\\mathrm{d}y.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n-1}}{n(2n+1)}$ 的和。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "设 $f(x,y)=x^3-3x^2y-y^3+x^2-y$。\n(1) 证明：存在 $\\delta>0$ 和定义在 $(-\\delta,\\delta)$ 上的连续可微函数 $y=y(x)$，满足 $y(0)=0$，且 $$f(x,y(x))=0,\\ \\forall x\\in(-\\delta,\\delta).$$\n(2) 证明：点 $0$ 是 (1) 中 $y(x)$ 的极小值点。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "已知函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上可导且下凸，证明：对任意实数 $x$，有 $$f(x+f'(x))\\ge f(x).$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $x_n=\\displaystyle\\sum_{k=0}^{n}\\dfrac{1}{k!}$，$n=1,2,\\cdots$，求极限 $$\\lim_{n\\to\\infty}\\left(\\dfrac{\\ln x_n}{\\sqrt[n]{e}-1}-n\\right).$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x),g(x)$ 都在 $[a,b]$ 上可积，证明：存在点 $x_0\\in[a,b]$，使得 $f(x),g(x)$ 都在点 $x_0$ 处连续。"
+        }
+      ]
+    },
+    {
+      "school": "南开大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "20. 南开大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510215-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（20 分）计算行列式",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$\\begin{vmatrix} 2^4+1 & 2^3 & 2^2 & 2 \\\\ 3^4+1 & 3^3 & 3^2 & 3 \\\\ 4^4+1 & 4^3 & 4^2 & 4 \\\\ 5^4+1 & 5^3 & 5^2 & 5 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知矩阵 $$A=\\begin{pmatrix} 2 & -1 & 0 \\\\ 1 & -1 & 1 \\\\ -1 & -1 & 1 \\end{pmatrix}.$$ 计算 $\\mathrm{tr}(A^{100})$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "记 $\\mathbb{R}[x]_4$ 为所有次数小于 $4$ 的实系数一元多项式构成的线性空间，线性变换 $\\mathscr{A}:\\mathbb{R}[x]_4\\to\\mathbb{R}[x]_4$ 定义为 $\\mathscr{A}(f(x))=f(x)-f(0)+f'(x)$。\n(1)（10 分）求 $\\mathscr{A}$ 在基 $1,x,x^2,x^3$ 下的矩阵；\n(2)（20 分）求 $\\mathscr{A}$ 的特征值与特征向量。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $n$ 为奇数，且 $n>1$，$A\\in\\mathbb{R}^{n\\times n}$，若 $A$ 的伴随矩阵恰好等于 $A$ 的转置，求 $|A^2-A|$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,\\ B\\in\\mathbb{R}^{n\\times n}$，且 $A$ 是正定矩阵，$B$ 是反称矩阵，证明：$|A+B|>0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f(x)\\in\\mathbb{R}[x]$，且 $f(x)$ 次数大于 $1$，证明：存在非零多项式 $g(x)\\in\\mathbb{R}[x]$，使得 $f(x)\\mid g(x^8)$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $V$ 是数域 $P$ 上的线性空间，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_r;\\beta_1,\\beta_2,\\cdots,\\beta_s$ 是 $V$ 中的两个向量组，其秩分别为 $R_1,\\ R_2$，矩阵 $C=(c_{ij})\\in P^{r\\times s}$ 满足 $$\\beta_j=\\sum_{i=1}^{r}c_{ij}\\alpha_i,\\ j=1,2,\\cdots,s.$$\n证明：$\\text{秩}(C)\\le R_2-R_1+r$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "已知 $A,B\\in\\mathbb{R}^{n\\times n}$，且满足 $\\text{秩}(ABA)=\\text{秩}(B)$，证明：$AB$ 与 $BA$ 相似。"
+        }
+      ]
+    }
+  ]
+}

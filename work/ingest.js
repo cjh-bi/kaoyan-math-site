@@ -31,7 +31,11 @@ const KY = JSON.parse(raw.slice('window.KY_DATA = '.length).replace(/;\s*$/, '')
 const vocab = JSON.parse(fs.readFileSync(path.join(ROOT, 'work', 'vocab.json'), 'utf8'));
 const codes = JSON.parse(fs.readFileSync(path.join(ROOT, 'work', 'school_codes.json'), 'utf8'));
 const manifest = JSON.parse(fs.readFileSync(path.join(ROOT, 'work', 'manifest.json'), 'utf8'));
-try { const m21 = JSON.parse(fs.readFileSync(path.join(ROOT, 'work', 'manifest2021.json'), 'utf8')); for (const r of m21) if (!manifest.some(x => x.msgid === r.msgid)) manifest.push(r); console.log('merged manifest2021:', m21.length, 'articles'); } catch (e) { console.log('no manifest2021:', e.message); }
+for (const mf of fs.readdirSync(path.join(ROOT, 'work'))) {
+  const mm = /^manifest(20\d\d)\.json$/.exec(mf);
+  if (!mm) continue;
+  try { const extra = JSON.parse(fs.readFileSync(path.join(ROOT, 'work', mf), 'utf8')); let n = 0; for (const r of extra) if (!manifest.some(x => x.msgid === r.msgid)) { manifest.push(r); n++; } console.log(`merged ${mf}: ${extra.length} articles (+${n})`); } catch (e) { console.log(`skip ${mf}:`, e.message); }
+}
 
 const existingPapers = new Set(KY.questions.map(q => q.qid.replace(/-q\d{4}$/, '')));
 const existingPaperKey = new Map(); // school|year|subject -> paperid

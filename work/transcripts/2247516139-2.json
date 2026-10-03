@@ -1,0 +1,203 @@
+{
+  "msgid": "2247516139-2",
+  "exams": [
+    {
+      "school": "东北大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "28. 东北大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516139-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{\\sqrt{1+x\\sin x}-\\sqrt{\\cos x}}{x\\tan x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\sum_{n=1}^{\\infty}\\dfrac{x^{2n+1}}{2n}$ 的和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$\\iint_{S}\\left[\\dfrac{x}{y}f\\left(\\dfrac{x}{y}\\right)+x^{3}\\right]\\mathrm{d}y\\mathrm{d}z+\\left[f\\left(\\dfrac{x}{y}\\right)+y^{3}\\right]\\mathrm{d}z\\mathrm{d}x+\\left[-\\dfrac{z}{y}f\\left(\\dfrac{x}{y}\\right)+z^{3}\\right]\\mathrm{d}x\\mathrm{d}y,$$\n其中 $f(u)$ 具有连续导数，$\\Sigma$ 为空间立体 $\\begin{cases}1\\le x^{2}+y^{2}+z^{2}\\le 4\\\\ z\\ge\\sqrt{x^{2}+y^{2}}\\end{cases}$ 的表面，方向取外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z$ 具有二阶连续偏导数，变换 $\\begin{cases}u=x-2y\\\\ v=x+ay\\end{cases}$ 把方程\n$$6\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial x\\partial y}-\\dfrac{\\partial^{2}z}{\\partial y^{2}}=0$$\n简化为 $\\dfrac{\\partial^{2}z}{\\partial u\\partial v}=0$，求常数 $a$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知数列 $\\{y_n\\}$ 有界，定义 $x_n=\\dfrac{y_1}{1\\cdot 2}+\\dfrac{y_2}{2\\cdot 3}+\\cdots+\\dfrac{y_n}{n(n+1)}$，判断 $\\{x_n\\}$ 的敛散性，并给出证明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "判断函数项级数 $\\sum_{n=1}^{\\infty}\\dfrac{nx}{1+n^{5}x^{2}}$，$x\\in(-\\infty,+\\infty)$ 是否一致收敛，并给出证明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "判断 $f(x)=x^{2}$ 在 $(-\\infty,+\\infty)$ 是否一致连续，并给出证明。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明 $\\int_{1}^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x$ 为条件收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "不等式证明",
+          "stem": "证明对任意的 $a,b,c\\in\\mathbb{R}$ 且 $a,b,c>0$，恒有不等式 $abc^{3}\\le 27\\left(\\dfrac{a+b+c}{5}\\right)^{5}$ 成立。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 的一阶导数在 $[0,1]$ 上连续，且 $f(0)=f(1)=0$，证明：$\\left|\\int_{0}^{1}f(x)\\,\\mathrm{d}x\\right|\\le\\dfrac{1}{4}\\max\\limits_{0\\le x\\le 1}|f'(x)|$。"
+        }
+      ]
+    },
+    {
+      "school": "东北大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "28. 东北大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516139-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "多项式 $f(x)=x^{5}-x^{3}-4x^{2}-3x-2$ 在 $\\mathbb{R}$ 上是否有重根？若没有重根，请说明理由；若有重根，请求出重根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设行列式\n$$D=\\begin{vmatrix}a&b&c&d\\\\ -b&a&-d&c\\\\ -c&d&a&-b\\\\ -d&-c&b&a\\end{vmatrix}.$$\n(1) 求 $D$ 中第一行第一列元素的余子式；\n(2) 求 $A_{11}+A_{12}+A_{13}+A_{14}$；\n(3) 求行列式 $D$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设矩阵\n$$A=\\begin{pmatrix}1&-2&3&-1\\\\ 0&1&-1&1\\\\ 1&2&0&-2\\end{pmatrix}.$$\n(1) 求 $A^{T}A$ 的秩；\n(2) 求矩阵 $B$，使得 $AB=E$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 是 3 维线性空间 $V$ 中的一组基，已知 $V$ 上的线性变换 $\\mathscr{A}$ 满足\n$$\\mathscr{A}\\varepsilon_1+2\\mathscr{A}\\varepsilon_2+3\\mathscr{A}\\varepsilon_3=6\\varepsilon_1+7\\varepsilon_2+8\\varepsilon_3;$$\n$$3\\mathscr{A}\\varepsilon_2+4\\mathscr{A}\\varepsilon_3=6\\varepsilon_1+9\\varepsilon_2+4\\varepsilon_3;$$\n$$4\\mathscr{A}\\varepsilon_2+5\\mathscr{A}\\varepsilon_3=8\\varepsilon_1+12\\varepsilon_2+5\\varepsilon_3.$$\n(1) 是否存在 $V$ 的一组基，使得 $\\mathscr{A}$ 在此基下的矩阵为对角阵，是的话求对应的基与矩阵；不是的话请说明理由。\n(2) 求 $\\mathscr{A}$ 在基 $\\varepsilon_1,\\varepsilon_1+\\varepsilon_2,\\varepsilon_1+\\varepsilon_2+\\varepsilon_3$ 下的矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 是 3 维欧氏空间 $V$ 的一组标准正交基，已知 $\\alpha=3\\varepsilon_1+4\\varepsilon_2$，$\\beta=4\\varepsilon_1-3\\varepsilon_2$，求一正交变换 $\\mathscr{A}$ 使得 $\\mathscr{A}(\\alpha)=\\beta$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 是欧氏空间 $V$ 的一组基，已知 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3$ 的度量矩阵为\n$$\\begin{pmatrix}3&2&-2\\\\ 2&2&-1\\\\ -2&-1&2\\end{pmatrix}.$$\n令 $W=L(\\varepsilon_1+\\varepsilon_3,\\varepsilon_2+\\varepsilon_3)$。\n(1) 求 $W$ 的维数及一组标准正交基；\n(2) 求 $W^{\\perp}$ 的维数和一组基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V_1$ 是数域 $P$ 上 $n$ 阶对称矩阵全体构成的集合，$V_2$ 是数域 $P$ 上 $n$ 阶反对称矩阵全体构成的集合。\n(1) 证明：$V_1$ 与 $V_2$ 都是 $P^{n\\times n}$ 的线性子空间；\n(2) 证明：任一 $n$ 阶矩阵可分解为一个对称矩阵与一个反对称矩阵的和；\n(3) 证明：$P^{n\\times n}$ 可表示为 $V_1$ 与 $V_2$ 的直和，即 $P^{n\\times n}=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为 $m\\times n$ 矩阵，$B$ 为 $n\\times s$ 矩阵，证明：若 $AB=O$，则 $R(A)+R(B)\\le n$（用三种方法）。"
+        }
+      ]
+    }
+  ]
+}

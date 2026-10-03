@@ -1,0 +1,303 @@
+{
+  "msgid": "2247510378-5",
+  "exams": [
+    {
+      "school": "郑州大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "48. 郑州大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510378-5_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "解答题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算 $\\lim\\limits_{x\\to 0}\\dfrac{\\int_0^x e^{t^2}\\,\\mathrm{d}t - x}{\\ln(1+x^3)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "计算 $\\lim\\limits_{n\\to\\infty}\\left(\\cos\\dfrac{x}{2}\\cos\\dfrac{x}{2^2}\\cdots\\cos\\dfrac{x}{2^n}\\right)$，其中 $x\\in\\mathbb{R}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算 $\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\sin x}{\\sin x+\\cos x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设区域 $D=\\{(x,y)\\in\\mathbb{R}^2\\mid x^2+y^2\\le 1\\}$，计算 $\\iint\\limits_D |x-y|\\,\\mathrm{d}x\\mathrm{d}y$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题",
+          "no": "5",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\sum\\limits_{n=2}^{\\infty}\\dfrac{1}{(\\ln n)^{\\ln n}}$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "解答题",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算 $\\int_0^1\\dfrac{x-1}{\\ln x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设函数 $f(x)$ 在区间 $I$ 上有定义，并称 $W_f(\\delta)=\\sup\\limits_{x',x''\\in I,|x'-x''|<\\delta}|f(x')-f(x'')|$ 为 $f$ 的连续模数，证明：$f(x)$ 在 $I$ 上一致连续的充要条件为 $\\lim\\limits_{\\delta\\to 0^+}W_f(\\delta)=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "设二元函数 $f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{x^2+y^2}; & x^2+y^2\\neq 0;\\\\[2mm] 0; & x^2+y^2=0.\\end{cases}$ 讨论 $f(x,y)$ 在原点 $(0,0)$ 处的连续性、可微性以及偏导数在原点 $(0,0)$ 处的连续性。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)\\ge 0$，$g(x)>0$，两个函数在 $[a,b]$ 上都连续，证明：$$\\lim_{n\\to\\infty}\\left[\\int_a^b (f(x))^n\\cdot g(x)\\,\\mathrm{d}x\\right]^{\\frac{1}{n}}=\\max_{a\\le x\\le b} f(x).$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $a<b$，$f(x)$ 在 $(a,b)$ 上连续.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $a<b$，$f(x)$ 在 $(a,b)$ 上连续. 假设 $x_0\\in(a,b)$，$f(x)$ 在点 $x_0$ 的某个去心右邻域内可导，且存在 $A\\in\\mathbb{R}$，使得 $\\lim\\limits_{x\\to x_0^+}f'(x)=A$。证明：$f(x)$ 在点 $x_0$ 处的右导数 $f'_+(x_0)$ 存在且为 $A$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "设 $a<b$，$f(x)$ 在 $(a,b)$ 上连续.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $a<b$，$f(x)$ 在 $(a,b)$ 上连续. 设 $f(x)$ 在 $(a,b)$ 内处处可导，那么 $\\forall x\\in(a,b)$，证明：$x$ 要么是 $f'(x)$ 的连续点，要么是 $f'(x)$ 的第二类间断点。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "将 $f(x)=|x|$ 在 $[-\\pi,\\pi]$ 上展开成傅里叶级数，并由此求出 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n^2}$ 的值。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "设 $\\Omega$ 是由 $\\mathbb{R}^3$ 中简单光滑闭曲线 $\\Sigma$ 所围成的有界区域.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $\\Omega$ 是由 $\\mathbb{R}^3$ 中简单光滑闭曲线 $\\Sigma$ 所围成的有界区域. 假设 $u(x,y,z)\\in\\mathrm{C}^2(\\overline\\Omega)$，且 $\\Delta u=\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}+\\dfrac{\\partial^2 u}{\\partial z^2}=0$ 在 $\\Omega$ 上恒成立. 证明：$$\\iiint\\limits_{\\Omega}|\\nabla u|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\iint\\limits_{\\Sigma}u\\dfrac{\\partial u}{\\partial \\boldsymbol v}\\,\\mathrm{d}S.$$其中 $\\nabla u=\\left(\\dfrac{\\partial u}{\\partial x},\\dfrac{\\partial u}{\\partial y},\\dfrac{\\partial u}{\\partial z}\\right)$，$\\boldsymbol v$ 是 $\\Sigma$ 的单位外法向量。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "设 $\\Omega$ 是由 $\\mathbb{R}^3$ 中简单光滑闭曲线 $\\Sigma$ 所围成的有界区域.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $\\Omega$ 是由 $\\mathbb{R}^3$ 中简单光滑闭曲线 $\\Sigma$ 所围成的有界区域. 考察问题 $$\\begin{cases}-\\Delta u=f(x,y,z); & (x,y,z)\\in\\Omega;\\\\ u=g(x,y,z); & (x,y,z)\\in\\Sigma.\\end{cases}\\quad(*)$$其中 $f(x,y,z),g(x,y,z)\\in\\mathrm{C}(\\overline\\Omega)$，$u(x,y,z)\\in\\mathrm{C}^2(\\overline\\Omega)$. 如果 $u_1(x,y,z),u_2(x,y,z)\\in\\mathrm{C}^2(\\overline\\Omega)$ 都是问题 $(*)$ 的解. 证明：$$u_1(x,y,z)=u_2(x,y,z),\\ \\forall (x,y,z)\\in\\overline\\Omega.$$即问题 $(*)$ 至多有一个解。"
+        }
+      ]
+    },
+    {
+      "school": "郑州大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "48. 郑州大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510378-5_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每小题 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$n$ 阶行列式 $D_n=\\begin{vmatrix}1+x & 1 & \\cdots & 1\\\\ 1 & 1+x & \\cdots & 1\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & \\cdots & 1+x\\end{vmatrix}=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每小题 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A=\\begin{pmatrix}1 & 1 & 2\\\\ -1 & 1 & -1\\\\ 1 & 1 & t+5\\end{pmatrix}$，如果存在 3 阶非零方阵 $B$ 使得 $AB=O$，则 $t=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每小题 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $n$ 阶矩阵 $A=\\begin{pmatrix}a_1+b & a_2 & \\cdots & a_n\\\\ a_1 & a_2+b & \\cdots & a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_1 & a_2 & \\cdots & a_n+b\\end{pmatrix}$，$b=-\\sum\\limits_{i=1}^n a_i\\neq 0$，$n>1$，则 $r(A)=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每小题 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "二次型 $f(x_1,x_2,\\cdots,x_n)=\\sum\\limits_{i=1}^n x_i^2+\\sum\\limits_{1\\le i<j\\le n}x_ix_j$ 的正惯性指数是$\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每小题 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $n$ 阶方阵 $A$ 的每行元素之和都是零，且 $r(A^*)=1$，$A^*$ 是 $A$ 的伴随矩阵，则齐次线性方程组 $AX=0$ 的通解是$\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每小题 5 分, 共 30 分)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V=\\{A\\in P^{n\\times n}\\mid \\mathrm{tr}(A)=0\\}$，则 $\\dim V=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $m$ 是大于 1 的正整数，多项式 $f(x)=\\sum\\limits_{i=0}^{m-1}x^i$，证明：$f(x)\\mid f(x^m)-m$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $n$ 级方阵 $A$, $B$ 满足 $AB=A+kB$，其中 $k$ 是非零常数. 证明:\n(1) $AB=BA$;\n(2) $r(A)+r(B)\\ge r(A+B)+r(AB)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "设 $A$, $B$ 都是 2 阶方阵. 已知 $\\mathrm{tr}(A)\\neq 0$，证明：$AB=BA$ 的充要条件是 $A^2B=BA^2$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "4",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\alpha_1=(1,1,a)^T,\\alpha_2=(1,a,1)^T,\\alpha_3=(a,1,1)^T,\\beta_1=(1,1,a)^T,\\beta_2=(-2,a,4)^T,\\beta_3=(-2,a,a)^T$，确定 $a$，使得 $L(\\alpha_1,\\alpha_2,\\alpha_3)$ 为 $L(\\beta_1,\\beta_2,\\beta_3)$ 的真子空间。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "5",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设矩阵 $A=\\begin{pmatrix}-1 & 4 & 4\\\\ -2 & 5 & 4\\\\ 1 & -2 & -1\\end{pmatrix}$。\n(1) 求 $A$ 的最小多项式;\n(2) 求 $A$ 的 Jordan 标准形 $J$，并求可逆矩阵 $P$，使得 $P^{-1}AP=J$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A$ 是 $n$ 阶整数方阵(即每一个元素都是整数)，试叙述 $A$ 是可逆的且其逆也是整数方阵的充分必要条件，并给出证明。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\sigma$, $\\tau$ 是 $P[x]$ 上的两个线性变换，满足 $\\sigma(f(x))=f'(x)$，$\\tau(f(x))=xf(x)$，证明:\n(1) $\\sigma\\tau-\\tau\\sigma=\\mathscr{E}$，其中 $\\mathscr{E}$ 是恒等变换;\n(2) 对任意大于 1 的正整数 $m$，都有 $\\sigma^m\\tau-\\tau\\sigma^m=m\\sigma^{m-1}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明(每题 15 分, 共 120 分)",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\varphi$ 是 $n$ 维线性空间 $V$ 上的线性变换，证明：$V=\\varphi(V)\\oplus\\varphi^{-1}(0)$ 的充要条件是 $\\varphi(V)=\\varphi^2(V)$。"
+        }
+      ]
+    }
+  ]
+}

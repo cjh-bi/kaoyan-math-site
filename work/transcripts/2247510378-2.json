@@ -1,0 +1,243 @@
+{
+  "msgid": "2247510378-2",
+  "exams": [
+    {
+      "school": "山东大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "46. 山东大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510378-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 20 分, 共 80 分)",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设二元函数 $f(x,y)=\\begin{cases}xy\\dfrac{x^{2}-y^{2}}{x^{2}+y^{2}},&(x,y)\\neq(0,0);\\\\[4pt]0,&(x,y)=(0,0),\\end{cases}$ 求 $f''_{xy}(0,0)$ 和 $f''_{yx}(0,0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 20 分, 共 80 分)",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "已知 $f(x,y)$ 在区域 $D=\\{(x,y)\\mid x^{2}+y^{2}\\le 1\\}$ 上有连续二阶偏导数, 且 $\\dfrac{\\partial^{2}f}{\\partial x^{2}}+\\dfrac{\\partial^{2}f}{\\partial y^{2}}=e^{-(x^{2}+y^{2})}$, 证明: $$\\iint\\limits_{x^{2}+y^{2}\\le 1}\\left(x\\dfrac{\\partial f}{\\partial x}+y\\dfrac{\\partial f}{\\partial y}\\right)\\mathrm{d}x\\mathrm{d}y=\\dfrac{\\pi}{2e}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 20 分, 共 80 分)",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求级数 $\\sum\\limits_{n=1}^{\\infty}(-1)^{n}\\dfrac{1}{(2n+1)!(2n+1)}$ 的和。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 20 分, 共 80 分)",
+          "no": "4",
+          "score": 20,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "已知 $y=y(x)$ 的参数方程表示为 $\\begin{cases}x=\\dfrac{t^{3}}{1+t^{2}},\\\\[4pt]y=\\dfrac{t^{3}-2t^{2}}{1+t^{2}},\\end{cases}$ $(t\\in\\mathbb{R})$, 求 $y=y(x)$ 的极值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题(每题 15 分, 共 30 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知 $f(x)$ 在 $(a,+\\infty)$ 上可导, 且 $\\lim\\limits_{x\\to\\infty}\\left(f(x)+xf'(x)\\right)\\ln x=l$, 证明: $$\\lim\\limits_{x\\to+\\infty}f(x)=l.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题(每题 15 分, 共 30 分)",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明: $f(x)=\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^{3}}$ 在 $\\mathbb{R}$ 上连续, 且具有连续的导函数。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算与证明(每题 20 分, 共 40 分).",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算积分 $I(x)=\\displaystyle\\int_{0}^{+\\infty}e^{-t^{2}}\\cos(2xt)\\,\\mathrm{d}t$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "计算与证明(每题 20 分, 共 40 分).",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上有连续的二阶导数, 且 $f(0)=f(1)=f'(0)=0$, $f'(1)=1$, 证明: $$\\int_{0}^{1}[f''(x)]^{2}\\,\\mathrm{d}x\\ge 4.$$"
+        }
+      ]
+    },
+    {
+      "school": "山东大学",
+      "year": "2022",
+      "subject": "高等代数与常微分方程",
+      "header_note": "46. 山东大学 2022 年高等代数与常微分方程试卷",
+      "source_imgs": ["work/imgs/2247510378-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设向量组 $\\alpha_{1},\\alpha_{2},\\cdots,\\alpha_{m}$ $(m\\ge 2)$ 中 $\\alpha_{m}\\neq 0$, 证明: 对任意 $k_{1},k_{2},\\cdots,k_{m-1}$, 向量组 $$\\beta_{1}=\\alpha_{1}+k_{1}\\alpha_{m},\\ \\beta_{2}=\\alpha_{2}+k_{2}\\alpha_{m},\\ \\cdots,\\ \\beta_{m-1}=\\alpha_{m-1}+k_{m-1}\\alpha_{m}$$ 线性无关的充要条件是 $\\alpha_{1},\\alpha_{2},\\cdots,\\alpha_{m}$ 线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $\\begin{cases}\\alpha_{1}=(1,2,1,0)\\\\ \\alpha_{2}=(-1,1,1,1)\\end{cases}$ 和 $\\begin{cases}\\beta_{1}=(2,-1,0,1)\\\\ \\beta_{2}=(1,-1,3,7)\\end{cases}$, 求向量组 $\\alpha_{1},\\alpha_{2}$ 生成的子空间与向量组 $\\beta_{1},\\beta_{2}$ 生成的子空间的交的基与维数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "3",
+          "score": 10,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设向量组 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 是数域 $K$ 上线性空间 $V$ 的一组基, $\\sigma$ 是 $V$ 的一个线性变换, 且 $$\\sigma(\\alpha_{1})=\\alpha_{1},\\ \\sigma(\\alpha_{2})=\\alpha_{1}+\\alpha_{2},\\ \\sigma(\\alpha_{3})=\\alpha_{1}+\\alpha_{2}+\\alpha_{3}.$$\n(1) 证明: $\\sigma$ 是 $V$ 上的可逆线性变换;\n(2) 求 $2\\sigma-\\sigma^{-1}$ 在基底 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 下的矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $A\\in M_{n}(K)$, $\\lambda_{1},\\lambda_{2},\\cdots,\\lambda_{n}$ 是 $A$ 的特征多项式 $f(\\lambda)$ 在复数域上的所有根, 证明: $$\\operatorname{tr}(A)=\\lambda_{1}+\\lambda_{2}+\\cdots+\\lambda_{n},\\quad |A|=\\lambda_{1}\\lambda_{2}\\cdots\\lambda_{n}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "5",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知两个向量组的秩相同, 且其中一个可以被另一个线性表出, 试证明这两个向量组等价。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知矩阵 $A=\\begin{pmatrix}1&0&1\\\\ 0&2&0\\\\ -1&0&1\\end{pmatrix}$ 满足 $AB+E=A^{2}+B$, 求矩阵 $B$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "7",
+          "score": 10,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设矩阵 $A=\\begin{pmatrix}1&1&1\\\\ 1&2&3\\\\ 1&3&5\\end{pmatrix}$, 利用初等变换法求可逆矩阵 $C$ 和对角矩阵 $D$, 使得 $C^{T}AC=D$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵, $B$ 是 $n$ 阶方阵, 且 $r(A)=n$. 证明:\n(1) 若 $AB=O$, 则 $B=O$;\n(2) 若 $AB=A$, 则 $B=E$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "高等代数(每题 10 分, 共 90 分)",
+          "no": "9",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "设 $A(\\lambda)$ 是 $n$ 阶 $\\lambda$-矩阵, 证明: $A(\\lambda)^{T}$ 与 $A(\\lambda)$ 等价。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程(第 3 题 20 分, 其余每题 10 分, 共 60 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "求解微分方程 $y=x\\left(y'+\\sqrt{1+(y')^{2}}\\right)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程(第 3 题 20 分, 其余每题 10 分, 共 60 分)",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "常微分方程",
+          "l2": "高阶线性方程",
+          "stem": "设二阶常系数线性微分方程 $y''+\\alpha y'+\\beta y=\\gamma e^{x}$ 的一个特解为 $y=e^{2x}+(1+x)e^{x}$, 试确定 $\\alpha,\\beta,\\gamma$ 的值, 并求解该方程。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程(第 3 题 20 分, 其余每题 10 分, 共 60 分)",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "线性方程组与解的结构",
+          "stem": "求 $X'=AX$ 的基本解组, 其中 $A=\\begin{pmatrix}1&-2&1\\\\ 0&-1&1\\\\ 2&1&1\\end{pmatrix}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程(第 3 题 20 分, 其余每题 10 分, 共 60 分)",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "解方程 $y=(x+1)y'+(y')^{2}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "常微分方程(第 3 题 20 分, 其余每题 10 分, 共 60 分)",
+          "no": "5",
+          "score": 10,
+          "form": "综合",
+          "l1": "常微分方程",
+          "l2": "存在唯一性定理",
+          "stem": "已知在矩形区域 $D=\\{(x,y)\\mid |x-1|\\le 2,\\ |y|\\le 1\\}$ 上 $f(x,y)=x^{2}+2y$, 求初值问题 $$\\begin{cases}y'=f(x,y);\\\\ y(0)=1.\\end{cases}$$ 解的存在区间及在此区间上的二次近似解和误差估计。"
+        }
+      ]
+    }
+  ]
+}

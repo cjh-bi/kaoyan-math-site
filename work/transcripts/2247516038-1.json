@@ -1,0 +1,253 @@
+{
+  "msgid": "2247516038-1",
+  "exams": [
+    {
+      "school": "北京邮电大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "6. 北京邮电大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516038-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "已知 $\\lim\\limits_{x\\to 0}\\dfrac{\\cos 2x-\\sqrt{\\cos 2x}}{x^k}=a$ $(a\\neq 0)$，求 $a$ 和 $k$ 的值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\displaystyle\\sum_{n=2}^{\\infty}\\dfrac{\\ln(e^n+n^2)}{n^2\\ln^2 n}$ 的敛散性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求 $f(x)=\\dfrac{1}{x^2-4x+3}$ 关于 $x-1$ 的幂级数展开式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "已知 $f(x)$ 在 $(-\\infty,+\\infty)$ 上二阶可导，且 $f''(x)\\le 0$，$\\lim\\limits_{x\\to 0}\\dfrac{f(x)}{2x}=2$，证明：$f(x)\\le 4x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "已知 $F(x)=\\displaystyle\\int_0^x (x-2t)f(t)\\,\\mathrm{d}t$。\n(1) 若 $f(x)$ 为偶函数，证明 $F(x)$ 也是偶函数。\n(2) 若 $f(x)$ 单调不增，证明 $F(x)$ 单调不减。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "求曲线积分 $\\displaystyle\\oint_L y\\cos x\\,\\mathrm{d}x+(xy^2+\\sin x)\\,\\mathrm{d}y$，其中 $L$ 为 $(x-1)^2+(y-1)^2=1$，取顺时针方向。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint\\limits_{\\Sigma}(x^3+Rx)\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+(1-3z)(x^2+y^2)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$：$z=\\sqrt{R^2-x^2-y^2}$，方向取下侧，$R>0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos x-\\cos 2x}{x}e^{-x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "设 $S$ 为有界集，且 $\\sup S=a\\notin S$。证明：存在递增的数列 $\\{x_n\\}\\subseteq S$，使得 $\\lim\\limits_{n\\to\\infty}x_n=a$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知数列 $\\{x_n\\}$ 无界但不是无穷大量，证明：$\\{x_n\\}$ 存在子列收敛，也存在子列为无穷大量。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "已知 $0<a<b<1$，证明：$\\arctan b-\\arctan a<\\dfrac{b-a}{2ab}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $n$ 为正整数，函数\n$$f(x,y)=\\begin{cases}\\dfrac{x^n y}{\\sqrt{x^2+y^2}}, & (x,y)\\neq(0,0);\\\\[4pt] 0, & (x,y)=0.\\end{cases}$$\n讨论 $f(x,y)$ 在原点处的可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "13",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论函数列 $f_n(x)=\\dfrac{nx}{1+n^2x^2}$ 在 $(-\\infty,+\\infty)$ 上的一致收敛性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "14",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "已知 $f(x)$ 在 $(0,1]$ 上可导，且极限 $\\lim\\limits_{x\\to 0^+}\\sqrt{x}f'(x)$ 存在。证明：$f(x)$ 在 $(0,1]$ 上一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "15",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知 $f_n(x)=x^n+x$，$n=1,2,\\cdots$。\n(1) 证明：方程 $f_n(x)=1$ 在 $\\left[\\dfrac{1}{2},1\\right]$ 上有且仅有一个解 $x_n$。\n(2) 证明：$\\{x_n\\}$ 极限存在，并求 $\\lim\\limits_{n\\to\\infty}x_n$。"
+        }
+      ]
+    },
+    {
+      "school": "北京邮电大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "6. 北京邮电大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516038-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "证明：在 $\\mathbb{Q}[x]$ 中，如果 $(x^2+1)\\mid[f_1(x^4)+xf_2(x^4)]$，那么 $1$ 是 $f_1(x),f_2(x)$ 的根。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "用初等变换化矩阵 $A$ 为等价标准形，其中\n$$A=\\begin{pmatrix}1&-1&0&1&2\\\\ 2&0&1&1&0\\\\ 3&1&0&0&4\\\\ 2&2&0&-1&2\\end{pmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $n$ 阶方阵 $A$ 满足方程 $A^2+3A+2E=O$，其中 $E$ 为单位矩阵，$O$ 为零矩阵。证明：\n(1) $A-E$ 是可逆矩阵，并求 $(A-E)^{-1}$；\n(2) $A+E$ 与 $A+2E$ 不同时可逆。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设向量组\n$$\\alpha_1=(1,1,1,3)^T,\\ \\alpha_2=(-1,-3,5,1)^T,\\ \\alpha_3=(3,2,-1,p+2)^T,\\ \\alpha_4=(-2,-6,10,p)^T.$$\n(1) $p$ 为何值时，该向量组线性无关？并将向量 $\\alpha=(4,1,6,10)^T$ 用 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性表出；\n(2) $p$ 为何值时，该向量组线性相关？并求出它的秩和一个极大线性无关组。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知非齐次线性方程组 (I),(II)：\n$$(\\mathrm{I})\\begin{cases}x_1+x_2-2x_4=-6;\\\\ 4x_1-x_2-x_3-x_4=1;\\\\ 3x_1-x_2-x_3=3.\\end{cases}$$\n$$(\\mathrm{II})\\begin{cases}x_1+mx_2-x_3-x_4=-5;\\\\ nx_2-x_3-2x_4=-11;\\\\ x_3-2x_4=-t+11.\\end{cases}$$\n(1) 求方程组 (I) 的通解；\n(2) 当方程组 (II) 中的参数 $m,n,t$ 为何值时，方程组 (I) 与 (II) 同解？"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知 $\\alpha=\\begin{pmatrix}1\\\\ 1\\\\ -1\\end{pmatrix}$ 是矩阵 $A=\\begin{pmatrix}2&-1&2\\\\ 5&a&3\\\\ -1&b&-2\\end{pmatrix}$ 的特征向量。\n(1) 求 $a,b$ 的值；\n(2) 求矩阵 $A$ 的特征值；\n(3) 讨论 $A$ 能否与对角矩阵相似。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\cdots,\\alpha_r)$ 是 $n\\times r$ 矩阵，$B=(\\beta_1,\\beta_2,\\cdots,\\beta_s)$ 是 $n\\times s$ 矩阵，矩阵 $A$ 的秩为 $r$，矩阵 $B$ 的秩为 $s$。证明：如果 $r+s>n$，则存在非零向量 $\\xi$，使得 $\\xi$ 既可以由 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 线性表出，又可以由 $\\beta_1,\\beta_2,\\cdots,\\beta_s$ 线性表出。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma$ 是线性空间 $V$ 上的线性变换，$\\sigma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 下的矩阵是\n$$\\begin{pmatrix}1&-1&-1&2\\\\ 0&1&0&0\\\\ 2&3&1&-1\\\\ 1&-2&-2&-1\\end{pmatrix}.$$\n求包含 $\\alpha_1$ 的最小的 $\\sigma$ 的不变子空间。"
+        }
+      ]
+    }
+  ]
+}

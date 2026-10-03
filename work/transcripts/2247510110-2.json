@@ -1,0 +1,233 @@
+{
+  "msgid": "2247510110-2",
+  "exams": [
+    {
+      "school": "北京邮电大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "6. 北京邮电大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510110-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设函数 $f(x)$ 在 $x=0$ 的某邻域内二阶可导且 $\\lim\\limits_{x\\to 0}\\left(\\dfrac{\\sin 3x}{x^3}+\\dfrac{f(x)}{x^2}\\right)=0$，求 $f(0)$，$f'(0)$，$f''(0)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "设 $I_n=\\int \\tan^n x\\,\\mathrm{d}x$。则\n(1) 求 $I_1$，$I_2$；\n(2) 求 $I_n$ 的递推公式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：\n$$\\pi x-\\dfrac{\\pi^3 x^3}{6}\\le \\sin \\pi x\\le \\dfrac{\\pi^2}{2}x(1-x),\\ x\\in[0,1].$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)=\\displaystyle\\int_x^{x+\\frac{\\pi}{2}}|\\sin t|\\,\\mathrm{d}t$。\n(1) 证明：$f(x)$ 是以 $\\pi$ 为周期的周期函数；\n(2) 求 $f(x)$ 的值域。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $x_0>0$，$x_n=\\dfrac{3x_{n-1}}{2+x_{n-1}}$，$n=1,2,\\cdots$。证明：数列 $\\{x_n\\}$ 收敛并求其极限。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设数列 $\\{a_n\\}$ 满足 $a_n>0$，$n=1,2,\\cdots$，且 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 发散，讨论级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{1+n^2 a_n}$ 与 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{1+a_n}$ 的敛散性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{2n-1}{2^{n+1}}x^{2n}$ 的和函数。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "讨论函数\n$$f(x,y)=\\begin{cases}\\dfrac{xy(x^2-y^2)}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[6pt] 0, & x^2+y^2=0.\\end{cases}$$\n在原点的可微性。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "计算 $\\displaystyle\\oint_L \\dfrac{x+y}{|x|+|y|+x^2}\\,\\mathrm{d}s$，其中 $L$：$|x|+|y|=1$ 取逆时针方向。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "证明：方程 $x^2-2xy+z+xe^z=0$ 在点 $(1,1,0)$ 的某邻域内唯一确定隐函数 $z=f(x,y)$，并求 $f(x,y)$ 在 $(1,1)$ 处的混合偏导数 $f_{xy}$。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算积分\n$$\\iint_S (x^2-y^2)\\,\\mathrm{d}y\\mathrm{d}z+(y^2-z^2)\\,\\mathrm{d}z\\mathrm{d}x+(z^2-x^2)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 为椭球面 $x^2+y^2+2z^2=1$（$z\\ge 0$），取椭球面外侧。"
+        },
+        {
+          "section": "十二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $f(x)$ 在包含原点的某区间 $(a,b)$ 内有二阶导数，且 $\\lim\\limits_{x\\to 0}\\dfrac{f(x)}{x}=1$，$f''(x)>0$，证明：$f(x)\\ge x$。"
+        },
+        {
+          "section": "十三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)=a_1\\sin x+a_2\\sin 2x+\\cdots+a_n\\sin nx$，其中 $a_1,a_2,\\cdots,a_n$ 都是实数，$n$ 为正整数，已知对任意的实数 $x$ 都有 $|f(x)|\\le|\\sin x|$，证明：\n$$|a_1+2a_2+\\cdots+na_n|\\le 1.$$"
+        },
+        {
+          "section": "十四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "讨论级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n}{\\sqrt{n+\\sqrt{x}}}$ 在 $[0,+\\infty)$ 的收敛性与一致收敛性。"
+        },
+        {
+          "section": "十五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$，$g(x)$ 在区间 $(a,b)$ 上一致连续，问：是否一定可以推出 $f(x)g(x)$ 在 $(a,b)$ 上一致连续？若可以，请证明之；若不可以，请举出反例，并说明理由。"
+        }
+      ]
+    },
+    {
+      "school": "北京邮电大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "6. 北京邮电大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510110-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算 $n$ 阶行列式",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$D=\\begin{vmatrix}a+x_1 & a+x_2 & \\cdots & a+x_n\\\\ a^2+x_1^2 & a^2+x_2^2 & \\cdots & a^2+x_n^2\\\\ \\vdots & \\vdots & & \\vdots\\\\ a^n+x_1^n & a^n+x_2^n & \\cdots & a^n+x_n^n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $f(x)=x^{100}+x^{99}+\\cdots+x+1$，矩阵 $A=\\begin{pmatrix}1 & 0 & 0\\\\ 0 & 0 & 0\\\\ 0 & 1 & 0\\end{pmatrix}$。\n(1) 求 $f(A)$；\n(2) 若 $f(B)=O$，求 $B^{-1}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵，证明：$A$ 为半正定矩阵的充要条件是对任意的 $\\mu>0$，$B=\\mu E+A$ 正定。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $A,B,C,D$ 为 $n$ 阶实矩阵，且两两可交换，并满足 $AC+BD=E_n$，如果\n$$V=\\{X\\in\\mathbb{R}^n\\mid ABX=0\\},\\ V_1=\\{X\\in\\mathbb{R}^n\\mid BX=0\\},\\ V_2=\\{X\\in\\mathbb{R}^n\\mid AX=0\\},$$\n证明：$V=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "对称变换",
+          "stem": "已知 $\\sigma$ 是 $n$ 维欧氏空间 $V$ 上的线性变换，$\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 是 $V$ 的一组基，其度量矩阵为 $G$，$\\sigma$ 在这组基下的矩阵为 $A$。则 $\\sigma$ 为对称变换的充要条件是 $A'G=GA$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $\\sigma$ 为 $n$ 维欧氏空间 $V$ 上的对称变换，证明：$\\sigma(V)$ 是 $\\sigma^{-1}(0)$ 的正交补。"
+        }
+      ]
+    }
+  ]
+}

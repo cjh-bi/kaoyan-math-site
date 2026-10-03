@@ -1,0 +1,193 @@
+{
+  "msgid": "2247515992-3",
+  "exams": [
+    {
+      "school": "北京工业大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "4. 北京工业大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247515992-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明：实直线 $\\mathbb{R}$ 上的两个一致连续函数 $f(x)$ 和 $g(x)$ 的和函数 $f(x)+g(x)$ 一致连续；它们的乘积函数 $f(x)g(x)$ 是否仍一致连续？若是，请写出证明过程；若不是，请举出反例。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "闭区间 $[a,b]$ 上的连续函数类 $C[a,b]$，可导函数类 $D[a,b]$，可积函数类 $R[a,b]$ 之间有什么关系？请写出证明过程或举出反例。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x), g(x)$ 为 $\\mathbb{R}$ 上的有界函数，证明：\n$$\\sup_{x\\in\\mathbb{R}}\\{f(x)+g(x)\\}\\le \\sup_{x\\in\\mathbb{R}}\\{f(x)\\}+\\sup_{x\\in\\mathbb{R}}\\{g(x)\\};$$\n$$\\inf_{x\\in\\mathbb{R}}\\{f(x)+g(x)\\}\\ge \\inf_{x\\in\\mathbb{R}}\\{f(x)\\}+\\inf_{x\\in\\mathbb{R}}\\{g(x)\\}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "设 $\\sum\\limits_{n=0}^{\\infty} a_n (x-x_0)^n = f(x)$，$x\\in(x_0-r, x_0+r)$，$r>0$，试证明 $a_n = \\dfrac{f^{(n)}(x_0)}{n!}$。若 $f(x)$ 在 $(x_0-r, x_0+r)$ 内有任何阶导数，且存在 $M>0$，使得对任意的 $x\\in(x_0-r, x_0+r)$ 及正整数 $n$，均有 $|f^{(n)}(x)|<M$。试证明 $f(x)=\\sum\\limits_{n=0}^{\\infty} \\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n$，$x\\in(x_0-r, x_0+r)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "叙述定积分与三重积分的定义及其几何意义或物理意义，它们的定义有什么共同点？并利用定义证明三重积分的线性性质。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明函数 $f(x)$ 在 $[a,b]$ 上可积的充分必要条件是：任给 $c\\in(a,b)$，$f(x)$ 在 $[a,c]$ 和 $[c,b]$ 上都可积，并证明 $\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x = \\int_a^c f(x)\\,\\mathrm{d}x + \\int_c^b f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "已知 $f(x)$ 在 $[a,b]$ 上连续，记 $F(x)=\\displaystyle\\int_a^x f(t)\\,\\mathrm{d}t$，证明 $F'(x)=f(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明无穷积分 $\\displaystyle\\int_{-\\infty}^{+\\infty} e^{-ax^2}\\,\\mathrm{d}x$ $(a>0)$ 收敛，并求其值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求第二型曲面积分\n$$\\iiint\\limits_{S} (xz^2+y^2)\\,\\mathrm{d}y\\mathrm{d}z+(x^2y+z^4)\\,\\mathrm{d}z\\mathrm{d}x+(3x^2+4y^2+y^2z)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为椭球面 $x^2+2xy+2y^2+z^2=1$，方向取外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "函数 $f(x)$ 在区间 $[a,b]$ 上可积，证明 $\\lim\\limits_{p\\to\\infty}\\displaystyle\\int_a^b f(x)\\cos(px)\\,\\mathrm{d}x = 0$。"
+        }
+      ]
+    },
+    {
+      "school": "北京工业大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "4. 北京工业大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247515992-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $f(x)=x^n-x$，$n\\ge 2$，求下列 $n-1$ 阶行列式\n$$\\begin{vmatrix} f_n(x) & f_{n-1}(x) & \\cdots & f_2(x)\\\\ f_n(x+1) & f_{n-1}(x+1) & \\cdots & f_2(x+1)\\\\ \\vdots & \\vdots & & \\vdots\\\\ f_n(x+n-2) & f_{n-1}(x+n-2) & \\cdots & f_2(x+n-2)\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A=(a_{ij})$ 是数域 $F$ 上的 $n$ 阶方阵。$A_k$ 是 $A$ 去掉第 $k$ 行剩下的 $n-1$ 行所组成的矩阵。$A_{ij}$ 表示 $A$ 中元素 $a_{ij}$ 的代数余子式。\n(1) 若 $|A|\\neq 0$，证明 $(A_{k1}, A_{k2}, \\cdots, A_{kn})^T$ 是齐次线性方程组 $A_k X = 0$ 的一个基础解系。\n(2) 若 $|A|=0$，且元素 $a_{kl}$ 的代数余子式 $A_{kl}\\neq 0$，证明 $(A_{k1}, A_{k2}, \\cdots, A_{kn})^T$ 是齐次线性方程组 $AX=0$ 的一个基础解系。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知矩阵 $A=\\begin{pmatrix} a & c & -1\\\\ 1-c & -a & 0\\\\ 5 & 3 & b\\end{pmatrix}$ 有一特征向量 $\\alpha=(-1,1,-1)^T$。\n(1) 若 $|A|=0$，求 $a,b,c$ 及 $A$ 的所有特征值，问 $A$ 是否可以对角化？为什么？\n(2) 若 $|A|=-1$，求 $a,b,c$ 及 $A$ 的所有特征值，问 $A$ 是否可以对角化？此时求 $A$ 的 Jordan 标准形 $J$ 及可逆矩阵 $P$，使得 $P^{-1}AP=J$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V$ 是数域 $F$ 上的 $n$ 维线性空间，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 为 $V$ 的一组基。用 $V_1$ 表示 $\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$ 生成的子空间，令 $V_2=\\left\\{\\sum\\limits_{i=1}^{n} k_i\\alpha_i \\ \\middle| \\ \\sum\\limits_{i=1}^{n} k_i = 0,\\ k_i\\in F\\right\\}$。\n(1) 证明：$V_2$ 是 $V$ 的子空间，且 $V=V_1\\oplus V_2$；\n(2) 设 $V$ 上的线性变换 $\\varphi$ 在基 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 下的矩阵 $A$ 是置换矩阵（即 $A$ 每行每列只有一个元素为 1，其余元素为 0），证明：$V_1, V_2$ 都是 $\\varphi$ 的不变子空间。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $V$ 是 $n$ 维欧氏空间，$\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 是 $V$ 的一组标准正交基。$\\mathrm{End}(V)$ 表示 $V$ 上全体线性变换构成的线性空间。定义 $\\langle \\sigma,\\tau\\rangle = \\sum\\limits_{i=1}^{n} (\\sigma(\\varepsilon_i), \\tau(\\varepsilon_i))$，其中 $\\sigma,\\tau\\in\\mathrm{End}(V)$，$(\\ ,\\ )$ 为 $V$ 上的内积。\n(1) 证明 $\\langle\\ ,\\ \\rangle$ 为 $\\mathrm{End}(V)$ 上的内积；\n(2) 求 $\\mathrm{End}(V)$ 的一组标准正交基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "考虑实对称矩阵 $B=\\begin{pmatrix} A & \\alpha\\\\ \\alpha^T & 1\\end{pmatrix}$，其中 $\\alpha=(a_1,a_2,\\cdots,a_n)^T$。\n(1) 若 $A$ 可逆，证明：$|B| = |A|(1-\\alpha^T A^{-1}\\alpha) = |A-\\alpha\\alpha^T|$；\n(2) 证明：矩阵 $A-\\alpha\\alpha^T$ 正当且仅当矩阵 $A$ 正定，且 $\\alpha^T A^{-1}\\alpha < 1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 30,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 是数域 $F$ 上的 $n$ 维线性空间。$\\sigma_1,\\sigma_2,\\cdots,\\sigma_s$ 都是 $V$ 上的非零线性变换。$\\mathrm{rank}\\,\\sigma$ 表示线性变换 $\\sigma$ 的秩。\n(1) 证明：存在 $\\alpha\\in V$，使得 $\\sigma_i(\\alpha)\\neq 0$，$i=1,2,\\cdots,s$；\n(2) 令 $\\sigma=\\sigma_1+\\sigma_2+\\cdots+\\sigma_s$，证明：$\\sigma$ 是幂等变换且 $\\mathrm{rank}\\,\\sigma=\\sum\\limits_{i=1}^{s}\\mathrm{rank}\\,\\sigma_i$ 的充要条件为 $\\sigma_1,\\sigma_2,\\cdots,\\sigma_s$ 都是幂等变换，且 $\\sigma_i\\sigma_j = 0$ $(i\\neq j)$。"
+        }
+      ]
+    }
+  ]
+}

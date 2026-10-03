@@ -1,0 +1,213 @@
+{
+  "msgid": "2247510144-1",
+  "exams": [
+    {
+      "school": "中国矿业大学(徐州)",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "9. 中国矿业大学(徐州) 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510144-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "用数列极限的“$\\varepsilon - N$”定义证明 $\\lim\\limits_{n\\to\\infty} \\dfrac{n^5 + 1}{3n^5 + n^3 - 3n + 2} = \\dfrac{1}{3}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明反常积分 $I = \\displaystyle\\int_0^{+\\infty} \\dfrac{\\ln x}{1 + x^2}\\,\\mathrm dx$ 收敛并求其值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "叙述实数系有限覆盖定理与聚点定理，并用有限覆盖定理证明聚点定理。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a, b]$ 上可积，且在 $[a, b]$ 上满足 $|f(x)| \\ge \\lambda > 0$，$\\lambda$ 为常数，证明：$\\dfrac{1}{f(x)}$ 在 $[a, b]$ 上可积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分 $I = \\displaystyle\\int_C \\sqrt{x^2 + y^2}\\,\\mathrm dx + y[xy + \\ln(x + \\sqrt{x^2 + y^2})]\\,\\mathrm dy$，其中 $C$ 是 $y = \\sin x$ 由 $A(2\\pi, 0)$ 到 $B(3\\pi, 0)$ 的一段。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "已知 $x > 0$，证明：$x - \\dfrac{x^2}{2} < \\ln(1 + x) < x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明: 若 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 绝对收敛，则 $\\displaystyle\\sum_{n=1}^{\\infty} a_n(a_1 + a_2 + \\cdots + a_n)$ 绝对收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分 $I = \\displaystyle\\iint_S 2x^3\\,\\mathrm dy\\mathrm dz + 2y^3\\,\\mathrm dz\\mathrm dx + 3(z^2 - 1)\\,\\mathrm dx\\mathrm dy$，其中 $S$ 是曲面 $z = 1 - x^2 - y^2$（$z \\ge 0$）的上侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 在 $(0, 1]$ 上可导，且 $\\lim\\limits_{x\\to 0^+} \\sqrt{x} f'(x) = A$，证明：$f(x)$ 在 $(0, 1]$ 上一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设数列 $\\{a_n\\}$ 单调收敛于 0，证明：$\\displaystyle\\sum_{n=1}^{\\infty} (-1)^{n-1} a_n \\cos nx$ 在 $[-\\pi + \\delta, \\pi - \\delta]$（$0 < \\delta < \\pi$）上一致收敛。"
+        }
+      ]
+    },
+    {
+      "school": "中国矿业大学(北京)",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "10. 中国矿业大学(北京) 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510144-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "在实数域和复数域上，将 $f(x) = x^n + x^{n-1} + \\cdots + x + 1$ 进行因式分解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式.\n(1) 一个具体的四阶行列式, 数据未知.\n(2)（可能有误）$\\begin{vmatrix} 1 & 2 & 3 & \\cdots & n-1 & n \\\\ 2 & 1 & 2 & \\cdots & n-2 & n-1 \\\\ 3 & 2 & 1 & \\cdots & n-3 & n-2 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ n-1 & n-2 & n-3 & \\cdots & 1 & 2 \\\\ n & n-1 & n-2 & \\cdots & 2 & 1 \\end{vmatrix}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "解线性方程组, 讨论什么时候有唯一解, 无解, 有无穷多组解(用基础解系与特解表示)。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "用正交线性替换化二次型为标准形 $f(x_1, x_2, x_3, x_4) = x_1^2 + x_2^2 + x_3^2 + x_4^2 + 2x_1x_2 + 2x_1x_3 + 2x_1x_4 + 2x_2x_3 + 2x_2x_4 + 2x_3x_4$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "（可能有误）已知 $A^3 = 2E$, $B = 2A^3 + 3A + E$, 问 $B$ 是否可逆？若可逆, 求其逆。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "（可能有误）已知 $A = \\begin{pmatrix} 3 & -4 \\\\ 2 & 1 \\end{pmatrix}$.\n(1) $A$ 是否可以对角化？若可以, 求可逆矩阵 $P$, 使得 $P^{-1}AP$ 为对角阵;\n(2) 求 $A^{2022}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知向量组 $\\alpha_1, \\alpha_2, \\cdots, \\alpha_n$（$n \\ge 2$）满足 $\\alpha_1 \\ne 0$, 证明：$\\alpha_1, \\alpha_2, \\cdots, \\alpha_n$ 线性相关的充要条件是存在 $2 \\le k \\le n$, 使得 $\\alpha_k$ 可以由 $\\alpha_1, \\alpha_2, \\cdots, \\alpha_{k-1}$ 线性表示。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "（可能有误）求矩阵 $A = \\begin{pmatrix} 1 & 2 & 4 \\\\ 5 & 3 & 3 \\\\ 2 & 7 & 6 \\end{pmatrix}$ 的 Jordan 标准形。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 为 $n$ 维线性空间, $\\alpha_1, \\alpha_2, \\cdots, \\alpha_n$ 是 $V$ 的一组基. 且线性变换 $\\mathscr{A}$ 在这组基下的矩阵为 $A = \\begin{pmatrix} 2 & 1 & & \\\\ & 2 & \\ddots & \\\\ & & \\ddots & 1 \\\\ & & & 2 \\end{pmatrix}$.\n(1) 若 $W \\subseteq V$ 是 $\\mathscr{A}$ 的不变子空间, 且 $\\alpha_n \\in W$, 证明: $W = V$.\n(2) 若 $W \\subseteq V$ 是 $\\mathscr{A}$ 的不变子空间, 且 $W \\ne \\{0\\}$, 证明：$\\alpha_1 \\in W$。"
+        }
+      ]
+    }
+  ]
+}

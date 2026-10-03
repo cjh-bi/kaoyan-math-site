@@ -1,0 +1,223 @@
+{
+  "msgid": "2247510192-3",
+  "exams": [
+    {
+      "school": "上海财经大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "19. 上海财经大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510192-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）判断下列说法是否正确, 并说明理由.",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "对任意的 $\\varepsilon>0$, 存在正整数 $N$, 存在实数 $A$, 使得当 $n>N$ 时, 有 $|x_n-A|<\\varepsilon$, 则 $\\{x_n\\}$ 收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "（15 分）判断下列说法是否正确, 并说明理由.",
+          "no": "2",
+          "score": null,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "$x_1=1$, $x_n=x_{n-1}+\\dfrac{1}{x_{n-1}}$ $(n=2,3,\\cdots)$, 则 $\\{x_n\\}$ 收敛."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）计算极限",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\ln(1+\\sin^2 x)-6\\left(\\sqrt[3]{2-\\cos x}-1\\right)}{x^4}$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "计算曲面 $(x^2+y^2)^2+z^4=y$ 所围立体的体积."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "由变换 $x=t$, $y=\\dfrac{t}{1+tu}$, $z=\\dfrac{t}{1+tv}$ 将方程 $x^2 z_x+y^2 z_y=z^2$ 化成以 $v$ 为因变量, $u$, $t$ 为自变量的方程."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）计算",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算 $\\displaystyle\\int_0^1 \\cos\\left(\\ln\\dfrac{1}{x}\\right)\\dfrac{x^b-x^a}{\\ln x}\\,\\mathrm{d}x$ $(b>a>0)$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 连续可导, $f(1)=1$, 且当 $x\\ge 1$ 时, 有 $f'(x)=\\dfrac{1}{x^2+f^2(x)}$, 证明 $\\lim\\limits_{x\\to+\\infty}f(x)$ 存在, 且 $\\lim\\limits_{x\\to+\\infty}f(x)\\le 1+\\dfrac{\\pi}{4}$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设下凸函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上二阶可导, 且 $\\lim\\limits_{x\\to+\\infty}f(x)$ 存在且有限, 证明 $\\lim\\limits_{x\\to+\\infty}f'(x)=0$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $\\{a_n\\}$ 满足 $a_n>a_{n+1}>0$, 且 $\\sum\\limits_{n=1}^{\\infty}a_n$ 收敛, 证明 $\\sum\\limits_{n=1}^{\\infty}n(a_n-a_{n-1})$ 收敛, 并求其和."
+        },
+        {
+          "section": "九",
+          "section_instruction": "（10 分）设",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $$f(x)=\\begin{cases}\\sin\\left(\\left[\\dfrac{1}{x}\\right]+\\left[\\dfrac{1}{1-x}\\right]\\right), & 0<x<1;\\\\[2mm] 0, & x=0,1,\\end{cases}$$ 证明 $f(x)$ 在 $[0,1]$ 上黎曼可积."
+        },
+        {
+          "section": "十",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论 $\\displaystyle\\int_1^{+\\infty}\\dfrac{\\sin x}{x^p}\\,\\mathrm{d}x$ 的敛散性."
+        },
+        {
+          "section": "十一",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设对每个自然数 $n$, $f_n(x)$ 为单调函数, 证明: 若函数列 $\\{f_n(x)\\}$ 在有界闭区间 $[a,b]$ 上收敛于连续函数 $f(x)$, 则其必一致收敛."
+        }
+      ]
+    },
+    {
+      "school": "上海财经大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "19. 上海财经大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510192-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V=\\left\\{\\left.\\begin{pmatrix}a & b\\\\ c & d\\end{pmatrix}\\right| a,b,c,d\\in\\mathbb{R}\\right\\}$ 为 2 阶实方阵构成的线性空间, 给定 $A\\in V$, 定义 $V$ 上的线性变换 $\\sigma_A$ 为 $\\sigma_A(B)=AB-BA$, $\\forall B\\in V$.\n(1) 若 $A=\\begin{pmatrix}0 & 1\\\\ 1 & 0\\end{pmatrix}$, 求 $\\sigma_A$ 的特征值与特征子空间;\n(2) 若 $A^2=E$, 证明: $\\sigma_A^3=4\\sigma_A$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（15 分）设",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $$A=\\begin{pmatrix}1+a_1b_1 & 1+a_1b_2 & \\cdots & 1+a_1b_n\\\\ 1+a_2b_1 & 1+a_2b_2 & \\cdots & 1+a_2b_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1+a_nb_1 & 1+a_nb_2 & \\cdots & 1+a_nb_n\\end{pmatrix}$$ 是数域 $\\mathbb{F}$ 上的 $n$ 阶矩阵.\n(1) 求 $|A|$;\n(2) 当 $n\\ge 3$, 且 $a_1\\ne a_2$, $b_1\\ne b_2$ 时, 求齐次线性方程组 $AX=0$ 的解空间的维数和一组基."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）设",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 3 阶实对称矩阵 $A$ 的特征值 $\\lambda_1=1$, $\\lambda_2=-1$, $\\lambda_3=2$, 且 $\\alpha_1=\\begin{pmatrix}1\\\\ 0\\\\ -2\\end{pmatrix}$ 为 $A$ 的属于特征值 $\\lambda_1$ 的一个特征向量, 记 $B=A^3-A^2-2A+E$.\n(1) 求 $B$ 的特征值与特征向量;\n(2) 求 $B$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（15 分）已知非齐次线性方程组",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知非齐次线性方程组 $$\\begin{cases}x_1-2x_2+x_3-x_4=1;\\\\ -x_1+x_2-x_3+x_4=0;\\\\ 2x_1-3x_2+ax_3-bx_4=c.\\end{cases}$$ 有 3 个线性无关的解, 求 $a,b,c$ 的值及方程组的通解."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）设",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=x^3+3x^2+3\\in\\mathbb{Q}[x]$, $\\alpha$ 是 $f(x)$ 在复数域 $\\mathbb{C}$ 中的一个根, 记 $$Q[\\alpha]=\\{a_0+a_1\\alpha+a_2\\alpha^2\\mid a_0,a_1,a_2\\in\\mathbb{Q}\\}.$$ 证明:\n(1) $f(x)$ 在有理数域上不可约;\n(2) 对任意 $g(x)\\in\\mathbb{Q}[x]$, 有 $g(\\alpha)\\in Q[\\alpha]$;\n(3) 对任意的 $0\\ne\\beta\\in Q[\\alpha]$, 存在 $\\gamma\\in Q[\\alpha]$, 使得 $\\beta\\gamma=1$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $A$, $B$ 是实数域上的 $n$ 阶对合矩阵(即 $A^2=E$, $B^2=E$), 且 $AB=BA$, 证明: $A$, $B$ 可同时相似对角化, 即存在可逆矩阵 $P$, 使得 $P^{-1}AP$, $P^{-1}BP$ 均为对角阵."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）设",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 为 $n\\times s$ 的列满秩的实矩阵, 其中 $n>s$. 证明:\n(1) 存在 $n\\times(n-s)$ 列满秩矩阵 $B$, 使得 $(A,B)$ 可逆, 且 $B^{\\mathrm{T}}A=O$;\n(2) 若 $X_0=C$ 是 $A^{\\mathrm{T}}X=O$ 的解, 其中 $C$ 是 $n\\times m$ 矩阵, $m>n-s$, 则 $C$ 的列向量组线性相关."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（20 分）设",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $\\mathbb{F}^{n\\times n}$ 为数域 $\\mathbb{F}$ 上的 $n$ 阶矩阵空间, $O\\ne A\\in\\mathbb{F}^{n\\times n}$, 记 $F(A)=\\{f(A)\\mid f(x)\\in\\mathbb{F}[x]\\}$ 是 $A$ 的全体多项式集合. 证明: 【?】（图片在此处截断，后续分问无法辨认）"
+        }
+      ]
+    }
+  ]
+}

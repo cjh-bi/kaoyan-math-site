@@ -1,0 +1,253 @@
+{
+  "msgid": "2247510402-4",
+  "exams": [
+    {
+      "school": "华中师范大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "52. 华中师范大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510402-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{1+\\frac{1}{2}x^2-\\sqrt{1+x^2}}{(\\cos x-e^{x^2})\\sin x^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设区域 $D$ 由抛物线 $y^2=px$, $y^2=qx$, $x^2=ay$, $x^2=by$ $(0<p<q,\\ 0<a<b)$ 所围成, 计算积分 $\\iint\\limits_{D} xy\\,\\mathrm{d}x\\mathrm{d}y$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算 $\\int_L (e^x\\sin y-my)\\,\\mathrm{d}x+(e^x\\cos y-m)\\,\\mathrm{d}y$, 其中 $L$ 是起点为 $(a,0)$ 经过圆周 $x^2+y^2=ax$ 上半部分(位于第一象限部分)到终点为 $(0,0)$ 的一段弧, 其中 $a$, $m$ 为大于 $0$ 的实常数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设曲面 $S$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$, 其中 $R>0$, 方向取外侧, 计算 $\\iint\\limits_{S} x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题(每题 10 分, 共 50 分)",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "已知余元公式 $\\Gamma(\\alpha)\\Gamma(1-\\alpha)=\\dfrac{\\pi}{\\sin\\alpha\\pi}$ $(\\alpha\\in(0,1))$, 计算 $\\displaystyle\\int_0^1\\dfrac{\\mathrm{d}x}{\\sqrt{1-x^4}}\\int_0^1\\dfrac{x^2}{\\sqrt{1-x^4}}\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(20 分) 证明题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "函数 $f(x)=x+(\\sin x)^2$ 在 $(-\\infty,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(20 分) 证明题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "函数 $f(x)=x+\\sin x^2$ 在 $(-\\infty,+\\infty)$ 上非一致连续。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分) 证明:",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $x,y$ 均为正实数, 证明:\n(1) 当 $0<p<1$ 时, 有 $x^p+y^p\\ge(x+y)^p$;\n(2) 当 $p\\ge 1$ 时, 有 $x^p+y^p\\le(x+y)^p$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论反常积分 $\\int_0^{+\\infty}\\dfrac{x^{p-1}}{1+x}\\,\\mathrm{d}x$ 的敛散性, 其中 $p$ 为实数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(20 分) 证明:",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明:\n(1) $\\sum\\limits_{n=1}^{\\infty}x^n\\ln^2 x$ 在 $(0,1]$ 上一致收敛;\n(2) $\\int_0^1\\dfrac{\\ln^2 x}{1-x}\\,\\mathrm{d}x=\\sum\\limits_{n=1}^{\\infty}\\dfrac{2}{n^3}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分) 证明:",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "证明: 含参量积分 $\\int_1^{+\\infty}\\dfrac{y\\sin xy}{1+y^2}\\,\\mathrm{d}y$ 在 $(0,+\\infty)$ 上内闭一致收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分) 证明:",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "已知等式: $2\\sin\\dfrac{x}{2}\\left(\\dfrac{1}{2}+\\sum\\limits_{k=1}^{n}\\cos kx\\right)=\\sin\\left(n+\\dfrac{1}{2}\\right)x$, $x\\in[-\\pi,\\pi]$, 证明:\n(1) $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^{\\pi}\\left(\\dfrac{1}{2\\sin\\frac{x}{2}}-\\dfrac{1}{x}\\right)\\sin\\left(n+\\dfrac{1}{2}\\right)x\\,\\mathrm{d}x=0$;\n(2) $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x=\\dfrac{\\pi}{2}$。"
+        }
+      ]
+    },
+    {
+      "school": "华中师范大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "52. 华中师范大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510402-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "1",
+          "score": 10,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 为 $n$ 阶方阵, $A^*$ 表示 $A$ 的伴随矩阵, 若 $n=2$, 那么 $(A^*)^*=$______, 若 $n>2$, 且 $\\mathrm{rank}(A)=n-1$, 那么 $(A^*)^*=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x)=(x-1)^2(x+1)(x-2)$, $g(x)=(x+1)^2(x-2)^2$, 则 $f(x)$, $g(x)$ 的首一最大公因式为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "三阶矩阵 $\\begin{pmatrix}1&0&0\\\\1&1&0\\\\0&2&1\\end{pmatrix}$ 的若尔当标准型为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "若 3 阶复矩阵 $\\begin{pmatrix}0&1&0\\\\1&0&0\\\\0&0&a\\end{pmatrix}$ 为幂等矩阵, 那么复数 $a$ 满足的条件为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "在 3 维欧氏空间 $\\mathbb{R}^3$ 中, 向量 $(1,1,-1)$ 与向量 $(2,1,1)$ 夹角的余弦值为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明.",
+          "no": "6",
+          "score": 30,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "已知 $T=\\begin{pmatrix}0&1&0&0\\\\0&0&1&0\\\\0&0&0&1\\\\1&0&0&0\\end{pmatrix}$, $A=\\begin{pmatrix}1&2&3&4\\\\4&1&2&3\\\\3&4&1&2\\\\2&3&4&1\\end{pmatrix}$。\n(1) (10 分) 证明: $T$ 可相似对角化;\n(2) (10 分) 证明: 存在多项式 $f(\\lambda)$, 使得 $A=f(T)$;\n(3) (10 分) 求 $A$ 的行列式。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明.",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $k$ 是大于 1 的正整数, 向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_k$ 线性相关, 且其中任意 $k-1$ 个向量线性无关. 证明: 存在全不为零的数 $c_1,c_2,\\cdots,c_{k-1}$, 使得 $\\alpha_k=c_1\\alpha_1+c_2\\alpha_2+\\cdots+c_{k-1}\\alpha_{k-1}$, 且这样的 $c_1,c_2,\\cdots,c_{k-1}$ 是唯一确定的。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明.",
+          "no": "8",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$, $B$ 是两个尺码相同的矩阵, 若通过初等变换能把 $A$ 变为 $B$, 则称 $A$ 与 $B$ 等价. 设 $A$ 的列向量构成的向量组生成的子空间为 $U$, $B$ 的列向量构成的向量组生成的子空间为 $V$。\n(1) (10 分) 当 $U=V$ 时, 证明: $A$ 与 $B$ 等价;\n(2) (10 分) 请举例说明: 当矩阵 $A$ 与 $B$ 等价时, 不一定有 $U=V$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明.",
+          "no": "9",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知矩阵 $A=\\begin{pmatrix}2&1&-1\\\\1&-1&1\\\\4&5&-5\\end{pmatrix}$。\n(1) (10 分) 求一个秩为 1 的 3 阶方阵 $C$, 使得 $AC$ 为零矩阵;\n(2) (10 分) 证明: 不存在秩为 2 的 3 阶方阵 $C$, 使得 $AC$ 为零矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明.",
+          "no": "10",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵, 证明: $A$ 是负定的当且仅当 $A$ 的所有奇数阶顺序主子式为负, 且 $A$ 的所有偶数阶顺序主子为正。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算与证明.",
+          "no": "11",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\mathbb{R}^4$ 是由所有 4 维实行向量构成的线性空间, 定义 $\\mathbb{R}^4$ 上的线性变换如下: $$\\rho:\\mathbb{R}^4\\to\\mathbb{R}^4,\\ (x_1,x_2,x_3,x_4)\\mapsto(x_1+x_2,\\,x_2-2x_3,\\,x_3-3x_4,\\,x_1+6x_4).$$\n(1) (10 分) 求 $\\rho$ 在 $\\mathbb{R}^4$ 的基底 $\\varepsilon_1=(1,0,0,0),\\varepsilon_2=(0,1,0,0),\\varepsilon_3=(0,0,1,0),\\varepsilon_4=(0,0,0,1)$ 下的矩阵;\n(2) (10 分) 判断 $\\rho$ 是否为同构映射, 并说明理由。"
+        }
+      ]
+    }
+  ]
+}

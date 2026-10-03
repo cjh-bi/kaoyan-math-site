@@ -1,0 +1,303 @@
+{
+  "msgid": "2247510077-1",
+  "exams": [
+    {
+      "school": "北京理工大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "2. 北京理工大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510077-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{\\sin 4x}{\\sqrt{1+x}-1}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to+\\infty}\\dfrac{\\sqrt{n+\\sqrt{n}}-\\sqrt{n}}{\\sqrt[n]{3^{n}+2^{n}}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "已知 $\\begin{cases}y=t^{2}-t+1,\\\\ x=e^{2t},\\end{cases}$ 求 $\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算 $\\displaystyle\\iint_{D}(\\sqrt{x}+y)\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D=\\{(x,y)\\mid 0\\le x\\le 1,\\ x\\le y\\le 2x\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算 $\\displaystyle\\int_{L}x\\,\\mathrm{d}y-y\\,\\mathrm{d}x$，其中 $L:x^{2}+y^{2}=1$，取逆时针方向。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $z=f(u,v)$，其中 $u=2x+y$，$v=x^{2}$，求 $\\dfrac{\\partial z}{\\partial x}$，$\\dfrac{\\partial z}{\\partial y}$，$\\dfrac{\\partial^{2} z}{\\partial x^{2}}$，$\\dfrac{\\partial^{2} z}{\\partial x\\partial y}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：$\\dfrac{\\tan x}{x}>\\dfrac{x}{\\sin x}$，其中 $x\\in\\left(0,\\dfrac{\\pi}{2}\\right)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $z=x^{2}F\\left(\\dfrac{y}{x^{2}}\\right)$，其中 $F(u)$ 的一阶偏导数存在，证明：$x\\dfrac{\\partial z}{\\partial x}+2y\\dfrac{\\partial z}{\\partial y}=2z$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明：级数 $\\displaystyle\\sum_{n=1}^{+\\infty}\\dfrac{(2n-1)!!}{n!\\,3^{n}}$ 收敛。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明：广义积分 $\\displaystyle\\int_{0}^{1}\\dfrac{\\ln x}{\\sqrt{x}}\\,\\mathrm{d}x$ 收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "已知 $y=\\arctan x$，证明：\n(1) $2xy'+(1+x^{2})y''=0$；\n(2) 求 $y^{(n)}$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "已知 $a_{1}=2$，$a_{n+1}=\\dfrac{1}{2}\\left(a_{n}+\\dfrac{1}{a_{n}}\\right)$，证明：\n(1) 数列 $\\{a_{n}\\}$ 收敛；\n(2) $\\displaystyle\\sum_{n=1}^{+\\infty}\\left(\\dfrac{a_{n}}{a_{n+1}}-1\\right)$ 收敛。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "已知幂级数 $\\displaystyle\\sum_{n=1}^{+\\infty}(-1)^{n}n(n+1)x^{n}$。\n(1) 求幂级数的收敛半径、收敛区间以及和函数。\n(2) 计算 $\\displaystyle\\sum_{n=1}^{+\\infty}\\dfrac{(-1)^{n}n(n+1)}{4^{n}}$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "（可能有误）已知二元函数 $f(x,y)=\\begin{cases}\\dfrac{x^{2}+y^{2}}{x^{2}-y^{2}}xy, & (x,y)\\ne(0,0);\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$\n(1) 求 $f_{x}(0,y)$；\n(2) 证明：$f_{xy}(0,0)=-1$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知函数 $f(x)$ 在 $(0,1)$ 上连续，且 $f(1)=3\\displaystyle\\int_{0}^{\\frac{1}{3}}e^{x-1}f(x)\\,\\mathrm{d}x$。证明：存在 $\\xi\\in(0,1)$，使得 $$f(\\xi)+f'(\\xi)=0.$$"
+        }
+      ]
+    },
+    {
+      "school": "北京理工大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "2. 北京理工大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510077-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "已知 $A=\\begin{pmatrix}0&0&1\\\\1&0&0\\\\0&1&0\\end{pmatrix}$，$P$ 为可逆矩阵，$B=P^{-1}AP$，则 $B^{2022}-3A^{3}=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=(a_{ij})$ 为 3 阶方阵，已知 $A$ 的各行元素之和均为 3，且 $|A|=4$，$A_{ij}$ 是 $a_{ij}$ 的代数余子式，则 $A_{11}+A_{21}+A_{31}=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $n$ 阶可逆反称矩阵，$b$ 是 $n$ 维列向量，且 $B=\\begin{pmatrix}A&b\\\\ b^{\\mathrm{T}}&0\\end{pmatrix}$，则 $B$ 的秩为\\underline{\\qquad}。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $x^{3}+2x+1$ 的根为 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$，则 $\\begin{vmatrix}\\alpha_{1}&\\alpha_{2}&\\alpha_{3}\\\\ \\alpha_{2}&\\alpha_{3}&\\alpha_{1}\\\\ \\alpha_{3}&\\alpha_{1}&\\alpha_{2}\\end{vmatrix}=\\underline{\\qquad}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设齐次线性方程组 $x_{1}+2x_{2}+3x_{3}+4x_{4}=0$ 的解空间为 $V$，$x_{1}=2x_{2}=3x_{3}=4x_{4}$ 的解空间为 $W$，则 $V+W$ 的维数为\\underline{\\qquad}。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "6",
+          "score": 10,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "记 $M_{3\\times 3}(K)$ 为数域 $K$ 上 3 阶矩阵构成的集合，设 $V=\\{A\\in M_{3\\times 3}(K)\\mid \\mathrm{tr}(A)=0\\}$，则 $V$ 的维数为\\underline{\\qquad}，$V$ 的一组基为\\underline{\\qquad}。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题（每空 5 分，共 50 分）",
+          "no": "7",
+          "score": 15,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "$A$ 为 4 阶方阵，且 $A$ 的特征多项式 $f(\\lambda)=(\\lambda+3)^{2}(\\lambda-6)^{2}$，最小多项式为 $m(\\lambda)=(\\lambda+3)(\\lambda-6)^{2}$，则 $A$ 的 Jordan 矩阵为\\underline{\\qquad}，特征值 6 的特征子空间的维数为\\underline{\\qquad}，$r(A+3I)=$\\underline{\\qquad}。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 $A$ 是 2 阶实对称矩阵，且 $|A|=30$，$\\mathrm{tr}(A)=11$。\n(1) 证明：$A$ 是正定矩阵；\n(2) 二次曲线 $X^{\\mathrm{T}}AX=4$ 所围图形？其中 $X=\\begin{pmatrix}x\\\\ y\\end{pmatrix}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知 $A$，$B$ 是 $n$ 阶复矩阵，且 $AB=BA$。\n(1) 证明：$A$，$B$ 至少含有一个公共的特征向量；\n(2) 证明：存在可逆矩阵 $P$，使得 $P^{-1}AP$，$P^{-1}BP$ 同时为上三角矩阵。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\sigma$ 是 $n$ 维线性空间 $V$ 上的线性变换，证明：$\\sigma^{2}=4I_{V}$ 的充要条件是\n$$r(\\sigma+2I_{V})+r(\\sigma-2I_{V})=n.$$\n其中 $I_{V}$ 是恒等变换。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma$ 是线性空间 $V$ 上的线性变换，$f(x)$ 是多项式，若 $f(x)=g(x)h(x)$，且 $(g(x),h(x))=1$。\n(1) 证明：$\\mathrm{Ker}\\,f(\\sigma)$ 是 $\\sigma$ 的不变子空间；\n(2) 证明：$\\mathrm{Ker}\\,f(\\sigma)=\\mathrm{Ker}\\,g(\\sigma)\\oplus\\mathrm{Ker}\\,h(\\sigma)$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 12,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A$，$B$ 均为 2022 阶正交矩阵，已知线性方程组 $AX=BX$ 的解空间的维数是 5（$X$ 是 2022 维列向量），问：$A$，$B$ 是否可能相似，并证明你的结论。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $\\sigma$ 是正交变换，$U$ 是 $\\sigma$ 的有限维不变子空间，$U^{\\perp}$ 是 $U$ 的正交补空间，证明：$U^{\\perp}$ 也是 $\\sigma$ 的不变子空间。"
+        }
+      ]
+    }
+  ]
+}

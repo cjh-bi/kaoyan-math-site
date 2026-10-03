@@ -1,0 +1,263 @@
+{
+  "msgid": "2247516267-3",
+  "exams": [
+    {
+      "school": "郑州大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "49. 郑州大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516267-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求函数极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt[6]{x^6+x^5}-\\sqrt[4]{x^4-x^3}\\right)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int \\dfrac{x\\ln x}{(1+x^2)^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上是连续函数, 求二重积分 $$\\iint\\limits_{D} x\\left[1-yf(x^2-y^2)\\right]\\mathrm{d}x\\mathrm{d}y,$$ 其中 $D$ 为 $y=x^3,\\ y=1,\\ x=-1$ 所围成的区域。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $f(x)$ 可导, $z(x,y)=\\displaystyle\\int_0^y e^{y}f(x-t)\\,\\mathrm{d}t$, 求 $\\dfrac{\\partial^2 z}{\\partial x\\partial y}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "讨论数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^{n-1}\\left(\\sqrt[n]{n}-1\\right)$ 的条件收敛和绝对收敛性。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "讨论函数 $f(x)=x^2+\\sin x$ 的一致连续性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $\\left[0,\\dfrac{\\pi}{2}\\right]$ 上黎曼可积, 求极限 $\\displaystyle\\lim_{n\\to\\infty}\\int_0^{\\frac{\\pi}{2}}\\dfrac{f(x)}{1+x}\\sin^n x\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)=f_1(x)=\\dfrac{x}{\\sqrt{1+x^2}}$, $f_{n+1}(x)=f(f_n(x))$, $n=1,2,\\cdots$.\n(1) 求 $f_n(x)$ 的表达式, $n=1,2,\\cdots$.\n(2) 证明函数列 $\\{f_n(x)\\}$ 在 $\\mathbb{R}$ 上一致收敛。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "证明题.\n(1) 设函数 $f(x)$ 在 $(a,b)$ 内可导, 且 $\\lim\\limits_{x\\to a^+}f(x)=\\lim\\limits_{x\\to b^-}f(x)$. 证明: 存在 $\\xi\\in(a,b)$, 使得 $f'(\\xi)=0$.\n(2) 设 $f(x)$ 在 $[a,b]$ 上二阶可导, 且 $f(a)=f(b)=0$, 证明: $\\max\\limits_{x\\in[a,b]}|f(x)|\\le\\dfrac{1}{8}(b-a)^2\\max\\limits_{x\\in[a,b]}|f''(x)|$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "定义 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{3^{-nx}}{1+n^2}$, 证明:\n(1) $f(x)$ 的定义域为 $[0,+\\infty)$;\n(2) $f(x)$ 在 $[0,+\\infty)$ 上是连续函数;\n(3) $f(x)$ 在 $(0,+\\infty)$ 上有连续的导函数。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "$\\forall x\\in(-\\infty,+\\infty)$, 证明: $\\displaystyle\\int_0^{+\\infty} e^{-t}\\dfrac{\\sin tx}{t}\\,\\mathrm{d}t=\\arctan x$。"
+        }
+      ]
+    },
+    {
+      "school": "郑州大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "郑州大学 23 高代",
+      "source_imgs": ["work/imgs/2247516267-3_5.png", "work/imgs/2247516267-3_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "$\\alpha_1,\\alpha_2,\\alpha_3$ 是线性方程组 $\\begin{cases}x_1+x_2+x_3+x_4=1\\end{cases}$ 的线性无关的三个向量, 求此线性方程组系数矩阵的秩 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$A$ 是奇数阶正交矩阵, 且 $A-E$ 可逆, 则 $|A|=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$W=\\{A\\mid A^{\\mathrm T}=A\\}$, $V=\\{A\\mid A^{\\mathrm T}=-A\\}$, 则 $\\dim\\{W+V\\}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "$\\alpha=(a,b,c)^{\\mathrm T}$, $\\beta=\\left(\\dfrac{1}{a},\\dfrac{1}{b},\\dfrac{1}{c}\\right)^{\\mathrm T}$, 则 $\\left(\\alpha\\beta^{\\mathrm T}\\right)^{n}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "$(x-1)^2\\mid f(x)-1$, $(x+1)^2\\mid f(x)+1$, $f(x)$ 是三次多项式, 求 $f(x)$ 的表达式 ______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f(x)=1+x+\\cdots+x^{n-1}$【?】, 证明: $f(x)\\mid\\left(f(x)-x^{n}\\right)^{2}-x^{n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $\\alpha_1=(1+a,1,1,1)^{\\mathrm T}$, $\\alpha_2=(2,2+a,2,2)^{\\mathrm T}$, $\\alpha_3=(3,3,3+a,3)^{\\mathrm T}$, $\\alpha_4=(4,4,4,4+a)^{\\mathrm T}$.\n(1) 当 $a$ 满足什么条件时, $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性相关.\n(2) 求 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 的极大线性无关组, 将剩余向量用极大线性无关组线性表出。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $f(x)=2x_1^2+\\alpha x_2^2+x_3^2+2x_1x_2-2x_1x_3+2\\alpha x_2x_3$, 经过正交变换 $x=Qy$ 化为 $f(x)=2y_1^2+2y_2^2+\\beta y_3^2$.\n(1) 求 $\\alpha$, $\\beta$, 正交矩阵 $Q$.\n(2) 设 $x^{\\mathrm T}x=3$, 求 $f$ 的最大值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "矩阵 $\\begin{pmatrix}【?】\\end{pmatrix}$, 求它的若尔当标准型 $J$, 求可逆矩阵 $P$, 使 $P^{-1}AP=J$, 并求 $P$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$, $B$ 为三阶可逆矩阵, $A$ 每一行元素相加为 $a$, $B$ 每一行元素相加为 $b$, $A^{*}$, $B^{*}$ 为其伴随矩阵.\n(1) 证明 $A^{*}$ 的每行元素相加为 $\\dfrac{1}{a}$.\n(2) 求 $A^{*}B^{*}$ 的每行元素相加后的值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 是 $m\\times n$ 矩阵, $B$ 是 $k\\times n$ 矩阵, $B$ 行满秩. 证明: $AX=0$ 与 $BX=0$ 同解的充要条件是存在 $m\\times k$ 列满秩矩阵 $Q$, 满足 $A=QB$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $V$ 是数域 $P$ 上的 $n$ 维线性空间, $W_1,W_2$ 是 $V$ 的子空间, 并满足 $\\dim W_1+\\dim W_2=n$, 则存在 $V$ 上的线性变换 $\\sigma$: $\\sigma^{-1}(0)=W_1$, $\\sigma(V)=W_2$, 其中 $\\sigma(V)$ 为值域, $\\sigma^{-1}(0)$ 为核。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算和证明题",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V$ 是数域 $P$ 上的线性空间, $f(x),g(x)$ 互素. $U=\\{x\\mid ABx=0\\}$, $W=\\{x\\mid Ax=0\\}$, $V=\\{x\\mid Bx=0\\}$, 其中 $A=f(A)$, $B=g(A)$. 证明 $U=W\\oplus V$。"
+        }
+      ]
+    }
+  ]
+}

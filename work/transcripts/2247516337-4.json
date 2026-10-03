@@ -1,0 +1,263 @@
+{
+  "msgid": "2247516337-4",
+  "exams": [
+    {
+      "school": "暨南大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "59.  暨南大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516337-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{\\sqrt[3]{n^2}\\cos\\left(n+\\dfrac{1}{n}\\right)\\sin\\left(\\dfrac{1}{n+1}\\right)}{\\sqrt[3]{n^2}+2023n-2022}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "（可能有误）求极限 $\\lim\\limits_{x\\to\\infty}\\left(\\cos\\sqrt[3]{x+1}-\\cos\\sqrt[3]{x}\\right)x^{\\frac{1}{3}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "求曲线积分 $\\displaystyle\\int_L xy\\,\\mathrm{d}s$，其中 $L$ 为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$（$a,b>0$）在第一象限的部分。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)=\\begin{cases}e^{-\\frac{1}{x^2}}, & x\\neq 0;\\\\ 0, & x=0.\\end{cases}$ 求 $f^{(4)}(0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int \\dfrac{\\arctan x}{x^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "（可能有误）求积分 $\\displaystyle\\int_{-1}^{1}\\dfrac{|x|^{\\frac{1}{3}}\\left(\\sin\\sqrt[3]{x}\\cos\\sqrt[3]{x}+\\sin x\\cos x\\right)}{1+x^{\\frac{4}{3}}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "已知 $f(x)=\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{x^{4n}}{(4n)!}$，求 $f^{(4)}(3)-f(3)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知 $b>a>0$，求积分 $\\displaystyle\\int_{0}^{1}\\sin\\left(\\ln\\dfrac{1}{x}\\right)\\dfrac{x^b-x^a}{\\ln x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)=\\left(1-\\dfrac{1}{x}\\right)^{x}$，$x\\in(-\\infty,0)\\cup(1,+\\infty)$，求 $f'(x)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "已知 $\\{a_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}a_n=a$，证明：$$\\lim_{n\\to\\infty}\\dfrac{a_1+2a_2+\\cdots+na_n}{1+2+\\cdots+n}=a.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f_n(x)=\\cos x+\\cos^2 x+\\cdots+\\cos^n x$，证明：对任意的正整数 $n$，$f_n(x)=1$ 在 $\\left[0,\\dfrac{\\pi}{3}\\right)$ 内有且仅有一个根 $x_n$，进一步证明 $\\lim\\limits_{n\\to\\infty}x_n$ 存在，且为 $\\dfrac{\\pi}{3}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)$ 连续，且 $f'(0)$ 存在，若 $\\forall x,y\\in\\mathbb{R}$，有 $f(x+y)=\\dfrac{f(x)+f(y)}{1-f(x)f(y)}$，证明 $f(x)$ 在 $\\mathbb{R}$ 上可微。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上二阶可导，且 $f''(x)\\ge 0$。证明：$f\\left(\\dfrac{a+b}{2}\\right)\\le\\dfrac{1}{b-a}\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "记 $f_n(x)=xn^ke^{-nx}$，$x\\in(0,+\\infty)$，试问 $k$ 在哪个区间时，$\\{f_n(x)\\}$ 在 $(0,+\\infty)$ 上一致收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分 $$\\iint_S x^2\\,\\mathrm{d}y\\mathrm{d}z+y^2\\,\\mathrm{d}z\\mathrm{d}x+z^2\\,\\mathrm{d}x\\mathrm{d}y$$ 其中 $S$ 为球面 $(x-a)^2+(y-b)^2+(z-c)^2=R^2$（$R>0$）的外侧。"
+        }
+      ]
+    },
+    {
+      "school": "暨南大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "59.  暨南大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516337-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算行列式",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$D_n=\\begin{vmatrix} a_0 & x & x & \\cdots & x\\\\ x & a_1 & 0 & \\cdots & 0\\\\ x & 0 & a_2 & \\cdots & 0\\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots\\\\ x & 0 & 0 & \\cdots & a_{n-1}\\end{vmatrix}.$$ 其中 $a_1a_2\\cdots a_{n-1}\\neq 0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\beta_1,\\beta_2,\\beta_3,\\beta_4$ 是线性方程组 $AX=0$ 的一个基础解系，记 $$\\gamma_1=\\beta_1+a\\beta_2,\\ \\gamma_2=\\beta_2+a\\beta_3,\\ \\gamma_3=\\beta_3+a\\beta_4,\\ \\gamma_4=\\beta_4+a\\beta_1.$$\n问 $a$ 在什么条件下，$\\gamma_1,\\gamma_2,\\gamma_3,\\gamma_4$ 也是 $AX=0$ 的一个基础解系。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "已知矩阵 $A=\\begin{pmatrix}1 & 2 & -3\\\\ -1 & 4 & -3\\\\ 1 & k & 5\\end{pmatrix}$ 有一个二重特征值，求 $k$ 的值并回答 $A$ 能否对角化？"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知 $$\\alpha_1=(a,2,10)^T,\\ \\alpha_2=(-2,1,5)^T,\\ \\alpha_3=(-1,1,4)^T,\\ \\beta=(1,b,c)^T.$$\n当 $a,b,c$ 满足什么条件时，下面结论分别成立？\n(1) $\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出，且表示唯一；\n(2) $\\beta$ 不可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出；\n(3) $\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出，且表示不唯一，并写出表示形式。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "二次型 $f(x,y,z)=\\alpha x^2+2y^2-2z^2+2\\beta xz$（$\\beta>0$）的矩阵为 $A$，若 $A$ 的特征值之积为 $-12$，和为 $1$，求 $\\alpha,\\beta$，并求正交变换使之为标准形，写出对应的正交矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "若 $A_{m\\times n}$ 的秩为 $n$，则 $A^TA$ 是否一定可逆？请证明或举反例。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "线性变换的最小多项式是否一定整除特征多项式，请给出证明或举出反例。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "在什么条件下，有分块矩阵的行列式满足 $\\begin{vmatrix} A & C \\\\ & B\\end{vmatrix}=|A|\\times|B|$，并证明你的结论。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "欧氏空间 $V$ 上的线性变换 $\\mathscr{A}$ 与其共轭变换可交换，$W$ 是 $\\mathscr{A}$ 的不变子空间，问 $W$ 的正交补空间 $N$ 是否也是 $\\mathscr{A}$ 的不变子空间？"
+        }
+      ]
+    }
+  ]
+}

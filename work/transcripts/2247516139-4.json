@@ -1,0 +1,253 @@
+{
+  "msgid": "2247516139-4",
+  "exams": [
+    {
+      "school": "东北师范大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "30. 东北师范大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516139-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1^2+3^2+5^2+\\cdots+(2n-1)^2}{n^3}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\sqrt[6]{x^6+x^5}-\\sqrt[6]{x^6-x^5}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "求极限 $\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{1-\\cos\\sqrt{x^2+y^2}}{\\tan(x^2+y^2)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "求曲线积分 $\\displaystyle\\int_L (x^2+y^2+z^2)\\,\\mathrm{d}s$，其中 $L$ 为 $x=a\\cos t,\\ y=a\\sin t,\\ z=bt,\\ t\\in[0,2\\pi]$ 上的一段。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算积分 $\\displaystyle\\int_0^1\\left(\\dfrac{1}{t}-\\left[\\dfrac{1}{t}\\right]\\right)\\,\\mathrm{d}t$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "已知 $u=u(x,y,z), v=v(x,y,z), w=w(x,y,z)$ 由\n$$x=u+v+w,\\quad y=uv+uw+vw,\\quad z=uvw$$\n所确定，求 $\\dfrac{\\partial u}{\\partial x},\\ \\dfrac{\\partial u}{\\partial y},\\ \\dfrac{\\partial u}{\\partial z}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_L e^x(1-\\cos y)\\,\\mathrm{d}x - e^x(y-\\sin y)\\,\\mathrm{d}y,$$\n其中 $L$：$y=\\sin x$ 在 $x\\in[0,\\pi]$ 的一段，方向由 $(\\pi,0)$ 指向 $(0,0)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设 $y=y(x)$ 是由方程 $y^2-x+\\sin y=0\\ (x\\ge 1)$ 所确定的连续函数，且 $y=y(x)$ 经过点 $(\\pi^2,\\pi)$，试讨论 $y(x)$ 在 $(1,+\\infty)$ 的零点个数，并求 $\\lim\\limits_{x\\to+\\infty}y(x)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上严格单调，$x_n\\in(a,b)$，证明：如果 $\\lim\\limits_{n\\to\\infty}f(x_n)=f(a)$，则 $\\lim\\limits_{n\\to\\infty}x_n=a$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知正项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\alpha_n$ 收敛，数列 $\\{x_n\\}$ 满足 $|x_{n+1}-x_n|\\le\\alpha_n$，证明 $\\{x_n\\}$ 收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明 $x>0$ 时，$\\ln\\sqrt{x}=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{2n-1}\\left(\\dfrac{x-1}{x+1}\\right)^{2n-1}$，并讨论 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{2n-1}\\left(\\dfrac{x-1}{x+1}\\right)^{2n-1}$ 是否一致收敛。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x), g(x)$ 在 $(-\\infty,+\\infty)$ 内连续，且 $\\lim\\limits_{x\\to\\infty}(f(x)-g(x))=0$。证明：$f(x)$ 在 $(-\\infty,+\\infty)$ 内一致连续的充要条件是 $g(x)$ 在 $(-\\infty,+\\infty)$ 内一致连续。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "已知 $f(x)$ 在 $[0,1]$ 上可微，$f(0)=0$，且对任意的 $x\\in[0,1]$，有 $|f'(x)|\\le M|f(x)|$，其中 $M$ 为非负常数。证明 $f(x)\\equiv 0,\\ \\forall x\\in[0,1]$。"
+        }
+      ]
+    },
+    {
+      "school": "东北师范大学",
+      "year": "2023",
+      "subject": "高等代数与解析几何",
+      "header_note": "30. 东北师范大学 2023 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247516139-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求下列行列式的值。\n$$D=\\begin{vmatrix} 1 & 1 & \\cdots & 1 \\\\ x_1 & x_2 & \\cdots & x_n \\\\ x_1^2 & x_2^2 & \\cdots & x_n^2 \\\\ \\vdots & \\vdots & & \\vdots \\\\ x_1^{n-2} & x_2^{n-2} & \\cdots & x_n^{n-2} \\\\ x_1^{n-1} & x_2^{n-1} & \\cdots & x_n^{n-1} \\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设矩阵 $A=\\begin{pmatrix} 1 & 1 & a \\\\ 1 & a & 1 \\\\ a & 1 & 1 \\end{pmatrix}$，$\\beta=\\begin{pmatrix} 1 \\\\ 1 \\\\ -2 \\end{pmatrix}$，已知线性方程组 $AX=\\beta$ 有解但不唯一。\n(1)（5 分）求 $a$ 的值；\n(2)（10 分）求一个正交矩阵 $Q$，使得 $Q^TAQ$ 为对角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)$ 是有理数域 $\\mathbb{Q}$ 上的一个 $m$ 次多项式，$n$ 是大于 $m$ 的正整数，证明 $\\sqrt[n]{2}$ 不是 $f(x)$ 的实根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "证明：秩等于 $r$ 的矩阵可以表示为 $r$ 个秩等于 $1$ 的矩阵之和，但不能表示为少于 $r$ 个秩等于 $1$ 的矩阵之和。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 是 $n$ 阶实满秩矩阵，证明：存在正交矩阵 $P_1, P_2$ 使得\n$$P_1^{-1}AP_2=\\begin{pmatrix} \\lambda_1 & & & \\\\ & \\lambda_2 & & \\\\ & & \\ddots & \\\\ & & & \\lambda_n \\end{pmatrix},$$\n其中 $\\lambda_i>0\\ (i=1,2,\\cdots,n)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V$ 是欧氏空间，$W$ 是 $V$ 的子空间，$V$ 中的向量 $\\alpha$ 不在 $W$ 中，问是否存在 $\\alpha_0\\in W$，使得 $\\alpha-\\alpha_0$ 与 $W$ 的任意向量都正交？如果不存在，举出例子；如果存在，说明理由并讨论其唯一性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是 $n$ 维线性空间，$\\varphi$ 为 $V$ 上的线性变换，且 $\\varphi$ 的特征多项式为\n$$f(x)=(x-\\lambda_1)^{m_1}(x-\\lambda_2)^{m_2}\\ (\\lambda_1\\ne\\lambda_2),$$\n其中 $m_1+m_2=n$。\n(1)（5 分）证明：$\\mathrm{Ker}\\left((\\varphi-\\lambda_1 E)^{m_1}\\right)$ 是 $\\varphi$ 的不变子空间，其中 $E$ 是恒等变换；\n(2)（10 分）证明：$V=\\mathrm{Ker}\\left((\\varphi-\\lambda_1 E)^{m_1}\\right)\\oplus\\mathrm{Ker}\\left((\\varphi-\\lambda_2 E)^{m_2}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "距离与夹角",
+          "stem": "在直角坐标系下，已知一点 $M_0(1,2,0)$ 和一条直线 $L:\\begin{cases} x-y-z+2=0; \\\\ 2x-3y+3=0. \\end{cases}$ 求 $M_0$ 到 $L$ 的距离，并写出过 $M_0$ 且与 $L$ 垂直相交的直线方程。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 10,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "共线共面判定",
+          "stem": "设函数 $f:\\ \\mathbb{R}^3\\to\\mathbb{R}$，$f(M)=Ax+By+Cz+D$，其中 $A,B,C,D$ 是不全为零的实数，$M(x,y,z)\\in\\mathbb{R}^3$，证明：如果三点 $M_0, M_1, M_2$ 共线，且 $\\overrightarrow{M_1M_0}=\\lambda\\overrightarrow{M_0M_2}$，$\\lambda\\in\\mathbb{R},\\lambda\\ne-1$，那么\n$$f(M_0)=\\dfrac{f(M_1)+\\lambda f(M_2)}{1+\\lambda}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 20,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "直纹面与直母线",
+          "stem": "证明双曲抛物面同族的任意两条直母线必是异面直线，且同族的全体直母线平行于同一个平面。"
+        }
+      ]
+    }
+  ]
+}

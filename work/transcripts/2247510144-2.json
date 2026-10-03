@@ -1,0 +1,263 @@
+{
+  "msgid": "2247510144-2",
+  "exams": [
+    {
+      "school": "中国石油大学(华东)",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "11. 中国石油大学(华东) 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510144-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "用 $\\varepsilon-N$ 语言叙述 $\\lim\\limits_{n\\to\\infty} a_n = a$，用定义证明 $\\lim\\limits_{n\\to\\infty} \\dfrac{\\sqrt{n^2+1}}{n} = 1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left[\\dfrac{1}{\\sqrt{n^2}}+\\dfrac{1}{\\sqrt{n^2+1}}+\\cdots+\\dfrac{1}{\\sqrt{(n+1)^2}}\\right]$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u(x,y,z)=(1+xy)^z$，求全微分 $\\mathrm{d}u$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)=\\begin{cases}\\dfrac{x}{1+e^{\\frac{1}{x}}}, & x\\neq 0;\\\\[2mm] 0, & x=0,\\end{cases}$ 求 $f(x)$ 在 $x=0$ 处的连续性和可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "计算不定积分 $\\displaystyle\\int \\dfrac{e^x(x^2-2x-1)}{(x^2-1)^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(x,y)$ 在有界闭区域 $D$ 上连续，$\\sigma$ 为 $D$ 的面积，证明：在 $D$ 内至少存在一点 $(\\xi,\\eta)$，使得 $\\displaystyle\\iint_D f(x,y)\\,\\mathrm{d}x\\mathrm{d}y = f(\\xi,\\eta)\\,\\sigma$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "（可能有误）设 $y=y(x)$ 由方程 $|x|e^{f(y)}=e^{y}\\ln 2020$ 确定，其中 $f(x)$ 具有连续的导数，且 $f'(x)\\neq 1$，当 $x\\neq 0$ 时，求 $\\dfrac{\\mathrm{d}^2 y}{\\mathrm{d}x^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "（可能有误）计算三重积分 $\\displaystyle\\iiint_V (x+y+z)e^{x+y+z}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $V=\\{(x,y,z)\\mid 0\\le x-y\\le 1,\\,0\\le x-z\\le 1,\\,0\\le x+y+z\\le 1\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "已知 $f(x)$ 满足 $f(0)=f'(0)=0$，$f''(0)=6$，求极限 $\\lim\\limits_{x\\to 0}\\dfrac{f(1-\\cos x)}{x^4}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)=|x-y|\\,g(x,y)$，其中 $g(x,y)$ 为连续函数。问 $g(0,0)$ 取何值时，$f(x,y)$ 在 $(0,0)$ 处的两个偏导数均存在？此时 $f(x,y)$ 在 $(0,0)$ 处是否可微？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n+1}}{n+1}x^{n+1}$ 的收敛域与和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二型曲面积分 $\\displaystyle\\iint_\\Sigma x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+(z^2-2z)\\,\\mathrm{d}x\\mathrm{d}y$，其中 $\\Sigma:\\,z=\\sqrt{x^2+y^2}\\ (0\\le z\\le 1)$，取外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "13",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 内有定义，且在每个点处的极限存在，证明：$f(x)$ 在 $[a,b]$ 内有界。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "14",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 是曲线 $y=a\\sin x\\ (a>0)$ 从 $(0,0)$ 到 $(\\pi,0)$ 的部分，求曲线积分 $\\Sigma(a)=\\displaystyle\\int_L (1+y^3)\\,\\mathrm{d}x+(2x+y)\\,\\mathrm{d}y$ 的最小值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "15",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设 $f(x)$ 在 $(-\\infty,+\\infty)$ 上有二阶连续导数，且 $f''(x)>0$，$\\lim\\limits_{x\\to+\\infty}f'(x)=\\alpha>0$，$\\lim\\limits_{x\\to-\\infty}f(x)=\\beta<0$，若存在一点 $x_0$，使得 $f(x_0)<0$，证明：$f(x)=0$ 在 $(-\\infty,+\\infty)$ 有且仅有两个零点。"
+        }
+      ]
+    },
+    {
+      "school": "中国石油大学(华东)",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "11. 中国石油大学(华东) 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510144-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "已知 $f(x)$ 是 $l$ 次多项式，其中 $0<l<+\\infty$。\n(1) 若 $f(x)\\mid f(x^n)$，则 $f(x)$ 只有 $0$ 根和单位根；\n(2) （可能有误）若 $f(x)$ 只有 $0$ 根和全部 $m$ 次单位根，则对任意的正整数 $n$，有 $f(x)\\mid f(x^n)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式：$D_n=\\begin{vmatrix} x & y & y & \\cdots & y\\\\ z & x & y & \\cdots & y\\\\ z & z & x & \\cdots & y\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ z & z & z & \\cdots & x\\end{vmatrix}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "讨论当 $k$ 取何值时，如下方程组有解、无解，有解时求出全部解：$\\begin{cases} x_1+x_2+kx_3=4;\\\\ -x_1+kx_2+x_3=k^2;\\\\ x_1-x_2+2x_3=-4.\\end{cases}$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $A$ 为 $n$ 阶实矩阵，证明：$r(A^{\\mathrm{T}}A)=r(A)=r(AA^{\\mathrm{T}})$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知 $D=\\begin{pmatrix} A & C\\\\ C^{\\mathrm{T}} & B\\end{pmatrix}$ 正定，其中 $A$、$B$ 分别为 $m$、$n$ 阶实矩阵，$C$ 为 $m\\times n$ 实矩阵，且 $A$、$B$ 实对称，证明：$B-C^{\\mathrm{T}}A^{-1}C$ 也正定。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知 $\\alpha_1,\\alpha_2,\\alpha_3$ 为三维线性空间 $V$ 的一组基，且 $\\beta_1+\\beta_2=\\alpha_1+\\alpha_2+\\alpha_3$，$\\beta_1+\\beta_3=\\alpha_2+\\alpha_3$，$\\beta_2+\\beta_3=\\alpha_1+\\alpha_3$。\n(1) 证明：$\\beta_1,\\beta_2,\\beta_3$ 也是 $V$ 的一组基；\n(2) 求 $\\beta_1,\\beta_2,\\beta_3$ 到 $\\alpha_1,\\alpha_2,\\alpha_3$ 的过渡矩阵；\n(3) 求 $\\alpha=\\alpha_1-2\\alpha_2+\\alpha_3$ 在 $\\beta_1,\\beta_2,\\beta_3$ 下的坐标。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "已知 $A$、$B$ 为 $n$ 阶复矩阵，且 $AB=BA$，证明：$A$、$B$ 有公共的特征向量。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "已知 $\\sigma$ 是欧氏空间 $V$ 上的线性变换，$\\tau$ 为 $V$ 上的一个变换，且对任意的 $\\alpha,\\beta\\in V$，有 $(\\sigma(\\alpha),\\beta)=(\\alpha,\\tau(\\beta))$。\n(1) 证明：$\\tau$ 为线性变换；\n(2) 证明：$\\tau$ 的值域 $\\operatorname{Im}\\tau$ 等于 $\\sigma$ 的核 $\\operatorname{Ker}(\\sigma)$ 的正交补。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 是数域 $P$ 上的 $n$ 阶方阵，且 $A$ 在数域 $P$ 上存在 $n$ 个不同的特征值 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，证明：向量组 $\\xi, A\\xi,\\cdots, A^{n-1}\\xi$ 线性无关的充要条件是 $\\xi=\\displaystyle\\sum_{i=1}^{n}\\xi_i$，其中 $\\xi_i\\ (i=1,2,\\cdots,n)$ 是 $A$ 的属于特征值 $\\lambda_i$ 的特征向量。"
+        }
+      ]
+    }
+  ]
+}

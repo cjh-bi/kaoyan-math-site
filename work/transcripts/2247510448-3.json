@@ -1,0 +1,233 @@
+{
+  "msgid": "2247510448-3",
+  "exams": [
+    {
+      "school": "暨南大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "58. 暨南大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510448-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left(\\dfrac{a^x+b^x+c^x}{3}\\right)^{\\frac{1}{x}}$，其中 $a>1$，$b>1$，$c>1$ 均为常数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设 $f(x)=x^2\\cos(2x)$，求 $f^{(2023)}(0)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int e^{2022x}\\sin(2022x)\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求抛物球面 $z=2(x^2+y^2)$，$z=x^2+y^2$ 以及 $z=2$ 所围闭区域的体积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{\\ln^2\\left(\\sin\\frac{1}{n^2}\\right)}$ 的收敛性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{2n-1}{n!}x^{2n}$ 的收敛半径，并求其在收敛区域内的和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "求 $\\lim\\limits_{\\alpha\\to 0}\\displaystyle\\int_{\\alpha}^{1+\\alpha}\\dfrac{1}{1+x^2+2\\alpha^2}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求常数 $a$，$b$，使得 $[\\ln(1+ax)]^2-\\sin^2(bx)+x^3$ 在 $x\\to 0$ 时为 $x$ 的 $4$ 阶无穷小。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求 $\\displaystyle\\iint_S x^2\\,\\mathrm{d}y\\mathrm{d}z+y^2\\,\\mathrm{d}z\\mathrm{d}x+z^2\\,\\mathrm{d}x\\mathrm{d}y$，其中 $S$ 是立体 $0\\le x,y,z\\le a$ 的表面，方向取外侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题.",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "验证积分 $\\displaystyle\\int_{(1,1,1)}^{(2,3,-4)}x\\,\\mathrm{d}x+y^2\\,\\mathrm{d}y-z^3\\,\\mathrm{d}z$ 与路径无关，并求出其积分值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)$ 在 $\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 上连续，证明：\n(1) $\\{\\sin^n x f(x)\\}_{n=1}^{\\infty}$ 在 $\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 上逐点收敛；\n(2) $\\{\\sin^n x f(x)\\}_{n=1}^{\\infty}$ 在 $\\left[\\dfrac{\\pi}{4},\\dfrac{\\pi}{2}\\right]$ 上一致收敛的充分必要条件是 $f\\left(\\dfrac{\\pi}{2}\\right)=0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "证明题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "证明：当 $x>0$ 时，有 $x-\\dfrac{x^3}{6}<\\sin x<x$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "分析题.",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}(x^2+y^2)^a\\ln\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[4pt] b, & x^2+y^2=0.\\end{cases}$$\n在 $a,b$ 取何值时，$f(x,y)$ 在 $\\mathbb{R}^2$ 上连续，在 $(0,0)$ 处可微。"
+        }
+      ]
+    },
+    {
+      "school": "暨南大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "58. 暨南大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510448-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算 $n$ 阶行列式",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$|A|=\\begin{vmatrix} 0 & 1 & 1 & \\cdots & 1\\\\ 1 & 0 & 1 & \\cdots & 1\\\\ 1 & 1 & 0 & \\cdots & 1\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & 1 & \\cdots & 0 \\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "利用 $f(x)$，$g(x)$ 互素当且仅当存在 $u(x),v(x)$ 满足 $u(x)f(x)+v(x)g(x)=1$，试证：\n(1) 上式 $u(x)$，$v(x)$ 互素；\n(2) 若 $\\deg(f(x))>0$，$\\deg(g(x))>0$，则上式满足 $\\deg(u(x))<\\deg(g(x))$，$\\deg(v(x))<\\deg(f(x))$ 的 $u(x)$，$v(x)$ 是唯一的；\n(3) 若 $(f(x),g(x))=(f(x),h(x))=1$，则 $(f(x),g(x)h(x))=1$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设数域 $K$ 上的线性方程组\n$$\\begin{cases}\\lambda x_1+x_2+x_3=\\lambda-3;\\\\ x_1+\\lambda x_2+x_3=-2;\\\\ x_1+x_2+\\lambda x_3=-2.\\end{cases}$$\n讨论 $\\lambda$ 取何值时，方程组无解，有唯一解，有无穷多解，在方程组有无穷多解时，试用其导出组的基础解系表示全部解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "若矩阵 $A=\\begin{pmatrix} 2 & 6 & a\\\\ b & 1 & -5\\\\ 1 & 2 & -6 \\end{pmatrix}$ 满足 $\\mathrm{rank}(A+E)=1$，求 $a$，$b$ 及矩阵 $A$ 的初等因子和 Jordan 标准形。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $A=\\begin{pmatrix} 3 & 2 & 4\\\\ 2 & 0 & 2\\\\ 4 & 2 & 3 \\end{pmatrix}$，求正交矩阵 $T$，使得 $T^{T}AT$ 是对角矩阵。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$，$C$ 分别是 $n$，$m$ 阶实方阵，$B$ 是 $n\\times m$ 实矩阵，并且 $\\begin{pmatrix} A & B\\\\ B^{T} & C \\end{pmatrix}$ 是正定矩阵，证明：\n$$\\det\\begin{pmatrix} A & B\\\\ B^{T} & C \\end{pmatrix}\\le \\det(A)\\cdot\\det(C),$$\n且等号成立当且仅当 $B=O$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "用 $J$ 表示元素全为 $1$ 的 $n$ 阶方阵，$n\\ge 2$，设 $f(x)=a+bx$ $(b\\neq 0)$ 是有理数域 $\\mathbb{Q}$ 上的一元多项式，令 $A=f(J)$。\n(1) 求 $J$ 的全部特征值，全部特征向量，所有特征子空间；\n(2) $A$ 是否可以对角化？如果可以，求出有理数域 $\\mathbb{Q}$ 上的一个可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵，并写出这个对角矩阵。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "若 $n$ 阶方阵 $A$，$B$ 相似，且 $A^2=A$。\n(1) $A$，$B$ 的迹有何关系？\n(2) $A$ 的秩与 $B-E$ 的秩相加，写出所有可能得到的值；\n(3) 若 $(A+B)^2=A+B$，则 $AB$ 是否一定为零矩阵？"
+        }
+      ]
+    }
+  ]
+}

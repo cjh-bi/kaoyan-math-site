@@ -1,0 +1,193 @@
+{
+  "msgid": "2247516269-4",
+  "exams": [
+    {
+      "school": "湖南大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "54. 湖南大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516269-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设函数 $f(x)$ 在区间 $[a,+\\infty)$ 上一致连续，且 $\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛，求证：$\\lim\\limits_{x\\to+\\infty} f(x)=0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设函数 $f(x)$ 在区间 $[a,b]$ 上连续，由积分中值定理有 $\\int_a^x f(t)\\,\\mathrm{d}t=f(\\xi)(x-a)$ $(a\\le\\xi\\le x\\le b)$，若导数 $f'_+(a)$ 存在且非零，求 $\\lim\\limits_{x\\to a^+}\\dfrac{\\xi-a}{x-a}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在区间 $[a,b]$ 上连续，在 $(a,b)$ 内可导，且 $f(a)=0$，$f(x)>0$，$\\forall x\\in(a,b)$。证明：不存在常数 $M>0$ 使得 $\\left|\\dfrac{f'(x)}{f(x)}\\right|\\le M$，$\\forall x\\in(a,b)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设函数 $f(x)$ 在区间 $[0,+\\infty)$ 上是凸函数，求证 $F(x)=\\dfrac{1}{x}\\int_0^x f(t)\\,\\mathrm{d}t$ 为区间 $(0,+\\infty)$ 上的凸函数。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "解答如下问题。\n(1) 证明施瓦茨积分不等式：\n$$\\left(\\int_a^b f(x)g(x)\\,\\mathrm{d}x\\right)^2\\le\\int_a^b f^2(x)\\,\\mathrm{d}x\\int_a^b g^2(x)\\,\\mathrm{d}x.$$\n其中 $f,g$ 在 $[a,b]$ 上可积。\n(2) 利用施瓦茨不等式证明：\n$$\\left(\\int_a^b f(x)\\cos kx\\,\\mathrm{d}x\\right)^2+\\left(\\int_a^b f(x)\\sin kx\\,\\mathrm{d}x\\right)^2\\le1.$$\n其中 $f(x)$ 为区间 $[a,b]$ 上的非负连续函数，且 $\\int_a^b f(x)\\,\\mathrm{d}x=1$，实数 $k\\ne0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明级数 $\\sum\\limits_{n=1}^{\\infty}(-1)^n\\dfrac{e^{x^2}+\\sqrt{n}}{n^{\\frac{3}{2}}}$ 在任何有界闭区间 $[a,b]$ 上一致收敛，但任何一点 $x_0$ 处不绝对收敛。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设 $f(x,y)$ 具有二阶连续偏导数，$g(x,y)=f(e^{xy},x^2+y^2)$ 且 $f(x,y)=1-x-y+o\\left(\\sqrt{(x-1)^2+y^2}\\right)$，证明：$g(x,y)$ 在 $(0,0)$ 处取得极值，判断此极值是极大值还是极小值，并求出此极值。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设\n$$f(x,y)=\\begin{cases}\\dfrac{\\sin xy}{y}, & y\\neq 0;\\\\[4pt] 0, & y=0.\\end{cases}$$\n讨论函数的间断点，并讨论间断点的偏导数和方向导数是否存在，若存在，求其偏导数和方向导数。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算积分\n$$\\iint_S (y-z)\\,\\mathrm{d}y\\mathrm{d}z+(z-x)\\,\\mathrm{d}z\\mathrm{d}x+(x-y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为圆锥面 $z=\\sqrt{x^2+y^2}$，$z\\le h$ $(h>0)$，并取曲面的外侧。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(x,y)$ 在 $[0,\\pi]\\times[0,\\pi]$ 上连续并恒取正值。试求\n$$\\lim_{n\\to\\infty}\\ \\iint\\limits_{\\substack{0\\le x\\le\\pi\\\\ 0\\le y\\le\\pi}} (\\sin x)\\,(f(x,y))^{\\frac{1}{n}}\\,\\mathrm{d}\\sigma.$$"
+        }
+      ]
+    },
+    {
+      "school": "湖南大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "54. 湖南大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516269-4_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix}1 & 1 & 1 & \\cdots & 1\\\\ 1 & 2 & 3 & \\cdots & n\\\\ 1 & 2^2 & 3^2 & \\cdots & n^2\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 1 & 2^{n-2} & 3^{n-2} & \\cdots & n^{n-2}\\\\ 1 & 2^n & 3^n & \\cdots & n^n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "当 $\\lambda$ 取何值时下述方程组有唯一解，无穷解，无解？\n$$\\begin{cases}\\lambda x_1+x_2+x_3+x_4=1;\\\\ x_1+\\lambda x_2+x_3+x_4=1;\\\\ x_1+x_2+\\lambda x_3+x_4=1;\\\\ x_1+x_2+x_3+\\lambda x_4=1.\\end{cases}$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设数域 $K$ 上的多项式 $f_1(x),f_2(x),\\cdots,f_s(x)$ 的最大公因式为 $f_0(x)$，且 $f_0(x)$ 的次数为 $\\deg(f_0(x))=d<n$。设 $V_n$ 表示形如 $\\sum\\limits_{i=1}^{s}u_i(x)f_i(x)$ 且次数小于 $n$ 的多项式全体形成的集合，即\n$$V_n=\\{f(x)=\\sum_{i=1}^{s}u_i(x)f_i(x)\\mid u_i(x)\\in K[x],\\ \\deg(f(x))<n\\}.$$\n(1) 证明：$V_n$ 对于多项式加法及数乘运算构成 $K$ 上的线性空间；\n(2) 计算线性空间 $V_n$ 的维数，并写出 $V_n$ 的一组基。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 是 $n$ 维欧氏空间中的向量组，向量 $\\alpha_i$ 与 $\\alpha_j$ 的内积记为 $a_{ij}=(\\alpha_i,\\alpha_j)$。证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 线性无关的充要条件是矩阵 $A=(a_{ij})_{s\\times s}$ 可逆。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 40,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $K[x]_n=\\{f(x)\\in K[x]\\mid \\deg(f(x))<n\\}\\cup\\{0\\}$ 为数域 $K$ 上次数小于 $n$ 的多项式全体构成的线性空间，定义 $K[x]_n$ 上的线性变换 $\\mathscr{A}$ 如下：$\\forall f(x)\\in K[x]$，有\n$$\\mathscr{A}(f(x))=f(x)+f'(x)+\\frac{f^{(2)}(x)}{2!}+\\cdots+\\frac{f^{(n-1)}(x)}{(n-1)!}.$$\n其中 $f^{(k)}(x)$ 表示多项式 $f(x)$ 的 $k$ 阶导数。\n(1) 写出线性变换 $\\mathscr{A}$ 在 $K[x]_n$ 的基 $\\varepsilon_0=1,\\varepsilon_1=x,\\varepsilon_2=x^2,\\cdots,\\varepsilon_{n-1}=x^{n-1}$ 下的矩阵 $A$。\n(2) 证明：$\\eta_0=1,\\eta_1=x-1,\\eta_2=(x-1)^2,\\cdots,\\eta_{n-1}=(x-1)^{n-1}$ 是 $K[x]_n$ 的一组基。\n(3) 求过渡矩阵 $B$，满足 $(\\eta_0,\\eta_1,\\cdots,\\eta_{n-1})=(\\varepsilon_0,\\varepsilon_1,\\cdots,\\varepsilon_{n-1})B$。\n(4) 证明：线性变换 $\\mathscr{A}$ 是双射，且 $\\mathscr{A}^{-1}(f(x))=f(x)-f'(x)+\\dfrac{f^{(2)}(x)}{2!}+\\cdots+(-1)^{n-1}\\dfrac{f^{(n-1)}(x)}{(n-1)!}$。\n(5) 判断线性变换 $\\mathscr{A}$ 是否可对角化，并给出理由。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A=(a_{ij})_{3\\times3}$ 是一个 $3$ 阶实对称矩阵，若 $A$ 的迹 $\\mathrm{tr}(A)=a_{11}+a_{22}+a_{33}=0$，且向量 $\\alpha_1=(1,1,1)^T$ 与 $\\alpha_2=(1,1,-1)^T$ 是 $A$ 的属于特征值 $1$ 的特征向量，求矩阵 $A$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A\\in K^{n\\times n}$ 是数域 $K$ 上的 $n$ 阶方阵，按递归方式定义 $A$ 的 $m$ 重伴随矩阵 $A^{m*}$ 如下：\n$$A^{(0*)}=A,\\ A^{(1*)}=A^*,\\ A^{(2*)}=A^{**},\\cdots,A^{(m*)}=(A^{(m-1)*})^*.$$\n即 $A^{(m*)}=(\\underbrace{(\\cdots((}_{m\\text{ 重}}A^*)^*)\\cdots)^*$。证明：\n(1) $A^{**}=|A|^{n-2}A$；【?】"
+        }
+      ]
+    }
+  ]
+}

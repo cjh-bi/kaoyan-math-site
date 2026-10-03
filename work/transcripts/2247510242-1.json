@@ -1,0 +1,273 @@
+{
+  "msgid": "2247510242-1",
+  "exams": [
+    {
+      "school": "河北工业大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "24. 河北工业大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510242-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "方程 $e^{y}=(x+e)y$ 所确定的隐函数的二阶导数 $y''=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设函数 $f(u)$ 在 $u\\in(-\\infty,+\\infty)$ 上二阶连续可导, $a>1$, 则函数 $y=f(a^{x})$ 的二阶导数为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数 $u=f(w)$ 是 $w\\in(-\\infty,+\\infty)$ 的可导函数, 则二元函数 $u=f(2x-y)$ 的全微分是______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "改变累次积分顺序 $\\int_{-\\frac{\\pi}{2}}^{\\frac{\\pi}{2}}\\mathrm{d}x\\int_{0}^{\\cos x}f(x,y)\\,\\mathrm{d}y=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $\\Gamma$ 是 $y=\\tan x$ 上 $x$ 从 $\\frac{\\pi}{4}$ 到 $\\frac{\\pi}{3}$ 的定向曲线, 则 $\\int_{\\Gamma}y\\sec^{2}x\\,\\mathrm{d}x=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $k$ 为一个正整数, 级数 $\\sum_{n=1}^{\\infty}(-1)^{n}\\dfrac{n^{k}}{2^{n}}$ 是绝对收敛, 条件收敛, 还是发散的? ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "求函数\n$$y=\\begin{cases}\\dfrac{(1+x)\\sin^{2}x}{x^{2}}, & x\\neq 0;\\\\[4pt] 1, & x=0.\\end{cases}$$\n的导函数."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(y)=\\int_{y}^{y^{2}}\\dfrac{\\sin yx^{2}}{x}\\,\\mathrm{d}x$, 求 $f'(y)$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "求级数 $\\sum_{n=0}^{\\infty}\\dfrac{2n-1}{2^{n}}$ 的和."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设 $L$ 为圆周 $x^{2}+y^{2}=1$ 的逆时针方向曲线, 计算\n$$\\oint_L (xy^{2}+y^{3})\\,\\mathrm{d}x-(x^{2}y-x)\\,\\mathrm{d}y.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $S$ 为平面 $x+y+z=1$ 与坐标平面 $xOy$, $yOz$, $zOx$ 围成的四面体 $V$ 的外侧表面, 求\n$$\\iint_S xz\\,\\mathrm{d}y\\mathrm{d}z+yz\\,\\mathrm{d}z\\mathrm{d}x+z^{2}\\,\\mathrm{d}x\\mathrm{d}y.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题(每题 10 分, 共 60 分)",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求第一类曲面积分\n$$\\iint_S \\dfrac{\\mathrm{d}S}{\\sqrt{x^{2}+y^{2}+(z+2)^{2}}},$$\n其中曲面 $S$ 是以原点为球心, 以 2 为半径的上半球面."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "利用有限覆盖定理证明闭区间 $[a,b]$ 上的连续函数 $y=f(x)$ 在 $[a,b]$ 上有界."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x)$ 在区间 $[a,b]$ 上有定义, 且只有有限个不连续点 $x_1,x_2,\\cdots,x_n$, 若 $\\int_a^b|f(x)|\\,\\mathrm{d}x=0$, 证明对任意的 $x\\neq x_j$ ($j=1,2,\\cdots,n$), 都有 $f(x)=0$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "证明二元函数 $f(x,y)=ye^{y}-(1+e^{y})\\cos x$ 有无穷多个极小值点, 但没有极大值点."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明函数 $\\xi(x)=\\sum_{n=1}^{\\infty}\\dfrac{1}{n^{x}}$ 在 $(1,+\\infty)$ 上具有任意阶导数, 且各阶导函数都连续."
+        }
+      ]
+    },
+    {
+      "school": "河北工业大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "24. 河北工业大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510242-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x),g(x)$ 为两个不全为零的多项式, $m$ 是一个正整数, 证明:\n$$(f(x),g(x))^{m}=(f^{m}(x),g^{m}(x)).$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n$ 阶行列式\n$$d_n=\\begin{vmatrix}2\\alpha & \\alpha^{2} & 0 & \\cdots & 0 & 0\\\\ 1 & 2\\alpha & \\alpha^{2} & \\cdots & 0 & 0\\\\ 0 & 1 & 2\\alpha & \\cdots & 0 & 0\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 2\\alpha & \\alpha^{2}\\\\ 0 & 0 & 0 & \\cdots & 1 & 2\\alpha\\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "讨论齐次线性方程组\n$$\\begin{cases}(1+a)x_1+x_2+\\cdots+x_n=0;\\\\ 2x_1+(2+a)x_2+\\cdots+2x_n=0;\\\\ \\cdots\\cdots\\\\ nx_1+nx_2+\\cdots+(n+a)x_n=0,\\end{cases}$$\n何时有非零解? 并求其基础解系来表示全部解."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 为数域 $P$ 上的 $n$ 阶矩阵, 证明: $A^{2}=A$ 当且仅当 $\\mathrm{秩}(A)+\\mathrm{秩}(E-A)=n$, 其中 $E$ 为 $n$ 阶单位矩阵."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_t$ 是齐次线性方程组 $AX=0$ 的一个基础解系, 向量 $\\beta$ 不是 $AX=0$ 的解, 证明: 向量组 $\\beta,\\alpha_1+\\beta,\\alpha_2+\\beta,\\cdots,\\alpha_t+\\beta$ 线性无关."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 是 $n$ 阶实对称矩阵, 证明: $A$ 正定的充分必要条件为存在 $n$ 阶正定矩阵 $B$, 使得 $A=B^{2}$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\sigma$ 与 $\\tau$ 都是数域 $P$ 上 $n$ 维线性空间 $V$ 上的线性变换, 令 $W=\\{\\tau(\\alpha)\\mid \\sigma\\tau(\\alpha)=0,\\ \\alpha\\in V\\}$. 证明:\n(1) (10 分) $W$ 是 $V$ 的子空间;\n(2) (10 分) $\\dim W=\\mathrm{秩}(\\tau)-\\mathrm{秩}(\\sigma\\tau)$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设矩阵\n$$A=\\begin{pmatrix}a & -2 & 0\\\\ b & 1 & -2\\\\ c & -2 & 0\\end{pmatrix}$$\n的特征值分别为 $4,1,-2$.\n(1) (10 分) 求 $a,b,c$ 的值;\n(2) (10 分) 求一正交矩阵 $P$, 使得 $P^{-1}AP$ 为对角矩阵."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$, $B$ 为 $n$ 阶复矩阵, 证明: 方程 $AX=XB$ 有非零解的充分必要条件是 $A$, $B$ 有公共的特征值."
+        }
+      ]
+    }
+  ]
+}

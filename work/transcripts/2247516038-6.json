@@ -1,0 +1,243 @@
+{
+  "msgid": "2247516038-6",
+  "exams": [
+    {
+      "school": "首都师范大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "（图片为手写稿，卷面无标题；学校/年份/科目取自文章标题）",
+      "source_imgs": ["work/imgs/2247516038-6_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty} n^{2}\\left(1+n\\sin\\dfrac{1}{n}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "设 $\\lim\\limits_{x\\to 0}\\dfrac{\\sqrt{1+f(x)\\sin x}-1}{e^{2x}-1}=3$，求 $\\lim\\limits_{x\\to 0}f(x)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)=\\lim\\limits_{n\\to\\infty}\\dfrac{x^{2}e^{n(1-x)}+ax+b}{2e^{n(1-x)}+1}$。(1) 求 $f(x)$ 什么时候可求定积分。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "设 $f(x)=\\lim\\limits_{n\\to\\infty}\\dfrac{x^{2}e^{n(1-x)}+ax+b}{2e^{n(1-x)}+1}$。(2) 求 $\\int f(x)\\,dx$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 一阶连续可导，证明 (1) $f(x)=e^{A-x}+e^{-x}\\displaystyle\\int_{A}^{x}\\left[f(t)+f^{\\prime}(t)\\right]e^{t}\\,dt$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 一阶连续可导。(2) 若 $\\lim\\limits_{x\\to+\\infty}\\left[f(x)+f^{\\prime}(x)\\right]=0$，证明 $\\lim\\limits_{x\\to+\\infty}f(x)=0$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x,y)$ 在 $[a,A]\\times[b,B]$ 上连续，$\\{\\varphi_n(x)\\}$ 在 $[a,A]$ 上一致收敛。求证 $F_n(x)=f\\left(x,\\varphi_n(x)\\right)$ 也一致收敛。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "已知 $\\sum\\limits_{n=1}^{\\infty}u_n(x)$ 在 $[a-c,\\,a+c]$ 上一致【?】收敛，且存在 $C_n$，满足【?】。(1) 证明 $\\sum\\limits_{n=1}^{\\infty}C_n$ 收敛。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "已知 $\\sum\\limits_{n=1}^{\\infty}u_n(x)$ 在 $[a-c,\\,a+c]$ 上一致【?】收敛，且存在 $C_n$，满足【?】。(2) 证明 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{n=1}^{\\infty}u_n(x)=\\sum\\limits_{n=1}^{\\infty}C_n$ 在 $(x_0,y_0)$【?】"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "已知 $f(x,y)$ 在 $(x_0,y_0)$ 处连续，$g(x,y)$ 可微，且 $g(x_0,y_0)=0$。求证 $f(x,y)\\,g(x,y)$ 在 $(x_0,y_0)$ 处可微。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "在曲面 $2x^{2}+2y^{2}+z^{2}=1$ 上找点，使 $f(x,y,z)=x^{2}+y^{2}+z^{2}$ 在 $\\vec{l}=(1,-1,0)$ 方向上的方向导数最大。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "$\\int Q(x,y)\\,dx+$【?】$\\,dy$ 与 $\\int$【?】$\\,dx+Q(x,y)\\,dy$ ……【?】（卷面此行右侧被裁切，题干不完整）"
+        }
+      ]
+    },
+    {
+      "school": "首都师范大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "12. 首都师范大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516038-6_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "证明下面行列式的等式成立：$$\\begin{vmatrix}\\dfrac{1}{z_1-c_1} & \\dfrac{1}{z_1-c_2} & \\cdots & \\dfrac{1}{z_1-c_n}\\\\[2mm]\\dfrac{1}{z_2-c_1} & \\dfrac{1}{z_2-c_2} & \\cdots & \\dfrac{1}{z_2-c_n}\\\\ \\vdots & \\vdots & & \\vdots\\\\[1mm]\\dfrac{1}{z_n-c_1} & \\dfrac{1}{z_n-c_2} & \\cdots & \\dfrac{1}{z_n-c_n}\\end{vmatrix}=\\dfrac{\\prod\\limits_{1\\le i<j\\le n}(z_i-z_j)(c_j-c_i)}{\\prod\\limits_{1\\le i,j\\le n}(z_i-c_j)}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整值多项式",
+          "stem": "记 $\\dbinom{x}{r}=\\begin{cases}\\dfrac{x(x-1)\\cdots(x-r+1)}{r!}, & r\\ge 1;\\\\[2mm] 1, & r=0.\\end{cases}$ 设 $f(x)=\\sum\\limits_{j=0}^{n}c_j\\dbinom{x}{j}\\in\\mathbb{Q}[x]$ 为一个有理系数多项式。证明：如果存在一个整数 $k_0$，使得对任意的正整数 $k\\ge k_0$，都有 $f(k)\\in\\mathbb{Z}$，那么 $c_0,c_1,\\cdots,c_n\\in\\mathbb{Z}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $p_1(x),p_2(x),\\cdots,p_s(x)$ 为 $\\mathbb{R}[x]$ 中的非零多项式，其次数各不相同，分别为 $n_1,n_2,\\cdots,n_s$，证明：$p_1(x),p_2(x),\\cdots,p_s(x)$ 在实数域上线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $P$ 为一个数域，$A\\in P^{n\\times m}$，$r(A)=n$，$B\\in P^{m\\times(m-n)}$，$r(B)=m-n$，且 $AB=O$，同时 $\\eta$ 为 $AX=0$ 的一个解，证明方程组 $BY=\\eta$ 存在唯一解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "令 $\\alpha_1=(1,0,-1,2,1),\\alpha_2=(-1,1,0,0,1),\\alpha_3=(-1,2,-1,2,3)$ 为欧氏空间 $\\mathbb{R}^5$ 中的三个向量，$V=L(\\alpha_1,\\alpha_2,\\alpha_3)$ 为由 $\\alpha_1,\\alpha_2,\\alpha_3$ 生成的子空间。求 $V$ 在 $\\mathbb{R}^5$ 中的正交补 $V^{\\perp}$，并求 $V^{\\perp}$ 的一组标准正交基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设正实数 $p,q$ 满足 $p+q=1$，考虑 $n$ 阶方阵 ($n\\ge 3$) $$A=\\begin{pmatrix}0 & p & 0 & \\cdots & 0 & 0\\\\ q & 0 & p & \\cdots & 0 & 0\\\\ 0 & q & 0 & \\cdots & 0 & 0\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 0 & p\\\\ 0 & 0 & 0 & \\cdots & q & 0\\end{pmatrix}.$$ 证明：\n(1) 若 $\\alpha=(a_1,a_2,\\cdots,a_n)^T$ 为 $A$ 的特征向量，则 $|a_1|,|a_2|,\\cdots,|a_n|$ 不全相等；\n(2) 若 $\\lambda$ 是 $A$ 的特征值，则 $|\\lambda|<1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是一个 $n$ 维实线性空间，$A:V\\to V$ 为一个线性变换，$A$ 的特征多项式为 $(x-\\lambda_1)^k(x-\\lambda_2)^{n-k}$，其中 $\\lambda_1,\\lambda_2$ 为互异实数，$0<k<n$。令 $$V_1=\\{\\alpha\\in V\\mid (A-\\lambda_1 I)^k\\alpha=0\\},\\; V_2=\\{\\alpha\\in V\\mid (A-\\lambda_2 I)^{n-k}\\alpha=0\\}.$$ 其中 $I$ 为恒等变换。证明 $V=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B$ 为实数域上的 $n$ 阶方阵，满足 $AB=-A-B$，证明：$AB=BA$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "求下面矩阵的若尔当标准形：$$\\begin{pmatrix}0 & 1 & 0 & 0 & 0\\\\ 0 & 0 & 1 & 0 & 0\\\\ 0 & 0 & 0 & 1 & 0\\\\ 0 & 0 & 0 & 0 & 1\\\\ 1 & -5 & 10 & -10 & 5\\end{pmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "使用正交线性替换把二次型 $7x_1^2+x_2^2+x_3^2-8x_1x_2+8x_1x_3+16x_2x_3$ 化为标准形。"
+        }
+      ]
+    }
+  ]
+}

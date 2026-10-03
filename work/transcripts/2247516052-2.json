@@ -1,0 +1,213 @@
+{
+  "msgid": "2247516052-2",
+  "exams": [
+    {
+      "school": "上海交通大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "16. 上海交通大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516052-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "是非判断题. 判断下列说法是否正确, 正确的打“√”, 错误的写“×”. 每题 5 分, 共 25 分.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "存在处处不连续但有界的函数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "是非判断题. 判断下列说法是否正确, 正确的打“√”, 错误的写“×”. 每题 5 分, 共 25 分.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "Riemann 可积函数一定存在原函数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "是非判断题. 判断下列说法是否正确, 正确的打“√”, 错误的写“×”. 每题 5 分, 共 25 分.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "级数概念判断",
+          "stem": "级数 $\\sum_{n=1}^{\\infty} a_n$ 收敛, 则任意加括号, 只要不改变其先后次序, 所得的新级数仍然收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "是非判断题. 判断下列说法是否正确, 正确的打“√”, 错误的写“×”. 每题 5 分, 共 25 分.",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "函数 $|f|$ 在 $[a,b]$ 上 Riemann 可积, 则函数 $f$ 在 $[a,b]$ 上也 Riemann 可积."
+        },
+        {
+          "section": "一",
+          "section_instruction": "是非判断题. 判断下列说法是否正确, 正确的打“√”, 错误的写“×”. 每题 5 分, 共 25 分.",
+          "no": "5",
+          "score": 5,
+          "form": "判断",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设二元函数 $f(x,y)$ 在点 $(x_0,y_0)$ 的二阶混合偏导数 $f_{xy}(x_0,y_0), f_{yx}(x_0,y_0)$ 均存在, 则它们必相等."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）计算",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "计算\n$$I := \\iiint_{\\Omega} z\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $\\Omega$ 是两个球面 $x^2+y^2+z^2=2z$ 和 $x^2+y^2+z^2=z$ 之间的点集."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "设函数 $f(x)$ 在区间 $[0,1]$ 上可导, 其值域也是区间 $[0,1]$, 且存在 $0<\\theta<1$, 使得 $|f'(x)|\\leq \\theta$. 证明: $f(x)=x$ 在 $[0,1]$ 上存在唯一解."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "用有限覆盖定理证明有限区间 $[a,b]$ 上的连续函数一定一致连续."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设可微函数列 $\\{f_n\\}$ 在 $[a,b]$ 上收敛, $\\{f_n'\\}$ 在 $[a,b]$ 上一致有界, 证明: $\\{f_n\\}$ 在 $[a,b]$ 上一致收敛."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $a_n>0$, 且 $\\sum a_n$ 收敛, 令 $r_n=\\sum_{m=n}^{\\infty} a_m$.\n(1) 证明 $\\sum \\dfrac{a_n}{r_n}$ 发散;\n(2) 证明 $\\sum \\dfrac{a_n}{\\sqrt{r_n}}$ 收敛."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（25 分）",
+          "no": "1",
+          "score": 25,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $v=v(x_1,x_2,\\cdots,x_n)$ 是二阶连续可导的 $n$ 元函数. 记\n$$\\nabla := \\left(\\frac{\\partial}{\\partial x_1},\\frac{\\partial}{\\partial x_2},\\cdots,\\frac{\\partial}{\\partial x_n}\\right),\\quad \\Delta := \\frac{\\partial^2}{\\partial x_1^2}+\\frac{\\partial^2}{\\partial x_2^2}+\\cdots+\\frac{\\partial^2}{\\partial x_n^2}.$$\n同时 $D^2v := \\left(\\dfrac{\\partial^2 v}{\\partial x_i \\partial x_j}\\right)_{n\\times n}$ 为矩阵, $|D^2v|=\\left(\\sum_{i,j=1}^{n} v_{x_i x_j}^2\\right)^{\\frac{1}{2}}$. 证明:\n$$\\nabla v \\cdot \\nabla \\Delta v = \\frac{1}{2}\\Delta|\\nabla v|^2 - |D^2v|^2.$$"
+        }
+      ]
+    },
+    {
+      "school": "上海交通大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "16. 上海交通大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516052-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（10 分）解答如下问题.",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "解答如下问题.\n(1) 叙述一元整系数多项式的艾森斯坦判别法.\n(2) $x^4+x^3+x^2+x+1$ 在有理数域上是否可约, 为什么?"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $S=\\{\\alpha\\in\\mathbb{R}^2\\mid \\alpha^{\\mathrm{T}}\\alpha\\leq 1\\}$, $A$ 是 2 阶实矩阵, 记集合 $\\{A\\alpha\\mid \\alpha\\in S\\}$ 为 $AS$.\n(1) 设 $A=\\begin{pmatrix}1 & 1\\\\ 1 & 1\\end{pmatrix}$, 请精确描述 $AS$ 的几何形状;\n(2) 设 $a,b$ 为任意实数, $A=\\begin{pmatrix}a & b\\\\ -b & a\\end{pmatrix}$, 请精确描述 $AS$ 的几何形状;\n(3) 设 $A=\\begin{pmatrix}a & b\\\\ c & d\\end{pmatrix}$ 是任意实矩阵, 请描述集合 $AS$ 的大致形状并求其面积."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A\\in\\mathbb{R}^{n\\times n}$, $v_1,v_2,\\cdots,v_n\\in\\mathbb{R}^n$, 证明 $Av_1,Av_2,\\cdots,Av_n$ 线性无关的充要条件是 $A$ 可逆且 $v_1,v_2,\\cdots,v_n$ 线性无关."
+        },
+        {
+          "section": "四",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A=\\begin{pmatrix}a & x_1 & x_2\\\\ 0 & b & x_3\\\\ 0 & 0 & a\\end{pmatrix}\\in\\mathbb{R}^{3\\times 3}$, 试确定 $A$ 的 Jordan (约当) 标准型."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B\\in\\mathbb{R}^{n\\times n}$ 均为正定矩阵.\n(1) $n=2$ 时, 求 $A,B$ 使得 $AB$ 不是正定矩阵;\n(2) 求一个充分必要条件, 使得 $AB$ 是正定矩阵, 并证明."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $U,W$ 是欧氏空间 $V$ 的两个子空间, 考虑下列两个等式:\n$$\\text{甲: }\\;(U+W)^{\\perp}=U^{\\perp}+W^{\\perp},\\qquad \\text{乙: }\\;(U+W)^{\\perp}=U^{\\perp}\\cap W^{\\perp}.$$\n证明其中成立的等式, 并举例证伪其中不成立的等式."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A\\in\\mathbb{R}^{m\\times n}$, $r(A)=r>0$.\n(1) 证明存在唯一的矩阵 $P\\in\\mathbb{R}^{m\\times m}$ 使得 $P^{\\mathrm{T}}=P^2=P$, $r(P)=r(A)$, $PA=A$;\n(2) 求 $P$ 的特征多项式与特征子空间;\n(3) 设 $A=\\begin{pmatrix}1 & 2\\\\ -1 & -2\\\\ 0 & 0\\end{pmatrix}$, 求 $P$ 与矩阵 $B=(P,P)$ 的奇异值分解."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $U,V,W$ 是域 $F$ 上的有限维向量空间, 设 $\\alpha:U\\to V$, $\\beta:V\\to W$ 是线性映射, 且满足下列条件: $\\beta\\alpha=0$, 对任意向量空间 $X$ 与线性映射 $f:V\\to X$, 使得 $f\\alpha=0$, 均存在唯一的线性映射 $\\mu:W\\to X$, 使得 $f=\\mu\\beta$. 证明:\n(1) $\\beta$ 是满映射;\n(2) $W\\cong V/\\mathrm{Im}(\\alpha)$."
+        }
+      ]
+    }
+  ]
+}

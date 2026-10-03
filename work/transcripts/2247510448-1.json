@@ -1,0 +1,273 @@
+{
+  "msgid": "2247510448-1",
+  "exams": [
+    {
+      "school": "中山大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "56.  中山大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510448-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（15 分）解答如下问题：",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "计算 $\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{1}{n}+\\dfrac{1}{n+1}+\\cdots+\\dfrac{1}{2n}\\right)$；"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（15 分）解答如下问题：",
+          "no": "2",
+          "score": 5,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "据上题结果证明调和级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n}$ 发散。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）解答如下问题：",
+          "no": "1",
+          "score": 5,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "证明：对任意的 $x\\in\\mathbb{R}$，存在唯一的 $y\\in\\mathbb{R}$，使得 $y-x-\\dfrac{1}{2}\\sin y=0$；"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）解答如下问题：",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设对任意 $x\\in\\mathbb{R}$，$y$ 为满足 $y-x-\\dfrac{1}{2}\\sin y=0$ 的唯一实数，将上述映射记为 $y=f(x)$，证明：$y=f(x)$ 在 $\\mathbb{R}$ 上可导，并计算 $f'(0)$；"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（20 分）解答如下问题：",
+          "no": "3",
+          "score": 5,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设对任意 $x\\in\\mathbb{R}$，$y$ 为满足 $y-x-\\dfrac{1}{2}\\sin y=0$ 的唯一实数，将上述映射记为 $y=f(x)$，证明：$y=f(x)$ 在 $\\mathbb{R}$ 上二阶可导，并计算 $f''(0)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）解答如下问题：",
+          "no": "1",
+          "score": 5,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $\\varphi(x)=\\begin{cases}e^{x}, & x\\ge 0;\\\\ x+1, & x<0,\\end{cases}$ 用导数的定义证明：函数 $\\varphi$ 在 $x=0$ 处可导并计算 $\\varphi'(0)$；"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）解答如下问题：",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "如果任意一个函数 $y=f(x)$ 在 $x=0$ 的一个邻域内连续，去心邻域内可导，且 $\\lim\\limits_{x\\to 0}f'(x)$ 存在，则 $y=f(x)$ 在 $x=0$ 处可导且 $f'(0)=\\lim\\limits_{x\\to 0}f'(x)$，试证明此性质并应用此性质对上题中的 $\\varphi$ 计算 $\\varphi'(0)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "判断",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}(x^{2}+xy+y^{2})\\sin\\dfrac{1}{x^{2}+y^{2}}, & (x,y)\\ne(0,0);\\\\ 0, & (x,y)=(0,0),\\end{cases}$$\n则 $f(x,y)$ 在原点 $O(0,0)$ 处是否可微？并说明理由。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "用拉格朗日乘数法求函数 $f(x,y)=x+4y$ 在椭圆 $\\dfrac{x^{2}}{2}-x+y^{2}=1$ 上的最大值和最小值。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "计算曲面积分 $\\displaystyle\\iint_{S} z\\,\\mathrm{d}S$，其中 $S$ 是螺旋面 $x=u\\cos v$，$y=u\\sin v$，$z=v$，$0\\le u\\le R$，$0\\le v\\le 2\\pi$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（10 分）计算曲线积分",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_{C}\\dfrac{-(x+y)\\,\\mathrm{d}x+(x-y)\\,\\mathrm{d}y}{x^{2}+y^{2}}.$$\n其中 $C$ 是以 $(1,1)$，$(-1,1)$，$(-1,-1)$，$(1,-1)$ 为顶点的正方形的边界，沿逆时针方向。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（10 分）计算曲面积分",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$\\iint_{S}(2xz+y^{2})\\,\\mathrm{d}y\\mathrm{d}z-z^{2}\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 是曲面 $z=\\dfrac{x^{2}+y^{2}}{4}$，$0\\le z\\le 1$，方向为下方。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（10 分）解答如下问题：",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{n!\\,2^{n}}{n^{n}}$ 的敛散性；"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（10 分）解答如下问题：",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{n!\\,e^{n}}{n^{n}}$ 的敛散性。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{x^{n}}{n(n+1)}$ 的收敛域及和函数。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "（30 分）",
+          "no": "1",
+          "score": 30,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\alpha>0$，研究级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^{\\alpha}}$【?】"
+        }
+      ]
+    },
+    {
+      "school": "中山大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "56.  中山大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510448-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$D=\\begin{vmatrix}2&1&1&1&1\\\\ 1&\\dfrac{3}{2}&1&1&1\\\\ 1&1&\\dfrac{4}{3}&1&1\\\\ 1&1&1&\\dfrac{5}{4}&1\\\\ 1&1&1&1&\\dfrac{6}{5}\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $\\mathbb{R}^{5}$ 中的向量组 $\\{\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4\\}$ 如下\n$$\\alpha_1=(0,1,2,1,3)^{T},\\ \\alpha_2=(1,0,1,2,3)^{T},\\ \\alpha_3=(1,1,0,-1,4)^{T},\\ \\alpha_4=(-1,4,4,-2,7)^{T}.$$\n求一组极大线性无关组，并且将余下的向量用它的线性组合表出。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设矩阵 $A=\\begin{pmatrix}-3&-4&4&4\\\\ 1&3&-1&-1\\\\ -1&-1&2&1\\\\ -2&-1&2&3\\end{pmatrix}$，求\n(1) 矩阵 $A$ 的特征多项式 $f_A(x)$；\n(2) 矩阵 $A$ 的最小多项式 $m_A(x)$；\n(3) 矩阵 $A$ 的若当(Jordan)标准型。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "设实数列 $\\{x_n\\}_{n=1}^{\\infty}$ 满足递推关系：\n$$\\begin{cases}x_{3k+3}=x_{3k-2};\\\\ x_{3k+2}=x_{3k}+x_{3k-1};\\\\ x_{3k+1}=x_{3k}+x_{3k-2}.\\end{cases}$$\n其中 $k\\ge 1$，并且 $x_0=x_2=0$，$x_3=1$，求 $x_{3k+2}$ 的通项公式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $F:V\\to V$ 是 $n$ 维复线性空间 $V$ 上的一个线性变换，它的秩 $\\operatorname{rank}F=r$，证明：存在 $V$ 的两组基底 $\\{\\alpha_1,\\alpha_2,\\cdots,\\alpha_n\\}$ 和 $\\{\\beta_1,\\beta_2,\\cdots,\\beta_n\\}$ 满足如下性质：对任意向量 $\\xi\\in V$，若 $\\xi=\\sum\\limits_{j=1}^{n}k_j\\alpha_j$，则\n$$F(\\xi)=\\sum_{j=1}^{r}k_j\\beta_j.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A=(a_{ij})$ 为 $n$ 阶复方阵，证明：若 $A^{2}B=BA^{2}$ 对任意的 $n$ 阶复方阵 $B$ 成立，则必有 $I_n+A$ 可逆或 $I_n+A^{2}$ 可逆成立。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "设 $A$，$B$，$C$ 为 $n$ 阶复方阵，且 $C$ 的所有特征值均为实数，证明：若 $AB-BA=C^{2}$，则 $C^{n}=O$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$，$B$ 为 $n$ 阶正定矩阵，且 $AB=BA$，若 $A$ 的特征值都严格小于 $1$，则 $AB-A^{2}B$ 也是正定矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $A$ 是 $n$ 阶实方阵，$f_A(x)$ 是 $A$ 的特征多项式，且 $f_A(x)$ 在 $\\mathbb{R}[x]$ 上有不可约分解\n$$f_A(x)=p_1(x)^{l_1}p_2(x)^{l_2}\\cdots p_k(x)^{l_k}.$$\n其中 $\\deg(p_i(x))\\in\\{1,2\\}$，$l_i\\ge 1$，$i=1,2,\\cdots,k$。证明：\n$$\\sum_{i=1}^{k}l_i\\operatorname{rank}\\bigl(p_i(A)\\bigr)\\le n\\left[\\left(\\sum_{i=1}^{k}l_i\\right)-1\\right].$$\n其中 $\\operatorname{rank}(p_i(A))$ 是方阵 $p_i(A)$ 的秩，$i=1,2,\\cdots,k$。"
+        }
+      ]
+    }
+  ]
+}

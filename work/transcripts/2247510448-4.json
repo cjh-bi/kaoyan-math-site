@@ -1,0 +1,243 @@
+{
+  "msgid": "2247510448-4",
+  "exams": [
+    {
+      "school": "华南师范大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "59. 华南师范大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510448-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left(3\\sqrt{n+2}-4\\sqrt{n+1}+\\sqrt{n}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{2+\\dfrac{3}{n}+\\dfrac{5}{n^2}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\tan(x^3)}{(1-\\cos x)\\sin x}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 1}\\left(\\dfrac{3}{x^3-1}-\\dfrac{1}{x-1}\\right)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求下列极限.",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "求极限 $\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{\\sin(x^3y^2)}{x^2+y^2}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "求 $y=x^{\\sin x}\\cdot\\cos x$ 的微分。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "$\\displaystyle\\int \\dfrac{\\tan^5 x}{\\sqrt{\\cos x}}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "$\\displaystyle\\int_0^{\\pi}\\sqrt{1-\\sin x}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求 $\\displaystyle\\iint\\limits_{S} z^2\\,\\mathrm{d}S$，其中 $S$ 是锥面 $z=\\sqrt{x^2+y^2}$ 在球面 $x^2+y^2+z^2=2$ 内的部分。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^p+a^n}$（$p>0,\\,a>0$）的敛散性。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "设 $u=\\varphi(x,y)$, $v=\\psi(x,y)$ 在 $P_0(x_0,y_0)$ 点连续，且 $u_0=\\varphi(x_0,y_0)$, $v_0=\\psi(x_0,y_0)$, $f(u,v)$ 在 $Q_0(u_0,v_0)$ 处连续，证明：复合函数 $F(x,y)=f(\\varphi(x,y),\\psi(x,y))$ 在点 $P_0$ 处连续。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 上可导，证明：在 $(a,b)$ 上存在一个点 $\\xi\\in(a,b)$，使得 $$f'(\\xi)=\\dfrac{f(\\xi)-f(a)}{b-\\xi}.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判断 $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{\\mathrm{d}x}{\\sin^{\\alpha}x\\cos^{2}x}$（$\\alpha>0$）的敛散性。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "设二元函数 $$f(x,y)=\\dfrac{x^3y^2}{x^3+y^3}.$$ 计算累次极限 $\\lim\\limits_{x\\to 0}\\lim\\limits_{y\\to 0}f(x,y)$, $\\lim\\limits_{y\\to 0}\\lim\\limits_{x\\to 0}f(x,y)$，并证明重极限 $\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)$ 不存在。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $\\{f_n(x)\\}$ 的每项 $f_n(x)$ 在 $(0,+\\infty)$ 上都一致连续，在 $(0,+\\infty)$ 上 $f_n(x)$ 一致收敛于 $f(x)$，证明：$f(x)$ 在 $(0,+\\infty)$ 上一致连续。"
+        }
+      ]
+    },
+    {
+      "school": "华南师范大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "手写习题页，页面顶部标注“（扬哥讲义 P82）习题”，无印刷试卷标题；学校/年份取自文章标题（华南师范大学2022年高等代数）",
+      "source_imgs": ["work/imgs/2247510448-4_6.png"],
+      "questions": [
+        {
+          "section": "七",
+          "section_instruction": "【?】（页面首行标注“压轴·七.3”，字迹潦草）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 $A$、$B$ 均为 $n$ 级实对称矩阵，且矩阵方程 $AX+XA=B$ 有唯一解。证明：若矩阵 $X$ 是方程的解，则矩阵 $X$ 是实对称矩阵。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "【?】（页面首行标注“压轴·七.3”，字迹潦草）",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "(1) 设 $\\sigma^2=\\sigma$, $\\mathrm{Im}(\\sigma)\\subseteq\\mathrm{Im}(\\tau)$，证明 $\\tau\\sigma=0$；\n(2) 设 $\\tau^2=\\tau$, $\\mathrm{Ker}(\\tau)\\subseteq\\mathrm{Ker}(\\sigma)$，证明 $\\sigma\\tau=\\tau$（原稿旁注：可能有误）。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "【?】（页面首行标注“压轴·七.3”，字迹潦草）",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "【?】（2021【?】）证明 $x^4+x^3+x^2+x+1\\ \\mid\\ x^{5n_1}+x^{5n_2+1}+x^{5n_3+2}+x^{5n_4+3}+x^{5n_5+4}$（原稿指数部分有涂改，$n_i$ 下标读法存疑【?】）。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "两个线性变换 $\\sigma$、$\\tau$",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "两组基 $\\alpha_1=(1,0)^{\\mathrm T}$, $\\alpha_2=(0,1)^{\\mathrm T}$；$\\beta_1=(0,1)^{\\mathrm T}$, $\\beta_2=(1,1)^{\\mathrm T}$。设 $\\sigma$ 在基 $\\alpha_1,\\alpha_2$ 下的矩阵为 $A=\\left(\\ \\right)_{2\\times 2}$【?】，$\\tau$ 在基 $\\beta_1,\\beta_2$ 下的矩阵为 $B=\\left(\\ \\right)_{2\\times 2}$【?】（原稿矩阵元素空缺）。求 $\\sigma+\\tau$ 在基 $\\beta_1,\\beta_2$【?】下的矩阵，及 $\\sigma\\tau$ 在基 $\\beta_1,\\beta_2$【?】下的矩阵。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $\\alpha_1=(\\ ,\\ ,\\ ,\\ )^{\\mathrm T}$【?】, $\\alpha_2=(\\ ,\\ ,\\ ,\\ )^{\\mathrm T}$【?】, $\\alpha_3=(\\ ,\\ ,\\ ,\\ )^{\\mathrm T}$【?】（原稿向量分量空缺），$W=\\{\\,x_1\\alpha_1+x_2\\alpha_2+x_3\\alpha_3\\ \\mid\\ x_1,x_2,x_3\\in\\mathbb{R}\\,\\}$。\n(1) 求 $W^{\\perp}$；\n(2) 求 $W$ 的一组规范正交基；\n(3) 设 $\\beta=(\\ ,\\ ,\\ ,\\ )^{\\mathrm T}$【?】，求 $\\beta$ 到子空间 $W$ 的距离。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $n$ 阶行列式 $$D=\\begin{vmatrix} 1 & a & \\cdots & a & x\\\\ 2 & a & \\cdots & x & a\\\\ \\vdots & \\vdots & & \\vdots & \\vdots\\\\ n-1 & x & \\cdots & a & a\\\\ n & a & \\cdots & a & a \\end{vmatrix}$$（行列式中 $x$ 的位置原稿有涂改【?】），求 $aA_{11}+aA_{21}+\\cdots+xA_{n1}$【?】。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "(1) 已知 $1+\\sqrt{2}$ 是一个多项式的根【?】，求以 $1+\\sqrt{2}$ 为根的、次数最低且首项系数为 $1$ 的多项式；\n(2) 已知 $f(x)=$ ______【?】（原稿空缺），求 $f(1+\\sqrt{2})$。"
+        }
+      ]
+    }
+  ]
+}

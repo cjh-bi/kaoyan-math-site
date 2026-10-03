@@ -1,0 +1,104 @@
+{
+  "msgid": "2247510282-3",
+  "exams": [
+    {
+      "school": "哈尔滨工业大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "30. 哈尔滨工业大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510282-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $V_1, V_2$ 是线性空间 $V$ 的两个子空间，证明：\n(1) $V_1 \\cap V_2 = \\{0\\}$ 等价于 $V_1 + V_2$ 是直和；\n(2) $V_1 \\cup V_2 = V$ 等价于 $V_1 = V$ 或 $V_2 = V$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知多项式 $f(\\lambda) = \\lambda^n + a_1\\lambda^{n-1} + \\cdots + a_n$，矩阵\n$$A = \\begin{pmatrix} 0 & 0 & 0 & \\cdots & 0 & -a_n \\\\ 1 & 0 & 0 & \\cdots & 0 & -a_{n-1} \\\\ 0 & 1 & 0 & \\cdots & 0 & -a_{n-2} \\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots \\\\ 0 & 0 & 0 & \\cdots & 0 & -a_2 \\\\ 0 & 0 & 0 & \\cdots & 1 & -a_1 \\end{pmatrix}.$$\n(1) 证明：$A$ 的不变因子为 $1, 1, \\cdots, 1, f(\\lambda)$；\n(2) 证明：$A$ 可对角化的充要条件是 $A$ 有 $n$ 个互不相同的特征值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知实矩阵 $A_{n \\times n}$ 的列向量组为 $\\alpha_1, \\alpha_2, \\cdots, \\alpha_n$，行向量组为 $\\beta_1, \\beta_2, \\cdots, \\beta_n$，证明：对任意的 $\\gamma \\in \\mathbb{R}^n$，方程组 $k_1\\alpha_1 + k_2\\alpha_2 + \\cdots + k_n\\alpha_n = \\gamma$ 有解的充要条件是 $\\beta_1, \\beta_2, \\cdots, \\beta_n$ 线性无关。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知 $n$ 维向量\n$$\\alpha_1 = \\begin{pmatrix} 1 \\\\ 0 \\\\ \\vdots \\\\ 0 \\\\ -1 \\end{pmatrix},\\ \\alpha_2 = \\begin{pmatrix} -1 \\\\ 1 \\\\ 0 \\\\ \\vdots \\\\ 0 \\end{pmatrix},\\ \\alpha_3 = \\begin{pmatrix} 0 \\\\ -1 \\\\ 1 \\\\ \\vdots \\\\ 0 \\end{pmatrix},\\ \\cdots,\\ \\alpha_n = \\begin{pmatrix} 0 \\\\ \\vdots \\\\ 0 \\\\ -1 \\\\ 1 \\end{pmatrix},\\ \\beta = \\begin{pmatrix} a_1 \\\\ a_2 \\\\ a_3 \\\\ \\vdots \\\\ a_n \\end{pmatrix}.$$\n考察方程组 $x_1\\alpha_1 + x_2\\alpha_2 + \\cdots + x_n\\alpha_n = \\beta$。\n(1) $\\beta$ 满足什么条件时，方程组有解？并求解。\n(2) 若方程组的解构成线性空间，求 $\\beta$ 需满足的条件和该线性空间。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $n$ 阶矩阵 $A$ 的任意 $k$（$k = 1, 2, \\cdots, n-1$）阶顺序主子式不为零。\n(1) 证明：存在下三角矩阵 $B$，使得 $BA$ 为上三角矩阵；\n(2) 证明：$A$ 可分解为下三角矩阵 $L$ 与上三角矩阵 $U$ 的乘积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\sigma$ 为 $\\mathbb{R}^n$ 上的线性变换，证明以下两个命题等价：\n(1) $(\\sigma(\\alpha), \\sigma(\\beta)) = (\\alpha, \\beta)$，$\\forall \\alpha, \\beta \\in \\mathbb{R}^n$；\n(2) $\\sigma$ 将 $\\mathbb{R}^n$ 的标准正交基映射为 $\\mathbb{R}^n$ 的标准正交基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "已知多项式 $f(x), g(x)$ 次数大于零，设 $f(x) = (f(x), g(x))f_1(x)$，$g(x) = (f(x), g(x))g_1(x)$，证明：存在多项式 $u(x), v(x)$，使得 $u(x)f_1(x) + v(x)g_1(x) = 1$，且 $\\partial(u(x)) < \\partial(g_1(x))$，$\\partial(v(x)) < \\partial(f_1(x))$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "多项式 $f(x) = a_nx^n + a_{n-1}x^{n-1} + \\cdots + a_1x + a_0$ 除以 $x - 1$ 得商式 $g(x) = b_{n-1}x^{n-1} + \\cdots + b_1x + b_0$ 和余式 $r$。\n(1) 求矩阵 $M$，使得 $(b_{n-1}, b_{n-2}, \\cdots, b_0, r) = (a_n, a_{n-1}, \\cdots, a_0)M$；\n(2) 求多项式 $x^n + x^{n-1} + \\cdots + x + 1$ 除以 $x - 1$ 所得的商式和余式。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 $A, B$ 为同阶实对称矩阵，$B$ 为正定矩阵。\n(1) 证明：存在可逆矩阵 $C$，使得 $C^TAC$，$C^TBC$ 同时为对角矩阵；\n(2) 设 $A = \\begin{pmatrix} 1 & 2 & 1 \\\\ 2 & 4 & 2 \\\\ 1 & 2 & 1 \\end{pmatrix}$，$B = \\begin{pmatrix} 1 & 1 & 0 \\\\ 1 & 2 & 1 \\\\ 0 & 1 & 2 \\end{pmatrix}$，求矩阵 $C$，使得 $C^TAC$，$C^TBC$ 同时为对角矩阵。"
+        }
+      ]
+    }
+  ]
+}

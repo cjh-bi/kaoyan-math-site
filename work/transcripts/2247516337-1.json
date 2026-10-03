@@ -1,0 +1,243 @@
+{
+  "msgid": "2247516337-1",
+  "exams": [
+    {
+      "school": "中南大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "55. 中南大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516337-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 40 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\sqrt[n]{\\cos x}-\\sqrt[m]{\\cos x}}{\\sin^2 x}$ $(m,n\\in\\mathbb{Z}^+)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 40 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求将曲线 $(x-b)^2+y^2=a^2$ $(0<a<b)$ 绕 $y$ 轴旋转一周所得旋转曲面的面积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 40 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算积分 $\\oint_L (e^x-y^2)\\,\\mathrm{d}x+(x^2+ye^y)\\,\\mathrm{d}y$, 其中 $L$ 为取逆时针方向的曲线 $\\dfrac{(x-1)^2}{2}+\\dfrac{(y-2)^2}{8}=1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题, 每题 10 分, 共 40 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $z=xf\\left(\\dfrac{x}{y}\\right)+yg\\left(\\dfrac{y}{x}\\right)$, 其中 $f,g$ 具有二阶连续的导数, 求 $x^4y^2\\dfrac{\\partial^2 z}{\\partial x^2}+x^3y^3\\dfrac{\\partial^2 z}{\\partial x\\partial y}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(20 分) 解答如下问题.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x),g(x)$ 是 $[a,b]$ 上的可积函数, 证明下面的 Cauchy-Schwarz 不等式成立\n$$\\left(\\int_a^b f(x)g(x)\\,\\mathrm{d}x\\right)^2\\le \\int_a^b f^2(x)\\,\\mathrm{d}x\\int_a^b g^2(x)\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(20 分) 解答如下问题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设 $f(x)$ 和 $f'(x)$ 都在 $[a,b]$ 上连续, 且 $f(0)=0$. 证明:\n(1) $\\max\\limits_{x\\in[a,b]}|f(x)|\\le \\sqrt{b-a}\\left(\\int_a^b |f'(x)|^2\\,\\mathrm{d}x\\right)^{\\frac{1}{2}}$;\n(2) $\\int_a^b f^2(x)\\,\\mathrm{d}x\\le \\dfrac{1}{2}(b-a)^2\\int_a^b |f'(x)|^2\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设函数 $f(x)$ 在 $(0,1)$ 内有定义, 且函数 $e^x f(x)$ 与 $e^{-f(x)}$ 在 $(0,1)$ 内都是单调不减的. 证明:\n(1) $f(x)$ 在 $(0,1)$ 内单调不增;\n(2) $f(x)$ 在 $(0,1)$ 内连续."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[0,a]$ 上二阶可导, 且在 $[0,a]$ 上 $|f''(x)|\\le M$. 又 $f(x)$ 在 $(0,a)$ 内取最大值. 证明: $|f'(0)|+|f'(a)|\\le Ma$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分) 解答如下问题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设函数 $f$ 在 $x=0$ 附近有三阶导数, 且其带佩亚诺余项的三阶麦克劳林展开式为\n$$f(x)=x+3x^2+4x^3+o(x^3).$$\n试写出 $f$ 的反函数 $g$ 的带佩亚诺余项的三阶麦克劳林展开式."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分) 解答如下问题.",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "将 $[0,\\pi]$ 上的函数 $f(x)=\\dfrac{\\pi^2}{2}-x^2$ 在 $[-\\pi,\\pi]$ 上按余弦级数展开, 并求数项级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{(-1)^{n-1}}{n^2}$ 的和."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "给定方程 $x^2-y+\\cos y=1$.\n(1) 证明该方程在原点附近能够唯一地确定隐函数 $y=f(x)$;\n(2) 讨论隐函数 $y=f(x)$ 在 $x=0$ 处的极值;\n(3) 对上述隐函数 $y=f(x)$, 计算极限 $\\lim\\limits_{x\\to 0}\\dfrac{x^2-x+\\sin x-y}{x^3}$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "设平面 $3x+2z=3$ 与柱面 $x^2+y^2=1$ 的交线为 $L$.\n(1) 在交线 $L$ 上求一点 $P$, 使其到平面 $xOy$ 面的距离最短;\n(2) 求交线 $L$ 过上述点 $P$ 的切线方程;\n(3) 若规定 $L$ 的方向为: 从 $x$ 轴的正向看去为逆时针方向, 试计算积分 $\\int_L (z-x)\\,\\mathrm{d}y+(x-y)\\,\\mathrm{d}z$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $f(x)=\\int_0^{+\\infty} e^{-y^2}\\cos xy\\,\\mathrm{d}y$. 【?】(图片截断, 该题后续设问未显示)"
+        }
+      ]
+    },
+    {
+      "school": "中南大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "55. 中南大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516337-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f_1(x),f_2(x),\\cdots,f_n(x)$ 为 $n$ $(n\\ge 2)$ 个实系数多项式, 且\n$$(x^n+x^{n-1}+\\cdots+x+1)\\mid\\left[x^{n-1}f_1(x^{n+1})+x^{n-2}f_2(x^{n+1})+\\cdots+f_n(x^{n+1})\\right].$$\n证明: $f_k(1)=0$ $(k=1,2,\\cdots,n)$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算 $n+1$ 阶行列式\n$$D_{n+1}=\\begin{vmatrix} a & -1 & 0 & 0 & \\cdots & 0 \\\\ ax & a & -1 & 0 & \\cdots & 0 \\\\ ax^2 & ax & a & -1 & \\cdots & 0 \\\\ ax^3 & ax^2 & ax & a & \\cdots & 0 \\\\ \\vdots & \\vdots & \\vdots & \\vdots & & \\vdots \\\\ ax^n & ax^{n-1} & ax^{n-2} & ax^{n-3} & \\cdots & a \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知实系数方程组 $AX=b$ 有唯一解, 其中 $A$ 为 $m\\times n$ 矩阵 $(m\\ge n)$, $b$ 为 $m$ 维向量. 证明: $A^{\\prime}A$ 非奇异, 且这个唯一解为 $X=(A^{\\prime}A)^{-1}A^{\\prime}b$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $A$ 为 $m\\times n$ 实矩阵, $\\eta_1,\\eta_2,\\cdots,\\eta_{n-r}$ 是方程组 $AX=0$ 的基础解系, $B=(\\eta_1,\\eta_2,\\cdots,\\eta_{n-r})$, 证明: 如果 $n\\times t$ 矩阵 $C$ 满足 $AC=O$, 则存在唯一的矩阵 $D$ 使得 $C=BD$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A_1,A_2,B_1,B_2$ 是 $n$ 阶方阵, $A_2,B_2$ 可逆. 证明: 存在可逆矩阵 $P,Q$, 使得 $B_i=PA_iQ$ $(i=1,2)$ 成立的充分必要条件是 $A_1A_2^{-1}$ 与 $B_1B_2^{-1}$ 相似."
+        },
+        {
+          "section": "六",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实对称正定矩阵, $B$ 为 $n$ 阶实反对称矩阵. 证明: $|A+B|>0$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma$ 为 $n$ 维线性空间 $V$ 的可逆线性变换, 且 $W$ 是 $\\sigma-$不变子空间. 证明: $W$ 是 $\\sigma^{-1}-$不变子空间."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(18 分)",
+          "no": "1",
+          "score": 18,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "设 $A,B,C,D$ 为两两可交换的 $n$ 阶实方阵, 且 $AC+BD=E$ ($E$ 为 $n$ 阶单位矩阵), 并设 $ABX=0,BX=0,AX=0$ 的解空间分别为 $W,V_1,V_2$, 证明: $W=V_1\\oplus V_2$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(16 分)",
+          "no": "1",
+          "score": 16,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V_1,V_2$ 是 $n$ 维欧氏空间 $V$ 的两个子空间, 且 $\\dim(V_1)<\\dim(V_2)$. 证明: $V_2$ 中必有一非零向量 $\\alpha$ 使得 $\\alpha\\perp V_1$."
+        }
+      ]
+    }
+  ]
+}

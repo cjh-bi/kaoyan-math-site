@@ -1,0 +1,223 @@
+{
+  "msgid": "2247516229-2",
+  "exams": [
+    {
+      "school": "合肥工业大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "42. 合肥工业大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516229-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "设 $$f(x,y) = \\begin{cases} x\\cos\\dfrac{1}{y} + y\\cos\\dfrac{1}{x}, & xy \\neq 0; \\\\ 0, & xy = 0. \\end{cases}$$ 讨论三个极限 $\\lim\\limits_{x\\to 0}\\lim\\limits_{y\\to 0} f(x,y)$，$\\lim\\limits_{y\\to 0}\\lim\\limits_{x\\to 0} f(x,y)$，$\\lim\\limits_{\\substack{x\\to 0 \\\\ y\\to 0}} f(x,y)$ 是否存在，并说明你的理由。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u = f(\\xi, \\eta)$，其中 $\\xi = r$，$\\eta = r\\cos\\theta$，求 $\\dfrac{\\partial u}{\\partial r}, \\dfrac{\\partial u}{\\partial \\theta}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)$ 在闭区间 $[0,1]$ 上每个点极限都存在，证明：$f(x)$ 在 $[0,1]$ 上有界。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "若 $f(x)$ 在 $[0,1]$ 上有三阶导数，且 $f(1) = 0$，设 $F(x) = x^3 f(x)$，证明：在 $(0,1)$ 上至少存在一点 $\\xi$，使得 $F'''(\\xi) = 0$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,2]$ 满足 $|f(x)| \\leq 1$，$|f''(x)| \\leq 1$。证明：在 $[0,2]$ 上，$|f'(x)| \\leq 2$。并举例说明存在 $f(x)$ 满足题目条件且存在 $c \\in [0,1]$，使得 $|f'(c)| = 2$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "证明：$\\lim\\limits_{n\\to\\infty} \\displaystyle\\int_0^{\\frac{\\pi}{2}} (\\sin x)^{\\frac{1}{n}}\\, \\mathrm{d}x = \\dfrac{\\pi}{2}$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设函数 $f(x) = \\dfrac{1}{1 - 2x - x^2}$，判断级数 $\\displaystyle\\sum_{n=0}^{\\infty} \\dfrac{n!}{f^{(n)}(0)}$ 是否收敛，并证明你的结论。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x) = \\displaystyle\\sum_{n=1}^{\\infty} \\left( x + \\dfrac{1}{n} \\right)^n$，请确定 $f(x)$ 的定义域，并讨论 $f(x)$ 在定义域内的连续性。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "试证 $\\displaystyle\\int_0^{+\\infty} \\dfrac{1}{1 + x^4}\\, \\mathrm{d}x = \\int_0^{+\\infty} \\dfrac{x^2}{1 + x^4}\\, \\mathrm{d}x$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算 $$I = \\iint_{\\Sigma} \\frac{x^3}{3}\\, \\mathrm{d}y\\mathrm{d}z + \\frac{y^3}{3}\\, \\mathrm{d}z\\mathrm{d}x + (z+1)\\, \\mathrm{d}x\\mathrm{d}y,$$ 其中 $\\Sigma: z = 1 - x^2 - y^2$（$z \\geq 0$），取上侧。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "计算 $I = \\displaystyle\\iint_{x^2 + y^2 + z^2 = 4} f(x,y,z)\\, \\mathrm{d}S$，其中 $$f(x,y,z) = \\begin{cases} x^2 + y^2, & z \\geq \\sqrt{x^2 + y^2}; \\\\ 0, & z < \\sqrt{x^2 + y^2}. \\end{cases}$$"
+        }
+      ]
+    },
+    {
+      "school": "合肥工业大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "42. 合肥工业大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516229-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "向量组 $$\\alpha_1 = (1, -1, 2, -1)^T,\\ \\alpha_2 = (-3, 4, -1, 2)^T,\\ \\alpha_3 = (4, -5, 3, -3)^T,\\ \\alpha_4 = (-1, \\lambda, 3, 0)^T,\\ \\beta = (0, k, 5, -1).$$ 且 $\\lambda, k \\in \\mathbb{R}$，$\\mathbb{R}$ 表示实数域。\n(1) 讨论 $\\lambda, k$ 取何值时，$\\beta$ 不能由 $\\alpha_1, \\alpha_2, \\alpha_3, \\alpha_4$ 线性表示；\n(2) 讨论 $\\lambda, k$ 取何值时，$\\beta$ 可由 $\\alpha_1, \\alpha_2, \\alpha_3, \\alpha_4$ 线性表示，并写出表达式。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A^*$ 是 $n$ 阶（$n \\geq 2$）复方阵 $A$ 的伴随矩阵，用 $R(A)$ 表示 $A$ 的秩。\n(1) 证明：$R(A^*) = \\begin{cases} n, & R(A) = n; \\\\ 1, & R(A) = n - 1; \\\\ 0, & R(A) < n - 1. \\end{cases}$\n(2) 证明：若 $R(A) = n$，那么存在复方阵 $B$，使得 $B^* = A$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "解答如下问题：\n(1) 设实二次型 $f(x_1, x_2, x_3) = x_1^2 + 2x_2^2 + 6x_3^2 - 2x_1x_2 + 2x_1x_3 - 6x_2x_3$，用可逆线性替换将 $f$ 化为规范形，求出所用的可逆线性替换，并说明该二次型对应的矩阵 $A$ 是正定矩阵。\n(2) 设 $A = \\begin{pmatrix} 1 & -1 & 1 \\\\ -1 & 2 & -3 \\\\ 1 & -3 & 6 \\end{pmatrix}$，求可逆矩阵 $D$，使得 $A = D^T D$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "证明：$p(x)$ 为不可约多项式当且仅当对任意的多项式 $f(x), g(x)$，若 $p(x) \\mid f(x)g(x)$，则 $p(x) \\mid f(x)$ 或 $p(x) \\mid g(x)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 为 $n$ 阶方阵，证明：存在可逆矩阵 $B$ 与幂等矩阵 $C$，使得 $A = BC$（$C$ 指满足 $C^2 = C$ 的 $n$ 阶方阵）。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设线性空间 $$V = \\left\\{ X = \\begin{pmatrix} x_1 & x_2 \\\\ x_3 & x_4 \\end{pmatrix} \\ \\middle| \\ x_1 + x_4 = 0,\\ x_1, x_2, x_3, x_4 \\in \\mathbb{R} \\right\\}.$$\n(1) 给定 $V$ 上的变换 $\\sigma$：$\\sigma(X) = X + X^T$，$\\forall X \\in V$，验证 $\\sigma$ 为 $V$ 上的线性变换；\n(2) 求 $V$ 的一组基及 $\\sigma$ 在该基下的矩阵；\n(3) 求 $\\sigma$ 的全体特征值与特征向量。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "在 $V = P[x]_{n+1}$ 上定义线性变换 $\\sigma: \\sigma(f(x)) = x f'(x) - f(x)$，$f(x) \\in V$。\n(1) 求 $\\sigma$ 的核 $\\sigma^{-1}(0)$ 与值域 $\\sigma(V)$；\n(2) 问 $V = \\sigma^{-1}(0) \\oplus \\sigma(V)$ 是否成立，并说明理由。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求 $A(\\lambda) = \\begin{pmatrix} \\lambda & & & & a_0 \\\\ -1 & \\lambda & & & a_1 \\\\ & -1 & \\lambda & & a_2 \\\\ & & \\ddots & \\ddots & \\vdots \\\\ & & -1 & \\lambda & a_{n-2} \\\\ & & & -1 & \\lambda + a_{n-1} \\end{pmatrix}$ 的行列式因子与不变因子。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\mathbb{R}^3$ 上的线性变换 $\\sigma$ 定义为 $\\sigma(x, y, z)^T = (2x + y,\\ y - z,\\ 2y + 4z)^T$，其中 $x, y, z \\in \\mathbb{R}$。\n(1) 求 $\\sigma$ 所有的特征子空间及它们的和 $U$；\n(2) 问 $\\sigma$ 能否对角化（即能否找到 $\\mathbb{R}^3$ 的一组基，使 $\\sigma$ 在该基下的矩阵为对角矩阵），并说明。"
+        }
+      ]
+    }
+  ]
+}

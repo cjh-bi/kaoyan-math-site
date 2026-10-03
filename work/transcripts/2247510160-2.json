@@ -1,0 +1,233 @@
+{
+  "msgid": "2247510160-2",
+  "exams": [
+    {
+      "school": "华东师范大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "14. 华东师范大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510160-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "已知函数 $f(x)$ 在 $x=a$ 处可导，且 $f(a)\\neq 0$，求极限 $\\lim_{n\\to\\infty}\\left[\\dfrac{f\\left(a+\\frac{1}{n}\\right)}{f(a)}\\right]^{n}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "判断极限 $\\lim_{(x,y)\\to(0,0)}\\dfrac{xy}{\\sqrt{x+y+1}-1}$ 的存在性，若存在，求出此极限；若不存在，请说明理由。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\int \\dfrac{\\arctan x}{x^{2}(1+x^{2})}\\,\\mathrm{d}x$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "设函数 $z=z(x,y)$ 由方程 $e^{2yz}+x+y^{2}+z=\\dfrac{7}{4}$ 所确定，求 $\\left.\\mathrm{d}z\\right|_{\\left(\\frac{1}{2},\\frac{1}{2}\\right)}$，$\\left.\\dfrac{\\partial^{2}z}{\\partial x\\partial y}\\right|_{\\left(\\frac{1}{2},\\frac{1}{2}\\right)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分 $\\iint_{\\Sigma}(2x+z)\\,\\mathrm{d}y\\mathrm{d}z+z\\,\\mathrm{d}x\\mathrm{d}y$，其中 $\\Sigma$ 为曲面 $z=x^{2}+y^{2}$ $(0\\le z\\le 1)$，取上侧。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "解答如下问题：\n(1) 证明：当 $x>0$ 时，$\\dfrac{x}{1+x}<\\ln(1+x)<x$；\n(2) 设 $a_n=1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}-\\ln n$，$n=1,2,\\cdots$，证明数列 $\\{a_n\\}$ 收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "讨论函数 $f(x)=\\begin{cases}x(1-x),& x\\text{ 为有理数;}\\\\ x(1+x),& x\\text{ 为无理数.}\\end{cases}$ 的连续性和可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $n$ 是正整数，证明方程 $x^{n}+nx-1=0$ 有唯一的正实根 $x_n$，进而当 $\\alpha>1$ 时，判断级数 $\\sum_{n=1}^{\\infty}x_n^{\\alpha}$ 的敛散性，并证明你的结论。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "已知函数 $f(x)$ 在区间 $(-\\delta,\\delta)$ 上有界 $(\\delta>0)$，且对任意的 $x\\in(-\\delta,\\delta)$，都有 $f(x)=3f\\left(\\dfrac{x}{2}\\right)$，证明：$f(x)$ 在 $x=0$ 处连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设函数 $f(x,y)$ 在 $[0,+\\infty)\\times[c,d]$ 上连续，且无穷积分 $\\int_{0}^{+\\infty}f(x,y)\\,\\mathrm{d}x$ 在 $[c,d]$ 上一致收敛，证明：无穷积分 $\\int_{0}^{+\\infty}f(x,d)\\,\\mathrm{d}x$ 收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，且 $f_n(x)=\\dfrac{1}{n}\\sum_{k=1}^{n}f\\left(x+\\dfrac{k}{n}\\right)$，$n=1,2,\\cdots$。\n(1) 证明函数列 $\\{f_n(x)\\}$ 在 $(-\\infty,+\\infty)$ 上处处收敛，并指出其极限函数；\n(2) 证明 $\\{f_n(x)\\}$ 在任意有限闭区间 $[a,b]$ 上一致收敛。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知函数 $f(x)$ 在 $[a,b]$ 上非负连续且严格递增，并对任意的正整数 $n$，存在 $x_n\\in[a,b]$，使得 $$f^{n}(x_n)=\\dfrac{1}{b-a}\\int_{a}^{b}f^{n}(x)\\,\\mathrm{d}x.$$ 证明数列 $\\{x_n\\}$ 收敛。"
+        }
+      ]
+    },
+    {
+      "school": "华东师范大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "14. 华东师范大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510160-2_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "考虑下面的数域 $K$ 上的线性方程组\n$$\\begin{cases}x_1+x_2+2ax_3=2;\\\\ x_1+3bx_2+x_3=2;\\\\ x_1+x_2-ax_3=1.\\end{cases}$$\n问 $a$，$b$ 取何值时，方程组无解，有唯一解，有无穷多解？且在方程组有解时，求出所有的解。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 3 阶实对称矩阵 $A$ 的秩为 2，且 $-2$ 是它的二重特征值，若 $(1,0,0)^{T}$，$(2,1,1)^{T}$ 都是 $A$ 的属于特征值 $-2$ 的特征向量，求矩阵 $A$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "考虑未定元为 $x$ 与 $y$ 的次数至多为 2 的复系数二元多项式的线性空间，求线性变换 $\\mathscr{A}: f(x,y)\\mapsto f(2x+1,2y+1)$ 的 Jordan 标准型。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\sigma$ 是有限维欧氏空间 $V$ 上的正交变换，且满足 $\\sigma^{m}=I$，这里 $m>1$ 是整数，$I$ 是恒等变换。记 $V^{\\sigma}=\\{v\\in V\\mid \\sigma(v)=v\\}$，而 $V^{\\sigma}$ 的正交补记为 $V^{\\sigma\\perp}$。\n(a) 求证：$V^{\\sigma\\perp}$ 是 $\\sigma$ 的不变子空间；\n(b) 对于 $v\\in V$，定义 $\\bar{v}=\\dfrac{1}{m}\\sum_{i=1}^{m}\\sigma^{i}(v)$，求证：$\\bar{v}\\in V^{\\sigma}$；\n(c) 将 $v\\in V$ 展开成 $v=v_1+v_2$，其中 $v_1\\in V^{\\sigma}$，$v_2\\in V^{\\sigma\\perp}$，则 $v_1=\\bar{v}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)$ 是次数大于零的整系数多项式，若 $2-\\sqrt{3}$ 是 $f(x)$ 的根，证明：$2+\\sqrt{3}$ 也是 $f(x)$ 的根。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $V$ 是复数域上的 $n$ 维线性空间，$\\mathscr{A}$ 是 $V$ 上的线性变换。\n(a) 证明：存在 $k\\le n$，使得 $$\\operatorname{Im}(\\mathscr{A}^{k})=\\operatorname{Im}(\\mathscr{A}^{k+1})=\\cdots=\\operatorname{Im}(\\mathscr{A}^{n})$$ 且 $$\\operatorname{Ker}(\\mathscr{A}^{k})=\\operatorname{Ker}(\\mathscr{A}^{k+1})=\\cdots=\\operatorname{Ker}(\\mathscr{A}^{n})$$。\n(b) 考虑如下的数值指标：(i) $\\mathscr{A}$ 的秩 $r$；(ii) $\\mathscr{A}$ 的特征值为 0 的 Jordan 块的个数 $m$；(iii) $\\mathscr{A}$ 的特征值为 0 的 Jordan 块的最大阶数 $t$；(iv) (a) 中出现的最小的 $k$。讨论这些数值之间的关系，并证明你的结论。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $V$ 是实内积空间，$\\langle-,-\\rangle$ 是它上面的内积，设 $\\varphi$ 是 $V$ 上的可逆线性变换，满足 $$\\langle\\varphi(\\varphi(x),y\\rangle=\\langle x,\\varphi(y)\\rangle,\\ \\forall x,y\\in V.$$\n证明：$\\varphi$ 是正交变换。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $U,V,W$ 是 6 维线性空间的三个 3 维子空间，且 $U\\cap V=\\{0\\}$，求 $\\dim((U+W)\\cap(V+W))$ 的最大值与最小值。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "解答如下问题：\n(a) 设 $A\\in M_n(\\mathbb{R})$ 是半正定实对称矩阵，$x\\in\\mathbb{R}^{n}$，证明：$x^{T}Ax=0$ 等价于 $Ax=0$；\n(b) 设 $A$ 是 $n$ 阶半正定实对称矩阵，将其写成分块矩阵的形式 $A=\\begin{pmatrix}A_1&A_2\\\\ A_2^{T}&A_4\\end{pmatrix}$，其中 $A_1$ 是 $r$ 阶方阵，证明：对于 $x\\in\\mathbb{R}^{r}$，若 $A_1x=0$，则 $A_2^{T}x=0$；\n(c) 设 $A$，$B$ 都是 $n$ 阶半正定实对称矩阵，且 $\\operatorname{rank}(A)=r$，证明：存在 $n$ 阶可逆矩阵 $P$，使得 $$P^{-1}A(P^{-1})^{T}=\\begin{pmatrix}I_r&O\\\\ O&O\\end{pmatrix},\\ P^{T}BP=\\operatorname{diag}\\left\\{\\lambda_1,\\lambda_2,\\cdots,\\lambda_n\\right\\}。$$"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "msgid": "2247516267-1",
+  "exams": [
+    {
+      "school": "山东大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "47. 山东大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516267-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（60 分）计算题.",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{x\\sqrt{1+x^2}-xe^{x^2}}{\\arcsin x-\\sin x}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "（60 分）计算题.",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求积分 $\\iint_A e^{-x^2-y^2}\\,\\mathrm{d}x\\mathrm{d}y$，$A: 1\\le x^2+y^2\\le 3$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "（60 分）计算题.",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算积分 $\\int_0^{+\\infty} e^{-px}\\dfrac{\\sin bx-\\sin ax}{x}\\,\\mathrm{d}x$（$p>0,\\ b>a>0$）."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（60 分）证明题.",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $a_n\\ge 0$，$\\limsup\\limits_{n\\to\\infty}\\sqrt[n]{a_n}\\le 1$，证明：对任意的 $l>1$，有 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{l^n}=0$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（60 分）证明题.",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $a_1=2$，$a_{n+1}=\\dfrac{1}{2}\\left(a_n+\\dfrac{1}{a_n}\\right)$，$n=1,2,\\cdots$，证明：\n(1) $\\lim\\limits_{n\\to\\infty}a_n$ 存在；\n(2) 级数 $\\sum\\limits_{n=1}^{\\infty}\\left(\\dfrac{a_n}{a_{n+1}}-1\\right)$ 收敛."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（60 分）证明题.",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上可积，且对 $[a,b]$ 上的任一连续函数 $g(x)$，有 $\\int_a^b f(x)g(x)\\,\\mathrm{d}x=0$。证明：$f(x)$ 在连续点的取值为 0."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（30 分）证明与分析题.",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "设 $f(x,y)$ 在 $D=\\{(x,y)\\mid x^2+y^2\\le 1\\}$ 上非负连续，且 $|f(x,y)|\\le 1$。证明：\n$$\\left(\\iint_D f(x,y)\\cos(x+y)\\,\\mathrm{d}x\\mathrm{d}y\\right)^2+\\left(\\iint_D f(x,y)\\sin(x+y)\\,\\mathrm{d}x\\mathrm{d}y\\right)^2\\le \\pi^2.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（30 分）证明与分析题.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设函数 $f(x)$ 在闭区间 $[0,1]$ 上连续且恒正，讨论 $F(y)=\\int_0^1 \\dfrac{y f(x)}{x^2+y^2}\\,\\mathrm{d}x$ 的连续性，并证明你的结论."
+        }
+      ]
+    },
+    {
+      "school": "山东大学",
+      "year": "2023",
+      "subject": "高等代数与常微分方程",
+      "header_note": "47. 山东大学 2023 年高等代数与常微分方程试卷",
+      "source_imgs": ["work/imgs/2247516267-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_t$ 是一组线性无关的向量，$\\beta_i=\\sum\\limits_{j=1}^{n}a_{ij}\\alpha_j$（$i=1,2,\\cdots,t$），证明：$\\beta_1,\\beta_2,\\cdots,\\beta_t$ 线性无关的充要条件是\n$$\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1t}\\\\ a_{21}&a_{22}&\\cdots&a_{2t}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{t1}&a_{t2}&\\cdots&a_{tt}\\end{vmatrix}\\ne 0.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $A$ 是数域 $K$ 上 $m\\times n$ 矩阵，$V$ 是 $K$ 上满足 $AX=O$（$X$ 是 $n\\times s$ 未知矩阵，$O$ 是 $m\\times s$ 零矩阵）的全体 $n\\times s$ 矩阵组成的集合。问：对矩阵普通加法以及数与矩阵乘法，$V$ 是否构成线性空间？若 $V$ 构成线性空间，求其维数并给出一组基."
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "3",
+          "score": 10,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $\\alpha_1=(1,1,1)^T,\\ \\alpha_2=(1,1,2)^T,\\ \\alpha_3=(1,2,3)^T$，试证：$\\alpha_1,\\alpha_2,\\alpha_3$ 为线性空间 $\\mathbb{R}^3$ 的一组基，并用两种方法求向量 $\\alpha=(6,9,14)^T$ 在该组基下的坐标."
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是数域 $K$ 上的线性空间，$\\sigma$ 是 $V$ 的一个线性变换，$f(x),g(x)\\in P[x]$，$h(x)=f(x)g(x)$。证明：\n(1) $\\mathrm{Ker}\\,f(\\sigma)+\\mathrm{Ker}\\,g(\\sigma)\\subseteq \\mathrm{Ker}\\,h(\\sigma)$；\n(2) 若 $(f(x),g(x))=1$，则 $\\mathrm{Ker}\\,h(\\sigma)=\\mathrm{Ker}\\,f(\\sigma)\\oplus \\mathrm{Ker}\\,g(\\sigma)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "求下列方程组的一个基础解系.\n$$\\begin{cases}3x_1+2x_2+x_3+3x_4+5x_5=0;\\\\ 6x_1+4x_2+3x_3+5x_4+7x_5=0;\\\\ 9x_1+6x_2+5x_3+7x_4+9x_5=0;\\\\ 3x_1+2x_2+4x_4+8x_5=0.\\end{cases}$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "6",
+          "score": 10,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B$ 为 $n$ 阶方阵且 $A+B=AB$，求 $A-E$ 的逆矩阵，并证明 $AB=BA$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "7",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "求 $n$ 阶方阵 $A=\\begin{pmatrix}1&0&0&\\cdots&0\\\\ a&1&0&\\cdots&0\\\\ a^2&a&1&\\cdots&0\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ a^{n-1}&a^{n-2}&a^{n-3}&\\cdots&1\\end{pmatrix}$ 的逆矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 均为 $n$ 阶正定矩阵，证明 $AB$ 正定的充要条件为 $AB=BA$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "每题 10 分，共 90 分.",
+          "no": "9",
+          "score": 10,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设欧几里得空间 $V=\\mathbb{R}^4$ 中的三个向量为 $\\alpha_1=(1,-1,-1,1),\\ \\alpha_2=(1,0,-1,1),\\ \\alpha_3=(0,1,-1,1)$，子空间 $W=L(\\alpha_1,\\alpha_2,\\alpha_3)$，求向量 $\\beta=(2,1,4,2)$ 在 $W$ 上的正交投影."
+        },
+        {
+          "section": "二",
+          "section_instruction": "第 3 题 20 分，其余每题 10 分，共 60 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "求解微分方程 $y=(y'-1)e^{y'}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "第 3 题 20 分，其余每题 10 分，共 60 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "高阶线性方程",
+          "stem": "求解微分方程 $y''-y=xe^x\\cos x$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "第 3 题 20 分，其余每题 10 分，共 60 分.",
+          "no": "3",
+          "score": 20,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "线性方程组与解的结构",
+          "stem": "求 $x'=Ax$ 的基础解系，其中 $A=\\begin{pmatrix}1&4&2\\\\ 0&-3&4\\\\ 0&4&3\\end{pmatrix}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "第 3 题 20 分，其余每题 10 分，共 60 分.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "一阶微分方程",
+          "stem": "解方程 $y=\\dfrac{3}{2}(y')^2-2y'x+x^2$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "第 3 题 20 分，其余每题 10 分，共 60 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "常微分方程",
+          "l2": "存在唯一性定理",
+          "stem": "求区域 $G$，使得当 $(x_0,y_0)\\in G$ 时，初值问题\n$$\\begin{cases}y'=2\\sqrt{1+y};\\\\ y(x_0)=y_0.\\end{cases}$$\n的解存在且唯一."
+        }
+      ]
+    }
+  ]
+}

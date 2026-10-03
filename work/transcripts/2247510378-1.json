@@ -1,0 +1,253 @@
+{
+  "msgid": "2247510378-1",
+  "exams": [
+    {
+      "school": "厦门大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "43. 厦门大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510378-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "不等式证明",
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上有连续的二阶导数，且 $f(x)$ 与 $f''(x)$ 都有界，设 $M_0=\\sup\\limits_{x\\in\\mathbb{R}}|f(x)|$，$M_2=\\sup\\limits_{x\\in\\mathbb{R}}|f''(x)|$，证明：\n$$\\sup_{x\\in\\mathbb{R}}|f'(x)|^2\\le 4M_0M_2.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明：$\\displaystyle\\sum_{n=0}^{\\infty}\\int_0^x t^n\\sin(\\pi t)\\,\\mathrm{d}t$ 关于 $x\\in[0,1]$ 一致收敛。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设数列 $\\{x_n\\}$ 由以下迭代产生：$x_1=\\dfrac{1}{2}$，$x_{n+1}=x_n^2+x_n$。证明：\n$$\\lim_{n\\to\\infty}\\left(\\frac{1}{1+x_1}+\\frac{1}{1+x_2}+\\cdots+\\frac{1}{1+x_n}\\right)=2.$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设 $f(x)$ 在 $(a,b)$ 上可导，对任意的 $x_0\\in(a,b)$，证明：存在 $x_n\\in(a,b)$，使得 $\\lim\\limits_{n\\to\\infty}x_n=x_0$ 且 $\\lim\\limits_{n\\to\\infty}f'(x_n)=f'(x_0)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "已知曲面 $z=z(x,y)$ 由方程 $F\\left(\\dfrac{x-a}{z-c},\\dfrac{y-b}{z-c}\\right)=0$ 确定，其中 $a,b,c$ 为常数，证明：\n(1) 曲面的切平面经过定点 $(a,b,c)$；\n(2) 函数 $z=z(x,y)$ 满足方程 $\\dfrac{\\partial^2 z}{\\partial x^2}\\cdot\\dfrac{\\partial^2 z}{\\partial y^2}-\\left(\\dfrac{\\partial^2 z}{\\partial x\\partial y}\\right)^2=0$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二型曲面积分\n$$\\iint_S xy\\,\\mathrm{d}y\\mathrm{d}z+(x^2+y^2)y\\,\\mathrm{d}z\\mathrm{d}x+xz\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 为 $4-y=x^2+z^2$ $(y\\ge 0)$ 的外侧。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明：$f(x,y)=\\dfrac{1}{1-xy}$ 在 $[0,1)\\times[0,1)$ 上不一致连续。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明：$\\displaystyle\\int_0^{+\\infty}\\frac{\\sin(x^2)}{1+x^p}\\,\\mathrm{d}x$ 当 $p\\ge 0$ 时收敛。"
+        }
+      ]
+    },
+    {
+      "school": "厦门大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "43. 厦门大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510378-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A,B,C$ 都是三阶矩阵，且行列式均为 $3$，则 $\\det\\begin{pmatrix}O & -3A\\\\ B^{-1} & C\\end{pmatrix}=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=(a_{ij})_{n\\times n}$ 不可逆，且 $A_{11}\\ne 0$，则______是 $A$ 的伴随矩阵的行向量组的一个极大线性无关组。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V_1,V_2$ 是 $n$ 维线性空间 $V$ 的子空间，$\\dim(V_1+V_2)=\\dim V_1+1$，则 $\\dim V_2-\\dim(V_1\\cap V_2)=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "$n$ 维线性空间 $V$ 上的线性变换 $\\varphi,\\psi$ 在基 $\\xi_1,\\xi_2,\\cdots,\\xi_n$ 下的矩阵分别为 $A,B$，又知 $\\xi_1,\\xi_2,\\cdots,\\xi_n$ 到 $\\eta_1,\\eta_2,\\cdots,\\eta_n$ 的过渡矩阵为 $P$，则 $\\varphi\\psi+2\\varphi^3-\\mathrm{id}_V$ 在 $\\eta_1,\\eta_2,\\cdots,\\eta_n$ 下的矩阵为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "",
+          "stem": "设 $f(x)=x^5-2020x^4-2019x^3-4041x^2-2020x-100$，则 $f(2021)=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A=\\begin{pmatrix}1 & -1 & a\\\\ 1 & 3 & 5\\\\ 0 & 0 & 2\\end{pmatrix}$ 只有一个线性无关的特征向量，则 $A$ 的特征值为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A$ 的不变因子组为 $1,1,1,1,\\lambda,\\lambda^2(\\lambda+1)^3$，则 $A$ 的 Jordan 标准形、特征多项式和极小多项式分别为______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设\n$$f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2-2x_1x_2-2x_1x_3-2ax_2x_3$$\n经正交替换 $X=PY$ 后化为 $f=2y_1^2+2y_2^2+by_3^2$，则 $a,b$ 的值分别为______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=\\begin{pmatrix}2 & 1 & 1\\\\ 1 & 2 & 1\\\\ 1 & 1 & a\\end{pmatrix}$，$X=(1,b,1)^T$ 是 $A$ 的伴随矩阵 $A^{*}$ 的属于特征值 $\\lambda$ 的特征向量，求 $a,b,\\lambda$ 的值，并讨论 $A$ 是否可以相似对角化。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 $n$ 维实列向量 $\\alpha_i=(a_{i1},a_{i2},\\cdots,a_{in})^T$ $(i=1,2,\\cdots,r;\\ r\\le n)$，且 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 线性无关，$\\beta$ 为齐次线性方程组\n$$\\begin{pmatrix}a_{11} & a_{12} & \\cdots & a_{1n}\\\\ a_{21} & a_{22} & \\cdots & a_{2n}\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_{r1} & a_{r2} & \\cdots & a_{rn}\\end{pmatrix}\\begin{pmatrix}x_1\\\\ x_2\\\\ \\vdots\\\\ x_n\\end{pmatrix}=\\begin{pmatrix}0\\\\ 0\\\\ \\vdots\\\\ 0\\end{pmatrix}$$\n的非零解，证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_r,\\beta$ 线性无关。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$ 是 $n$ 阶方阵，证明：$\\mathrm{rank}(A)+\\mathrm{rank}(E-A)=n$ 的充分必要条件是 $A^2=A$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=x^4+6x^3+4x+2\\in\\mathbb{Q}[x]$，$c$ 为 $f(x)$ 的一个复根，记\n$$\\mathbb{Q}[c]=\\{a_0+a_1c+a_2c^2+a_3c^3\\mid a_0,a_1,a_2,a_3\\in\\mathbb{Q}\\}.$$\n证明：\n(1) $f(x)$ 在有理数域 $\\mathbb{Q}$ 上不可约；\n(2) 对任意的 $g(x)\\in\\mathbb{Q}[x]$，有 $g(c)\\in\\mathbb{Q}[c]$；\n(3) 对任意的 $g(x)\\in\\mathbb{Q}[x]$，若 $f(x)\\nmid g(x)$，则存在 $h(x)\\in\\mathbb{Q}[x]$，使得 $g(c)h(c)=1$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $Q$ 是 $n$ 阶正定矩阵，$x$ 为 $n$ 维实列向量，证明：$0\\le x^T(Q+xx^T)^{-1}x<1$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $U,V$ 为数域 $F$ 上的有限维线性空间，$\\varphi:V\\to U$，$\\psi:U\\to V$，且 $\\psi\\varphi=\\mathrm{id}_V$，证明：$U=\\mathrm{Im}\\,\\varphi\\oplus\\mathrm{Ker}\\,\\psi$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\varphi$ 为数域 $F$ 上 $n$ 维线性空间 $V$ 上的线性变换，设 $0\\ne\\alpha\\in V$，记\n$$F[\\varphi]\\alpha=\\{f(\\varphi)\\alpha\\mid f(\\lambda)\\in F[\\lambda]\\}.$$\n【?】（图片在此截断，本题后续条件与求证内容缺失）"
+        }
+      ]
+    }
+  ]
+}

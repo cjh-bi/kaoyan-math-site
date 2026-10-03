@@ -1,0 +1,86 @@
+{
+ "msgid": "2247516176-3",
+ "exams": [
+  {
+   "school": "东南大学",
+   "year": "2023",
+   "subject": "高等代数",
+   "header_note": "34. 东南大学 2023 年高等代数试卷(回忆版)",
+   "source_imgs": [
+    "work/imgs/2247516176-3_4.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "已知非齐次线性方程组 $AX=b$ 解的集合为 $S$，其中 $A$ 为 $s\\times n$ 矩阵，且 $r(A)=r$。证明：$S$ 中存在 $n-r+1$ 个线性无关的向量，任意 $n-r+2$ 个向量线性相关。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": null,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "分块矩阵",
+     "stem": "已知矩阵\n$$A=\\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & -2 & 0 \\\\ 1 & 2 & -1 \\end{pmatrix}$$\n（数值可能有误）\n证明：存在正交矩阵 $Q$，使得 $QA$ 为上三角矩阵，且主对角线元素全为正数。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": null,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "设 $A,B$ 都是二阶实对称矩阵，且 $A,B$ 的行列式都为负数。证明：存在可逆实矩阵 $C$，使得 $C^{T}AC=B$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": null,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "可对角化",
+     "stem": "已知 $A$ 是元素均为有理数的 $n$ 阶方阵，且 $\\sqrt{3}$ 为 $A$ 的一个特征值。\n(1) 证明：$-\\sqrt{3}$ 也为 $A$ 的一个特征值；\n(2) 证明：$n=3$ 时，存在可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": null,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "线性变换",
+     "stem": "设 $V$ 是数域 $P$ 上所有二阶矩阵构成的线性空间，定义 $V$ 上的变换 $f$ 为 $f(X)=X^{*}$，$X\\in V$，其中 $X^{*}$ 为 $X$ 的伴随矩阵。\n(1) 证明 $f$ 为 $V$ 上的线性变换；\n(2) 求 $f$ 在基 $E_{11},E_{12},E_{21},E_{22}$ 下的矩阵，并求 $V$ 的一组基，使得 $f$ 在该基下的矩阵为对角矩阵 $\\Lambda$，并求出对角阵。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "9",
+     "score": null,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与直和",
+     "stem": "设 $f$ 是 $n$ 维线性空间 $V$ 上的幂等变换，$V_1=\\{\\alpha\\in V\\mid f(\\alpha)=0\\}$，$V_2=\\{f(\\beta)\\mid \\beta\\in V\\}$，且 $f$ 在某组基下的矩阵为 $A$。证明：\n(1) $V=V_1+V_2$；\n(2) $V_1+V_2$ 为直和；\n(3) $r(A)=r(A^2)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "10",
+     "score": null,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "对称变换",
+     "stem": "设 $f$ 为 $n$ 维欧氏空间 $V$ 上的对称变换，即 $(f(\\alpha),\\beta)=(\\alpha,f(\\beta))$ 对任意的 $\\alpha,\\beta\\in V$ 成立。证明：$f$ 的特征值全为实数，且 $\\min\\limits_{0\\neq\\alpha\\in V}\\dfrac{(\\alpha,f(\\alpha))}{(\\alpha,\\alpha)}=\\lambda_1$，其中 $\\lambda_1$ 为 $f$ 的最小特征值。"
+    }
+   ]
+  }
+ ]
+}

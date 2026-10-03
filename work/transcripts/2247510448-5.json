@@ -1,0 +1,263 @@
+{
+  "msgid": "2247510448-5",
+  "exams": [
+    {
+      "school": "广西大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "60. 广西大学 2022 年数学分析试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247510448-5_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "改变积分次序 $\\int_{-1}^{1}\\mathrm{d}x\\int_{0}^{\\sqrt{1-x^{2}}}f(x,y)\\mathrm{d}y=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to\\infty}\\dfrac{\\left(\\ln(e^{x}+x)-x\\right)^{2}}{x^{2}\\left(1-\\cos\\frac{1}{e^{x}}\\right)}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\left(\\sqrt{1+\\dfrac{1}{n}}+\\sqrt{1+\\dfrac{2}{n}}+\\cdots+\\sqrt{1+\\dfrac{n}{n}}\\right)=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "平面 $\\Sigma$ 是由 $x^{2}+y^{2}+z^{2}=9$ 与平面 $x+y+z=0$ 所截围成的区域，求 $$\\oint_{\\Sigma}\\mathrm{d}S.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "若 $x_{1}=10$，$x_{n+1}=\\sqrt{6+x_{n}}$，证明：数列 $\\{x_{n}\\}$ 极限存在，并求其极限。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "已知函数 $f(x)$ 在 $[0,2a]$ 上连续，满足 $f(0)=f(2a)$，证明：对任意的 $x_{0}\\in[0,a]$，有 $$f(x_{0})=f(x_{0}+a).$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "运用致密性定理证明：若函数 $f(x)$ 在 $[a,b]$ 上连续，则 $f(x)$ 在 $[a,b]$ 上有界。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题",
+          "no": "4",
+          "score": null,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "讨论反常积分 $\\int_{0}^{+\\infty}\\dfrac{\\arctan x}{x^{p}}\\mathrm{d}x$ 的敛散性。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "综合题",
+          "no": "5",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "讨论函数 $$f(x,y)=\\begin{cases}\\dfrac{xy^{3}}{x^{2}+y^{4}}, & x^{2}+y^{2}\\neq 0;\\\\ 0, & x^{2}+y^{2}=0,\\end{cases}$$ 在原点处的连续性、可偏导性、可微性。"
+        }
+      ]
+    },
+    {
+      "school": "广西大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "60. 广西大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510448-5_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "",
+          "stem": "$\\left(x^{1010}-x^{1009}+x^{1008}-x^{1007}+\\cdots-x+1\\right)\\left(x^{1010}+x^{1009}+\\cdots+x+1\\right)$ 的奇次项系数之和为 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "若 $|A|=\\begin{vmatrix}a_{1}&a_{2}&a_{3}&a_{4}\\\\ a_{2}&a_{2}&a_{4}&a_{5}\\\\ a_{3}&a_{2}&a_{5}&a_{6}\\\\ a_{4}&a_{2}&a_{6}&a_{7}\\end{vmatrix}$，则 $A_{14}+A_{24}+A_{34}+A_{44}=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "对于整系数线性方程组 $$\\begin{cases}a_{11}x_{1}+a_{12}x_{2}+\\cdots+a_{1n}x_{n}=b_{1};\\\\ a_{21}x_{1}+a_{22}x_{2}+\\cdots+a_{2n}x_{n}=b_{2};\\\\ \\cdots\\cdots\\\\ a_{n1}x_{1}+a_{n2}x_{2}+\\cdots+a_{nn}x_{n}=b_{n},\\end{cases}$$ 记 $|A|$ 为其系数行列式，若方程组对任意的整数 $b_{1},b_{2},\\cdots,b_{n}$ 都有整数解，则 $|A|=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A=(\\alpha,2\\gamma_{1},3\\gamma_{2},4\\gamma_{3})$，$B=(\\beta,\\gamma_{1},\\gamma_{2},\\gamma_{3})$，$|A|=128$，$|B|=2$，则 $|A-B|=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "二次型 $$\\begin{pmatrix}x_{1}&x_{2}&x_{3}\\end{pmatrix}\\begin{pmatrix}1&2&3\\\\ 4&5&6\\\\ 7&8&9\\end{pmatrix}\\begin{pmatrix}x_{1}\\\\ x_{2}\\\\ x_{3}\\end{pmatrix}$$ 的正惯性指数为 ______，负惯性指数为 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "近世代数",
+          "l2": "群",
+          "stem": "定义 $(a,b)\\oplus(c,d)=(a+c,b+d+ac)$，$k\\circ(a,b)=\\left(ka,kb+\\dfrac{k(k-1)}{2}a^{2}\\right)$，则其零元为 ______，$(a,b)$ 的负元为 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "7",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "$\\forall f(x),g(x)\\in P[x]_{4}$，$\\varphi(f(x),g(x))=\\int_{-1}^{1}f(x)g(x)\\mathrm{d}x$，则 $\\varphi$ 在 $1,x,x^{2},x^{3}$ 下的度量矩阵为 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "8",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "矩阵 $A=\\begin{pmatrix}1&1&0\\\\ -1&0&1\\\\ -3&0&0\\end{pmatrix}$ 的极小多项式为 ______。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "已知 $1-\\mathrm{i}$ 是 $x^{4}-4x^{3}+5x^{2}-2x-2$ 的根，解此方程。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "若 $V=\\{x_{1}+x_{2}+x_{3}+x_{4}=0,\\ x_{2}+x_{3}+x_{4}=0\\mid x_{1},x_{2},x_{3},x_{4}\\in\\mathbb{R}\\}$。\n(1) 求 $V$ 的基和维数；\n(2) 求 $V$ 的标准正交基。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "对于 $n$ 阶矩阵 $$A=\\begin{pmatrix}a-b&a&\\cdots&a\\\\ a&a-b&\\cdots&a\\\\ \\vdots&\\vdots&&\\vdots\\\\ a&a&\\cdots&a-b\\end{pmatrix},$$ 讨论 $A$ 的秩。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "向量 $\\alpha_{1}=(1,2,0)^{T}$，$\\alpha_{2}=(1,a+2,-3a)^{T}$，$\\alpha_{3}=(-1,-b-2,a+2b)^{T}$，$\\beta=(1,3,-3)^{T}$，讨论 $a$，$b$ 的值，使得：\n(1) $\\beta$ 不能由 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性表示；\n(2) $\\beta$ 能由 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 唯一线性表示，并求出表达式；\n(3) $\\beta$ 能由 $\\alpha_{1},\\alpha_{2},\\alpha_{3}$ 线性表示，且表示不唯一，求出表达式。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "若 $p$ 是素数，$a$ 为整数，$f(x)=ax^{p}+px+1$，且 $p^{2}\\mid(a+1)$，证明 $f(x)$ 没有有理根。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设矩阵 $A$，$B$ 可交换，即 $AB=BA$。证明：\n(1) 矩阵 $B$ 的象和核是 $A$ 的不变子空间；\n(2) 若 $\\lambda_{0}$ 是 $A$ 的特征值，则 $A$ 的特征子空间 $V_{\\lambda_{0}}$ 也是 $B$ 的不变子空间。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若 $A=(a_{ij})_{n\\times n}$，$B=(b_{ij})_{n\\times n}$ 都是正定矩阵，证明：$C=(a_{ij}b_{ij})_{n\\times n}$ 也是正定矩阵。"
+        }
+      ]
+    }
+  ]
+}

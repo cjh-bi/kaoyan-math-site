@@ -1,0 +1,303 @@
+{
+  "msgid": "2247510318-5",
+  "exams": [
+    {
+      "school": "南京理工大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "37. 南京理工大学 2022 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247510318-5_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\dfrac{n}{\\sqrt[n]{n!}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{2x\\sin x-x^3\\arctan\\frac{1}{x}}{(1+\\cos x)\\ln(\\cos x)}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "叙述下列二元函数 $f(x,y)$ 极限的精确定义：$\\lim\\limits_{(x,y)\\to(0,0)}f(x,y)\\neq A$（$A$ 为常数）。并用二元函数极限定义证明：$\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{x^2+y^2}{|x|+|y|}=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "用函数一致连续的定义证明：$f(x)=\\cos\\sqrt{x}$ 在 $[0,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续，证明：$\\lim_{n\\to\\infty}\\int_0^1\\dfrac{nf(x)}{1+n^2x^2}\\,\\mathrm{d}x=\\dfrac{\\pi}{2}f(0)$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "证明函数\n$$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[4pt] 0, & x^2+y^2=0.\\end{cases}$$\n在 $(0,0)$ 连续且偏导数存在，但偏导数在 $(0,0)$ 处不连续，$f(x,y)$ 在 $(0,0)$ 处可微。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "$I=\\int_L (e^x\\sin y-3y)\\,\\mathrm{d}x+(e^x\\cos y-3)\\,\\mathrm{d}y$，其中 $L$ 为由 $A(a,0)$ 到 $O(0,0)$ 经过圆 $x^2+y^2=ax$ 上半部分的路径。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $\\Sigma$ 为立方体 $V=[0,b]\\times[0,b]\\times[0,b]$ 的外表面，计算第二型曲面积分\n$$I=\\iint_\\Sigma y(x-z)\\,\\mathrm{d}y\\mathrm{d}z+x^2\\,\\mathrm{d}z\\mathrm{d}x+(y^2+xz)\\,\\mathrm{d}x\\mathrm{d}y.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "设椭球面 $\\Sigma:\\ \\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ $(a>0,b>0,c>0)$ 在点 $(x,y,z)$ 处切平面为 $\\Pi$，$\\varphi(x,y,z)$ 为原点到切平面 $\\Pi$ 的距离，求曲面积分 $\\iint_\\Sigma \\varphi(x,y,z)\\,\\mathrm{d}S$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设 $n$ 为正整数，讨论广义积分 $\\int_0^{+\\infty}x^n e^{-x^{12}\\sin^2 x}\\,\\mathrm{d}x$ 的敛散性。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "求 $f(x)=\\dfrac{1}{12}(3x^2-6\\pi x+2\\pi^2)$ $(0<x<2\\pi)$ 的 Fourier 级数展开式，并用它求 $\\sum_{n=1}^{\\infty}\\dfrac{1}{n^2}$。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "证明：若三角级数 $\\dfrac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)$ 中 $a_n$，$b_n$ 满足 $\\sup\\limits_{n}\\{|n^3 a_n|,|n^3 b_n|\\}\\le M$，常数 $M>0$，则上述三角级数收敛，且其和函数有连续导数。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "利用有限覆盖定理证明：闭区间上的连续函数有最大值和最小值。"
+        }
+      ]
+    },
+    {
+      "school": "南京理工大学",
+      "year": "2022",
+      "subject": "高等代数",
+      "header_note": "37. 南京理工大学 2022 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247510318-5_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分).",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 3 阶方阵 $A$ 按列分块为 $A=(\\alpha_1,\\alpha_2,\\alpha_3)$，且 $|A|=2$，记矩阵 $B=(\\alpha_1+2\\alpha_2,\\ 3\\alpha_1+4\\alpha_3,\\ 5\\alpha_2)$，则 $|B|=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分).",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=\\begin{pmatrix}1&0&0\\\\2&2&0\\\\3&3&3\\end{pmatrix}$ 的伴随矩阵为 $A^*$，则 $(A^*)^{-1}=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分).",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$，$B$ 均为 $n$ 阶方阵，且 $r(A)<\\dfrac{n}{2}$，$r(B)<\\dfrac{n}{2}$，则齐次线性方程组 $AX=0$ 与 $BX=0$ ______。\nA. 没有相同非零解；\nB. 同解；\nC. 只有相同零解；\nD. 有相同非零解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分).",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "对于 3 阶方阵 $A$，有 $|A|=|E+A|=|3E-A|=0$，则 $\\mathrm{tr}(A)=$______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分).",
+          "no": "5",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "合同",
+          "stem": "矩阵 $A=\\begin{pmatrix}1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\\\1&1&1&1\\end{pmatrix}$，$B=\\begin{pmatrix}4&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\\\0&0&0&0\\end{pmatrix}$，则 $A$ 与 $B$ ______。\nA. 合同且相似；\nB. 合同但不相似；\nC. 不合但相似；\nD. 既不合也不相似。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每题 5 分, 共 30 分).",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "当 $t$ 满足______时，二次型 $f(x_1,x_2,x_3)=x_1^2+2x_1x_2-2tx_1x_2+2x_2^2+4x_2x_3+4x_3^2$ 正定。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $D=\\begin{vmatrix}3&-1&2\\\\-2&-3&1\\\\0&1&-4\\end{vmatrix}$，求 $\\begin{vmatrix}A_{11}&A_{12}&A_{13}\\\\A_{21}&A_{22}&A_{23}\\\\A_{31}&A_{32}&A_{33}\\end{vmatrix}$，其中 $A_{ij}$ 表示 $D$ 中第 $i$ 行第 $j$ 列元素的代数余子式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "当 $a$，$b$ 为何值时，方程组\n$$\\begin{cases}x_1+2x_2-2x_3+2x_4=2;\\\\ x_2-x_3-x_4=1;\\\\ x_1+x_2-x_3+3x_4=a;\\\\ x_1-x_2+x_3+5x_4=b.\\end{cases}$$\n有解？并求通解。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "用正交变换将实二次型\n$$f(x_1,x_2,x_3)=3x_1^2+x_2^2+x_3^2+4x_2x_3$$\n化为标准型(要给出正交变换及标准型)。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "求 $\\mathbb{R}^3$ 的基 $\\alpha_1=(1,-1,3)$，$\\alpha_2=(0,-1,-1)$，$\\alpha_3=(0,3,-2)$ 的对偶基 $f_1$，$f_2$，$f_3$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "若向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 线性相关，但其中任意 $m-1$ 个向量都线性无关，则存在一组全非零的数 $k_1,k_2,\\cdots,k_m$，使得 $k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_m\\alpha_m=0$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $n$ 阶方阵 $A$ 的迹 $\\mathrm{tr}(A)=a$，且 $A$ 的特征值全为非负实数，证明：$|A|\\le\\left(\\dfrac{a}{n}\\right)^n$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交补与直和",
+          "stem": "设 $V$ 为 $n$ 维欧氏空间，$V_1$ 为 $V$ 的非平凡子空间，$V$ 中的向量 $\\beta$ 不在 $V_1$ 中，证明：存在唯一的向量 $\\beta_0\\in V_1$，使得 $\\beta-\\beta_0$ 与 $V_1$ 中任何向量都正交。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是 $n$ 维复向量空间，$\\varphi$ 是 $V$ 上的线性变换，证明：存在 $\\varphi$ 的不变子空间 $V_0,V_1,\\cdots,V_n$，使得 $V_0\\subseteq V_1\\subseteq\\cdots\\subseteq V_n$，且 $\\dim V_j=j$ $(j=0,1,\\cdots,n)$。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "(15 分)",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $a_1,a_2,\\cdots,a_n$ 为互不相同的整数，多项式 $f(x)=(x-a_1)(x-a_2)\\cdots(x-a_n)-1$，证明：$f(x)$ 不能表示成两个次数大于零的整系数多项式的乘积。"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,183 @@
+{
+  "msgid": "2247516078-1",
+  "exams": [
+    {
+      "school": "南开大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "21. 南开大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516078-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数 $\\varphi(x)$ 在 $(-\\infty,+\\infty)$ 上二阶连续可导，$n$ 是正整数，证明：$u=x^n\\varphi\\left(\\dfrac{y}{x}\\right)$ 满足 $$x^2\\dfrac{\\partial^2 u}{\\partial x^2}+2xy\\dfrac{\\partial^2 u}{\\partial x\\partial y}+y^2\\dfrac{\\partial^2 u}{\\partial y^2}=n(n-1)u.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\cos(\\sin x)-e^{\\cos x-1}}{\\tan^2 x-\\sin^2 x}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 25,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分 $$\\iint\\limits_{S} x^3\\,dydz+y^3\\,dzdx+z^3\\,dxdy,$$ 其中 $S$ 为 $z=4$，$z=4-(x^2+y^2)$ 与 $x^2+y^2=4$ 所围区域的表面，方向取外侧。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 25,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $f(x)=\\sum\\limits_{n=1}^{\\infty}\\dfrac{e^{-nx}}{n^2+1}$，$x\\ge 0$，证明：$f(x)$ 在 $(0,+\\infty)$ 可导，且 $f'_+(0)$ 不存在。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $\\alpha$ 为实数，记 $$f(x)=\\begin{cases}x^\\alpha\\cos\\dfrac{1}{x}, & x>0;\\\\ 0, & x=0.\\end{cases}$$ 已知 $f(x)$ 在 $[0,+\\infty)$ 上一致连续，求 $\\alpha$ 的取值范围。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $\\{a_n\\}$ 是单调递减的正数列，且 $\\varlimsup\\limits_{n\\to\\infty} na_n>0$，证明级数 $\\sum\\limits_{n=1}^{\\infty} a_n$ 发散。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "令函数 $$\\varphi(x)=\\begin{cases}\\sin x, & x\\ge 0;\\\\ \\cos x, & x<0.\\end{cases}$$ 证明：不存在 $(-\\infty,+\\infty)$ 上的可微函数 $f(x)$，使得对任意的实数 $x$，都有 $f(f(x))-|x|f'(x)=\\varphi(x)$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "令 $f(x)$ 在 $[0,+\\infty)$ 上连续可微且单调递减，广义积分 $\\int_0^{+\\infty} x^3 f(x)\\,dx$ 收敛。证明： $$\\left[\\int_0^{+\\infty} x^2 f(x)\\,dx\\right]^2\\le \\dfrac{8}{9}\\int_0^{+\\infty} x f(x)\\,dx\\int_0^{+\\infty} x^3 f(x)\\,dx.$$"
+        }
+      ]
+    },
+    {
+      "school": "南开大学",
+      "year": "2023",
+      "subject": "高等代数",
+      "header_note": "21. 南开大学 2023 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247516078-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 30,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "最小公倍式",
+          "stem": "设 $f(x)=x^2+x+1$，$g(x)=x^3-x^2$，求次数最低的多项式 $h(x)$，使得 $$f(x)\\mid h(x),\\quad g(x)\\mid h(x)+3.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "证明： $$\\begin{vmatrix}\\cos t & 1 & 0 & 0\\\\ 1 & 2\\cos t & 1 & 0\\\\ 0 & 1 & 2\\cos t & 1\\\\ 0 & 0 & 1 & 2\\cos t\\end{vmatrix}=\\cos 4t.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s\\in P^n$ 是某齐次线性方程组的一个基础解系，向量 $\\beta\\in P^n$ 不是该方程组的解，证明：向量组 $\\beta,\\beta+\\alpha_1,\\cdots,\\beta+\\alpha_s$ 线性无关。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "如果矩阵 $A=\\begin{pmatrix}4 & -3 & 0\\\\ 2 & -1 & 0\\\\ a & -1 & 1\\end{pmatrix}$ 与矩阵 $B=\\begin{pmatrix}4 & -5 & 4\\\\ 2 & -3 & 4\\\\ 1 & -2 & 3\\end{pmatrix}$ 相似，求实数 $a$ 的值。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A\\in\\mathbb{R}^{n\\times n}$ 是正定矩阵，$\\beta\\in\\mathbb{R}^n$，$c\\in\\mathbb{R}$。如果存在 $x\\in\\mathbb{R}^n$ 使得 $x^TAx+2\\beta^Tx+c=0$，证明：$\\beta^TA^{-1}\\beta\\ge c$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "设 $\\mathscr{A}$ 是 $n$ 维复线性空间 $V$ 上的线性变换，$0$ 是 $\\mathscr{A}$ 的特征多项式的 $r$ 重根。证明 $\\mathscr{A}$ 的秩等于 $n-r$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "是否存在矩阵 $A\\in\\mathbb{Q}^{2\\times 2}$ 使得 $A^6=E$（单位矩阵），$A^3\\ne E$，$A^2\\ne E$，且 $A$ 中所有元素之和为 2023？如果存在，请给出一个具体的例子；如果不存在，请说明理由。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "设 $V$ 是 $n$ 维欧氏空间，$\\mathscr{A},\\mathscr{B},\\mathscr{C}$ 是 $V$ 上的线性变换，且满足下述条件：\n(1) $\\mathscr{A}^2\\alpha=0$，对任意的 $\\alpha\\in V$；\n(2) $(\\mathscr{A}\\alpha,\\beta)=(\\alpha,\\mathscr{B}\\beta)$，对任意的 $\\alpha,\\beta\\in V$；\n(3) $\\mathscr{C}=\\mathscr{A}\\mathscr{B}+\\mathscr{B}\\mathscr{A}$。\n证明：$V$ 可以写成子空间 $\\mathscr{C}^{-1}(0)$，$\\mathscr{A}V$ 以及 $\\mathscr{B}V$ 的直和。"
+        }
+      ]
+    }
+  ]
+}
