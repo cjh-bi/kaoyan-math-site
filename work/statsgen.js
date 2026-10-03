@@ -132,7 +132,7 @@ ${cols.map(c => `        <td class="num">${row[c] ? row[c] : '·'}</td>`).join('
       </tr>`;
 }).join('\n');
 
-const items = [['index.html', '首页'], ['papers.html', '试卷'], ['knowledge.html', '知识点'], ['schools.html', '院校'], ['focus.html', '备考重点'], ['plan.html', '复习计划'], ['stars.html', '收藏'], ['stats.html', '统计'], ['about.html', '说明']];
+const items = [['index.html', '首页'], ['papers.html', '试卷'], ['knowledge.html', '知识点'], ['schools.html', '院校'], ['stars.html', '收藏'], ['stats.html', '统计'], ['about.html', '说明']];
 const page = `<!doctype html>
 <html lang="zh-CN">
 <head>

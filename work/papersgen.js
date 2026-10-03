@@ -18,7 +18,7 @@ const schoolCount = {}; for (const n in bySchool) schoolCount[n] = bySchool[n].l
 const schoolOrder = Object.keys(schoolCount).sort((a, b) => schoolCount[b] - schoolCount[a]);
 
 function topbar(active) {
-  const items = [['index.html', '首页'], ['papers.html', '试卷'], ['knowledge.html', '知识点'], ['schools.html', '院校'], ['focus.html', '备考重点'], ['plan.html', '复习计划'], ['stars.html', '收藏'], ['stats.html', '统计'], ['about.html', '说明']];
+  const items = [['index.html', '首页'], ['papers.html', '试卷'], ['knowledge.html', '知识点'], ['schools.html', '院校'], ['stars.html', '收藏'], ['stats.html', '统计'], ['about.html', '说明']];
   return `<header class="topbar">
   <div class="wrap topbar-inner">
     <a class="brand" href="index.html"><span class="dot">考</span><span>数学考研真题库</span></a>

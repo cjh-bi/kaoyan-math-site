@@ -123,7 +123,7 @@ console.log(`transcripts=${transcripts.length} new papers=${newPapers.length} ne
 // ---------- 公共模板 ----------
 const FAVICON = `data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E`;
 function topbar(p, active) {
-  const items = [['index.html', '首页'], ['questions.html', '题库'], ['papers.html', '试卷'], ['knowledge.html', '知识点'], ['schools.html', '院校'], ['focus.html', '备考重点'], ['plan.html', '复习计划'], ['stars.html', '收藏'], ['stats.html', '统计'], ['about.html', '说明']];
+  const items = [['index.html', '首页'], ['questions.html', '题库'], ['papers.html', '试卷'], ['knowledge.html', '知识点'], ['schools.html', '院校'], ['stars.html', '收藏'], ['stats.html', '统计'], ['about.html', '说明']];
   return `<header class="topbar">
   <div class="wrap topbar-inner">
     <a class="brand" href="${p}index.html"><span class="dot">考</span><span>数学考研真题库</span></a>
