@@ -1,263 +1,233 @@
 {
- "msgid": "2247504638-2",
- "exams": [
-  {
-   "school": "郑州大学",
-   "year": "2021",
-   "subject": "数学分析",
-   "header_note": "61. 郑州大学 2021 年硕士研究生入学考试数学分析试卷",
-   "source_imgs": ["work/imgs/2247504638-2_4.png"],
-   "questions": [
+  "msgid": "2247504638-2",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "计算题",
-     "no": "1",
-     "score": null,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "函数极限计算",
-     "stem": "求极限 $\\lim\\limits_{x\\to 0^+}\\dfrac{\\int_0^{x^2}\\sin^{\\frac{3}{2}} t\\,\\mathrm{d}t}{\\int_0^{x} t(t-\\sin t)\\,\\mathrm{d}t}$。"
+      "school": "郑州大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "61. 郑州大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504638-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算题。\n(1) 求极限 $\\lim\\limits_{x\\to 0^+}\\dfrac{\\int_0^{x^2}\\sin^{\\frac{2}{3}} t\\,\\mathrm{d}t}{\\int_0^{x} t(t-\\sin t)\\,\\mathrm{d}t}$。\n(2) 求极限 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}\\left(n^k+1\\right)^{-\\frac{1}{k}}$。\n(3) 求 $\\dfrac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\dfrac{e^x-1}{x}\\right)$ 展成 $x$ 的幂级数, 并由此推出 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{n}{(n+1)!}=1$。\n(4) 求积分 $\\int_0^{+\\infty}\\dfrac{\\ln x}{4+x^2}\\,\\mathrm{d}x$。\n(5) 设 $D$ 是由曲线 $xy=1$, $xy=3$, $y^2=x$, $y^2=3x$ 所围成的区域, 求二重积分 $\\iint_D \\dfrac{3x}{y^2+xy^3}\\,\\mathrm{d}x\\mathrm{d}y$。\n(6) 已知 $f(x)=\\int_0^1 \\dfrac{e^{-x^2(y^2+1)}}{y^2+1}\\,\\mathrm{d}y$, $g(x)=\\left(\\int_0^x e^{-y^2}\\,\\mathrm{d}y\\right)^2$, $x\\ge 0$, 求 $f(x)+g(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "已知 $$f(x,y)=\\begin{cases} y\\arctan\\dfrac{1}{\\sqrt{x^2+y^2}}, & x^2+y^2\\neq 0;\\\\ 0, & x^2+y^2=0. \\end{cases}$$ 求 $f(x,y)$ 在 $(0,0)$ 处的极限, 连续性, 偏导数的存在性, 可微性。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设函数 $f(x)$ 在 $[1,+\\infty)$ 上满足: 对任意的 $x,y\\in[1,+\\infty)$, 有 $|f(x)-f(y)|\\le L|x-y|$, 其中 $L>0$ 为常数. 证明: $\\dfrac{f(x)}{x}$ 在 $[1,+\\infty)$ 上一致连续。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 为 $(-\\infty,+\\infty)$ 上的二次可微函数, 且 $M_k=\\sup\\limits_{x\\in\\mathbb{R}}\\left|f^{(k)}(x)\\right|<+\\infty$ $(k=0,2)$, 其中 $f^{(0)}$ 表示 $f(x)$. 证明: $M_1=\\sup\\limits_{x\\in\\mathbb{R}}|f'(x)|<+\\infty$, 且 $M_1^2\\le 2M_0M_2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "解答如下问题:\n(1) 证明: $\\sum\\limits_{n=0}^{\\infty}\\dfrac{e^{-nx}}{n^2+1}$ 当 $x\\ge 0$ 时收敛, 当 $x<0$ 时发散;\n(2) 证明: $f(x)=\\sum\\limits_{n=0}^{\\infty}\\dfrac{e^{-nx}}{n^2+1}$ 在 $[0,+\\infty)$ 上连续, 在 $(0,+\\infty)$ 上有任意阶导数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设 $f(x)\\in C^2[0,+\\infty)$ 是一个正函数且有界, 如果存在 $\\alpha>0$, 使得 $f''(x)\\ge \\alpha f(x)$ $(x\\ge 0)$. 证明:\n(1) $f'(x)$ 是单调递增函数, 且 $\\lim\\limits_{x\\to+\\infty}f'(x)=0$;\n(2) $\\lim\\limits_{x\\to+\\infty}f(x)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上可导, $f'(x)$ 在 $[a,b]$ 上可积, 对任意的 $n\\in\\mathbb{N}^+$, 记 $$A_n=\\dfrac{b-a}{n}\\sum_{i=1}^{n} f\\left(a+i\\dfrac{b-a}{n}\\right)-\\int_a^b f(x)\\,\\mathrm{d}x.$$ 证明: $\\lim\\limits_{n\\to\\infty} nA_n=\\dfrac{b-a}{2}\\,[f(b)-f(a)]$。"
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "计算题",
-     "no": "2",
-     "score": null,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "数列极限计算",
-     "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}(n^{k}+1)^{-\\frac{1}{k}}$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "计算题",
-     "no": "3",
-     "score": null,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "幂级数",
-     "stem": "求 $\\dfrac{\\mathrm{d}}{\\mathrm{d}x}\\left(\\dfrac{e^{x}-1}{x}\\right)$ 展成 $x$ 的幂级数，并由此推出 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{n}{(n+1)!}=1$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "计算题",
-     "no": "4",
-     "score": null,
-     "form": "计算",
-     "l1": "广义积分与含参积分",
-     "l2": "含参量积分",
-     "stem": "求积分 $\\int_0^{+\\infty}\\dfrac{\\ln x}{4+x^{2}}\\,\\mathrm{d}x$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "计算题",
-     "no": "5",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "二重积分",
-     "stem": "设 $D$ 是由曲线 $xy=1$，$xy=3$，$y^{2}=x$，$y^{2}=3x$ 所围成的区域，求二重积分 $\\iint\\limits_{D}\\dfrac{3x}{y^{2}+xy^{3}}\\,\\mathrm{d}x\\mathrm{d}y$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "计算题",
-     "no": "6",
-     "score": null,
-     "form": "计算",
-     "l1": "广义积分与含参积分",
-     "l2": "含参量积分",
-     "stem": "已知 $f(x)=\\int_0^{1}\\dfrac{e^{-x^{2}(y^{2}+1)}}{y^{2}+1}\\,\\mathrm{d}y$，$g(x)=\\left(\\int_0^{x} e^{-y^{2}}\\,\\mathrm{d}y\\right)^{2}$，$x\\ge 0$，求 $f(x)+g(x)$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "综合",
-     "l1": "多元微分学",
-     "l2": "偏导数",
-     "stem": "已知\n$$f(x,y)=\\begin{cases} y\\arctan\\dfrac{1}{\\sqrt{x^{2}+y^{2}}}, & x^{2}+y^{2}\\neq 0;\\\\[2mm] 0, & x^{2}+y^{2}=0.\\end{cases}$$\n求 $f(x,y)$ 在 $(0,0)$ 处的极限，连续性，偏导数的存在性，可微性。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "一致连续性",
-     "stem": "设函数 $f(x)$ 在 $[1,+\\infty)$ 上满足：对任意的 $x,y\\in[1,+\\infty)$，有 $|f(x)-f(y)|\\le L|x-y|$，其中 $L>0$ 为常数。证明：$\\dfrac{f(x)}{x}$ 在 $[1,+\\infty)$ 上一致连续。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "高阶导数",
-     "stem": "设 $f(x)$ 为 $(-\\infty,+\\infty)$ 上的二次可微函数，且 $M_k=\\sup\\limits_{x\\in\\mathbb{R}}\\left|f^{(k)}(x)\\right|<+\\infty$（$k=0,2$），其中 $f^{(0)}$ 表示 $f(x)$。证明：$M_1=\\sup\\limits_{x\\in\\mathbb{R}}|f'(x)|<+\\infty$，且 $M_1^{2}\\le 2M_0 M_2$。"
-    },
-    {
-     "section": "五",
-     "section_instruction": "解答如下问题：",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "级数",
-     "l2": "函数项级数",
-     "stem": "证明：$\\sum\\limits_{n=0}^{\\infty}\\dfrac{e^{-nx}}{n^{2}+1}$ 当 $x\\ge 0$ 时收敛，当 $x<0$ 时发散。"
-    },
-    {
-     "section": "五",
-     "section_instruction": "解答如下问题：",
-     "no": "2",
-     "score": null,
-     "form": "证明",
-     "l1": "级数",
-     "l2": "函数项级数",
-     "stem": "证明：$f(x)=\\sum\\limits_{n=0}^{\\infty}\\dfrac{e^{-nx}}{n^{2}+1}$ 在 $[0,+\\infty)$ 上连续，在 $(0,+\\infty)$ 上有任意阶导数。"
-    },
-    {
-     "section": "六",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "导数应用",
-     "stem": "设 $f(x)\\in C^{2}[0,+\\infty)$ 是一个正函数且有界，如果存在 $\\alpha>0$，使得 $f''(x)\\ge \\alpha f(x)$（$x\\ge 0$）。证明：\n(1) $f'(x)$ 是单调递增函数，且 $\\lim\\limits_{x\\to+\\infty} f'(x)=0$；\n(2) $\\lim\\limits_{x\\to+\\infty} f(x)=0$。"
-    },
-    {
-     "section": "七",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "设 $f(x)$ 在 $[a,b]$ 上可导，$f'(x)$ 在 $[a,b]$ 上可积，对任意的 $n\\in\\mathbb{N}^{+}$，记\n$$A_n=\\dfrac{b-a}{n}\\sum_{i=1}^{n} f\\left(a+i\\dfrac{b-a}{n}\\right)-\\int_a^{b} f(x)\\,\\mathrm{d}x.$$\n证明：$\\lim\\limits_{n\\to\\infty} nA_n=\\dfrac{b-a}{2}[f(b)-f(a)]$。"
+      "school": "郑州大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "62. 郑州大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504638-2_5.png", "work/imgs/2247504638-2_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "已知 $A$ 为 4 阶方阵, 且 $|A|=\\dfrac{1}{2}$, 则 $\\left|(2A)^{-1}-7A^{*}\\right|=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "当 $m$, $n$ 满足______时, 有 $x^2+mx+1\\mid x^3+nx^2+5x+2$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为 3 阶方阵, 其特征值为 1, 2, 3, 则 $|A+2E|=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "二次型 $f(x_1,x_2,\\cdots,x_n)=(n-1)\\sum\\limits_{i=1}^{n}x_i^2-2\\sum\\limits_{1\\le i<j\\le n}x_ix_j$ 的正惯性指数为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "形如 $\\begin{pmatrix} a & b & c \\\\ d & e & d \\\\ c & b & a \\end{pmatrix}$ 的矩阵称为中心对称矩阵, 则全体 3 阶中心对称矩阵构成的线性空间的维数为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知矩阵 $$A=\\begin{pmatrix} 1 & -1 & -1 & -1 \\\\ -1 & 1 & -1 & -1 \\\\ -1 & -1 & 1 & -1 \\\\ -1 & -1 & -1 & 1 \\end{pmatrix}.$$ 用 $A_{ij}$ 表示 $|A|$ 第 $i$ 行第 $j$ 列元素的代数余子式, 则 $\\sum\\limits_{i,j=1}^{4} A_{ij}=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f_n(x)=x^{n+2}-(x+1)^{2n+1}$, 证明: 对任意的正整数 $n$, 总有 $(x^2+x+1,\\,f_n(x))=1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设 3 维向量 $$\\alpha_1=(\\lambda,1,1)^T,\\ \\alpha_2=(1,\\lambda,1)^T,\\ \\alpha_3=(1,1,\\lambda)^T,\\ \\beta=(1,\\lambda,\\lambda^2)^T.$$ 分别确定 $\\lambda$ 的值, 使得:\n(1) $\\beta$ 不能由 $\\alpha_1$, $\\alpha_2$, $\\alpha_3$ 线性表出;\n(2) $\\beta$ 可以由 $\\alpha_1$, $\\alpha_2$, $\\alpha_3$ 线性表出, 并写出表达式。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知实矩阵 $$A=\\begin{pmatrix} 1 & 0 & 1 \\\\ 0 & 1 & 1 \\\\ -1 & 0 & a \\\\ 0 & a & -1 \\end{pmatrix}.$$ 记 $A^T$ 为 $A$ 的转置, 二次型 $f(X)=X^T(A^TA)X$, 其中 $X=(x_1,x_2,x_3)'$, 已知 $r(A^TA)=2$.\n(1) 求 $a$ 的值;\n(2) 求正交变换 $X=QY$, 把二次型 $f(X)$ 化为标准形。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知矩阵 $$A=\\begin{pmatrix} 2 & -1 & -1 \\\\ 2 & -1 & -2 \\\\ -1 & 1 & 2 \\end{pmatrix}.$$ 求 $A$ 的若尔当标准形 $J$, 并求可逆矩阵 $P$, 使得 $P^{-1}AP=J$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为 $n$ 阶正交矩阵. 证明:\n(1) $A$ 的实特征值只能是 $\\pm1$;\n(2) 若 $|A|=-1$, 则 $-1$ 是 $A$ 的特征值;\n(3) 若 $|A|=1$, 且 $n$ 为奇数, 则 $1$ 是 $A$ 的特征值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$, $B$ 为 $n$ 阶复矩阵, 且 $r(A)+r(B)<n$, 证明:\n(1) 方程组 $AX=0$ 与 $BX=0$ 有非零的公共解;\n(2) 矩阵 $A$ 与 $B$ 有公共的特征向量。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $A$ 为数域 $P$ 上的 $n$ 阶方阵, 记 $$R(A)=\\{AX\\mid X\\in P^{n\\times n}\\},\\ N(A)=\\{X\\in P^{n\\times n}\\mid AX=O\\}.$$ 证明: $R(A)\\cap N(A)=\\{O\\}$ 的充要条件是 $N(A)=N(A^2)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\sigma$ 是数域 $P$ 上线性空间 $V$ 上的线性变换, 且 $\\sigma^2=\\sigma$. 证明:\n(1) $V=V_0\\oplus V_1$, 其中 $V_0$, $V_1$ 分别是 $\\sigma$ 的属于特征值 0, 1 的特征子空间;\n(2) $\\tau$ 也为 $V$ 上的线性变换, 那么 $V_0$, $V_1$ 都是 $\\tau$ 的不变子空间的充要条件是 $\\sigma\\tau=\\tau\\sigma$。"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "郑州大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "62. 郑州大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": ["work/imgs/2247504638-2_5.png"],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "1",
-     "score": null,
-     "form": "填空",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知 $A$ 为 4 阶方阵，且 $|A|=\\dfrac{1}{2}$，则 $|(2A)^{-1}-7A^{*}|=$ ______。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "2",
-     "score": null,
-     "form": "填空",
-     "l1": "多项式",
-     "l2": "整除",
-     "stem": "当 $m$，$n$ 满足______ 时，有 $x^{2}+mx+1\\mid x^{3}+nx^{2}+5x+2$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "3",
-     "score": null,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "特征值与特征向量",
-     "stem": "设 $A$ 为 3 阶方阵，其特征值为 1，2，3，则 $|A+2E|=$ ______。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "4",
-     "score": null,
-     "form": "填空",
-     "l1": "欧氏空间与二次型",
-     "l2": "二次型",
-     "stem": "二次型 $f(x_1,x_2,\\cdots,x_n)=(n-1)\\sum\\limits_{i=1}^{n}x_i^{2}-2\\sum\\limits_{1\\le i<j\\le n}x_i x_j$ 的正惯性指数为______。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "5",
-     "score": null,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与维数",
-     "stem": "形如 $\\begin{pmatrix} a & b & c \\\\ d & e & d \\\\ c & b & a \\end{pmatrix}$ 的矩阵称为中心对称矩阵，则全体 3 阶中心对称矩阵构成的线性空间的维数为______。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "6",
-     "score": null,
-     "form": "填空",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知矩阵\n$$A=\\begin{pmatrix} 1 & -1 & -1 & -1 \\\\ -1 & 1 & -1 & -1 \\\\ -1 & -1 & 1 & -1 \\\\ -1 & -1 & -1 & 1 \\end{pmatrix}.$$\n用 $A_{ij}$ 表示 $|A|$ 第 $i$ 行第 $j$ 列元素的代数余子式，则 $\\sum\\limits_{i,j=1}^{4} A_{ij}=$ ______。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "多项式",
-     "l2": "互素与最大公因式",
-     "stem": "设 $f_n(x)=x^{n+2}-(x+1)^{2n+1}$，证明：对任意的正整数 $n$，总有 $(x^{2}+x+1,\\,f_n(x))=1$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "2",
-     "score": null,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "设 3 维向量\n$$\\alpha_1=(\\lambda,1,1)^{T},\\ \\alpha_2=(1,\\lambda,1)^{T},\\ \\lambda_3=(1,1,\\lambda)^{T},\\ \\beta=(1,\\lambda,\\lambda^{2})^{T}.$$\n分别确定 $\\lambda$ 的值，使得：\n(1) $\\beta$ 不能由 $\\alpha_1$，$\\alpha_2$，$\\alpha_3$ 线性表出；\n(2) $\\beta$ 可以由 $\\alpha_1$，$\\alpha_2$，$\\alpha_3$ 线性表出，并写出表达式。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "3",
-     "score": null,
-     "form": "综合",
-     "l1": "欧氏空间与二次型",
-     "l2": "正交变换",
-     "stem": "已知实矩阵\n$$A=\\begin{pmatrix} 1 & 0 & 1 \\\\ 0 & 1 & 1 \\\\ -1 & 0 & a \\\\ 0 & a & -1 \\end{pmatrix}.$$\n记 $A^{T}$ 为 $A$ 的转置，二次型 $f(X)=X^{T}(A^{T}A)X$，其中 $X=(x_1,x_2,x_3)'$，已知 $r(A^{T}A)=2$。\n(1) 求 $a$ 的值；\n(2) 求正交变换 $X=QY$，把二次型 $f(X)$ 化为标准形。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "4",
-     "score": null,
-     "form": "计算",
-     "l1": "线性空间与线性变换",
-     "l2": "Jordan 标准形",
-     "stem": "已知矩阵\n$$A=\\begin{pmatrix} 2 & -1 & -1 \\\\ 2 & -1 & -2 \\\\ -1 & 1 & 2 \\end{pmatrix}.$$\n求 $A$ 的若尔当标准形 $J$，并求可逆矩阵 $P$，使得 $P^{-1}AP=J$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "5",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "特征值与特征向量",
-     "stem": "设 $A$ 为 $n$ 阶正交矩阵。证明：\n(1) $A$ 的实特征值只能是 $\\pm1$；\n(2)【?】"
-    }
-   ]
-  }
- ]
+  ]
 }

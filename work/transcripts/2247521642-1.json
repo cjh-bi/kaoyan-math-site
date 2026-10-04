@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限 $\\lim_{x\\to 0^+}(\\cos\\sqrt{x})^{\\frac{1}{x}}$。"
+          "stem": "求极限 $\\lim\\limits_{x\\to 0^+}(\\cos\\sqrt{x})^{\\frac{1}{x}}$。"
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "设 $\\lim_{n\\to\\infty}a_n=a>0$，求 $\\lim_{n\\to\\infty}\\sqrt[n]{a_n}$。"
+          "stem": "设 $\\lim\\limits_{n\\to\\infty}a_n=a>0$，求 $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_n}$。"
         },
         {
           "section": "一",
@@ -36,17 +36,17 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{(1+\\tan x)^{\\frac{1}{4}}+(1-\\sin x)^{\\frac{1}{4}}-2}{x^2}$。"
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{(1+\\tan x)^{\\frac{1}{4}}+(1-\\sin x)^{\\frac{1}{4}}-2}{x^2}$。"
         },
         {
           "section": "二",
           "section_instruction": "",
           "no": "1",
           "score": 10,
-          "form": "计算",
+          "form": "综合",
           "l1": "极限与连续",
           "l2": "二重极限",
-          "stem": "讨论 $f(x,y)=\\left(1+\\dfrac{2}{x^2}\\right)^{e^{\\frac{x^4}{x^2+y^2}}}$ 在 $(0,0)$ 处累次极限与重极限的存在性，若存在，求其值。"
+          "stem": "讨论 $f(x,y)=\\left(1+\\dfrac{2}{x^2}\\right)^{\\frac{x^4}{x^2+y^2}}$ 在 $(0,0)$ 处累次极限与重极限的存在性，若存在，求其值。"
         },
         {
           "section": "三",
@@ -86,7 +86,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "三重积分",
-          "stem": "求三重积分 $$\\iiint_{\\Omega}2\\sqrt{x^2+y^2}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$ 其中 $\\Omega$ 为柱面 $y=\\sqrt{2x-x^2}$ 及平面 $z=0$，$z=a$ $(a>0)$，$y=0$ 所围成的区域。"
+          "stem": "求三重积分\n$$\\iiint\\limits_{\\Omega}2\\sqrt{x^2+y^2}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $\\Omega$ 为柱面 $y=\\sqrt{2x-x^2}$ 及平面 $z=0$，$z=a$（$a>0$），$y=0$ 所围成的区域。"
         },
         {
           "section": "七",
@@ -96,7 +96,7 @@
           "form": "综合",
           "l1": "一元微分学",
           "l2": "导数应用",
-          "stem": "定义 $f(x)=\\begin{cases}\\dfrac{1}{x}e^{-\\frac{1}{x^2}}, & x\\neq 0;\\\\ 0, & x=0.\\end{cases}$\n(1)（5 分）证明：$f(x)$ 在点 $x=0$ 处连续且可导。\n(2)（5 分）证明：$f'(x)$ 在 $\\mathbb{R}$ 上连续。\n(3)（5 分）求 $f(x)$ 的单调区间，最大值点，最小值点。"
+          "stem": "定义 $f(x)=\\begin{cases}\\dfrac{1}{x}e^{-\\frac{1}{x^2}}, & x\\neq 0;\\\\[1mm] 0, & x=0.\\end{cases}$\n(1)（5 分）证明：$f(x)$ 在点 $x=0$ 处连续且可导。\n(2)（5 分）证明：$f'(x)$ 在 $\\mathbb{R}$ 上连续。\n(3)（5 分）求 $f(x)$ 的单调区间，最大值点，最小值点。"
         },
         {
           "section": "八",
@@ -106,7 +106,7 @@
           "form": "综合",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "函数项级数 $\\sum_{n=2}^{\\infty}\\dfrac{xe^{-nx}}{\\ln n}$。\n(1)（7 分）求此函数项级数的收敛区间。\n(2)（8 分）设 $a>0$，证明此函数项级数在 $[a,+\\infty)$ 上一致收敛。"
+          "stem": "函数项级数 $\\sum\\limits_{n=2}^{\\infty}\\dfrac{xe^{-nx}}{\\ln n}$。\n(1)（7 分）求此函数项级数的收敛区间。\n(2)（8 分）设 $a>0$，证明此函数项级数在 $[a,+\\infty)$ 上一致收敛。"
         },
         {
           "section": "九",
@@ -116,7 +116,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "设 $f_1(x)$ 在 $[a,b]$ 上可积，$A$ 为一给定的数，定义 $$f_{n+1}(x)=A+\\int_a^x f_n(t)\\,\\mathrm{d}t.$$ 其中 $x\\in[a,b]$，$n=1,2,\\cdots$。\n(1)（8 分）证明：函数列 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛。\n(2)（7 分）记 $\\{f_n(x)\\}$ 的极限函数为 $f(x)$，证明：$f(x)$ 在 $[a,b]$ 上可微。"
+          "stem": "设 $f_1(x)$ 在 $[a,b]$ 上可积，$A$ 为一给定的数，定义\n$$f_{n+1}(x)=A+\\int_a^x f_n(t)\\,\\mathrm{d}t.$$\n其中 $x\\in[a,b]$，$n=1,2,\\cdots$。\n(1)（8 分）证明：函数列 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛。\n(2)（7 分）记 $\\{f_n(x)\\}$ 的极限函数为 $f(x)$，证明：$f(x)$ 在 $[a,b]$ 上可微。"
         },
         {
           "section": "十",
@@ -126,7 +126,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲线积分",
-          "stem": "计算曲线积分 $$I=\\int_L x\\ln(x^2+y^2-1)\\,\\mathrm{d}x+y\\ln(x^2+y^2-1)\\,\\mathrm{d}y.$$ 其中 $L$ 是被积函数定义域内从点 $(2,0)$ 到点 $(0,2)$ 的逐段光滑曲线。"
+          "stem": "计算曲线积分\n$$I=\\int_L x\\ln(x^2+y^2-1)\\,\\mathrm{d}x+y\\ln(x^2+y^2-1)\\,\\mathrm{d}y.$$\n其中 $L$ 是被积函数定义域内从点 $(2,0)$ 到点 $(0,2)$ 的逐段光滑曲线。"
         },
         {
           "section": "十一",
@@ -134,9 +134,9 @@
           "no": "1",
           "score": 10,
           "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "含参量积分",
-          "stem": "设 $f(x)$ 在 $[a,b]$ 上可积，证明：$\\lim_{\\lambda\\to+\\infty}\\int_a^b f(x)\\sin\\lambda x\\,\\mathrm{d}x=0$。"
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上可积，证明：$\\lim\\limits_{\\lambda\\to+\\infty}\\int_a^b f(x)\\sin\\lambda x\\,\\mathrm{d}x=0$。"
         }
       ]
     },
@@ -155,7 +155,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $n$ 为正整数，计算 $n$ 阶行列式 $$\\begin{vmatrix}1+x_1 & x_1 & \\cdots & x_1\\\\ x_2 & 1+x_2 & \\cdots & x_2\\\\ \\vdots & \\vdots & & \\vdots\\\\ x_n & x_n & \\cdots & 1+x_n\\end{vmatrix}.$$"
+          "stem": "设 $n$ 为正整数，计算 $n$ 阶行列式\n$$\\begin{vmatrix}1+x_1 & x_1 & \\cdots & x_1\\\\ x_2 & 1+x_2 & \\cdots & x_2\\\\ \\vdots & \\vdots & & \\vdots\\\\ x_n & x_n & \\cdots & 1+x_n\\end{vmatrix}。$$"
         },
         {
           "section": "一",
@@ -185,7 +185,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "幂零矩阵",
-          "stem": "证明：不存在复数域上的方阵 $A$，使得 $A^2=\\begin{pmatrix}0 & 0 & 0\\\\ 1 & 0 & 0\\\\ 0 & 1 & 0\\end{pmatrix}$。"
+          "stem": "证明：不存在复数域上的方阵 $A$，使得\n$$A^2=\\begin{pmatrix}0 & 0 & 0\\\\ 1 & 0 & 0\\\\ 0 & 1 & 0\\end{pmatrix}。$$"
         },
         {
           "section": "一",
@@ -214,8 +214,8 @@
           "score": null,
           "form": "综合",
           "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "设 $\\mathbb{C}$ 为复数域，$n$ 为大于 1 的整数，$V=\\left\\{\\sum_{0\\le i<n}c_ix^i\\mid c_i\\in\\mathbb{C}\\right\\}$ 为多项式环 $\\mathbb{C}[x]$ 的一个子集，定义映射 $\\mathscr{D}:V\\to V$，$\\sum_{0\\le i<n}c_ix^i\\mapsto\\sum_{1\\le i<n}ic_ix^{i-1}$。\n(1) 证明：$V$ 是 $\\mathbb{C}$ 上的一个线性空间，$\\mathscr{D}$ 是 $V$ 上的一个线性变换。\n(2) 求 $\\mathscr{D}$ 的极小多项式和特征多项式。\n(3) 求 $\\mathscr{D}$ 的所有不变子空间。"
+          "l2": "不变子空间",
+          "stem": "设 $\\mathbb{C}$ 为复数域，$n$ 为大于 1 的整数，$V=\\left\\{\\sum\\limits_{0\\le i<n}c_ix^i\\ \\middle|\\ c_i\\in\\mathbb{C}\\right\\}$ 为多项式环 $\\mathbb{C}[x]$ 的一个子集，定义映射\n$$\\mathscr{D}:\\ V\\to V,\\ \\sum_{0\\le i<n}c_ix^i\\mapsto\\sum_{1\\le i<n}ic_ix^{i-1}.$$\n(1) 证明：$V$ 是 $\\mathbb{C}$ 上的一个线性空间，$\\mathscr{D}$ 是 $V$ 上的一个线性变换。\n(2) 求 $\\mathscr{D}$ 的极小多项式和特征多项式。\n(3) 求 $\\mathscr{D}$ 的所有不变子空间。"
         },
         {
           "section": "一",
@@ -225,7 +225,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $n$ 为正整数，$M(n,\\mathbb{R})$ 为实数域 $\\mathbb{R}$ 上所有 $n$ 阶矩阵构成的线性空间，给定两个方阵 $A,B\\in M(n,\\mathbb{R})$，定义映射 $\\varphi:M(n,\\mathbb{R})\\to M(n,\\mathbb{R})$，$X\\mapsto AXB$。\n(1) 证明：$\\varphi$ 为线性变换。\n(2) 设 $a=\\mathrm{tr}(A)$，$b=\\mathrm{tr}(B)$ 分别为矩阵 $A,B$ 的迹（一个方阵的迹等于这个矩阵对角线上的元素之和），求 $\\mathrm{tr}(\\varphi)$。\n(3) 设 $|A|,|B|$ 分别为 $A,B$ 的行列式，求 $\\varphi$ 的行列式。"
+          "stem": "设 $n$ 为正整数，$M(n,\\mathbb{R})$ 为实数域 $\\mathbb{R}$ 上所有 $n$ 阶矩阵构成的线性空间，给定两个方阵 $A,B\\in M(n,\\mathbb{R})$，定义映射\n$$\\varphi:\\ M(n,\\mathbb{R})\\to M(n,\\mathbb{R}),\\ X\\mapsto AXB.$$\n(1) 证明：$\\varphi$ 为线性变换。\n(2) 设 $a=\\mathrm{tr}(A)$，$b=\\mathrm{tr}(B)$ 分别为矩阵 $A,B$ 的迹（一个方阵的迹等于这个矩阵对角线上的元素之和），求 $\\mathrm{tr}(\\varphi)$。\n(3) 设 $|A|,|B|$ 分别为 $A,B$ 的行列式，求 $\\varphi$ 的行列式。"
         },
         {
           "section": "一",
@@ -234,8 +234,8 @@
           "score": null,
           "form": "计算",
           "l1": "欧氏空间与二次型",
-          "l2": "二次型",
-          "stem": "利用正交变换把下面的实二次型化为标准型。$$7x_1^2+7x_2^2-5x_3^2+32x_1x_2-16x_1x_3-16x_2x_3.$$"
+          "l2": "正交变换",
+          "stem": "利用正交变换把下面的实二次型化为标准型：\n$$7x_1^2+7x_2^2-5x_3^2+32x_1x_2-16x_1x_3-16x_2x_3。$$"
         }
       ]
     }

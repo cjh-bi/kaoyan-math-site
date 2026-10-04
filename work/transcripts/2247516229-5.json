@@ -95,7 +95,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "45. 福州大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516229-5_5.png"],
+      "source_imgs": ["work/imgs/2247516229-5_5.png", "work/imgs/2247516229-5_6.png"],
       "questions": [
         {
           "section": "一",
@@ -246,6 +246,36 @@
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
           "stem": "设 $A$ 为 3 阶实对称矩阵，且 $A$ 的秩为 2，$\\lambda_1=\\lambda_2=2$，$\\lambda_1,\\lambda_2$ 对应的特征向量分别为 $\\alpha_1=(1,1,0)^{T}, \\alpha_2=(2,1,1)^{T}$，求另一个特征值及对应的特征向量，并求出矩阵 $A$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "6",
+          "score": 12,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "将二次型 $f(x_1,x_2,x_3)=3x_1^{2}+3x_2^{2}+4x_1 x_2+8x_2 x_3+4x_1 x_3$ 替换为标准形，并写出所用的正交替换和标准形。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "7",
+          "score": 14,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知 $A=(a_{ij})_{n\\times n}$ 为正定矩阵。记\n$$f(x_1,x_2,\\cdots,x_n)=\\begin{vmatrix} 0 & x_1 & x_2 & \\cdots & x_n \\\\ x_1 & a_{11} & a_{12} & \\cdots & a_{1n} \\\\ x_2 & a_{21} & a_{22} & \\cdots & a_{2n} \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ x_n & a_{n1} & a_{n2} & \\cdots & a_{nn} \\end{vmatrix}.$$\n证明 $f(x_1,x_2,\\cdots,x_n)$ 是一个负定二次型。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答题",
+          "no": "8",
+          "score": 14,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "已知 $A$ 为实对称矩阵，$B$ 为正定矩阵，$A-B$ 为半正定矩阵。证明：\n(1) 若 $|A-\\lambda B|=0$，则 $\\lambda \\ge 1$；\n(2) $|A| \\ge |B|$。"
         }
       ]
     }

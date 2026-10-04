@@ -6,147 +6,187 @@
       "year": "2021",
       "subject": "数学分析",
       "header_note": "17. 大连理工大学 2021 年硕士研究生入学考试数学分析试卷",
-      "source_imgs": ["work/imgs/2247504460-1_4.png"],
+      "source_imgs": ["work/imgs/2247504460-1_4.png", "work/imgs/2247504460-1_5.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "1",
           "score": 6,
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限\n$$\\lim_{x\\to+\\infty}\\left[\\frac{x^2}{e}\\left(1+\\frac{1}{x}\\right)^x-x^2+\\frac{x}{2}\\right].$$"
+          "stem": "求极限 $\\lim\\limits_{x\\to+\\infty}\\left[\\dfrac{x^2}{e}\\left(1+\\dfrac{1}{x}\\right)^{x}-x^{2}+\\dfrac{x}{2}\\right]$。"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "2",
           "score": 6,
           "form": "证明",
           "l1": "一元微分学",
           "l2": "不等式证明",
-          "stem": "设 $x_1,x_2,\\cdots,x_n$ 为正数，证明\n$$\\frac{x_1+x_2+\\cdots+x_n}{n}\\le (x_1^{x_1}x_2^{x_2}\\cdots x_n^{x_n})^{1/(x_1+x_2+\\cdots+x_n)}.$$"
+          "stem": "设 $x_1,x_2,\\cdots,x_n$ 为正数, 证明\n$$\\dfrac{x_1+x_2+\\cdots+x_n}{n}\\le\\left(x_1^{x_1}x_2^{x_2}\\cdots x_n^{x_n}\\right)^{1/(x_1+x_2+\\cdots+x_n)}.$$"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "3",
           "score": 6,
           "form": "证明",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "证明 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\frac{e^{-nx}}{n}$ 在 $(0,+\\infty)$ 上有任意阶导数。"
+          "stem": "证明 $f(x)=\\sum\\limits_{n=1}^{\\infty}\\dfrac{e^{-nx}}{n}$ 在 $(0,+\\infty)$ 上有任意阶导数。"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "4",
           "score": 6,
           "form": "综合",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "问级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\frac{\\cos n}{n}$ 是条件收敛还是绝对收敛？为什么？"
+          "stem": "问级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\cos n}{n}$ 是条件收敛还是绝对收敛？为什么？"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "5",
           "score": 6,
           "form": "计算",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "将 $f(x,y)=\\dfrac{\\cos y}{\\cos x}$ 在 $(0,0)$ 做 Taylor 展开，要求展开到二次项。"
+          "stem": "将 $f(x,y)=\\dfrac{\\cos y}{\\cos x}$ 在 $(0,0)$ 做 Taylor 展开, 要求展开到二次项。"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "6",
           "score": 6,
-          "form": "综合",
+          "form": "判断",
           "l1": "极限与连续",
           "l2": "数列收敛性",
-          "stem": "对给定的正整数 $p$，有 $\\lim\\limits_{n\\to\\infty}(a_{n+p}-a_n)=0$，问 $\\{a_n\\}$ 是否收敛、为什么？"
+          "stem": "对给定的正整数 $p$, 有 $\\lim\\limits_{n\\to\\infty}\\left(a_{n+p}-a_n\\right)=0$, 问 $\\{a_n\\}$ 是否收敛、为什么？"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "7",
           "score": 6,
           "form": "证明",
-          "l1": "级数",
-          "l2": "数项级数敛散性",
-          "stem": "设 $a_n>0$ $(n=1,2,\\cdots)$，证明 $\\lim\\limits_{n\\to\\infty}\\sup\\sqrt[n]{a_n}\\le\\lim\\limits_{n\\to\\infty}\\sup\\dfrac{a_{n+1}}{a_n}$。"
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $a_n>0$ $(n=1,2,\\cdots)$, 证明 $\\lim\\limits_{n\\to\\infty}\\sup\\sqrt[n]{a_n}\\le\\lim\\limits_{n\\to\\infty}\\sup\\dfrac{a_{n+1}}{a_n}$。"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "8",
           "score": 6,
           "form": "证明",
           "l1": "极限与连续",
           "l2": "一致连续性",
-          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty}[f(x)-ax-b]=0$，证明 $f(x)$ 在 $[0,+\\infty)$ 上一致连续。"
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续, 且 $\\lim\\limits_{x\\to+\\infty}\\left[f(x)-ax-b\\right]=0$, 证明 $f(x)$ 在 $[0,+\\infty)$ 上一致连续。"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "9",
           "score": 6,
           "form": "证明",
           "l1": "一元微分学",
           "l2": "导数计算",
-          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上有三阶连续导数，且 $f(0)=1$，$f'(0)=0$，定义函数\n$$g(x)=\\begin{cases}\\dfrac{f(x)-1}{x^2}, & x\\neq 0;\\\\[2mm] \\dfrac{f''(0)}{2}, & x=0.\\end{cases}$$\n证明 $g(x)$ 在 $(-\\infty,+\\infty)$ 上有连续的导数。"
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上有三阶连续导数, 且 $f(0)=1$, $f'(0)=0$, 定义函数\n$$g(x)=\\begin{cases}\\dfrac{f(x)-1}{x^{2}}, & x\\neq 0;\\\\[6pt] \\dfrac{f''(0)}{2}, & x=0.\\end{cases}$$\n证明 $g(x)$ 在 $(-\\infty,+\\infty)$ 上有连续的导数。"
         },
         {
           "section": "一",
-          "section_instruction": "解答题(每题 6 分，共 60 分)",
+          "section_instruction": "解答题(每题 6 分, 共 60 分)",
           "no": "10",
           "score": 6,
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "设 $A_n\\subseteq[0,1]$ 是有限集，其中 $n=1,2,\\cdots$，且当 $i\\neq j$ 时，$A_i\\cap A_j=O$，定义函数\n$$f(x)=\\begin{cases}\\dfrac{1}{n}, & x\\in A_n,\\ n=1,2,\\cdots;\\\\[1mm] 0, & x\\in[0,1]-\\displaystyle\\bigcup_{n=1}^{\\infty}A_n.\\end{cases}$$\n对任意的 $a\\in(0,1)$，求 $\\lim\\limits_{x\\to a}f(x)$。"
+          "stem": "设 $A_n\\subseteq[0,1]$ 是有限集, 其中 $n=1,2,\\cdots$, 且当 $i\\neq j$ 时, $A_i\\cap A_j=\\varnothing$, 定义函数\n$$f(x)=\\begin{cases}\\dfrac{1}{n}, & x\\in A_n,\\ n=1,2,\\cdots;\\\\[6pt] 0, & x\\in[0,1]-\\displaystyle\\bigcup_{n=1}^{\\infty}A_n.\\end{cases}$$\n对任意的 $a\\in(0,1)$, 求 $\\lim\\limits_{x\\to a}f(x)$。"
         },
         {
           "section": "二",
-          "section_instruction": "计算题(每题 10 分，共 30 分)",
+          "section_instruction": "计算题(每题 10 分, 共 30 分)",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "多元微分学",
-          "l2": "隐函数求导",
-          "stem": "设 $f(x,y)$，$x(s,t)$，$y(s,t)$ 均具有二阶连续偏导数，令 $u=f(x(s,t),y(s,t))$，求 $\\dfrac{\\partial^2 u}{\\partial s\\partial t}$。"
+          "l2": "偏导数",
+          "stem": "设 $f(x,y)$, $x(s,t)$, $y(s,t)$ 均具有二阶连续偏导数, 令 $u=f(x(s,t),y(s,t))$, 求 $\\dfrac{\\partial^{2}u}{\\partial s\\partial t}$。"
         },
         {
           "section": "二",
-          "section_instruction": "计算题(每题 10 分，共 30 分)",
+          "section_instruction": "计算题(每题 10 分, 共 30 分)",
           "no": "2",
           "score": 10,
           "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求函数 $f(x)=\\ln(x+\\sqrt{1+x^2})$ 在 $x=0$ 处的幂级数展开式。"
+          "stem": "求函数 $f(x)=\\ln(x+\\sqrt{1+x^{2}})$ 在 $x=0$ 处的幂级数展开式。"
         },
         {
           "section": "二",
-          "section_instruction": "计算题(每题 10 分，共 30 分)",
+          "section_instruction": "计算题(每题 10 分, 共 30 分)",
           "no": "3",
           "score": 10,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算第二型曲面积分\n$$I=\\iint_{\\Sigma}(z-x)\\,\\mathrm{d}x\\mathrm{d}y+(x-y)\\,\\mathrm{d}z\\mathrm{d}x+(y-z)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为曲面 $z=\\sqrt{x^2+y^2}$，$0\\le z\\le h$ $(h>0)$，取上侧。"
+          "stem": "计算第二型曲面积分\n$$I=\\iint\\limits_{\\Sigma}(z-x)\\,\\mathrm{d}y\\mathrm{d}z+(x-y)\\,\\mathrm{d}z\\mathrm{d}x+(y-z)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $\\Sigma$ 为曲面 $z=\\sqrt{x^{2}+y^{2}}$, $0\\le z\\le h$ $(h>0)$, 取上侧。"
         },
         {
           "section": "三",
-          "section_instruction": "证明题(每题 12 分，共 60 分)",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
           "no": "1",
           "score": 12,
           "form": "证明",
           "l1": "多元积分学",
           "l2": "第二型曲线积分",
-          "stem": "设 $F(x,y)=(P(x,y),Q(x,y))$ 在区域 $D\\subseteq\\mathbb{R}^2$ 上连续可微，对 $D$ 内任意逆时针方向的圆周 $C$，总有 $\\displaystyle\\int_C F\\cdot n\\,\\mathrm{d}s=0$，其中 $n$ 为 $C$ 的单位外法向，$s$ 为弧长参数。证明：在 $D$ 上有 $\\dfrac{\\partial P}{\\partial x}+\\dfrac{\\partial Q}{\\partial y}=0$。【本卷第三大题其余小题及后续大题图片缺失】"
+          "stem": "设 $\\boldsymbol{F}(x,y)=\\left(P(x,y),Q(x,y)\\right)$ 在区域 $D\\subseteq\\mathbb{R}^{2}$ 上连续可微, 对 $D$ 内任意逆时针方向的圆周 $C$, 总有 $\\displaystyle\\int_{C}\\boldsymbol{F}\\cdot\\boldsymbol{n}\\,\\mathrm{d}s=0$, 其中 $\\boldsymbol{n}$ 为 $C$ 的单位外法向, $s$ 为弧长参数. 证明: 在 $D$ 上有 $\\dfrac{\\partial P}{\\partial x}+\\dfrac{\\partial Q}{\\partial y}=0$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "定义函数 $F(u)=\\dfrac{1}{2\\pi}\\displaystyle\\int_{0}^{2\\pi}e^{u\\cos x}\\cos(u\\sin x)\\,\\mathrm{d}x$, $u\\in\\mathbb{R}$, 证明\n(1) $F(u)$ 在 $(-\\infty,+\\infty)$ 上有任意阶导数, 且存在与 $n$ 无关的常数 $M(u)>0$, 使得 $\\left|F^{(n)}(u)\\right|\\le M(u)$。\n(2) $F(u)=1$, $\\forall u\\in\\mathbb{R}$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "3",
+          "score": 12,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "定义 $a_n=\\displaystyle\\int_{0}^{\\frac{\\pi}{2}}t\\left|\\dfrac{\\sin nt}{\\sin t}\\right|^{3}\\mathrm{d}t$, $n=1,2,\\cdots$, 证明级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{a_n}$ 发散。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "4",
+          "score": 12,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "设 $f(x)\\in C[a,b]$, 且 $f(a)=f(b)=0$, 若对任意的 $x\\in(a,b)$, 有\n$$\\lim_{h\\to 0}\\dfrac{f(x+h)+f(x-h)-2f(x)}{h^{2}}=0.$$\n证明 $f(x)\\equiv 0$, $x\\in[a,b]$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 12 分, 共 60 分)",
+          "no": "5",
+          "score": 12,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "",
+          "stem": "证明\n$$\\lim_{n\\to\\infty}\\int_{0}^{+\\infty}\\dfrac{n^{2}x}{1+x^{2}}e^{-n^{2}x^{2}}\\mathrm{d}x=\\dfrac{1}{2}.$$"
         }
       ]
     },
@@ -159,123 +199,123 @@
       "questions": [
         {
           "section": "一",
-          "section_instruction": "计算题(每题 10 分，共 30 分)",
+          "section_instruction": "计算题(每题 10 分, 共 30 分)",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "多项式",
-          "l2": "根与重因式",
-          "stem": "设 $f(x)$ 是数域 $P$ 上的 $n$ 次多项式，且当 $k=0,1,\\cdots,n$ 时，有 $f(k)=\\dfrac{k}{k+1}$，求 $f(n+1)$。"
+          "l2": "整值多项式",
+          "stem": "设 $f(x)$ 是数域 $P$ 上的 $n$ 次多项式, 且当 $k=0,1,\\cdots,n$ 时, 有 $f(k)=\\dfrac{k}{k+1}$, 求 $f(n+1)$。"
         },
         {
           "section": "一",
-          "section_instruction": "计算题(每题 10 分，共 30 分)",
+          "section_instruction": "计算题(每题 10 分, 共 30 分)",
           "no": "2",
           "score": 10,
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "求一个非退化线性替换，将实二次型 $f(x_1,x_2,x_3)=2x_1x_2+2x_1x_3-6x_2x_3$ 化为标准形。"
+          "stem": "求一个非退化线性替换, 将实二次型 $f(x_1,x_2,x_3)=2x_1x_2+2x_1x_3-6x_2x_3$ 化为标准形。"
         },
         {
           "section": "一",
-          "section_instruction": "计算题(每题 10 分，共 30 分)",
+          "section_instruction": "计算题(每题 10 分, 共 30 分)",
           "no": "3",
           "score": 10,
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "在 $\\mathbb{R}^4$ 中，设\n$$\\alpha_1=(1,0,-1,0)^{\\prime},\\ \\alpha_2=(0,1,2,1)^{\\prime},\\ \\alpha_3=(2,1,0,1)^{\\prime}$$\n生成的子空间为 $V_1$，设\n$$\\beta_1=(-1,1,1,1)^{\\prime},\\ \\beta_2=(1,-1,-3,-1)^{\\prime}$$\n生成的子空间为 $V_2$，求 $\\dim(V_1+V_2)$ 和 $\\dim(V_1\\cap V_2)$。"
+          "stem": "在 $\\mathbb{R}^{4}$ 中, 设\n$$\\alpha_1=(1,0,-1,0)^{\\prime},\\ \\alpha_2=(0,1,2,1)^{\\prime},\\ \\alpha_3=(2,1,0,1)^{\\prime}$$\n生成的子空间为 $V_1$, 设\n$$\\beta_1=(-1,1,1,1)^{\\prime},\\ \\beta_2=(1,-1,-3,-1)^{\\prime}$$\n生成的子空间为 $V_2$, 求 $\\dim(V_1+V_2)$ 和 $\\dim(V_1\\cap V_2)$。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "近世代数",
           "l2": "环与域",
-          "stem": "证明 $\\mathbb{Q}[\\sqrt{2}]=\\{a+b\\sqrt{2}\\mid a,b\\in\\mathbb{Q}\\}$ 为数域，其中 $\\mathbb{Q}$ 为有理数域。"
+          "stem": "证明 $\\mathbb{Q}[\\sqrt{2}]=\\{a+b\\sqrt{2}\\mid a,b\\in\\mathbb{Q}\\}$ 为数域, 其中 $\\mathbb{Q}$ 为有理数域。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "2",
           "score": 10,
           "form": "证明",
           "l1": "多项式",
           "l2": "互素与最大公因式",
-          "stem": "设 $f_i(x)$ $(i=1,2,\\cdots,n)$ 是数域 $P$ 上两两互素的多项式，$a_i(x)$ $(i=1,2,\\cdots,n)$ 是数域 $P$ 上任意 $n$ 个多项式，证明：存在 $g(x)\\in P[x]$，使得对任意的 $i=1,2,\\cdots,n$，均有\n$$g(x)\\equiv a_i(x)\\pmod{f_i(x)}\\ \\text{即}\\ f_i(x)\\mid[g(x)-a_i(x)].$$"
+          "stem": "设 $f_i(x)$ $(i=1,2,\\cdots,n)$ 是数域 $P$ 上两两互素的多项式, $a_i(x)$ $(i=1,2,\\cdots,n)$ 是数域 $P$ 上任意 $n$ 个多项式, 证明: 存在 $g(x)\\in P[x]$, 使得对任意的 $i=1,2,\\cdots,n$, 均有\n$$g(x)\\equiv a_i(x)\\pmod{f_i(x)}\\ \\text{即}\\ f_i(x)\\mid[g(x)-a_i(x)].$$"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "3",
           "score": 10,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "已知实矩阵\n$$A=\\begin{pmatrix}2&2&0\\\\ 2&a&0\\\\ 0&0&6\\end{pmatrix},\\quad B=\\begin{pmatrix}2&b&b\\\\ 1&4&-2\\\\ 1&-2&4\\end{pmatrix}.$$\n证明矩阵方程 $AX=B$ 有解但 $BY=A$ 无解的充要条件是 $a\\neq 2$，$b=2$。"
+          "stem": "已知实矩阵\n$$A=\\begin{pmatrix}2 & 2 & 0\\\\ 2 & a & 0\\\\ 0 & 0 & 6\\end{pmatrix},\\quad B=\\begin{pmatrix}2 & b & b\\\\ 1 & 4 & -2\\\\ 1 & -2 & 4\\end{pmatrix}.$$\n证明矩阵方程 $AX=B$ 有解但 $BY=A$ 无解的充要条件是 $a\\neq 2$, $b=2$。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "4",
           "score": 10,
           "form": "证明",
-          "l1": "矩阵与线性方程组",
-          "l2": "伴随矩阵",
-          "stem": "实对称矩阵 $A$ 称为负定的，如果二次型 $X^{\\prime}AX$ 负定。设实对称矩阵 $A$ 的阶数为偶数，且满足\n$$A^3+6A^2+11A+6E=O.$$\n证明 $A$ 的伴随矩阵 $A^{*}$ 为负定矩阵。"
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "实对称矩阵 $A$ 称为负定的, 如果二次型 $X^{\\prime}AX$ 负定. 设实对称矩阵 $A$ 的阶数为偶数, 且满足\n$$A^{3}+6A^{2}+11A+6E=O.$$\n证明 $A$ 的伴随矩阵 $A^{*}$ 为负定矩阵。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "5",
           "score": 10,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "设 $V$ 是复数域上的 $n$ 维线性空间，$f$，$g$ 为 $V$ 上的线性变换，且 $fg=gf$，证明 $f$，$g$ 有公共的特征向量。"
+          "stem": "设 $V$ 是复数域上的 $n$ 维线性空间, $f$, $g$ 为 $V$ 上的线性变换, 且 $fg=gf$, 证明 $f$, $g$ 有公共的特征向量。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "6",
           "score": 10,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A$，$B$ 是 $n$ 级实方阵，且 $A$ 是正定矩阵，$B$ 是实反称矩阵，证明 $B^{\\prime}AB$ 的秩为偶数。"
+          "stem": "设 $A$, $B$ 是 $n$ 级实方阵, 且 $A$ 是正定矩阵, $B$ 是实反称矩阵, 证明 $B^{\\prime}AB$ 的秩为偶数。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "7",
           "score": 10,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "不变子空间",
-          "stem": "设 $V$ 是实数域 $\\mathbb{R}$ 上的 $n$ $(n>1)$ 维线性空间，$\\tau$ 是 $V$ 上的线性变换，证明 $V$ 有 $1$ 维或 $2$ 维 $\\tau-$子空间（即不变子空间）。"
+          "stem": "设 $V$ 是实数域 $\\mathbb{R}$ 上的 $n$ $(n>1)$ 维线性空间, $\\tau$ 是 $V$ 上的线性变换, 证明 $V$ 有 1 维或 2 维 $\\tau-$子空间(即不变子空间)。"
         },
         {
           "section": "二",
-          "section_instruction": "证明题(每题 10 分，共 80 分)",
+          "section_instruction": "证明题(每题 10 分, 共 80 分)",
           "no": "8",
           "score": 10,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "伴随变换",
-          "stem": "设 $V$ 是 $n$ 维欧氏空间，$\\varphi$ 是 $V$ 上的线性变换，证明在 $V$ 上存在唯一的线性变换 $\\varphi^{*}$，使得对任意的 $\\alpha,\\beta\\in V$，有 $(\\varphi(\\alpha),\\beta)=(\\alpha,\\varphi^{*}(\\beta))$。"
+          "stem": "设 $V$ 是 $n$ 维欧氏空间, $\\varphi$ 是 $V$ 上的线性变换, 证明在 $V$ 上存在唯一的线性变换 $\\varphi^{*}$, 使得对任意的 $\\alpha,\\beta\\in V$, 有 $(\\varphi(\\alpha),\\beta)=(\\alpha,\\varphi^{*}(\\beta))$。"
         },
         {
           "section": "三",
-          "section_instruction": "混合题(每题 20 分，共 40 分)",
+          "section_instruction": "混合题(每题 20 分, 共 40 分)",
           "no": "1",
           "score": 20,
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $\\mathfrak{sl}_2(\\mathbb{R})$ 表示实数域 $\\mathbb{R}$ 上迹为零的二级矩阵的集合。\n(1) 证明 $\\mathfrak{sl}_2(\\mathbb{R})$ 是 $\\mathbb{R}$ 上的线性空间，并求 $\\mathfrak{sl}_2(\\mathbb{R})$ 的一组基；\n(2) 对 $A\\in\\mathfrak{sl}_2(\\mathbb{R})$，定义映射\n$$\\tau_A:\\mathfrak{sl}_2(\\mathbb{R})\\to\\mathfrak{sl}_2(\\mathbb{R})$$\n$$B\\mapsto AB-BA.$$\n证明 $\\tau_A$ 是 $\\mathfrak{sl}_2(\\mathbb{R})$ 上的线性变换。"
+          "stem": "设 $\\mathfrak{sl}_2(\\mathbb{R})$ 表示实数域 $\\mathbb{R}$ 上迹为零的二级矩阵的集合.\n(1) 证明 $\\mathfrak{sl}_2(\\mathbb{R})$ 是 $\\mathbb{R}$ 上的线性空间, 并求 $\\mathfrak{sl}_2(\\mathbb{R})$ 的一组基;\n(2) 对 $A\\in\\mathfrak{sl}_2(\\mathbb{R})$, 定义映射\n$$\\tau_A:\\mathfrak{sl}_2(\\mathbb{R})\\to\\mathfrak{sl}_2(\\mathbb{R})$$\n$$B\\mapsto AB-BA.$$\n证明 $\\tau_A$ 是 $\\mathfrak{sl}_2(\\mathbb{R})$ 上的线性变换。"
         }
       ]
     }

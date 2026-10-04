@@ -10,17 +10,17 @@
       "questions": [
         {
           "section": "一",
-          "section_instruction": "计算题.",
+          "section_instruction": "计算题",
           "no": "1",
           "score": null,
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "计算 $\\lim_{x\\to 0}\\dfrac{(1+\\sin^2 x)^{2022}-(\\cos x)^{2022}}{\\ln(1+x^2)}$。"
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{(1+\\sin^2 x)^{2022}-(\\cos x)^{2022}}{\\ln(1+x^2)}$。"
         },
         {
           "section": "一",
-          "section_instruction": "计算题.",
+          "section_instruction": "计算题",
           "no": "2",
           "score": null,
           "form": "计算",
@@ -30,30 +30,30 @@
         },
         {
           "section": "一",
-          "section_instruction": "计算题.",
+          "section_instruction": "计算题",
           "no": "3",
           "score": null,
           "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求 $f(x)=e^{-\\frac{x^2}{2}}$ 的麦克劳林展开式，并由此计算 $f^{(2021)}(0)$，$f^{(2022)}(0)$。"
+          "stem": "求 $f(x)=e^{-\\frac{x^2}{3}}$ 的麦克劳林展开式，并由此计算 $f^{(2021)}(0)$，$f^{(2022)}(0)$。"
         },
         {
           "section": "一",
-          "section_instruction": "计算题.",
+          "section_instruction": "计算题",
           "no": "4",
           "score": null,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算 $\\iint\\limits_{S}\\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{(x^2+y^2+z^2)^{\\frac{3}{2}}}$，$S$ 为 $\\{|x|\\le 2,|y|\\le 2,|z|\\le 2\\}$ 所围区域的外表面，取外侧。"
+          "stem": "计算 $\\displaystyle\\iint_S \\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{(x^2+y^2+z^2)^{\\frac{3}{2}}}$，$S$ 为 $\\{|x|\\le 2,|y|\\le 2,|z|\\le 2\\}$ 所围区域的外表面，取外侧。"
         },
         {
           "section": "二",
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "证明",
+          "form": "综合",
           "l1": "极限与连续",
           "l2": "递推数列",
           "stem": "设 $x_0>0$，$x_n=\\arctan x_{n-1}$ $(n\\ge 1)$。\n(1) 证明：$\\lim\\limits_{n\\to\\infty}x_n=0$；\n(2) 证明：数列 $\\{\\sqrt{n}x_n\\}$ 收敛，并求极限。"
@@ -66,7 +66,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "一致连续性",
-          "stem": "证明 $f(x)=x^\\alpha\\ln x$ 在 $(0,+\\infty)$ 上一致连续的充要条件是 $0<\\alpha<1$。"
+          "stem": "证明 $f(x)=x^{\\alpha}\\ln x$ 在 $(0,+\\infty)$ 上一致连续的充要条件是 $0<\\alpha<1$。"
         },
         {
           "section": "四",
@@ -76,7 +76,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "设 $a_n>0$，$\\dfrac{a_n}{a_{n+1}}=1+\\dfrac{\\alpha}{n}+O\\left(\\dfrac{1}{n^2}\\right)$，$O\\left(\\dfrac{1}{n^2}\\right)$ 代表存在 $M>0$，使得对一切 $n\\in\\mathbb{N}^*$，有 $\\left|O\\left(\\dfrac{1}{n^2}\\right)\\right|\\le\\dfrac{M}{n^2}$。证明级数 $\\sum\\limits_{n=1}^{\\infty}a_n$ 收敛当且仅当 $\\alpha>1$。"
+          "stem": "设 $a_n>0$，$\\dfrac{a_n}{a_{n+1}}=1+\\dfrac{\\alpha}{n}+O\\left(\\dfrac{1}{n^2}\\right)$，$O\\left(\\dfrac{1}{n^2}\\right)$ 代表存在 $M>0$，使得对一切 $n\\in\\mathbb{N}^{*}$，有 $\\left|O\\left(\\dfrac{1}{n^2}\\right)\\right|\\le\\dfrac{M}{n^2}$。证明级数 $\\sum\\limits_{n=1}^{\\infty}a_n$ 收敛当且仅当 $\\alpha>1$。"
         },
         {
           "section": "五",
@@ -86,17 +86,17 @@
           "form": "综合",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "设 $f(x),g(x)$ 在 $[0,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty}\\dfrac{f(x)}{g(x)}=1$，$\\int_0^{+\\infty}g(x)\\,\\mathrm{d}x$ 收敛。\n(1) 证明：广义积分 $\\int_0^{+\\infty}f(x)\\,\\mathrm{d}x$ 也收敛；\n(2) 如果没有连续性条件，举例 $f(x)$ 使 $\\int_0^{+\\infty}f(x)\\,\\mathrm{d}x$ 发散。"
+          "stem": "设 $f(x),g(x)$ 在 $[0,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty}\\dfrac{f(x)}{g(x)}=1$，$\\int_0^{+\\infty}g(x)\\,\\mathrm{d}x$ 收敛。\n(1) 证明：广义积分 $\\displaystyle\\int_0^{+\\infty}f(x)\\,\\mathrm{d}x$ 也收敛；\n(2) 如果没有连续性条件，举例 $f(x)$ 使 $\\displaystyle\\int_0^{+\\infty}f(x)\\,\\mathrm{d}x$ 发散。"
         },
         {
           "section": "六",
-          "section_instruction": "解答如下问题:",
+          "section_instruction": "",
           "no": "1",
           "score": null,
           "form": "综合",
           "l1": "极限与连续",
           "l2": "实数完备性定理",
-          "stem": "(1) 叙述实数域上的有限覆盖定理和致密性定理；\n(2) 用有限覆盖定理证明致密性定理。"
+          "stem": "解答如下问题：\n(1) 叙述实数域上的有限覆盖定理和致密性定理；\n(2) 用有限覆盖定理证明致密性定理。"
         },
         {
           "section": "七",
@@ -106,7 +106,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "证明 $G(p)=\\int_0^{\\pi}\\dfrac{\\sin x}{x^p(\\pi-x)^{2-p}}\\,\\mathrm{d}x$ 在 $(0,2)$ 连续。"
+          "stem": "证明 $G(p)=\\displaystyle\\int_0^{\\pi}\\dfrac{\\sin x}{x^{p}(\\pi-x)^{2-p}}\\,\\mathrm{d}x$ 在 $(0,2)$ 连续。"
         },
         {
           "section": "八",
@@ -125,7 +125,7 @@
       "year": "2022",
       "subject": "高等代数",
       "header_note": "39. 浙江大学 2022 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247510333-1_5.png"],
+      "source_imgs": ["work/imgs/2247510333-1_5.png", "work/imgs/2247510333-1_6.png"],
       "questions": [
         {
           "section": "一",
@@ -134,7 +134,7 @@
           "score": null,
           "form": "计算",
           "l1": "矩阵与线性方程组",
-          "l2": "行列式",
+          "l2": "伴随矩阵",
           "stem": "设 $A=(a_{ij})$ 是 $n$ 阶矩阵，$A_{ij}$ 是 $|A|$ 中 $a_{ij}$ 的代数余子式，假如 $A_{ij}=-ia_{ij}$ 对所有的 $1\\le i,j\\le n$ 都成立，求 $|A|$。"
         },
         {
@@ -145,7 +145,7 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "问 $b,\\,c$ 取何值时，线性方程组\n$$\\begin{cases}x_1+x_2+x_3+x_4+x_5=1;\\\\ 3x_1+2x_2+x_3+x_4-3x_5=b;\\\\ x_2+2x_3+2x_4+6x_5=3;\\\\ 5x_1+4x_2+3x_3+3x_4-x_5=c.\\end{cases}$$\n有解？有解时，求所有解的集合，以及它的一个极大线性无关组。"
+          "stem": "问 $b$, $c$ 取何值时，线性方程组\n$$\\begin{cases}x_1+x_2+x_3+x_4+x_5=1;\\\\ 3x_1+2x_2+x_3+x_4-3x_5=b;\\\\ x_2+2x_3+2x_4+6x_5=3;\\\\ 5x_1+4x_2+3x_3+3x_4-x_5=c.\\end{cases}$$\n有解？有解时，求所有解的集合，以及它的一个极大线性无关组。"
         },
         {
           "section": "一",
@@ -155,17 +155,17 @@
           "form": "证明",
           "l1": "多项式",
           "l2": "",
-          "stem": "设 $R(x_1,x_2,\\cdots,x_n)=\\dfrac{f(x_1,x_2,\\cdots,x_n)}{g(x_1,x_2,\\cdots,x_n)}$，其中 $f(x_1,x_2,\\cdots,x_n)$，$g(x_1,x_2,\\cdots,x_n)$ 都是 $n$ 元多项式，假如 $R(x_1,x_2,\\cdots,x_i,\\cdots,x_j,\\cdots,x_n)=R(x_1,x_2,\\cdots,x_j,\\cdots,x_i,\\cdots,x_n)$ 对所有的 $1\\le i,j\\le n$ 成立，证明：存在初等对称多项式的多项式 $u,v$，使得 $R(x_1,x_2,\\cdots,x_n)=\\dfrac{u}{v}$。"
+          "stem": "设 $R(x_1,x_2,\\cdots,x_n)=\\dfrac{f(x_1,x_2,\\cdots,x_n)}{g(x_1,x_2,\\cdots,x_n)}$，其中 $f(x_1,x_2,\\cdots,x_n)$, $g(x_1,x_2,\\cdots,x_n)$ 都是 $n$ 元多项式，假如 $R(x_1,x_2,\\cdots,x_i,\\cdots,x_j,\\cdots,x_n)=R(x_1,x_2,\\cdots,x_j,\\cdots,x_i,\\cdots,x_n)$ 对所有的 $1\\le i,j\\le n$ 成立，证明：存在初等对称多项式的多项式 $u,v$，使得 $R(x_1,x_2,\\cdots,x_n)=\\dfrac{u}{v}$。"
         },
         {
           "section": "一",
           "section_instruction": "",
           "no": "4",
           "score": null,
-          "form": "计算",
+          "form": "综合",
           "l1": "欧氏空间与二次型",
           "l2": "内积与度量",
-          "stem": "设欧氏空间 $\\mathbb{R}^3$ 在常用基(也称自然基)下的度量矩阵为\n$$M=\\begin{pmatrix}2 & 2 & -2\\\\ 2 & 5 & -4\\\\ -2 & -4 & x\\end{pmatrix}.$$\n假如 $\\alpha=(1,0,-1)^T$ 与 $\\beta=(0,1,1)^T$ 的夹角为 45 度，求 $x$ 的值。并求在 $x=5$ 时，求由 $\\alpha,\\,\\beta$ 张成空间的一组单位正交基。"
+          "stem": "设欧氏空间 $\\mathbb{R}^3$ 在常用基(也称自然基)下的度量矩阵为\n$$M=\\begin{pmatrix}2 & 2 & -2\\\\ 2 & 5 & -4\\\\ -2 & -4 & x\\end{pmatrix}.$$\n假如 $\\alpha=(1,0,-1)^T$ 与 $\\beta=(0,1,1)^T$ 的夹角为 45 度，求 $x$ 的值。并求在 $x=5$ 时，求由 $\\alpha$, $\\beta$ 张成空间的一组单位正交基。"
         },
         {
           "section": "一",
@@ -175,7 +175,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $\\varepsilon_1=(1,1,0)^T$，$\\varepsilon_2=(0,1,1)^T$，$\\varepsilon_3=(0,1,-1)^T$ 是线性空间 $\\mathbb{R}^3$ 的一组向量，$V$ 是 $\\mathbb{R}^3$ 的对偶空间，且\n$$\\sigma\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}=\\begin{pmatrix}1 & -1 & 0\\\\ 0 & 1 & -1\\\\ 2 & 0 & 1\\end{pmatrix}\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}$$\n是 $\\mathbb{R}^3$ 上的线性变换。定义 $V$ 上的线性变换 $\\tau(f)=f\\circ\\sigma$，$f\\in V$。\n(1) 验证 $\\varepsilon_1,\\,\\varepsilon_2,\\,\\varepsilon_3$ 是 $\\mathbb{R}^3$ 的一组基；\n(2) 求 $\\varepsilon_1,\\,\\varepsilon_2,\\,\\varepsilon_3$ 的对偶基；\n(3) 求 $\\tau$ 在 $\\varepsilon_1,\\,\\varepsilon_2,\\,\\varepsilon_3$ 的该对偶基下的矩阵。"
+          "stem": "设 $\\varepsilon_1=(1,1,0)^T$, $\\varepsilon_2=(0,1,1)^T$, $\\varepsilon_3=(0,1,-1)^T$ 是线性空间 $\\mathbb{R}^3$ 的一组向量，$V$ 是 $\\mathbb{R}^3$ 的对偶空间，且\n$$\\sigma\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}=\\begin{pmatrix}1 & -1 & 0\\\\ 0 & 1 & -1\\\\ 2 & 0 & 1\\end{pmatrix}\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}$$\n是 $\\mathbb{R}^3$ 上的线性变换。定义 $V$ 上的线性变换 $\\tau(f)=f\\circ\\sigma$, $f\\in V$。\n(1) 验证 $\\varepsilon_1$, $\\varepsilon_2$, $\\varepsilon_3$ 是 $\\mathbb{R}^3$ 的一组基；\n(2) 求 $\\varepsilon_1$, $\\varepsilon_2$, $\\varepsilon_3$ 的对偶基；\n(3) 求 $\\tau$ 在 $\\varepsilon_1$, $\\varepsilon_2$, $\\varepsilon_3$ 的该对偶基下的矩阵。"
         },
         {
           "section": "一",
@@ -205,7 +205,27 @@
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "假设 $A$ 是行列式值等于 $-1$ 的 3 阶实对称矩阵，满足 $A^2=E$，已知 $A$ 的两个特征向量 $\\alpha_1=(1,1,0)^T$，$\\alpha_2=(0,1,1)^T$，而 $\\alpha_3=(1,1,1)^T$ 不是特征向量，求 $A$ 以及 $|A^{2022}+2021A^*|$。"
+          "stem": "假设 $A$ 是行列式值等于 $-1$ 的 3 阶实对称矩阵，满足 $A^2=E$，已知 $A$ 的两个特征向量 $\\alpha_1=(1,1,0)^T$, $\\alpha_2=(0,1,1)^T$，而 $\\alpha_3=(1,1,1)^T$ 不是特征向量，求 $A$ 以及 $|A^{2022}+2021A^{*}|$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $A$ 是数域 $F$ 上秩等于 $r$ 的 $m$ 行 $n$ 列矩阵，$B$ 是数域 $F$ 上秩等于 $s$ 的 $n$ 行 $k$ 列矩阵，$V$ 是数域 $F$ 上所有 $n$ 阶方阵组成的线性空间，$W$ 是数域 $F$ 上所有 $m$ 行 $k$ 列矩阵组成的线性空间，定义 $f$ 是从 $V$ 到 $W$ 的线性映射，对任意的 $X\\in V$, $f(X)=AXB$，求该线性映射核的维数和像的维数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "假设 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$ 是任意一组实数，证明存在如下形式的循环复矩阵\n$$H=\\begin{pmatrix}a_0 & a_1 & a_2 & \\cdots & a_{n-2} & a_{n-1}\\\\ a_{n-1} & a_0 & a_1 & \\cdots & a_{n-3} & a_{n-2}\\\\ a_{n-2} & a_{n-1} & a_0 & \\cdots & a_{n-4} & a_{n-3}\\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots & \\vdots\\\\ a_2 & a_3 & a_4 & \\cdots & a_0 & a_1\\\\ a_1 & a_2 & a_3 & \\cdots & a_{n-1} & a_0\\end{pmatrix}$$\n使其特征值为 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$。"
         }
       ]
     }

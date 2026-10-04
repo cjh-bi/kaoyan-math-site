@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "设 $0<x_n<2025$, $n=1,2,\\cdots$, 求 $\\lim\\limits_{n\\to\\infty}\\dfrac{x_n}{x_1+x_2+\\cdots+x_n}$。"
+          "stem": "设 $0<x_n<2025$, $n=1,2,\\cdots$, 求 $\\lim\\limits_{n\\to\\infty}\\dfrac{x_n}{x_1+x_2+\\cdots+x_n}$."
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "一元积分学",
           "l2": "变限积分",
-          "stem": "求 $\\lim\\limits_{x\\to 0}\\dfrac{1}{x}\\displaystyle\\int_{x}^{2x}\\sin\\dfrac{1}{t}\\,\\mathrm{d}t$。"
+          "stem": "求 $\\lim\\limits_{x\\to 0}\\dfrac{1}{x}\\displaystyle\\int_x^{2x}\\sin\\dfrac{1}{t}\\,\\mathrm{d}t$."
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "二重积分",
-          "stem": "计算 $\\displaystyle\\iint_{D}|x^2+y^2-2y|\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $D:\\ x^2+y^2\\le 4$。"
+          "stem": "计算 $\\iint\\limits_D |x^2+y^2-2y|\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $D:\\,x^2+y^2\\le 4$."
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "求 $\\displaystyle\\iint_{\\Sigma}x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+(z^3+3)\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $\\Sigma:\\ x^2+y^2+z^2=1$, $z\\ge 0$, 取下侧。"
+          "stem": "求 $\\iint\\limits_\\Sigma x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+(z^3+3)\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $\\Sigma:\\,x^2+y^2+z^2=1,\\;z\\ge 0$, 取下侧."
         },
         {
           "section": "一",
@@ -56,7 +56,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "数项级数求和",
-          "stem": "设 $I_n=\\displaystyle\\int_{0}^{\\frac{\\pi}{4}}\\sin^{n} x\\cos x\\,\\mathrm{d}x$, $n=0,1,2,\\cdots$, 求 $\\displaystyle\\sum_{n=0}^{\\infty}I_n$。"
+          "stem": "设 $I_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\sin^n x\\cos x\\,\\mathrm{d}x$, $n=0,1,2,\\cdots$, 求 $\\displaystyle\\sum_{n=0}^{\\infty} I_n$."
         },
         {
           "section": "一",
@@ -66,7 +66,7 @@
           "form": "计算",
           "l1": "一元微分学",
           "l2": "导数计算",
-          "stem": "设 $f(x)=\\begin{cases}x, & x\\le 0,\\\\[1mm] \\dfrac{1}{n}, & \\dfrac{1}{n+1}<x\\le\\dfrac{1}{n},\\ n=1,2,\\cdots.\\end{cases}$ 求 $f'(0)$。"
+          "stem": "设 $f(x)=\\begin{cases} x, & x\\le 0, \\\\ \\dfrac{1}{n}, & \\dfrac{1}{n+1}<x\\le \\dfrac{1}{n},\\; n=1,2,\\cdots. \\end{cases}$ 求 $f'(0)$."
         },
         {
           "section": "二",
@@ -75,8 +75,8 @@
           "score": 6,
           "form": "判断",
           "l1": "级数",
-          "l2": "数项级数敛散性",
-          "stem": "若 $a_n>0$ 且 $\\varlimsup\\limits_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}>1$, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 发散。"
+          "l2": "级数概念判断",
+          "stem": "若 $a_n>0$ 且 $\\varlimsup\\limits_{n\\to\\infty}\\dfrac{a_{n+1}}{a_n}>1$, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 发散."
         },
         {
           "section": "二",
@@ -86,7 +86,7 @@
           "form": "判断",
           "l1": "极限与连续",
           "l2": "数列收敛性",
-          "stem": "任意数列都有单调子列。"
+          "stem": "任意数列都有单调子列."
         },
         {
           "section": "二",
@@ -96,7 +96,7 @@
           "form": "判断",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "设二元函数 $f(x,y)$ 具有连续的偏导数, 且 $xf_x+yf_y=0$, 则 $f(x,y)$ 为常值函数。"
+          "stem": "设二元函数 $f(x,y)$ 具有连续的偏导数, 且 $xf_x+yf_y=0$, 则 $f(x,y)$ 为常值函数."
         },
         {
           "section": "二",
@@ -106,7 +106,7 @@
           "form": "判断",
           "l1": "极限与连续",
           "l2": "连续与极限概念判断",
-          "stem": "若函数 $f$ 在任一闭区间 $[a,b]$ 上能取到介于 $f(a)$ 与 $f(b)$ 之间的每一个值, 则 $f$ 在 $\\mathbb{R}$ 上连续。"
+          "stem": "若函数 $f$ 在任一闭区间 $[a,b]$ 上能取到介于 $f(a)$ 与 $f(b)$ 之间的每一个值, 则 $f$ 在 $\\mathbb{R}$ 上连续."
         },
         {
           "section": "三",
@@ -116,7 +116,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "一致连续性",
-          "stem": "证明: $f(x)=\\begin{cases}x\\left(2+\\sin\\dfrac{1}{x}\\right), & x\\ne 0,\\\\[1mm] 0, & x=0.\\end{cases}$ 在 $\\mathbb{R}$ 上一致连续。"
+          "stem": "证明: $f(x)=\\begin{cases} x\\left(2+\\sin\\dfrac{1}{x}\\right), & x\\neq 0, \\\\ 0, & x=0. \\end{cases}$ 在 $\\mathbb{R}$ 上一致连续."
         },
         {
           "section": "四",
@@ -126,7 +126,7 @@
           "form": "综合",
           "l1": "一元微分学",
           "l2": "中值定理",
-          "stem": "设函数 $f(x)$ 在 $(a,+\\infty)$ 内二阶可导, 且 $\\lim\\limits_{x\\to a^{+}}f(x)=\\lim\\limits_{x\\to+\\infty}f(x)=A$。\n(1) 若 $A$ 有限, 证明: 存在 $\\xi\\in(a,+\\infty)$, 使得 $f''(\\xi)=0$。\n(2) 若 $A=+\\infty$ 或 $-\\infty$, 请问 (1) 中的结论是否仍然成立?"
+          "stem": "设函数 $f(x)$ 在 $(a,+\\infty)$ 内二阶可导, 且 $\\lim\\limits_{x\\to a^+}f(x)=\\lim\\limits_{x\\to+\\infty}f(x)=A$.\n(1) 若 $A$ 有限, 证明: 存在 $\\xi\\in(a,+\\infty)$, 使得 $f''(\\xi)=0$.\n(2) 若 $A=+\\infty$ 或 $-\\infty$, 请问 (1) 中的结论是否仍然成立?"
         },
         {
           "section": "五",
@@ -136,7 +136,7 @@
           "form": "证明",
           "l1": "多元积分学",
           "l2": "第一型曲面积分",
-          "stem": "设 $f(x)$ 连续, 证明:\n$$\\iint_{\\Sigma}f(ax+by+cz)\\,\\mathrm{d}S=2\\pi\\int_{-1}^{1}f\\left(\\sqrt{a^2+b^2+c^2}\\,t\\right)\\mathrm{d}t.$$\n其中 $\\Sigma:\\ x^2+y^2+z^2=1$。"
+          "stem": "设 $f(x)$ 连续, 证明: $$\\iint\\limits_\\Sigma f(ax+by+cz)\\,\\mathrm{d}S=2\\pi\\int_{-1}^{1} f\\left(\\sqrt{a^2+b^2+c^2}\\,t\\right)\\mathrm{d}t.$$ 其中 $\\Sigma:\\,x^2+y^2+z^2=1$."
         },
         {
           "section": "六",
@@ -146,17 +146,17 @@
           "form": "证明",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "设 $\\alpha>0$, 正项级数 $\\displaystyle\\sum_{k=1}^{\\infty}a_k$ 收敛, $b_n=\\displaystyle\\prod_{k=1}^{n}\\left(1+a_k^{1-k^{-\\alpha}}\\right)$, 证明: 数列 $\\{b_n\\}$ 收敛。"
+          "stem": "设 $\\alpha>0$, 正项级数 $\\displaystyle\\sum_{k=1}^{\\infty} a_k$ 收敛, $b_n=\\displaystyle\\prod_{k=1}^{n}\\left(1+a_k^{1-k^{-\\alpha}}\\right)$, 证明: 数列 $\\{b_n\\}$ 收敛."
         },
         {
           "section": "七",
           "section_instruction": "",
           "no": "1",
           "score": 14,
-          "form": "综合",
+          "form": "证明",
           "l1": "级数",
-          "l2": "傅里叶级数",
-          "stem": "设 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{\\sqrt{n^3+n}}$, 证明:\n(1) $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续。\n(2) $f(x)$ 在 $(0,2\\pi)$ 上可导。\n(3) 记 $F(x)=\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$, 则 $\\dfrac{\\sqrt{2}}{2}-\\dfrac{1}{15}<F\\left(\\dfrac{\\pi}{2}\\right)<\\dfrac{\\sqrt{2}}{2}$。"
+          "l2": "函数项级数",
+          "stem": "设 $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\cos nx}{\\sqrt{n^3+n}}$, 证明:\n(1) $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续.\n(2) $f(x)$ 在 $(0,2\\pi)$ 上可导.\n(3) 记 $F(x)=\\displaystyle\\int_0^x f(t)\\,\\mathrm{d}t$, 则 $\\dfrac{\\sqrt{2}}{2}-\\dfrac{1}{15}<F\\left(\\dfrac{\\pi}{2}\\right)<\\dfrac{\\sqrt{2}}{2}$."
         },
         {
           "section": "八",
@@ -166,7 +166,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "设 $F_1(t)=\\sqrt{\\pi}\\displaystyle\\int_{0}^{t}e^{-x^2}\\,\\mathrm{d}x$, $F_2(t)=\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\sin(tx)}{x}e^{-\\frac{x^2}{4}}\\,\\mathrm{d}x$, 证明: $F_1(t)=F_2(t)$, $t\\in\\mathbb{R}$。"
+          "stem": "设 $F_1(t)=\\sqrt{\\pi}\\displaystyle\\int_0^t e^{-x^2}\\,\\mathrm{d}x$, $F_2(t)=\\int_0^{+\\infty}\\dfrac{\\sin(tx)}{x}e^{-\\frac{x^2}{4}}\\,\\mathrm{d}x$, 证明: $F_1(t)=F_2(t)$, $t\\in\\mathbb{R}$."
         }
       ]
     },
@@ -175,7 +175,7 @@
       "year": "2026",
       "subject": "高等代数",
       "header_note": "69. 西安电子科技大学 2026 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247537327_5.jpg"],
+      "source_imgs": ["work/imgs/2247537327_5.jpg", "work/imgs/2247537327_6.png"],
       "questions": [
         {
           "section": "一",
@@ -185,7 +185,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $a_1,a_2,\\cdots,a_n$ 是两两不同的非零实数. 计算行列式\n$$\\begin{vmatrix} 1 & 1 & \\cdots & 1\\\\ a_1 & a_2 & \\cdots & a_n\\\\ a_1^2 & a_2^2 & \\cdots & a_n^2\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_1^{n-2} & a_2^{n-2} & \\cdots & a_n^{n-2}\\\\ a_2a_3\\cdots a_n & a_1a_3\\cdots a_n & \\cdots & a_1a_2\\cdots a_{n-1} \\end{vmatrix}.$$"
+          "stem": "设 $a_1,a_2,\\cdots,a_n$ 是两两不同的非零实数, 计算行列式 $$\\begin{vmatrix} 1 & 1 & \\cdots & 1 \\\\ a_1 & a_2 & \\cdots & a_n \\\\ a_1^2 & a_2^2 & \\cdots & a_n^2 \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_1^{n-2} & a_2^{n-2} & \\cdots & a_n^{n-2} \\\\ a_2a_3\\cdots a_n & a_1a_3\\cdots a_n & \\cdots & a_1a_2\\cdots a_{n-1} \\end{vmatrix}.$$"
         },
         {
           "section": "一",
@@ -193,9 +193,9 @@
           "no": "2",
           "score": 15,
           "form": "证明",
-          "l1": "多项式",
-          "l2": "互素与最大公因式",
-          "stem": "已知 $n$ $(n\\ge 2)$ 个实系数多项式 $f_i(x)$ 的次数 $d_i$ $(i=1,2,\\cdots,n)$ 满足 $\\displaystyle\\sum_{i=1}^{n}d_i<\\dfrac{n(n-1)}{2}$, 证明: $f_1(x),f_2(x),\\cdots,f_n(x)$ 在 $\\mathbb{R}$ 上线性无关。"
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知 $n$ ($n\\ge 2$) 个实系数多项式 $f_i(x)$ 的次数 $d_i$ ($i=1,2,\\cdots,n$) 满足 $\\displaystyle\\sum_{i=1}^{n} d_i<\\dfrac{n(n-1)}{2}$, 证明: $f_1(x),f_2(x),\\cdots,f_n(x)$ 在 $\\mathbb{R}$ 上线性无关."
         },
         {
           "section": "一",
@@ -205,7 +205,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 为 4 阶矩阵, $\\beta$ 为 4 维列向量, 方程组 $AX=\\beta$ 的通解为\n$$(1,2,2,1)^{\\mathrm{T}}+k(-1,1,4,0)^{\\mathrm{T}}\\ \\text{(另一各版本为}\\ (1,2,2,1)^{\\mathrm{T}}+k(1,-2,4,0)^{\\mathrm{T}}\\text{)}.$$\n记 $B=(\\alpha_1,\\alpha_2,\\alpha_3,\\beta-\\alpha_4)$ (另一个版本为 $B=(\\alpha_3,\\alpha_2,\\alpha_1,\\beta-\\alpha_4)$), 求方程组 $BX=\\alpha_1-\\alpha_2$ 的通解。"
+          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 为 4 阶矩阵, $\\beta$ 为 4 维列向量, 方程组 $AX=\\beta$ 的通解为 $(1,2,2,1)^{\\mathrm{T}}+k(-1,1,4,0)^{\\mathrm{T}}$ (另一个版本为 $(1,2,2,1)^{\\mathrm{T}}+k(1,-2,4,0)^{\\mathrm{T}}$). 记 $B=(\\alpha_1,\\alpha_2,\\alpha_3,\\beta-\\alpha_4)$ (另一个版本为 $B=(\\alpha_3,\\alpha_2,\\alpha_1,\\beta-\\alpha_4)$), 求方程组 $BX=\\alpha_1-\\alpha_2$ 的通解."
         },
         {
           "section": "一",
@@ -215,7 +215,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A$ 为 $n$ 阶矩阵, 满足 $A^3-2A^2-A+2E=O$, 证明:\n$$r(A-E)+r(A+E)+r(A-2E)=2n.$$"
+          "stem": "设 $A$ 为 $n$ 阶矩阵, 满足 $A^3-2A^2-A+2E=O$, 证明: $$r(A-E)+r(A+E)+r(A-2E)=2n.$$"
         },
         {
           "section": "一",
@@ -225,7 +225,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "可对角化",
-          "stem": "设 $n$ 阶复矩阵矩阵 $A$ 的特征多项式为 $f(\\lambda)$, 若 $(f(\\lambda),f'(\\lambda))=\\lambda$, 且 $r(A)=r(A^2)$, 证明: $A$ 可相似对角化。"
+          "stem": "设 $n$ 阶复矩阵 $A$ 的特征多项式为 $f(\\lambda)$, 若 $(f(\\lambda),f'(\\lambda))=\\lambda$, 且 $r(A)=r(A^2)$, 证明: $A$ 可相似对角化."
         },
         {
           "section": "一",
@@ -235,7 +235,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "已知 $f(x_1,x_2,\\cdots,x_n)$ 是一个秩为 $n$ 符号差为 $s$ 的实二次型, 证明: 存在维数为 $\\dfrac{n-|s|}{2}$ 的 $\\mathbb{R}^n$ 的子空间 $V_1$, 使得对任意的 $X=(x_1,x_2,\\cdots,x_n)^{\\mathrm{T}}\\in V_1$, 有 $f(X)=0$。"
+          "stem": "已知 $f(x_1,x_2,\\cdots,x_n)$ 是一个秩为 $n$ 符号差为 $s$ 的实二次型, 证明: 存在维数为 $\\dfrac{n-|s|}{2}$ 的 $\\mathbb{R}^n$ 的子空间 $V_1$, 使得对任意的 $X=(x_1,x_2,\\cdots,x_n)^{\\mathrm{T}}\\in V_1$, 有 $f(X)=0$."
         },
         {
           "section": "一",
@@ -244,8 +244,8 @@
           "score": 15,
           "form": "证明",
           "l1": "欧氏空间与二次型",
-          "l2": "实对称矩阵",
-          "stem": "已知 $A$ 为实对称矩阵, $B$ 为正定矩阵, $A-B$ 为半正定矩阵. 证明:\n(1) $f(\\lambda)=|A-\\lambda B|=0$ 的根大于等于 1。\n(2) $|A|\\ge|B|$。"
+          "l2": "正定与半正定",
+          "stem": "已知 $A$ 为实对称矩阵, $B$ 为正定矩阵, $A-B$ 为半正定矩阵. 证明:\n(1) $f(\\lambda)=|A-\\lambda B|=0$ 的根大于等于 1.\n(2) $|A|\\ge |B|$."
         },
         {
           "section": "一",
@@ -255,7 +255,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "设 $A$ 为数域 $P$ 上的 $n$ 阶矩阵, $r(A)=n-1$, $A^{*}$ 为 $A$ 的伴随矩阵, 记 $AX=0$ 与 $A^{*}X=0$ 的解空间分别为 $V_A,V_{A^{*}}$, 证明: $P^{n}=V_A\\oplus V_{A^{*}}$ 的充要条件是 $\\mathrm{tr}(A^{*})\\ne 0$。"
+          "stem": "设 $A$ 为数域 $P$ 上的 $n$ 阶矩阵, $r(A)=n-1$, $A^{*}$ 为 $A$ 的伴随矩阵, 记 $AX=0$ 与 $A^{*}X=0$ 的解空间分别为 $V_A,V_{A^{*}}$, 证明: $P^n=V_A\\oplus V_{A^{*}}$ 的充要条件是 $\\mathrm{tr}(A^{*})\\neq 0$."
         },
         {
           "section": "一",
@@ -265,7 +265,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "可对角化",
-          "stem": "记 $n$ 阶矩阵\n$$A=\\begin{pmatrix} 2 & 1 & & &\\\\ 1 & 4 & 1 & &\\\\ & \\ddots & \\ddots & \\ddots &\\\\ & & 1 & 2(n-1) & 1\\\\ & & & 1 & 2n \\end{pmatrix}.$$\n(1) 对任意 $n$ 阶矩阵 $B$, 若 $AB=BA$, 证明: $B$ 可对角化。\n(2) $C(A)=\\{B\\mid AB=BA\\}$, 求 $C(A)$ 的维数。"
+          "stem": "记 $n$ 阶矩阵 $$A=\\begin{pmatrix} 2 & 1 & & & \\\\ 1 & 4 & 1 & & \\\\ & \\ddots & \\ddots & \\ddots & \\\\ & & 1 & 2(n-1) & 1 \\\\ & & & 1 & 2n \\end{pmatrix}.$$\n(1) 对任意 $n$ 阶矩阵 $B$, 若 $AB=BA$, 证明: $B$ 可对角化.\n(2) $C(A)=\\{B\\mid AB=BA\\}$, 求 $C(A)$ 的维数."
         },
         {
           "section": "一",
@@ -275,7 +275,17 @@
           "form": "综合",
           "l1": "欧氏空间与二次型",
           "l2": "对称变换",
-          "stem": "设 $V=\\{ax^2+bx+c\\mid a,b,c\\in\\mathbb{R}\\}$, 定义 $(f(x),g(x))=\\displaystyle\\int_{0}^{1}f(x)g(x)\\,\\mathrm{d}x$。\n(1) 证明: $V$ 上的线性变换 $\\sigma:\\ f(x)\\mapsto f(1-x)$ 是对称变换。\n(2) 求 $\\sigma$ 在基 $1,x,x^2$ 下的矩阵。"
+          "stem": "设 $V=\\{ax^2+bx+c\\mid a,b,c\\in\\mathbb{R}\\}$, 定义 $(f(x),g(x))=\\displaystyle\\int_0^1 f(x)g(x)\\,\\mathrm{d}x$.\n(1) 证明: $V$ 上的线性变换 $\\sigma:\\,f(x)\\mapsto f(1-x)$ 是对称变换.\n(2) 求 $\\sigma$ 在基 $1,x,x^2$ 下的矩阵."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "伴随变换",
+          "stem": "$\\sigma,\\tau$ 为 $n$ 维欧氏空间 $V$ 上的线性变换, 对任意的 $\\alpha,\\beta\\in V$, 若 $$(\\sigma(\\alpha),\\beta)=(\\alpha,\\tau(\\beta)).$$ 则称 $\\tau$ 与 $\\sigma$ 互为共轭变换.\n(1) 证明: $\\sigma$ 与 $\\tau$ 互为共轭变换的充要条件是 $\\sigma,\\tau$ 在标准正交基下的矩阵互为转置矩阵.\n(2) 若 $\\sigma,\\tau$ 互为共轭变换, 证明: $\\sigma$ 的值域是 $\\tau$ 核空间的正交补, 即 $\\mathrm{Im}\\,\\sigma=(\\mathrm{Ker}\\,\\tau)^{\\perp}$."
         }
       ]
     }

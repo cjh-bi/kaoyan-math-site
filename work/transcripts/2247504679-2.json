@@ -1,307 +1,333 @@
 {
- "msgid": "2247504679-2",
- "exams": [
-  {
-   "school": "上海大学",
-   "year": "2021",
-   "subject": "数学分析",
-   "header_note": "81. 上海大学 2021 年硕士研究生入学考试数学分析试卷",
-   "source_imgs": [
-    "work/imgs/2247504679-2_4.png"
-   ],
-   "questions": [
+  "msgid": "2247504679-2",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "（10 分）叙述数列极限的定义并用定义证明",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "数列极限计算",
-     "stem": "叙述数列极限的 $\\\\varepsilon-N$ 定义，并用该定义证明极限 $$\\\\lim_{n\\\\to\\\\infty}\\\\frac{2n^2+1}{3n^2-4n}=\\\\frac{2}{3}.$$"
+      "school": "上海大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "81. 上海大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504679-2_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "叙述数列极限的“$\\varepsilon-N$”定义，并用该定义证明极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{2n^2+1}{3n^2-4n}=\\dfrac{2}{3}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求 $\\lim\\limits_{x\\to 0}\\left(\\dfrac{2+2^{\\frac{1}{x}}}{1+2^{\\frac{3}{x}}}+\\dfrac{\\tan x}{\\sin|x|}\\right)$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "求 $f(x)=\\sqrt[5]{x^5+x^4+x+1}$ 的渐近线方程。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "叙述函数 $f(x)$ 在区间 $I$ 上的一致连续的定义，并讨论函数 $\\sin\\sqrt[3]{x}$，$\\sin x^3$ 在区间 $[0,+\\infty)$ 上的一致连续性。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "设 $E$, $F$ 皆为非空有界数集，定义数集 $E+F=\\{z=x+y\\mid x\\in E,\\ y\\in F\\}$，证明：$$\\inf(E+F)=\\inf E+\\inf F.$$"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f''(x)\\ge 0$，证明：$$\\int_0^1 f(x^4)\\,\\mathrm{d}x\\ge f\\left(\\dfrac{1}{5}\\right).$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算曲线段 $y=\\ln\\sin x$，$\\dfrac{\\pi}{4}\\le x\\le\\dfrac{\\pi}{2}$ 的弧长。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $\\mathbb{R}$ 上二阶可导，且 $f(0)f(\\pi)<0$，证明：存在 $\\xi\\in(0,\\pi)$，使得 $$f''(\\xi)-f(\\xi)\\left(1+2\\cot^2\\xi\\right)=0.$$"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "若函数 $f(x)$ 在 $[0,+\\infty)$ 上一致连续，且广义积分 $\\displaystyle\\int_0^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛，证明：$$\\lim_{x\\to+\\infty}f(x)=0.$$"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "试讨论函数 $$f(x,y)=\\begin{cases}\\dfrac{x^3y}{x^4+y^2}, & x^2+y^2\\neq 0;\\\\[6pt] 0, & x^2+y^2=0.\\end{cases}$$ 在原点 $(0,0)$ 处的可微性。"
+        },
+        {
+          "section": "十一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "确定正数 $\\lambda$，使得曲面 $xyz=\\lambda$ 与椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$ 在某一点相切（即在该点有公共的切平面）。"
+        },
+        {
+          "section": "十二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设函数列 $f_n(x)=\\left(1+\\dfrac{x}{n}\\right)^{n}$（$n=1,2,\\cdots$），试分别讨论该函数列在 $[0,1]$ 和 $[0,+\\infty)$ 上的一致收敛性。"
+        },
+        {
+          "section": "十三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "计算级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{(n+1)^2}{3^n}$。"
+        },
+        {
+          "section": "十四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算积分 $I=\\displaystyle\\oint_L\\dfrac{(x-y)\\mathrm{d}x+(x+9y)\\mathrm{d}y}{x^2+9y^2}$，其中 $L$ 为圆 $x^2+y^2=1$，方向为逆时针。"
+        },
+        {
+          "section": "十五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "设函数 $f(x)$ 的周期为 $2$，且 $$f(x)=\\begin{cases}0, & -1\\le x<0;\\\\ x^2, & 0\\le x<1.\\end{cases}$$ 利用 $f(x)$ 的傅里叶级数展开计算：$$I=1-\\dfrac{1}{2^2}+\\dfrac{1}{3^2}+\\cdots+\\dfrac{(-1)^{n+1}}{n^2}+\\cdots.$$"
+        }
+      ]
     },
     {
-     "section": "二",
-     "section_instruction": "（10 分）求极限",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "函数极限计算",
-     "stem": "求 $\\\\lim_{x\\\\to 0}\\\\left(\\\\dfrac{2+2^{\\\\frac{1}{x}}}{1+2^{\\\\frac{3}{x}}}+\\\\dfrac{\\\\tan x}{\\\\sin|x|}\\\\right)$。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "（10 分）求渐近线方程",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "一元微分学",
-     "l2": "导数应用",
-     "stem": "求 $f(x)=\\\\sqrt[5]{x^5+x^4+x+1}$ 的渐近线方程。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "（10 分）叙述一致连续的定义并讨论一致性",
-     "no": "1",
-     "score": 10,
-     "form": "综合",
-     "l1": "极限与连续",
-     "l2": "一致连续性",
-     "stem": "叙述函数 $f(x)$ 在区间 $I$ 上的一致连续的定义，并讨论函数 $\\\\sin\\\\sqrt[3]{x}$，$\\\\sin x^3$ 在区间 $[0,+\\\\infty)$ 上的一致连续性。"
-    },
-    {
-     "section": "五",
-     "section_instruction": "（10 分）证明题",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "实数完备性定理",
-     "stem": "设 $E$，$F$ 皆为非空有界数集，定义数集 $E+F=\\\\{z=x+y\\\\mid x\\\\in E,\\\\ y\\\\in F\\\\}$，证明：$$\\\\inf(E+F)=\\\\inf E+\\\\inf F.$$"
-    },
-    {
-     "section": "六",
-     "section_instruction": "（10 分）证明题",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "积分不等式",
-     "stem": "设函数 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f''(x)\\\\geq 0$，证明：$$\\\\int_0^1 f(x^4)\\\\,dx\\\\geq f\\\\left(\\\\frac{1}{5}\\\\right).$$"
-    },
-    {
-     "section": "七",
-     "section_instruction": "（10 分）计算弧长",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "计算曲线段 $y=\\\\ln\\\\sin x$，$\\\\dfrac{\\\\pi}{4}\\\\leq x\\\\leq\\\\dfrac{\\\\pi}{2}$ 的弧长。"
-    },
-    {
-     "section": "八",
-     "section_instruction": "（10 分）证明题",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "中值定理",
-     "stem": "设函数 $f(x)$ 在 $\\\\mathbb{R}$ 上二阶可导，且 $f(0)f(\\\\pi)<0$，证明：存在 $\\\\xi\\\\in(0,\\\\pi)$，使得 $$f''(\\\\xi)-f(\\\\xi)(1+2\\\\cot^2\\\\xi)=0.$$"
-    },
-    {
-     "section": "九",
-     "section_instruction": "（10 分）证明题",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "广义积分与含参积分",
-     "l2": "广义积分敛散性",
-     "stem": "若函数 $f(x)$ 在 $[0,+\\\\infty)$ 上一致连续，且广义积分 $\\\\displaystyle\\\\int_0^{+\\\\infty} f(x)\\\\,dx$ 收敛，证明：$$\\\\lim_{x\\\\to+\\\\infty} f(x)=0.$$"
-    },
-    {
-     "section": "十",
-     "section_instruction": "（10 分）讨论可微性",
-     "no": "1",
-     "score": 10,
-     "form": "综合",
-     "l1": "多元微分学",
-     "l2": "偏导数",
-     "stem": "试讨论函数 $$f(x,y)=\\begin{cases}\\dfrac{x^3 y}{x^4+y^2}, & x^2+y^2\\neq 0;\\\\\\\\[2mm] 0, & x^2+y^2=0.\\end{cases}$$ 在原点 $(0,0)$ 处的可微性。"
-    },
-    {
-     "section": "十一",
-     "section_instruction": "（10 分）确定参数",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "多元微分学",
-     "l2": "条件极值",
-     "stem": "确定正数 $\\\\lambda$，使得曲面 $xyz=\\\\lambda$ 与椭球面 $\\\\dfrac{x^2}{a^2}+\\\\dfrac{y^2}{b^2}+\\\\dfrac{z^2}{c^2}=1$ 在某一点相切（即在该点有公共的切平面）。"
-    },
-    {
-     "section": "十二",
-     "section_instruction": "（10 分）讨论一致收敛性",
-     "no": "1",
-     "score": 10,
-     "form": "综合",
-     "l1": "级数",
-     "l2": "函数项级数",
-     "stem": "设函数列 $f_n(x)=\\\\left(1+\\\\dfrac{x}{n}\\\\right)^n$（$n=1,2,\\\\cdots$），试分别讨论该函数列在 $[0,1]$ 和 $[0,+\\\\infty)$ 上的一致收敛性。"
-    },
-    {
-     "section": "十三",
-     "section_instruction": "（10 分）计算级数",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "数项级数求和",
-     "stem": "计算级数 $\\\\displaystyle\\\\sum_{n=0}^{\\\\infty}\\\\frac{(n+1)^2}{3^n}$。"
-    },
-    {
-     "section": "十四",
-     "section_instruction": "（10 分）计算积分",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲线积分",
-     "stem": "计算积分 $I=\\\\displaystyle\\\\oint_L \\\\frac{(x-y)\\\\,dx+(x+9y)\\\\,dy}{x^2+9y^2}$，其中 $L$ 为圆 $x^2+y^2=1$，方向为逆时针。"
-    },
-    {
-     "section": "十五",
-     "section_instruction": "（10 分）利用傅里叶级数展开计算",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "傅里叶级数",
-     "stem": "设函数 $f(x)$ 的周期为 $2$，且 $$f(x)=\\begin{cases}0, & -1\\leq x<0;\\\\\\\\ x^2, & 0\\leq x<1.\\end{cases}$$ 利用 $f(x)$ 的傅里叶级数展开计算：$$I=1-\\\\frac{1}{2^2}+\\\\frac{1}{3^2}+\\\\cdots+\\\\frac{(-1)^{n+1}}{n^2}+\\\\cdots.$$"
+      "school": "上海大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "82. 上海大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504679-2_5.png", "work/imgs/2247504679-2_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（5×5=25 分）填空题.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设整系数多项式 $f(x)=x^n+14x^{n-1}+p$，$n>1$，$p$ 为素数，如果 $p=$ __________，则 $f(x)$ 在有理数域上不可约。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（5×5=25 分）填空题.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\sigma$ 为 $2k+1$ 维线性空间 $V$ 上的线性变换，且 $\\sigma^2=0$，则 $\\dim(\\operatorname{Ker}\\sigma)\\ge$ __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（5×5=25 分）填空题.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知实二次型 $f(X)=X^T\\begin{pmatrix}1&1&1\\\\3&1&1\\\\3&3&1\\end{pmatrix}X$，则 $f(X)$ 的规范型为 __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（5×5=25 分）填空题.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知 $A$ 为 $5$ 阶矩阵，$A$ 的不变因子为 $1$, $1$, $1$, $(\\lambda-2)^2$, $(\\lambda-3)(\\lambda-2)^2$，则 $A$ 的 Jordan 标准形为 __________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "（5×5=25 分）填空题.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知 $J=\\begin{pmatrix}2&1&-1\\\\0&2&-2\\\\1&0&-1\\end{pmatrix}$，则线性空间 $\\{A\\in\\mathbb{C}^{3\\times 3}\\mid AJ=JA\\}$ 的基为 __________。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（5×5=25 分）判断下列命题是否正确, 若正确给出证明, 若错误举出反例.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 是数域 $P$ 上 $n$ 阶矩阵，如果 $AA^*=O$，则 $A=O$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（5×5=25 分）判断下列命题是否正确, 若正确给出证明, 若错误举出反例.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 中的任意 $n-1$ 个均线性无关，那么当 $$k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_n\\alpha_n=0.$$ 则 $k_1,k_2,\\cdots,k_n$ 要么全为 $0$ 要么全不为 $0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（5×5=25 分）判断下列命题是否正确, 若正确给出证明, 若错误举出反例.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为正交矩阵，则其在复数域上特征值的模为 $1$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（5×5=25 分）判断下列命题是否正确, 若正确给出证明, 若错误举出反例.",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实矩阵，若其特征值都大于 $0$，则 $A+A^T$ 为正定矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（5×5=25 分）判断下列命题是否正确, 若正确给出证明, 若错误举出反例.",
+          "no": "5",
+          "score": 5,
+          "form": "判断",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A$, $B$ 为 $n$ 阶矩阵，且 $r(A)+r(B)=n$。若 $$V_A=\\{X\\in\\mathbb{R}^n\\mid AX=0\\},\\ V_B=\\{X\\in\\mathbb{R}^n\\mid BX=0\\}.$$ 则 $\\dim(V_A+V_B)=n$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（100 分）计算与证明.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "如果方程组 $$\\begin{cases}4x_1+7x_2+6x_3+5x_4=1;\\\\ 2x_1+3x_2+2x_3+3x_4=1;\\\\ 3x_1+5x_2+4x_3+a^2x_4=a+3.\\end{cases}$$ 有无穷多解，求 $a$ 与线性方程组的解。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（100 分）计算与证明.",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "已知 $A=\\begin{pmatrix}4&2&0&0\\\\1&6&0&0\\\\1&2&4&2\\\\1&3&1&6\\end{pmatrix}$ 满足 $AB=I+3B$，求 $B$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（100 分）计算与证明.",
+          "no": "3",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "已知 $A_1,A_2,\\cdots,A_n$ 均为 $n$ 阶方阵，且 $|A_1+A_2+\\cdots+A_n|=a$，$|B|=b$，求行列式 $$\\begin{vmatrix}A_1+B&A_2&A_3&\\cdots&A_n\\\\A_1&A_2+B&A_3&\\cdots&A_n\\\\A_1&A_2&A_3+B&\\cdots&A_n\\\\\\vdots&\\vdots&\\vdots&&\\vdots\\\\A_1&A_2&A_3&\\cdots&A_n+B\\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（100 分）计算与证明.",
+          "no": "4",
+          "score": 25,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵且 $A$ 正定。\n(1) 证明：存在正定矩阵 $B$，使得 $A=B^2$，且 $B$ 唯一；\n(2) 若 $A=\\begin{pmatrix}11&7&7\\\\7&11&7\\\\7&7&11\\end{pmatrix}$，求 $A$ 的特征值与特征向量，并求正定矩阵 $B$，使得 $A=B^2$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（100 分）计算与证明.",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "已知 $A$, $B$ 分别为 $n\\times r$, $r\\times n$ 矩阵（$1\\le r<n$），若 $AB=C$, $BA=D$，且 $\\operatorname{rank}C=r$，证明：$m_C(x)=x\\,m_D(x)$，其中 $m_C(x)$, $m_D(x)$ 分别为 $C$, $D$ 的最小多项式。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（100 分）计算与证明.",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "设 $n$ 阶复矩阵 $A$, $B$ 满足 $$AB^2-B^2A=B.$$ 证明：$B$ 是幂零矩阵，即存在非零正整数 $k$，使得 $B^k=O$。"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "上海大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "82. 上海大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": [
-    "work/imgs/2247504679-2_5.png"
-   ],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "（$5\\\\times 5=25$ 分）填空题",
-     "no": "1",
-     "score": 5,
-     "form": "填空",
-     "l1": "多项式",
-     "l2": "既约性",
-     "stem": "设整系数多项式 $f(x)=x^n+14x^{n-1}+p$，$n>1$，$p$ 为素数，如果 $p=$ ________，则 $f(x)$ 在有理数域上不可约。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "（$5\\\\times 5=25$ 分）填空题",
-     "no": "2",
-     "score": 5,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "线性映射与核",
-     "stem": "设 $\\\\sigma$ 为 $2k+1$ 维线性空间 $V$ 上的线性变换，且 $\\\\sigma^2=0$，则 $\\\\dim(\\\\mathrm{Ker}\\\\,\\\\sigma)\\\\geq$ ________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "（$5\\\\times 5=25$ 分）填空题",
-     "no": "3",
-     "score": 5,
-     "form": "填空",
-     "l1": "欧氏空间与二次型",
-     "l2": "二次型",
-     "stem": "已知实二次型 $f(X)=X^T\\begin{pmatrix}1 & 1 & 1\\\\\\\\ 3 & 1 & 1\\\\\\\\ 3 & 3 & 1\\end{pmatrix}X$，则 $f(X)$ 的规范型为 ________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "（$5\\\\times 5=25$ 分）填空题",
-     "no": "4",
-     "score": 5,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "Jordan 标准形",
-     "stem": "已知 $A$ 为 $5$ 阶矩阵，$A$ 的不变因子为 $1$，$1$，$1$，$(\\\\lambda-2)^2$，$(\\\\lambda-3)(\\\\lambda-2)^2$，则 $A$ 的 Jordan 标准形为 ________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "（$5\\\\times 5=25$ 分）填空题",
-     "no": "5",
-     "score": 5,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与维数",
-     "stem": "已知 $J=\\begin{pmatrix}2 & 1 & -1\\\\\\\\ 0 & 2 & -2\\\\\\\\ 1 & 0 & -1\\end{pmatrix}$，则线性空间 $\\\\{A\\\\in\\\\mathbb{C}^{3\\\\times 3}\\\\mid AJ=JA\\\\}$ 的基为 ________。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（$5\\\\times 5=25$ 分）判断下列命题是否正确，若正确给出证明，若错误举出反例",
-     "no": "1",
-     "score": 5,
-     "form": "判断",
-     "l1": "矩阵与线性方程组",
-     "l2": "伴随矩阵",
-     "stem": "设 $A$ 是数域 $P$ 上 $n$ 阶矩阵，如果 $AA^*=O$，则 $A=O$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（$5\\\\times 5=25$ 分）判断下列命题是否正确，若正确给出证明，若错误举出反例",
-     "no": "2",
-     "score": 5,
-     "form": "判断",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与维数",
-     "stem": "向量组 $\\\\alpha_1,\\\\alpha_2,\\\\cdots,\\\\alpha_n$ 中的任意 $n-1$ 个均线性无关，那么当 $$k_1\\\\alpha_1+k_2\\\\alpha_2+\\\\cdots+k_n\\\\alpha_n=0,$$ 则 $k_1,k_2,\\\\cdots,k_n$ 要么全为 $0$ 要么全不为 $0$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（$5\\\\times 5=25$ 分）判断下列命题是否正确，若正确给出证明，若错误举出反例",
-     "no": "3",
-     "score": 5,
-     "form": "判断",
-     "l1": "线性空间与线性变换",
-     "l2": "特征值与特征向量",
-     "stem": "设 $A$ 为正交矩阵，则其在复数域上特征值的模为 $1$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（$5\\\\times 5=25$ 分）判断下列命题是否正确，若正确给出证明，若错误举出反例",
-     "no": "4",
-     "score": 5,
-     "form": "判断",
-     "l1": "欧氏空间与二次型",
-     "l2": "正定与半正定",
-     "stem": "设 $A$ 为 $n$ 阶实矩阵，若其特征值都大于 $0$，则 $A+A^T$ 为正定矩阵。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（$5\\\\times 5=25$ 分）判断下列命题是否正确，若正确给出证明，若错误举出反例",
-     "no": "5",
-     "score": 5,
-     "form": "判断",
-     "l1": "矩阵与线性方程组",
-     "l2": "秩",
-     "stem": "设 $A$，$B$ 为 $n$ 阶矩阵，且 $r(A)+r(B)=n$。若 $$V_A=\\\\{X\\\\in\\\\mathbb{R}^n\\\\mid AX=0\\\\},\\\\ V_B=\\\\{X\\\\in\\\\mathbb{R}^n\\\\mid BX=0\\\\},$$ 则 $\\\\dim(V_A+V_B)=n$。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "（100 分）计算与证明",
-     "no": "1",
-     "score": 15,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "如果方程组 $$\\\\begin{cases}4x_1+7x_2+6x_3+5x_4=1;\\\\\\\\ 2x_1+3x_2+2x_3+3x_4=1;\\\\\\\\ 3x_1+5x_2+4x_3+a^2x_4=a+3,\\\\end{cases}$$ 有无穷多解，求 $a$ 与线性方程组的解。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "（100 分）计算与证明",
-     "no": "2",
-     "score": 15,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "可逆性",
-     "stem": "已知 $A=\\begin{pmatrix}4 & 2 & 0 & 0\\\\\\\\ 1 & 6 & 0 & 0\\\\\\\\ 1 & 2 & 4 & 2\\\\\\\\ 1 & 3 & 1 & 6\\end{pmatrix}$ 满足 $AB=I+3B$，求 $B$。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "（100 分）计算与证明",
-     "no": "3",
-     "score": 15,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知 $A_1,A_2,\\\\cdots,A_n$ 均为 $n$ 阶方阵，且 $|A_1+A_2+\\\\cdots+A_n|=a$，$|B|=b$，求行列式 $$\\begin{vmatrix}A_1+B & A_2 & A_3 & \\cdots & A_n\\\\\\\\ A_1 & A_2+B & A_3 & \\cdots & A_n\\\\\\\\ A_1 & A_2 & A_3+B & \\cdots & A_n\\\\\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\\\\\ A_1 & A_2 & A_3 & \\cdots & A_n+B\\end{vmatrix}.$$"
-    }
-   ]
-  }
- ]
+  ]
 }

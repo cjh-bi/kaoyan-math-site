@@ -10,123 +10,123 @@
       "questions": [
         {
           "section": "一",
-          "section_instruction": "选择题(每题 5 分, 共 30 分)",
+          "section_instruction": "选择题(每题 5 分，共 30 分)",
           "no": "1",
           "score": 5,
           "form": "判断",
           "l1": "一元微分学",
           "l2": "导数应用",
-          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上具有连续的导数, 且 $f'_+(a)>0, f'_-(b)<0$, 则下列结论错误的是(  )。\nA. 至少存在一点 $x_0\\in(a,b)$, 使得 $f(x_0)>f(a)$;\nB. 至少存在一点 $x_0\\in(a,b)$, 使得 $f(x_0)=0$;\nC. 至少存在一点 $x_0\\in(a,b)$, 使得 $f(x_0)>f(b)$;\nD. 至少存在一点 $x_0\\in(a,b)$, 使得 $f'(x_0)=0$。"
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上具有连续的导数, 且 $f'_+(a)>0, f'_-(b)<0$, 则下列结论错误的是( ).\nA. 至少存在一点 $x_0\\in(a,b)$, 使得 $f(x_0)>f(a)$;\nB. 至少存在一点 $x_0\\in(a,b)$, 使得 $f(x_0)=0$;\nC. 至少存在一点 $x_0\\in(a,b)$, 使得 $f(x_0)>f(b)$;\nD. 至少存在一点 $x_0\\in(a,b)$, 使得 $f'(x_0)=0$."
         },
         {
           "section": "一",
-          "section_instruction": "选择题(每题 5 分, 共 30 分)",
+          "section_instruction": "选择题(每题 5 分，共 30 分)",
           "no": "2",
           "score": 5,
           "form": "判断",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "若函数 $f(x)$ 在 $[a,b]$ 上连续, 则 $f(x)\\equiv 0$ 是 $\\displaystyle\\int_a^b |f(x)|\\,\\mathrm{d}x=0$ 的(  )条件。\nA. 充分必要; B. 充分非必要; C. 必要非充分; D. 既不充分也不必要。"
+          "stem": "若函数 $f(x)$ 在 $[a,b]$ 上连续, 则 $f(x)\\equiv 0$ 是 $\\displaystyle\\int_a^b |f(x)|\\,\\mathrm{d}x=0$ 的( )条件.\nA. 充分必要;\nB. 充分非必要;\nC. 必要非充分;\nD. 既不充分也不必要."
         },
         {
           "section": "一",
-          "section_instruction": "选择题(每题 5 分, 共 30 分)",
+          "section_instruction": "选择题(每题 5 分，共 30 分)",
           "no": "3",
           "score": 5,
           "form": "判断",
           "l1": "一元积分学",
           "l2": "变限积分",
-          "stem": "设 $f(x)$ 为连续函数, 则下列函数必为偶函数的是(  )。\nA. $\\displaystyle\\int_0^x f(t^2)\\,\\mathrm{d}t$; B. $\\displaystyle\\int_0^x f^2(t)\\,\\mathrm{d}t$; C. $\\displaystyle\\int_0^x t[f(t)-f(-t)]\\,\\mathrm{d}t$; D. $\\displaystyle\\int_0^x t[f(t)+f(-t)]\\,\\mathrm{d}t$。"
+          "stem": "设 $f(x)$ 为连续函数, 则下列函数必为偶函数的是( ).\nA. $\\displaystyle\\int_0^x f(t^2)\\,\\mathrm{d}t$;\nB. $\\displaystyle\\int_0^x f^2(t)\\,\\mathrm{d}t$;\nC. $\\displaystyle\\int_0^x t[f(t)-f(-t)]\\,\\mathrm{d}t$;\nD. $\\displaystyle\\int_0^x t[f(t)+f(-t)]\\,\\mathrm{d}t$."
         },
         {
           "section": "一",
-          "section_instruction": "选择题(每题 5 分, 共 30 分)",
+          "section_instruction": "选择题(每题 5 分，共 30 分)",
           "no": "4",
           "score": 5,
           "form": "判断",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "设函数 $f(x,y)=\\begin{cases}\\dfrac{x^2 y}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[4pt] 0, & x^2+y^2=0.\\end{cases}$ 则下列说法不正确的是(  )。\nA. $f(x,y)$ 在 $(0,0)$ 点连续;\nB. $f'_x(0,0)$ 与 $f'_y(0,0)$ 都存在;\nC. $f'_y(x,y)$ 在 $(0,0)$ 处连续;\nD. $f'_x(x,y)$ 在 $(0,0)$ 点不连续。"
+          "stem": "设函数 $f(x,y)=\\begin{cases}\\dfrac{x^2y}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\[4pt] 0, & x^2+y^2=0,\\end{cases}$ 则下列说法不正确的是( ).\nA. $f(x,y)$ 在 $(0,0)$ 点连续;\nB. $f'_x(0,0)$ 与 $f'_y(0,0)$ 都存在;\nC. $f'_y(x,y)$ 在 $(0,0)$ 处连续;\nD. $f'_x(x,y)$ 在 $(0,0)$ 点不连续."
         },
         {
           "section": "一",
-          "section_instruction": "选择题(每题 5 分, 共 30 分)",
+          "section_instruction": "选择题(每题 5 分，共 30 分)",
           "no": "5",
           "score": 5,
           "form": "判断",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "设 $\\Sigma$ 是下半球面 $z=-\\sqrt{a^2-x^2-y^2}$ 的下侧, $\\Omega$ 是 $\\Sigma$ 与 $z=0$ 所围成的空间闭区域, 则曲面积分 $\\displaystyle\\iint_\\Sigma z\\,\\mathrm{d}x\\mathrm{d}y=(\\quad)$。\nA. $-\\displaystyle\\iiint_\\Omega \\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$;\nB. $\\displaystyle\\int_0^{2\\pi}\\mathrm{d}\\theta\\int_0^a \\sqrt{a^2-\\rho^2}\\,\\rho\\,\\mathrm{d}\\rho$;\nC. $-\\displaystyle\\int_0^{2\\pi}\\mathrm{d}\\theta\\int_0^a \\sqrt{a^2-\\rho^2}\\,\\rho\\,\\mathrm{d}\\rho$;\nD. $\\displaystyle\\iint_\\Sigma (x+y+z)\\,\\mathrm{d}x\\mathrm{d}y$。"
+          "stem": "设 $\\Sigma$ 是下半球面 $z=-\\sqrt{a^2-x^2-y^2}$ 的下侧, $\\Omega$ 是 $\\Sigma$ 与 $z=0$ 所围成的空间闭区域, 则曲面积分 $\\displaystyle\\iint_\\Sigma z\\,\\mathrm{d}x\\mathrm{d}y$ = ( ).\nA. $-\\displaystyle\\iiint_\\Omega \\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$;\nB. $\\displaystyle\\int_0^{2\\pi}\\mathrm{d}\\theta\\int_0^a \\sqrt{a^2-\\rho^2}\\,\\rho\\,\\mathrm{d}\\rho$;\nC. $-\\displaystyle\\int_0^{2\\pi}\\mathrm{d}\\theta\\int_0^a \\sqrt{a^2-\\rho^2}\\,\\rho\\,\\mathrm{d}\\rho$;\nD. $\\displaystyle\\iint_\\Sigma (x+y+z)\\,\\mathrm{d}x\\mathrm{d}y$."
         },
         {
           "section": "一",
-          "section_instruction": "选择题(每题 5 分, 共 30 分)",
+          "section_instruction": "选择题(每题 5 分，共 30 分)",
           "no": "6",
           "score": 5,
           "form": "判断",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "对于广义积分 $\\displaystyle\\int_1^{+\\infty}\\dfrac{1}{x^\\lambda \\ln x}\\,\\mathrm{d}x$, 下列说法正确的是(  )。\nA. $\\lambda>1$ 时发散, $\\lambda\\le 1$ 时收敛; B. $\\lambda>1,\\lambda\\le 1$ 都发散;\nC. $\\lambda>1$ 时收敛, $\\lambda\\le 1$ 时发散; D. $\\lambda>1,\\lambda\\le 1$ 都收敛。"
+          "stem": "对于广义积分 $\\displaystyle\\int_1^{+\\infty}\\dfrac{1}{x^\\lambda \\ln x}\\,\\mathrm{d}x$, 下列说法正确的是( ).\nA. $\\lambda>1$ 时发散, $\\lambda\\le 1$ 时收敛;\nB. $\\lambda>1, \\lambda\\le 1$ 都发散;\nC. $\\lambda>1$ 时收敛, $\\lambda\\le 1$ 时发散;\nD. $\\lambda>1, \\lambda\\le 1$ 都收敛."
         },
         {
           "section": "二",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "1",
           "score": 5,
           "form": "填空",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "极限 $\\displaystyle\\lim_{x\\to 1}\\dfrac{(1-x^{\\frac{1}{2}})(1-x^{\\frac{1}{3}})\\cdots(1-x^{\\frac{1}{n}})}{(1-x)^{n-1}}=$ ______。"
+          "stem": "极限 $\\lim\\limits_{x\\to 1}\\dfrac{(1-x^{\\frac{1}{2}})(1-x^{\\frac{1}{3}})\\cdots(1-x^{\\frac{1}{n}})}{(1-x)^{n-1}}=$ ______."
         },
         {
           "section": "二",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "2",
           "score": 5,
           "form": "填空",
           "l1": "级数",
           "l2": "数项级数求和",
-          "stem": "无穷级数 $\\displaystyle\\sum_{n=1}^{\\infty} n\\left(\\dfrac{1}{2}\\right)^{n}=$ ______。"
+          "stem": "无穷级数 $\\displaystyle\\sum_{n=1}^{\\infty} n\\left(\\dfrac{1}{2}\\right)^{n}=$ ______."
         },
         {
           "section": "二",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "3",
           "score": 5,
           "form": "填空",
           "l1": "多元积分学",
           "l2": "第一型曲线积分",
-          "stem": "若 $L$ 是以 $O(0,0), A(1,0), B(0,1)$ 为顶点的三角形, 则 $\\displaystyle\\oint_L (x+y)\\,\\mathrm{d}s=$ ______。"
+          "stem": "若 $L$ 是以 $O(0,0), A(1,0), B(0,1)$ 为顶点的三角形, 则 $\\displaystyle\\oint_L (x+y)\\,\\mathrm{d}s=$ ______."
         },
         {
           "section": "二",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "4",
           "score": 5,
           "form": "填空",
-          "l1": "解析几何",
+          "l1": "多元微分学",
           "l2": "",
-          "stem": "曲线 $\\begin{cases}x=a\\sin^2 t;\\\\ y=b\\sin t\\cos t;\\\\ z=c\\cos^2 t.\\end{cases}$ 在 $t=\\dfrac{\\pi}{4}$ 处的切线方程为______。"
+          "stem": "曲线 $\\begin{cases}x=a\\sin^2 t;\\\\ y=b\\sin t\\cos t;\\\\ z=c\\cos^2 t,\\end{cases}$ 在 $t=\\dfrac{\\pi}{4}$ 处的切线方程为 ______."
         },
         {
           "section": "二",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "5",
           "score": 5,
           "form": "填空",
           "l1": "多元积分学",
           "l2": "交换积分次序",
-          "stem": "设函数 $f(x,y)$ 连续, 交换二重积分的次序 $\\displaystyle\\int_0^4 \\mathrm{d}x\\int_x^{2\\sqrt{x}} f(x,y)\\,\\mathrm{d}y$ 得______。"
+          "stem": "设函数 $f(x,y)$ 连续, 交换二重积分的次序 $\\displaystyle\\int_0^4 \\mathrm{d}x\\int_x^{2\\sqrt{x}} f(x,y)\\,\\mathrm{d}y$ 得 ______."
         },
         {
           "section": "二",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "6",
           "score": 5,
           "form": "填空",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "设 $S$ 表示立方体 $0\\le x,y,z\\le a$ 的外表面, 则 $\\displaystyle\\iint_S x^2\\,\\mathrm{d}y\\mathrm{d}z+y^2\\,\\mathrm{d}z\\mathrm{d}x+z^2\\,\\mathrm{d}x\\mathrm{d}y=$ ______。"
+          "stem": "设 $S$ 表示立方体 $0\\le x,y,z\\le a$ 的外表面, 则 $\\displaystyle\\iint_S x^2\\,\\mathrm{d}y\\mathrm{d}z+y^2\\,\\mathrm{d}z\\mathrm{d}x+z^2\\,\\mathrm{d}x\\mathrm{d}y=$ ______."
         },
         {
           "section": "三",
@@ -136,7 +136,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "计算极限 $\\displaystyle\\lim_{x\\to 0}\\dfrac{1-(\\cos x)^{\\sin x}}{x^3}$。"
+          "stem": "计算极限 $\\lim\\limits_{x\\to 0}\\dfrac{1-(\\cos x)^{\\sin x}}{x^3}$."
         },
         {
           "section": "三",
@@ -146,7 +146,7 @@
           "form": "计算",
           "l1": "一元积分学",
           "l2": "不定积分",
-          "stem": "计算不定积分 $I_n=\\displaystyle\\int \\dfrac{x^{2n-1}}{x^n+1}\\,\\mathrm{d}x$, $n\\in\\mathbb{N}_+$。"
+          "stem": "计算不定积分 $I_n=\\displaystyle\\int\\dfrac{x^{2n-1}}{x^n+1}\\,\\mathrm{d}x$, $n\\in\\mathbb{N}_+$."
         },
         {
           "section": "三",
@@ -156,7 +156,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求曲线 $y=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n+1}x^{2n}}{(2n-1)!}$ $(0\\le x\\le \\pi)$ 与 $x$ 轴所围成的图形绕 $x$ 轴旋转一周所得旋转体的体积。"
+          "stem": "求曲线 $y=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n+1}x^{2n}}{(2n-1)!}$ $(0\\le x\\le\\pi)$ 与 $x$ 轴所围成的图形绕 $x$ 轴旋转一周所得旋转体的体积."
         },
         {
           "section": "三",
@@ -166,7 +166,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "条件极值",
-          "stem": "设 $P(x,y)$ 为曲线 $C: x^3-xy+y^3=1$ $(x\\ge 0, y\\ge 0)$ 上的一点, 试求 $P(x,y)$ 到原点 $O(0,0)$ 的最大与最小距离。"
+          "stem": "设 $P(x,y)$ 为曲线 $C$：$x^3-xy+y^3=1$ $(x\\ge 0, y\\ge 0)$ 上的一点, 试求 $P(x,y)$ 到原点 $O(0,0)$ 的最大与最小距离."
         },
         {
           "section": "三",
@@ -176,7 +176,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲线积分",
-          "stem": "计算 $I=\\displaystyle\\oint_L \\dfrac{\\partial f}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}s$, 其中 $f(x,y)=x^2+y^2$, $L$ 为椭圆 $2x^2+y^2=1$, $\\boldsymbol{n}$ 为 $L$ 的外法线向量。"
+          "stem": "计算 $I=\\displaystyle\\oint_L \\dfrac{\\partial f}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}s$, 其中 $f(x,y)=x^2+y^2$, $L$ 为椭圆 $2x^2+y^2=1$, $\\boldsymbol{n}$ 为 $L$ 的外法线向量."
         },
         {
           "section": "三",
@@ -186,7 +186,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "二重积分",
-          "stem": "设 $f(x,y)$ 在 $D=\\{(x,y)\\mid x^2+y^2\\le R^2\\}$ 上有一阶连续偏导数, 在圆周 $x^2+y^2=R^2$ 上 $f(x,y)=0$, 且 $f(0,0)=2023$, 求\n$$\\lim_{\\varepsilon\\to 0^+}\\dfrac{-1}{2\\pi}\\iint\\limits_{\\varepsilon^2\\le x^2+y^2\\le R^2}\\dfrac{x f'_x+y f'_y}{x^2+y^2}\\,\\mathrm{d}x\\mathrm{d}y.$$"
+          "stem": "设 $f(x,y)$ 在 $D=\\{(x,y)\\mid x^2+y^2\\le R^2\\}$ 上有一阶连续偏导数, 在圆周 $x^2+y^2=R^2$ 上 $f(x,y)=0$, 且 $f(0,0)=2023$, 求\n$$\\lim_{\\varepsilon\\to 0^+}\\dfrac{-1}{2\\pi}\\iint\\limits_{\\varepsilon^2\\le x^2+y^2\\le R^2}\\dfrac{xf'_x+yf'_y}{x^2+y^2}\\,\\mathrm{d}x\\mathrm{d}y.$$"
         },
         {
           "section": "四",
@@ -196,7 +196,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "极限证明",
-          "stem": "解答如下问题。\n(1) 设 $a_n>0$, $n\\in\\mathbb{N}_+$, 且 $\\displaystyle\\lim_{n\\to\\infty}a_n=+\\infty$, 证明: $\\displaystyle\\lim_{n\\to\\infty}\\sqrt[n]{a_1 a_2\\cdots a_n}=+\\infty$;\n(2) 使用积分第二中值定理证明: $\\displaystyle\\lim_{x\\to+\\infty}\\dfrac{1}{x}\\int_0^x \\sqrt{t}\\sin t\\,\\mathrm{d}t=0$。"
+          "stem": "解答如下问题.\n(1) 设 $a_n>0$, $n\\in\\mathbb{N}_+$, 且 $\\lim\\limits_{n\\to\\infty}a_n=+\\infty$, 证明: $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_1a_2\\cdots a_n}=+\\infty$;\n(2) 使用积分第二中值定理证明: $\\lim\\limits_{x\\to+\\infty}\\dfrac{1}{x}\\displaystyle\\int_0^x \\sqrt{t}\\sin t\\,\\mathrm{d}t=0$."
         },
         {
           "section": "四",
@@ -206,7 +206,7 @@
           "form": "证明",
           "l1": "一元微分学",
           "l2": "不等式证明",
-          "stem": "设 $f$ 为 $(0,+\\infty)$ 上的二阶可微函数, 且 $|f(x)|\\le M_0$, $|f''(x)|\\le M_2$, 证明:\n$$|f'(x)|\\le 2\\sqrt{M_0 M_2},\\ x\\in(0,+\\infty).$$"
+          "stem": "设 $f$ 为 $(0,+\\infty)$ 上的二阶可微函数, 且 $|f(x)|\\le M_0$, $|f''(x)|\\le M_2$, 证明:\n$$|f'(x)|\\le 2\\sqrt{M_0M_2},\\ x\\in(0,+\\infty).$$"
         },
         {
           "section": "四",
@@ -216,7 +216,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "证明 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin xy}{1+y^2}\\,\\mathrm{d}y$ 关于 $x\\in(-\\infty,+\\infty)$ 一致收敛。"
+          "stem": "证明 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin xy}{1+y^2}\\,\\mathrm{d}y$ 关于 $x\\in(-\\infty,+\\infty)$ 一致收敛."
         }
       ]
     },
@@ -225,77 +225,77 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "69. 长安大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516391-3_6.png"],
+      "source_imgs": ["work/imgs/2247516391-3_6.png", "work/imgs/2247516391-3_7.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "1",
           "score": 5,
           "form": "填空",
           "l1": "多项式",
           "l2": "整除",
-          "stem": "当 $\\lambda=$ ______, $x^2+3x+2\\mid x^4+\\lambda x^2-3x+2$。"
+          "stem": "当 $\\lambda=$ ______, $x^2+3x+2\\mid x^4+\\lambda x^2-3x+2$."
         },
         {
           "section": "一",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "2",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "已知向量 $\\alpha_1=\\begin{pmatrix}1\\\\0\\\\3\\end{pmatrix}$, $\\alpha_2=\\begin{pmatrix}1\\\\-1\\\\a\\end{pmatrix}$, $\\alpha_3=\\begin{pmatrix}2\\\\a+1\\\\1\\end{pmatrix}$, $\\beta=\\begin{pmatrix}1\\\\1\\\\b+2\\end{pmatrix}$, 当______时, $\\beta$ 可被 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出且表示法不唯一。"
+          "stem": "已知向量 $\\alpha_1=\\begin{pmatrix}1\\\\0\\\\3\\end{pmatrix}$, $\\alpha_2=\\begin{pmatrix}1\\\\-1\\\\a\\end{pmatrix}$, $\\alpha_3=\\begin{pmatrix}2\\\\a+1\\\\1\\end{pmatrix}$, $\\beta=\\begin{pmatrix}1\\\\1\\\\b+2\\end{pmatrix}$, 当______时, $\\beta$ 可被 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出且表示法不唯一."
         },
         {
           "section": "一",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "3",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "设 3 阶方阵 $A$ 的特征为 $1,2,3$, 则 $|A^*|=$ ______。"
+          "stem": "设 3 阶方阵 $A$ 的特征为 $1,2,3$, 则 $|A^*|=$ ______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "4",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
-          "l2": "可逆性",
-          "stem": "已知 $A^2=\\begin{pmatrix}-3&1&0\\\\-7&2&0\\\\0&0&4\\end{pmatrix}$, $A^3=\\begin{pmatrix}-1&0&0\\\\0&-1&0\\\\0&0&8\\end{pmatrix}$, 则 $A=$ ______。"
+          "l2": "矩阵多项式",
+          "stem": "已知 $A^2=\\begin{pmatrix}-3&1&0\\\\-7&2&0\\\\0&0&4\\end{pmatrix}$, $A^3=\\begin{pmatrix}-1&0&0\\\\0&-1&0\\\\0&0&8\\end{pmatrix}$, 则 $A=$ ______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "5",
           "score": 5,
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "用 $J$ 表示元素全为 $1$ 的 $n$ 阶方阵 $(n\\ge 2)$, $f(x)=ax^2+bx+c\\in\\mathbb{R}[x]$, 则 $f(J)$ 的全部特征值为______。"
+          "stem": "用 $J$ 表示元素全为 $1$ 的 $n$ 阶方阵 $(n\\ge 2)$, $f(x)=ax^2+bx+c\\in\\mathbb{R}[x]$, 则 $f(J)$ 的全部特征值为______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题(每题 5 分, 共 30 分)",
+          "section_instruction": "填空题(每题 5 分，共 30 分)",
           "no": "6",
           "score": 5,
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "极小多项式",
-          "stem": "$A=\\begin{pmatrix}1&0&0&0\\\\-1&-1&-1&-1\\\\1&1&1&1\\\\2&2&2&0\\end{pmatrix}$ 的最小多项式为______。"
+          "stem": "$A=\\begin{pmatrix}1&0&0&0\\\\-1&-1&-1&-1\\\\1&1&1&1\\\\2&2&2&0\\end{pmatrix}$ 的最小多项式为______."
         },
         {
           "section": "二",
-          "section_instruction": "(10 分) 求多项式 $x^4-6x^2+8x-3$ 在有理数域上的标准分解。",
+          "section_instruction": "(10 分) 求多项式 $x^4-6x^2+8x-3$ 在有理数域上的标准分解.",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "多项式",
           "l2": "既约性",
-          "stem": "求多项式 $x^4-6x^2+8x-3$ 在有理数域上的标准分解。"
+          "stem": "求多项式 $x^4-6x^2+8x-3$ 在有理数域上的标准分解."
         },
         {
           "section": "三",
@@ -309,13 +309,13 @@
         },
         {
           "section": "四",
-          "section_instruction": "(10 分) 给定线性方程组, 以 $M_i$ 表示其系数矩阵划去第 $i$ 列后所剩 $n-1$ 阶方阵的行列式. 证明下列结论",
+          "section_instruction": "(10 分) 给定线性方程组，以 $M_i$ 表示其系数矩阵划去第 $i$ 列后所剩 $n-1$ 阶方阵的行列式. 证明下列结论.",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "给定线性方程组\n$$\\begin{cases}a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0;\\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0;\\\\ \\cdots\\cdots\\cdots\\\\ a_{(n-1)1}x_1+a_{(n-1)2}x_2+\\cdots+a_{(n-1)n}x_n=0.\\end{cases}$$\n以 $M_i$ 表示其系数矩阵划去第 $i$ 列后所剩 $n-1$ 阶方阵的行列式. 证明:\n(1) $(M_1,-M_2,\\cdots,(-1)^{n-1}M_n)$ 是方程组的解;\n(2) 若方程组系数矩阵的秩为 $n-1$, 则方程组的解全是 $(M_1,-M_2,\\cdots,(-1)^{n-1}M_n)$ 的倍数。"
+          "stem": "给定线性方程组\n$$\\begin{cases}a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0;\\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0;\\\\ \\cdots\\cdots\\\\ a_{(n-1)1}x_1+a_{(n-1)2}x_2+\\cdots+a_{(n-1)n}x_n=0.\\end{cases}$$\n以 $M_i$ 表示其系数矩阵划去第 $i$ 列后所剩 $n-1$ 阶方阵的行列式. 证明:\n(1) $(M_1,-M_2,\\cdots,(-1)^{n-1}M_n)$ 是方程组的解;\n(2) 若方程组系数矩阵的秩为 $n-1$, 则方程组的解全是 $(M_1,-M_2,\\cdots,(-1)^{n-1}M_n)$ 的倍数."
         },
         {
           "section": "五",
@@ -325,7 +325,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正交变换",
-          "stem": "证明如下结论。设 $A$ 是实反对称矩阵, 则 $(E-A)(E+A)^{-1}$ 是正交矩阵。"
+          "stem": "设 $A$ 是实反对称矩阵, 则 $(E-A)(E+A)^{-1}$ 是正交矩阵."
         },
         {
           "section": "五",
@@ -335,27 +335,57 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A=(a_{ij})_{m\\times n}$, $B=(b_{ij})_{n\\times s}$, 则秩 $(AB)\\ge$ 秩 $(A)+$ 秩 $(B)-n$。"
+          "stem": "设 $A=(a_{ij})_{m\\times n}$, $B=(b_{ij})_{n\\times s}$, 则秩$(AB)\\ge$ 秩$(A)+$秩$(B)-n$."
         },
         {
           "section": "六",
-          "section_instruction": "(10 分) 设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 为欧氏空间 $V$ 的正交向量组, 证明下列结论",
+          "section_instruction": "(10 分) 设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 为欧氏空间 $V$ 的正交向量组, 证明下列结论.",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "规范正交基",
-          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 为欧氏空间 $V$ 的正交向量组, 证明:\n(1) $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 线性无关;\n(2) 若 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s,\\beta$ 线性相关, 且 $(\\beta,\\alpha_i)=0$, $i=1,2,\\cdots,s$, 则 $\\beta=0$。"
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 为欧氏空间 $V$ 的正交向量组, 证明:\n(1) $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 线性无关;\n(2) 若 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s,\\beta$ 线性相关, 且 $(\\beta,\\alpha_i)=0$, $i=1,2,\\cdots,s$, 则 $\\beta=0$."
         },
         {
           "section": "七",
-          "section_instruction": "(10 分) 设 $\\mathscr{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换, 证明: $\\mathscr{A}$ 的秩 $+\\ \\mathscr{A}$ 的零度 $=n$。",
+          "section_instruction": "(10 分) 设 $\\mathscr{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换, 证明: $\\mathscr{A}$ 的秩 + $\\mathscr{A}$ 的零度 = $n$.",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "设 $\\mathscr{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换, 证明: $\\mathscr{A}$ 的秩 $+\\ \\mathscr{A}$ 的零度 $=n$。"
+          "l2": "线性映射与核",
+          "stem": "设 $\\mathscr{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换, 证明: $\\mathscr{A}$ 的秩 + $\\mathscr{A}$ 的零度 = $n$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "(15 分) 将二次曲面方程化为标准方程并指出它表示什么曲面.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "将二次曲面方程 $5x^2+5y^2+8z^2-10xy-4xz+4yz-3\\sqrt{2}x-3\\sqrt{2}y=0$ 化为标准方程并指出它表示什么曲面."
+        },
+        {
+          "section": "九",
+          "section_instruction": "(15 分) 设 $A$ 为给定矩阵, 求 $A$ 的若尔当标准形 $J$ 及可逆矩阵 $P$ 使得 $J=P^{-1}AP$.",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $A=\\begin{pmatrix}-1&0&1\\\\1&2&0\\\\-4&0&3\\end{pmatrix}$, 求 $A$ 的若尔当标准形 $J$ 及可逆矩阵 $P$ 使得 $J=P^{-1}AP$."
+        },
+        {
+          "section": "十",
+          "section_instruction": "(20 分) 设 $V$ 是实数域上所有 $n$ 阶对称矩阵按矩阵加法与数乘运算构成的线性空间, 对任意的 $A,B\\in V$, 定义 $(A,B)=\\mathrm{tr}(AB)$, 其中 $(A,B)$ 表示 $A$ 与 $B$ 的内积, $\\mathrm{tr}(AB)$ 表示 $AB$ 的迹. 证明下列结论.",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $V$ 是实数域上所有 $n$ 阶对称矩阵按矩阵加法与数乘运算构成的线性空间, 对任意的 $A,B\\in V$, 定义 $(A,B)=\\mathrm{tr}(AB)$, 其中 $(A,B)$ 表示 $A$ 与 $B$ 的内积, $\\mathrm{tr}(AB)$ 表示 $AB$ 的迹. 证明:\n(1) $V$ 按上述定义的内积构成欧氏空间;\n(2) 对于任意 $A,B\\in V$, 有 $\\mathrm{tr}(AB)^2\\le \\mathrm{tr}(A^2)\\mathrm{tr}(B^2)$;\n(3) 若 $W=\\{A\\in V\\mid \\mathrm{tr}(A)=0\\}$, 则 $\\dim(W^{\\perp})=1$."
         }
       ]
     }

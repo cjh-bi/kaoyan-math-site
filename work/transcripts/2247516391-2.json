@@ -36,7 +36,7 @@
           "form": "填空",
           "l1": "一元微分学",
           "l2": "高阶导数",
-          "stem": "设 $f(x)=(x^2+2x-3)^{100}\\cos\\dfrac{\\pi x^2}{4}$，则 $f^{(100)}(1)=$ ______。"
+          "stem": "$f(x)=(x^2+2x-3)^{100}\\cos\\dfrac{\\pi x^2}{4}$，则 $f^{(100)}(1)=$ ______。"
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "填空",
           "l1": "一元积分学",
           "l2": "不定积分",
-          "stem": "$\\int \\arctan\\sqrt{x}\\,\\mathrm{d}x=$ ______。"
+          "stem": "$\\displaystyle\\int \\arctan\\sqrt{x}\\,\\mathrm{d}x=$ ______。"
         },
         {
           "section": "一",
@@ -55,8 +55,8 @@
           "score": null,
           "form": "填空",
           "l1": "广义积分与含参积分",
-          "l2": "",
-          "stem": "$\\int_0^{+\\infty}\\dfrac{\\sin^4 x}{x^2}\\,\\mathrm{d}x=$ ______。"
+          "l2": "广义积分敛散性",
+          "stem": "$\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin^4 x}{x^2}\\,\\mathrm{d}x=$ ______。"
         },
         {
           "section": "一",
@@ -66,7 +66,7 @@
           "form": "填空",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分求导",
-          "stem": "设 $f(y)=\\int_1^{y^2}\\dfrac{\\ln(x+y)}{x}\\,\\mathrm{d}x$，则 $f'(y)=$ ______。"
+          "stem": "$f(y)=\\displaystyle\\int_1^{y^2}\\dfrac{\\ln(x+y)}{x}\\,\\mathrm{d}x$，则 $f'(y)=$ ______。"
         },
         {
           "section": "一",
@@ -76,7 +76,7 @@
           "form": "填空",
           "l1": "极限与连续",
           "l2": "连续与极限概念判断",
-          "stem": "设 $E=\\{(x,y)\\mid (x,y)\\in\\mathbb{R}^2,\\ x,y\\in\\mathbb{Q}\\}$，则 $\\partial E=$ ______。"
+          "stem": "$E=\\{(x,y)\\mid (x,y)\\in\\mathbb{R}^2,\\ x,y\\in\\mathbb{Q}\\}$，则 $\\partial E=$ ______。"
         },
         {
           "section": "一",
@@ -86,7 +86,7 @@
           "form": "填空",
           "l1": "级数",
           "l2": "数项级数求和",
-          "stem": "$\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{(2n+1)2^{2n+1}}=$ ______。"
+          "stem": "$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{(2n+1)2^{2n+1}}=$ ______。"
         },
         {
           "section": "一",
@@ -96,7 +96,7 @@
           "form": "填空",
           "l1": "多元积分学",
           "l2": "二重积分",
-          "stem": "$\\iint\\limits_{x^2+y^2\\le 1}x^2\\sin y\\,\\mathrm{d}x\\mathrm{d}y=$ ______。"
+          "stem": "$\\displaystyle\\iint_{x^2+y^2\\le 1}x^2\\sin y\\,\\mathrm{d}x\\mathrm{d}y=$ ______。"
         },
         {
           "section": "一",
@@ -106,7 +106,7 @@
           "form": "填空",
           "l1": "多元积分学",
           "l2": "第一型曲线积分",
-          "stem": "$\\int\\limits_{x^2+y^2=1}\\ln\\left[(x-4)^2+y^2\\right]\\mathrm{d}s=$ ______。"
+          "stem": "$\\displaystyle\\int_{x^2+y^2=1}\\ln\\left[(x-4)^2+y^2\\right]\\mathrm{d}s=$ ______。"
         },
         {
           "section": "二",
@@ -116,17 +116,17 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "递推数列",
-          "stem": "已知数列 $\\{x_n\\}$ 满足 $x_1=0$，$x_{n+1}=\\cos x_n$ ($n=1,2,\\cdots$)，证明：\n(1) $\\{x_{2n}\\},\\{x_{2n-1}\\}$ 均单调；\n(2) $\\{x_n\\}$ 收敛。"
+          "stem": "已知数列 $\\{x_n\\}$ 满足 $x_1=0$，$x_{n+1}=\\cos x_n\\ (n=1,2,\\cdots)$，证明：\n(1) $\\{x_{2n}\\},\\{x_{2n-1}\\}$ 均单调；\n(2) $\\{x_n\\}$ 收敛。"
         },
         {
           "section": "二",
           "section_instruction": "证明题",
           "no": "2",
           "score": null,
-          "form": "计算",
-          "l1": "极限与连续",
-          "l2": "函数极限计算",
-          "stem": "设函数 $f(x)$ 在 $a$ 的邻域内有定义，在 $a$ 处可导且 $f(a)>0$，计算\n$$\\lim_{x\\to a}\\dfrac{f(x)^{f(x)}-f(a)^{f(x)}}{x-a}。$$"
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "导数计算",
+          "stem": "设函数 $f(x)$ 在 $a$ 的邻域内有定义，在 $a$ 处可导且 $f(a)>0$，计算\n$$\\lim_{x\\to a}\\dfrac{f(x)^{f(x)}-f(a)^{f(x)}}{x-a}.$$"
         },
         {
           "section": "二",
@@ -136,7 +136,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "已知 $\\alpha>0$，回答以下问题：\n(1) 证明：$\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^{\\alpha}}$ 关于 $x$ 在 $(0,2\\pi)$ 上内闭一致收敛；\n(2) 证明：$\\int_0^x \\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nt}{n^{\\alpha}}\\,\\mathrm{d}t=\\sum\\limits_{n=1}^{\\infty}\\dfrac{1-\\cos nx}{n^{\\alpha+1}}$。"
+          "stem": "已知 $\\alpha>0$，回答以下问题：\n(1) 证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{n^{\\alpha}}$ 关于 $x$ 在 $(0,2\\pi)$ 上内闭一致收敛；\n(2) 证明：$\\displaystyle\\int_0^x\\sum_{n=1}^{\\infty}\\dfrac{\\sin nt}{n^{\\alpha}}\\,\\mathrm{d}t=\\sum_{n=1}^{\\infty}\\dfrac{1-\\cos nx}{n^{\\alpha+1}}$。"
         },
         {
           "section": "二",
@@ -156,7 +156,7 @@
           "form": "证明",
           "l1": "一元积分学",
           "l2": "积分不等式",
-          "stem": "设 $f$ 在 $[0,1]$ 上可积，且 $\\mathscr{A}=\\{g(x)\\mid g(x)$ 在 $[0,1]$ 上可积, 且 $\\int_0^1 g^2(x)\\,\\mathrm{d}x=1\\}$，证明：\n$$\\left(\\int_0^1 f^2(x)\\,\\mathrm{d}x\\right)^{\\frac{1}{2}}=\\sup_{g(x)\\in\\mathscr{A}}\\int_0^1 f(x)g(x)\\,\\mathrm{d}x。$$"
+          "stem": "设 $f$ 在 $[0,1]$ 上可积，且 $\\mathscr{A}=\\{g(x)\\mid g(x)\\ \\text{在}\\ [0,1]\\ \\text{上可积, 且}\\ \\displaystyle\\int_0^1 g^2(x)\\,\\mathrm{d}x=1\\}$，证明：\n$$\\left(\\int_0^1 f^2(x)\\,\\mathrm{d}x\\right)^{\\frac{1}{2}}=\\sup_{g(x)\\in\\mathscr{A}}\\int_0^1 f(x)g(x)\\,\\mathrm{d}x.$$"
         },
         {
           "section": "二",
@@ -166,7 +166,7 @@
           "form": "证明",
           "l1": "多元微分学",
           "l2": "隐函数存在定理",
-          "stem": "已知方程 $xy=\\ln(x+y)$。\n(1) 对任意的 $x\\in(2,+\\infty)$，存在唯一确定的函数 $y=f(x)$ 满足原方程；\n(2) $y=f(x)$ 关于 $x\\in(2,+\\infty)$ 连续可微；\n(3) 证明：对于函数 $y=f(x)$，有 $y=\\dfrac{\\ln x}{x}+O\\left(\\dfrac{\\ln x}{x^3}\\right)$ ($x\\to+\\infty$)。"
+          "stem": "已知方程 $xy=\\ln(x+y)$。\n(1) 对任意的 $x\\in(2,+\\infty)$，存在唯一确定的函数 $y=f(x)$ 满足原方程；\n(2) $y=f(x)$ 关于 $x\\in(2,+\\infty)$ 连续可微；\n(3) 证明：对于函数 $y=f(x)$，有 $y=\\dfrac{\\ln x}{x}+O\\left(\\dfrac{\\ln x}{x^3}\\right)\\ (x\\to+\\infty)$。"
         }
       ]
     },
@@ -175,7 +175,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "67. 西安交通大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516391-2_5.png"],
+      "source_imgs": ["work/imgs/2247516391-2_5.png", "work/imgs/2247516391-2_6.png"],
       "questions": [
         {
           "section": "一",
@@ -185,7 +185,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix}1&3&3&\\cdots&3&3&1\\\\3&1&3&\\cdots&3&3&1\\\\3&3&1&\\cdots&3&3&1\\\\\\vdots&\\vdots&\\vdots&&\\vdots&\\vdots&\\vdots\\\\3&3&3&\\cdots&1&3&1\\\\3&3&3&\\cdots&3&1&1\\\\1&1&1&\\cdots&1&1&1\\end{vmatrix}。$$"
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} 1 & 3 & 3 & \\cdots & 3 & 3 & 1\\\\ 3 & 1 & 3 & \\cdots & 3 & 3 & 1\\\\ 3 & 3 & 1 & \\cdots & 3 & 3 & 1\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots & \\vdots\\\\ 3 & 3 & 3 & \\cdots & 1 & 3 & 1\\\\ 3 & 3 & 3 & \\cdots & 3 & 1 & 1\\\\ 1 & 1 & 1 & \\cdots & 1 & 1 & 1 \\end{vmatrix}.$$"
         },
         {
           "section": "一",
@@ -195,11 +195,11 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "可逆性",
-          "stem": "求 $n$ 阶矩阵\n$$A=\\begin{pmatrix}2&1&1&\\cdots&1\\\\1&2&1&\\cdots&1\\\\1&1&2&\\cdots&1\\\\\\vdots&\\vdots&\\vdots&&\\vdots\\\\1&1&1&\\cdots&2\\end{pmatrix}$$\n的逆。"
+          "stem": "求 $n$ 阶矩阵\n$$A=\\begin{pmatrix} 2 & 1 & 1 & \\cdots & 1\\\\ 1 & 2 & 1 & \\cdots & 1\\\\ 1 & 1 & 2 & \\cdots & 1\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & 1 & \\cdots & 2 \\end{pmatrix}$$\n的逆。"
         },
         {
           "section": "二",
-          "section_instruction": "已知 A, B 均为 n 阶实对称矩阵，证明：",
+          "section_instruction": "已知 A,B 均为 n 阶实对称矩阵，证明：",
           "no": "1",
           "score": null,
           "form": "证明",
@@ -209,27 +209,27 @@
         },
         {
           "section": "二",
-          "section_instruction": "已知 A, B 均为 n 阶实对称矩阵，证明：",
+          "section_instruction": "已知 A,B 均为 n 阶实对称矩阵，证明：",
           "no": "2",
           "score": null,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "已知 $A,B$ 均为 $n$ 阶实对称矩阵，证明 $\\mathrm{Tr}\\left((AB)^2\\right)\\le\\mathrm{Tr}\\left(A^2B^2\\right)$，$\\mathrm{Tr}(M)$ 表示矩阵 $M$ 的迹。"
+          "stem": "已知 $A,B$ 均为 $n$ 阶实对称矩阵，证明：$\\mathrm{Tr}\\left((AB)^2\\right)\\le \\mathrm{Tr}\\left(A^2B^2\\right)$，其中 $\\mathrm{Tr}(M)$ 表示矩阵 $M$ 的迹。"
         },
         {
           "section": "三",
-          "section_instruction": "已知 V 是数域 F 上的 n 维线性空间，L(V) 为 V 上的线性变换构成的线性空间，v∈V 且 v≠0，记 E={T∈L(V)∣Tv=0}.",
+          "section_instruction": "已知 V 是数域 F 上的 n 维线性空间，L(V) 为 V 上的线性变换构成的线性空间，v∈V 且 v≠0，记 E={T∈L(V) | Tv=0}。",
           "no": "1",
           "score": null,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "已知 $V$ 是数域 $F$ 上的 $n$ 维线性空间，$L(V)$ 为 $V$ 上的线性变换构成的线性空间，$v\\in V$ 且 $v\\neq 0$，记 $E=\\{T\\in L(V)\\mid Tv=0\\}$。证明：$E$ 为 $L(V)$ 的线性子空间。"
+          "stem": "已知 $V$ 是数域 $F$ 上的 $n$ 维线性空间，$L(V)$ 为 $V$ 上的线性变换构成的线性空间，$v\\in V$ 且 $v\\neq 0$，记\n$$E=\\{T\\in L(V)\\mid Tv=0\\}.$$\n1. 证明：$E$ 为 $L(V)$ 的线性子空间。"
         },
         {
           "section": "三",
-          "section_instruction": "已知 V 是数域 F 上的 n 维线性空间，L(V) 为 V 上的线性变换构成的线性空间，v∈V 且 v≠0，记 E={T∈L(V)∣Tv=0}.",
+          "section_instruction": "已知 V 是数域 F 上的 n 维线性空间，L(V) 为 V 上的线性变换构成的线性空间，v∈V 且 v≠0，记 E={T∈L(V) | Tv=0}。",
           "no": "2",
           "score": null,
           "form": "计算",
@@ -244,7 +244,7 @@
           "score": null,
           "form": "证明",
           "l1": "矩阵与线性方程组",
-          "l2": "可逆性",
+          "l2": "矩阵多项式",
           "stem": "已知 $n$ 阶方阵 $A,B$ 满足 $A-B+AB=O$，证明：$AB=BA$。"
         },
         {
@@ -253,39 +253,79 @@
           "no": "2",
           "score": null,
           "form": "综合",
-          "l1": "线性空间与线性变换",
-          "l2": "特征值与特征向量",
-          "stem": "是否存在 $2$ 阶实矩阵 $A$，使得 $A^2=\\begin{pmatrix}-1&0\\\\0&-2\\end{pmatrix}$，若存在, 请举例; 若不存在, 请加以证明。"
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "是否存在 $2$ 阶实矩阵 $A$，使得 $A^2=\\begin{pmatrix} -1 & 0\\\\ 0 & -2 \\end{pmatrix}$，若存在，请举例；若不存在，请加以证明。"
         },
         {
           "section": "五",
-          "section_instruction": "已知 A=(a_ij) 是 n 阶矩阵, a_ij=1 (1≤i<j≤n), a_ij=0 (其他).",
+          "section_instruction": "已知 A=(a_ij) 是 n 阶矩阵",
           "no": "1",
           "score": null,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "幂零矩阵",
-          "stem": "已知 $A=(a_{ij})$ 是 $n$ 阶矩阵，$a_{ij}=\\begin{cases}1,&1\\le i<j\\le n;\\\\0,&\\text{其他}.\\end{cases}$ 证明：$A^n=O$。"
+          "stem": "已知 $A=(a_{ij})$ 是 $n$ 阶矩阵，$a_{ij}=\\begin{cases}1,&1\\le i<j\\le n;\\\\ 0,&\\text{其他}.\\end{cases}$ 证明：$A^n=O$。"
         },
         {
           "section": "五",
-          "section_instruction": "已知 A=(a_ij) 是 n 阶矩阵, a_ij=1 (1≤i<j≤n), a_ij=0 (其他).",
+          "section_instruction": "已知 A=(a_ij) 是 n 阶矩阵",
           "no": "2",
           "score": null,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "幂零矩阵",
-          "stem": "已知 $A=(a_{ij})$ 是 $n$ 阶矩阵，$a_{ij}=\\begin{cases}1,&1\\le i<j\\le n;\\\\0,&\\text{其他}.\\end{cases}$ 若 $n$ 阶矩阵 $B$ 满足 $AB+BA=B$，证明：$B=O$。"
+          "stem": "已知 $A=(a_{ij})$ 是 $n$ 阶矩阵，$a_{ij}=\\begin{cases}1,&1\\le i<j\\le n;\\\\ 0,&\\text{其他}.\\end{cases}$ 若 $n$ 阶矩阵 $B$ 满足 $AB+BA=B$，证明：$B=O$。"
         },
         {
           "section": "六",
-          "section_instruction": "",
+          "section_instruction": "已知 n 阶的三对角矩阵，证明 A 可逆。",
           "no": "1",
           "score": null,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "可逆性",
-          "stem": "已知 $n$ 阶的三对角矩阵\n$$A=\\begin{pmatrix}3&-1\\\\-2&3&-1\\\\&-2&3&-1\\\\&&\\ddots&\\ddots&\\ddots\\\\&&&-2&3&-1\\\\&&&&-2&3\\end{pmatrix}。$$\n证明 $A$ 可逆。"
+          "stem": "已知 $n$ 阶的三对角矩阵\n$$A=\\begin{pmatrix} 3 & -1 & & & &\\\\ -2 & 3 & -1 & & &\\\\ & -2 & 3 & -1 & &\\\\ & & \\ddots & \\ddots & \\ddots &\\\\ & & & -2 & 3 & -1\\\\ & & & & -2 & 3 \\end{pmatrix}.$$\n证明 $A$ 可逆。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $n$ 阶矩阵 $A,B$ 满足 $A^2=A$，$B^2=B$，记 $M=AB$。证明：$r(I_n-M)\\le 2\\left(n-r(M)\\right)$，其中 $I_n$ 为 $n$ 阶单位矩阵。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "对任意的 $p(x)\\in P[x]$，证明：存在唯一的 $q(x)\\in P[x]$ 满足 $\\left((x^2+3x-5)q(x)\\right)''=p(x)$，其中 $(f(x))''$ 表示 $f(x)$ 的二阶导数。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $V$ 是全体 $n$ 阶矩阵按照矩阵的加法和数量乘法构成的线性空间，$A\\in V$，且 $A$ 有 $n$ 个互异的特征值，定义 $V$ 上的线性变换 $T(X)=AX-XA$，证明：存在 $V$ 的一组基，使得 $T$ 在此基下的矩阵为对角矩阵。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 阶矩阵 $A$ 的元素均为 $0$ 或 $1$，且 $A$ 的特征值均大于零，证明：$\\det A=1$。"
         }
       ]
     }

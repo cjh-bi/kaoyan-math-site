@@ -15,7 +15,7 @@
           "score": null,
           "form": "计算",
           "l1": "极限与连续",
-          "l2": "连续与极限概念判断",
+          "l2": "连续与有界性",
           "stem": "求常数 $a$ 和 $b$，使得函数 $f(x)=\\begin{cases}\\dfrac{\\sqrt{1-ax}-1}{x}, & x<0;\\\\ ax+b, & 0\\le x\\le 1;\\\\ \\arctan\\dfrac{1}{x-1}, & x>1.\\end{cases}$ 在 $(-\\infty,+\\infty)$ 上连续。"
         },
         {
@@ -25,8 +25,8 @@
           "score": null,
           "form": "综合",
           "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "讨论含参量积分 $I(s)=\\int_0^{+\\infty} x^{s-1}e^{-x}\\,\\mathrm{d}x,\\ x\\in\\mathbb{R}$ 的收敛性。"
+          "l2": "含参量积分",
+          "stem": "讨论含参量积分 $I(s)=\\int_0^{+\\infty} x^{s-1} e^{-x}\\mathrm{d}x, x\\in\\mathbb{R}$ 的收敛性。"
         },
         {
           "section": "三",
@@ -36,7 +36,7 @@
           "form": "证明",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "设 $f,g$ 均为定义在 $[a,b]$ 上的有界函数，仅在 $[a,b]$ 上有限个点处 $f(x)\\ne g(x)$。证明：若 $f$ 在 $[a,b]$ 上可积，则 $g$ 在 $[a,b]$ 上也可积，且 $\\int_a^b f(x)\\,\\mathrm{d}x=\\int_a^b g(x)\\,\\mathrm{d}x$。"
+          "stem": "设 $f,g$ 均为定义在 $[a,b]$ 上的有界函数，仅在 $[a,b]$ 上有限个点处 $f(x)\\neq g(x)$。证明：若 $f$ 在 $[a,b]$ 上可积，则 $g$ 在 $[a,b]$ 上也可积，且 $\\int_a^b f(x)\\,\\mathrm{d}x=\\int_a^b g(x)\\,\\mathrm{d}x$。"
         },
         {
           "section": "四",
@@ -83,10 +83,10 @@
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "计算",
+          "form": "综合",
           "l1": "多元微分学",
-          "l2": "偏导数",
-          "stem": "已知函数 $f(x,y)=\\begin{cases}\\dfrac{1-e^{x(x^2+y^2)}}{x^2+y^2}, & x^2+y^2\\ne 0;\\\\ 0, & x^2+y^2=0.\\end{cases}$ 讨论 $f(x,y)$ 在 $(0,0)$ 处的连续性与可微性。"
+          "l2": "",
+          "stem": "已知函数\n$$f(x,y)=\\begin{cases}\\dfrac{1-e^{x(x^2+y^2)}}{x^2+y^2}, & x^2+y^2\\neq 0;\\\\ 0, & x^2+y^2=0.\\end{cases}$$\n讨论 $f(x,y)$ 在 $(0,0)$ 处的连续性与可微性。"
         },
         {
           "section": "九",
@@ -105,8 +105,8 @@
           "score": null,
           "form": "证明",
           "l1": "多元积分学",
-          "l2": "第一型曲面积分",
-          "stem": "证明：若 $S$ 为闭曲面，$\\boldsymbol{l}$ 为任意固定的单位向量，则 $\\iint\\limits_S \\cos(\\widehat{\\boldsymbol{n},\\boldsymbol{l}})\\,\\mathrm{d}S=0$。其中 $\\boldsymbol{n}$ 是 $S$ 的单位外法向量，$\\cos(\\widehat{\\boldsymbol{n},\\boldsymbol{l}})$ 是 $\\boldsymbol{n}$ 和 $\\boldsymbol{l}$ 的夹角余弦。"
+          "l2": "第二型曲面积分",
+          "stem": "证明：若 $S$ 为封闭曲面，$\\mathbf{l}$ 为任意固定的单位向量，则\n$$\\iint_{S}\\cos(\\widehat{\\mathbf{n},\\mathbf{l}})\\,\\mathrm{d}S=0.$$\n其中 $\\mathbf{n}$ 是 $S$ 的单位外法向量，$\\cos(\\widehat{\\mathbf{n},\\mathbf{l}})$ 是 $\\mathbf{n}$ 和 $\\mathbf{l}$ 的夹角余弦。"
         }
       ]
     },
@@ -115,11 +115,11 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "9. 中国矿业大学(徐州) 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516038-4_5.png"],
+      "source_imgs": ["work/imgs/2247516038-4_5.png", "work/imgs/2247516038-4_6.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "1",
           "score": 5,
           "form": "填空",
@@ -129,143 +129,163 @@
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "2",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $A,B$ 为 $n$ 阶矩阵，且 $|A|=3$，$|B|=6$，$|A^{-1}+B|=8$，则 $|A+B^{-1}|=$______。"
+          "stem": "设 $A,B$ 为 $n$ 阶矩阵, 且 $|A|=3$, $|B|=6$, $|A^{-1}+B|=8$, 则 $|A+B^{-1}|=$______。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "3",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 为 4 阶方阵，其中 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关，且 $\\alpha_4=-\\dfrac{2}{3}\\alpha_1-\\dfrac{2}{3}\\alpha_2$，若向量 $\\beta=\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4$，则 $AX=\\beta$ 的通解可以写为 $X=$______。"
+          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$ 为 4 阶方阵, 其中 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性无关, 且 $\\alpha_4=-\\dfrac{2}{3}\\alpha_1-\\dfrac{2}{3}\\alpha_2$, 若向量 $\\beta=\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4$, 则 $AX=\\beta$ 的通解可以写为 $X=$______。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "4",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "下列关于方阵 $A,B$ 及其伴随矩阵 $A^*,B^*$ 说法正确的有______。\nA. 若 $A$ 与 $B$ 相似，则 $A^*$ 与 $B^*$ 也相似。\nB. 若 $A$ 与 $B$ 相似，则 $A^*$ 与 $B^*$ 未必相似。\nC. 若 $A$ 与 $B$ 合同，则 $A^*$ 与 $B^*$ 也合同。\nD. 若 $A$ 与 $B$ 合同，则 $A^*$ 与 $B^*$ 未必合同。"
+          "stem": "下列关于方阵 $A,B$ 及其伴随矩阵 $A^*,B^*$ 说法正确的有______。\nA. 若 $A$ 与 $B$ 相似, 则 $A^*$ 与 $B^*$ 也相似.\nB. 若 $A$ 与 $B$ 相似, 则 $A^*$ 与 $B^*$ 未必相似.\nC. 若 $A$ 与 $B$ 合同, 则 $A^*$ 与 $B^*$ 也合同.\nD. 若 $A$ 与 $B$ 合同, 则 $A^*$ 与 $B^*$ 未必合同."
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "5",
           "score": 5,
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "二次型 $f(x_1,x_2,x_3)=\\lambda(x_1^2+x_2^2+x_3^2)-4x_1x_2-4x_1x_3+4x_2x_3$ 是负定的，则 $\\lambda$ 的取值范围是______。"
+          "stem": "二次型 $f(x_1,x_2,x_3)=\\lambda(x_1^2+x_2^2+x_3^2)-4x_1x_2-4x_1x_3+4x_2x_3$ 是负定的, 则 $\\lambda$ 的取值范围是______。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "6",
           "score": 5,
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "记全体实数为 $\\mathbb{R}$，已知实矩阵 $A_1=\\begin{pmatrix}0&1\\\\-1&-1\\end{pmatrix}$，$A_2=\\begin{pmatrix}0&3\\\\0&-1\\end{pmatrix}$，$A_3=\\begin{pmatrix}0&0\\\\1&3\\end{pmatrix}$，$A_4=\\begin{pmatrix}0&2\\\\1&-2\\end{pmatrix}$，$A_5=\\begin{pmatrix}0&5\\\\-2&-6\\end{pmatrix}$。则 $\\mathbb{R}^{4\\times4}$ 的生成子空间 $L(A_1,A_2,A_3,A_4,A_5)$ 的维数是______。"
+          "stem": "记全体实数为 $\\mathbb{R}$, 已知实矩阵\n$$A_1=\\begin{pmatrix}0 & 1\\\\ -1 & -1\\end{pmatrix},\\ A_2=\\begin{pmatrix}0 & 3\\\\ 0 & -1\\end{pmatrix},\\ A_3=\\begin{pmatrix}0 & 0\\\\ 1 & 3\\end{pmatrix},\\ A_4=\\begin{pmatrix}0 & 2\\\\ 1 & -2\\end{pmatrix},\\ A_5=\\begin{pmatrix}0 & 5\\\\ -2 & -6\\end{pmatrix}.$$\n则 $\\mathbb{R}^{4\\times 4}$ 的生成子空间 $L(A_1,A_2,A_3,A_4,A_5)$ 的维数是______。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "7",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
-          "l2": "线性方程组",
-          "stem": "设 $A$ 是 3 阶矩阵，$A$ 的秩为 2，且 $A\\begin{pmatrix}1&3\\\\-1&0\\\\2&2\\end{pmatrix}=\\begin{pmatrix}-1&6\\\\1&0\\\\-2&4\\end{pmatrix}$。则 $A$ 的迹等于______。"
+          "l2": "秩",
+          "stem": "设 $A$ 是 3 阶矩阵, $A$ 的秩为 2, 且 $A\\begin{pmatrix}1 & 3\\\\ -1 & 0\\\\ 2 & 2\\end{pmatrix}=\\begin{pmatrix}-1 & 6\\\\ 1 & 0\\\\ -2 & 4\\end{pmatrix}$. 则 $A$ 的迹等于______。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "8",
           "score": 5,
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $V$ 是数域 $P$ 上全体 2 阶矩阵构成的线性空间，对于固定的 $A\\in V$，定义 $V$ 上的线性变换 $\\sigma$：$\\sigma(B)=AB-BA,\\ \\forall B\\in V$。如果 $A$ 是幂零的，则 $\\sigma$ 在基 $E_{11},E_{12},E_{21},E_{22}$（$E_{ij}$ 表示 $(i,j)$ 元素为 1，其余元素为 0 的矩阵）下的矩阵______幂零的（选填：一定是，未必是）"
+          "stem": "设 $V$ 是数域 $P$ 上全体 2 阶矩阵构成的线性空间, 对于固定的 $A\\in V$, 定义 $V$ 上的线性变换 $\\sigma$：$\\sigma(B)=AB-BA$, $\\forall B\\in V$. 如果 $A$ 是零幂的, 则 $\\sigma$ 在基 $E_{11},E_{12},E_{21},E_{22}$ ($E_{ij}$ 表示 $(i,j)$ 元素为 1, 其余元素为 0 的矩阵)下的矩阵______幂零的. (选填: 一定是, 未必是)"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "9",
           "score": 5,
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "正交补与直和",
-          "stem": "设 $V$ 是一个 8 维欧氏空间，$\\alpha$ 是 $V$ 中的一个固定非零向量，则 $V$ 中与 $\\alpha$ 正交的所有向量组成的子空间的维数是______。"
+          "stem": "设 $V$ 是一个 8 维欧氏空间, $\\alpha$ 是 $V$ 中的一个固定非零向量, 则 $V$ 中与 $\\alpha$ 正交的所有向量组成的子空间的维数是______。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题，每题 5 分，共 50 分",
+          "section_instruction": "填空题, 每题 5 分, 共 50 分.",
           "no": "10",
           "score": 5,
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "极小多项式",
-          "stem": "设 $A$ 是 $n$ 阶矩阵，满足 $|A|=6$ 且 $A+A^*=5E_n$，其中 $A^*$ 表示 $A$ 的伴随矩阵，$E_n$ 是 $n$ 阶单位矩阵。则 $A$ 的最小多项式是______。"
+          "stem": "设 $A$ 是 $n$ 阶矩阵, 满足 $|A|=6$ 且 $A+A^*=5E_n$, 其中 $A^*$ 表示 $A$ 的伴随矩阵, $E_n$ 是 $n$ 阶单位矩阵. 则 $A$ 的最小多项式是______。"
         },
         {
           "section": "二",
-          "section_instruction": "（10 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "多项式",
           "l2": "互素与最大公因式",
-          "stem": "设复系数多项式 $f(x)$ 没有重因式，证明：$2f(x)+f'(x)$ 与 $f(x)$ 是互素的。"
+          "stem": "设复系数多项式 $f(x)$ 没有重因式, 证明: $2f(x)+f'(x)$ 与 $f(x)$ 是互素的。"
         },
         {
           "section": "三",
-          "section_instruction": "（10 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A,B,C$ 是 $n$ 阶方阵，满足 $r(A)<r(C)$，且 $BC=O$。证明：存在非零的 $n$ 维列向量 $X$，使得 $AX=BX$。这里 $r(M)$ 表示矩阵 $M$ 的秩。"
+          "stem": "设 $A,B,C$ 是 $n$ 阶方阵, 满足 $r(A)<r(C)$, 且 $BC=O$. 证明: 存在非零的 $n$ 维列向量 $X$, 使得 $AX=BX$. 这里 $r(M)$ 表示矩阵 $M$ 的秩。"
         },
         {
           "section": "四",
-          "section_instruction": "（15 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "矩阵与线性方程组",
-          "l2": "线性方程组",
-          "stem": "设 $A$ 是 $n$ 阶方阵，且 $|A|=0$。证明：存在 $n$ 阶非零矩阵 $B$，使得 $AB=BA=O$。"
+          "l2": "可逆性",
+          "stem": "设 $A$ 是 $n$ 阶方阵, 且 $|A|=0$. 证明: 存在 $n$ 阶非零矩阵 $B$, 使得 $AB=BA=O$。"
         },
         {
           "section": "五",
-          "section_instruction": "（15 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "设 $A$ 是 $n$ 阶正定矩阵，$B$ 是 $n$ 阶半正定矩阵。\n(1)（10 分）证明：$A$ 与 $B$ 可同时合同于对角阵；\n(2)（5 分）证明：$|A+B|\\ge|A|+|B|$。"
+          "stem": "设 $A$ 是 $n$ 阶正定矩阵, $B$ 是 $n$ 阶半正定矩阵.\n(1)（10 分）证明: $A$ 与 $B$ 可同时合同于对角阵;\n(2)（5 分）证明: $|A+B|\\ge |A|+|B|$。"
         },
         {
           "section": "六",
-          "section_instruction": "（20 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 20,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设 $A$ 是数域 $P$ 上的 $m\\times n$ 矩阵，$\\beta$ 是 $m$ 维非零列向量。令 $W=\\{\\alpha\\in P^n\\mid \\exists\\, t\\in P,\\ \\text{使得}\\ A\\alpha=t\\beta\\}$。\n(1)（5 分）证明：$W$ 关于 $P^n$ 的运算构成 $P^n$ 的子空间；\n(2)（15 分）设线性方程组 $AX=\\beta$ 的增广矩阵的秩为 $r$，证明：$W$ 的维数等于 $n-r+1$。"
+          "stem": "设 $A$ 是数域 $P$ 上的 $m\\times n$ 矩阵, $\\beta$ 是 $m$ 维非零列向量. 令\n$$W=\\{\\alpha\\in P^n\\mid \\text{存在 } t\\in P, \\text{ 使得 } A\\alpha=t\\beta\\}.$$\n(1)（5 分）证明: $W$ 关于 $P^n$ 的运算构成 $P^n$ 的子空间;\n(2)（15 分）设线性方程组 $AX=\\beta$ 的增广矩阵的秩为 $r$, 证明: $W$ 的维数等于 $n-r+1$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "记全体实数为 $\\mathbb{R}$, 设 $\\mathbb{R}^3$ 上的线性变换 $\\sigma$ 在基 $\\varepsilon_1=(1,0,0)^T,\\varepsilon_2=(1,1,0)^T,\\varepsilon_3=(1,1,1)^T$ 下的矩阵是\n$$A=\\begin{pmatrix}2 & 1 & 2-a\\\\ -3 & -2 & a-2\\\\ 1 & 1 & 1\\end{pmatrix}.$$\n(1)（5 分）若 $\\sigma$ 有三个线性无关的特征向量, 求 $a$ 的值.\n(2)（10 分）若 $\\alpha=(2,3,-2)^T$ 是 $\\sigma$ 的一个特征向量, 证明 $A$ 不可对角化, 并求 $A$ 的 Jordan 标准形."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 是 $n$ 阶实方阵, 且 $|A|\\neq 0$. 证明: $A$ 可以分解为 $A=QT$, 其中 $Q$ 是正交矩阵, $T$ 是对角元全部大于 0 的上三角矩阵, 并证明分解唯一。"
         }
       ]
     }

@@ -6,7 +6,9 @@
       "year": "2026",
       "subject": "数学分析",
       "header_note": "18. 东华大学 2026 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247537267_4.png"],
+      "source_imgs": [
+        "work/imgs/2247537267_4.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -56,37 +58,37 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "求积分 $\\displaystyle\\oiint_{\\Sigma}\\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{\\left(x^2+y^2+z^2\\right)^{\\frac{3}{2}}}$，其中 $\\Sigma$ 为椭球面 $x^2+2y^2+3z^2=6$ 的内侧。"
+          "stem": "求积分 $\\displaystyle\\iint\\limits_{\\Sigma}\\dfrac{x\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{\\left(x^2+y^2+z^2\\right)^{\\frac{3}{2}}}$，其中 $\\Sigma$ 为椭球面 $x^2+2y^2+3z^2=6$ 的内侧。"
         },
         {
           "section": "二",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "极限与连续",
-          "l2": "极限证明",
+          "l2": "数列极限计算",
           "stem": "设实数列 $\\{a_n\\}$ 满足 $a_1>0$，$a_{n+1}=a_n+\\dfrac{1}{n a_n}$，$n=1,2,\\cdots$。证明：$\\lim\\limits_{n\\to\\infty}\\dfrac{a_n^2}{\\ln n}=2$。"
         },
         {
           "section": "三",
-          "section_instruction": "",
+          "section_instruction": "（20 分）",
           "no": "1",
           "score": 20,
           "form": "综合",
           "l1": "极限与连续",
           "l2": "实数完备性定理",
-          "stem": "叙述实数完备性的有限覆盖定理, 并用之证明一元函数的介值性定理。"
+          "stem": "叙述实数完备性的有限覆盖定理，并用之证明一元函数的介值性定理。"
         },
         {
           "section": "四",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "一元微分学",
-          "l2": "不等式证明",
-          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上具有二阶连续导数, 证明: $f''(x)\\ge 0$ 的充要条件是对任意不同实数 $a,b$, 有 $f\\left(\\dfrac{a+b}{2}\\right)\\le\\dfrac{1}{b-a}\\displaystyle\\int_{a}^{b}f(x)\\,\\mathrm{d}x$。"
+          "l2": "凸函数",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上具有二阶连续导数，证明：$f''(x)\\ge 0$ 的充要条件是对任意不同实数 $a,b$，有 $f\\left(\\dfrac{a+b}{2}\\right)\\le\\dfrac{1}{b-a}\\displaystyle\\int_{a}^{b}f(x)\\,\\mathrm{d}x$。"
         },
         {
           "section": "五",
@@ -96,7 +98,7 @@
           "form": "综合",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "讨论反常积分 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\sin\\sqrt{x}}{x^{p}}\\,\\mathrm{d}x$ 的敛散性, 其中参数 $p>\\dfrac{1}{2}$。"
+          "stem": "讨论反常积分 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\sin\\sqrt{x}}{x^{p}}\\,\\mathrm{d}x$ 的敛散性，其中参数 $p>\\dfrac{1}{2}$。"
         },
         {
           "section": "五",
@@ -116,17 +118,17 @@
           "form": "综合",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "讨论级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\left|\\sin(\\pi\\sqrt{n^2+1})\\right|^{p}$ 的敛散性, 其中 $p>0$。"
+          "stem": "讨论级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\left|\\sin(\\pi\\sqrt{n^2+1})\\right|^{p}$ 的敛散性，其中 $p>0$。"
         },
         {
           "section": "六",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "取 $u=\\dfrac{x}{x^2+y^2}, v=\\dfrac{y}{x^2+y^2}$ 为新的自变量, 变换方程 $\\dfrac{\\partial^2 z}{\\partial x^2}+\\dfrac{\\partial^2 z}{\\partial y^2}=0$, 其中所涉及各阶导数均存在且连续。"
+          "stem": "取 $u=\\dfrac{x}{x^2+y^2}$，$v=\\dfrac{y}{x^2+y^2}$ 为新的自变量，变换方程 $\\dfrac{\\partial^2 z}{\\partial x^2}+\\dfrac{\\partial^2 z}{\\partial y^2}=0$，其中所涉及的各阶导数均存在且连续。"
         }
       ]
     },
@@ -135,127 +137,160 @@
       "year": "2026",
       "subject": "高等代数",
       "header_note": "18. 东华大学 2026 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247537267_5.png"],
+      "source_imgs": [
+        "work/imgs/2247537267_5.png",
+        "work/imgs/2247537267_6.png"
+      ],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "",
+          "section_instruction": "（14 分）",
           "no": "1",
           "score": 14,
-          "form": "综合",
+          "form": "计算",
           "l1": "矩阵与线性方程组",
-          "l2": "秩",
-          "stem": "设 $K^n$ 中向量 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关, $c\\in K$, 向量组\n$$\\beta_1=\\alpha_1+c\\alpha_2,\\ \\beta_2=\\alpha_2+c\\alpha_3,\\ \\cdots,\\ \\beta_{n-1}=\\alpha_{n-1}+c\\alpha_n,\\ \\beta_n=\\alpha_n+c\\alpha_1.$$\n求使向量组 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 线性无关的 $c$ 的值。"
+          "l2": "行列式",
+          "stem": "设 $K^n$ 中向量 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关，$c\\in K$，向量组\n$$\\beta_1=\\alpha_1+c\\alpha_2,\\ \\beta_2=\\alpha_2+c\\alpha_3,\\ \\cdots,\\ \\beta_{n-1}=\\alpha_{n-1}+c\\alpha_n,\\ \\beta_n=\\alpha_n+c\\alpha_1.$$\n求使向量组 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 线性无关的 $c$ 的值。"
         },
         {
           "section": "二",
-          "section_instruction": "解答如下问题",
+          "section_instruction": "（21 分）解答如下问题：",
           "no": "1",
           "score": 7,
           "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "",
-          "stem": "给定数域 $K$ 上的对角矩阵\n$$A=\\begin{pmatrix} \\lambda_1 & & & \\\\ & \\lambda_2 & & \\\\ & & \\ddots & \\\\ & & & \\lambda_n \\end{pmatrix}.$$\n其中 $\\lambda_i\\ne\\lambda_j$ $(i\\ne j)$, 求与 $A$ 可交换的数域 $K$ 上的所有 $n$ 阶方阵。"
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "给定数域 $K$ 上的对角矩阵\n$$A=\\begin{pmatrix}\\lambda_1 & & & \\\\ & \\lambda_2 & & \\\\ & & \\ddots & \\\\ & & & \\lambda_n\\end{pmatrix}.$$\n其中 $\\lambda_i\\ne\\lambda_j$ $(i\\ne j)$，求与 $A$ 可交换的数域 $K$ 上的所有 $n$ 阶方阵。"
         },
         {
           "section": "二",
-          "section_instruction": "解答如下问题",
+          "section_instruction": "（21 分）解答如下问题：",
           "no": "2",
           "score": 14,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "可对角化",
-          "stem": "设 $A,B$ 是数域 $K$ 上的 $n$ 阶矩阵, $A$ 有 $n$ 个互不相同的特征值, $AB=BA$, 证明: $A,B$ 可同时对角化。"
+          "stem": "设 $A,B$ 是数域 $K$ 上的 $n$ 阶矩阵，$A$ 有 $n$ 个互不相同的特征值，$AB=BA$，证明：$A,B$ 可同时对角化。"
         },
         {
           "section": "三",
-          "section_instruction": "",
+          "section_instruction": "（15 分）设 $A=\\begin{pmatrix}2 & 1 & 1 & -1\\\\ 1 & -1 & 2 & 1\\\\ 1 & 3 & -2 & 1\\end{pmatrix}$，$B=\\begin{pmatrix}2a+b\\\\ a-b\\\\ c\\end{pmatrix}$，$X=\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\\\ x_4\\end{pmatrix}$。",
           "no": "1",
           "score": 9,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $A=\\begin{pmatrix} 2 & 1 & 1 & -1 \\\\ 1 & -1 & 2 & 1 \\\\ 1 & 3 & -2 & 1 \\end{pmatrix}$，$B=\\begin{pmatrix} 2a+b \\\\ a-b \\\\ c \\end{pmatrix}$，$X=\\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\\\ x_4 \\end{pmatrix}$。\n更改 $A$ 中的一个数得到矩阵 $C$, 使得齐次线性方程组 $CX=0$ 的基础解系含有 2 个向量。"
+          "stem": "设 $A=\\begin{pmatrix}2 & 1 & 1 & -1\\\\ 1 & -1 & 2 & 1\\\\ 1 & 3 & -2 & 1\\end{pmatrix}$，$X=\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\\\ x_4\\end{pmatrix}$。更改 $A$ 中的一个数得到矩阵 $C$，使得齐次线性方程组 $CX=0$ 的基础解系含有 2 个向量。"
         },
         {
           "section": "三",
-          "section_instruction": "",
+          "section_instruction": "（15 分）设 $A=\\begin{pmatrix}2 & 1 & 1 & -1\\\\ 1 & -1 & 2 & 1\\\\ 1 & 3 & -2 & 1\\end{pmatrix}$，$B=\\begin{pmatrix}2a+b\\\\ a-b\\\\ c\\end{pmatrix}$，$X=\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\\\ x_4\\end{pmatrix}$。",
           "no": "2",
           "score": 6,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $A=\\begin{pmatrix} 2 & 1 & 1 & -1 \\\\ 1 & -1 & 2 & 1 \\\\ 1 & 3 & -2 & 1 \\end{pmatrix}$，$B=\\begin{pmatrix} 2a+b \\\\ a-b \\\\ c \\end{pmatrix}$，$X=\\begin{pmatrix} x_1 \\\\ x_2 \\\\ x_3 \\\\ x_4 \\end{pmatrix}$。\n求 $a,b,c$, 使线性方程组 $AX=B$ 有解 $x_1=1, x_2=a, x_3=b, x_4=c$。"
+          "stem": "设 $A=\\begin{pmatrix}2 & 1 & 1 & -1\\\\ 1 & -1 & 2 & 1\\\\ 1 & 3 & -2 & 1\\end{pmatrix}$，$B=\\begin{pmatrix}2a+b\\\\ a-b\\\\ c\\end{pmatrix}$，$X=\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\\\ x_4\\end{pmatrix}$。求 $a,b,c$，使线性方程组 $AX=B$ 有解 $x_1=1$，$x_2=a$，$x_3=b$，$x_4=c$。"
         },
         {
           "section": "四",
-          "section_instruction": "设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵",
+          "section_instruction": "（25 分）设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵.",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵。证明: $r(A)\\le 1$ 当且仅当存在列向量 $\\alpha\\in K^{m},\\beta\\in K^{n}$, 使得 $A=\\alpha\\beta^{\\mathrm{T}}$。"
+          "stem": "设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵。证明：$r(A)\\le 1$ 当且仅当存在列向量 $\\alpha\\in K^{m}$，$\\beta\\in K^{n}$，使得 $A=\\alpha\\beta^{\\mathrm{T}}$。"
         },
         {
           "section": "四",
-          "section_instruction": "设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵",
+          "section_instruction": "（25 分）设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵.",
           "no": "2",
           "score": 15,
           "form": "证明",
           "l1": "矩阵与线性方程组",
-          "l2": "秩",
-          "stem": "设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵。证明: $r(A)=r$ 当且仅当存在两个线性无关的列向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 和 $\\beta_1,\\beta_2,\\cdots,\\beta_r$, 使得 $A=\\alpha_1\\beta_1^{\\mathrm{T}}+\\alpha_2\\beta_2^{\\mathrm{T}}+\\cdots+\\alpha_r\\beta_r^{\\mathrm{T}}$。"
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 是数域 $K$ 上的 $m\\times n$ 矩阵。证明：$r(A)=r$ 当且仅当存在两个线性无关的列向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 和 $\\beta_1,\\beta_2,\\cdots,\\beta_r$，使得 $A=\\alpha_1\\beta_1^{\\mathrm{T}}+\\alpha_2\\beta_2^{\\mathrm{T}}+\\cdots+\\alpha_r\\beta_r^{\\mathrm{T}}$。"
         },
         {
           "section": "五",
-          "section_instruction": "设 $B=\\begin{pmatrix} 1 & 2026 & 1 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix}$",
+          "section_instruction": "（15 分）设 $B=\\begin{pmatrix}1 & 2026 & 1\\\\ 0 & 1 & 1\\\\ 0 & 0 & 1\\end{pmatrix}$.",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "设 $B=\\begin{pmatrix} 1 & 2026 & 1 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix}$。求可逆矩阵 $T$, 使得 $T^{-1}BT=J$ 为 Jordan 标准形。"
+          "stem": "设 $B=\\begin{pmatrix}1 & 2026 & 1\\\\ 0 & 1 & 1\\\\ 0 & 0 & 1\\end{pmatrix}$。求可逆矩阵 $T$，使得 $T^{-1}BT=J$ 为 Jordan 标准形。"
         },
         {
           "section": "五",
-          "section_instruction": "设 $B=\\begin{pmatrix} 1 & 2026 & 1 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix}$",
+          "section_instruction": "（15 分）设 $B=\\begin{pmatrix}1 & 2026 & 1\\\\ 0 & 1 & 1\\\\ 0 & 0 & 1\\end{pmatrix}$.",
           "no": "2",
           "score": 5,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "矩阵多项式",
-          "stem": "设 $B=\\begin{pmatrix} 1 & 2026 & 1 \\\\ 0 & 1 & 1 \\\\ 0 & 0 & 1 \\end{pmatrix}$。证明: 矩阵方程组 $X^2+E=B$ 无解, 其中 $E$ 是单位矩阵。"
+          "stem": "设 $B=\\begin{pmatrix}1 & 2026 & 1\\\\ 0 & 1 & 1\\\\ 0 & 0 & 1\\end{pmatrix}$。证明：矩阵方程组 $X^2+E=B$ 无解，其中 $E$ 是单位矩阵。"
         },
         {
           "section": "六",
-          "section_instruction": "解答如下问题",
+          "section_instruction": "（15 分）解答如下问题：",
           "no": "1",
           "score": 8,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $M=\\begin{pmatrix} A & B \\\\ C & D \\end{pmatrix}$, 其中 $A,B,C,D$ 均是 $n$ 阶方阵, 且 $A$ 可逆, $AB=BA$, 证明:\n$$|M|=|DA-CB|.$$"
+          "stem": "设 $M=\\begin{pmatrix}A & B\\\\ C & D\\end{pmatrix}$，其中 $A,B,C,D$ 均是 $n$ 阶方阵，且 $A$ 可逆，$AB=BA$，证明：\n$$|M|=|DA-CB|.$$"
         },
         {
           "section": "六",
-          "section_instruction": "解答如下问题",
+          "section_instruction": "（15 分）解答如下问题：",
           "no": "2",
           "score": 7,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $A,B,C$ 都是有理数域上的 $n$ 阶方阵, $E$ 是 $n$ 阶单位矩阵, $M=\\begin{pmatrix} kE & A \\\\ B & C \\end{pmatrix}$, 若对任意正整数 $k$ 有 $|M|=0$, 证: 必有 $|C|=0$。"
+          "stem": "设 $A,B,C$ 都是有理数域上的 $n$ 阶方阵，$E$ 是 $n$ 阶单位矩阵，$M=\\begin{pmatrix}kE & A\\\\ B & C\\end{pmatrix}$，若对任意正整数 $k$ 有 $|M|=0$，证：必有 $|C|=0$。"
         },
         {
           "section": "七",
-          "section_instruction": "设 $\\mathscr{A},\\mathscr{B}$ 和 $\\mathscr{A}_1,\\mathscr{A}_2,\\cdots,\\mathscr{A}_s$ 是 $n$ 维线性空间 $V$ 上的线性变换, $\\mathscr{E}$ 是 $V$ 上的单位变换",
+          "section_instruction": "（20 分）设 $\\mathscr{A},\\mathscr{B}$ 和 $\\mathscr{A}_1,\\mathscr{A}_2,\\cdots,\\mathscr{A}_s$ 是 $n$ 维线性空间 $V$ 上的线性变换，$\\mathscr{E}$ 是 $V$ 上的单位变换.",
           "no": "1",
           "score": 8,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $\\mathscr{A},\\mathscr{B}$ 和 $\\mathscr{A}_1,\\mathscr{A}_2,\\cdots,\\mathscr{A}_s$ 是 $n$ 维线性空间 $V$ 上的线性变换, $\\mathscr{E}$ 是 $V$ 上的单位变换。若 $\\mathscr{A},\\mathscr{B}$ 是幂等变换, 即 $\\mathscr{A}^2=\\mathscr{A},\\mathscr{B}^2=\\mathscr{B}$, 证明: $\\mathscr{A}+\\mathscr{B}$ 是幂等变换的充要条件是\n$$\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}=\\mathscr{O}.$$"
+          "stem": "设 $\\mathscr{A},\\mathscr{B}$ 是 $n$ 维线性空间 $V$ 上的线性变换。若 $\\mathscr{A},\\mathscr{B}$ 是幂等变换，即 $\\mathscr{A}^2=\\mathscr{A}$，$\\mathscr{B}^2=\\mathscr{B}$，证明：$\\mathscr{A}+\\mathscr{B}$ 是幂等变换的充要条件是\n$$\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}=\\mathscr{O}.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）设 $\\mathscr{A},\\mathscr{B}$ 和 $\\mathscr{A}_1,\\mathscr{A}_2,\\cdots,\\mathscr{A}_s$ 是 $n$ 维线性空间 $V$ 上的线性变换，$\\mathscr{E}$ 是 $V$ 上的单位变换.",
+          "no": "2",
+          "score": 12,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\mathscr{A}_1,\\mathscr{A}_2,\\cdots,\\mathscr{A}_s$ 是 $n$ 维线性空间 $V$ 上的线性变换，$\\mathscr{E}$ 是 $V$ 上的单位变换。若 $\\mathscr{A}_1+\\mathscr{A}_2+\\cdots+\\mathscr{A}_s=\\mathscr{E}$，$r(\\mathscr{A}_1)+r(\\mathscr{A}_2)+\\cdots+r(\\mathscr{A}_s)=n$，其中 $r(\\mathscr{A}_i)$ 表示 $\\mathscr{A}_i$ 的矩阵的秩，证明：$\\mathscr{A}_i$ 都是幂等变换，且 $\\mathscr{A}_i\\mathscr{A}_j=\\mathscr{O}$ $(1\\le i\\ne j\\le s)$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（25 分）设线性空间 $V=M_n(\\mathbb{R})$，即实数域上 $n$ 阶方阵全体，给定 $A\\in V$，且 $A^{\\mathrm{T}}=A$，对任意的 $X,Y\\in V$，定义二元函数 $f:V\\times V\\to\\mathbb{R}$，$f(X,Y)=\\operatorname{Tr}(X^{\\mathrm{T}}AY)$，$\\operatorname{Tr}$ 表示矩阵的迹.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设线性空间 $V=M_n(\\mathbb{R})$，即实数域上 $n$ 阶方阵全体，给定 $A\\in V$，且 $A^{\\mathrm{T}}=A$，对任意的 $X,Y\\in V$，定义二元函数 $f:V\\times V\\to\\mathbb{R}$，$f(X,Y)=\\operatorname{Tr}(X^{\\mathrm{T}}AY)$，$\\operatorname{Tr}$ 表示矩阵的迹。证明：若 $A$ 是正定矩阵，则 $f(X,Y)$ 成为 $V$ 上的内积。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（25 分）设线性空间 $V=M_n(\\mathbb{R})$，即实数域上 $n$ 阶方阵全体，给定 $A\\in V$，且 $A^{\\mathrm{T}}=A$，对任意的 $X,Y\\in V$，定义二元函数 $f:V\\times V\\to\\mathbb{R}$，$f(X,Y)=\\operatorname{Tr}(X^{\\mathrm{T}}AY)$，$\\operatorname{Tr}$ 表示矩阵的迹.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设线性空间 $V=M_n(\\mathbb{R})$，即实数域上 $n$ 阶方阵全体，给定 $A\\in V$，且 $A^{\\mathrm{T}}=A$，对任意的 $X,Y\\in V$，定义二元函数 $f:V\\times V\\to\\mathbb{R}$，$f(X,Y)=\\operatorname{Tr}(X^{\\mathrm{T}}AY)$，$\\operatorname{Tr}$ 表示矩阵的迹。若 $A$ 是半正定或半负定矩阵，证明：$M=\\{X\\in V\\mid f(X,X)=0\\}$ 是 $V$ 的一个子空间，并求 $\\dim M$，举例说明若 $A$ 是不定矩阵，则 $M$ 不是线性空间。"
         }
       ]
     }

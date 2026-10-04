@@ -6,17 +6,20 @@
       "year": "2021",
       "subject": "数学分析",
       "header_note": "3. 天津大学 2021 年硕士研究生入学考试数学分析试卷",
-      "source_imgs": ["work/imgs/2247504380-2_4.png"],
+      "source_imgs": [
+        "work/imgs/2247504380-2_4.png",
+        "work/imgs/2247504380-2_5.jpg"
+      ],
       "questions": [
         {
           "section": "一",
           "section_instruction": "",
           "no": "1",
           "score": 8,
-          "form": "证明",
+          "form": "综合",
           "l1": "极限与连续",
-          "l2": "递推数列",
-          "stem": "设 $0<x_1<1$，$x_{n+1}=\\sin x_n$ $(n=1,2,\\cdots)$，证明 $\\lim\\limits_{n\\to\\infty} x_n$ 存在，并求该极限。"
+          "l2": "数列收敛性",
+          "stem": "设 $0<x_1<1$，$x_{n+1}=\\sin x_n$ $(n=1,2,\\cdots)$，证明 $\\lim\\limits_{n\\to\\infty}x_n$ 存在，并求该极限。"
         },
         {
           "section": "一",
@@ -36,7 +39,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "把函数 $f(x)=\\begin{cases} x^2, & 0\\le x<\\pi;\\\\ 0, & -\\pi<x<0. \\end{cases}$ 展开成 $[-\\pi,\\pi]$ 上的傅里叶级数，并写出该傅里叶级数在 $[-\\pi,\\pi]$ 上的和函数。"
+          "stem": "把函数 $f(x)=\\begin{cases}x^2, & 0\\le x<\\pi;\\\\ 0, & -\\pi<x<0.\\end{cases}$ 展开成 $[-\\pi,\\pi]$ 上的傅里叶级数，并写出该傅里叶级数在 $[-\\pi,\\pi]$ 上的和函数。"
         },
         {
           "section": "一",
@@ -56,7 +59,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲面积分",
-          "stem": "设 $\\Sigma$ 是单位球面 $x^2+y^2+z^2=1$ 限制在 $\\{(x,y,z)\\mid x\\ge 0,\\, y\\ge 0,\\, z\\ge 0\\}$ 的部分，求曲面积分\n$$I=\\iint_{\\Sigma}[x^2+(y^2z^2+z^2x^2+x^2y^2)xyz]\\,\\mathrm{d}S.$$"
+          "stem": "设 $\\Sigma$ 是单位球面 $x^2+y^2+z^2=1$ 限制在 $\\{(x,y,z)\\mid x\\ge 0,\\,y\\ge 0,\\,z\\ge 0\\}$ 的部分，求曲面积分\n$$I=\\iint_\\Sigma\\left[x^2+(y^2z^2+z^2x^2+x^2y^2)xyz\\right]\\mathrm{d}S.$$"
         },
         {
           "section": "一",
@@ -74,9 +77,9 @@
           "no": "7",
           "score": 12,
           "form": "证明",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "设 $0<a<b<+\\infty$，函数 $f(x)$ 在 $[a,b]$ 上连续非负，记 $M=\\sup\\limits_{x\\in[a,b]} f(x)$，证明\n$$\\lim_{n\\to\\infty}\\left(\\int_a^b (f(x))^n\\,\\mathrm{d}x\\right)^{\\frac{1}{n}}=M.$$"
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $0<a<b<+\\infty$，函数 $f(x)$ 在 $[a,b]$ 上连续非负，记 $M=\\sup\\limits_{x\\in[a,b]}f(x)$，证明\n$$\\lim\\limits_{n\\to\\infty}\\left(\\int_a^b (f(x))^n\\,\\mathrm{d}x\\right)^{\\frac{1}{n}}=M.$$"
         },
         {
           "section": "一",
@@ -86,17 +89,17 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "一致连续性",
-          "stem": "设一元函数 $f(x)$ 在 $[0,+\\infty)$ 上连续可导，并设\n$$u(x_1,x_2,\\cdots,x_n)=f(x_1^2+x_2^2+\\cdots+x_n^2).$$\n若存在常数 $c\\ne 0$ 满足 $\\lim\\limits_{t\\to+\\infty} f'(t)=c$，证明 $u$ 在 $\\mathbb{R}^n$ 上不一致连续。"
+          "stem": "设一元函数 $f(x)$ 在 $[0,+\\infty)$ 上连续可导，并设\n$$u(x_1,x_2,\\cdots,x_n)=f(x_1^2+x_2^2+\\cdots+x_n^2).$$\n若存在常数 $c\\ne 0$ 满足 $\\lim\\limits_{t\\to+\\infty}f'(t)=c$，证明 $u$ 在 $\\mathbb{R}^n$ 上不一致连续。"
         },
         {
           "section": "一",
           "section_instruction": "",
           "no": "9",
           "score": 15,
-          "form": "综合",
+          "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "解答如下问题：\n(a) 求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^{4n+1}}{n(4n+1)}$ 的收敛域；\n(b) 计算级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n(4n+1)}$ 的值。"
+          "stem": "解答如下问题：\n(a) 求幂级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{x^{4n+1}}{n(4n+1)}$ 的收敛域；\n(b) 计算级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n(4n+1)}$ 的值。"
         },
         {
           "section": "一",
@@ -106,7 +109,7 @@
           "form": "综合",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "解答如下问题：\n(a) 证明广义积分 $\\displaystyle\\int_0^{+\\infty} e^{-x^2}\\sin(rx)\\,\\mathrm{d}x$ 关于 $r\\in[0,+\\infty)$ 一致收敛；\n(b) 计算极限 $\\lim\\limits_{r\\to+\\infty} r\\displaystyle\\int_0^{+\\infty} e^{-x^2}\\sin(rx)\\,\\mathrm{d}x$。"
+          "stem": "解答如下问题：\n(a) 证明广义积分 $\\int_0^{+\\infty}e^{-x^2}\\sin(rx)\\,\\mathrm{d}x$ 关于 $r\\in[0,+\\infty)$ 一致收敛；\n(b) 计算极限 $\\lim\\limits_{r\\to+\\infty}r\\int_0^{+\\infty}e^{-x^2}\\sin(rx)\\,\\mathrm{d}x$。"
         },
         {
           "section": "一",
@@ -116,7 +119,7 @@
           "form": "证明",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "证明如下结论。\n(a) 设 $\\Omega\\subseteq\\mathbb{R}^3$ 为边界分段光滑的有界闭区域，函数 $u,\\,v$ 在 $\\Omega$ 上具有二阶连续偏导数，证明\n$$\\iiint_{\\Omega}(u\\Delta v-v\\Delta u)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\iint_{\\partial\\Omega}\\left(u\\dfrac{\\partial v}{\\partial \\boldsymbol{n}}-v\\dfrac{\\partial u}{\\partial \\boldsymbol{n}}\\right)\\mathrm{d}S.$$\n其中 $\\boldsymbol{n}$ 为 $\\partial\\Omega$ 的单位外法向量，$\\Delta=\\dfrac{\\partial^2}{\\partial x^2}+\\dfrac{\\partial^2}{\\partial y^2}+\\dfrac{\\partial^2}{\\partial z^2}$。"
+          "stem": "证明如下结论。\n(a) 设 $\\Omega\\subseteq\\mathbb{R}^3$ 为边界分段光滑的有界闭区域，函数 $u$，$v$ 在 $\\Omega$ 上具有二阶连续偏导数，证明\n$$\\iiint_\\Omega(u\\Delta v-v\\Delta u)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\iint_{\\partial\\Omega}\\left(u\\dfrac{\\partial v}{\\partial\\mathbf{n}}-v\\dfrac{\\partial u}{\\partial\\mathbf{n}}\\right)\\mathrm{d}S,$$\n其中 $\\mathbf{n}$ 为 $\\partial\\Omega$ 的单位外法向量，$\\Delta=\\dfrac{\\partial^2}{\\partial x^2}+\\dfrac{\\partial^2}{\\partial y^2}+\\dfrac{\\partial^2}{\\partial z^2}$。\n(b) 设 $\\Omega$ 及 $u$ 满足 (a) 的条件，证明\n$$\\iiint_\\Omega\\Delta u\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\iint_{\\partial\\Omega}\\dfrac{\\partial u}{\\partial\\mathbf{n}}\\mathrm{d}S.$$\n(c) 证明：对任意非零的 $\\mathbf{x}\\in\\mathbb{R}^3$，有 $\\Delta(|\\mathbf{x}|^{-1})=0$，对任意非零的 $\\mathbf{x}\\in\\mathbb{R}^2$，有 $\\Delta(\\ln|\\mathbf{x}|)=0$。\n(d) 记单位球 $B=\\{(x,y,z)\\mid x^2+y^2+z^2\\le 1\\}$，设 $u$ 在 $B$ 上具有二阶连续偏导数，且 $\\Delta u=0$，证明\n$$u(0)=\\dfrac{1}{4\\pi}\\iint_{\\partial B}u\\,\\mathrm{d}S.$$"
         }
       ]
     },
@@ -125,7 +128,10 @@
       "year": "2021",
       "subject": "高等代数",
       "header_note": "4. 天津大学 2021 年硕士研究生入学考试高等代数试卷",
-      "source_imgs": ["work/imgs/2247504380-2_6.png"],
+      "source_imgs": [
+        "work/imgs/2247504380-2_6.png",
+        "work/imgs/2247504380-2_7.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -135,7 +141,7 @@
           "form": "计算",
           "l1": "多项式",
           "l2": "根与重因式",
-          "stem": "设 $\\alpha,\\,\\beta,\\,\\gamma$ 为多项式 $x^3-x+1$ 的三个根，求首一三次多项式 $f(x)$，使得其三个根分别为\n$$1+\\alpha^2,\\;1+\\beta^2,\\;1+\\gamma^2.$$"
+          "stem": "设 $\\alpha$，$\\beta$，$\\gamma$ 为多项式 $x^3-x+1$ 的三个根，求首一三次多项式 $f(x)$，使得其三个根分别为 $1+\\alpha^2$，$1+\\beta^2$，$1+\\gamma^2$。"
         },
         {
           "section": "一",
@@ -145,7 +151,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算行列式\n$$D_n=\\begin{vmatrix} a_1+x_1 & a_2 & a_3 & \\cdots & a_n\\\\ a_1 & a_2+x_2 & a_3 & \\cdots & a_n\\\\ a_1 & a_2 & a_3+x_3 & \\cdots & a_n\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ a_1 & a_2 & a_3 & \\cdots & a_n+x_n \\end{vmatrix}.$$"
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix}a_1+x_1 & a_2 & a_3 & \\cdots & a_n\\\\ a_1 & a_2+x_2 & a_3 & \\cdots & a_n\\\\ a_1 & a_2 & a_3+x_3 & \\cdots & a_n\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ a_1 & a_2 & a_3 & \\cdots & a_n+x_n\\end{vmatrix}.$$"
         },
         {
           "section": "一",
@@ -155,17 +161,17 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A,\\,B$ 分别为 $s\\times n$ 与 $n\\times m$ 阶矩阵。解答如下问题：\n(a) 证明：$\\operatorname{rank}(AB)=\\operatorname{rank}(B)$ 当且仅当 $ABX=0$ 的解都是 $BX=0$ 的解；\n(b) 设 $C$ 为 $m\\times r$ 矩阵，证明若 $\\operatorname{rank}(AB)=\\operatorname{rank}(B)$，则 $\\operatorname{rank}(ABC)=\\operatorname{rank}(BC)$；\n(c) 设 $D$ 为 $n$ 阶实方阵，$D'$ 表示 $D$ 的转置，证明\n$$\\operatorname{rank}(DD')=\\operatorname{rank}(D'D)=\\operatorname{rank}(D).$$\n并举例说明当 $D$ 为 $n$ 阶复方阵时，结论不成立。"
+          "stem": "设 $A$，$B$ 分别为 $s\\times n$ 与 $n\\times m$ 阶矩阵。解答如下问题：\n(a) 证明：$\\mathrm{rank}(AB)=\\mathrm{rank}(B)$ 当且仅当 $ABX=0$ 的解都是 $BX=0$ 的解；\n(b) 设 $C$ 为 $m\\times r$ 矩阵，证明若 $\\mathrm{rank}(AB)=\\mathrm{rank}(B)$，则 $\\mathrm{rank}(ABC)=\\mathrm{rank}(BC)$；\n(c) 设 $D$ 为 $n$ 阶实方阵，$D'$ 表示 $D$ 的转置，证明\n$$\\mathrm{rank}(DD')=\\mathrm{rank}(D'D)=\\mathrm{rank}(D),$$\n并举例说明当 $D$ 为 $n$ 阶复方阵时，结论不成立。"
         },
         {
           "section": "一",
           "section_instruction": "",
           "no": "4",
           "score": 20,
-          "form": "综合",
+          "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设三维线性空间 $V$ 上的线性变换 $T$ 在基 $e_1,\\,e_2,\\,e_3$ 下的矩阵为\n$$A=\\begin{pmatrix} 1 & -1 & 0\\\\ 1 & 2 & 3\\\\ -1 & 4 & 5 \\end{pmatrix}.$$\n(a) 求 $T$ 在基 $e_2,\\,e_3,\\,e_1$ 下的矩阵；\n(b) 求 $T$ 在基 $e_1-e_2,\\,2e_2,\\,e_3$ 下的矩阵。"
+          "stem": "设三维线性空间 $V$ 上的线性变换 $T$ 在基 $e_1$，$e_2$，$e_3$ 下的矩阵为\n$$A=\\begin{pmatrix}1 & -1 & 0\\\\ 1 & 2 & 3\\\\ -1 & 4 & 5\\end{pmatrix}.$$\n(a) 求 $T$ 在基 $e_2$，$e_3$，$e_1$ 下的矩阵；\n(b) 求 $T$ 在基 $e_1-e_2$，$2e_2$，$e_3$ 下的矩阵。"
         },
         {
           "section": "一",
@@ -175,7 +181,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_{2021}$ 为方程组 $AX=0$ 的基础解系，证明\n$$\\begin{cases} \\beta_1=\\alpha_1+\\alpha_2+\\cdots+\\alpha_{2021};\\\\ \\beta_2=2\\alpha_1+2^2\\alpha_2+\\cdots+2^{2021}\\alpha_{2021};\\\\ \\cdots\\cdots\\\\ \\beta_{2021}=2021\\alpha_1+2021^2\\alpha_2+\\cdots+2021^{2021}\\alpha_{2021}. \\end{cases}$$\n也是 $AX=0$ 的基础解系。"
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_{2021}$ 为方程组 $AX=0$ 的基础解系，证明\n$$\\begin{cases}\\beta_1=\\alpha_1+\\alpha_2+\\cdots+\\alpha_{2021};\\\\ \\beta_2=2\\alpha_1+2^2\\alpha_2+\\cdots+2^{2021}\\alpha_{2021};\\\\ \\cdots\\cdots\\\\ \\beta_{2021}=2021\\alpha_1+2021^2\\alpha_2+\\cdots+2021^{2021}\\alpha_{2021}.\\end{cases}$$\n也是 $AX=0$ 的基础解系。"
         },
         {
           "section": "一",
@@ -184,7 +190,7 @@
           "score": 20,
           "form": "综合",
           "l1": "矩阵与线性方程组",
-          "l2": "矩阵多项式",
+          "l2": "可逆性",
           "stem": "设 $A$ 为 $n$ 阶实方阵，满足 $A^2+4A+2021I=O$，其中 $I$ 表示 $n$ 阶单位矩阵。\n(a) 证明：对任意的实数 $a$，$A+aI$ 可逆；\n(b) 求 $A+2I$ 的逆和 $(A+2I)^{2024}$。"
         },
         {
@@ -193,8 +199,8 @@
           "no": "7",
           "score": 15,
           "form": "综合",
-          "l1": "矩阵与线性方程组",
-          "l2": "幂等矩阵",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
           "stem": "设 $A$ 为 $n$ 阶实方阵，并且满足 $A^2=A$。\n(a) 求 $A$ 的特征值；\n(b) 证明 $A$ 与对角矩阵相似。"
         },
         {
@@ -202,10 +208,30 @@
           "section_instruction": "",
           "no": "8",
           "score": 15,
-          "form": "综合",
-          "l1": "未分类",
-          "l2": "",
-          "stem": "设 $I$ 表示 $n$ 阶单位矩阵。【?】"
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "设 $I$ 表示 $n$ 阶单位矩阵。\n(a) 求矩阵 $\\begin{pmatrix}O & I\\\\ I & O\\end{pmatrix}$ 对应二次型的正负惯性指数；\n(b) 设 $A$ 为 $n$ 阶实可逆矩阵，求矩阵 $\\begin{pmatrix}O & A\\\\ A' & O\\end{pmatrix}$ 对应二次型的正负惯性指数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 为欧氏空间 $\\mathbb{R}^n$ 的两组向量，并且对任意的 $1\\le i,j\\le m$，有 $(\\alpha_i,\\alpha_j)=(\\beta_i,\\beta_j)$。证明\n(a) 向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 的秩相同；\n(b) 存在 $\\mathbb{R}^n$ 上的正交变换 $O$，使得对任意的 $i=1,2,\\cdots,m$，都有 $O(\\alpha_i)=\\beta_i$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V_1,V_2,\\cdots,V_s$ 是实数域上线性空间 $V$ 的 $s$ 个真子空间，证明：$V$ 中至少有一个向量 $v$ 不属于 $V_1,V_2,\\cdots,V_s$ 中的任何一个。"
         }
       ]
     }

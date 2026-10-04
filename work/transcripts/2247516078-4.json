@@ -1,0 +1,114 @@
+{
+  "msgid": "2247516078-4",
+  "exams": [
+    {
+      "school": "华东理工大学",
+      "year": "2023",
+      "subject": "数学分析",
+      "header_note": "20. 华东理工大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516078-4_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{e^{\\alpha x^2}\\cos^{2\\alpha}x-1}{x^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "求极限.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}n^2\\left(\\arcsin\\dfrac{a}{n}-\\arcsin\\dfrac{a}{n+1}\\right)$ $(a\\neq 0)$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "交换积分次序",
+          "stem": "已知 $f(x,y)$ 为二元连续函数，交换累次积分 $\\int_0^{\\pi}\\mathrm{d}x\\int_{-\\sin\\frac{x}{2}}^{\\sin x}f(x,y)\\,\\mathrm{d}y$ 的顺序，使其值保持不变."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\sum\\limits_{n=1}^{\\infty}\\left(1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}\\right)^{-1}x^n$ 的收敛域."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "已知 $f(x)$ 在 $\\mathbb{R}$ 上连续，$h>0$，记 $F(x)=\\dfrac{1}{h^2}\\displaystyle\\int_0^h\\mathrm{d}s\\int_0^h f(x+s+t)\\,\\mathrm{d}t$，求 $F''(x)$."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "给定曲面 $f(ax-bz,\\,ay-cz)=0$，其中 $f$ 具有连续的偏导数，$a,b,c$ 是不同时为 $0$ 的常数. 证明：曲面在任意点处的切平面与某一定直线平行."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "将函数 $f(x,y)=\\dfrac{y}{x}$ 在点 $(1,1)$ 处展开为带 Peano 型余项的 Taylor 公式至三次项."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 在 $(0,+\\infty)$ 上可导，且 $\\lim\\limits_{x\\to+\\infty}\\left[f(x)+xf'(x)\\right]\\ln x=a$，证明：$\\lim\\limits_{x\\to+\\infty}f(x)=a$."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "(可能有误) 设 $\\Gamma$ 是平面上过原点的简单光滑闭曲线，$L_\\varepsilon$ 是以原点为圆心，半径为 $\\varepsilon$ 的圆周，$\\Gamma_\\varepsilon$ 表示 $\\Gamma$ 上截取含在 $L_\\varepsilon$ 中的曲线段得到的曲线，取正向. 求极限 $\\lim\\limits_{\\varepsilon\\to 0^+}\\displaystyle\\int_{\\Gamma_\\varepsilon}\\dfrac{x\\,\\mathrm{d}y-y\\,\\mathrm{d}x}{x^2+y^2}$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "已知 $f(x)$ 在 $(0,1]$ 上可导，且极限 $\\lim\\limits_{x\\to 0^+}\\sqrt{x}f'(x)$ 存在. 证明：$f(x)$ 在 $(0,1]$ 上一致连续."
+        }
+      ]
+    }
+  ]
+}

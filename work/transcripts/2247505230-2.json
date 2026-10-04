@@ -26,7 +26,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "数列收敛性",
-          "stem": "版本一：已知数列 $\\{x_n\\}$ 满足：对于任意正整数 $n$，有\n$$|x_2-x_1|+|x_3-x_2|+\\cdots+|x_n-x_{n-1}|\\le M.$$\n其中 $M$ 为固定的正数。证明：$\\{x_n\\}$ 收敛。\n版本二：若数列 $\\{x_n\\}$ 满足 $|x_{n+1}-x_n|\\le q|x_n-x_{n-1}|$ $(0<q<1)$，证明 $\\{x_n\\}$ 收敛。"
+          "stem": "版本一：已知数列 $\\{x_n\\}$ 满足：对于任意正整数 $n$，有\n$$|x_2-x_1|+|x_3-x_2|+\\cdots+|x_n-x_{n-1}|\\le M.$$\n其中 $M$ 为固定的正数。证明：$\\{x_n\\}$ 收敛。\n版本二：若数列 $\\{x_n\\}$ 满足 $|x_{n+1}-x_n|\\le q|x_n-x_{n-1}|$（$0<q<1$），证明 $\\{x_n\\}$ 收敛。"
         },
         {
           "section": "三",
@@ -36,7 +36,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "连续与极限概念判断",
-          "stem": "定义函数\n$$R(x)=\\begin{cases}\\dfrac{1},&x=\\dfrac{m}{n},\\ m\\in\\mathbb{Z}\\backslash\\{0\\},\\ n\\in\\mathbb{N}^+,\\ (m,n)=1;\\\\[2pt]1,&x=0;\\\\[2pt]0,&x\\in\\mathbb{R}\\backslash\\mathbb{Q}.\\end{cases}$$\n证明：$R(x)$ 在任意有理点处不连续，在任意无理点处连续。"
+          "stem": "定义函数\n$$R(x)=\\begin{cases}\\dfrac{1}{n},& x=\\dfrac{m}{n},\\ m\\in\\mathbb{Z}\\setminus\\{0\\},\\ n\\in\\mathbb{N}^+,\\ (m,n)=1;\\\\ 1,& x=0;\\\\ 0,& x\\in\\mathbb{R}\\setminus\\mathbb{Q}.\\end{cases}$$\n证明：$R(x)$ 在任意有理点处不连续，在任意无理点处连续。"
         },
         {
           "section": "四",
@@ -54,8 +54,8 @@
           "no": "1",
           "score": null,
           "form": "证明",
-          "l1": "级数",
-          "l2": "函数项级数",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
           "stem": "设函数列 $\\{f_n(x)\\}$ 的每一项在 $(-\\infty,+\\infty)$ 上一致连续，且 $\\{f_n(x)\\}$ 在 $(-\\infty,+\\infty)$ 上一致收敛于 $f(x)$，证明：$f(x)$ 在 $(-\\infty,+\\infty)$ 上一致连续。"
         },
         {
@@ -66,7 +66,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "设正项级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 收敛，且 $\\{na_n\\}$ 单调递减，证明：$\\lim\\limits_{n\\to\\infty}na_n\\ln n=0$。"
+          "stem": "设正项级数 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 收敛，且 $\\{na_n\\}$ 单调递减，证明：$\\displaystyle\\lim_{n\\to\\infty} na_n\\ln n=0$。"
         },
         {
           "section": "七",
@@ -84,9 +84,9 @@
           "no": "1",
           "score": null,
           "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "证明等式 $\\displaystyle\\int_0^1\\dfrac{1}{x^x}\\,\\mathrm{d}x=\\sum_{n=1}^{\\infty}\\dfrac{1}{n^n}$。"
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "证明等式 $\\displaystyle\\int_0^1 \\dfrac{1}{x^x}\\,\\mathrm{d}x=\\sum_{n=1}^{\\infty}\\dfrac{1}{n^n}$。"
         },
         {
           "section": "九",
@@ -100,13 +100,13 @@
         },
         {
           "section": "十",
-          "section_instruction": "计算",
+          "section_instruction": "",
           "no": "1",
           "score": null,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算\n$$\\iint_{\\Sigma}yz\\,\\mathrm{d}z\\mathrm{d}x.$$\n其中 $\\Sigma$ 为 $x^2+y^2+z^2-1=0$ 的上半部分，方向取外侧。"
+          "stem": "计算\n$$\\iint_{\\Sigma} yz\\,\\mathrm{d}z\\,\\mathrm{d}x,$$\n其中 $\\Sigma$ 为 $x^2+y^2+z^2-1=0$ 的上半部分，方向取外侧。"
         },
         {
           "section": "十一",
@@ -126,7 +126,17 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "已知 $F(y)=\\displaystyle\\int_1^{+\\infty}\\dfrac{x\\sin xy}{1+x^p}\\,\\mathrm{d}x$ $(p>0)$。证明：\n1. 当 $0<p\\le 2$ 时，$F(y)$ 在 $(0,+\\infty)$ 上非一致收敛；\n2. 当 $p>2$ 时，$F(y)$ 在 $(0,+\\infty)$ 上一致收敛。"
+          "stem": "已知 $F(y)=\\displaystyle\\int_1^{+\\infty}\\dfrac{x\\sin xy}{1+x^p}\\,\\mathrm{d}x$（$p>0$）。证明：当 $0<p\\le 2$ 时，$F(y)$ 在 $(0,+\\infty)$ 上非一致收敛。"
+        },
+        {
+          "section": "十二",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "已知 $F(y)=\\displaystyle\\int_1^{+\\infty}\\dfrac{x\\sin xy}{1+x^p}\\,\\mathrm{d}x$（$p>0$）。证明：当 $p>2$ 时，$F(y)$ 在 $(0,+\\infty)$ 上一致收敛。"
         }
       ]
     },
@@ -144,8 +154,8 @@
           "score": null,
           "form": "证明",
           "l1": "多项式",
-          "l2": "最小公倍式",
-          "stem": "对于任意非零多项式 $f(x)$，$h(x)$，$g(x)\\in P[x]$，证明：\n$$[f(x),(g(x),h(x))]=([f(x),g(x)],[f(x),h(x)])\\,.$$"
+          "l2": "互素与最大公因式",
+          "stem": "对于任意非零多项式 $f(x)$，$h(x)$，$g(x)\\in P[x]$，证明：\n$$[f(x),(g(x),h(x))]=\\left([f(x),g(x)],[f(x),h(x)]\\right).$$"
         },
         {
           "section": "二",
@@ -155,27 +165,57 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $n$ 阶矩阵\n$$A=\\begin{pmatrix}1&1&\\cdots&1\\\\&1&\\cdots&1\\\\&&\\ddots&\\vdots\\\\&&&1\\end{pmatrix}.$$\n其中 $A_{ij}$ 为元素 $a_{ij}$ 对应的代数余子式。\n1. 求 $2A_{11}+2^2A_{12}+\\cdots+2^nA_{1n}$ 的值；\n2. 求 $|A|$ 的所有代数余子式之和。"
+          "stem": "设 $n$ 阶矩阵\n$$A=\\begin{pmatrix}1&1&\\cdots&1\\\\ &1&\\cdots&1\\\\ &&\\ddots&\\vdots\\\\ &&&1\\end{pmatrix},$$\n其中 $A_{ij}$ 为元素 $a_{ij}$ 对应的代数余子式。求 $2A_{11}+2^2A_{12}+\\cdots+2^nA_{1n}$ 的值。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $n$ 阶矩阵\n$$A=\\begin{pmatrix}1&1&\\cdots&1\\\\ &1&\\cdots&1\\\\ &&\\ddots&\\vdots\\\\ &&&1\\end{pmatrix},$$\n其中 $A_{ij}$ 为元素 $a_{ij}$ 对应的代数余子式。求 $|A|$ 的所有代数余子式之和。"
         },
         {
           "section": "三",
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "综合",
+          "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "已知 $P[x]_3$ 上的两组基分别为\n$$(\\mathrm{I}):\\ f_1(x)=1+2x^2,\\ f_2(x)=x+2x^2,\\ f_3(x)=1+2x+5x^2.$$\n和\n$$(\\mathrm{II}):\\ g_1(x)=1-x,\\ g_2(x)=1+x^2,\\ g_3(x)=x+2x^2.$$\n且 $\\mathscr{A}(f_1(x))=2+x^2$，$\\mathscr{A}(f_2(x))=x$，$\\mathscr{A}(f_3(x))=1+x+x^2$。\n1. 求 $\\mathscr{A}$ 在基 II 下的矩阵；\n2. 已知 $f(x)=1+2x+3x^2$，求 $\\mathscr{A}(f(x))$。"
+          "stem": "已知 $P[x]_3$ 上的两组基分别为\n$(\\mathrm{I}):\\ f_1(x)=1+2x^2,\\ f_2(x)=x+2x^2,\\ f_3(x)=1+2x+5x^2$。\n和\n$(\\mathrm{II}):\\ g_1(x)=1-x,\\ g_2(x)=1+x^2,\\ g_3(x)=x+2x^2$。\n且 $\\mathscr{A}(f_1(x))=2+x^2$，$\\mathscr{A}(f_2(x))=x$，$\\mathscr{A}(f_3(x))=1+x+x^2$。求 $\\mathscr{A}$ 在基 II 下的矩阵。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $P[x]_3$ 上的两组基分别为\n$(\\mathrm{I}):\\ f_1(x)=1+2x^2,\\ f_2(x)=x+2x^2,\\ f_3(x)=1+2x+5x^2$。\n和\n$(\\mathrm{II}):\\ g_1(x)=1-x,\\ g_2(x)=1+x^2,\\ g_3(x)=x+2x^2$。\n且 $\\mathscr{A}(f_1(x))=2+x^2$，$\\mathscr{A}(f_2(x))=x$，$\\mathscr{A}(f_3(x))=1+x+x^2$。已知 $f(x)=1+2x+3x^2$，求 $\\mathscr{A}(f(x))$。"
         },
         {
           "section": "四",
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "综合",
+          "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "设矩阵 $A=(a_{ij})_{n\\times n}$ 满足 $\\displaystyle\\sum_{i=1}^{n}a_{ij}=1$ $(j=1,2,\\cdots,n)$。\n1. 证明：$A$ 必有特征值 1；\n2. 设 $\\alpha_0$ 为 $A$ 的特征值 $\\lambda_0$ 对应的特征向量，且 $\\lambda_0\\ne 1$，证明：$\\alpha_0$ 的所有分量之和为 0。"
+          "stem": "设矩阵 $A=(a_{ij})_{n\\times n}$ 满足 $\\displaystyle\\sum_{i=1}^{n} a_{ij}=1$（$j=1,2,\\cdots,n$）。证明：$A$ 必有特征值 $1$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设矩阵 $A=(a_{ij})_{n\\times n}$ 满足 $\\displaystyle\\sum_{i=1}^{n} a_{ij}=1$（$j=1,2,\\cdots,n$）。设 $\\alpha_0$ 为 $A$ 的特征值 $\\lambda_0$ 对应的特征向量，且 $\\lambda_0\\ne 1$，证明：$\\alpha_0$ 的所有分量之和为 $0$。"
         },
         {
           "section": "五",
@@ -205,7 +245,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "相似",
-          "stem": "已知复数域上的两个 $n$ 阶矩阵\n$$A=\\begin{pmatrix}0&1&&&&\\\\&0&1&&&\\\\&&\\ddots&\\ddots&&\\\\&&&0&1\\\\1&&&&&0\\end{pmatrix},\\quad B=\\begin{pmatrix}\\xi_1&&&&\\\\&\\xi_2&&&\\\\&&\\ddots&\\\\&&&\\xi_n\\end{pmatrix}.$$\n其中 $\\xi_i$ $(i=1,2,\\cdots,n)$ 为全部 $n$ 次单位根，证明：$A$ 与 $B$ 相似。"
+          "stem": "已知复数域上的两个 $n$ 阶矩阵\n$$A=\\begin{pmatrix}0&1&&&\\\\ &0&1&&\\\\ &&\\ddots&\\ddots&\\\\ &&&0&1\\\\ 1&&&&0\\end{pmatrix},\\quad B=\\begin{pmatrix}\\xi_1&&&&\\\\ &\\xi_2&&&\\\\ &&\\ddots&&\\\\ &&&\\xi_n&\\end{pmatrix},$$\n其中 $\\xi_i$（$i=1,2,\\cdots,n$）为全部 $n$ 次单位根，证明：$A$ 与 $B$ 相似。"
         },
         {
           "section": "八",
@@ -213,9 +253,9 @@
           "no": "1",
           "score": null,
           "form": "证明",
-          "l1": "矩阵与线性方程组",
-          "l2": "矩阵多项式",
-          "stem": "若 $A$ 为 $n\\times n$ 的半正定矩阵，$B$ 为 $n\\times n$ 的实矩阵。若存在自然数 $s$，使得 $A^sB=BA^s$，证明：\n$$AB=BA\\,.$$"
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "若 $A$ 为 $n\\times n$ 的半正定矩阵，$B$ 为 $n\\times n$ 的实矩阵。若存在自然数 $s$，使得 $A^sB=BA^s$，证明：\n$$AB=BA.$$"
         }
       ]
     }

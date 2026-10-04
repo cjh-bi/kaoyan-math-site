@@ -74,7 +74,7 @@
     {
      "section": "二",
      "section_instruction": "(6 × 5 = 30 分)填空题.",
-     "no": "7",
+     "no": "1",
      "score": 5,
      "form": "填空",
      "l1": "极限与连续",
@@ -84,7 +84,7 @@
     {
      "section": "二",
      "section_instruction": "(6 × 5 = 30 分)填空题.",
-     "no": "8",
+     "no": "2",
      "score": 5,
      "form": "填空",
      "l1": "一元微分学",
@@ -94,7 +94,7 @@
     {
      "section": "二",
      "section_instruction": "(6 × 5 = 30 分)填空题.",
-     "no": "9",
+     "no": "3",
      "score": 5,
      "form": "填空",
      "l1": "一元积分学",
@@ -104,7 +104,7 @@
     {
      "section": "二",
      "section_instruction": "(6 × 5 = 30 分)填空题.",
-     "no": "10",
+     "no": "4",
      "score": 5,
      "form": "填空",
      "l1": "多元微分学",
@@ -114,7 +114,7 @@
     {
      "section": "二",
      "section_instruction": "(6 × 5 = 30 分)填空题.",
-     "no": "11",
+     "no": "5",
      "score": 5,
      "form": "填空",
      "l1": "多元积分学",
@@ -124,7 +124,7 @@
     {
      "section": "二",
      "section_instruction": "(6 × 5 = 30 分)填空题.",
-     "no": "12",
+     "no": "6",
      "score": 5,
      "form": "填空",
      "l1": "多元积分学",
@@ -134,7 +134,7 @@
     {
      "section": "三",
      "section_instruction": "(6 × 10 = 60 分)计算题.",
-     "no": "13",
+     "no": "1",
      "score": 10,
      "form": "计算",
      "l1": "极限与连续",
@@ -144,7 +144,7 @@
     {
      "section": "三",
      "section_instruction": "(6 × 10 = 60 分)计算题.",
-     "no": "14",
+     "no": "2",
      "score": 10,
      "form": "计算",
      "l1": "一元微分学",
@@ -154,7 +154,7 @@
     {
      "section": "三",
      "section_instruction": "(6 × 10 = 60 分)计算题.",
-     "no": "15",
+     "no": "3",
      "score": 10,
      "form": "计算",
      "l1": "级数",
@@ -164,7 +164,7 @@
     {
      "section": "三",
      "section_instruction": "(6 × 10 = 60 分)计算题.",
-     "no": "16",
+     "no": "4",
      "score": 10,
      "form": "综合",
      "l1": "多元微分学",
@@ -174,7 +174,7 @@
     {
      "section": "三",
      "section_instruction": "(6 × 10 = 60 分)计算题.",
-     "no": "17",
+     "no": "5",
      "score": 10,
      "form": "证明",
      "l1": "多元积分学",
@@ -184,7 +184,7 @@
     {
      "section": "三",
      "section_instruction": "(6 × 10 = 60 分)计算题.",
-     "no": "18",
+     "no": "6",
      "score": 10,
      "form": "计算",
      "l1": "多元积分学",
@@ -194,7 +194,7 @@
     {
      "section": "四",
      "section_instruction": "(3 × 10 = 30 分)叙述论证题.",
-     "no": "19",
+     "no": "1",
      "score": 10,
      "form": "证明",
      "l1": "极限与连续",
@@ -204,7 +204,7 @@
     {
      "section": "四",
      "section_instruction": "(3 × 10 = 30 分)叙述论证题.",
-     "no": "20",
+     "no": "2",
      "score": 10,
      "form": "证明",
      "l1": "一元微分学",
@@ -214,7 +214,7 @@
     {
      "section": "四",
      "section_instruction": "(3 × 10 = 30 分)叙述论证题.",
-     "no": "21",
+     "no": "3",
      "score": 10,
      "form": "证明",
      "l1": "广义积分与含参积分",
@@ -229,7 +229,8 @@
    "subject": "高等代数",
    "header_note": "106. 长安大学 2021 年硕士研究生入学考试高等代数试卷",
    "source_imgs": [
-    "work/imgs/2247504813-1_6.png"
+    "work/imgs/2247504813-1_6.png",
+    "work/imgs/2247504813-1_7.png"
    ],
    "questions": [
     {
@@ -296,21 +297,21 @@
      "section": "二",
      "section_instruction": "(10 分)",
      "no": "1",
-     "score": null,
+     "score": 10,
      "form": "证明",
      "l1": "多项式",
      "l2": "根与重因式",
-     "stem": "设多项式 $f(x)=x^n-6$.\n1. 证明：$f(x)$ 无重根.\n2. 证明：当 $n\\geq 2$ 时，$f(x)$ 有无理根."
+     "stem": "设多项式 $f(x)=x^n-6$.\n(1) 证明：$f(x)$ 无重根.\n(2) 证明：当 $n\\geq 2$ 时，$f(x)$ 没有有理根."
     },
     {
      "section": "三",
-     "section_instruction": "(10 分) 证明：",
+     "section_instruction": "(10 分)",
      "no": "1",
      "score": 10,
      "form": "证明",
-     "l1": "欧氏空间与二次型",
-     "l2": "对称变换",
-     "stem": "反对称实矩阵的特征值是零或纯虚数."
+     "l1": "线性空间与线性变换",
+     "l2": "特征值与特征向量",
+     "stem": "证明：反对称实矩阵的特征值是零或纯虚数."
     },
     {
      "section": "四",
@@ -324,17 +325,17 @@
     },
     {
      "section": "五",
-     "section_instruction": "(10 分) 已知 $\\mathbb{R}^3$ 上的两组基：",
+     "section_instruction": "(10 分)",
      "no": "1",
-     "score": null,
+     "score": 10,
      "form": "计算",
      "l1": "线性空间与线性变换",
      "l2": "子空间与维数",
-     "stem": "已知 $\\mathbb{R}^3$ 上的两组基：\n$$(\\mathrm{I}):\\ \\begin{cases}\\alpha_1=(1,1,1)\\\\ \\alpha_2=(1,1,0)\\\\ \\alpha_3=(1,0,0)\\end{cases}\\qquad (\\mathrm{II}):\\ \\begin{cases}\\beta_1=(1,1,2)\\\\ \\beta_2=(1,2,1)\\\\ \\beta_3=(2,1,1)\\end{cases}$$\n1. 求由基 (I) 到基 (II) 的过渡矩阵.\n2. 求向量 $\\alpha=\\beta_1-2\\beta_2+\\beta_3$ 在基 (I) 下的坐标."
+     "stem": "已知 $\\mathbb{R}^3$ 上的两组基：\n$$(\\mathrm{I}):\\ \\begin{cases}\\alpha_1=(1,1,1)\\\\ \\alpha_2=(1,1,0)\\\\ \\alpha_3=(1,0,0)\\end{cases}\\qquad (\\mathrm{II}):\\ \\begin{cases}\\beta_1=(1,1,2)\\\\ \\beta_2=(1,2,1)\\\\ \\beta_3=(2,1,1)\\end{cases}$$\n(1) 求由基 (I) 到基 (II) 的过渡矩阵.\n(2) 求向量 $\\alpha=\\beta_1-2\\beta_2+\\beta_3$ 在基 (I) 下的坐标."
     },
     {
      "section": "六",
-     "section_instruction": "(15 分) 计算 $n$ 阶行列式.",
+     "section_instruction": "(15 分)",
      "no": "1",
      "score": 15,
      "form": "计算",
@@ -344,13 +345,43 @@
     },
     {
      "section": "七",
-     "section_instruction": "(15 分) 设有线性方程组",
+     "section_instruction": "(15 分)",
      "no": "1",
      "score": 15,
      "form": "计算",
      "l1": "矩阵与线性方程组",
      "l2": "线性方程组",
      "stem": "设有线性方程组\n$$\\begin{cases}x_1+3x_2+x_3=0;\\\\ 3x_1+2x_2+3x_3=-1;\\\\ -x_1+4x_2+mx_3=k.\\end{cases}$$\n讨论 $m$，$k$ 取什么值时，方程组有唯一解？无解？有无穷解？并在有无穷解时，求出一般解."
+    },
+    {
+     "section": "八",
+     "section_instruction": "(15 分)",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "正交变换",
+     "stem": "设二次曲面 $x^2+ay^2+z^2+2bxy+2xz+2yz=4$ 可经正交变换 $\\begin{pmatrix} x\\\\ y\\\\ z\\end{pmatrix}=P\\begin{pmatrix} \\xi\\\\ \\eta\\\\ \\zeta\\end{pmatrix}$ 化为椭圆柱面方程 $\\eta^2+4\\zeta^2=4$，求参数 $a$，$b$ 的值以及正交矩阵 $P$."
+    },
+    {
+     "section": "九",
+     "section_instruction": "(15 分)",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "对称变换",
+     "stem": "设欧氏空间 $V$ 中的线性变换 $\\sigma$ 称为反对称的，如果对于任意的 $\\alpha,\\ \\beta\\in V$，有\n$$(\\sigma(\\alpha),\\beta)=-(\\alpha,\\sigma(\\beta)).$$\n证明：\n(1) 若 $\\lambda$ 是 $\\sigma$ 的一个特征值，则 $\\lambda=0$.\n(2) $\\sigma$ 是反对称的充分必要条件是 $\\sigma$ 在标准正交下的矩阵为反对称矩阵.\n(3) 如果 $V_1$ 是反对称线性变换 $\\sigma$ 的不变子空间，则 $V_1$ 的正交补 $V_1^{\\perp}$ 也是 $\\sigma$ 的不变子空间."
+    },
+    {
+     "section": "十",
+     "section_instruction": "(20 分)",
+     "no": "1",
+     "score": 20,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "线性映射与核",
+     "stem": "设 $V=\\{f(x)\\in F[x]\\mid \\deg f(x)<n\\ \\text{或}\\ f(x)=0\\}$，这里 $F[x]$ 表示数域 $F$ 上的一元多项式环，$\\deg f(x)$ 表示多项式 $f(x)$ 的次数. 作 $V$ 的变换 $\\sigma$ 如下：对任意的 $f(x)\\in V$，令\n$$\\sigma(f(x))=x f'(x)-f(x).$$\n(1) 证明：$\\sigma$ 是 $V$ 的线性变换.\n(2) 求 $\\sigma$ 的核 $\\mathrm{Ker}\\,\\sigma$ 与值域 $\\mathrm{Im}\\,\\sigma$.\n(3) 证明：$V=\\mathrm{Ker}\\,\\sigma\\oplus\\mathrm{Im}\\,\\sigma$."
     }
    ]
   }

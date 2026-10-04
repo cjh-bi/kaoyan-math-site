@@ -6,7 +6,7 @@
       "year": "2022",
       "subject": "数学分析",
       "header_note": "62. 电子科技大学 2022 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247510472-2_4.png"],
+      "source_imgs": ["work/imgs/2247510472-2_4.png", "work/imgs/2247510472-2_5.png"],
       "questions": [
         {
           "section": "一",
@@ -157,6 +157,26 @@
           "l1": "多元微分学",
           "l2": "条件极值",
           "stem": "证明: 实二次型 $f(x,y,z)=Ax^2+By^2+Cz^2+2Dyz+2Ezx+2Fxy$ 在单位球面 $x^2+y^2+z^2=1$ 上的最大值和最小值分别对应矩阵 $M=\\begin{pmatrix}A&F&E\\\\ F&B&D\\\\ E&D&C\\end{pmatrix}$ 的最大特征值和最小特征值。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题(每题 15 分, 共 30 分)",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "已知级数 $b_n=\\displaystyle\\sum_{k=1}^{n}\\left[\\dfrac{1}{k}-\\ln\\left(1+\\dfrac{1}{k}\\right)\\right]$, $n=1,2,3,\\cdots$.\n(1) 证明: $\\{b_n\\}$ 收敛;\n(2) 设 $\\gamma=\\lim\\limits_{n\\to\\infty}b_n$, 探求数列 $\\{b_n-\\gamma\\}$ 的等价无穷小。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题(每题 15 分, 共 30 分)",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "已知 $f\\in\\mathbb{C}[0,1]$, $f^{(n)}(0)=0$, $n=1,2,3,\\cdots$, $M$ 为大于 0 的常数, 且 $\\forall x\\in[0,1]$, 有\n$$\\left|x^{\\alpha}f'(x)\\right|\\le M|f(x)|.$$\n(1) 若 $\\alpha=1$, 证明: $\\lim\\limits_{n\\to\\infty}\\dfrac{f(x)}{x^n}=0$ $(n=0,1,2,\\cdots)$, 并进一步证明 $f(x)\\equiv 0$, $\\forall x\\in[0,1]$;\n(2) 若 $\\alpha>1$, 证明: $f(x)\\equiv 0$ 可以不成立。"
         }
       ]
     },
@@ -164,24 +184,64 @@
       "school": "电子科技大学",
       "year": "2022",
       "subject": "高等代数",
-      "header_note": "图片页眉缺失(本页自第一大题第 5 小题起), 依据文章标题与同篇数学分析试卷判定为: 电子科技大学 2022 年高等代数试卷",
+      "header_note": "62. 电子科技大学 2022 年高等代数试卷",
       "source_imgs": ["work/imgs/2247510472-2_6.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "",
-          "no": "5",
-          "score": null,
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "1",
+          "score": 5,
           "form": "填空",
-          "l1": "线性空间与线性变换",
-          "l2": "不变子空间",
-          "stem": "数域 $F$ 上 4 维线性空间 $V$ 上的线性变换 $\\mathcal{A}$ 有 4 个不同的特征值, 则 $\\mathcal{A}$ 的 2 维不变子空间的个数是 ______。"
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "$A$, $B$ 均为 3 阶方阵, $|A|=5$, $|B|=2$, $|A^{-1}+B|=4$, 则 $|A+B^{-1}|=$ ______。"
         },
         {
           "section": "一",
-          "section_instruction": "",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "3 阶实对称矩阵按合同分类, 可分为______类。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "二次型 $f(x_1,x_2,x_3)=ax_1^2+ax_2^2-x_3^2-4x_1x_2+4x_1x_3+2x_2x_3$ 经过可逆线性替换化为 $y_1^2-y_2^2$, 则 $a=$ ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "(可能有误)矩阵 $A\\in\\mathbb{C}^{5\\times 5}$, 其最小多项式为 $(\\lambda-1)(\\lambda-2)^3$, $A-I$ 不可逆, 则复空间 $V=\\{B\\in\\mathbb{C}^{5\\times 5}\\mid AB=BA\\}$ 的维数是______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "数域 $F$ 上 4 维线性空间 $V$ 上的线性变换 $\\mathscr{A}$ 有 4 个不同的特征值, 则 $\\mathscr{A}$ 的 2 维不变子空间的个数是 ______。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题(每空 5 分, 共 30 分)",
           "no": "6",
-          "score": null,
+          "score": 5,
           "form": "填空",
           "l1": "近世代数",
           "l2": "环与域",
@@ -255,7 +315,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "线性映射与核",
-          "stem": "设 $\\mathcal{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换. 证明:\n(1) 若存在正整数 $k$, 使得 $\\mathrm{Ker}\\,\\mathcal{A}^k=\\mathrm{Ker}\\,\\mathcal{A}^{k+1}$, 则对任意正整数 $l$, 有 $\\mathrm{Ker}\\,\\mathcal{A}^k=\\mathrm{Ker}\\,\\mathcal{A}^{k+l}$;\n(2) 证明: 存在正整数 $m$, 使得 $V=\\mathrm{Ker}\\,\\mathcal{A}^m\\oplus\\mathrm{Im}\\,\\mathcal{A}^m$。"
+          "stem": "设 $\\mathscr{A}$ 是 $n$ 维线性空间 $V$ 上的线性变换. 证明:\n(1) 若存在正整数 $k$, 使得 $\\mathrm{Ker}\\,\\mathscr{A}^k=\\mathrm{Ker}\\,\\mathscr{A}^{k+1}$, 则对任意正整数 $l$, 有 $\\mathrm{Ker}\\,\\mathscr{A}^k=\\mathrm{Ker}\\,\\mathscr{A}^{k+l}$;\n(2) 证明: 存在正整数 $m$, 使得 $V=\\mathrm{Ker}\\,\\mathscr{A}^m\\oplus\\mathrm{Im}\\,\\mathscr{A}^m$。"
         },
         {
           "section": "九",

@@ -1,203 +1,223 @@
 {
- "msgid": "2247504562-1",
- "exams": [
-  {
-   "school": "合肥工业大学",
-   "year": "2021",
-   "subject": "数学分析",
-   "header_note": "47. 合肥工业大学 2021 年硕士研究生入学考试数学分析试卷",
-   "source_imgs": ["work/imgs/2247504562-1_4.png"],
-   "questions": [
+  "msgid": "2247504562-1",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "计算题（每题 10 分，共 20 分）",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "数列极限计算",
-     "stem": "(1) 求极限 $\\lim\\limits_{n\\to\\infty} n^2\\left(\\sqrt[n]{a}+\\dfrac{1}{\\sqrt[n]{a}}-2\\right)$，其中 $a>0$。"
+      "school": "合肥工业大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "47. 合肥工业大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504562-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "(1) 求极限 $\\lim\\limits_{n\\to\\infty} n^2\\left(\\sqrt[n]{a}+\\dfrac{1}{\\sqrt[n]{a}}-2\\right)$，其中 $a>0$。\n(2) 已知 $f(x)$ 为连续函数，若积分 $\\int_0^1\\left[f(x)+xf(xt)\\right]\\mathrm{d}t$ 的结果与 $x$ 无关，求 $f(x)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "若极限 $\\lim\\limits_{x\\to+\\infty}\\left(a\\cos x+b\\sin x\\right)$ 存在，证明 $a=b=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "证明 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^{\\frac{\\pi}{2}} x^{2021}\\sin^n x\\,\\mathrm{d}x=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "若函数 $f(x)$，$g(x)$ 在 $[0,1]$ 上满足 $f(0)>0$，$f(1)<0$，$g(x)$ 在 $[0,1]$ 上连续，且 $f(x)+g(x)$ 在 $[0,1]$ 上单调递增，证明：存在 $\\xi\\in(0,1)$，使得 $f(\\xi)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上有二阶连续导数，证明：存在 $\\xi\\in(a,b)$，使得$$\\dfrac{4}{(b-a)^2}\\left[f(b)-2f\\left(\\dfrac{a+b}{2}\\right)+f(a)\\right]=f''(\\xi).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "在椭球面 $2x^2+2y^2+z^2=1$ 上找一点，使得函数 $f(x,y,z)=x^2+y^2+z^2$ 在该点沿着方向 $\\boldsymbol{l}=\\boldsymbol{i}-\\boldsymbol{j}$ 的方向导数取得最大值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "已知含参量积分 $I(x)=\\displaystyle\\int_0^{+\\infty} e^{-t^2}\\cos(2xt)\\,\\mathrm{d}t$，证明 $\\dfrac{\\mathrm{d}I}{\\mathrm{d}x}+2xI=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求幂级数 $\\displaystyle\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{n+1}{(2n+1)!}x^{2n+1}$ 的和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "求二重积分 $I=\\displaystyle\\iint\\limits_{D}\\sqrt{|y-x^2|}\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D$ 为 $x=-1$，$x=1$，$y=2$ 与 $x$ 轴围成的闭区域。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求第二型曲面积分$$I=\\iint\\limits_{\\Sigma}\\left(y^2-z\\right)\\mathrm{d}y\\mathrm{d}z+\\left(z^2-x\\right)\\mathrm{d}z\\mathrm{d}x+\\left(x^2-y\\right)\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为锥面 $z=\\sqrt{x^2+y^2}$ $(0\\le z\\le h)$ 的外侧。"
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "计算题（每题 10 分，共 20 分）",
-     "no": "2",
-     "score": 10,
-     "form": "计算",
-     "l1": "一元积分学",
-     "l2": "变限积分",
-     "stem": "(2) 已知 $f(x)$ 为连续函数，若积分 $\\displaystyle\\int_0^1 \\left[f(x)+xf(xt)\\right]\\mathrm{d}t$ 的结果与 $x$ 无关，求 $f(x)$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "函数极限计算",
-     "stem": "若极限 $\\lim\\limits_{x\\to+\\infty}(a\\cos x+b\\sin x)$ 存在，证明 $a=b=0$。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "证明 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^{\\frac{\\pi}{2}} x^{2021}\\sin^n x\\,\\mathrm{d}x=0$。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "连续与有界性",
-     "stem": "若函数 $f(x)$，$g(x)$ 在 $[0,1]$ 上满足 $f(0)>0$，$f(1)<0$，$g(x)$ 在 $[0,1]$ 上连续，且 $f(x)+g(x)$ 在 $[0,1]$ 上单调递增，证明：存在 $\\xi\\in(0,1)$，使得 $f(\\xi)=0$。"
-    },
-    {
-     "section": "五",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "中值定理",
-     "stem": "设 $f(x)$ 在 $[a,b]$ 上有二阶连续导数，证明：存在 $\\xi\\in(a,b)$，使得\n$$\\dfrac{4}{(b-a)^2}\\left[f(b)-2f\\left(\\dfrac{a+b}{2}\\right)+f(a)\\right]=f''(\\xi).$$"
-    },
-    {
-     "section": "六",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "综合",
-     "l1": "多元微分学",
-     "l2": "梯度与方向导数",
-     "stem": "在椭球面 $2x^2+2y^2+z^2=1$ 上找一点，使得函数 $f(x,y,z)=x^2+y^2+z^2$ 在该点沿着方向 $\\boldsymbol{l}=\\boldsymbol{i}-\\boldsymbol{j}$ 的方向导数取得最大值。"
-    },
-    {
-     "section": "七",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "广义积分与含参积分",
-     "l2": "含参量积分求导",
-     "stem": "已知含参量积分 $I(x)=\\displaystyle\\int_0^{+\\infty} e^{-t^2}\\cos(2xt)\\,\\mathrm{d}t$，证明 $\\dfrac{\\mathrm{d}I}{\\mathrm{d}x}+2xI=0$。"
-    },
-    {
-     "section": "八",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "幂级数",
-     "stem": "求幂级数 $\\displaystyle\\sum_{n=0}^{\\infty}(-1)^n\\dfrac{n+1}{(2n+1)!}x^{2n+1}$ 的和函数。"
-    },
-    {
-     "section": "九",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "二重积分",
-     "stem": "求二重积分 $I=\\displaystyle\\iint_D \\sqrt{|y-x^2|}\\,\\mathrm{d}x\\mathrm{d}y$，其中 $D$ 为 $x=-1$，$x=1$，$y=2$ 与 $x$ 轴围成的闭区域。"
-    },
-    {
-     "section": "十",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲面积分",
-     "stem": "求第二型曲面积分\n$$I=\\mathop{\\iint}\\limits_{\\Sigma}(y^2-z)\\,\\mathrm{d}y\\mathrm{d}z+(z^2-x)\\,\\mathrm{d}z\\mathrm{d}x+(x^2-y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为锥面 $z=\\sqrt{x^2+y^2}$ $(0\\le z\\le h)$ 的外侧。"
+      "school": "合肥工业大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "48. 合肥工业大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504562-1_5.png", "work/imgs/2247504562-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 16,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知方阵$$A=\\begin{pmatrix} -1 & 1 & 1 & 1\\\\ 1 & -1 & 1 & 1\\\\ 1 & 1 & -1 & 1\\\\ 1 & 1 & 1 & -1 \\end{pmatrix}.$$\n记 $|A|$ 中第 $i$ 行第 $j$ 列元素的代数余子式为 $A_{ij}$，求 $\\displaystyle\\sum_{i,j=1}^{4} A_{ij}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 16,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "已知 $P$ 为数域，$f(x),g(x)\\in P[x]$，$A\\in P^{n\\times n}$，且 $(f(x),g(x))=1$，$f(A)g(A)=O$，证明$$R(f(A))+R(g(A))=n.$$\n其中 $R(f(A))$，$R(g(A))$ 表示 $f(A)$，$g(A)$ 的秩。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 16,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "设线性方程组$$\\begin{cases} x_1+x_2+x_3=0;\\\\ x_1+2x_2+ax_3=0;\\\\ x_1+4x_2+a^2x_3=0. \\end{cases}$$\n与方程 $x_1+2x_2+x_3=a-1$ 有公共解，求参数 $a$ 的值及所有的公共解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 16,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 3 元实二次型 $f(x,y,z)=t(x^2+y^2+z^2)+3y^2-4xy-2xz+4yz$。\n(1) 当 $t$ 取何值时，$f(x,y,z)$ 为正定二次型？\n(2) 当 $t$ 取何值时，$f(x,y,z)$ 为半负定二次型？\n(3) 当 $t$ 取何值时，$f(x,y,z)$ 为某个一次实系数多项式的平方？"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 16,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "记全体正实数组成的集合为 $\\mathbb{R}^+$，并用 $\\mathbb{R}$ 表示实数域。设 $a,b\\in\\mathbb{R}^+$，$k\\in\\mathbb{R}$，定义加法与数乘运算$$a\\oplus b=ab,\\quad k\\circ a=a^k.$$\n(1) 证明 $\\mathbb{R}^+$ 在如上加法与数乘下构成实数域 $\\mathbb{R}$ 上的线性空间；\n(2) 求 $\\mathbb{R}^+$ 的维数和一组基。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 16,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是数域 $P$ 上的有限维线性空间，$W$ 是 $V$ 的一个子空间，$\\mathscr{A}$ 为 $V$ 上的线性变换，证明$$\\dim\\mathscr{A}(W)+\\dim\\left(\\mathscr{A}^{-1}(0)\\cap W\\right)=\\dim W.$$\n其中 $\\mathscr{A}(W)=\\{\\mathscr{A}\\alpha\\mid\\alpha\\in W\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 16,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设矩阵$$A=\\begin{pmatrix} a & 0 & b\\\\ 3 & c & 5\\\\ 1-b & -1 & -a \\end{pmatrix}.$$\n满足 $|A|=-1$，$\\lambda_0$ 为 $A$ 的伴随矩阵 $A^*$ 的一个特征值，$\\xi_0=(1,-1,-1)'$ 为 $A^*$ 属于特征值 $\\lambda_0$ 的一个特征向量。\n(1) 求 $a$，$b$，$c$ 及 $\\lambda_0$ 的值；\n(2) 判断 $A$ 是否可以相似对角化。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 14,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $A$ 为 $n$ 阶正定矩阵，在实线性空间 $\\mathbb{R}^n$ 上定义二元函数 $[\\alpha,\\beta]=\\alpha' A\\beta$，$\\alpha,\\beta\\in\\mathbb{R}^n$。\n(1) 证明 $[\\alpha,\\beta]$ 为 $\\mathbb{R}^n$ 上的内积；\n(2) 当 $A=\\begin{pmatrix} 2 & 1 & 1\\\\ 1 & 2 & 1\\\\ 1 & 1 & 2 \\end{pmatrix}$ 时，求一个单位向量与 $\\alpha_1=(1,0,0)'$，$\\alpha_2=(0,1,0)'$ 都正交（在以上内积下）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 14,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $V$ 是数域 $P$ 上的 $n$ 维线性空间，$\\mathscr{A}$ 是 $V$ 上的线性变换，且 $\\mathscr{A}(V)=\\mathscr{A}^{-1}(0)$，其中 $\\mathscr{A}(V)$，$\\mathscr{A}^{-1}(0)$ 分别表示 $\\mathscr{A}$ 的值域与核空间。\n(1) 证明：$n$ 是偶数；\n(2) 证明：存在 $V$ 的一组基，使得 $\\mathscr{A}$ 在这组基下的矩阵为 $\\begin{pmatrix} O & E_{\\frac{n}{2}}\\\\ O & O \\end{pmatrix}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 10,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "设 $f(x)$ 是实数域上的 $n$（$n\\ge 1$）次多项式，且 $f(k)=\\dfrac{k}{k+1}$，$k=0,1,2,\\cdots,n$。\n(1) 求 $f(x)$ 的首项系数；\n(2) 计算 $f(n+1)$ 和 $f(-1)$。（提示：利用导数）"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "合肥工业大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "48. 合肥工业大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": ["work/imgs/2247504562-1_5.png"],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知方阵\n$$A=\\begin{pmatrix} -1 & 1 & 1 & 1 \\\\ 1 & -1 & 1 & 1 \\\\ 1 & 1 & -1 & 1 \\\\ 1 & 1 & 1 & -1 \\end{pmatrix}.$$\n记 $|A|$ 中第 $i$ 行第 $j$ 列元素的代数余子式为 $A_{ij}$，求 $\\displaystyle\\sum_{i,j=1}^{4} A_{ij}$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "秩",
-     "stem": "已知 $P$ 为数域，$f(x),g(x)\\in P[x]$，$A\\in P^{n\\times n}$，且 $(f(x),g(x))=1$，$f(A)g(A)=O$，证明\n$$R(f(A))+R(g(A))=n.$$\n其中 $R(f(A))$，$R(g(A))$ 表示 $f(A)$，$g(A)$ 的秩。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "设线性方程组\n$$\\begin{cases} x_1+x_2+x_3=0; \\\\ x_1+2x_2+ax_3=0; \\\\ x_1+4x_2+a^2x_3=0. \\end{cases}$$\n与方程 $x_1+2x_2+x_3=a-1$ 有公共解，求参数 $a$ 的值及所有的公共解。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "综合",
-     "l1": "欧氏空间与二次型",
-     "l2": "正定与半正定",
-     "stem": "设 3 元实二次型 $f(x,y,z)=t(x^2+y^2+z^2)+3y^2-4xy-2xz+4yz$。\n(1) 当 $t$ 取何值时，$f(x,y,z)$ 为正定二次型？\n(2) 当 $t$ 取何值时，$f(x,y,z)$ 为半负定二次型？\n(3) 当 $t$ 取何值时，$f(x,y,z)$ 为某个一次实系数多项式的平方？"
-    },
-    {
-     "section": "五",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "综合",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与维数",
-     "stem": "记全体正实数组成的集合为 $\\mathbb{R}^+$，并用 $\\mathbb{R}$ 表示实数域。设 $a,b\\in\\mathbb{R}^+$，$k\\in\\mathbb{R}$，定义加法与数乘运算\n$$a\\oplus b=ab,\\quad k\\circ a=a^k.$$\n(1) 证明 $\\mathbb{R}^+$ 在如上加法与数乘下构成实数域 $\\mathbb{R}$ 上的线性空间；\n(2) 求 $\\mathbb{R}^+$ 的维数和一组基。"
-    },
-    {
-     "section": "六",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "线性映射与核",
-     "stem": "设 $V$ 是数域 $P$ 上的有限维线性空间，$W$ 是 $V$ 的一个子空间，$\\mathscr{A}$ 为 $V$ 上的线性变换，证明\n$$\\dim\\mathscr{A}(W)+\\dim(\\mathscr{A}^{-1}(0)\\cap W)=\\dim W.$$\n其中 $\\mathscr{A}(W)=\\{\\mathscr{A}\\alpha\\mid\\alpha\\in W\\}$。"
-    },
-    {
-     "section": "七",
-     "section_instruction": "",
-     "no": "1",
-     "score": 16,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "伴随矩阵",
-     "stem": "设矩阵\n$$A=\\begin{pmatrix} a & 0 & b \\\\ 3 & c & 5 \\\\ 1-b & -1 & -a \\end{pmatrix}.$$\n满足 $|A|=-1$，$\\lambda_0$ 为 $A$ 的伴随矩阵 $A^*$ 的一个特征值，$\\xi_0=(1,-1,-1)'$ 为 $A^*$ 属于特征值 $\\lambda_0$ 的一个特征向量。\n(1) 求 $a$，$b$，$c$ 及 $\\lambda_0$ 的值；\n(2) 判断 $A$ 是否可以相似对角化。"
-    }
-   ]
-  }
- ]
+  ]
 }

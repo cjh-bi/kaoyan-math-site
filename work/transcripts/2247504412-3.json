@@ -1,297 +1,293 @@
 {
- "msgid": "2247504412-3",
- "exams": [
-  {
-   "school": "河北工业大学",
-   "year": "2021",
-   "subject": "数学分析",
-   "header_note": "9. 河北工业大学 2021 年硕士研究生入学考试数学分析试卷",
-   "source_imgs": [
-    "work/imgs/2247504412-3_4.png"
-   ],
-   "questions": [
+  "msgid": "2247504412-3",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "1",
-     "score": null,
-     "form": "填空",
-     "l1": "极限与连续",
-     "l2": "函数极限计算",
-     "stem": "极限 $\\lim_{x\\to 1}\\dfrac{\\arcsin(x-1)}{\\ln x}=$ __________。"
+      "school": "河北工业大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "9. 河北工业大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504412-3_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "极限 $\\lim\\limits_{x\\to 1}\\dfrac{\\arcsin(x-1)}{\\ln x}=$ ________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "",
+          "stem": "曲面 $z=2x^2-xy$ 在点 $(1,2,0)$ 处的切平面方程为________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "函数 $f(x,y,z)=x^2yz$ 在点 $(1,1,1)$ 处沿方向 $(1,-1,1)$ 的方向导数为________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "隐函数 $y=x+\\arctan y$ 的导数 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=$ ________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "数列\n$$a_n=\\left[(-1)^n+\\dfrac{\\sin n}{n}\\right]$$\n其中 $[x]$ 表示不超过 $x$ 的最大整数，则 $\\varlimsup\\limits_{n\\to\\infty}a_n$ ________，$\\varliminf\\limits_{n\\to\\infty}a_n$ ________。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "级数 $\\sum\\limits_{n=1}^{\\infty}(-1)^n n\\left(1-\\cos\\dfrac{1}{n}\\right)$ 的收敛性是________。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "求 $y=x\\ln x$ 的 $n$ 阶导数 $\\dfrac{\\mathrm{d}^n y}{\\mathrm{d}x^n}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设 $p>1$，求函数 $f(x)=x^p+(1-x)^p$ $(0\\le x\\le 1)$ 的极值，单调区间，凹凸性。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int\\dfrac{1-r^2}{1-2r\\cos x+r^2}\\,\\mathrm{d}x$，其中 $0<r\\le 1$，$-\\pi<x<\\pi$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "求星型线 $x^{\\frac{2}{3}}+y^{\\frac{2}{3}}=1$ 的弧长。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "5",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设函数 $z=z(x,y)$ 存在二阶连续偏导数，试利用 $x=\\xi-2\\eta$，$y=2\\xi+\\eta$ 将 $\\dfrac{\\partial^2 z}{\\partial x^2}+\\dfrac{\\partial^2 z}{\\partial y^2}=0$ 变换为 $z$ 关于 $\\xi$，$\\eta$ 的微分方程。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "6",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "计算三重积分\n$$I=\\iiint\\limits_{V} yz\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $V:x^2+y^2+\\dfrac{z^2}{4}\\le 1$，$x\\ge 0$，$y\\ge 0$，$z\\ge 0$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "计算第一类曲线积分 $I=\\displaystyle\\oint_L \\arctan y\\,\\mathrm{d}s$，其中 $L$ 是以 $O(0,0)$，$A(1,1)$，$B(-1,1)$ 为顶点的三角形。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "8",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算第二类曲线积分 $I=\\displaystyle\\oint_L x\\,\\mathrm{d}y-y^2\\,\\mathrm{d}x$，其中 $L$ 是以 $O(0,0)$，$A(1,1)$，$B(-1,1)$ 为顶点的三角形，方向取逆时针。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "9",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第一型曲面积分",
+          "stem": "求金属抛物面壳 $z=x^2+y^2$ $(0\\le z\\le 1)$ 的质量，其中密度函数 $\\rho(x,y,z)=z$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算第二类曲面积分\n$$I=\\iint\\limits_{\\Sigma} xyz\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 是四分之一单位圆 $x^2+y^2+z^2=1$ $(x\\ge 0,\\ y\\ge 0)$ 的内侧。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明反常积分 $\\displaystyle\\int_0^{+\\infty} x\\cos(x^4)\\,\\mathrm{d}x$ 收敛。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "已知 $\\{f_n(x)\\}$ 为 $[a,b]$ 上可导的函数列，$c\\in[a,b]$，如果 $\\{f_n(c)\\}$ 收敛，且 $\\{f_n(x)\\}$ 的导数列 $\\{f_n'(x)\\}$ 在 $[a,b]$ 上一致收敛于 $g(x)$，证明\n(1) $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛于某函数(设为 $f(x)$)；\n(2) $f(x)$ 在 $[a,b]$ 上可导，且 $f'(x)=g(x)$。"
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "2",
-     "score": null,
-     "form": "填空",
-     "l1": "多元微分学",
-     "l2": "极值与最值",
-     "stem": "曲面 $z=2x^2-xy$ 在点 $(1,2,0)$ 处的切平面方程为__________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "3",
-     "score": null,
-     "form": "填空",
-     "l1": "多元微分学",
-     "l2": "梯度与方向导数",
-     "stem": "函数 $f(x,y,z)=x^2yz$ 在点 $(1,1,1)$ 处沿方向 $(1,-1,1)$ 的方向导数为__________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "4",
-     "score": null,
-     "form": "填空",
-     "l1": "多元微分学",
-     "l2": "隐函数求导",
-     "stem": "隐函数 $y=x+\\arctan y$ 的导数 $\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}=$ __________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "5",
-     "score": null,
-     "form": "填空",
-     "l1": "极限与连续",
-     "l2": "数列极限计算",
-     "stem": "数列\n$$a_n=\\left[(-1)^n+\\dfrac{\\sin n}{n}\\right]$$\n其中 $[x]$ 表示不超过 $x$ 的最大整数，则 $\\varlimsup\\limits_{n\\to\\infty} a_n$ __________，$\\lim\\limits_{n\\to\\infty} a_n$ __________。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题",
-     "no": "6",
-     "score": null,
-     "form": "填空",
-     "l1": "级数",
-     "l2": "数项级数敛散性",
-     "stem": "级数 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^n n\\left(1-\\cos\\dfrac{1}{n}\\right)$ 的收敛性是__________。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "1",
-     "score": null,
-     "form": "计算",
-     "l1": "一元微分学",
-     "l2": "高阶导数",
-     "stem": "求 $y=x\\ln x$ 的 $n$ 阶导数 $\\dfrac{\\mathrm{d}^n y}{\\mathrm{d}x^n}$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "2",
-     "score": null,
-     "form": "计算",
-     "l1": "一元微分学",
-     "l2": "导数应用",
-     "stem": "设 $p>1$，求函数 $f(x)=x^p+(1-x)^p$ $(0\\leq x\\leq 1)$ 的极值，单调区间，凹凸性。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "3",
-     "score": null,
-     "form": "计算",
-     "l1": "一元积分学",
-     "l2": "不定积分",
-     "stem": "求不定积分 $\\displaystyle\\int \\dfrac{1-r^2}{1-2r\\cos x+r^2}\\,\\mathrm{d}x$，其中 $0<r\\leq 1$，$-\\pi<x<\\pi$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "4",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第一型曲线积分",
-     "stem": "求星型线 $x^{\\frac{2}{3}}+y^{\\frac{2}{3}}=1$ 的弧长。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "5",
-     "score": null,
-     "form": "计算",
-     "l1": "多元微分学",
-     "l2": "偏导数",
-     "stem": "设函数 $z=z(x,y)$ 存在二阶连续偏导数，试利用 $x=\\xi-2\\eta$，$y=2\\xi+\\eta$ 将 $\\dfrac{\\partial^2 z}{\\partial x^2}+\\dfrac{\\partial^2 z}{\\partial y^2}=0$ 变换为 $z$ 关于 $\\xi$，$\\eta$ 的微分方程。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "6",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "三重积分",
-     "stem": "计算三重积分\n$$I=\\iiint_V yz\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $V:\\;x^2+y^2+\\dfrac{z^2}{4}\\leq 1$，$x\\geq 0$，$y\\geq 0$，$z\\geq 0$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "7",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第一型曲线积分",
-     "stem": "计算第一类曲线积分 $I=\\displaystyle\\oint_L \\arctan y\\,\\mathrm{d}s$，其中 $L$ 是以 $O(0,0)$，$A(1,1)$，$B(-1,1)$ 为顶点的三角形。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "8",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲线积分",
-     "stem": "计算第二类曲线积分 $I=\\displaystyle\\oint_L x\\,\\mathrm{d}y-y^2\\,\\mathrm{d}x$，其中 $L$ 是以 $O(0,0)$，$A(1,1)$，$B(-1,1)$ 为顶点的三角形，方向取逆时针。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "9",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第一型曲面积分",
-     "stem": "求金属抛物面壳 $z=x^2+y^2$ $(0\\leq z\\leq 1)$ 的质量，其中密度函数 $\\rho(x,y,z)=z$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "10",
-     "score": null,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲面积分",
-     "stem": "计算第二类曲面积分\n$$I=\\iint_\\Sigma xyz\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 是四分之一单位圆球面 $x^2+y^2+z^2=1$ $(x\\geq 0,\\;y\\geq 0)$ 的内侧。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "11",
-     "score": null,
-     "form": "证明",
-     "l1": "广义积分与含参积分",
-     "l2": "广义积分敛散性",
-     "stem": "证明反常积分 $\\displaystyle\\int_0^{+\\infty} x\\cos(x^4)\\,\\mathrm{d}x$ 收敛。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "解答题",
-     "no": "12",
-     "score": null,
-     "form": "证明",
-     "l1": "级数",
-     "l2": "函数项级数",
-     "stem": "已知 $\\{f_n(x)\\}$ 为 $[a,b]$ 上可导的函数列，$c\\in[a,b]$，如果 $\\{f_n(c)\\}$ 收敛，且 $\\{f_n(x)\\}$ 的导数列 $\\{f_n'(x)\\}$ 在 $[a,b]$ 上一致收敛于 $g(x)$，证明\n(1) $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛于某函数（设为 $f(x)$）；\n(2) $f(x)$ 在 $[a,b]$ 上可导，且 $f'(x)=g(x)$。"
+      "school": "河北工业大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "10. 河北工业大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504412-3_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A=(a_{ij})$ 为 $n$ 阶矩阵，$A^{*}$ 为 $A$ 的伴随矩阵，证明 $A^{*}$ 的前 $n-1$ 行前 $n-1$ 列构成的子式(即 $A^{*}$ 的 $n-1$ 阶顺序主子式)的值为 $|A|^{n-2}a_{nn}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "设 $A$，$B$，$C$，$D$ 均为 $n$ 阶方阵，且 $AC=CA$，证明\n$$\\begin{vmatrix} A & B \\\\ C & D \\end{vmatrix}=|AD-CB|.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "",
+          "stem": "在 $\\mathbb{R}^3$ 中，求由基\n$$\\alpha_1^{\\prime}=(1,2,1)^{\\prime},\\ \\alpha_2=(2,3,3)^{\\prime},\\ \\alpha_3=(3,7,1)^{\\prime}$$\n到基\n$$\\beta_1^{\\prime}=(-3,-6,-2)^{\\prime},\\ \\beta_2=(-2,-3,-3)^{\\prime},\\ \\beta_3=(5,10,4)$$\n的过渡矩阵，并求 $\\mathbb{R}^3$ 中在这两组基下坐标相同的所有向量。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 阶实矩阵，$A^2$ 为正定矩阵，$B$ 为 $n$ 阶实对称矩阵，证明 $A^2-B$ 正定的充要条件为 $A^{-1}BA^{-1}$ 的特征值均小于 1。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\sigma_1,\\ \\sigma_2,\\ \\cdots,\\ \\sigma_s$ 是线性空间 $V$ 中两两不同的线性变换，证明 $V$ 中必存在向量 $\\alpha$，使得\n$$\\sigma_1(\\alpha),\\ \\sigma_2(\\alpha),\\ \\cdots,\\ \\sigma_s(\\alpha)$$\n也两两不同。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知 $A$ 为 3 阶正交矩阵，且 $|A|=1$，证明存在正交矩阵 $T$，使得\n$$T^{-1}AT=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos\\varphi & \\sin\\varphi \\\\ 0 & -\\sin\\varphi & \\cos\\varphi \\end{pmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "解答如下问题：\n(a) 判断多项式\n$$f(x)=x^3+2x^2-x+1$$\n在有理数域上是否可约；\n(b) 设 $a_1,\\ a_2,\\ \\cdots,\\ a_n$ 为两两互异的整数，证明\n$$f(x)=(x-a_1)^2(x-a_2)^2\\cdots(x-a_n)^2+1$$\n在有理数域上不可约。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $\\sigma$ 是数域 $P$ 上 $n$ 维线性空间 $V$ 上的线性变换，$\\sigma V$ 的维数称为 $\\sigma$ 的秩，$\\sigma^{-1}(0)$ 的维数称为 $\\sigma$ 的零度。证明 $\\sigma$ 的秩 $+\\ \\sigma$ 的零度 $=n$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知实矩阵\n$$A=\\begin{pmatrix} 2 & 2 & -2 \\\\ 2 & 5 & -4 \\\\ -2 & -4 & 5 \\end{pmatrix}.$$\n(a) 求正交矩阵 $P$，使得 $PAP^{-1}$ 为对角矩阵；\n(b) 记 $V$ 是所有与 $A$ 可交换的实矩阵全体，证明 $V$ 是实数域上的一个线性空间，并求 $V$ 的维数。"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "河北工业大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "10. 河北工业大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": [
-    "work/imgs/2247504412-3_5.png"
-   ],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "设 $A=(a_{ij})$ 为 $n$ 阶矩阵，$A^*$ 为 $A$ 的伴随矩阵，证明 $A^*$ 的前 $n-1$ 行前 $n-1$ 列构成的子式（即 $A^*$ 的 $n-1$ 阶顺序主子式）的值为 $|A|^{n-2}a_{nn}$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "2",
-     "score": null,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "设 $A$，$B$，$C$，$D$ 均为 $n$ 阶方阵，且 $AC=CA$，证明\n$$\\begin{vmatrix} A & B \\\\ C & D \\end{vmatrix}=|AD-CB|.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "3",
-     "score": null,
-     "form": "计算",
-     "l1": "线性空间与线性变换",
-     "l2": "线性变换",
-     "stem": "在 $\\mathbb{R}^3$ 中，求由基\n$$\\alpha_1'=(1,2,1)'，\\;\\alpha_2=(2,3,3)'，\\;\\alpha_3=(3,7,1)'$$\n到基\n$$\\beta_1'=(-3,-6,-2)'，\\;\\beta_2=(-2,-3,-3)'，\\;\\beta_3=(5,10,4)$$\n的过渡矩阵，并求 $\\mathbb{R}^3$ 中在这两组基下坐标相同的所有向量。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "4",
-     "score": null,
-     "form": "证明",
-     "l1": "欧氏空间与二次型",
-     "l2": "正定与半正定",
-     "stem": "设 $A$ 为 $n$ 阶实矩阵，$A^2$ 为正定矩阵，$B$ 为 $n$ 阶实对称矩阵，证明 $A^2-B$ 正定的充要条件为 $A^{-1}BA^{-1}$ 的特征值均小于 $1$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "5",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "线性变换",
-     "stem": "设 $\\sigma_1$，$\\sigma_2$，$\\cdots$，$\\sigma_s$ 是线性空间 $V$ 中两两不同的线性变换，证明 $V$ 中必存在向量 $\\alpha$，使得\n$$\\sigma_1(\\alpha),\\;\\sigma_2(\\alpha),\\;\\cdots,\\;\\sigma_s(\\alpha)$$\n也两两不同。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "6",
-     "score": null,
-     "form": "证明",
-     "l1": "欧氏空间与二次型",
-     "l2": "正交变换",
-     "stem": "已知 $A$ 为 $3$ 阶正交矩阵，且 $|A|=1$，证明存在正交矩阵 $T$，使得\n$$T^{-1}AT=\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & \\cos\\varphi & \\sin\\varphi \\\\ 0 & -\\sin\\varphi & \\cos\\varphi \\end{pmatrix}.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "7",
-     "score": null,
-     "form": "综合",
-     "l1": "多项式",
-     "l2": "既约性",
-     "stem": "解答如下问题：\n(a) 判断多项式\n$$f(x)=x^3+2x^2-x+1$$\n在有理数域上是否可约；\n(b) 设 $a_1$，$a_2$，$\\cdots$，$a_n$ 为两两互异的整数，证明\n$$f(x)=(x-a_1)^2(x-a_2)^2\\cdots(x-a_n)^2+1$$\n在有理数域上不可约。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "8",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "线性映射与核",
-     "stem": "设 $\\sigma$ 是数域 $P$ 上 $n$ 维线性空间 $V$ 上的线性变换，$\\sigma V$ 的维数称为 $\\sigma$ 的秩，$\\sigma^{-1}(0)$ 的维数称为 $\\sigma$ 的零度。证明 $\\sigma$ 的秩 $+\\;\\sigma$ 的零度 $=n$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "9",
-     "score": null,
-     "form": "综合",
-     "l1": "欧氏空间与二次型",
-     "l2": "实对称矩阵",
-     "stem": "已知实矩阵\n$$A=\\begin{pmatrix} 2 & 2 & -2 \\\\ 2 & 5 & -4 \\\\ -2 & -4 & 5 \\end{pmatrix}.$$\n(a) 求正交矩阵 $P$，使得 $PAP^{-1}$ 为对角矩阵；\n(b) 记 $V$ 是所有与 $A$ 可交换的实矩阵全体，证明 $V$ 是实数域上的一个线性空间，并求 $V$ 的维数。"
-    }
-   ]
-  }
- ]
+  ]
 }

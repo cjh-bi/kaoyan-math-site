@@ -1,203 +1,233 @@
 {
-  "msgid": "2247537536",
-  "exams": [
+ "msgid": "2247537536",
+ "exams": [
+  {
+   "school": "合肥工业大学",
+   "year": "2026",
+   "subject": "数学分析",
+   "header_note": "40. 合肥工业大学 2026 年数学分析试卷",
+   "source_imgs": ["work/imgs/2247537536_4.png"],
+   "questions": [
     {
-      "school": "合肥工业大学",
-      "year": "2026",
-      "subject": "数学分析",
-      "header_note": "40. 合肥工业大学 2026 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247537536_4.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "综合",
-          "l1": "极限与连续",
-          "l2": "数列极限计算",
-          "stem": "判断极限 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}\\ln\\left(1+\\dfrac{k}{n^2}\\right)$ 是否存在? 若存在, 求出极限值."
-        },
-        {
-          "section": "二",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "一元微分学",
-          "l2": "中值定理",
-          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 上可导, $f(0)=0, f(1)=1$, 证明: 在 $(0,1)$ 内存在不同的 $\\xi,\\eta$, 使得 $f^{\\prime}(\\xi)f^{\\prime}(\\eta)=1$."
-        },
-        {
-          "section": "三",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "综合",
-          "l1": "极限与连续",
-          "l2": "一致连续性",
-          "stem": "设 $f(x)$ 在 $[1,+\\infty)$ 上连续, 且 $\\lim\\limits_{x\\to+\\infty}\\left[f(x)-3\\sqrt{x}\\right]=7$. 判断函数 $f(x)$ 在 $[1,+\\infty)$ 上是否一致连续, 并说明你的理由."
-        },
-        {
-          "section": "四",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "综合",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "设 $f(x)$ 在 $[a,b]$ 上有定义, 并且在 $[a,b]$ 上每一点的极限都存在且为 $0$, 证明: $f(x)$ 在 $[a,b]$ 上可积, 并求 $\\int_{a}^{b}f(x)\\,\\mathrm{d}x$."
-        },
-        {
-          "section": "五",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "计算",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续, 且 $\\min\\limits_{x\\in[a,b]}f(x)=3$, 计算\n$$\\lim_{n\\to\\infty}\\left[\\int_{a}^{b}\\dfrac{1}{(f(x))^n}\\,\\mathrm{d}x\\right]^{\\frac{1}{n}}.$$"
-        },
-        {
-          "section": "六",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "综合",
-          "l1": "级数",
-          "l2": "数项级数敛散性",
-          "stem": "设 $a_n=\\int_{0}^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$, 计算 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n+a_{n+2}}{n}$ 的值, 判断级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{a_n}{\\sqrt{n}}$ 是否收敛? 并说明理由."
-        },
-        {
-          "section": "七",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "多元微分学",
-          "l2": "极值与最值",
-          "stem": "设 $F(x,y)$ 在 $(x_0,y_0)$ 某邻域内有二阶连续的偏导数, 且\n$$F(x_0,y_0)=0,\\ F_x^{\\prime}(x_0,y_0)=0,\\ F_{xx}^{\\prime\\prime}(x_0,y_0)F_y^{\\prime}(x_0,y_0)\\neq 0.$$\n证明: 由方程 $F(x,y)=0$ 在 $(x_0,y_0)$ 某邻域内确定的隐函数 $y=y(x)$ 在点 $x_0$ 处取极值."
-        },
-        {
-          "section": "八",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "计算",
-          "l1": "多元微分学",
-          "l2": "条件极值",
-          "stem": "求平面 $x+2y=1$ 与曲面 $x^2+2y^2+z^2=1$ 的交线上距离原点最近的点的坐标."
-        },
-        {
-          "section": "九",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "计算",
-          "l1": "多元积分学",
-          "l2": "三重积分",
-          "stem": "求曲面 $(x^2+y^2+z^2)^3=a^3xyz\\ (a>0)$ 所围立体的体积."
-        },
-        {
-          "section": "十",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "含参量积分",
-          "stem": "证明: $F(\\lambda)=\\int_{0}^{+\\infty}\\dfrac{1-e^{-\\lambda t}}{t}\\cos t\\,\\mathrm{d}t$ 在 $[0,+\\infty)$ 上连续, 在 $(0,+\\infty)$ 内可导."
-        }
-      ]
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "数列极限计算",
+     "stem": "判断极限 $\\lim\\limits_{n\\to\\infty}\\sum\\limits_{k=1}^{n}\\ln\\left(1+\\dfrac{k}{n^2}\\right)$ 是否存在？若存在，求出极限值."
     },
     {
-      "school": "合肥工业大学",
-      "year": "2026",
-      "subject": "高等代数",
-      "header_note": "40. 合肥工业大学 2026 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247537536_5.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "(12 分) 计算 $n$ 阶行列式",
-          "no": "1",
-          "score": 12,
-          "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} a_1-x_1 & a_2 & \\cdots & a_n\\\\ a_1 & a_2-x_2 & \\cdots & a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_1 & a_2 & \\cdots & a_n-x_n \\end{vmatrix}.$$\n其中 $x_1x_2\\cdots x_n\\neq 0$."
-        },
-        {
-          "section": "二",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "综合",
-          "l1": "矩阵与线性方程组",
-          "l2": "线性方程组",
-          "stem": "已知线性方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4=-1,\\\\ 3x_1+2x_2+4x_3-x_4=0,\\\\ 5x_1+3x_2+7x_3-3x_4=1,\\\\ ax_1+x_2+5x_3+bx_4=c \\end{cases}$$\n有 3 个线性无关的解.\n(1) 证明该线性方程组系数矩阵的秩为 2.\n(2) 求参数 $a,b,c$ 的值以及该线性方程组的通解."
-        },
-        {
-          "section": "三",
-          "section_instruction": "(14 分)",
-          "no": "1",
-          "score": 14,
-          "form": "综合",
-          "l1": "矩阵与线性方程组",
-          "l2": "分块矩阵",
-          "stem": "设 $A$ 是数域 $P$ 上的 $n$ 阶可逆方阵, $\\alpha$ 与 $\\beta$ 为 $P$ 上的 $n$ 维列向量.\n(1) 试用分块矩阵理论证明: $|A-\\alpha\\beta^{\\mathrm T}|=|A|(1-\\beta^{\\mathrm T}A^{-1}\\alpha)$.\n(2) 当 $\\beta^{\\mathrm T}A^{-1}\\alpha=k\\neq 1$ 时, 求 $A-\\alpha\\beta^{\\mathrm T}$ 的逆矩阵."
-        },
-        {
-          "section": "四",
-          "section_instruction": "(12 分)",
-          "no": "1",
-          "score": 12,
-          "form": "证明",
-          "l1": "多项式",
-          "l2": "根与重因式",
-          "stem": "设 $f(x)=x^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$ 是数域 $P$ 上的 $n$ 次首一多项式, $n\\ge 1$, 且 $f(x)$ 有 $n$ 个根 $x_1,x_2,\\cdots,x_n$, 重根按重数计算, $c\\in P$ 不是 $f(x)$ 的根. 证明:\n$$\\sum_{i=1}^{n}\\dfrac{1}{x_i-c}=-\\dfrac{f^{\\prime}(c)}{f(c)}.$$\n其中 $f^{\\prime}(x)$ 表示 $f(x)$ 的导数, 即 $f^{\\prime}(x)=nx^{n-1}+(n-1)a_{n-1}x^{n-2}+\\cdots+a_1$."
-        },
-        {
-          "section": "五",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "线性空间与线性变换",
-          "l2": "子空间与直和",
-          "stem": "设 $V$ 是数域 $P$ 上所有 3 阶对称矩阵关于通常矩阵加法与矩阵数乘构成的线性空间, 考察 $V$ 的子空间\n$$U=\\{A\\in V\\mid \\mathrm{tr}(A)=0\\},\\ W=\\{kE\\mid k\\in P\\}.$$\n其中 $E$ 为 3 阶单位矩阵, $\\mathrm{tr}(A)$ 表示 $A$ 的迹, 证明: $V=U\\oplus W$."
-        },
-        {
-          "section": "六",
-          "section_instruction": "(14 分)",
-          "no": "1",
-          "score": 14,
-          "form": "综合",
-          "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "设 $A$ 是复数域 $\\mathbb{C}$ 上的 2 阶方阵, 记 $W_A=\\{Y\\in\\mathbb{C}^{2\\times 2}\\mid AY=YA\\}$.\n(1) 证明: $W_A$ 是 $\\mathbb{C}^{2\\times 2}$ 的子空间.\n(2) 讨论 $W_A$ 的维数所有可能的值."
-        },
-        {
-          "section": "七",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "综合",
-          "l1": "线性空间与线性变换",
-          "l2": "特征值与特征向量",
-          "stem": "设 $n$ 阶实对称矩阵 $A=\\begin{pmatrix} 0 & 1 & \\cdots & 1\\\\ 1 & 0 & \\cdots & 1\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & \\cdots & 0 \\end{pmatrix}$, $n\\ge 2$.\n(1) 求 $A$ 的所有特征值与特征向量.\n(2) 求 $n$ 阶正交矩阵 $Q$, 使得 $Q^{\\mathrm T}AQ$ 为对角矩阵."
-        },
-        {
-          "section": "八",
-          "section_instruction": "(12 分)",
-          "no": "1",
-          "score": 12,
-          "form": "证明",
-          "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "设 $V$ 是数域 $P$ 上的 $n$ 维线性空间, $\\mathscr{A}$ 是 $V$ 上的线性变换, 满足 $\\mathscr{A}^2=\\mathscr{O}$. 证明: 存在 $V$ 的一组基, 使得 $\\mathscr{A}$ 在这组基下的矩阵为 $\\begin{pmatrix} O & O\\\\ E_r & O \\end{pmatrix}$, 其中 $r=\\dim\\mathscr{A}(V)$."
-        }
-      ]
+     "section": "二",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "设 $f(x)$ 在 $[0,1]$ 上连续，在 $(0,1)$ 上可导，$f(0)=0$，$f(1)=1$，证明：在 $(0,1)$ 内存在不同的 $\\xi,\\eta$，使得 $f'(\\xi)f'(\\eta)=1$."
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "极限与连续",
+     "l2": "一致连续性",
+     "stem": "设 $f(x)$ 在 $[1,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty}\\left[f(x)-3\\sqrt{x}\\right]=7$. 判断函数 $f(x)$ 在 $[1,+\\infty)$ 上是否一致连续，并说明你的理由."
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "设 $f(x)$ 在 $[a,b]$ 上有定义，并且在 $[a,b]$ 上每一点的极限都存在且为 $0$，证明：$f(x)$ 在 $[a,b]$ 上可积，并求 $\\displaystyle\\int_a^b f(x)\\,\\mathrm{d}x$."
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "数列极限计算",
+     "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，且 $\\min\\limits_{x\\in[a,b]} f(x)=3$，计算\n$$\\lim_{n\\to\\infty}\\left[\\int_a^b \\dfrac{1}{(f(x))^n}\\,\\mathrm{d}x\\right]^{\\frac{1}{n}}\\, .$$"
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "级数",
+     "l2": "数项级数求和",
+     "stem": "设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$，计算 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n+a_{n+2}}{n}$ 的值，判断级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{a_n}{\\sqrt{n}}$ 是否收敛？并说明理由."
+    },
+    {
+     "section": "七",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "多元微分学",
+     "l2": "极值与最值",
+     "stem": "设 $F(x,y)$ 在 $(x_0,y_0)$ 某邻域内有二阶连续的偏导数，且\n$$F(x_0,y_0)=0,\\ F_x'(x_0,y_0)=0,\\ F_{xx}''(x_0,y_0)F_y'(x_0,y_0)\\neq 0.$$\n证明：由方程 $F(x,y)=0$ 在 $(x_0,y_0)$ 某邻域内确定的隐函数 $y=y(x)$ 在点 $x_0$ 处取极值."
+    },
+    {
+     "section": "八",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "条件极值",
+     "stem": "求平面 $x+2y=1$ 与曲面 $x^2+2y^2+z^2=1$ 的交线上距离原点最近的点的坐标."
+    },
+    {
+     "section": "九",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "三重积分",
+     "stem": "求曲面 $(x^2+y^2+z^2)^3=a^3xyz\\ (a>0)$ 所围立体的体积."
+    },
+    {
+     "section": "十",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分求导",
+     "stem": "证明：$F(\\lambda)=\\displaystyle\\int_0^{+\\infty}\\dfrac{1-e^{-\\lambda t}}{t}\\cos t\\,\\mathrm{d}t$ 在 $[0,+\\infty)$ 上连续，在 $(0,+\\infty)$ 内可导."
     }
-  ]
+   ]
+  },
+  {
+   "school": "合肥工业大学",
+   "year": "2026",
+   "subject": "高等代数",
+   "header_note": "40. 合肥工业大学 2026 年高等代数试卷",
+   "source_imgs": ["work/imgs/2247537536_5.png", "work/imgs/2247537536_6.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 12,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} a_1-x_1 & a_2 & \\cdots & a_n\\\\ a_1 & a_2-x_2 & \\cdots & a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_1 & a_2 & \\cdots & a_n-x_n \\end{vmatrix},$$\n其中 $x_1x_2\\cdots x_n\\neq 0$."
+    },
+    {
+     "section": "二",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "综合",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "已知线性方程组\n$$\\begin{cases} x_1+x_2+x_3+x_4=-1,\\\\ 3x_1+2x_2+4x_3-x_4=0,\\\\ 5x_1+3x_2+7x_3-3x_4=1,\\\\ ax_1+x_2+5x_3+bx_4=c \\end{cases}$$\n有 $3$ 个线性无关的解.\n(1) 证明该线性方程组系数矩阵的秩为 $2$.\n(2) 求参数 $a,b,c$ 的值以及该线性方程组的通解."
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": 14,
+     "form": "综合",
+     "l1": "矩阵与线性方程组",
+     "l2": "分块矩阵",
+     "stem": "设 $A$ 是数域 $P$ 上的 $n$ 阶可逆方阵，$\\alpha$ 与 $\\beta$ 为 $P$ 上的 $n$ 维列向量.\n(1) 试用分块矩阵理论证明：$|A-\\alpha\\beta^{\\mathrm{T}}|=|A|(1-\\beta^{\\mathrm{T}}A^{-1}\\alpha)$.\n(2) 当 $\\beta^{\\mathrm{T}}A^{-1}\\alpha=k\\neq 1$ 时，求 $A-\\alpha\\beta^{\\mathrm{T}}$ 的逆矩阵."
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": 12,
+     "form": "证明",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "设 $f(x)=x^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$ 是数域 $P$ 上的 $n$ 次首一多项式，$n\\geq 1$，且 $f(x)$ 有 $n$ 个根 $x_1,x_2,\\cdots,x_n$，重根按重数计算，$c\\in P$ 不是 $f(x)$ 的根. 证明:\n$$\\sum_{i=1}^{n}\\dfrac{1}{x_i-c}=-\\dfrac{f'(c)}{f(c)}.$$\n其中 $f'(x)$ 表示 $f(x)$ 的导数，即 $f'(x)=nx^{n-1}+(n-1)a_{n-1}x^{n-2}+\\cdots+a_1$."
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与直和",
+     "stem": "设 $V$ 是数域 $P$ 上所有 $3$ 阶对称矩阵关于通常矩阵加法与矩阵数乘构成的线性空间，考察 $V$ 的子空间\n$$U=\\{A\\in V\\mid \\operatorname{tr}(A)=0\\},\\ W=\\{kE\\mid k\\in P\\}.$$\n其中 $E$ 为 $3$ 阶单位矩阵，$\\operatorname{tr}(A)$ 表示 $A$ 的迹，证明：$V=U\\oplus W$."
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": 14,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "设 $A$ 是复数域 $\\mathbb{C}$ 上的 $2$ 阶方阵，记 $W_A=\\{Y\\in\\mathbb{C}^{2\\times 2}\\mid AY=YA\\}$.\n(1) 证明: $W_A$ 是 $\\mathbb{C}^{2\\times 2}$ 的子空间.\n(2) 讨论 $W_A$ 的维数所有可能的值."
+    },
+    {
+     "section": "七",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "欧氏空间与二次型",
+     "l2": "实对称矩阵",
+     "stem": "设 $n$ 阶实对称矩阵 $A=\\begin{pmatrix} 0 & 1 & \\cdots & 1\\\\ 1 & 0 & \\cdots & 1\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1 & 1 & \\cdots & 0 \\end{pmatrix}$，$n\\geq 2$.\n(1) 求 $A$ 的所有特征值与特征向量.\n(2) 求 $n$ 阶正交矩阵 $Q$，使得 $Q^{\\mathrm{T}}AQ$ 为对角矩阵."
+    },
+    {
+     "section": "八",
+     "section_instruction": "",
+     "no": "1",
+     "score": 12,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "线性变换",
+     "stem": "设 $V$ 是数域 $P$ 上的 $n$ 维线性空间，$\\mathscr{A}$ 是 $V$ 上的线性变换，满足 $\\mathscr{A}^2=\\mathscr{O}$. 证明: 存在 $V$ 的一组基，使得 $\\mathscr{A}$ 在这组基下的矩阵为 $\\begin{pmatrix} O & O\\\\ E_r & O \\end{pmatrix}$，其中 $r=\\dim\\mathscr{A}(V)$."
+    },
+    {
+     "section": "九",
+     "section_instruction": "",
+     "no": "1",
+     "score": 14,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "不变子空间",
+     "stem": "设 $V$ 是实数域 $\\mathbb{R}$ 上的 $n$ 维线性空间，$\\mathscr{A}$ 是 $V$ 上的线性变换.\n(1) 证明: 如果 $n$ 是奇数，则 $\\mathscr{A}$ 有 $1$ 维不变子空间.\n(2) 证明: 如果 $\\mathscr{A}$ 没有 $1$ 维不变子空间，那么 $\\mathscr{A}$ 必有 $2$ 维不变子空间."
+    },
+    {
+     "section": "十",
+     "section_instruction": "",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "设 $A$ 是复数域上的 $6$ 阶方阵，$A$ 的最小多项式为 $d(\\lambda)=(\\lambda^2-2\\lambda+2)^2(\\lambda-1)$，且 $\\operatorname{tr}(A)=6$，这里 $\\operatorname{tr}(A)$ 表示 $A$ 的迹.\n(1) 求 $A$ 的特征多项式以及 Jordan 标准型.\n(2) 求 $A$ 的伴随矩阵 $A^{*}$ 的 Jordan 标准形."
+    },
+    {
+     "section": "十一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 12,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "正定与半正定",
+     "stem": "设 $A$ 是 $n$ 阶实矩阵，证明: $A$ 是正定矩阵的充分必要条件是存在 $n$ 阶正定矩阵 $B$，使得 $A=B^2$."
+    }
+   ]
+  }
+ ]
 }

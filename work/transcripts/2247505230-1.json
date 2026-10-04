@@ -6,7 +6,10 @@
       "year": "2021",
       "subject": "数学分析",
       "header_note": "159. 中山大学 2021 年硕士研究生入学考试数学分析试卷",
-      "source_imgs": ["work/imgs/2247505230-1_4.png"],
+      "source_imgs": [
+        "work/imgs/2247505230-1_4.png",
+        "work/imgs/2247505230-1_5.jpg"
+      ],
       "questions": [
         {
           "section": "一",
@@ -16,7 +19,7 @@
           "form": "计算",
           "l1": "一元积分学",
           "l2": "不定积分",
-          "stem": "求下列积分：$\\displaystyle\\int \\dfrac{\\mathrm{d}x}{1+\\sin x}$。"
+          "stem": "求下列积分 $\\int \\dfrac{\\mathrm{d}x}{1+\\sin x}$。"
         },
         {
           "section": "一",
@@ -25,8 +28,8 @@
           "score": 5,
           "form": "计算",
           "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "求下列积分：$\\displaystyle\\int_{0}^{+\\infty} x^{2} e^{-x}\\,\\mathrm{d}x$。"
+          "l2": "",
+          "stem": "求下列积分 $\\int_0^{+\\infty} x^2 e^{-x}\\,\\mathrm{d}x$。"
         },
         {
           "section": "二",
@@ -36,7 +39,7 @@
           "form": "判断",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "判断下列级数的收敛性：$\\displaystyle\\sum_{n=2}^{\\infty} \\dfrac{1}{\\sqrt{n}(\\ln n)^{2}}$。"
+          "stem": "判断下列级数的收敛性: $\\sum\\limits_{n=2}^{\\infty} \\dfrac{1}{\\sqrt{n}(\\ln n)^2}$。"
         },
         {
           "section": "二",
@@ -46,7 +49,7 @@
           "form": "判断",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "判断下列级数的收敛性：$\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{n!}{n^{n}}$。"
+          "stem": "判断下列级数的收敛性: $\\sum\\limits_{n=1}^{\\infty} \\dfrac{n!}{n^n}$。"
         },
         {
           "section": "三",
@@ -56,7 +59,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求级数 $\\displaystyle\\sum_{n=1}^{\\infty} (-1)^{n}\\dfrac{x^{2n+1}}{2n+1}$ 的收敛域以及和函数。"
+          "stem": "求级数 $\\sum\\limits_{n=1}^{\\infty} (-1)^n \\dfrac{x^{2n+1}}{2n+1}$ 的收敛域以及和函数。"
         },
         {
           "section": "四",
@@ -66,7 +69,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "已知函数 $f(x)$ 为周期为 $2\\pi$ 的连续函数，证明：若函数 $f(x)$ 的 Fourier 系数均为零，则函数 $f(x)$ 恒等于零。"
+          "stem": "已知函数 $f(x)$ 为周期为 $2\\pi$ 的连续函数, 证明: 若函数 $f(x)$ 的 Fourier 系数均为零, 则函数 $f(x)$ 恒等于零。"
         },
         {
           "section": "五",
@@ -76,7 +79,7 @@
           "form": "判断",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "已知 $\\alpha$ 为实数，判断 $\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{x^{2\\alpha}}{(1+x^{2})^{n}}$ 关于 $x$ 在 $ (0,+\\infty)$ 上的一致收敛性。"
+          "stem": "已知 $\\alpha$ 为实数, 判断 $\\sum\\limits_{n=1}^{\\infty} \\dfrac{x^{2\\alpha}}{(1+x^2)^n}$ 关于 $x$ 在 $(0,+\\infty)$ 上的一致收敛性。"
         },
         {
           "section": "六",
@@ -86,7 +89,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "设 $u_n > 0$，证明：数列 $\\{(1+u_1)(1+u_2)\\cdots(1+u_n)\\}_{n=1}^{\\infty}$ 与级数 $\\displaystyle\\sum_{n=1}^{\\infty} u_n$ 有相同的敛散性。"
+          "stem": "设 $u_n > 0$, 证明: 数列 $\\{(1+u_1)(1+u_2)\\cdots(1+u_n)\\}_{n=1}^{\\infty}$ 与级数 $\\sum\\limits_{n=1}^{\\infty} u_n$ 有相同的敛散性。"
         },
         {
           "section": "七",
@@ -95,18 +98,28 @@
           "score": 10,
           "form": "证明",
           "l1": "极限与连续",
-          "l2": "连续与有界性",
-          "stem": "设 $D \\subseteq \\mathbb{R}^{2}$ 为平面上的有界闭集，用有限覆盖定理证明：若二元函数 $f(x,y)$ 在 $D$ 上连续，则 $f(x,y)$ 在 $D$ 上有界。"
+          "l2": "实数完备性定理",
+          "stem": "设 $D \\subseteq \\mathbb{R}^2$ 为平面上的有界闭集, 用有限覆盖定理证明: 若二元函数 $f(x,y)$ 在 $D$ 上连续, 则 $f(x,y)$ 在 $D$ 上有界。"
         },
         {
           "section": "八",
-          "section_instruction": "",
+          "section_instruction": "设二元函数（本题 10 分）",
           "no": "1",
-          "score": 10,
-          "form": "综合",
+          "score": null,
+          "form": "证明",
           "l1": "多元微分学",
           "l2": "梯度与方向导数",
-          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}\\dfrac{y^{2}}{x^{4}+y^{2}}, & y\\neq 0;\\\\[2mm] 1, & y=0.\\end{cases}$$\n(1) 证明：$f(x)$ 在原点处所有方向的方向导数都存在；\n(2) 二元函数 $f(x,y)$ 在原点是否可微？试证明你的结论。"
+          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}\\dfrac{y^2}{x^4+y^2}, & y\\neq 0;\\\\[4pt] 1, & y=0.\\end{cases}$$\n证明: $f(x)$ 在原点处所有方向的方向导数都存在。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "设二元函数（本题 10 分）",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}\\dfrac{y^2}{x^4+y^2}, & y\\neq 0;\\\\[4pt] 1, & y=0.\\end{cases}$$\n二元函数 $f(x,y)$ 在原点是否可微? 试证明你的结论。"
         },
         {
           "section": "九",
@@ -116,7 +129,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "极值与最值",
-          "stem": "计算二元函数 $f(x,y)=x^{2}+xy+2y^{2}-x$ 在区域 $D=\\{(x,y)\\mid |x|\\leq 1,\\ |y|\\leq 1\\}$ 的最大值和最小值，并指明最值点。"
+          "stem": "计算二元函数 $f(x,y)=x^2+xy+2y^2-x$ 在区域 $D=\\{(x,y)\\mid |x|\\le 1,\\ |y|\\le 1\\}$ 的最大值和最小值, 并指明最值点。"
         },
         {
           "section": "十",
@@ -126,7 +139,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算曲面积分\n$$\\iint_{S} \\sin x\\,\\mathrm{d}y\\mathrm{d}z + \\cos y\\,\\mathrm{d}z\\mathrm{d}x + \\sec z\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为椭球面 $\\dfrac{x^{2}}{\\pi^{2}} + y^{2} + z^{2} = 1$ 的外侧。"
+          "stem": "计算曲面积分\n$$\\iint_S \\sin x\\,\\mathrm{d}y\\mathrm{d}z+\\cos y\\,\\mathrm{d}z\\mathrm{d}x+\\sec z\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 为椭球面 $\\dfrac{x^2}{\\pi^2}+y^2+z^2=1$ 的外侧。"
         },
         {
           "section": "十一",
@@ -136,7 +149,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲线积分",
-          "stem": "计算曲线积分\n$$\\int_{L} \\sqrt{xy}\\,\\mathrm{d}s.$$\n其中 $L$ 为平面上以 $A(0,1)$，$B(0,2)$，$C(1,2)$ 为顶点的三角形区域的边界。"
+          "stem": "计算曲线积分\n$$\\int_L \\sqrt{xy}\\,\\mathrm{d}s,$$\n其中 $L$ 为平面上以 $A(0,1)$, $B(0,2)$, $C(1,2)$ 为顶点的三角形区域的边界。"
         },
         {
           "section": "十二",
@@ -146,7 +159,37 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求出常数 $c$，$\\alpha$，$\\beta$，使得 $x^{\\sin x} - (\\sin x)^{x}$ 与 $c x^{\\alpha}(\\ln x)^{\\beta}$ 在 $x \\to 0^{+}$ 时为等价无穷小。"
+          "stem": "求出常数 $c$, $\\alpha$, $\\beta$, 使得 $x^{\\sin x}-(\\sin x)^x$ 与 $c x^{\\alpha}(\\ln x)^{\\beta}$ 在 $x\\to 0^+$ 时为等价无穷小。"
+        },
+        {
+          "section": "十三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "证明: 函数 $f(x)$ 在区间 $I$ 上一致连续的充分必要条件是对 $I$ 中任意满足 $\\lim\\limits_{n\\to\\infty}(x_n-y_n)=0$ 的数列 $\\{x_n\\}$, $\\{y_n\\}$, 都有\n$$\\lim_{n\\to\\infty}\\left(f(x_n)-f(y_n)\\right)=0.$$"
+        },
+        {
+          "section": "十四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "已知函数 $f(x)$ 在 $(a,b)$ 内可导, 证明: 函数 $f(x)$ 为 $(a,b)$ 内严格单调增函数的充分必要条件是对任意的 $x\\in(a,b)$, $f(x)\\ge 0$, 且对任意的 $c,d\\in(a,b)$, $c<d$, $f'(x)$ 在 $(c,d)$ 上不恒为零。"
+        },
+        {
+          "section": "十五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "已知函数 $f(x)$ 在 $(a,b)$ 上二阶可导, $M>0$ 是一个常数, 证明: 对任意的 $x\\in(a,b)$, 都有 $|f''(x)|\\le M$ 的充分必要条件是对任意满足 $x+h,\\ x-h,\\ x\\in(a,b)$ 的 $x$, $h$, 均有\n$$\\left|\\dfrac{f(x+h)+f(x-h)-f(x)}{h^2}\\right|\\le M.$$"
         }
       ]
     },
@@ -155,7 +198,10 @@
       "year": "2021",
       "subject": "高等代数",
       "header_note": "160. 中山大学 2021 年硕士研究生入学考试高等代数试卷",
-      "source_imgs": ["work/imgs/2247505230-1_6.png"],
+      "source_imgs": [
+        "work/imgs/2247505230-1_6.png",
+        "work/imgs/2247505230-1_7.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -165,17 +211,27 @@
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "对于实对称矩阵\n$$A=\\begin{pmatrix} 1 & -1 & 2\\\\ -1 & 1 & 2\\\\ 2 & 2 & -2\\end{pmatrix}.$$\n求正交矩阵 $P$，使得 $P^{-1}AP$ 为对角矩阵。"
+          "stem": "对于实对称矩阵\n$$A=\\begin{pmatrix}1 & -1 & 2\\\\ -1 & 1 & 2\\\\ 2 & 2 & -2\\end{pmatrix},$$\n求正交矩阵 $P$, 使得 $P^{-1}AP$ 为对角矩阵。"
         },
         {
           "section": "二",
-          "section_instruction": "",
+          "section_instruction": "（本题 15 分）",
           "no": "1",
-          "score": 15,
+          "score": null,
           "form": "计算",
           "l1": "多项式",
           "l2": "互素与最大公因式",
-          "stem": "对于多项式 $f(x)=x^{4}-5x^{3}+5x-1$ 和 $g(x)=x^{3}+2x^{2}-2x-1$。\n(1) 求它们的首一最大公因式 $(f(x),g(x))$；\n(2) 求多项式 $u(x)$ 与 $v(x)$，使得\n$$u(x)f(x)+v(x)g(x)=(f(x),\\ g(x)).$$\n其中 $\\deg u(x)<\\deg g(x)$，$\\deg v(x)<\\deg f(x)$。"
+          "stem": "对于多项式 $f(x)=x^4-5x^3+5x-1$ 和 $g(x)=x^3+2x^2-2x-1$。求它们的首一最大公因式 $(f(x),g(x))$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（本题 15 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "对于多项式 $f(x)=x^4-5x^3+5x-1$ 和 $g(x)=x^3+2x^2-2x-1$。求多项式 $u(x)$ 与 $v(x)$, 使得\n$$u(x)f(x)+v(x)g(x)=(f(x),\\ g(x)),$$\n其中 $\\deg u(x)<\\deg g(x)$, $\\deg v(x)<\\deg f(x)$。"
         },
         {
           "section": "三",
@@ -189,23 +245,23 @@
         },
         {
           "section": "四",
-          "section_instruction": "",
+          "section_instruction": "（本题 20 分）",
           "no": "1",
-          "score": 10,
+          "score": null,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "求 $n$ 阶行列式\n$$\\begin{vmatrix} a & b & b & \\cdots & b\\\\ b & a & 0 & \\cdots & 0\\\\ b & 0 & a & \\cdots & 0\\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots\\\\ b & 0 & 0 & \\cdots & a\\end{vmatrix},$$\n其中 $n\\geq 2$。"
+          "stem": "求 $n$ 阶行列式\n$$\\begin{vmatrix} a & b & b & \\cdots & b\\\\ b & a & 0 & \\cdots & 0\\\\ b & 0 & a & \\cdots & 0\\\\ \\vdots & \\vdots & \\vdots & \\ddots & \\vdots\\\\ b & 0 & 0 & \\cdots & a\\end{vmatrix},$$\n其中 $n\\ge 2$。"
         },
         {
           "section": "四",
-          "section_instruction": "",
+          "section_instruction": "（本题 20 分）",
           "no": "2",
-          "score": 10,
+          "score": null,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "记矩阵\n$$\\begin{pmatrix} 1 & -3 & 1 & -3\\\\ 2 & -5 & 2 & -2\\\\ 0 & -4 & 5 & 1\\\\ -3 & 10 & -6 & 8\\end{pmatrix}$$\n的 $(i,j)$ 元的余子式为 $M_{ij}$，试求 $M_{31}+3M_{32}-2M_{33}+2M_{34}$。"
+          "stem": "记矩阵\n$$\\begin{pmatrix} 1 & -3 & 1 & -3\\\\ 2 & -5 & 2 & -2\\\\ 0 & -4 & 5 & 1\\\\ -3 & 10 & -6 & 8\\end{pmatrix}$$\n的 $(i,j)$ 元的余子式为 $M_{ij}$, 试求 $M_{31}+3M_{32}-2M_{33}+2M_{34}$。"
         },
         {
           "section": "五",
@@ -215,37 +271,107 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "对于 $n$ 阶实矩阵 $A$，$B$ 和 $D$，假设 $2n$ 阶矩阵 $\\begin{pmatrix} A & B\\\\ B^{T} & D\\end{pmatrix}$ 是正定的，其中 $B^{T}$ 是 $B$ 的转置，证明：矩阵 $A$，$D$ 和 $D-B^{T}A^{-1}B$ 都是正定的。"
+          "stem": "对于 $n$ 阶实矩阵 $A$, $B$ 和 $D$, 假设 $2n$ 阶矩阵 $\\begin{pmatrix} A & B\\\\ B^T & D\\end{pmatrix}$ 是正定的, 其中 $B^T$ 是 $B$ 的转置, 证明: 矩阵 $A$, $D$ 和 $D-B^TA^{-1}B$ 都是正定的。"
         },
         {
           "section": "六",
-          "section_instruction": "",
+          "section_instruction": "（本题 10 分）",
           "no": "1",
-          "score": 10,
+          "score": null,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "幂零矩阵",
-          "stem": "假设 $n$ 阶复矩阵 $A$ 是幂零的，即存在正整数 $k$，使得 $A^{k}=O$。证明：\n(1) $A^{n}=O$；\n(2) $I_n - A$ 是可逆的。"
+          "stem": "假设 $n$ 阶复矩阵 $A$ 是幂零的, 即存在正整数 $k$, 使得 $A^k=O$。证明: $A^n=O$。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "（本题 10 分）",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "假设 $n$ 阶复矩阵 $A$ 是幂零的, 即存在正整数 $k$, 使得 $A^k=O$。证明: $I_n-A$ 是可逆的。"
         },
         {
           "section": "七",
-          "section_instruction": "",
+          "section_instruction": "（本题 15 分）",
           "no": "1",
-          "score": 15,
+          "score": null,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "线性映射与核",
-          "stem": "记有限维复向量空间 $V$ 的对偶空间为 $V^{*}$，对于有限维实向量空间之间的线性映射 $\\phi: V \\to W$，我们定义其伴随矩阵 $\\phi^{*}: W^{*} \\to V^{*}$ 如下：任取 $f \\in W^{*}$ 和 $v \\in V$，令 $\\phi^{*}(f)(v) = f(\\phi(v))$。\n(1) 证明：$\\phi^{*}$ 是线性映射；\n(2) 设有有限维实向量空间之间的线性映射 $\\psi: U \\to V$ 满足 $\\operatorname{Im}\\psi = \\operatorname{Ker}\\phi$，证明：$\\operatorname{Im}\\phi^{*} = \\operatorname{Ker}\\psi^{*}$。"
+          "stem": "记有限维复向量空间 $V$ 的对偶空间为 $V^*$, 对于有限维实向量空间之间的线性映射 $\\phi: V\\to W$, 我们定义其伴随矩阵 $\\phi^*: W^*\\to V^*$ 如下: 任取 $f\\in W^*$ 和 $v\\in V$, 令 $\\phi^*(f)(v)=f(\\phi(v))$。证明: $\\phi^*$ 是线性映射。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（本题 15 分）",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "记有限维复向量空间 $V$ 的对偶空间为 $V^*$, 对于有限维实向量空间之间的线性映射 $\\phi: V\\to W$, 我们定义其伴随矩阵 $\\phi^*: W^*\\to V^*$ 如下: 任取 $f\\in W^*$ 和 $v\\in V$, 令 $\\phi^*(f)(v)=f(\\phi(v))$。设有限维实向量空间之间的线性映射 $\\psi: U\\to V$ 满足 $\\mathrm{Im}\\,\\psi=\\mathrm{Ker}\\,\\phi$, 证明: $\\mathrm{Im}\\,\\phi^*=\\mathrm{Ker}\\,\\psi^*$。"
         },
         {
           "section": "八",
-          "section_instruction": "",
+          "section_instruction": "（本题 15 分）",
           "no": "1",
-          "score": 15,
+          "score": null,
           "form": "证明",
           "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "设 $e_1, e_2, \\cdots, e_n$ 是复向量空间 $V$ 的一组基，$f$ 是 $V$ 到自身的线性变换，满足\n$$f(e_i) = e_{i+1}\\ (1\\leq i\\leq n-1),\\quad f(e_n) = e_1.$$\n(1) 证明：任取 $V$ 中的向量子空间，都有 $\\dim f(W) = \\dim W$。"
+          "l2": "子空间与维数",
+          "stem": "设 $e_1,e_2,\\cdots,e_n$ 是复向量空间 $V$ 的一组基, $f$ 是 $V$ 到自身的线性变换, 满足\n$$f(e_i)=e_{i+1}\\ (1\\le i\\le n-1),\\ f(e_n)=e_1.$$\n证明: 任取 $V$ 中的向量子空间, 都有 $\\dim f(W)=\\dim W$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（本题 15 分）",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $e_1,e_2,\\cdots,e_n$ 是复向量空间 $V$ 的一组基, $f$ 是 $V$ 到自身的线性变换, 满足\n$$f(e_i)=e_{i+1}\\ (1\\le i\\le n-1),\\ f(e_n)=e_1.$$\n确定所有的 $f$ 的 2 维不变子空间。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 是 $m\\times n$ 阶实矩阵。证明: 如果 $n\\times m$ 实矩阵 $X$ 满足\n$$AXA=A,\\quad XAX=X,\\quad (AX)^T=AX,\\quad (XA)^T=XA,\\tag{1}$$\n那么 $X$ 也满足 $XX^TA^T=X$, $XAA^T=A^T$, 反之亦然。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（本题 20 分）",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "设 $A$ 是 $m\\times n$ 阶实矩阵。如果 $n\\times m$ 实矩阵 $X$ 与 $X'$ 都满足 (1) 式\n$$AXA=A,\\quad XAX=X,\\quad (AX)^T=AX,\\quad (XA)^T=XA,\\tag{1}$$\n那么 $X=X'$（我们称满足 (1) 式的 $n\\times m$ 实矩阵 $X$ 为 $A$ 的 Moore-Penrose 广义逆）。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（本题 20 分）",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "对于 $n$ 阶实对称矩阵 $A$, 将其特征值按大小顺序为 $\\lambda_n(A)\\le\\lambda_{n-1}(A)\\le\\cdots\\le\\lambda_1(A)$。证明: 任取 $X\\in\\mathbb{R}^n$, 有\n$$\\lambda_n(A)\\langle X,X\\rangle\\le\\langle X,AX\\rangle\\le\\lambda_1(A)\\langle X,X\\rangle,$$\n其中 $\\langle\\cdot,\\cdot\\rangle$ 为 $\\mathbb{R}^n$ 中的标准内积。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "（本题 20 分）",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "对于 $n$ 阶实对称矩阵 $A$, 将其特征值按大小顺序为 $\\lambda_n(A)\\le\\lambda_{n-1}(A)\\le\\cdots\\le\\lambda_1(A)$。假设 $A$ 和 $B$ 是 4 阶实对称矩阵, 证明: $\\lambda_4(A+B)\\le\\lambda_2(A)+\\lambda_3(B)$。"
         }
       ]
     }

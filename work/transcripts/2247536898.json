@@ -25,7 +25,7 @@
           "score": 15,
           "form": "证明",
           "l1": "极限与连续",
-          "l2": "数列极限计算",
+          "l2": "数列收敛性",
           "stem": "设 $x_n=1+\\dfrac{1}{2}+\\cdots+\\dfrac{1}{n}-\\ln(n+1)$ $(n=1,2,\\cdots)$，证明：$\\lim\\limits_{n\\to\\infty} x_n$ 存在．"
         },
         {
@@ -55,7 +55,7 @@
           "score": 20,
           "form": "证明",
           "l1": "一元积分学",
-          "l2": "变限积分",
+          "l2": "积分不等式",
           "stem": "设 $f(x),g(x)$ 是定义在 $[0,+\\infty)$ 上的非负连续函数，满足\n$$f(x)\\le \\int_0^x f(s)g(s)\\,\\mathrm{d}s,\\ \\forall x\\ge 0.$$\n证明：$f(x)\\equiv 0$，$x\\in[0,+\\infty)$．"
         },
         {
@@ -95,7 +95,7 @@
       "year": "2026",
       "subject": "高等代数",
       "header_note": "42. 厦门大学 2026 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247536898_5.png"],
+      "source_imgs": ["work/imgs/2247536898_5.png", "work/imgs/2247536898_6.png"],
       "questions": [
         {
           "section": "一",
@@ -246,6 +246,26 @@
           "l1": "多项式",
           "l2": "既约性",
           "stem": "设 $f(x)=x^n+a_1x^{n-1}+\\cdots+a_{n-1}x+a_n$ 是数域 $F$ 上的不可约多项式，$\\varphi$ 是数域 $F$ 上线性空间 $V$ 上的线性变换，若 $V$ 中非零向量 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 满足\n$$\\varphi(\\alpha_i)=\\alpha_{i+1}\\ (1\\le i\\le n-1),\\ \\varphi(\\alpha_n)=-a_n\\alpha_1-a_{n-1}\\alpha_2-\\cdots-a_1\\alpha_n.$$\n证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关．"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $V$ 是复数域 $\\mathbb{C}$ 上的 $n$ 维线性空间，$\\sigma$ 是 $V$ 上的不可逆且非零的线性变换．证明：存在 $\\sigma$-子空间 $V_1,V_2$，满足 $V=V_1\\oplus V_2$，且 $\\sigma|_{V_1}$ 为可逆变换，$\\sigma|_{V_2}$ 为幂零变换．"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "证明：对任意的正整数 $m,n$，必存在 2025 阶方阵 $X$，使得\n$$X^m+X^n=\\begin{pmatrix} 2 & & & & \\\\ 2 & 2 & & & \\\\ 3 & 2 & 2 & & \\\\ \\vdots & \\ddots & \\ddots & \\ddots & \\\\ 2024 & ⋰ & 3 & 2 & 2 \\\\ 2025 & 2024 & \\cdots & 3 & 2 & 2 \\end{pmatrix}.$$"
         }
       ]
     }

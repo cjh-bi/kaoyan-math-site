@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\sum_{k=1}^{n}\\dfrac{1}{n^{2}+k}$。"
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\sum_{k=1}^{n}\\dfrac{1}{n^2+k}$。"
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "递推数列",
-          "stem": "设 $x_0\\in\\left(0,\\dfrac{\\pi}{2}\\right)$，且 $x_n=\\sin x_{n-1}$ $(n=1,2,\\cdots)$，求 $\\lim\\limits_{n\\to\\infty}x_n$，$\\lim\\limits_{n\\to\\infty}n x_n^{2}$。"
+          "stem": "设 $x_0\\in\\left(0,\\dfrac{\\pi}{2}\\right)$, 且 $x_n=\\sin x_{n-1}$ $(n=1,2,\\cdots)$, 求 $\\lim_{n\\to\\infty}x_n$, $\\lim_{n\\to\\infty}n x_n^2$。"
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "计算",
           "l1": "一元微分学",
           "l2": "高阶导数",
-          "stem": "设 $f(x)=\\ln\\dfrac{1+x}{1-x}$，求 $f^{(n)}(0)$。"
+          "stem": "设 $f(x)=\\ln\\dfrac{1+x}{1-x}$, 求 $f^{(n)}(0)$。"
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "隐函数求导",
-          "stem": "设 $y=f(x)$ 是 $e^{x}+xy=e$ 在 $(0,1)$ 点附近确定的隐函数，求 $f''(0)$。"
+          "stem": "设 $y=f(x)$ 是 $e^x+xy=e$ 在 $(0,1)$ 点附近确定的隐函数, 求 $f''(0)$。"
         },
         {
           "section": "一",
@@ -56,77 +56,77 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲面积分",
-          "stem": "求 $z=\\dfrac{1}{2}(x^{2}+y^{2})$ 被柱面 $(x^{2}+y^{2})^{2}=2xy$ 所截下的面积。"
+          "stem": "求 $z=\\dfrac{1}{2}(x^2+y^2)$ 被柱面 $(x^2+y^2)^2=2xy$ 所截下的面积。"
         },
         {
           "section": "二",
-          "section_instruction": "（15 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "综合",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "设函数\n$$f(x,y)=\\begin{cases}\\dfrac{|xy|^{\\alpha}}{x^{2}+y^{2}}, & (x,y)\\ne(0,0);\\\\[4pt] 0, & (x,y)=0.\\end{cases}$$\n(1) $\\alpha$ 取何值时，$f(x,y)$ 在 $(0,0)$ 处连续？\n(2) $\\alpha$ 取何值时，$f(x,y)$ 在 $(0,0)$ 处可微？"
+          "stem": "设函数 $f(x,y)=\\begin{cases}\\dfrac{|xy|^{\\alpha}}{x^2+y^2}, & (x,y)\\neq(0,0);\\\\ 0, & (x,y)=0.\\end{cases}$\n(1) $\\alpha$ 取何值时, $f(x,y)$ 在 $(0,0)$ 处连续?\n(2) $\\alpha$ 取何值时, $f(x,y)$ 在 $(0,0)$ 处可微?"
         },
         {
           "section": "三",
-          "section_instruction": "（15 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "设 $f(x)$ 在 $\\mathbb R$ 上反常可积，即 $\\displaystyle\\int_{-\\infty}^{+\\infty}|f(x)|\\,\\mathrm dx$ 收敛，定义函数 $\\varphi(x)=\\displaystyle\\int_{-\\infty}^{+\\infty}f(t)\\cos(xt)\\,\\mathrm dt$，证明：$\\varphi(x)$ 在 $\\mathbb R$ 上一致连续。"
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上反常可积, 即 $\\int_{-\\infty}^{+\\infty}|f(x)|\\,\\mathrm{d}x$ 收敛, 定义函数 $\\varphi(x)=\\int_{-\\infty}^{+\\infty}f(t)\\cos(xt)\\,\\mathrm{d}t$, 证明: $\\varphi(x)$ 在 $\\mathbb{R}$ 上一致连续。"
         },
         {
           "section": "四",
-          "section_instruction": "（20 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 20,
           "form": "证明",
-          "l1": "多元微分学",
-          "l2": "调和函数",
-          "stem": "设 $\\Omega$ 为 $\\mathbb R^{3}$ 中有一光滑边界的有界区域，设 $u\\in C^{2}(\\Omega)\\cap C^{1}(\\overline\\Omega)$，且 $\\Delta u=0$。\n(1) 证明：$\\displaystyle\\iint_{\\partial\\Omega}u\\,\\dfrac{\\partial u}{\\partial \\boldsymbol n}\\,\\mathrm dS=\\iiint_\\Omega\\|\\nabla u\\|^{2}\\,\\mathrm dV$。\n(2) 若 $u|_{\\partial\\Omega}\\equiv 1$，证明：$u\\equiv 1$。"
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $\\Omega$ 为 $\\mathbb{R}^3$ 中一有光滑边界的有界区域, 设 $u\\in C^2(\\Omega)\\cap C^1(\\overline{\\Omega})$, 且 $\\Delta u=0$。\n(1) 证明: $\\iint_{\\partial\\Omega}u\\dfrac{\\partial u}{\\partial \\boldsymbol{n}}\\,\\mathrm{d}S=\\iiint_{\\Omega}\\|\\nabla u\\|^2\\,\\mathrm{d}V$。\n(2) 若 $u|_{\\partial\\Omega}\\equiv 1$, 证明: $u\\equiv 1$。"
         },
         {
           "section": "五",
-          "section_instruction": "（15 分）证明：",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "(1) 对任意的 $x\\in\\mathbb R$，有 $|\\cos x|=\\dfrac{2}{\\pi}+\\dfrac{4}{\\pi}\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n+1}}{4n^{2}-1}\\cos(2nx)$。\n(2) $\\lim\\limits_{\\lambda\\to+\\infty}\\displaystyle\\int_0^{1}f(x)|\\cos\\lambda x|\\,\\mathrm dx=\\dfrac{2}{\\pi}\\displaystyle\\int_0^{1}f(x)\\,\\mathrm dx$，其中 $f(x)$ 在 $[0,1]$ 上黎曼可积。"
+          "stem": "证明:\n(1) 对任意的 $x\\in\\mathbb{R}$, 有 $|\\cos x|=\\dfrac{2}{\\pi}+\\dfrac{4}{\\pi}\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n+1}}{4n^2-1}\\cos(2nx)$。\n(2) $\\lim_{\\lambda\\to+\\infty}\\int_0^1 f(x)|\\cos\\lambda x|\\,\\mathrm{d}x=\\dfrac{2}{\\pi}\\int_0^1 f(x)\\,\\mathrm{d}x$, 其中 $f(x)$ 在 $[0,1]$ 上黎曼可积。"
         },
         {
           "section": "六",
-          "section_instruction": "（15 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "一元微分学",
           "l2": "中值定理",
-          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上可导，且 $0\\le f(x)\\le\\dfrac{x}{1+x^{2}}$，证明：存在 $\\xi\\in(0,+\\infty)$，满足\n$$f'(\\xi)=\\dfrac{1-\\xi^{2}}{(1+\\xi^{2})^{2}}.$$"
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上可导, 且 $0\\le f(x)\\le\\dfrac{x}{1+x^2}$, 证明: 存在 $\\xi\\in(0,+\\infty)$, 满足 $f'(\\xi)=\\dfrac{1-\\xi^2}{(1+\\xi^2)^2}$。"
         },
         {
           "section": "七",
-          "section_instruction": "（10 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "极限与连续",
           "l2": "连续与有界性",
-          "stem": "设 $f(x)\\in C[0,1]$，对任意的 $0\\le a<b\\le 1$，$f$ 在 $[a,b]$ 上至少有两个不同的最大值点，证明：$f(x)$ 为常值函数。"
+          "stem": "设 $f(x)\\in C[0,1]$, 对任意的 $0\\le a<b\\le 1$, $f$ 在 $[a,b]$ 上至少有两个不同的最大值点, 证明: $f(x)$ 为常值函数。"
         },
         {
           "section": "八",
-          "section_instruction": "（10 分）",
+          "section_instruction": "",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "极限与连续",
           "l2": "不动点",
-          "stem": "设 $f:[0,1]\\to[0,1]$ 满足\n$$|f(x)-f(y)|<|x-y|,\\ \\forall x,y\\in[0,1],\\ x\\ne y.$$\n证明：存在唯一的 $\\xi\\in[0,1]$，使得 $f(\\xi)=\\xi$。"
+          "stem": "设 $f:[0,1]\\to[0,1]$ 满足 $|f(x)-f(y)|<|x-y|,\\ \\forall x,y\\in[0,1],\\ x\\neq y$。\n证明: 存在唯一的 $\\xi\\in[0,1]$, 使得 $f(\\xi)=\\xi$。"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "year": "2026",
       "subject": "线性代数与解析几何",
       "header_note": "39. 中国科学技术大学 2026 年线性代数与解析几何试卷",
-      "source_imgs": ["work/imgs/2247537487_5.png"],
+      "source_imgs": ["work/imgs/2247537487_5.png", "work/imgs/2247537487_6.png"],
       "questions": [
         {
           "section": "一",
@@ -165,7 +165,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $|A|=\\begin{vmatrix} 1 & 2 & 1 & -7\\\\ 2 & 7 & 2 & 4\\\\ 1 & 1 & 0 & -2\\\\ 17 & 16 & 19 & 11\\end{vmatrix}$，求 $A_{41}+A_{42}+A_{43}+A_{44}=$ ______。"
+          "stem": "设 $|A|=\\begin{vmatrix}1&2&1&-7\\\\ 2&7&2&4\\\\ 1&1&0&-2\\\\ 17&16&19&11\\end{vmatrix}$, 求 $A_{41}+A_{42}+A_{43}+A_{44}=$ ______。"
         },
         {
           "section": "一",
@@ -175,7 +175,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "已知 $A$ 的伴随矩阵 $A^{*}=\\begin{pmatrix} 1 & 1 & 1\\\\ 1 & 2 & 1\\\\ 1 & 3 & 3\\end{pmatrix}$，求原矩阵 $A=$ ______。"
+          "stem": "已知 $A$ 的伴随矩阵 $A^*=\\begin{pmatrix}1&1&1\\\\ 1&2&1\\\\ 1&3&3\\end{pmatrix}$, 求原矩阵 $A=$ ______。"
         },
         {
           "section": "一",
@@ -185,7 +185,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "在三次多项式空间 $P[x]_3$ 中，求多项式 $1+x+x^{2}+x^{3}$ 在基 $\\{2,1+x,-x+2x^{2},x+x^{3}\\}$ 下的坐标______。"
+          "stem": "在三次多项式空间 $P[x]_3$ 中, 求多项式 $1+x+x^2+x^3$ 在基 $\\{2,1+x,-x+2x^2,x+x^3\\}$ 下的坐标______。"
         },
         {
           "section": "一",
@@ -195,7 +195,7 @@
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "二次型 $2x_1^{2}+2x_2^{2}+2x_3^{2}-2x_1x_2-2x_1x_3-2x_2x_3$ 的规范型为______。"
+          "stem": "二次型 $2x_1^2+2x_2^2+2x_3^2-2x_1x_2-2x_1x_3-2x_2x_3$ 的规范型为______。"
         },
         {
           "section": "一",
@@ -205,7 +205,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "矩阵 $\\begin{pmatrix} 13 & 16 & 16\\\\ -5 & -7 & -6\\\\ -6 & -8 & -7\\end{pmatrix}$ 的若尔当标准型为______。"
+          "stem": "矩阵 $\\begin{pmatrix}13&16&16\\\\ -5&-7&-6\\\\ -6&-8&-7\\end{pmatrix}$ 的若尔当标准型为______。"
         },
         {
           "section": "一",
@@ -215,7 +215,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "设 $M=\\begin{pmatrix} 1 & 0\\\\ 1 & -1\\end{pmatrix}$，线性变换 $\\mathscr A$ 满足 $\\mathscr Ax=Mx$，求 $\\mathscr A$ 的特征值及重数______。"
+          "stem": "设 $M=\\begin{pmatrix}1&0\\\\ 1&-1\\end{pmatrix}$, 线性变换 $\\mathscr{A}$ 满足 $\\mathscr{A}x=Mx$, 求 $\\mathscr{A}$ 的特征值及重数______。"
         },
         {
           "section": "一",
@@ -224,8 +224,8 @@
           "score": null,
           "form": "填空",
           "l1": "线性空间与线性变换",
-          "l2": "特征值与特征向量",
-          "stem": "设 $A=\\begin{pmatrix} 2026 & 2 & -2\\\\ 2 & 2029 & -4\\\\ -2 & -4 & 2029\\end{pmatrix}$，记 $M=\\{B\\in M_3(\\mathbb R)\\mid AB=BA\\}$（即所有与 $A$ 可交换的 3 阶实矩阵构成的集合），求 $\\dim M=$ ______。"
+          "l2": "子空间与维数",
+          "stem": "设 $A=\\begin{pmatrix}2026&2&-2\\\\ 2&2029&-4\\\\ -2&-4&2029\\end{pmatrix}$, 记 $M=\\{B\\in M_3(\\mathbb{R})\\mid AB=BA\\}$ (即所有与 $A$ 可交换的 3 阶实矩阵构成的集合), 求 $\\dim M=$ ______。"
         },
         {
           "section": "一",
@@ -234,8 +234,8 @@
           "score": null,
           "form": "填空",
           "l1": "欧氏空间与二次型",
-          "l2": "内积与度量",
-          "stem": "在欧氏空间中，向量 $d_1=(1,1,1,-1), d_2=(2,0,-2,0)$ 张成的子空间为 $V$，求向量 $\\beta=(1,-1,1,0)$ 在 $V$ 上的投影向量______。"
+          "l2": "正交补与直和",
+          "stem": "在欧氏空间中, 向量 $d_1=(1,1,1,-1), d_2=(2,0,-2,0)$ 张成的子空间为 $V$, 求向量 $\\beta=(1,-1,1,0)$ 在 $V$ 上的投影向量______。"
         },
         {
           "section": "二",
@@ -245,17 +245,17 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设矩阵\n$$A=\\begin{pmatrix} 1+a & 1 & \\cdots & 1\\\\ 2 & 2+a & \\cdots & 2\\\\ \\vdots & \\vdots & & \\vdots\\\\ n & n & \\cdots & n+a\\end{pmatrix}.$$\n求 $\\det A$，判断 $a$ 为何值时，$AX=0$ 有非零解，并求该非零解。"
+          "stem": "设矩阵 $A=\\begin{pmatrix}1+a&1&\\cdots&1\\\\ 2&2+a&\\cdots&2\\\\ \\vdots&\\vdots&&\\vdots\\\\ n&n&\\cdots&n+a\\end{pmatrix}$。\n求 $\\det A$, 判断 $a$ 为何值时, $AX=0$ 有非零解, 并求该非零解。"
         },
         {
           "section": "二",
           "section_instruction": "解答题.",
           "no": "2",
           "score": null,
-          "form": "计算",
+          "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "可对角化",
-          "stem": "设矩阵 $A=\\begin{pmatrix} 1 & 2 & -3\\\\ -1 & 4 & -3\\\\ 1 & a & 5\\end{pmatrix}$ 有二重特征值，判断 $a$ 为何值时 $A$ 可对角化，并求可逆矩阵 $P$，使得 $P^{-1}AP$ 为对角阵。"
+          "stem": "设矩阵 $A=\\begin{pmatrix}1&2&-3\\\\ -1&4&-3\\\\ 1&a&5\\end{pmatrix}$ 有二重特征值, 判断 $a$ 为何值时 $A$ 可对角化, 并求可逆矩阵 $P$, 使得 $P^{-1}AP$ 为对角阵。"
         },
         {
           "section": "二",
@@ -265,7 +265,37 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "矩阵分解",
-          "stem": "设矩阵 $A=\\begin{pmatrix} 1 & 0 & 0\\\\ 2 & 2 & 0\\\\ 3 & 3 & 3\\end{pmatrix}$。\n(1) 求上三角矩阵 $B$ 与正交矩阵 $Q$，使得 $A=BQ$。\n(2) 判断 $B,Q$ 是否唯一？若不唯一则有几对？并论证理由。"
+          "stem": "设矩阵 $A=\\begin{pmatrix}1&0&0\\\\ 2&2&0\\\\ 3&3&3\\end{pmatrix}$。\n(1) 求上三角矩阵 $B$ 与正交矩阵 $Q$, 使得 $A=BQ$。\n(2) 判断 $B,Q$ 是否唯一? 若不唯一则有几对? 并论证理由。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $A$ 为 $n$ 阶可逆实方阵, 且 $\\mathrm{tr}(A)=n$, 证明: 存在可逆矩阵 $P$, 使得 $P^{-1}AP$ 是对角元全为 $1$ 的矩阵。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "设 $A$ 为 $n$ 阶可逆复矩阵, 记 $A=\\begin{pmatrix}A_{11}&A_{12}\\\\ A_{21}&A_{22}\\end{pmatrix}$, 其中 $A_{11}$ 为 $m\\times(n-m)$ 型矩阵 $(1<m<n)$, 若 $A_{21}$ 在 $A$ 中所有到代数余子式全为 $0$, 证明: $n\\le 2m$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "解答题.",
+          "no": "6",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为元素全为整数的对称方阵, 且对任意非零行向量 $z$ (其分量均为非负整数), 总有 $zAz^{\\mathrm{T}}\\ge 0$。\n(1) 证明: 对任意非零行向量 $z$ (其分量均为非负实数), 总有 $zAz^{\\mathrm{T}}\\ge 0$。\n(2) 判断: 是否存在非零行向量 $z$ (其分量均为非负整数), 使得 $zAz^{\\mathrm{T}}=0$。"
         }
       ]
     }

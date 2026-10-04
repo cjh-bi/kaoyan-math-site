@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2024 数学分析 一9 · 数学考研真题库</title>
-<meta name="description" content="设 f: {R}^2→ {R} 连续可微， f(0,0)=0 且 f_y(0,0) 0 。考虑迭代： y_{n+1}(x)=y_n(x)-(f_y(0,0))^{-1}f(x,y_n(x)), y_0(x)=0. 定义 u_{n+1}(x)=y_{n+1}(x)-y_n(x) ， n 0 。 (1)">
+<meta name="description" content="设 f: {R}^2→ {R} 连续可微， f(0,0)=0 且 f_y(0,0) 0 。考虑迭代： y_{n+1}(x)=y_n(x)-(f_y(0,0))^{-1}f(x,y_n(x)),\ y_0(x)=0. 定义 u_{n+1}(x)=y_{n+1}(x)-y_n(x) ， n 0 。 (1">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/katex/katex.min.css">
 <link rel="stylesheet" href="../assets/site.css?v=20260925135128">
@@ -40,14 +40,12 @@
       <span class="sep">|</span>
       <span class="t">证明</span>
 <span class="sep">|</span><span class="t">20 分</span>    </h1>
-    <div class="qstem">设 $f:\mathbb{R}^2\to\mathbb{R}$ 连续可微，$f(0,0)=0$ 且 $f_y(0,0)\neq 0$。考虑迭代：<br>$$y_{n+1}(x)=y_n(x)-(f_y(0,0))^{-1}f(x,y_n(x)),\quad y_0(x)=0.$$<br>定义 $u_{n+1}(x)=y_{n+1}(x)-y_n(x)$，$n\ge 0$。<br>(1) 证明：对任何 $\varepsilon&gt;0$，存在 $\delta&gt;0$，当 $x\in(-\delta,\delta)$ 时，$|y_n(x)|&lt;\varepsilon$ 对任何 $n\ge 0$ 成立，进而当 $\delta$ 充分小时，存在 $0&lt;\rho&lt;1$ 使得对任意的 $|x|&lt;\delta$，有 $|u_{n+1}(x)|\le\rho|u_n(x)|$。<br>(2) 证明：$y(x)=\displaystyle\sum_{n=1}^{\infty}u_n(x)$ 时 $f(x,y)=0$ 在 $(0,0)$ 附近确定的一个连续的隐函数。</div>
+    <div class="qstem">设 $f:\mathbb{R}^2\to\mathbb{R}$ 连续可微，$f(0,0)=0$ 且 $f_y(0,0)\ne 0$。考虑迭代：$$y_{n+1}(x)=y_n(x)-\left(f_y(0,0)\right)^{-1}f(x,y_n(x)),\ y_0(x)=0.$$ 定义 $u_{n+1}(x)=y_{n+1}(x)-y_n(x)$，$n\ge 0$。<br>(1) 证明：对任何 $\varepsilon&gt;0$，存在 $\delta&gt;0$，当 $x\in(-\delta,\delta)$ 时，$|y_n(x)|&lt;\varepsilon$ 对任何 $n\ge 0$ 成立，进而当 $\delta$ 充分小时，存在 $0&lt;\rho&lt;1$ 使得对任意的 $|x|&lt;\delta$，有 $|u_{n+1}(x)|\le \rho|u_n(x)|$。<br>(2) 证明：$y(x)=\sum\limits_{n=1}^{\infty}u_n(x)$ 时 $f(x,y)=0$ 在 $(0,0)$ 附近确定的一个连续的隐函数。</div>
     <div class="toolbar" style="margin-top:14px">
       <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
-      <button class="btn small copy-btn" data-stem="设 $f:\mathbb{R}^2\to\mathbb{R}$ 连续可微，$f(0,0)=0$ 且 $f_y(0,0)\neq 0$。考虑迭代：
-$$y_{n+1}(x)=y_n(x)-(f_y(0,0))^{-1}f(x,y_n(x)),\quad y_0(x)=0.$$
-定义 $u_{n+1}(x)=y_{n+1}(x)-y_n(x)$，$n\ge 0$。
-(1) 证明：对任何 $\varepsilon&gt;0$，存在 $\delta&gt;0$，当 $x\in(-\delta,\delta)$ 时，$|y_n(x)|&lt;\varepsilon$ 对任何 $n\ge 0$ 成立，进而当 $\delta$ 充分小时，存在 $0&lt;\rho&lt;1$ 使得对任意的 $|x|&lt;\delta$，有 $|u_{n+1}(x)|\le\rho|u_n(x)|$。
-(2) 证明：$y(x)=\displaystyle\sum_{n=1}^{\infty}u_n(x)$ 时 $f(x,y)=0$ 在 $(0,0)$ 附近确定的一个连续的隐函数。" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <button class="btn small copy-btn" data-stem="设 $f:\mathbb{R}^2\to\mathbb{R}$ 连续可微，$f(0,0)=0$ 且 $f_y(0,0)\ne 0$。考虑迭代：$$y_{n+1}(x)=y_n(x)-\left(f_y(0,0)\right)^{-1}f(x,y_n(x)),\ y_0(x)=0.$$ 定义 $u_{n+1}(x)=y_{n+1}(x)-y_n(x)$，$n\ge 0$。
+(1) 证明：对任何 $\varepsilon&gt;0$，存在 $\delta&gt;0$，当 $x\in(-\delta,\delta)$ 时，$|y_n(x)|&lt;\varepsilon$ 对任何 $n\ge 0$ 成立，进而当 $\delta$ 充分小时，存在 $0&lt;\rho&lt;1$ 使得对任意的 $|x|&lt;\delta$，有 $|u_{n+1}(x)|\le \rho|u_n(x)|$。
+(2) 证明：$y(x)=\sum\limits_{n=1}^{\infty}u_n(x)$ 时 $f(x,y)=0$ 在 $(0,0)$ 附近确定的一个连续的隐函数。" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
       <a class="btn small" href="../paper/major-0701-2024-ecnu-29ddd5f6.html#major-0701-2024-ecnu-29ddd5f6-q0009">在试卷中查看</a>
     </div>
     <div class="notice" style="margin-top:18px">
@@ -72,8 +70,8 @@ $$y_{n+1}(x)=y_n(x)-(f_y(0,0))^{-1}f(x,y_n(x)),\quad y_0(x)=0.$$
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21098 题</span>
-    <span>生成于 2026-10-03 20:21 · <a href="../about.html">数据说明</a></span>
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21428 题</span>
+    <span>生成于 2026-10-05 00:00 · <a href="../about.html">数据说明</a></span>
   </div>
 </footer>
 <script defer src="../assets/katex/katex.min.js"></script>

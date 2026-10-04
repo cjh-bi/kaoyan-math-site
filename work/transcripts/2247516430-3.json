@@ -6,7 +6,7 @@
       "year": "2023",
       "subject": "数学分析",
       "header_note": "17. 上海大学 2023 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247516430-3_4.png"],
+      "source_imgs": ["work/imgs/2247516430-3_4.png", "work/imgs/2247516430-3_5.png"],
       "questions": [
         {
           "section": "一",
@@ -117,6 +117,36 @@
           "l1": "多元微分学",
           "l2": "极值与最值",
           "stem": "设 $M_0(x_0,y_0,z_0)$ 是曲面 $z=2-x^2-y^2$ 上位于第一卦限的点。\n(1) 计算曲面在该点的切平面与三个坐标平面所围成的四面体体积 $V(x_0,y_0,z_0)$；\n(2) 求 $M_0(x_0,y_0,z_0)$ 使得四面体体积最小，并求出最小体积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "把函数 $f(x)=x$ ($0\\le x\\le\\pi$) 展开为余弦级数，并指出收敛性，再利用该级数求 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "13",
+          "score": null,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "解答如下问题：\n(1) 证明反常积分 $\\int_0^{+\\infty}\\dfrac{\\arctan x}{x^p}\\,\\mathrm{d}x$ ($1<p<2$) 收敛；\n(2) （可能有误）求级数 $\\sum\\limits_{n=0}^{\\infty}\\dfrac{1}{2^{n}}\\tan x\\,\\dfrac{x}{2^{n}}$ 的和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "14",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "",
+          "stem": "解答如下问题：\n(1) 计算 $\\int_L (x^2+y^2)\\,\\mathrm{d}s$，其中 $L$ 是球面 $x^2+y^2+z^2=1$ 与平面 $x+y+z=0$ 的交线；\n(2) 求曲面积分\n$$I=\\iint_S 2x^3\\,\\mathrm{d}y\\mathrm{d}z+2y^3\\,\\mathrm{d}z\\mathrm{d}x+2z^3\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 是曲面 $z=1-x^2-y^2$ ($z\\ge 0$) 的上侧。"
         }
       ]
     },
@@ -125,7 +155,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "17. 上海大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516430-3_6.png"],
+      "source_imgs": ["work/imgs/2247516430-3_6.png", "work/imgs/2247516430-3_7.png"],
       "questions": [
         {
           "section": "一",
@@ -276,6 +306,16 @@
           "l1": "多项式",
           "l2": "既约性",
           "stem": "设 $p$ 是素数，$a$ 是整数，$f(x)=ax^{p}+px+1$，$p^{2}\\mid(a+1)$，求证：$f(x)$ 在有理数域上不可约。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "简答题",
+          "no": "6",
+          "score": 20,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\sigma$ 是有限维线性空间 $W$ 上的线性变换，记 $\\det\\sigma$ 为 $\\sigma$ 在 $W$ 的任意一组基下矩阵的行列式。现设 $V$ 是 $n$ 维复线性空间，$U$ 是 $V$ 上的线性变换，把数域从复数域缩小到实数域，则 $V$ 成为实数域上 $2n$ 维实线性空间，记为 $V_0$，这时 $U$ 可看成 $V_0$ 上的实线性变换，记为 $U_0$。\n(1) 若 $e_1,e_2,\\cdots,e_n$ 为 $V$ 的一组基，证明：$e_1,e_2,\\cdots,e_n,\\mathrm{i}e_1,\\mathrm{i}e_2,\\cdots,\\mathrm{i}e_n$ 为 $V_0$ 的一组基，其中 $\\mathrm{i}$ 为虚数单位；\n(2) 若 $U$ 在基 $e_1,e_2,\\cdots,e_n$ 下的矩阵为 $A$，求 $U_0$ 在基 $e_1,e_2,\\cdots,e_n,\\mathrm{i}e_1,\\mathrm{i}e_2,\\cdots,\\mathrm{i}e_n$ 下的矩阵；\n(3) 求 $\\det U$ 与 $\\det U_0$ 的关系。"
         }
       ]
     }

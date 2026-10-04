@@ -16,7 +16,7 @@
           "form": "判断",
           "l1": "极限与连续",
           "l2": "数列收敛性",
-          "stem": "判断下述命题是否正确并给出理由.\n(1) 设数列 $\\{b_n-a_n\\}$ 无界, 数列 $\\{a_n\\}$ 收敛, 则数列 $\\{b_n\\}$ 无界.\n(2) 设数列 $\\{a_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}a_n=a$, 且 $a_n$ 是集合 $A$ 的上界, 则 $a$ 是集合 $A$ 的上界."
+          "stem": "判断下述命题是否正确并给出理由.\n(1) 设数列 $\\{b_n - a_n\\}$ 无界, 数列 $\\{a_n\\}$ 收敛, 则数列 $\\{b_n\\}$ 无界.\n(2) 设数列 $\\{a_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty} a_n = a$, 且 $a_n$ 是集合 $A$ 的上界, 则 $a$ 是集合 $A$ 的上界."
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "计算",
           "l1": "广义积分与含参积分",
           "l2": "",
-          "stem": "计算 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{1}{(1+x^2)(1+x^{2026})}\\,\\mathrm{d}x$."
+          "stem": "计算 $\\displaystyle\\int_0^{+\\infty}\\dfrac{1}{(1+x^2)(1+x^{2026})}\\,\\mathrm{d}x$."
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "二重积分",
-          "stem": "计算 $\\displaystyle\\iint_{x^2+y^2\\leq 1}|3x+4y|\\,\\mathrm{d}x\\mathrm{d}y$."
+          "stem": "计算 $\\displaystyle\\iint_{x^2+y^2\\le 1}|3x+4y|\\,\\mathrm{d}x\\mathrm{d}y$."
         },
         {
           "section": "一",
@@ -56,7 +56,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲线积分",
-          "stem": "计算曲线积分 $\\displaystyle\\int_C\\dfrac{y\\,\\mathrm{d}x-x\\,\\mathrm{d}y}{x^2+y^2}$, 其中 $C$ 是 $\\dfrac{x^2}{4}+\\dfrac{y^2}{9}=1$ 从 $(2,0)$ 到 $(-2,0)$ 的一段曲线, 取逆时针方向."
+          "stem": "计算曲线积分 $\\displaystyle\\int_C\\dfrac{y\\,\\mathrm{d}x - x\\,\\mathrm{d}y}{x^2+y^2}$, 其中 $C$ 是 $\\dfrac{x^2}{4}+\\dfrac{y^2}{9}=1$ 从 $(2,0)$ 到 $(-2,0)$ 的一段曲线, 取逆时针方向."
         },
         {
           "section": "一",
@@ -71,17 +71,17 @@
         {
           "section": "二",
           "section_instruction": "证明题. 每题 10 分, 共 60 分.",
-          "no": "1",
+          "no": "7",
           "score": 10,
           "form": "证明",
           "l1": "极限与连续",
           "l2": "连续与有界性",
-          "stem": "设\n$$f(x)=\\begin{cases}p, & x=\\dfrac{p}{q}\\ (p\\in\\mathbb{N}^{+},\\ q\\in\\mathbb{Z}\\setminus\\{0\\},\\ p,q\\ \\text{互素}),\\\\[4pt] 1, & x=0,\\\\ 0, & x\\ \\text{是无理数}.\\end{cases}$$\n证明: $f(x)$ 在任意区间上无界."
+          "stem": "设\n$$f(x)=\\begin{cases} p, & x=\\dfrac{p}{q}\\ (p\\in\\mathbb{N}^+,\\ q\\in\\mathbb{Z}\\setminus\\{0\\},\\ p,q\\ \\text{互素}),\\\\ 1, & x=0,\\\\ 0, & x\\ \\text{是无理数}.\\end{cases}$$\n证明: $f(x)$ 在任意区间上无界."
         },
         {
           "section": "二",
           "section_instruction": "证明题. 每题 10 分, 共 60 分.",
-          "no": "2",
+          "no": "8",
           "score": 10,
           "form": "证明",
           "l1": "极限与连续",
@@ -91,42 +91,42 @@
         {
           "section": "二",
           "section_instruction": "证明题. 每题 10 分, 共 60 分.",
-          "no": "3",
+          "no": "9",
           "score": 10,
           "form": "证明",
           "l1": "一元微分学",
           "l2": "中值定理",
-          "stem": "已知 $f(x)$ 在 $[a,b]$ 上二阶可导, 且有 $f(a)=f(b)=0$, 若存在 $c\\in(a,b)$ 使得 $f(c)>0$. 证明: 存在 $\\xi\\in(a,b)$, 使得 $f^{\\prime\\prime}(\\xi)<0$."
+          "stem": "已知 $f(x)$ 在 $[a,b]$ 上二阶可导, 且有 $f(a)=f(b)=0$, 若存在 $c\\in(a,b)$ 使得 $f(c)>0$. 证明: 存在 $\\xi\\in(a,b)$, 使得 $f''(\\xi)<0$."
         },
         {
           "section": "二",
           "section_instruction": "证明题. 每题 10 分, 共 60 分.",
-          "no": "4",
+          "no": "10",
           "score": 10,
           "form": "证明",
           "l1": "一元微分学",
           "l2": "高阶导数",
-          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上三阶可导, 证明: 若 $\\lim\\limits_{x\\to+\\infty}f(x)$, $\\lim\\limits_{x\\to+\\infty}f^{\\prime\\prime\\prime}(x)$ 都存在且有限, 则\n$$\\lim_{x\\to+\\infty}f^{\\prime}(x)=\\lim_{x\\to+\\infty}f^{\\prime\\prime}(x)=\\lim_{x\\to+\\infty}f^{\\prime\\prime\\prime}(x)=0.$$"
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上三阶可导, 证明: 若 $\\lim\\limits_{x\\to+\\infty} f(x)$, $\\lim\\limits_{x\\to+\\infty} f'''(x)$ 都存在且有限, 则\n$$\\lim_{x\\to+\\infty} f'(x)=\\lim_{x\\to+\\infty} f''(x)=\\lim_{x\\to+\\infty} f'''(x)=0.$$"
         },
         {
           "section": "二",
           "section_instruction": "证明题. 每题 10 分, 共 60 分.",
-          "no": "5",
+          "no": "11",
           "score": 10,
           "form": "证明",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "设\n$$f(x,y)=\\begin{cases}xy\\cos\\dfrac{1}{\\sqrt{x^2+y^2}}, & (x,y)\\neq(0,0),\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$$\n证明: $f(x,y)$ 在 $(0,0)$ 处可微, 但偏导函数不连续."
+          "stem": "设\n$$f(x,y)=\\begin{cases} xy\\cos\\dfrac{1}{\\sqrt{x^2+y^2}}, & (x,y)\\ne(0,0),\\\\ 0, & (x,y)=(0,0).\\end{cases}$$\n证明: $f(x,y)$ 在 $(0,0)$ 处可微, 但偏导函数不连续."
         },
         {
           "section": "二",
           "section_instruction": "证明题. 每题 10 分, 共 60 分.",
-          "no": "6",
+          "no": "12",
           "score": 10,
           "form": "证明",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "设 $a_n\\geq 0$, 且幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_nx^n$ 的收敛半径为 $R$, 证明: $\\lim\\limits_{x\\to R^{-}}\\displaystyle\\sum_{n=1}^{\\infty}a_nx^n=\\sum\\limits_{n=1}^{\\infty}a_nR^n$."
+          "stem": "设 $a_n\\ge 0$, 且幂级数 $\\displaystyle\\sum_{n=1}^{\\infty} a_n x^n$ 的收敛半径为 $R$, 证明: $\\lim\\limits_{x\\to R^-}\\displaystyle\\sum_{n=1}^{\\infty} a_n x^n=\\sum\\limits_{n=1}^{\\infty} a_n R^n$."
         }
       ]
     },
@@ -135,41 +135,41 @@
       "year": "2026",
       "subject": "高等代数",
       "header_note": "19. 上海财经大学 2026 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247537259_5.jpg"],
+      "source_imgs": ["work/imgs/2247537259_5.jpg", "work/imgs/2247537259_6.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "（10 分）",
+          "section_instruction": "(10 分)",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "多项式",
           "l2": "互素与最大公因式",
-          "stem": "令 $f_1(x)=x^2+3x+2$, $f_2(x)=x^4-2x^3-3x^2+4x+4$, 求它们的最大公因式 $d(x)$, 并求多项式 $u_1(x),u_2(x)$, 使得 $f_1(x)u_1(x)+f_2(x)u_2(x)=d(x)$."
+          "stem": "令 $f_1(x)=x^2+3x+2$, $f_2(x)=x^4-2x^3-3x^2+4x+4$, 求它们的最大公因式 $d(x)$, 并求多项式 $u_1(x), u_2(x)$, 使得 $f_1(x)u_1(x)+f_2(x)u_2(x)=d(x)$."
         },
         {
           "section": "二",
-          "section_instruction": "（15 分）",
+          "section_instruction": "(15 分) 计算下列矩阵的行列式:",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算下列矩阵的行列式:\n$$A=\\begin{pmatrix}2 & x+1 & x+1 & \\cdots & x+1\\\\ 2 & x+2 & x & \\cdots & x\\\\ 2 & x & x+3 & \\cdots & x\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 2 & x & x & \\cdots & x+n\\end{pmatrix}.$$"
+          "stem": "计算下列矩阵的行列式:\n$$A=\\begin{pmatrix} 2 & x+1 & x+1 & \\cdots & x+1\\\\ 2 & x+2 & x & \\cdots & x\\\\ 2 & x & x+3 & \\cdots & x\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 2 & x & x & \\cdots & x+n\\end{pmatrix}.$$"
         },
         {
           "section": "三",
-          "section_instruction": "（15 分）",
+          "section_instruction": "(15 分)",
           "no": "1",
           "score": 15,
-          "form": "综合",
+          "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $a,b$ 是常数, 且有下列线性方程组\n$$\\begin{cases}x_1+3x_2-ax_3=2,\\\\ x_1+4x_2+ax_3=3+2b,\\\\ 3x_1+11x_2+(3-2a)x_3=8+b.\\end{cases}$$\n(1) $a,b$ 为何值时, 方程组有解?\n(2) 当方程组有解时, 求出所有解."
+          "stem": "设 $a,b$ 是常数, 且有下列线性方程组\n$$\\begin{cases} x_1+3x_2-ax_3=2,\\\\ x_1+4x_2+ax_3=3+2b,\\\\ 3x_1+11x_2+(3-2a)x_3=8+b.\\end{cases}$$\n(1) $a,b$ 为何值时, 方程组有解?\n(2) 当方程组有解时, 求出所有解."
         },
         {
           "section": "四",
-          "section_instruction": "（10 分）",
+          "section_instruction": "(10 分)",
           "no": "1",
           "score": 10,
           "form": "证明",
@@ -179,53 +179,63 @@
         },
         {
           "section": "五",
-          "section_instruction": "（15 分）",
+          "section_instruction": "(15 分)",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设 $M_n(\\mathbb{R})$ 是实数域 $\\mathbb{R}$ 上 $n$ 阶矩阵全体.\n(1) 令 $W$ 是 $M_n(\\mathbb{R})$ 中的第一行元素全为 0 的矩阵构成的集合, 求证: $W$ 是 $M_n(\\mathbb{R})$ 的子空间.\n(2) 设 $V$ 是 $M_n(\\mathbb{R})$ 的子空间, 且 $V$ 中的非零矩阵可逆, 求证: $V$ 的维数小于等于 $n$."
+          "stem": "设 $M_n(\\mathbb{R})$ 是实数域 $\\mathbb{R}$ 上 $n$ 阶矩阵全体.\n(1) 令 $W$ 是 $M_n(\\mathbb{R})$ 中的第一行元素全为 $0$ 的矩阵构成的集合, 求证: $W$ 是 $M_n(\\mathbb{R})$ 的子空间.\n(2) 设 $V$ 是 $M_n(\\mathbb{R})$ 的子空间, 且 $V$ 中的非零矩阵可逆, 求证: $V$ 的维数小于等于 $n$."
         },
         {
           "section": "六",
-          "section_instruction": "（15 分）",
+          "section_instruction": "(15 分)",
           "no": "1",
           "score": 15,
           "form": "综合",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "假设 $a,b,c$ 是不全为零的实数, 已知二次型 $f(x_1,x_2,x_3)=(x_1+x_2+x_3)(ax_1+bx_2+cx_3)$.\n(1) 求证: $f(x_1,x_2,x_3)$ 的秩等于 2 当且仅当 $a,b,c$ 不全相等.\n(2) 当 $f(x_1,x_2,x_3)$ 的秩等于 2 时, 求 $f(x_1,x_2,x_3)$ 的正、负惯性指数."
+          "stem": "假设 $a,b,c$ 是不全为零的实数, 已知二次型 $f(x_1,x_2,x_3)=(x_1+x_2+x_3)(ax_1+bx_2+cx_3)$.\n(1) 求证: $f(x_1,x_2,x_3)$ 的秩等于 $2$ 当且仅当 $a,b,c$ 不全相等.\n(2) 当 $f(x_1,x_2,x_3)$ 的秩等于 $2$ 时, 求 $f(x_1,x_2,x_3)$ 的正、负惯性指数."
         },
         {
           "section": "七",
-          "section_instruction": "（15 分）",
+          "section_instruction": "(15 分)",
           "no": "1",
           "score": 15,
           "form": "综合",
-          "l1": "矩阵与线性方程组",
-          "l2": "伴随矩阵",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
           "stem": "设 $A$ 是 $n$ 阶实方阵, $A$ 和 $A^{*}$ 都满足多项式 $f(x)=x^3-x^2-x+1$, 且 $|A|<0$.\n(1) 求 $|A|$.\n(2) 求证: 矩阵 $A$ 可以对角化."
         },
         {
           "section": "八",
-          "section_instruction": "（15 分）",
+          "section_instruction": "(15 分)",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "欧氏空间与二次型",
-          "l2": "正交补与直和",
-          "stem": "设 $V=M_n(\\mathbb{R})$ 是实数域 $\\mathbb{R}$ 上 $n$ 阶矩阵全体, 定义 $\\sigma:V\\times V\\to\\mathbb{R}$, $\\sigma(A,B)=\\operatorname{tr}(AB^{\\mathrm{T}})$.\n(1) 证明: $V$ 是 $\\sigma$ 下构成的一个 $\\mathbb{R}$ 上的内积空间.\n(2) 设 $V_1$ 是由全体对称矩阵构成的子空间, $V_2$ 是由全体反对称矩阵构成的子空间, 证明: $V_1$ 是 $V_2$ 的正交补空间."
+          "l2": "内积与度量",
+          "stem": "设 $V=M_n(\\mathbb{R})$ 是实数域 $\\mathbb{R}$ 上 $n$ 阶矩阵全体, 定义 $\\sigma: V\\times V\\to\\mathbb{R}$, $\\sigma(A,B)=\\mathrm{tr}(AB^{\\mathrm{T}})$.\n(1) 证明: $V$ 是 $\\sigma$ 下构成的一个 $\\mathbb{R}$ 上的内积空间.\n(2) 设 $V_1$ 是由全体对称矩阵构成的子空间, $V_2$ 是由全体反对称矩阵构成的子空间, 证明: $V_1$ 是 $V_2$ 的正交补空间."
         },
         {
           "section": "九",
-          "section_instruction": "（20 分）",
+          "section_instruction": "(20 分)",
           "no": "1",
           "score": 20,
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "设 $A=\\begin{pmatrix}1 & -1 & 0 & 1\\\\ 1 & 1 & 1 & 0\\\\ 0 & -1 & 1 & 1\\\\ 1 & 0 & 1 & 1\\end{pmatrix}$.\n(1) 求 $A$ 的 Jordan 标准型 $J$.\n(2) 求可逆矩阵 $P$, 使得 $P^{-1}AP=J$.\n(3) 求 $A$ 的极小多项式."
+          "stem": "设 $A=\\begin{pmatrix} 1 & -1 & 0 & 1\\\\ 1 & 1 & 1 & 0\\\\ 0 & -1 & 1 & 1\\\\ 1 & 0 & 1 & 1\\end{pmatrix}$.\n(1) 求 $A$ 的 Jordan 标准型 $J$.\n(2) 求可逆矩阵 $P$, 使得 $P^{-1}AP=J$.\n(3) 求 $A$ 的极小多项式."
+        },
+        {
+          "section": "十",
+          "section_instruction": "(20 分)",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\varphi$ 是数域 $\\mathbb{F}$ 上 $n$ 维线性空间 $V$ 上的线性变换, 其特征多项式为 $f(\\lambda)$. 证明以下 3 个结论等价:\n(1) $V$ 只有平凡的 $\\varphi-$不变子空间.\n(2) 对任意非零向量 $\\alpha\\in V$, 都有 $V=L(\\alpha,\\varphi(\\alpha),\\varphi^2(\\alpha),\\cdots)$.\n(3) $f(\\lambda)$ 是数域 $\\mathbb{F}$ 上的不可约多项式."
         }
       ]
     }

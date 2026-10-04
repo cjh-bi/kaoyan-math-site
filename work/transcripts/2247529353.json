@@ -63,7 +63,7 @@
           "section_instruction": "",
           "no": "6",
           "score": null,
-          "form": "综合",
+          "form": "计算",
           "l1": "多元微分学",
           "l2": "极值与最值",
           "stem": "求最大的负数 $A$ 和最小的正数 $B$，使得不等式 $\\dfrac{A}{xy}\\leq \\ln(x+y)\\leq \\dfrac{B}{x^2+y^2}$ 对任意 $x>0$，$y>0$ 恒成立。"
@@ -86,7 +86,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "求曲面积分\n$$\\iint\\limits_{S}(x-y)\\,\\mathrm{d}y\\mathrm{d}z+(y^2-z^2)\\,\\mathrm{d}z\\mathrm{d}x+(z^3-x^3)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 是锥面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=z^2$ $(a,b>0)$ 在 $z=0$ 和 $z=1$ 之间的部分，方向取下侧。"
+          "stem": "求曲面积分\n$$\\iiint\\limits_{S}(x-y)\\,\\mathrm{d}y\\mathrm{d}z+(y^2-z^2)\\,\\mathrm{d}z\\mathrm{d}x+(z^3-x^3)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 是锥面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=z^2$ $(a,b>0)$ 在 $z=0$ 和 $z=1$ 之间的部分，方向取下侧。"
         },
         {
           "section": "一",
@@ -194,7 +194,7 @@
           "score": null,
           "form": "填空",
           "l1": "欧氏空间与二次型",
-          "l2": "实对称矩阵",
+          "l2": "二次型",
           "stem": "$X^{T}AX$ 的符号差为 1，且 $A^2-2A=3E$，则 $|A|=$ ______。"
         },
         {
@@ -295,7 +295,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "$V_1=L(\\alpha_1,\\alpha_2,\\alpha_3)$，$V_2=L(\\beta_1,\\beta_2)$．（具体数据忘了）\n(1) 求 $V_1+V_2$ 的维数和一组基．\n(2) 求 $V_1\\cap V_2$ 的维数和一组基．\n(3) 证明: ...."
+          "stem": "$V_1=L(\\alpha_1,\\alpha_2,\\alpha_3)$，$V_2=L(\\beta_1,\\beta_2)$．（具体数据忘了）\n(1) 求 $V_1+V_2$ 的维数和一组基．\n(2) 求 $V_1\\cap V_2$ 的维数和一组基．\n(3) 证明：【?】。"
         },
         {
           "section": "八",

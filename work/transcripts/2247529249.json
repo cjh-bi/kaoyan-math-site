@@ -10,123 +10,103 @@
       "questions": [
         {
           "section": "一",
-          "section_instruction": "(16 分) 计算题.",
+          "section_instruction": "（16 分）计算题.",
           "no": "1",
-          "score": 8,
-          "form": "计算",
-          "l1": "极限与连续",
-          "l2": "数列极限计算",
-          "stem": "设 $a_n=\\sum_{k=1}^{n}\\left(\\sqrt{1+\\dfrac{k}{n^2}}-1\\right)$, 求 $\\lim_{n\\to\\infty}a_n$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "(16 分) 计算题.",
-          "no": "2",
-          "score": 8,
+          "score": 16,
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求 $\\lim_{x\\to0^+}\\dfrac{\\int_0^x e^{-t^2}\\,\\mathrm{d}t-x}{\\sin x-x}$。"
+          "stem": "(1)（8 分）设 $a_n=\\sum_{k=1}^{n}\\left(\\sqrt{1+\\dfrac{k}{n^2}}-1\\right)$，求 $\\lim\\limits_{n\\to\\infty}a_n$。\n(2)（8 分）求 $\\lim\\limits_{x\\to 0^+}\\dfrac{\\int_0^x e^{-t^2}\\,\\mathrm{d}t-x}{\\sin x-x}$。"
         },
         {
           "section": "二",
-          "section_instruction": "(14 分)",
+          "section_instruction": "（14 分）",
           "no": "1",
           "score": 14,
           "form": "证明",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "证明 $f(x,y)=\\begin{cases}\\dfrac{xy}{\\sqrt{x^2+4y^2}}, & x^2+y^2\\neq0;\\\\[6pt] 0, & x^2+y^2=0.\\end{cases}$ 在原点 $(0,0)$ 处连续且可偏导, 但不可微。"
+          "stem": "证明 $f(x,y)=\\begin{cases}\\dfrac{xy}{\\sqrt{x^2+4y^2}}, & x^2+y^2\\neq 0;\\\\[4pt] 0, & x^2+y^2=0,\\end{cases}$ 在原点 $(0,0)$ 处连续且可偏导，但不可微。"
         },
         {
           "section": "三",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）计算",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算\n$$\\iint_{\\Sigma}(x-y)\\,\\mathrm{d}y\\mathrm{d}z+(y-z)\\,\\mathrm{d}z\\mathrm{d}x+(z-x)\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $\\Sigma$ 为曲面 $z=x^2+y^2$ ($z\\le1$), 方向向下。"
+          "stem": "计算 $\\iint_{\\Sigma}(x-y)\\,\\mathrm{d}y\\mathrm{d}z+(y-z)\\,\\mathrm{d}z\\mathrm{d}x+(z-x)\\,\\mathrm{d}x\\mathrm{d}y$，其中 $\\Sigma$ 为曲面 $z=x^2+y^2$（$z\\le 1$），方向向下。"
         },
         {
           "section": "四",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）讨论反常积分的敛散性",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "讨论反常积分 $\\int_0^{+\\infty}\\dfrac{e^{\\sin x}\\sin 2x}{x^p}\\,\\mathrm{d}x$ 的敛散性, 其中 $p>0$。"
+          "stem": "讨论反常积分 $\\int_0^{+\\infty}\\dfrac{e^{\\sin x}\\sin 2x}{x^p}\\,\\mathrm{d}x$ 的敛散性，其中 $p>0$。"
         },
         {
           "section": "五",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）",
           "no": "1",
-          "score": 10,
+          "score": 15,
           "form": "证明",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "设 $f(x)=\\sum_{n=0}^{\\infty}\\dfrac{1}{2^n+x}$。证明函数 $f(x)$ 在 $[0,+\\infty)$ 上可导且一致连续。"
-        },
-        {
-          "section": "五",
-          "section_instruction": "(15 分)",
-          "no": "2",
-          "score": 5,
-          "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "设 $f(x)=\\sum_{n=0}^{\\infty}\\dfrac{1}{2^n+x}$。证明反常积分 $\\int_0^{+\\infty}f(x)\\,\\mathrm{d}x$ 发散。"
+          "stem": "设 $f(x)=\\sum\\limits_{n=0}^{\\infty}\\dfrac{1}{2^n+x}$。\n(1)（10 分）证明函数 $f(x)$ 在 $[0,+\\infty)$ 上可导且一致连续。\n(2)（5 分）证明反常积分 $\\int_0^{+\\infty}f(x)\\,\\mathrm{d}x$ 发散。"
         },
         {
           "section": "六",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲线积分",
-          "stem": "若函数 $f$ 一阶导数或偏导数存在且连续, 则记 $f\\in C^1$. 设函数 $z=f(x,y)$ 由方程\n$$F(xz-y,\\ x-yz)=0$$\n唯一确定, 其中 $f\\in C^1$, $F\\in C^1$, 试求 $\\oint_L (xz^2+2yz)\\,\\mathrm{d}y-(2xz+yz^2)\\,\\mathrm{d}x$, 其中 $L$ 为正向单位圆周。"
+          "stem": "若函数 $f$ 一阶导数或偏导数存在且连续，则记 $f\\in C^1$。设函数 $z=f(x,y)$ 由方程 $F(xz-y,\\,x-yz)=0$ 唯一确定，其中 $f\\in C^1$，$F\\in C^1$，试求 $\\oint_L (xz^2+2yz)\\,\\mathrm{d}y-(2xz+yz^2)\\,\\mathrm{d}x$，其中 $L$ 为正向单位圆周。"
         },
         {
           "section": "七",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "若将 $a_1,a_2,\\cdots,a_n,\\cdots$ 重新排列后得到 $a_1',a_2',\\cdots,a_n',\\cdots$, 则级数 $\\sum_{n=1}^{\\infty}a_n'$ 称为 $\\sum_{n=1}^{\\infty}a_n$ 的一个更序级数. 设级数 $\\sum_{n=1}^{\\infty}x_n$ 条件收敛, 证明: 对任意给定的 $a$, $-\\infty<a<+\\infty$, 必定存在 $\\sum_{n=1}^{\\infty}x_n$ 的更序级数 $\\sum_{n=1}^{\\infty}x_n'$, 满足 $\\sum_{n=1}^{\\infty}x_n'=a$。"
+          "stem": "若将 $a_1,a_2,\\cdots,a_n,\\cdots$ 重新排列后得到 $a_1',a_2',\\cdots,a_n',\\cdots$，则级数 $\\sum\\limits_{n=1}^{\\infty}a_n'$ 称为 $\\sum\\limits_{n=1}^{\\infty}a_n$ 的一个更序级数。设级数 $\\sum\\limits_{n=1}^{\\infty}x_n$ 条件收敛，证明：对任意给定的 $a$，$-\\infty<a<+\\infty$，必定存在 $\\sum\\limits_{n=1}^{\\infty}x_n$ 的更序级数 $\\sum\\limits_{n=1}^{\\infty}x_n'$，满足 $\\sum\\limits_{n=1}^{\\infty}x_n'=a$。"
         },
         {
           "section": "八",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "极限与连续",
-          "l2": "连续与有界性",
-          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续且有界, 若 $\\forall r\\in(-\\infty,+\\infty)$, $f(x)=r$ 在 $[0,+\\infty)$ 上只有有限个根或无根, 证明: $\\lim_{x\\to+\\infty}f(x)$ 存在。"
+          "l2": "极限证明",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上连续且有界，若 $\\forall r\\in(-\\infty,+\\infty)$，$f(x)=r$ 在 $[0,+\\infty)$ 上只有有限个根或无根，证明：$\\lim\\limits_{x\\to+\\infty}f(x)$ 存在。"
         },
         {
           "section": "九",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "设有界函数 $f(x)$ 在闭区间 $[a,b]$ 上的不连续点为 $\\{x_n\\}_{n=1}^{\\infty}$, 且 $\\lim_{n\\to\\infty}x_n$ 存在, 证明: $f(x)$ 在闭区间 $[a,b]$ 上可积。"
+          "stem": "设有界函数 $f(x)$ 在闭区间 $[a,b]$ 上的不连续点为 $\\{x_n\\}_{n=1}^{\\infty}$，且 $\\lim\\limits_{n\\to\\infty}x_n$ 存在，证明：$f(x)$ 在闭区间 $[a,b]$ 上可积。"
         },
         {
           "section": "十",
-          "section_instruction": "(15 分)",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "一元微分学",
           "l2": "中值定理",
-          "stem": "设 $f(x)$ 在闭区间 $[a,b]$ 上二阶可导, 且 $f(a)=f(b)=0$. 证明: 对任意的 $x\\in(a,b)$, 存在 $\\xi\\in(a,b)$, 使得\n$$f(x)=\\frac{f''(\\xi)(x-a)(x-b)}{2}$$。"
+          "stem": "设 $f(x)$ 在闭区间 $[a,b]$ 上二阶可导，且 $f(a)=f(b)=0$。证明：对任意的 $x\\in(a,b)$，存在 $\\xi\\in(a,b)$，使得 $f(x)=\\dfrac{f''(\\xi)(x-a)(x-b)}{2}$。"
         }
       ]
     },
@@ -145,7 +125,7 @@
           "form": "填空",
           "l1": "多项式",
           "l2": "既约性",
-          "stem": "多项式 $x^6+1$ 在 $\\mathbb{R}$ 上的不可约分解为______。"
+          "stem": "多项式 $x^6+1$ 在 $\\mathbb{R}$ 上的不可约分解为______."
         },
         {
           "section": "一",
@@ -155,7 +135,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "已知 5 阶方阵满足 $A^2-3A+2I=O$, 其中 $I$ 为单位阵, 若迹 $\\operatorname{tr}(A-I)=2$, 则 $A$ 的特征值 1 的几何重数为______。"
+          "stem": "已知 5 阶方阵满足 $A^2-3A+2I=O$，其中 $I$ 为单位阵，若迹 $\\mathrm{tr}(A-I)=2$，则 $A$ 的特征值 1 的几何重数为______."
         },
         {
           "section": "一",
@@ -165,7 +145,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "若线性方程组 $\\begin{cases}\\lambda x_1+x_2+x_3=1;\\\\x_1+\\lambda x_2+x_3=\\lambda;\\\\x_1+x_2+\\lambda x_3=\\lambda^2.\\end{cases}$ 无解, 则 $\\lambda$ 的值为______。"
+          "stem": "若线性方程组 $\\begin{cases}\\lambda x_1+x_2+x_3=1;\\\\ x_1+\\lambda x_2+x_3=\\lambda;\\\\ x_1+x_2+\\lambda x_3=\\lambda^2\\end{cases}$ 无解，则 $\\lambda$ 的值为______."
         },
         {
           "section": "一",
@@ -175,7 +155,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "设 3 阶方阵 $A$ 恰好有一个 Jordan 块, 则 $A$ 有______个不同的不变因子。"
+          "stem": "设 3 阶方阵 $A$ 恰好有一个 Jordan 块，则 $A$ 有______个不同的不变因子."
         },
         {
           "section": "一",
@@ -185,7 +165,7 @@
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "正交补与直和",
-          "stem": "向量组 $(1,1,-1,-1),(1,1,0,0),(0,0,-1,-1),(2,2,-1,-1),(1,0,-1,-1)$ 在四维行向量空间(取 $\\mathbb{R}^4$ 标准内积)中生成的子空间的正交补空间的维数为______。"
+          "stem": "向量组 $(1,1,-1,-1),(1,1,0,0),(0,0,-1,-1),(2,2,-1,-1),(1,0,-1,-1)$ 在四维行向量空间（取 $\\mathbb{R}^4$ 标准内积）中生成的子空间的正交补空间的维数为______."
         },
         {
           "section": "一",
@@ -195,7 +175,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $n$ 阶矩阵 $A$ 满足秩 $\\operatorname{rank}(A+I)+\\operatorname{rank}(A-I)=n$, 且 $A\\neq I$, 其中 $I$ 为单位矩阵, 则 $A$ 必有特征值______。"
+          "stem": "设 $n$ 阶矩阵 $A$ 满足 $\\mathrm{rank}(A+I)+\\mathrm{rank}(A-I)=n$，且 $A\\neq I$，其中 $I$ 为单位矩阵，则 $A$ 必有特征值______."
         },
         {
           "section": "二",
@@ -205,7 +185,7 @@
           "form": "判断",
           "l1": "线性空间与线性变换",
           "l2": "线性映射与核",
-          "stem": "设 $U,V$ 为数域 $P$ 上的线性空间, $\\varphi:U\\to V$ 为线性映射, 则商空间 $V/\\operatorname{Im}\\varphi$ 与 $\\operatorname{Ker}\\varphi$ 同构。"
+          "stem": "设 $U,V$ 为数域 $P$ 上的线性空间，$\\varphi:U\\to V$ 为线性映射，则商空间 $V/\\mathrm{Im}\\,\\varphi$ 与 $\\mathrm{Ker}\\,\\varphi$ 同构."
         },
         {
           "section": "二",
@@ -215,7 +195,7 @@
           "form": "判断",
           "l1": "线性空间与线性变换",
           "l2": "子空间与直和",
-          "stem": "设 $V_1,V_2$ 分别是数域 $P$ 上齐次线性方程组 $x_1=x_2=\\cdots=x_n$ 与 $x_1+x_2+\\cdots+x_n=0$ 的解空间, 则 $P^n=V_1\\oplus V_2$。"
+          "stem": "设 $V_1,V_2$ 分别是数域 $P$ 上齐次线性方程组 $x_1=x_2=\\cdots=x_n$ 与 $x_1+x_2+\\cdots+x_n=0$ 的解空间，则 $P^n=V_1\\oplus V_2$."
         },
         {
           "section": "二",
@@ -225,7 +205,7 @@
           "form": "判断",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设 $A$ 为 $m\\times n$ 矩阵, $A^T$ 为 $A$ 的转置, 则秩 $\\operatorname{rank}(A^TA)=\\operatorname{rank}(A)$。"
+          "stem": "设 $A$ 为 $m\\times n$ 矩阵，$A^{\\mathrm T}$ 为 $A$ 的转置，则 $\\mathrm{rank}(A^{\\mathrm T}A)=\\mathrm{rank}(A)$."
         },
         {
           "section": "二",
@@ -233,9 +213,9 @@
           "no": "4",
           "score": 5,
           "form": "判断",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "设 $A$ 为正交阵, 且行列式 $|A|=-1$, 则 $-1$ 必为 $A$ 的特征值。"
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设 $A$ 为正交阵，且行列式 $|A|=-1$，则 $-1$ 必为 $A$ 的特征值."
         },
         {
           "section": "三",
@@ -245,7 +225,7 @@
           "form": "计算",
           "l1": "多项式",
           "l2": "互素与最大公因式",
-          "stem": "设 $f(x)=x^4+2x^3-x^2-4x-2$, $g(x)=x^4+x^3-x^2-2x-2$, 求 $(f(x),g(x))$, 并求 $u(x),v(x)$ 使得 $(f(x),g(x))=u(x)f(x)+v(x)g(x)$。"
+          "stem": "设 $f(x)=x^4+2x^3-x^2-4x-2$，$g(x)=x^4+x^3-x^2-2x-2$，求 $(f(x),g(x))$，并求 $u(x),v(x)$ 使得 $(f(x),g(x))=u(x)f(x)+v(x)g(x)$."
         },
         {
           "section": "三",
@@ -255,7 +235,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算下列 $n-1$ 阶行列式($n\\ge2$):\n$$\\begin{vmatrix}2^2-2&2^3-2&\\cdots&2^n-2\\\\3^2-3&3^3-3&\\cdots&3^n-3\\\\\\vdots&\\vdots&&\\vdots\\\\n^2-n&n^3-n&\\cdots&n^n-n\\end{vmatrix}$$。"
+          "stem": "计算下列 $n-1$ 阶行列式（$n\\ge 2$）：$$\\begin{vmatrix}2^2-2 & 2^3-2 & \\cdots & 2^n-2\\\\ 3^2-3 & 3^3-3 & \\cdots & 3^n-3\\\\ \\vdots & \\vdots & & \\vdots\\\\ n^2-n & n^3-n & \\cdots & n^n-n\\end{vmatrix}.$$"
         },
         {
           "section": "三",
@@ -265,7 +245,7 @@
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "考虑实二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+x_1x_2+x_1x_3+x_2x_3$。\n(1) 利用变量的正交替换, 将该二次型化为标准形。\n(2) 计算该二次型的秩, 并判断其是否正定。"
+          "stem": "考虑实二次型 $f(x_1,x_2,x_3)=x_1^2+x_2^2+x_3^2+x_1x_2+x_1x_3+x_2x_3$。\n(1) 利用变量的正交替换，将该二次型化为标准形.\n(2) 计算该二次型的秩，并判断其是否正定."
         },
         {
           "section": "三",
@@ -275,7 +255,7 @@
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "线性映射与核",
-          "stem": "设 $V,W$ 是数域 $P$ 上的线性空间, $\\varphi:V\\to W$ 是线性映射且在 $V$ 的基 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3,\\varepsilon_4$ 和 $W$ 的基 $\\eta_1,\\eta_2,\\eta_3$ 下的矩阵为\n$$A=\\begin{pmatrix}1&2&3&4\\\\2&3&4&5\\\\3&4&5&6\\end{pmatrix}.$$\n求 $V$ 的基 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 和 $W$ 的基 $\\beta_1,\\beta_2,\\beta_3$, 使得 $\\varphi$ 在这两组基下的矩阵形如 $\\begin{pmatrix}I_r&O\\\\O&O\\end{pmatrix}$。"
+          "stem": "设 $V,W$ 是数域 $P$ 上的线性空间，$\\varphi:V\\to W$ 是线性映射且在 $V$ 的基 $\\varepsilon_1,\\varepsilon_2,\\varepsilon_3,\\varepsilon_4$ 和 $W$ 的基 $\\eta_1,\\eta_2,\\eta_3$ 下的矩阵为 $$A=\\begin{pmatrix}1&2&3&4\\\\ 2&3&4&5\\\\ 3&4&5&6\\end{pmatrix}.$$ 求 $V$ 的基 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 和 $W$ 的基 $\\beta_1,\\beta_2,\\beta_3$，使得 $\\varphi$ 在这两组基下的矩阵形如 $\\begin{pmatrix}I_r&O\\\\ O&O\\end{pmatrix}$."
         },
         {
           "section": "三",
@@ -285,7 +265,7 @@
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "已知矩阵\n$$A=\\begin{pmatrix}2&-4&2&2\\\\-2&0&1&3\\\\-2&-2&3&3\\\\-2&-6&3&7\\end{pmatrix}.$$\n求 $A$ 的 Jordan 标准形 $J$, 并求可逆矩阵 $P$, 使得 $P^{-1}AP=J$。"
+          "stem": "已知矩阵 $$A=\\begin{pmatrix}2&-4&2&2\\\\ -2&0&1&3\\\\ -2&-2&3&3\\\\ -2&-6&3&7\\end{pmatrix}.$$ 求 $A$ 的 Jordan 标准形 $J$，并求可逆矩阵 $P$，使得 $P^{-1}AP=J$."
         },
         {
           "section": "四",
@@ -295,7 +275,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "线性映射与核",
-          "stem": "设 $P^{n\\times n}$ 为数域 $P$ 上所有 $n\\times n$ 矩阵全体构成的集合, 按照矩阵的加法和数与矩阵的乘法构成数域 $P$ 上的线性空间, 设 $\\varphi:P^{n\\times n}\\to P^{n\\times n}$ 为满足 $\\varphi(X)=X+X^{T}$ 的线性映射, 其中 $X^{T}$ 为 $X$ 的转置. 证明:\n(1) $\\dim(\\operatorname{Im}\\varphi)+\\dim(\\operatorname{Ker}\\varphi)=n^2$.\n(2) $P^{n\\times n}=\\operatorname{Im}\\varphi\\oplus\\operatorname{Ker}\\varphi$。"
+          "stem": "设 $P^{n\\times n}$ 为数域 $P$ 上所有 $n\\times n$ 矩阵全体构成的集合，按照矩阵的加法和数与矩阵的乘法构成数域 $P$ 上的线性空间，设 $\\varphi:P^{n\\times n}\\to P^{n\\times n}$ 为满足 $\\varphi(X)=X+X^{\\mathrm T}$ 的线性映射，其中 $X^{\\mathrm T}$ 为 $X$ 的转置. 证明:\n(1) $\\dim(\\mathrm{Im}\\,\\varphi)+\\dim(\\mathrm{Ker}\\,\\varphi)=n^2$.\n(2) $P^{n\\times n}=\\mathrm{Im}\\,\\varphi\\oplus\\mathrm{Ker}\\,\\varphi$."
         },
         {
           "section": "四",
@@ -303,9 +283,9 @@
           "no": "2",
           "score": 10,
           "form": "证明",
-          "l1": "矩阵与线性方程组",
-          "l2": "相似",
-          "stem": "设 $A$ 是置换方阵, 即 $A$ 的行向量是单位方阵行向量的一个排列. 证明: 存在可逆复方阵 $T$, 使得 $T^{-1}AT$ 是对角阵。"
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $A$ 是置换方阵，即 $A$ 的行向量是单位方阵行向量的一个排列. 证明：存在可逆复方阵 $T$，使得 $T^{-1}AT$ 是对角阵."
         },
         {
           "section": "四",
@@ -315,7 +295,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "证明: 若行列式 $D=|(a_{ij})|$ 的每行元素的和及每列元素的和都等于 0, 则 $D$ 的各元素的代数余子式 $A_{ij}$ 都相等。"
+          "stem": "证明：若行列式 $D=|(a_{ij})|$ 的每行元素的和及每列元素的和都等于 $0$，则 $D$ 的各元素的代数余子式 $A_{ij}$ 都相等."
         },
         {
           "section": "四",
@@ -325,17 +305,17 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "矩阵分解",
-          "stem": "设 $A$ 是 $n$ 阶实可逆矩阵, 证明: $A=UB$, 其中 $U$ 为正交阵, $B$ 为上三角矩阵, 且 $B$ 的对角线上的元素均大于零。"
+          "stem": "设 $A$ 是 $n$ 阶实可逆矩阵，证明：$A=UB$，其中 $U$ 为正交阵，$B$ 为上三角矩阵，且 $B$ 的对角线上的元素均大于零."
         },
         {
           "section": "四",
           "section_instruction": "证明题. 每题 10 分, 共 50 分.",
           "no": "5",
           "score": 10,
-          "form": "证明",
+          "form": "综合",
           "l1": "欧氏空间与二次型",
-          "l2": "伴随变换",
-          "stem": "令 $V=\\{X\\in\\mathbb{R}^{3\\times3}\\mid X^{T}=-X\\}$ 为 3 阶反对称实方阵空间, 记 $[A,B]=AB-BA$, $\\forall A,B\\in V$, 考虑 $A\\in V$ 定义的伴随变换 $\\operatorname{ad}_{A}=[A,-]:V\\to V$, $B\\mapsto[A,B]$.\n(1) 验证 $\\operatorname{ad}_{A}$ 为 $V$ 上的线性变换, 且 $\\operatorname{ad}_{[A,B]}=[\\operatorname{ad}_{A},\\operatorname{ad}_{B}]=\\operatorname{ad}_{A}\\circ\\operatorname{ad}_{B}-\\operatorname{ad}_{B}\\circ\\operatorname{ad}_{A}$.\n(2) 考虑向量空间 $V$ 的一组基 $e_{1}=E_{12}-E_{21}, e_{2}=E_{23}-E_{32}, e_{3}=E_{13}-E_{31}$, 求 $\\operatorname{ad}_{e_{1}}$ 在上述基下的矩阵.\n(3) 验证 $(A,B):=-\\dfrac{1}{2}\\operatorname{tr}(\\operatorname{ad}_{A}\\circ\\operatorname{ad}_{B})$ 为 $V$ 上的一个内积。"
+          "l2": "内积与度量",
+          "stem": "令 $V=\\{X\\in\\mathbb{R}^{3\\times 3}\\mid X^{\\mathrm T}=-X\\}$ 为 3 阶反对称实方阵空间，记 $[A,B]=AB-BA$，$\\forall A,B\\in V$，考虑 $A\\in V$ 定义的伴随变换 $\\mathrm{ad}_A=[A,-]:V\\to V$，$B\\mapsto[A,B]$.\n(1) 验证 $\\mathrm{ad}_A$ 为 $V$ 上的线性变换，且 $\\mathrm{ad}_{[A,B]}=[\\mathrm{ad}_A,\\mathrm{ad}_B]=\\mathrm{ad}_A\\circ\\mathrm{ad}_B-\\mathrm{ad}_B\\circ\\mathrm{ad}_A$.\n(2) 考虑向量空间 $V$ 的一组基 $e_1=E_{12}-E_{21},e_2=E_{23}-E_{32},e_3=E_{13}-E_{31}$，求 $\\mathrm{ad}_{e_1}$ 在上述基下的矩阵.\n(3) 验证 $(A,B):=-\\dfrac{1}{2}\\mathrm{tr}(\\mathrm{ad}_A\\circ\\mathrm{ad}_B)$ 为 $V$ 上的一个内积."
         }
       ]
     }

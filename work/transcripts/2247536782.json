@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限 $\\lim_{x\\to+\\infty}\\dfrac{\\ln\\sqrt{x+\\sin^2 x}}{x}$。"
+          "stem": "求极限 $\\lim_{x\\to+\\infty}\\dfrac{\\ln\\sqrt{x}+\\sin^2 x}{x}$。"
         },
         {
           "section": "一",

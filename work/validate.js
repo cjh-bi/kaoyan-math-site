@@ -34,12 +34,12 @@ for (const fn of fs.readdirSync(tDir)) {
       let rest = q.stem;
       const disp = /[$][$]([\s\S]+?)[$][$]/;
       let m;
-      while ((m = rest.match(disp))) { segs.push(m[1]); rest = rest.slice(0, m.index) + ' X ' + rest.slice(m.index + m[0].length); }
+      while ((m = rest.match(disp))) { segs.push([m[1], true]); rest = rest.slice(0, m.index) + ' X ' + rest.slice(m.index + m[0].length); }
       const inl = /[$]([^$]+)[$]/;
-      while ((m = rest.match(inl))) { segs.push(m[1]); rest = rest.slice(0, m.index) + ' X ' + rest.slice(m.index + m[0].length); }
+      while ((m = rest.match(inl))) { segs.push([m[1], false]); rest = rest.slice(0, m.index) + ' X ' + rest.slice(m.index + m[0].length); }
       if ((rest.match(/[$]/g) || []).length) err(tag, `q${i + 1} unbalanced $`);
-      for (const s of segs) {
-        try { katex.renderToString(s, { throwOnError: true, displayMode: false }); }
+      for (const [s, disp2] of segs) {
+        try { katex.renderToString(s, { throwOnError: true, displayMode: disp2 }); }
         catch (e) { err(tag, `q${i + 1} KaTeX: ${e.message.slice(0, 90)} in [${s.slice(0, 60)}]`); }
       }
     }

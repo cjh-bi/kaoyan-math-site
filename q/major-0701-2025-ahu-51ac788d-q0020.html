@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2025 高等代数 四5 · 数学考研真题库</title>
-<meta name="description" content="令 V=\{X {R}^{3 3} X^{T}=-X\} 为 3 阶反对称实方阵空间, 记 [A,B]=AB-BA , A,B V , 考虑 A V 定义的伴随变换 {ad}_{A}=[A,-]:V→ V , B [A,B] . (1) 验证 {ad}_{A} 为 V 上的线性变换, 且 {ad}_">
+<meta name="description" content="令 V=\{X {R}^{3 3} X^{ T}=-X\} 为 3 阶反对称实方阵空间，记 [A,B]=AB-BA ， A,B V ，考虑 A V 定义的伴随变换 {ad}_A=[A,-]:V→ V ， B [A,B] . (1) 验证 {ad}_A 为 V 上的线性变换，且 {ad}_{[A,B]">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/katex/katex.min.css">
 <link rel="stylesheet" href="../assets/site.css?v=20260925135128">
@@ -38,15 +38,15 @@
     <h1 class="qmeta">
       <span class="no">2025 · 高等代数 · 四5</span>
       <span class="sep">|</span>
-      <span class="t">证明</span>
+      <span class="t">综合</span>
 <span class="sep">|</span><span class="t">10 分</span>    </h1>
-    <div class="qstem">令 $V=\{X\in\mathbb{R}^{3\times3}\mid X^{T}=-X\}$ 为 3 阶反对称实方阵空间, 记 $[A,B]=AB-BA$, $\forall A,B\in V$, 考虑 $A\in V$ 定义的伴随变换 $\operatorname{ad}_{A}=[A,-]:V\to V$, $B\mapsto[A,B]$.<br>(1) 验证 $\operatorname{ad}_{A}$ 为 $V$ 上的线性变换, 且 $\operatorname{ad}_{[A,B]}=[\operatorname{ad}_{A},\operatorname{ad}_{B}]=\operatorname{ad}_{A}\circ\operatorname{ad}_{B}-\operatorname{ad}_{B}\circ\operatorname{ad}_{A}$.<br>(2) 考虑向量空间 $V$ 的一组基 $e_{1}=E_{12}-E_{21}, e_{2}=E_{23}-E_{32}, e_{3}=E_{13}-E_{31}$, 求 $\operatorname{ad}_{e_{1}}$ 在上述基下的矩阵.<br>(3) 验证 $(A,B):=-\dfrac{1}{2}\operatorname{tr}(\operatorname{ad}_{A}\circ\operatorname{ad}_{B})$ 为 $V$ 上的一个内积。</div>
+    <div class="qstem">令 $V=\{X\in\mathbb{R}^{3\times 3}\mid X^{\mathrm T}=-X\}$ 为 3 阶反对称实方阵空间，记 $[A,B]=AB-BA$，$\forall A,B\in V$，考虑 $A\in V$ 定义的伴随变换 $\mathrm{ad}_A=[A,-]:V\to V$，$B\mapsto[A,B]$.<br>(1) 验证 $\mathrm{ad}_A$ 为 $V$ 上的线性变换，且 $\mathrm{ad}_{[A,B]}=[\mathrm{ad}_A,\mathrm{ad}_B]=\mathrm{ad}_A\circ\mathrm{ad}_B-\mathrm{ad}_B\circ\mathrm{ad}_A$.<br>(2) 考虑向量空间 $V$ 的一组基 $e_1=E_{12}-E_{21},e_2=E_{23}-E_{32},e_3=E_{13}-E_{31}$，求 $\mathrm{ad}_{e_1}$ 在上述基下的矩阵.<br>(3) 验证 $(A,B):=-\dfrac{1}{2}\mathrm{tr}(\mathrm{ad}_A\circ\mathrm{ad}_B)$ 为 $V$ 上的一个内积.</div>
     <div class="toolbar" style="margin-top:14px">
       <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
-      <button class="btn small copy-btn" data-stem="令 $V=\{X\in\mathbb{R}^{3\times3}\mid X^{T}=-X\}$ 为 3 阶反对称实方阵空间, 记 $[A,B]=AB-BA$, $\forall A,B\in V$, 考虑 $A\in V$ 定义的伴随变换 $\operatorname{ad}_{A}=[A,-]:V\to V$, $B\mapsto[A,B]$.
-(1) 验证 $\operatorname{ad}_{A}$ 为 $V$ 上的线性变换, 且 $\operatorname{ad}_{[A,B]}=[\operatorname{ad}_{A},\operatorname{ad}_{B}]=\operatorname{ad}_{A}\circ\operatorname{ad}_{B}-\operatorname{ad}_{B}\circ\operatorname{ad}_{A}$.
-(2) 考虑向量空间 $V$ 的一组基 $e_{1}=E_{12}-E_{21}, e_{2}=E_{23}-E_{32}, e_{3}=E_{13}-E_{31}$, 求 $\operatorname{ad}_{e_{1}}$ 在上述基下的矩阵.
-(3) 验证 $(A,B):=-\dfrac{1}{2}\operatorname{tr}(\operatorname{ad}_{A}\circ\operatorname{ad}_{B})$ 为 $V$ 上的一个内积。" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+      <button class="btn small copy-btn" data-stem="令 $V=\{X\in\mathbb{R}^{3\times 3}\mid X^{\mathrm T}=-X\}$ 为 3 阶反对称实方阵空间，记 $[A,B]=AB-BA$，$\forall A,B\in V$，考虑 $A\in V$ 定义的伴随变换 $\mathrm{ad}_A=[A,-]:V\to V$，$B\mapsto[A,B]$.
+(1) 验证 $\mathrm{ad}_A$ 为 $V$ 上的线性变换，且 $\mathrm{ad}_{[A,B]}=[\mathrm{ad}_A,\mathrm{ad}_B]=\mathrm{ad}_A\circ\mathrm{ad}_B-\mathrm{ad}_B\circ\mathrm{ad}_A$.
+(2) 考虑向量空间 $V$ 的一组基 $e_1=E_{12}-E_{21},e_2=E_{23}-E_{32},e_3=E_{13}-E_{31}$，求 $\mathrm{ad}_{e_1}$ 在上述基下的矩阵.
+(3) 验证 $(A,B):=-\dfrac{1}{2}\mathrm{tr}(\mathrm{ad}_A\circ\mathrm{ad}_B)$ 为 $V$ 上的一个内积." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
       <a class="btn small" href="../paper/major-0701-2025-ahu-51ac788d.html#major-0701-2025-ahu-51ac788d-q0020">在试卷中查看</a>
     </div>
     <div class="notice" style="margin-top:18px">
@@ -61,7 +61,7 @@
     <div class="meta-list">
       <div><span class="k">题号</span><br>2025 年 四 5 题</div>
       <div><span class="k">一级知识点</span><br><span class="chip accent" >欧氏空间与二次型</span></div>
-<div><span class="k">二级知识点</span><br><span class="chip" >伴随变换</span></div>      <div><span class="k">形式 / 题型</span><br>证明（proof）</div>
+<div><span class="k">二级知识点</span><br><span class="chip" >内积与度量</span></div>      <div><span class="k">形式 / 题型</span><br>综合（other）</div>
 <div><span class="k">分值</span><br>10 分</div>      <div><span class="k">来源</span><br><span class="mono">扬数林数学专业考研（公众号整理）</span></div>
 <div><span class="k">所属试卷</span><br><a href="../paper/major-0701-2025-ahu-51ac788d.html">2025 高等代数（20 题）</a></div>      <div><span class="k">记录 ID</span><br><span class="mono">major-0701-2025-ahu-51ac788d-q0020</span></div>
     </div>
@@ -71,8 +71,8 @@
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 17303 题</span>
-    <span>生成于 2026-09-25 17:17 · <a href="../about.html">数据说明</a></span>
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21428 题</span>
+    <span>生成于 2026-10-05 00:00 · <a href="../about.html">数据说明</a></span>
   </div>
 </footer>
 <script defer src="../assets/katex/katex.min.js"></script>

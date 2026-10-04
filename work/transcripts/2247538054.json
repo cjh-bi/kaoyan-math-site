@@ -16,7 +16,7 @@
           "form": "填空",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "设 $a>0$，求 $\\lim\\limits_{n\\to\\infty}n(\\sqrt[n]{a}-\\sqrt[2n]{a})=$______。"
+          "stem": "设 $a>0$, 求 $\\lim\\limits_{n\\to\\infty} n\\left(\\sqrt[3^n]{a}-\\sqrt[2^n]{a}\\right)=$ ____."
         },
         {
           "section": "一",
@@ -24,9 +24,9 @@
           "no": "2",
           "score": 5,
           "form": "填空",
-          "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "求 $\\lim\\limits_{x\\to+\\infty}\\dfrac{1}{x}\\displaystyle\\int_{\\frac{1}{x}}^{1}\\dfrac{\\cos 2t}{t^2}\\,\\mathrm dt=$______。"
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求 $\\lim\\limits_{x\\to+\\infty} \\dfrac{1}{x}\\displaystyle\\int_{\\frac{1}{x}}^{1} \\dfrac{\\cos 2t}{t^2}\\,\\mathrm{d}t=$ ____."
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "填空",
           "l1": "一元积分学",
           "l2": "不定积分",
-          "stem": "求 $\\displaystyle\\int \\sqrt{x}e^{\\sqrt{x}}\\,\\mathrm dx=$______。"
+          "stem": "求 $\\displaystyle\\int \\sqrt{x}\\,e^{\\sqrt{x}}\\,\\mathrm{d}x=$ ____."
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "填空",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "令 $u=\\ln(x+y)$，则 $\\left.\\mathrm du\\right|_{(1,2)}=$______。"
+          "stem": "令 $u=\\ln(x+y)$, 则 $\\mathrm{d}u|_{(1,2)}=$ ____."
         },
         {
           "section": "一",
@@ -56,7 +56,7 @@
           "form": "填空",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{n!}{n^n}x^n$ 的收敛半径______。"
+          "stem": "求 $\\displaystyle\\sum_{n=1}^{\\infty} \\dfrac{n!}{n^n}x^n$ 的收敛半径 ____."
         },
         {
           "section": "一",
@@ -65,8 +65,8 @@
           "score": 5,
           "form": "填空",
           "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "求 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\cos x-\\cos 2x}{x^2}\\,\\mathrm dx=$______。"
+          "l2": "",
+          "stem": "求 $\\displaystyle\\int_{0}^{+\\infty} \\dfrac{\\cos x-\\cos 2x}{x^2}\\,\\mathrm{d}x=$ ____."
         },
         {
           "section": "二",
@@ -74,9 +74,9 @@
           "no": "1",
           "score": 12,
           "form": "计算",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "已知 $f(x)$ 在 $[0,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty}f(x)=A$，求 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^1 f(nx)\\,\\mathrm dx$。"
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "已知 $f(x)$ 在 $[0,+\\infty)$ 上连续, 且 $\\lim\\limits_{x\\to+\\infty} f(x)=A$, 求 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_{0}^{1} f(nx)\\,\\mathrm{d}x$."
         },
         {
           "section": "二",
@@ -84,9 +84,9 @@
           "no": "2",
           "score": 12,
           "form": "计算",
-          "l1": "多元积分学",
-          "l2": "二重积分",
-          "stem": "设 $f(t)=\\displaystyle\\iint_{0\\le x\\le t,\\,0\\le y\\le t} e^{-\\frac{tx}{y^2}}\\,\\mathrm dx\\mathrm dy$，$t>0$，求 $f'(t)$。"
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $f(t)=\\displaystyle\\iint_{0\\le x\\le t,\\,0\\le y\\le t} e^{-\\frac{t+x}{y^2}}\\,\\mathrm{d}x\\mathrm{d}y$, $t>0$, 求 $f'(t)$."
         },
         {
           "section": "二",
@@ -94,9 +94,9 @@
           "no": "3",
           "score": 12,
           "form": "计算",
-          "l1": "多元微分学",
-          "l2": "偏导数",
-          "stem": "已知曲面\n$$\\begin{cases}x=\\dfrac{1}{2}(e^{u}+e^{-u})\\cos v,\\\\ y=\\dfrac{1}{2}(e^{u}+e^{-u})\\sin v,\\\\ z=\\dfrac{1}{2}(e^{u}-e^{-u}).\\end{cases}$$\n求曲面在点 $(u,v)=\\left(0,\\dfrac{\\pi}{4}\\right)$ 处的切平面和法线方程。"
+          "l1": "解析几何",
+          "l2": "",
+          "stem": "已知曲面\n$$\\begin{cases}x=\\dfrac{1}{2}(e^{u}+e^{-u})\\cos v,\\\\ y=\\dfrac{1}{2}(e^{u}+e^{-u})\\sin v,\\\\ z=\\dfrac{1}{2}(e^{u}-e^{-u}).\\end{cases}$$\n求曲面在点 $(u,v)=\\left(0,\\dfrac{\\pi}{4}\\right)$ 处的切平面和法线方程."
         },
         {
           "section": "二",
@@ -106,7 +106,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "求曲面积分\n$$\\oiint_{\\Sigma}\\dfrac{1}{x}\\,\\mathrm dy\\mathrm dz+\\dfrac{1}{y}\\,\\mathrm dz\\mathrm dx+\\dfrac{1}{z}\\,\\mathrm dxdy。$$\n其中 $\\Sigma$ 为椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$，方向取外侧。"
+          "stem": "求曲面积分\n$$\\oiint_{\\Sigma} \\dfrac{1}{x}\\,\\mathrm{d}y\\mathrm{d}z+\\dfrac{1}{y}\\,\\mathrm{d}z\\mathrm{d}x+\\dfrac{1}{z}\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 为椭球面 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$, 方向取外侧."
         },
         {
           "section": "三",
@@ -116,7 +116,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "连续与极限概念判断",
-          "stem": "设 $\\mathbb{R}$ 为实数集，$F\\subset\\mathbb{R}$ 为非空闭集，定义 $d(x)=\\inf\\limits_{t\\in F}|x-t|$，证明 $d(x)$ 为连续函数。"
+          "stem": "设 $\\mathbb{R}$ 为实数集, $F\\subset\\mathbb{R}$ 为非空闭集, 定义 $d(x)=\\inf\\limits_{t\\in F}|x-t|$, 证明 $d(x)$ 为连续函数."
         },
         {
           "section": "三",
@@ -126,7 +126,7 @@
           "form": "证明",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "设 $f(x)\\in R[0,1]$，且 $f$ 在 $x=0$ 处连续，证明：$\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^1 f(x^n)\\,\\mathrm dx=f(0)$。"
+          "stem": "设 $f(x)\\in R[0,1]$, 且 $f$ 在 $x=0$ 处连续, 证明: $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_{0}^{1} f(x^n)\\,\\mathrm{d}x=f(0)$."
         },
         {
           "section": "三",
@@ -136,7 +136,7 @@
           "form": "综合",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "$x\\in[-\\pi,\\pi]$，判断 $\\displaystyle\\sum_{n=2}^{\\infty}\\dfrac{\\cos nx}{\\ln n}$ 的敛散性(绝对, 条件, 发散)，并证明其不是某 Riemann 可积函数在 $[-\\pi,\\pi]$ 上的 Fourier 级数。"
+          "stem": "$x\\in[-\\pi,\\pi]$, 判断 $\\displaystyle\\sum_{n=2}^{\\infty} \\dfrac{\\cos nx}{\\ln n}$ 的敛散性(绝对, 条件, 发散), 并证明其不是某 Riemann 可积函数在 $[-\\pi,\\pi]$ 上的 Fourier 级数."
         },
         {
           "section": "四",
@@ -146,7 +146,7 @@
           "form": "证明",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "设 $K$ 是一个非空紧集，$\\{f_n(x)\\}$ 为 $K$ 上的连续函数列，且对任意的 $x\\in K$，$\\{f_n(x)\\}$ 关于 $n$ 单调递减趋于 $0$，证明：$\\{f_n(x)\\}$ 在 $K$ 上一致收敛于 $f(x)=0$。"
+          "stem": "设 $K$ 是一个非空紧集, $\\{f_n(x)\\}$ 为 $K$ 上的连续函数列, 且对任意的 $x\\in K$, $\\{f_n(x)\\}$ 关于 $n$ 单调递减趋于 $0$, 证明: $\\{f_n(x)\\}$ 在 $K$ 上一致收敛于 $f(x)=0$."
         },
         {
           "section": "四",
@@ -156,7 +156,7 @@
           "form": "证明",
           "l1": "多元微分学",
           "l2": "调和函数",
-          "stem": "设 $\\Omega$ 为 $\\mathbb{R}^2$ 上的光滑简单连通区域，$f(x)\\in C^2(\\Omega)$，若 $\\dfrac{\\partial^2 f}{\\partial x_1^2}+\\dfrac{\\partial^2 f}{\\partial x_2^2}=0$，$\\forall\\,\\boldsymbol{x}=(x_1,x_2)\\in\\Omega$，则称 $f$ 为 $\\Omega$ 上的调和函数。\n(1) 证明：$\\displaystyle\\iint_{\\Omega}\\left(\\dfrac{\\partial^2 f}{\\partial x_1^2}+\\dfrac{\\partial^2 f}{\\partial x_2^2}\\right)\\mathrm d\\sigma=\\int_{\\partial\\Omega}\\dfrac{\\partial f}{\\partial \\boldsymbol{n}}\\,\\mathrm ds$，其中 $\\boldsymbol{n}$ 是 $\\partial\\Omega$ 的单位外法向量。\n(2) 证明：$f$ 为 $\\Omega$ 上的调和函数当且仅当\n$$f(\\boldsymbol{x})=\\dfrac{1}{2\\pi r}\\int_{\\partial B(\\boldsymbol{x},r)}f(\\boldsymbol{x})\\,\\mathrm ds=\\dfrac{1}{\\pi r^2}\\displaystyle\\iint_{B(\\boldsymbol{x},r)}f(\\boldsymbol{x})\\,\\mathrm d\\sigma。$$\n其中 $B(\\boldsymbol{x},r)$ 是以 $\\boldsymbol{x}$ 为圆心以 $r$ 为半径的闭球。"
+          "stem": "设 $\\Omega$ 为 $\\mathbb{R}^2$ 上的光滑简单连通区域, $f(\\boldsymbol{x})\\in C^2(\\Omega)$, 若 $\\dfrac{\\partial^2 f}{\\partial x_1^2}+\\dfrac{\\partial^2 f}{\\partial x_2^2}=0$, $\\forall\\,\\boldsymbol{x}=(x_1,x_2)\\in\\Omega$, 则称 $f$ 为 $\\Omega$ 上的调和函数.\n(1) 证明: $\\displaystyle\\iint_{\\Omega}\\left(\\dfrac{\\partial^2 f}{\\partial x_1^2}+\\dfrac{\\partial^2 f}{\\partial x_2^2}\\right)\\mathrm{d}\\sigma=\\int_{\\partial\\Omega}\\dfrac{\\partial f}{\\partial\\boldsymbol{n}}\\,\\mathrm{d}s$, 其中 $\\boldsymbol{n}$ 是 $\\partial\\Omega$ 的单位外法向量.\n(2) 证明: $f$ 为 $\\Omega$ 上的调和函数当且仅当\n$$f(\\boldsymbol{x})=\\dfrac{1}{2\\pi r}\\int_{\\partial B(\\boldsymbol{x},r)} f(\\boldsymbol{x})\\,\\mathrm{d}s=\\dfrac{1}{\\pi r^2}\\iint_{B(\\boldsymbol{x},r)} f(\\boldsymbol{x})\\,\\mathrm{d}\\sigma.$$\n其中 $B(\\boldsymbol{x},r)$ 是以 $\\boldsymbol{x}$ 为圆心以 $r$ 为半径的闭球."
         }
       ]
     },
@@ -165,7 +165,7 @@
       "year": "2026",
       "subject": "高等代数",
       "header_note": "61. 电子科技大学 2026 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247538054_5.png"],
+      "source_imgs": ["work/imgs/2247538054_5.png", "work/imgs/2247538054_6.png"],
       "questions": [
         {
           "section": "一",
@@ -175,7 +175,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "矩阵 $A=\\begin{pmatrix}3&2&4\\\\ 1&1&-1\\\\ -3&6&1\\end{pmatrix}$，$M_{ij}$ 表示 $|A|$ 中 $(i,j)$ 元素的余子式，则 $\\displaystyle\\sum_{i,j=1}^{3}M_{ij}=$______"
+          "stem": "矩阵 $A=\\begin{pmatrix}3&2&4\\\\1&1&-1\\\\-3&6&1\\end{pmatrix}$, $M_{ij}$ 表示 $|A|$ 中 $(i,j)$ 元素的余子式, 则 $\\displaystyle\\sum_{i,j=1}^{3} M_{ij}=$ ____"
         },
         {
           "section": "一",
@@ -184,8 +184,8 @@
           "score": 5,
           "form": "填空",
           "l1": "多项式",
-          "l2": "",
-          "stem": "$f(\\lambda)$ 是首项系数为 $1$ 的整系数多项式，若 $f(2+\\sqrt{3})=0$，则 $f(5)=$______"
+          "l2": "整除",
+          "stem": "$f(\\lambda)$ 是首项系数为 $1$ 的整系数多项式, 若 $f(2+\\sqrt{3})=0$, 则 $f(5)=$ ____"
         },
         {
           "section": "一",
@@ -195,7 +195,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "线性空间 $V$ 的维数为 $30$，$\\mathscr{A},\\mathscr{B},\\mathscr{C}$ 为 $V$ 上的线性变换，且 $\\mathscr{A}V,\\mathscr{B}V,\\mathscr{C}V$ 的维数均为 $24$，那么 $\\mathscr{A}\\mathscr{B}\\mathscr{C}V$ 的最小维数是______"
+          "stem": "线性空间 $V$ 的维数为 $30$, $\\mathscr{A},\\mathscr{B},\\mathscr{C}$ 为 $V$ 上的线性变换, 且 $\\mathscr{A}V,\\mathscr{B}V,\\mathscr{C}V$ 的维数均为 $24$, 那么 $\\mathscr{A}\\mathscr{B}\\mathscr{C}V$ 的最小维数是 ____"
         },
         {
           "section": "一",
@@ -205,7 +205,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "极小多项式",
-          "stem": "矩阵 $A$ 的零化多项式为 $A^4+5I=4A^2$，且 $\\det(A)=8$，$A^*$ 为 $A$ 的伴随矩阵，$A^*-2I$ 的最小多项式为 $f(x)$ 为______"
+          "stem": "矩阵 $A$ 的零化多项式为 $A^4+5I=4A^2$, 且 $\\det(A)=8$, $A^{*}$ 为 $A$ 的伴随矩阵, $A^{*}-2I$ 的最小多项式为 $f(x)$ 为 ____"
         },
         {
           "section": "一",
@@ -215,7 +215,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "特征多项式为 $\\lambda^3(\\lambda-1)^4$ 的复矩阵按相似分类，可分为______类。"
+          "stem": "特征多项式为 $\\lambda^3(\\lambda-1)^4$ 的复矩阵按相似分类, 可分为 ____ 类."
         },
         {
           "section": "一",
@@ -225,57 +225,87 @@
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "正交补与直和",
-          "stem": "设 $V$ 为 $12$ 维欧氏空间，子空间 $U,W$ 的维数分别为 $3,4$，则 $\\dim(U^{\\perp}\\cap W^{\\perp})$ 的最小值为______。"
+          "stem": "设 $V$ 为 $12$ 维欧氏空间, 子空间 $U,W$ 的维数分别为 $3,4$, 则 $\\dim(U^{\\perp}\\cap W^{\\perp})$ 的最小值为 ____."
         },
         {
           "section": "二",
           "section_instruction": "计算题. 每题 15 分, 共 60 分.",
           "no": "1",
           "score": 15,
-          "form": "综合",
+          "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "内积与度量",
-          "stem": "在三维欧氏空间 $\\mathbb{R}^3$ 中，定义内积\n$$(\\alpha,\\beta)=x_1y_1+x_2y_2+x_3y_3,\\ \\alpha=(x_1,x_2,x_3),\\ \\beta=(y_1,y_2,y_3)。$$\n设 $u,v,w\\in\\mathbb{R}^3$，其模长分别为 $1,2,4$，它们两两之间的夹角为 $\\dfrac{\\pi}{3}$。\n(1) 直接写出 $u,v,w$ 的 Gram 矩阵 $G=\\begin{pmatrix}(u,u)&(u,v)&(u,w)\\\\ (v,u)&(v,v)&(v,w)\\\\ (w,u)&(w,v)&(w,w)\\end{pmatrix}$。\n(2) 求 $\\det(I+u^{\\mathrm T}u+v^{\\mathrm T}v+w^{\\mathrm T}w)$ 的值。"
+          "stem": "在三维欧氏空间 $\\mathbb{R}^3$ 中, 定义内积\n$$(\\alpha,\\beta)=x_1y_1+x_2y_2+x_3y_3,\\ \\alpha=(x_1,x_2,x_3),\\ \\beta=(y_1,y_2,y_3).$$\n设 $u,v,w\\in\\mathbb{R}^3$, 其模长分别为 $1,2,4$, 它们两两之间的夹角为 $\\dfrac{\\pi}{3}$.\n(1) 直接写出 $u,v,w$ 的 Gram 矩阵 $G=\\begin{pmatrix}(u,u)&(u,v)&(u,w)\\\\(v,u)&(v,v)&(v,w)\\\\(w,u)&(w,v)&(w,w)\\end{pmatrix}$.\n(2) 求 $\\det(I+u^{\\mathrm{T}}u+v^{\\mathrm{T}}v+w^{\\mathrm{T}}w)$ 的值."
         },
         {
           "section": "二",
           "section_instruction": "计算题. 每题 15 分, 共 60 分.",
           "no": "2",
           "score": 15,
-          "form": "综合",
+          "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "已知 $\\beta=(2,1,7)^{\\mathrm T}$ 可表示为 $\\alpha_1=(1,-2,4c)^{\\mathrm T}$，$\\alpha_2=(2,c,10)^{\\mathrm T}$，$\\alpha_3=(3,2,0)^{\\mathrm T}$ 的两种不同系数的线性组合。\n(1) 求 $c$ 的值。\n(2) 求方程组 $\\begin{cases}x_1+x_2+x_3=6\\\\ cx_1+2x_2-x_3=5\\\\ 3x_1+5x_2+(12-c)x_3=7\\end{cases}$ 的通解。"
+          "stem": "已知 $\\beta=(2,1,7)^{\\mathrm{T}}$ 可表示为 $\\alpha_1=(1,-2,4c)^{\\mathrm{T}},\\alpha_2=(2,c,10)^{\\mathrm{T}},\\alpha_3=(3,2,0)^{\\mathrm{T}}$ 的两种不同系数的线性组合.\n(1) 求 $c$ 的值.\n(2) 求方程组 $\\begin{cases}x_1+x_2+x_3=6\\\\cx_1+2x_2-x_3=5\\\\3x_1+5x_2+(12-c)x_3=7\\end{cases}$ 的通解."
         },
         {
           "section": "二",
           "section_instruction": "计算题. 每题 15 分, 共 60 分.",
           "no": "3",
           "score": 15,
-          "form": "综合",
+          "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "令 $\\mathscr{A}$ 是 $3$ 维线性空间 $V$ 上的线性变换，$\\alpha\\in V$ 满足 $V$ 中任意向量可由 $\\alpha,\\mathscr{A}\\alpha,\\mathscr{A}^2\\alpha$ 线性表出，且 $2\\alpha-5\\mathscr{A}\\alpha+4\\mathscr{A}^2\\alpha-\\mathscr{A}^3\\alpha=0$。\n(1) 求 $\\mathscr{A}$ 的全部特征值与特征向量。\n(2) 是否存在 $V$ 的一组基，使得 $\\mathscr{A}$ 在这组基下的矩阵为对角矩阵？若存在，求出此基，若不存在，请说明理由。"
+          "stem": "令 $\\mathscr{A}$ 是 $3$ 维线性空间 $V$ 上的线性变换, $\\alpha\\in V$ 满足 $V$ 中任意向量可由 $\\alpha,\\mathscr{A}\\alpha,\\mathscr{A}^2\\alpha$ 线性表出, 且 $2\\alpha-5\\mathscr{A}\\alpha+4\\mathscr{A}^2\\alpha-\\mathscr{A}^3\\alpha=0$.\n(1) 求 $\\mathscr{A}$ 的全部特征值与特征向量.\n(2) 是否存在 $V$ 的一组基, 使得 $\\mathscr{A}$ 在这组基下的矩阵为对角矩阵？若存在, 求出此基, 若不存在, 请说明理由."
         },
         {
           "section": "二",
           "section_instruction": "计算题. 每题 15 分, 共 60 分.",
           "no": "4",
           "score": 15,
-          "form": "综合",
+          "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "设二次型 $f(x_1,x_2,x_3)=2x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3$。\n(1) 求 $f(x)$ 的矩阵的特征值与特征向量。\n(2) 求正交线性替换 $X=CY$，使得 $f$ 化为标准形。\n(3) 求 $f(x_1,x_2,x_3)$ 在条件 $x_1^2+x_2^2+x_3^2=4$ 下的最大值。"
+          "stem": "设二次型 $f(x_1,x_2,x_3)=2x_1^2+x_2^2+x_3^2+2x_1x_2+2x_1x_3$.\n(1) 求 $f(x)$ 的矩阵的特征值与特征向量.\n(2) 求正交线性替换 $X=CY$, 使得 $f$ 化为标准形.\n(3) 求 $f(x_1,x_2,x_3)$ 在条件 $x_1^2+x_2^2+x_3^2=4$ 下的最大值."
         },
         {
           "section": "三",
           "section_instruction": "证明题. 每题 15 分, 共 60 分.",
           "no": "1",
           "score": 15,
-          "form": "综合",
+          "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "令 $A,B$ 为 $12$ 阶矩阵，记 $V_A=\\{X\\mid AX=0\\}$，$V_B=\\{X\\mid BX=0\\}$，$V_{A+B}=\\{X\\mid (A+B)X=0\\}$，$V_{AB}=\\{X\\mid ABX=0\\}$。已知 $\\dim V_A=4$，$\\dim V_B=5$，$\\dim V_{A+B}=6$。\n(1) 求 $\\dim V_{AB}$ 的最小值。\n(2) 证明：$r(AB)\\ge r(A)+r(B)-r(A+B)$。"
+          "stem": "令 $A,B$ 为 $12$ 阶矩阵, 记 $V_A=\\{X\\mid AX=0\\}$, $V_B=\\{X\\mid BX=0\\}$, $V_{A+B}=\\{X\\mid (A+B)X=0\\}$, $V_{AB}=\\{X\\mid ABX=0\\}$. 已知 $\\dim V_A=4$, $\\dim V_B=5$, $\\dim V_{A+B}=6$.\n(1) 求 $\\dim V_{AB}$ 的最小值.\n(2) 证明: $r(AB)\\ge r(A)+r(B)-r(A+B)$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "解答如下问题:\n(1) 已知 $h(x)\\in\\mathbb{Z}[x]$, $d(x)\\in\\mathbb{Q}[x]$, $g(x)$ 为本原多项式, 若 $h(x)=d(x)g(x)$, 证明 $d(x)\\in\\mathbb{Z}[x]$.\n(2) 设 $f(x)\\in\\mathbb{Z}[x]$, 且 $f^2(x)=1$ 有三个不同的整数根 $a,b,c$, 证明: $f(x)$ 无整数根."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $A,B$ 是 $n$ 阶实矩阵, 且对任意的非零的 $v\\in\\mathbb{R}^n$, 有 $Av,Bv$ 线性无关.\n(1) 证明: $AB$ 可逆.\n(2) 证明: $n$ 是偶数."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 15 分, 共 60 分.",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,B$ 是 $n$ 阶实正定矩阵.\n(1) 证明: 存在可逆矩阵 $C$, 使得 $C^{\\mathrm{T}}AC=I$, $C^{\\mathrm{T}}BC$ 是对角元均为正数的对角矩阵.\n(2) 证明: $\\sqrt[n]{\\det(A+B)}\\ge\\sqrt[n]{\\det(A)}+\\sqrt[n]{\\det(B)}$."
         }
       ]
     }

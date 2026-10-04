@@ -6,7 +6,10 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "22. 天津大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516078-2_7.png"],
+      "source_imgs": [
+        "work/imgs/2247516078-2_7.png",
+        "work/imgs/2247516078-2_8.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -15,8 +18,8 @@
           "score": null,
           "form": "证明",
           "l1": "多项式",
-          "l2": "公共根",
-          "stem": "设 $m$ 为非负整数，$g(x)\\in\\mathbb{Q}[x]$ 为 $m$ 次有理系数多项式，$n>m$ 为正整数，$p$ 为素数. 求证:\n(1) 若 $f(x)$ 是有理数域上的不可约多项式，$g(x)$ 与 $f(x)$ 至少有一个复公共根，则有 $f(x)\\mid g(x)$；\n(2) $\\sqrt[n]{p}$ 不是 $g(x)$ 的根."
+          "l2": "既约性",
+          "stem": "设 $m$ 为非负整数，$g(x)\\in\\mathbb{Q}[x]$ 为 $m$ 次有理系数多项式，$n>m$ 为正整数，$p$ 为素数. 求证：\n(1) 若 $f(x)$ 是有理数域上的不可约多项式，$g(x)$ 与 $f(x)$ 至少有一个复公共根，则有 $f(x)\\mid g(x)$；\n(2) $\\sqrt[n]{p}$ 不是 $g(x)$ 的根."
         },
         {
           "section": "一",
@@ -25,8 +28,8 @@
           "score": null,
           "form": "综合",
           "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "设 $\\alpha,\\beta$ 为 $n$ 维列向量. 解答如下问题:\n(1) 计算行列式 $$\\begin{vmatrix} 1+x_1y_1 & x_1y_2 & \\cdots & x_1y_n \\\\ x_2y_1 & 1+x_2y_2 & \\cdots & x_2y_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ x_ny_1 & x_ny_2 & \\cdots & 1+x_ny_n \\end{vmatrix}.$$\n(2) 若 $\\alpha\\beta^{T}\\neq -1$，证明: $I+\\beta\\alpha^{T}$ 可逆；\n(3) 若 $\\alpha\\beta^{T}=-1$，证明: $\\mathrm{rank}(I+\\beta\\alpha^{T})=n-1$."
+          "l2": "可逆性",
+          "stem": "设 $\\alpha,\\beta$ 为 $n$ 维列向量. 解答如下问题：\n(1) 计算行列式\n$$\\begin{vmatrix} 1+x_1y_1 & x_1y_2 & \\cdots & x_1y_n \\\\ x_2y_1 & 1+x_2y_2 & \\cdots & x_2y_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ x_ny_1 & x_ny_2 & \\cdots & 1+x_ny_n \\end{vmatrix}.$$\n(2) 若 $\\alpha\\beta^T\\neq -1$，证明：$I+\\beta\\alpha^T$ 可逆；\n(3) 若 $\\alpha\\beta^T=-1$，证明：$\\mathrm{rank}\\,(I+\\beta\\alpha^T)=n-1$."
         },
         {
           "section": "一",
@@ -36,7 +39,7 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "矩阵多项式",
-          "stem": "(可能有误) 设 $A$ 为 $n$ 阶实矩阵，$f(x)=x^{2}+ax+4$ 为实系数多项式，且满足 $f(A)=O$.\n(1) 若对任意的 $\\lambda\\in\\mathbb{R}$，都有 $A+\\lambda I$ 可逆，求 $a$ 的取值范围；\n(2) 若 $A+\\lambda I$ 不可逆，且 $B=A^{3}+2023I$，证明: $B$ 可逆，且求 $g(x)\\in\\mathbb{R}[x]$，使得 $B^{-1}=g(A)$."
+          "stem": "（可能有误）设 $A$ 为 $n$ 阶实矩阵，$f(x)=x^2+ax+4$ 为实系数多项式，且满足 $f(A)=O$.\n(1) 若对任意的 $\\lambda\\in\\mathbb{R}$，都有 $A+\\lambda I$ 可逆，求 $a$ 的取值范围；\n(2) 若 $A+\\lambda I$ 不可逆，且 $B=A^3+2023I$，证明：$B$ 可逆，且求 $g(x)\\in\\mathbb{R}[x]$，使得 $B^{-1}=g(A)$."
         },
         {
           "section": "一",
@@ -46,7 +49,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "证明: 任意秩为 $r$ 的实对称矩阵可以分解为 $r$ 个秩为 1 的实对称矩阵之和."
+          "stem": "证明：任意秩为 $r$ 的实对称矩阵可以分解为 $r$ 个秩为 $1$ 的实对称矩阵之和."
         },
         {
           "section": "一",
@@ -56,7 +59,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "已知向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 满足 $$\\begin{cases} \\beta_1=\\alpha_2+\\alpha_3+\\cdots+\\alpha_m; \\\\ \\beta_2=\\alpha_1+\\alpha_3+\\cdots+\\alpha_m; \\\\ \\cdots\\cdots \\\\ \\beta_m=\\alpha_1+\\alpha_2+\\cdots+\\alpha_{m-1}. \\end{cases}$$ 求证: $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 与 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 的秩相同."
+          "stem": "已知向量组 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_m$ 满足\n$$\\begin{cases} \\beta_1=\\alpha_2+\\alpha_3+\\cdots+\\alpha_m; \\\\ \\beta_2=\\alpha_1+\\alpha_3+\\cdots+\\alpha_m; \\\\ \\cdots\\cdots \\\\ \\beta_m=\\alpha_1+\\alpha_2+\\cdots+\\alpha_{m-1}. \\end{cases}$$\n求证：$\\beta_1,\\beta_2,\\cdots,\\beta_m$ 与 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 的秩相同."
         },
         {
           "section": "一",
@@ -66,7 +69,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "已知 $M_3(\\mathbb{C})$ 是三阶复方阵全体构成的线性空间，$A\\in M_3(\\mathbb{C})$.\n(1) 证明所有与 $A$ 可交换的矩阵构成一个线性空间，记为 $C(A)$；\n(2) 已知 $A$ 可对角化，且 $A^{3}=I$，求 $C(A)$ 的维数."
+          "stem": "已知 $M_3(\\mathbb{C})$ 是三阶复方阵全体构成的线性空间，$A\\in M_3(\\mathbb{C})$.\n(1) 证明所有与 $A$ 可交换的矩阵构成一个线性空间，记为 $C(A)$；\n(2) 已知 $A$ 可对角化，且 $A^3=I$，求 $C(A)$ 的维数."
         },
         {
           "section": "一",
@@ -76,7 +79,7 @@
           "form": "综合",
           "l1": "欧氏空间与二次型",
           "l2": "内积与度量",
-          "stem": "设 $V=\\mathbb{R}[x]$ 为内积空间，其中内积为 $$(f(x),g(x))=\\int_0^1 f(x)g(x)\\,\\mathrm{d}x,\\ f(x),g(x)\\in V.$$ 设 $p_i(x)$ $(i=0,1,2,\\cdots)$ 为 $i$ 次首一实系数多项式，且满足 $(p_i(x),p_j(x))=0$ $(i\\neq j)$.\n(1) 求 $p_0(x),p_1(x),p_2(x)$；\n(2) 对任意的正整数 $m$，证明: 存在实数 $\\alpha_m,\\beta_m,\\gamma_m$，使得 $$xp_m(x)=\\alpha_m p_{m-1}(x)+\\beta_m p_m(x)+\\gamma_m p_{m+1}(x).$$"
+          "stem": "设 $V=\\mathbb{R}[x]$ 为内积空间，其中内积为\n$$(f(x),g(x))=\\int_0^1 f(x)g(x)\\,\\mathrm{d}x,\\ f(x),g(x)\\in V.$$\n设 $p_i(x)$ $(i=0,1,2,\\cdots)$ 为 $i$ 次首一实系数多项式，且满足 $(p_i(x),p_j(x))=0$ $(i\\neq j)$.\n(1) 求 $p_0(x),p_1(x),p_2(x)$；\n(2) 对任意的正整数 $m$，证明：存在实数 $\\alpha_m,\\beta_m,\\gamma_m$，使得\n$$xp_m(x)=\\alpha_m p_{m-1}(x)+\\beta_m p_m(x)+\\gamma_m p_{m+1}(x).$$"
         },
         {
           "section": "一",
@@ -86,7 +89,17 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正交变换",
-          "stem": "已知 $V$ 为 $n$ 维欧氏空间，$\\alpha\\in V$ 为非零单位向量，对于 $V$ 中任意向量 $v$，定义镜面反射变换 $$\\varphi_\\alpha(v)=v-2(\\alpha,v)\\alpha.$$ 证明:\n(1) $\\varphi_\\alpha(v)$ 为正交变换；【?】(本题在图片底部被截断，后续分问不可见)"
+          "stem": "已知 $V$ 为 $n$ 维欧氏空间，$\\alpha\\in V$ 为非零单位向量，对于 $V$ 中任意向量 $v$，定义镜面反射变换\n$$\\varphi_\\alpha(v)=v-2(\\alpha,v)\\alpha.$$\n证明：\n(1) $\\varphi_\\alpha(v)$ 为正交变换；\n(2) 设 $\\beta,\\gamma$ 是两个模长相同的互异向量，则存在镜面反射 $\\varphi_\\alpha$ 使得 $\\varphi_\\alpha(\\beta)=\\gamma$.\n(3) $V$ 上任意一个正交变换可以表示成不超过 $n$ 个镜面反射的乘积."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "设线性空间 $V=\\mathbb{Q}[\\sqrt[3]{2}]=\\{a+b\\sqrt[3]{2}+c\\sqrt[3]{4}\\mid a,b,c\\in\\mathbb{Q}\\}$，定义 $V$ 上的线性变换\n$$\\varphi_x:V\\to V$$\n$$y\\mapsto x\\cdot y\\ (x\\cdot y\\ \\text{为数乘})$$\n(1) 求 $\\varphi_{1+\\sqrt[3]{2}}$ 在基 $1,\\sqrt[3]{2},\\sqrt[3]{4}$ 下的矩阵 $A$，并求 $A$ 的极小多项式；\n(2) 证明：对任意的正整数 $m,n,l$，存在首一的整系数多项式 $f(x)$，使得 $f(m+n\\sqrt[3]{2}+l\\sqrt[3]{4})=0$."
         }
       ]
     }

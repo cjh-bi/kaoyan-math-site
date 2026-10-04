@@ -1,243 +1,213 @@
 {
- "msgid": "2247504544-1",
- "exams": [
-  {
-   "school": "浙江大学",
-   "year": "2021",
-   "subject": "数学分析",
-   "header_note": "43. 浙江大学 2021 年硕士研究生入学考试数学分析试卷",
-   "source_imgs": ["work/imgs/2247504544-1_4.png"],
-   "questions": [
+  "msgid": "2247504544-1",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "计算题(每题 10 分, 共 40 分)",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "数列极限计算",
-     "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\left[\\dfrac{(2n)!!}{(2n-1)!!}\\right]^{2}\\cdot\\dfrac{1}{2n+1}$。"
+      "school": "浙江大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "43. 浙江大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247504544-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 40,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "计算题（每题 10 分，共 40 分）\n(1) 求极限 $\\lim_{n\\to\\infty}\\left[\\dfrac{(2n)!!}{(2n-1)!!}\\right]^2\\cdot\\dfrac{1}{2n+1}$。\n(2) 求 $I(a)=\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{\\cos x}\\ln\\dfrac{1+a\\cos x}{1-a\\cos x}\\,\\mathrm{d}x$，其中 $|a|<1$。\n(3) 设 $S$ 为曲面 $z=5-x^2-y^2$ 在 $z\\ge 1$ 的部分，方向为外侧，求第二型曲面积分 $$I=\\iint_S y(x-z)\\,\\mathrm{d}y\\mathrm{d}z+x^2\\,\\mathrm{d}z\\mathrm{d}x+(y^2+xz)\\,\\mathrm{d}x\\mathrm{d}y$$。\n(4) 求函数 $f(x)=\\arctan\\dfrac{1-2x}{1+2x}$ 在 $x=0$ 处的幂级数展开式，并求 $\\sum_{n=0}^{\\infty}\\dfrac{(-1)^n}{2n+1}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "叙述题（每题 5 分，共 10 分）\n(1) 设 $A$ 为正实数，请写出 $\\lim_{(x,y)\\to(0,\\infty)}f(x,y)\\ne A$ 的精确定义；\n(2) 用 $\\varepsilon-\\delta$ 语言证明：$\\lim_{(x,y)\\to(0,0)}\\dfrac{x^2+y^2}{|x|+|y|}=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "不动点",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上单调递增，且 $f(a)>a$，$f(b)<b$，证明：存在 $c\\in(a,b)$，使得 $f(c)=c$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设函数 $f(x)$ 在 $[1,+\\infty)$ 上一致连续，且 $\\int_1^{+\\infty}f(x)\\,\\mathrm{d}x$ 收敛，证明 $\\lim_{x\\to+\\infty}f(x)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，且 $g(x)=f(x)\\int_0^x f(t)\\,\\mathrm{d}t$ 在 $(-\\infty,+\\infty)$ 上单调递减，证明 $f(x)\\equiv 0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "凸函数",
+          "stem": "设正数 $p_1,p_2,\\cdots,p_n$ 满足 $\\sum_{i=1}^n p_i=1$，对任意实数 $x_1,x_2,\\cdots,x_n$，证明 $$\\sum_{i=1}^n p_i(x_i-\\ln p_i)\\le \\ln\\left(\\sum_{i=1}^n e^{x_i}\\right)$$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "已知级数 $\\sum_{n=0}^{\\infty}a_n$ 绝对收敛，其和为 $A$，级数 $\\sum_{n=0}^{\\infty}b_n$ 收敛于 $B$，若 $$c_n=\\sum_{k=0}^n a_k b_{n-k}\\ (n=0,1,2,\\cdots),$$ 证明：级数 $\\sum_{n=0}^{\\infty}c_n$ 收敛于 $AB$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "若函数 $f(x)$ 在 $[a,b]$ 上黎曼可积，对任意的 $x\\in[a,b]$，有 $f(x)\\in[m,M]$，若 $g(x)$ 在 $[m,M]$ 上连续，证明：复合函数 $h(x)=g(f(x))$ 在 $[a,b]$ 上黎曼可积。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设 $\\boldsymbol{x}_0\\in\\mathbb{R}^n$，$\\delta_0>0$，已知 $f(x)$ 是在 $\\boldsymbol{x}_0$ 的 $\\delta_0$ 邻域 $U(\\boldsymbol{x}_0;\\delta_0)$ 上的二阶连续可微函数，并且 $\\nabla f(\\boldsymbol{x}_0)=\\boldsymbol{0}$，同时对任意的单位向量 $\\boldsymbol{\\alpha}\\in\\mathbb{R}^n$，有 $(\\boldsymbol{\\alpha}\\cdot\\nabla)^2 f(\\boldsymbol{x}_0)>0$。证明：\n(1) 存在 $\\delta\\in(0,\\delta_0)$，使得 $(\\boldsymbol{x}-\\boldsymbol{x}_0)\\cdot\\nabla f(\\boldsymbol{x})>0$ 对任意的 $\\boldsymbol{x}\\in U(\\boldsymbol{x}_0;\\delta)\\setminus\\{\\boldsymbol{x}_0\\}$ 成立；\n(2) $\\boldsymbol{x}_0$ 为 $f$ 的极小值点。"
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "计算题(每题 10 分, 共 40 分)",
-     "no": "2",
-     "score": 10,
-     "form": "计算",
-     "l1": "广义积分与含参积分",
-     "l2": "含参量积分",
-     "stem": "求 $I(a)=\\displaystyle\\int_{0}^{\\frac{\\pi}{2}}\\dfrac{1}{\\cos x}\\ln\\dfrac{1+a\\cos x}{1-a\\cos x}\\,\\mathrm{d}x$，其中 $|a|<1$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "计算题(每题 10 分, 共 40 分)",
-     "no": "3",
-     "score": 10,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲面积分",
-     "stem": "设 $S$ 为曲面 $z=5-x^{2}-y^{2}$ 在 $z\\ge 1$ 的部分，方向为外侧，求第二型曲面积分\n$$I=\\iint_{S}y(x-z)\\,\\mathrm{d}y\\mathrm{d}z+x^{2}\\,\\mathrm{d}z\\mathrm{d}x+(y^{2}+xz)\\,\\mathrm{d}x\\mathrm{d}y.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "计算题(每题 10 分, 共 40 分)",
-     "no": "4",
-     "score": 10,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "幂级数",
-     "stem": "求函数 $f(x)=\\arctan\\dfrac{1-2x}{1+2x}$ 在 $x=0$ 处的幂级数展开式，并求 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{(-1)^{n}}{2n+1}$。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "叙述题(每题 5 分, 共 10 分)",
-     "no": "1",
-     "score": 5,
-     "form": "综合",
-     "l1": "极限与连续",
-     "l2": "二重极限",
-     "stem": "设 $A$ 为正实数，请写出 $\\lim\\limits_{(x,y)\\to(0,\\infty)}f(x,y)\\ne A$ 的精确定义。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "叙述题(每题 5 分, 共 10 分)",
-     "no": "2",
-     "score": 5,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "二重极限",
-     "stem": "用 $\\varepsilon-\\delta$ 语言证明：$\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{x^{2}+y^{2}}{|x|+|y|}=0$。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "中值定理",
-     "stem": "设函数 $f(x)$ 在 $[a,b]$ 上单调递增，且 $f(a)>a$，$f(b)<b$，证明：存在 $c\\in(a,b)$，使得 $f(c)=c$。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "广义积分与含参积分",
-     "l2": "广义积分敛散性",
-     "stem": "设函数 $f(x)$ 在 $[1,+\\infty)$ 上一致连续，且 $\\displaystyle\\int_{1}^{+\\infty}f(x)\\,\\mathrm{d}x$ 收敛，证明 $\\lim\\limits_{x\\to+\\infty}f(x)=0$。"
-    },
-    {
-     "section": "五",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "变限积分",
-     "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上连续，且 $g(x)=f(x)\\displaystyle\\int_{0}^{x}f(t)\\,\\mathrm{d}t$ 在 $(-\\infty,+\\infty)$ 上单调递减，证明 $f(x)\\equiv 0$。"
-    },
-    {
-     "section": "六",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "凸函数",
-     "stem": "设正数 $p_{1},p_{2},\\cdots,p_{n}$ 满足 $\\displaystyle\\sum_{i=1}^{n}p_{i}=1$，对任意实数 $x_{1},x_{2},\\cdots,x_{n}$，证明\n$$\\sum_{i=1}^{n}p_{i}(x_{i}-\\ln p_{i})\\le \\ln\\left(\\sum_{i=1}^{n}e^{x_{i}}\\right).$$"
-    },
-    {
-     "section": "七",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "级数",
-     "l2": "数项级数敛散性",
-     "stem": "已知级数 $\\displaystyle\\sum_{n=0}^{\\infty}a_{n}$ 绝对收敛，其和为 $A$，级数 $\\displaystyle\\sum_{n=0}^{\\infty}b_{n}$ 收敛于 $B$，若\n$$c_{n}=\\sum_{k=0}^{n}a_{k}b_{n-k}\\ (n=0,1,2,\\cdots).$$\n证明：级数 $\\displaystyle\\sum_{n=0}^{\\infty}c_{n}$ 收敛于 $AB$。"
-    },
-    {
-     "section": "八",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "若函数 $f(x)$ 在 $[a,b]$ 上黎曼可积，对任意的 $x\\in[a,b]$，有 $f(x)\\in[m,M]$，若 $g(x)$ 在 $[m,M]$ 上连续，证明：复合函数 $h(x)=g(f(x))$ 在 $[a,b]$ 上黎曼可积。"
-    },
-    {
-     "section": "九",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "多元微分学",
-     "l2": "极值与最值",
-     "stem": "设 $\\boldsymbol{x}_{0}\\in\\mathbb{R}^{n}$，$\\delta_{0}>0$，已知 $f(\\boldsymbol{x})$ 是在 $\\boldsymbol{x}_{0}$ 的 $\\delta_{0}$ 邻域 $U(\\boldsymbol{x}_{0};\\delta_{0})$ 上的二阶连续可微函数，并且 $\\nabla f(\\boldsymbol{x}_{0})=0$，同时对任意的单位向量 $\\boldsymbol{\\alpha}\\in\\mathbb{R}^{n}$，有 $(\\boldsymbol{\\alpha}\\cdot\\nabla)^{2}f(\\boldsymbol{x}_{0})>0$。证明：\n(1) 存在 $\\delta\\in(0,\\delta_{0})$，使得 $(\\boldsymbol{x}-\\boldsymbol{x}_{0})\\cdot\\nabla f(\\boldsymbol{x})>0$ 对任意的 $\\boldsymbol{x}\\in U(\\boldsymbol{x}_{0};\\delta)\\setminus\\{\\boldsymbol{x}_{0}\\}$ 成立；\n(2) $\\boldsymbol{x}_{0}$ 为 $f$ 的极小值点。"
+      "school": "浙江大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "44. 浙江大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247504544-1_5.png", "work/imgs/2247504544-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "当 $t$ 取何值时，多项式 $f(x)=x^3+6x^2+tx+8$ 有重根？并求重根。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知矩阵 $A$ 满足 $$A^{-1}=\\begin{pmatrix}1&1&1&1\\\\-1&2&1&-2\\\\1&4&1&4\\\\-1&8&1&-8\\end{pmatrix},$$ 记 $A_{ij}$ 为 $|A|$ 第 $i$ 行第 $j$ 列元素的代数余子式，求 $\\sum_{i=1}^4\\sum_{j=1}^4 iA_{ij}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知方程组 $AX=0$ 的基础解系为 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$，令 $\\beta_i=\\alpha_i+\\alpha_{i+1}$（$i=1,2,\\cdots,s-1$），$\\beta_s=\\alpha_s+\\alpha_1$，问何时 $\\beta_1,\\beta_2,\\cdots,\\beta_s$ 也为方程组 $AX=0$ 的基础解系？若非基础解系，求 $\\beta_1,\\beta_2,\\cdots,\\beta_s$ 的极大线性无关组，并将其扩为 $AX=0$ 的基础解系。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "已知 $A$ 为 $3\\times 2$ 矩阵，$B$ 为 $2\\times 3$ 矩阵，且 $$AB=\\begin{pmatrix}8&2&-2\\\\2&5&4\\\\-2&4&5\\end{pmatrix}.$$\n(1) 求 $(AB)^2$；\n(2) 求 $BA$ 的极小多项式；\n(3) 求 $BA$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "已知 $n$ 阶实矩阵 $A=(a_{ij})$ 满足 $$a_{ii}=0\\ (i=1,2,\\cdots,n),\\quad a_{ij}+a_{ji}=1\\ (1\\le i<j\\le n),$$ 证明 $r(A)\\ge n-1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "（接上题条件）已知 $n$ 阶实矩阵 $A=(a_{ij})$ 满足 $a_{ii}=0$（$i=1,2,\\cdots,n$），$a_{ij}+a_{ji}=1$（$1\\le i<j\\le n$）。记 $\\beta=(b_1,b_2,\\cdots,b_n)'$ 为 $n$ 维实列向量，证明实系数线性方程组 $\\sum_{j=1}^n a_{ij}x_j=b_i$（$i=1,2,\\cdots,n$）有解当且仅当 $\\beta$ 与方程组 $\\sum_{i=1}^n a_{ij}x_i=0$（$j=1,2,\\cdots,n$）的解空间正交。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 4 阶实对称矩阵 $A$ 满足 $|A|=2$，且 $1$，$-1$ 均为 $A$ 的特征值，同时特征子空间 $V_1=L(\\alpha_1,\\alpha_2)$，$V_{-1}=L(\\alpha_3)$，其中 $$\\alpha_1=(1,1,-1,-1)',\\ \\alpha_2=(1,-1,1,1)',\\ \\alpha_3=(0,1,1,0)'.$$ 求 $A$ 的伴随矩阵 $A^*$，并求正交矩阵 $T$，使得 $T'A^*T$ 为对角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "已知 $\\varphi$ 为线性空间 $V$ 上的线性变换，且 $\\varphi$ 的特征多项式为 $f(\\lambda)=(\\lambda-2)^6(\\lambda+2)^4$，请将 $V$ 分解为 $\\varphi$ 的两个不变子空间的直和，并证明之。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "已知矩阵 $$A=\\begin{pmatrix}1&x&4&2\\\\0&1&3&3\\\\0&0&2&y\\\\0&0&0&2\\end{pmatrix}.$$\n(1) 当 $x$，$y$ 为何值时 $A$ 可对角化？\n(2) 当 $x=0$，$y=1$ 时，求 $A$ 的初等因子，不变因子及 Jordan 标准型。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "已知 $W$，$V$ 均为有限维线性空间，$\\varphi:V\\to W$ 为线性映射，证明：\n(1) $\\varphi$ 为满射的充要条件是存在线性映射 $\\phi:W\\to V$，使得 $\\varphi\\phi$ 为 $W$ 上的恒等变换；\n(2) $\\varphi$ 为单射的充要条件是存在线性映射 $\\tau:W\\to V$，使得 $\\tau\\varphi$ 为 $V$ 上的恒等变换；\n(3) $\\varphi$ 为同构映射的充要条件是存在线性映射 $\\psi:W\\to V$，使得 $\\varphi\\psi$ 为 $W$ 上的恒等变换，$\\psi\\varphi$ 为 $V$ 上的恒等变换。"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "浙江大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "44. 浙江大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": ["work/imgs/2247504544-1_5.png"],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "计算",
-     "l1": "多项式",
-     "l2": "根与重因式",
-     "stem": "当 $t$ 取何值时，多项式 $f(x)=x^{3}+6x^{2}+tx+8$ 有重根？并求重根。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "2",
-     "score": null,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知矩阵 $A$ 满足\n$$A^{-1}=\\begin{pmatrix}1&1&1&1\\\\ -1&2&1&-2\\\\ 1&4&1&4\\\\ -1&8&1&-8\\end{pmatrix}.$$\n记 $A_{ij}$ 为 $|A|$ 第 $i$ 行第 $j$ 列元素的代数余子式，求 $\\displaystyle\\sum_{i=1}^{4}\\sum_{j=1}^{4}iA_{ij}$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "3",
-     "score": null,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "已知方程组 $AX=0$ 的基础解系为 $\\alpha_{1},\\alpha_{2},\\cdots,\\alpha_{s}$，令 $\\beta_{i}=\\alpha_{i}+\\alpha_{i+1}$ $(i=1,2,\\cdots,s-1)$，$\\beta_{s}=\\alpha_{s}+\\alpha_{1}$，问何时 $\\beta_{1},\\beta_{2},\\cdots,\\beta_{s}$ 也为方程组 $AX=0$ 的基础解系？若非基础解系，求 $\\beta_{1},\\beta_{2},\\cdots,\\beta_{s}$ 的极大线性无关组，并将其扩为 $AX=0$ 的基础解系。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "4",
-     "score": null,
-     "form": "计算",
-     "l1": "线性空间与线性变换",
-     "l2": "极小多项式",
-     "stem": "已知 $A$ 为 $3\\times 2$ 矩阵，$B$ 为 $2\\times 3$ 矩阵，且\n$$AB=\\begin{pmatrix}8&2&-2\\\\ 2&5&4\\\\ -2&4&5\\end{pmatrix}.$$\n(1) 求 $(AB)^{2}$；\n(2) 求 $BA$ 的极小多项式；\n(3) 求 $BA$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "5",
-     "score": null,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "秩",
-     "stem": "已知 $n$ 阶实矩阵 $A=(a_{ij})$ 满足\n$$a_{ii}=0\\ (i=1,2,\\cdots,n),\\quad a_{ij}+a_{ji}=1\\ (1\\le j<j\\le n).$$\n【?】\n证明 $r(A)\\ge n-1$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "6",
-     "score": null,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "记 $\\beta=(b_{1},b_{2},\\cdots,b_{n})'$ 为 $n$ 维实列向量，证明实系数线性方程组 $\\displaystyle\\sum_{j=1}^{n}a_{ij}x_{j}=b_{i}$ $(i=1,2,\\cdots,n)$ 有解当且仅当 $\\beta$ 与方程组 $\\displaystyle\\sum_{i=1}^{n}a_{ij}x_{i}=0$ $(j=1,2,\\cdots,n)$ 的解空间正交。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "7",
-     "score": null,
-     "form": "计算",
-     "l1": "欧氏空间与二次型",
-     "l2": "实对称矩阵",
-     "stem": "已知 $4$ 阶实对称矩阵 $A$ 满足 $|A|=2$，且 $1$，$-1$ 均为 $A$ 的特征值，同时特征子空间 $V_{1}=L(\\alpha_{1},\\alpha_{2})$，$V_{-1}=L(\\alpha_{3})$，其中\n$$\\alpha_{1}=(1,1,-1,-1)',\\ \\alpha_{2}=(1,-1,1,1)',\\ \\alpha_{3}=(0,1,1,0)'.$$\n求 $A$ 的伴随矩阵 $A^{*}$，并求正交矩阵 $T$，使得 $T'A^{*}T$ 为对角矩阵。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "8",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "不变子空间",
-     "stem": "已知 $\\varphi$ 为线性空间 $V$ 上的线性变换，且 $\\varphi$ 的特征多项式为 $f(\\lambda)=(\\lambda-2)^{6}(\\lambda+2)^{4}$，请将 $V$ 分解为 $\\varphi$ 的两个不变子空间的直和，并证明之。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "9",
-     "score": null,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "相似",
-     "stem": "已知矩阵\n$$A=\\begin{pmatrix}1&x&4&2\\\\ 0&1&3&3\\\\ 0&0&2&y\\\\ 0&0&0&2\\end{pmatrix}.$$\n【?】"
-    }
-   ]
-  }
- ]
+  ]
 }

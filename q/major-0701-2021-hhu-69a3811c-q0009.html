@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2021 高等代数 四3 · 数学考研真题库</title>
-<meta name="description" content="解答如下问题: (1) 设 _1, _2, , _s 是 n 元实系数线性方程组 AX=0 的基础解系, 其中 s=n-r(A) . 将 _1, _2, , _s 扩为 {R}^n 的一组基, 记为 _1, , _s, _{s+1}, , _n , 证明 A _{s+1},A _{s+2}, ,A ">
+<meta name="description" content="解答如下问题： (1) 设 _1, _2, , _s 是 n 元实系数线性方程组 AX=0 的基础解系，其中 s=n-r(A) 。将 _1, _2, , _s 扩为 {R}^n 的一组基，记为 _1, , _s, _{s+1}, , _n ，证明 A _{s+1},A _{s+2}, ,A _n 线">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/katex/katex.min.css">
 <link rel="stylesheet" href="../assets/site.css?v=20260925135128">
@@ -40,14 +40,14 @@
       <span class="sep">|</span>
       <span class="t">证明</span>
 <span class="sep">|</span><span class="t">10 分</span>    </h1>
-    <div class="qstem">解答如下问题:<br>(1) 设 $\eta_1,\eta_2,\cdots,\eta_s$ 是 $n$ 元实系数线性方程组 $AX=0$ 的基础解系, 其中 $s=n-r(A)$. 将 $\eta_1,\eta_2,\cdots,\eta_s$ 扩为 $\mathbb{R}^n$ 的一组基, 记为 $\eta_1,\cdots,\eta_s,\eta_{s+1},\cdots,\eta_n$, 证明 $A\eta_{s+1},A\eta_{s+2},\cdots,A\eta_n$ 线性无关.<br>(2) 设 $A$, $B$ 分别是实数域 $\mathbb{R}$ 上的 $p\times n$ 与 $n\times m$ 矩阵, 令<br>$$V=\{X\in\mathbb{R}^m\mid ABX=0\},\quad W=\{Y\mid Y=BX,\ X\in V\}.$$<br>证明 $W$ 是 $\mathbb{R}^n$ 的子空间, 且 $\dim W=r(B)-r(AB)$.</div>
+    <div class="qstem">解答如下问题：<br>(1) 设 $\eta_1,\eta_2,\cdots,\eta_s$ 是 $n$ 元实系数线性方程组 $AX=0$ 的基础解系，其中 $s=n-r(A)$。将 $\eta_1,\eta_2,\cdots,\eta_s$ 扩为 $\mathbb{R}^n$ 的一组基，记为 $\eta_1,\cdots,\eta_s,\eta_{s+1},\cdots,\eta_n$，证明 $A\eta_{s+1},A\eta_{s+2},\cdots,A\eta_n$ 线性无关；<br>(2) 设 $A$，$B$ 分别是实数域 $\mathbb{R}$ 上的 $p\times n$ 与 $n\times m$ 矩阵，令<br>$$V=\{X\in\mathbb{R}^m\mid ABX=0\},\quad W=\{Y\mid Y=BX,\ X\in V\}.$$<br>证明 $W$ 是 $\mathbb{R}^n$ 的子空间，且 $\dim W=r(B)-r(AB)$。</div>
     <div class="toolbar" style="margin-top:14px">
       <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
-      <button class="btn small copy-btn" data-stem="解答如下问题:
-(1) 设 $\eta_1,\eta_2,\cdots,\eta_s$ 是 $n$ 元实系数线性方程组 $AX=0$ 的基础解系, 其中 $s=n-r(A)$. 将 $\eta_1,\eta_2,\cdots,\eta_s$ 扩为 $\mathbb{R}^n$ 的一组基, 记为 $\eta_1,\cdots,\eta_s,\eta_{s+1},\cdots,\eta_n$, 证明 $A\eta_{s+1},A\eta_{s+2},\cdots,A\eta_n$ 线性无关.
-(2) 设 $A$, $B$ 分别是实数域 $\mathbb{R}$ 上的 $p\times n$ 与 $n\times m$ 矩阵, 令
+      <button class="btn small copy-btn" data-stem="解答如下问题：
+(1) 设 $\eta_1,\eta_2,\cdots,\eta_s$ 是 $n$ 元实系数线性方程组 $AX=0$ 的基础解系，其中 $s=n-r(A)$。将 $\eta_1,\eta_2,\cdots,\eta_s$ 扩为 $\mathbb{R}^n$ 的一组基，记为 $\eta_1,\cdots,\eta_s,\eta_{s+1},\cdots,\eta_n$，证明 $A\eta_{s+1},A\eta_{s+2},\cdots,A\eta_n$ 线性无关；
+(2) 设 $A$，$B$ 分别是实数域 $\mathbb{R}$ 上的 $p\times n$ 与 $n\times m$ 矩阵，令
 $$V=\{X\in\mathbb{R}^m\mid ABX=0\},\quad W=\{Y\mid Y=BX,\ X\in V\}.$$
-证明 $W$ 是 $\mathbb{R}^n$ 的子空间, 且 $\dim W=r(B)-r(AB)$." title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+证明 $W$ 是 $\mathbb{R}^n$ 的子空间，且 $\dim W=r(B)-r(AB)$。" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
       <a class="btn small" href="../paper/major-0701-2021-hhu-69a3811c.html#major-0701-2021-hhu-69a3811c-q0009">在试卷中查看</a>
     </div>
     <div class="notice" style="margin-top:18px">
@@ -72,8 +72,8 @@ $$V=\{X\in\mathbb{R}^m\mid ABX=0\},\quad W=\{Y\mid Y=BX,\ X\in V\}.$$
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 18937 题</span>
-    <span>生成于 2026-10-03 16:21 · <a href="../about.html">数据说明</a></span>
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21428 题</span>
+    <span>生成于 2026-10-05 00:00 · <a href="../about.html">数据说明</a></span>
   </div>
 </footer>
 <script defer src="../assets/katex/katex.min.js"></script>

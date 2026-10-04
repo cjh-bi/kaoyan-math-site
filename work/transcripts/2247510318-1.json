@@ -1,0 +1,104 @@
+{
+  "msgid": "2247510318-1",
+  "exams": [
+    {
+      "school": "东南大学",
+      "year": "2022",
+      "subject": "数学分析",
+      "header_note": "33. 东南大学 2022 年数学分析试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247510318-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim_{n\\to\\infty}(\\arctan n+\\sin n)^n$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "求曲面积分\n$$\\iint_{\\Sigma}\\frac{(z+1)\\,\\mathrm{d}y\\mathrm{d}z+(y+1)\\,\\mathrm{d}z\\mathrm{d}x+(x+1)\\,\\mathrm{d}x\\mathrm{d}y}{x^2+y^2+z^2}.$$\n其中 $\\Sigma:z=\\sqrt{9-x^2-y^2}$，取下侧。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求 $2x-y=1$ 与 $x^2+y^2+z^2=1$ 的交线上的点到原点的最近距离。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "判断 $f(y)=\\int_0^{+\\infty}\\dfrac{\\sin x^2 y}{x}\\,\\mathrm{d}x$ 的一致收敛性。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "证明：若 $\\lim_{n\\to\\infty} n\\left(\\dfrac{a_n}{a_{n+1}}-1\\right)=\\lambda>0$，则交错级数 $\\sum_{n=1}^{\\infty}(-1)^{n-1}a_n$ 收敛。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "导数应用",
+          "stem": "设定义在 $\\mathbb{R}$ 上的可导函数 $f(x)$ 满足 $f(0)=0$，$f'(x)$ 单调递增，证明：$\\dfrac{f(x)}{x}$ 单调。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "设 $\\Omega$ 是 $\\mathbb{R}^3$ 中的光滑区域，$u$ 在 $\\overline{\\Omega}$ 上连续，在 $\\Omega$ 内连续可微，试证：存在 $x_0\\in\\Omega$，使得 $\\nabla u(x_0)=0$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $\\{f_n(x)\\}$ 是 $[a,b]$ 上的可积函数列，且一致收敛于 $f(x)$，证明：$f(x)$ 在 $[a,b]$ 上可积。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "用闭区间套定理证明确界存在定理。"
+        }
+      ]
+    }
+  ]
+}

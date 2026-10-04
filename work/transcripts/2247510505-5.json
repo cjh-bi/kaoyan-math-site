@@ -6,7 +6,10 @@
       "year": "2022",
       "subject": "高等代数",
       "header_note": "69. 陕西师范大学 2022 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247510505-5_4.png"],
+      "source_imgs": [
+        "work/imgs/2247510505-5_1.png",
+        "work/imgs/2247510505-5_4.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -16,7 +19,7 @@
           "form": "证明",
           "l1": "多项式",
           "l2": "根与重因式",
-          "stem": "设 $f(x)=a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$ 是一个整系数多项式，而 $\\dfrac{r}{s}$ 是它的一个有理根，其中 $r,s$ 互素，证明：$s\\mid a_n$，$r\\mid a_0$。"
+          "stem": "设 $f(x)=a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$ 是一个整系数多项式，而 $\\dfrac{r}{s}$ 是它的一个有理根，其中 $r$, $s$ 互素，证明：$s\\mid a_n$，$r\\mid a_0$。"
         },
         {
           "section": "一",
@@ -26,7 +29,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算 $n$ 阶行列式\n$$\\begin{vmatrix} x & a & a & \\cdots & a \\\\ -a & x & a & \\cdots & a \\\\ -a & -a & x & \\cdots & a \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ -a & -a & -a & \\cdots & x \\end{vmatrix}$$"
+          "stem": "计算 $n$ 阶行列式\n$$\\begin{vmatrix} x & a & a & \\cdots & a\\\\ -a & x & a & \\cdots & a\\\\ -a & -a & x & \\cdots & a\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ -a & -a & -a & \\cdots & x \\end{vmatrix}$$"
         },
         {
           "section": "一",
@@ -36,7 +39,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $\\alpha_i=(a_{i1},a_{i2},\\cdots,a_{in})$，$i=1,2,\\cdots,s$；$\\beta=(b_1,b_2,\\cdots,b_n)$，证明：方程组\n$$\\begin{cases} a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0; \\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0; \\\\ \\cdots\\cdots \\\\ a_{s1}x_1+a_{s2}x_2+\\cdots+a_{sn}x_n=0. \\end{cases}$$\n的解全是方程 $b_1x_1+b_2x_2+\\cdots+b_nx_n=0$ 的解的充分必要条件是 $\\beta$ 可被 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 线性表出。"
+          "stem": "设 $\\alpha_i=(a_{i1},a_{i2},\\cdots,a_{in})$，$i=1,2,\\cdots,s$；$\\beta=(b_1,b_2,\\cdots,b_n)$，证明：方程组\n$$\\begin{cases} a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0;\\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0;\\\\ \\cdots\\cdots\\\\ a_{s1}x_1+a_{s2}x_2+\\cdots+a_{sn}x_n=0 \\end{cases}$$\n的解全是方程 $b_1x_1+b_2x_2+\\cdots+b_nx_n=0$ 的解的充分必要条件是 $\\beta$ 可被 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_s$ 线性表出。"
         },
         {
           "section": "一",
@@ -66,7 +69,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与直和",
-          "stem": "设 $n$ 阶方阵 $A$，$B$，$C$，$D$ 两两可交换，且满足 $AC+BD=I$，方程组\n$$ABX=0,\\ AX=0,\\ BX=0$$\n的解空间分别为 $W$，$W_1$，$W_2$，证明：$W=W_1\\oplus W_2$。"
+          "stem": "设 $n$ 阶方阵 $A$, $B$, $C$, $D$ 两两可交换，且满足 $AC+BD=I$，方程组\n$$ABX=0,\\ AX=0,\\ BX=0$$\n的解空间分别为 $W$, $W_1$, $W_2$，证明：$W=W_1\\oplus W_2$。"
         },
         {
           "section": "一",
@@ -76,7 +79,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与直和",
-          "stem": "已知 $V_1,V_2,\\cdots,V_s$ 是线性空间 $V$ 的一些子空间，证明下列命题等价：\n(1) $W=\\sum\\limits_{i=1}^{s}V_i$ 是直和；\n(2) 零向量的分解式唯一；\n(3) $V_i\\cap\\sum\\limits_{j\\ne i}V_j=\\{0\\}$ $(i=1,2,\\cdots,s)$。"
+          "stem": "已知 $V_1,V_2,\\cdots,V_s$ 是线性空间 $V$ 的一些子空间，证明下列命题等价：\n(1) $W=\\sum\\limits_{i=1}^{s}V_i$ 是直和；\n(2) 零向量的分解式唯一；\n(3) $V_i\\cap\\sum\\limits_{j\\ne i}V_j=\\{0\\}$ ($i=1,2,\\cdots,s$)。"
         },
         {
           "section": "一",
@@ -86,7 +89,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "对称变换",
-          "stem": "设 $\\sigma$，$\\tau$ 是欧氏空间 $V$ 上的对称变换。\n(1) 证明：若 $\\sigma$ 与 $\\tau$ 可同时对角化，则 $\\sigma$ 与 $\\tau$ 可交换；\n(2) 证明：若 $\\sigma$ 与 $\\tau$ 可交换，则 $\\sigma$，$\\tau$ 至少有一个公共的特征向量。"
+          "stem": "设 $\\sigma$, $\\tau$ 是欧氏空间 $V$ 上的对称变换。\n(1) 证明：若 $\\sigma$ 与 $\\tau$ 可同时对角化，则 $\\sigma$ 与 $\\tau$ 可交换；\n(2) 证明：若 $\\sigma$ 与 $\\tau$ 可交换，则 $\\sigma$, $\\tau$ 至少有一个公共的特征向量。"
         }
       ]
     }

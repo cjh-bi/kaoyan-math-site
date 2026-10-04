@@ -26,7 +26,7 @@
           "form": "判断",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "判断级数 $\\displaystyle\\sum_{n=2}^{\\infty}\\dfrac{\\ln(e^n+n^2)}{n^2\\ln^2 n}$ 的敛散性。"
+          "stem": "判断级数 $\\sum\\limits_{n=2}^{\\infty}\\dfrac{\\ln(e^n+n^2)}{n^2\\ln^2 n}$ 的敛散性。"
         },
         {
           "section": "一",
@@ -76,7 +76,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算曲面积分\n$$I=\\iint\\limits_{\\Sigma}(x^3+Rx)\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+(1-3z)(x^2+y^2)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$：$z=\\sqrt{R^2-x^2-y^2}$，方向取下侧，$R>0$。"
+          "stem": "计算曲面积分\n$$I=\\iint_{\\Sigma}(x^3+Rx)\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+(1-3z)(x^2+y^2)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma: z=\\sqrt{R^2-x^2-y^2}$，方向取下侧，$R>0$。"
         },
         {
           "section": "一",
@@ -115,7 +115,7 @@
           "score": null,
           "form": "证明",
           "l1": "一元微分学",
-          "l2": "不等式证明",
+          "l2": "中值定理",
           "stem": "已知 $0<a<b<1$，证明：$\\arctan b-\\arctan a<\\dfrac{b-a}{2ab}$。"
         },
         {
@@ -123,10 +123,10 @@
           "section_instruction": "",
           "no": "12",
           "score": null,
-          "form": "综合",
+          "form": "计算",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "设 $n$ 为正整数，函数\n$$f(x,y)=\\begin{cases}\\dfrac{x^n y}{\\sqrt{x^2+y^2}}, & (x,y)\\neq(0,0);\\\\[4pt] 0, & (x,y)=0.\\end{cases}$$\n讨论 $f(x,y)$ 在原点处的可微性。"
+          "stem": "设 $n$ 为正整数，函数\n$$f(x,y)=\\begin{cases}\\dfrac{x^n y}{\\sqrt{x^2+y^2}},&(x,y)\\neq(0,0);\\\\[4pt] 0,&(x,y)=0.\\end{cases}$$\n讨论 $f(x,y)$ 在原点处的可微性。"
         },
         {
           "section": "一",
@@ -165,7 +165,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "6. 北京邮电大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516038-1_5.png"],
+      "source_imgs": ["work/imgs/2247516038-1_5.png", "work/imgs/2247516038-1_6.png"],
       "questions": [
         {
           "section": "一",
@@ -246,6 +246,26 @@
           "l1": "线性空间与线性变换",
           "l2": "不变子空间",
           "stem": "设 $\\sigma$ 是线性空间 $V$ 上的线性变换，$\\sigma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 下的矩阵是\n$$\\begin{pmatrix}1&-1&-1&2\\\\ 0&1&0&0\\\\ 2&3&1&-1\\\\ 1&-2&-2&-1\\end{pmatrix}.$$\n求包含 $\\alpha_1$ 的最小的 $\\sigma$ 的不变子空间。"
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "规范正交基",
+          "stem": "设 $\\alpha_1,\\alpha_2,\\alpha_3$ 是 3 维欧氏空间的一个基，$\\alpha_1,\\alpha_2,\\alpha_3$ 的度量矩阵为\n$$\\begin{pmatrix}2&-2&1\\\\ -2&3&-1\\\\ 1&-1&2\\end{pmatrix}.$$\n令 $W=L(\\alpha_1+\\alpha_2,\\alpha_2+\\alpha_3)$。\n(1) 求 $W$ 的一个规范正交基；\n(2) 求 $W$ 的正交补 $W^{\\perp}$，并求 $W^{\\perp}$ 的维数及一个规范正交基。"
+        },
+        {
+          "section": "十",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "证明：数域 $P$ 上的一元多项式组成的线性空间 $P[x]$ 可以与它的一个真子空间同构。"
         }
       ]
     }

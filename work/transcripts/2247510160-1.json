@@ -4,59 +4,62 @@
     {
       "school": "复旦大学",
       "year": "2022",
-      "subject": "分析",
-      "header_note": "13. 复旦大学 2022 年分析试卷（注：分析考试内容：数学分析包含一、二、三、四大题，常微分方程包含五、六大题，复变函数包含七、八大题，实变函数包含九、十大题，其中后三部分任选其二。）",
-      "source_imgs": ["work/imgs/2247510160-1_4.png"],
+      "subject": "数学分析",
+      "header_note": "13. 复旦大学 2022 年分析试卷。注：分析考试内容：数学分析包含一、二、三、四大题，常微分方程包含五、六大题，复变函数包含七、八大题，实变函数包含九、十大题，其中后三部分任选其二。",
+      "source_imgs": [
+        "work/imgs/2247510160-1_4.png",
+        "work/imgs/2247510160-1_5.png"
+      ],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "填空题",
+          "section_instruction": "第一部分：数学分析。填空题.",
           "no": "1",
           "score": null,
           "form": "填空",
           "l1": "一元微分学",
           "l2": "导数计算",
-          "stem": "设 $f(x)=\\sqrt{x-\\ln(1+x)}$，$x\\ge 0$，则 $f'(0)=$ ____，$f''(0)=$ ____。"
+          "stem": "设 $f(x)=\\sqrt{x-\\ln(1+x)}$，$x\\ge 0$，则 $f'(0)=$______，$f''(0)=$______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题",
+          "section_instruction": "第一部分：数学分析。填空题.",
           "no": "2",
           "score": null,
           "form": "填空",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "极限 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^{10n}\\left(1-\\left|\\sin\\dfrac{x}{n}\\right|\\right)^n \\mathrm{d}x=$ ____。"
+          "stem": "极限 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_{0}^{10n}\\left(1-\\left|\\sin\\dfrac{x}{n}\\right|\\right)^{n}\\mathrm{d}x=$______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题",
+          "section_instruction": "第一部分：数学分析。填空题.",
           "no": "3",
           "score": null,
           "form": "填空",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "设 $\\alpha\\in\\mathbb{R}$，若函数项级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n^{\\alpha}}\\sin\\left(nx+\\dfrac{1}{nx}\\right)$ 关于 $x\\in(0,2\\pi)$ 内闭一致收敛，则 $\\alpha$ 的取值范围为 ____。"
+          "stem": "设 $\\alpha\\in\\mathbb{R}$，若函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^{\\alpha}}\\sin\\left(nx+\\dfrac{1}{nx}\\right)$ 关于 $x\\in(0,2\\pi)$ 内闭一致收敛，则 $\\alpha$ 的取值范围为______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题",
+          "section_instruction": "第一部分：数学分析。填空题.",
           "no": "4",
           "score": null,
           "form": "填空",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "定积分 $\\displaystyle\\int_0^{\\pi}(\\sin x)^{\\frac{4}{3}}(\\cos x)^{\\frac{2}{3}}\\,\\mathrm{d}x=$ ____。"
+          "stem": "定积分 $\\displaystyle\\int_{0}^{\\pi}(\\sin x)^{\\frac{4}{3}}(\\cos x)^{\\frac{2}{3}}\\,\\mathrm{d}x=$______."
         },
         {
           "section": "一",
-          "section_instruction": "填空题",
+          "section_instruction": "第一部分：数学分析。填空题.",
           "no": "5",
           "score": null,
           "form": "填空",
           "l1": "多元积分学",
           "l2": "三重积分",
-          "stem": "重积分 $\\iiint\\limits_{2x^2+y^2\\le z^2\\le x^2+2x+8y}(x+y)\\,\\mathrm{d}x\\,\\mathrm{d}y\\,\\mathrm{d}z=$ ____。"
+          "stem": "重积分 $\\iiint\\limits_{2x^{2}+y^{2}\\le z^{2}\\le x^{2}+2x+8y}(x+y)\\,\\mathrm{d}x\\,\\mathrm{d}y\\,\\mathrm{d}z=$______."
         },
         {
           "section": "二",
@@ -66,7 +69,7 @@
           "form": "证明",
           "l1": "一元微分学",
           "l2": "导数计算",
-          "stem": "设 $f$ 为 $[-1,1]$ 上的实函数，满足：存在 $M>0$，使得对任意的 $x,y\\in[-1,1]$，成立\n$$|f(x)-f(y)|\\le M|x-y|.$$\n且对任意固定的 $x$，成立 $\\lim\\limits_{n\\to\\infty}n f\\!\\left(\\dfrac{x}{n}\\right)=0$，证明：$f(x)$ 在 $x=0$ 处可导，且导数为 $0$。"
+          "stem": "设 $f$ 为 $[-1,1]$ 上的实函数，满足：存在 $M>0$，使得对任意的 $x,y\\in[-1,1]$，成立 $|f(x)-f(y)|\\le M|x-y|$，且对任意固定的 $x$，成立 $\\lim\\limits_{n\\to\\infty}n f\\!\\left(\\dfrac{x}{n}\\right)=0$，证明：$f(x)$ 在 $x=0$ 处可导，且导数为 $0$."
         },
         {
           "section": "三",
@@ -76,7 +79,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "数项级数求和",
-          "stem": "计算级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{H_n}{2^{n}(n+1)}$ 的值，其中 $H_n=\\sum\\limits_{k=1}^{n}\\dfrac{1}{k}$。"
+          "stem": "计算级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{H_n}{2^{n}(n+1)}$ 的值，其中 $H_n=\\displaystyle\\sum_{k=1}^{n}\\dfrac{1}{k}$."
         },
         {
           "section": "四",
@@ -86,7 +89,7 @@
           "form": "证明",
           "l1": "多元积分学",
           "l2": "第二型曲线积分",
-          "stem": "曲线积分 $\\displaystyle\\int_C e^{-2xy}\\cos(x^2-y^2)\\,\\mathrm{d}x-e^{-2xy}\\sin(x^2-y^2)\\,\\mathrm{d}y$ 与路径 $C$ 无关。"
+          "stem": "曲线积分 $\\displaystyle\\int_{C}e^{-2xy}\\cos(x^{2}-y^{2})\\,\\mathrm{d}x-e^{-2xy}\\sin(x^{2}-y^{2})\\,\\mathrm{d}y$ 与路径 $C$ 无关."
         },
         {
           "section": "四",
@@ -96,7 +99,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "$\\lim\\limits_{R\\to+\\infty}\\left(\\displaystyle\\int_0^{R}\\cos x^2\\,\\mathrm{d}x-\\int_0^{R}e^{-2x^2}\\,\\mathrm{d}x\\right)=0$。"
+          "stem": "$\\lim\\limits_{R\\to+\\infty}\\left(\\displaystyle\\int_{0}^{R}\\cos x^{2}\\,\\mathrm{d}x-\\int_{0}^{R}e^{-2x^{2}}\\,\\mathrm{d}x\\right)=0$."
         },
         {
           "section": "四",
@@ -106,7 +109,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "$\\lim\\limits_{R\\to+\\infty}\\left(\\displaystyle\\int_0^{R}\\sin x^2\\,\\mathrm{d}x-\\int_0^{R}e^{-2x^2}\\,\\mathrm{d}x\\right)=0$。"
+          "stem": "$\\lim\\limits_{R\\to+\\infty}\\left(\\displaystyle\\int_{0}^{R}\\sin x^{2}\\,\\mathrm{d}x-\\int_{0}^{R}e^{-2x^{2}}\\,\\mathrm{d}x\\right)=0$."
         },
         {
           "section": "五",
@@ -116,7 +119,7 @@
           "form": "证明",
           "l1": "常微分方程",
           "l2": "存在唯一性定理",
-          "stem": "设 $\\mathbb{R}^2$ 上初值问题\n$$\\begin{cases}\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=t^2+x^2;\\\\ x(0)=0,\\end{cases}$$\n的解为 $\\varphi(t)$，最大存在区间为 $(\\alpha,\\beta)$，证明：$\\left[-\\dfrac{\\sqrt{2}}{2},\\dfrac{\\sqrt{2}}{2}\\right]\\subseteq(\\alpha,\\beta)$ 且 $\\max\\limits_{t\\in\\left[-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right]}\\left|\\varphi(t)-\\dfrac{1}{3}t^3\\right|<\\dfrac{\\sqrt{2}}{11}$。"
+          "stem": "设 $\\mathbb{R}^2$ 上初值问题\n$$\\begin{cases}\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=t^{2}+x^{2};\\\\ x(0)=0,\\end{cases}$$\n的解为 $\\varphi(t)$，最大存在区间为 $(\\alpha,\\beta)$，证明：$\\left[-\\dfrac{\\sqrt{2}}{2},\\dfrac{\\sqrt{2}}{2}\\right]\\subseteq(\\alpha,\\beta)$ 且 $\\max\\limits_{t\\in\\left[-\\frac{\\sqrt{2}}{2},\\frac{\\sqrt{2}}{2}\\right]}\\left|\\varphi(t)-\\dfrac{1}{3}t^{3}\\right|<\\dfrac{\\sqrt{2}}{11}$."
         },
         {
           "section": "六",
@@ -126,7 +129,7 @@
           "form": "综合",
           "l1": "常微分方程",
           "l2": "一阶微分方程",
-          "stem": "给定实数 $\\mu,\\beta$，试求出实平面下述系统的所有奇点，并分析系统在这些奇异点处的类型，绘出奇点附近系统的大致相轨线图。\n$$\\begin{cases}\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\mu x-y-\\beta x(x^2+y^2);\\\\ \\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=x+\\mu y-\\beta y(x^2+y^2).\\end{cases}$$"
+          "stem": "给定实数 $\\mu,\\beta$，试求出实平面下述系统的所有奇点，并分析系统在这些奇异点处的类型，绘出奇点附近系统的大致相轨线图.\n$$\\begin{cases}\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}=\\mu x-y-\\beta x(x^{2}+y^{2});\\\\ \\dfrac{\\mathrm{d}y}{\\mathrm{d}t}=x+\\mu y-\\beta y(x^{2}+y^{2}).\\end{cases}$$"
         },
         {
           "section": "七",
@@ -136,16 +139,48 @@
           "form": "证明",
           "l1": "未分类",
           "l2": "",
-          "stem": "设 $\\Omega$ 是由分段光滑 Jordan 曲面所围成的有界区域，函数 $f(z)$ 在 $\\overline{\\Omega}$ 上连续，在 $\\Omega$ 上解析，且模 $|f(z)|$ 在 $\\partial\\Omega$ 上为常数。证明：$f(z)$ 在 $\\Omega$ 上为常数或在 $\\Omega$ 内仅有一个零点。"
+          "stem": "设 $\\Omega$ 是由分段光滑 Jordan 曲面所围成的有界区域，函数 $f(z)$ 在 $\\overline{\\Omega}$ 上连续，在 $\\Omega$ 上解析，且模 $|f(z)|$ 在 $\\partial\\Omega$ 上为常数. 证明：$f(z)$ 在 $\\Omega$ 上为常数或在 $\\Omega$ 内仅有一个零点."
+        },
+        {
+          "section": "八",
+          "section_instruction": "第三部分：复变函数",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "设 $D$ 为单位圆盘，记\n$$\\mathscr{F}:=\\left\\{f\\ \\middle|\\ f:D\\to D\\ \\text{为解析映射，且}\\ f\\!\\left(\\dfrac{1}{2}\\right)=0\\right\\}.$$\n证明：对任意的 $f\\in\\mathscr{F}$，有 $|f(0)|\\le\\dfrac{1}{2}$，且存在 $f_0\\in\\mathscr{F}$，使得 $f_0(0)=\\dfrac{1}{2}$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "第四部分：实变函数",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "未分类",
+          "l2": "",
+          "stem": "在 $\\mathbb{R}^2$ 上定义函数 $P(x,y)=\\sqrt{x^{2}+y^{2}}$，$A$ 为 $\\mathbb{R}$ 中 Lebesgue 零测集. 证明：$P^{-1}(A)$ 为 $\\mathbb{R}^2$ 中的 Lebesgue 零测集."
+        },
+        {
+          "section": "十",
+          "section_instruction": "第四部分：实变函数",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "证明：存在常数 $C$，使得对任意非负可测函数 $f$ 成立 $\\displaystyle\\int_{\\mathbb{R}^2} f\\!\\left(\\sqrt{x^{2}+y^{2}}\\right)\\mathrm{d}x=C\\int_{0}^{+\\infty} t f(t)\\,\\mathrm{d}t$."
         }
       ]
     },
     {
       "school": "复旦大学",
       "year": "2022",
-      "subject": "代数与几何",
-      "header_note": "13. 复旦大学 2022 年代数与几何试卷",
-      "source_imgs": ["work/imgs/2247510160-1_6.png"],
+      "subject": "高等代数",
+      "header_note": "13. 复旦大学 2022 年代数与几何试卷（卷末“第三部分：微分几何”仅有标题，本批图片未含其题目）",
+      "source_imgs": [
+        "work/imgs/2247510160-1_6.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -154,8 +189,8 @@
           "score": null,
           "form": "计算",
           "l1": "欧氏空间与二次型",
-          "l2": "二次型",
-          "stem": "设二次型 $ax_1^2-2x_1x_2+2x_1x_3+bx_2^2-4x_2x_3+2x_3^2$ 在正交变换 $X=PY$ 下化为标准形 $3y_1^2+6y_2^2$，求 $a,b$ 的值并求出矩阵 $P$。"
+          "l2": "正交变换",
+          "stem": "设二次型 $ax_1^2-2x_1x_2+2x_1x_3+bx_2^2-4x_2x_3+2x_3^2$ 在正交变换 $X=PY$ 下化为标准形 $3y_1^2+6y_2^2$，求 $a,b$ 的值并求出矩阵 $P$."
         },
         {
           "section": "一",
@@ -165,17 +200,17 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设 $\\mathbb{K}$ 为一数域，$A_1,A_2\\in\\mathbb{K}^{n\\times n}$，$b_1,b_2\\in\\mathbb{K}^{n\\times 1}$，假定线性方程组 $A_1X=b_1$ 和 $A_2X=b_2$ 的解集相同，证明：存在可逆的 $n$ 阶方阵 $P$，使得 $PA_1=A_2$，且 $Pb_1=b_2$。"
+          "stem": "设 $\\mathbb{K}$ 为一数域，$A_1,A_2\\in\\mathbb{K}^{n\\times n}$，$b_1,b_2\\in\\mathbb{K}^{n\\times 1}$，假定线性方程组 $A_1X=b_1$ 和 $A_2X=b_2$ 的解集相同，证明：存在可逆的 $n$ 阶方阵 $P$，使得 $PA_1=A_2$，且 $Pb_1=b_2$."
         },
         {
           "section": "一",
           "section_instruction": "第一部分：高等代数",
           "no": "3",
           "score": null,
-          "form": "综合",
+          "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "设方阵\n$$A=\\begin{pmatrix}14t-11 & 10t-7 & 5-6t\\\\ 8-7t & 4-5t & 3t-4\\\\ 21t-10 & 15t-8 & 4-9t\\end{pmatrix}.$$\n且 $A$ 有一个不变子空间 $U=\\left\\{\\left.\\begin{pmatrix}b-a\\\\ 2a-b\\\\ a+b\\end{pmatrix}\\right|\\, a,b\\in\\mathbb{R}\\right\\}$。求参数 $t$ 的值，并求可逆矩阵 $P$，使得 $P^{-1}AP$ 为 Jordan 标准型。"
+          "stem": "设方阵\n$$A=\\begin{pmatrix}14t-11 & 10t-7 & 5-6t\\\\ 8-7t & 4-5t & 3t-4\\\\ 21t-10 & 15t-8 & 4-9t\\end{pmatrix}.$$\n且 $A$ 有一个不变子空间 $U=\\left\\{\\begin{pmatrix}b-a\\\\ 2a-b\\\\ a+b\\end{pmatrix}\\ \\middle|\\ a,b\\in\\mathbb{R}\\right\\}$. 求参数 $t$ 的值，并求可逆矩阵 $P$，使得 $P^{-1}AP$ 为 Jordan 标准型."
         },
         {
           "section": "一",
@@ -185,7 +220,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "设 $A$ 为 $n$ 阶实对称矩阵，如果 $A$ 同时满足\n(1) 主子式的值非负；\n(2) 当 $A$ 的某个主子式的值为零时，这个主子式所在行构成的向量组线性相关。\n证明：$A$ 为半正定矩阵。"
+          "stem": "设 $A$ 为 $n$ 阶实对称矩阵，如果 $A$ 同时满足\n(1) 主子式的值非负；\n(2) 当 $A$ 的某个主子式的值为零时，这个主子式所在行构成的向量组线性相关.\n证明：$A$ 为半正定矩阵."
         },
         {
           "section": "一",
@@ -195,7 +230,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "可对角化",
-          "stem": "记 $V$ 为所有迹为 $0$ 的 $n$ 阶复矩阵构成的复线性空间，而 $H$ 为 $V$ 的线性子空间，同时满足\n性质 (I)：$H$ 中的矩阵均可对角化；\n性质 (II)：$H$ 中的任意两个矩阵均为乘法可交换。\n(1) 在子空间的包含关系的意义下，设 $H$ 为满足这两个性质的极大子空间，求 $H$ 的维数 $\\dim H$；\n(2) 如果 $H_1,H_2$ 都是在包含关系下满足性质 (I) 和性质 (II) 的极大线性子空间，证明：存在 $n$ 阶可逆复矩阵 $P$，使得 $H_2=\\{P^{-1}AP\\mid A\\in H_1\\}$。"
+          "stem": "记 $V$ 为所有迹为 $0$ 的 $n$ 阶复矩阵构成的复线性空间，而 $H$ 为 $V$ 的线性子空间，同时满足\n性质 (I)：$H$ 中的矩阵均可对角化；\n性质 (II)：$H$ 中的任意两个矩阵均为乘法可交换.\n(1) 在子空间的包含关系的意义下，设 $H$ 为满足这两个性质的极大子空间，求 $H$ 的维数 $\\dim H$；\n(2) 如果 $H_1,H_2$ 都是在包含关系下满足性质 (I) 和性质 (II) 的极大线性子空间，证明：存在 $n$ 阶可逆复矩阵 $P$，使得 $H_2=\\{P^{-1}AP\\mid A\\in H_1\\}$."
         },
         {
           "section": "一",
@@ -204,8 +239,8 @@
           "score": null,
           "form": "证明",
           "l1": "线性空间与线性变换",
-          "l2": "线性映射与核",
-          "stem": "设 $V,U$ 分别为 $n$ 维复线性空间和 $m$ 维复线性空间，$\\varphi:V\\to V$，$\\psi:U\\to U$ 是线性变换，$\\gamma:V\\to U$ 为线性映射，满足\n$$\\gamma\\varphi-\\psi\\gamma=0.$$\n若 $f(\\lambda)$ 为 $\\varphi$ 的特征多项式，$g(\\lambda)$ 为 $\\psi$ 的特征多项式，$d(\\lambda)=(f(\\lambda),g(\\lambda))$ 为 $f(\\lambda),g(\\lambda)$ 的最大公因式，证明：$\\dim(\\mathrm{Ker}\\,\\gamma)\\ge n-\\deg(d(\\lambda))$，其中 $\\mathrm{Ker}$ 表示核，$\\deg$ 表示多项式的次数。"
+          "l2": "特征多项式",
+          "stem": "设 $V,U$ 分别为 $n$ 维复线性空间和 $m$ 维复线性空间，$\\varphi:V\\to V$，$\\psi:U\\to U$ 是线性变换，$\\gamma:V\\to U$ 为线性映射，满足\n$$\\gamma\\varphi-\\psi\\gamma=0.$$\n若 $f(\\lambda)$ 为 $\\varphi$ 的特征多项式，$g(\\lambda)$ 为 $\\psi$ 的特征多项式，$d(\\lambda)=(f(\\lambda),g(\\lambda))$ 为 $f(\\lambda),g(\\lambda)$ 的最大公因式，证明：$\\dim(\\mathrm{Ker}\\,\\gamma)\\ge n-\\deg(d(\\lambda))$，其中 $\\mathrm{Ker}$ 表示核，$\\deg$ 表示多项式的次数."
         },
         {
           "section": "一",
@@ -215,7 +250,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "幂零矩阵",
-          "stem": "设 $A$ 为 $2$ 阶非奇异方阵，证明：存在 $2$ 阶非奇异方阵 $B$，使得 $AB=BA^2$ 成立的充要条件是 $A$ 至少满足下列条件之一：(1) $A^3=I_2$；(2) $A-I_2$ 为幂零方阵。其中 $I_2$ 为 $2$ 阶单位阵。"
+          "stem": "设 $A$ 为 $2$ 阶非奇异方阵，证明：存在 $2$ 阶非奇异方阵 $B$，使得 $AB=BA^2$ 成立的充要条件是 $A$ 至少满足下列条件之一：(1) $A^3=I_2$；(2) $A-I_2$ 为幂零方阵. 其中 $I_2$ 为 $2$ 阶单位阵."
         },
         {
           "section": "二",
@@ -225,7 +260,7 @@
           "form": "证明",
           "l1": "近世代数",
           "l2": "群",
-          "stem": "证明：$91$ 阶群都是循环群。"
+          "stem": "证明：$91$ 阶群都是循环群."
         },
         {
           "section": "二",
@@ -235,17 +270,17 @@
           "form": "综合",
           "l1": "近世代数",
           "l2": "环与域",
-          "stem": "考虑多项式环 $R=\\mathbb{Q}[x,y]$，设 $I=(x^2+1,\\,y^2+1)$ 为 $R$ 的一个理想，证明：$I$ 不是素理想，但找到 $R$ 的一个真素理想包含 $I$。"
+          "stem": "考虑多项式环 $R=\\mathbb{Q}[x,y]$，设 $I=(x^2+1,y^2+1)$ 为 $R$ 的一个理想，证明：$I$ 不是素理想，但找到 $R$ 的一个真素理想包含 $I$."
         },
         {
           "section": "二",
           "section_instruction": "第二部分：抽象代数",
           "no": "3",
           "score": null,
-          "form": "综合",
+          "form": "计算",
           "l1": "近世代数",
           "l2": "多项式与扩域",
-          "stem": "设 $F$ 为一个特征为 $2$ 的域，考域 $F$ 的一个二次扩张\n$$E=F[t]/(t^2+bt+c),\\ b,c\\in F.$$\n求解 $b,c$ 所满足的条件，使得 $E/F$ 为一个二次伽罗瓦扩张。"
+          "stem": "设 $F$ 为一个特征为 $2$ 的域，考域 $F$ 的一个二次扩张\n$$E=F[t]/(t^2+bt+c),\\ b,c\\in F.$$\n求解 $b,c$ 所满足的条件，使得 $E/F$ 为一个二次伽罗瓦扩张."
         }
       ]
     }

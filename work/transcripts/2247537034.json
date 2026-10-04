@@ -4,189 +4,268 @@
     {
       "school": "福州大学",
       "year": "2026",
+      "subject": "数学分析",
+      "header_note": "43. 福州大学 2026 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247537034_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算极限 $\\lim_{x\\to 1}\\dfrac{e^{-\\frac{(x-1)^2}{2}}-\\cos(x-1)}{(x-1)^2\\sqrt{2x-x^2}}$。"
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "证明闭区间 $[a,b]$ 上的连续函数 $f(x)$ 存在最大值和最小值。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设函数 $f(x)$ 在 $[a,+\\infty)$ 上一致连续，且 $\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛，证明：$\\lim_{x\\to+\\infty} f(x)=0$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求级数 $\\sum_{n=1}^{\\infty} a_n x^n$ 的收敛域与和函数，其中 $a_n=1-\\dfrac{1}{2}+\\dfrac{1}{3}-\\cdots+(-1)^{n-1}\\dfrac{1}{n}$。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "计算由曲线 $y^3=x, y^3=2x$ 以及 $xy=1, xy=2$ 所围区域在第一象限部分的面积。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": 25,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算单位时间内不可压缩流体（密度为 1）以速度 $\\mathbf{v}=x^2\\mathbf{i}+y^2\\mathbf{j}+z^2\\mathbf{k}$ 流过曲面 $\\Sigma$ 的流量，其中 $\\Sigma:\\ x^2+y^2=z^2,\\ 0\\le z\\le 1$，指向下侧。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 25,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "讨论函数 $I(\\alpha)=\\int_0^{+\\infty}\\dfrac{\\cos x^2}{x^{\\alpha}}$ 在 $\\alpha\\in(-1,1)$ 的连续性。"
+        }
+      ]
+    },
+    {
+      "school": "福州大学",
+      "year": "2026",
       "subject": "高等代数",
       "header_note": "43. 福州大学 2026 年高等代数试卷",
       "source_imgs": ["work/imgs/2247537034_5.png", "work/imgs/2247537034_6.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "填空题.",
+          "section_instruction": "填空题",
           "no": "1",
           "score": 5,
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "正交变换",
-          "stem": "(5 分) 设 $A$ 是 $n$ 阶正交矩阵且是反对称矩阵, 则 $A^2=$ ______."
+          "stem": "设 $A$ 是 $n$ 阶正交矩阵且是反对称矩阵，则 $A^2=$____。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题.",
+          "section_instruction": "填空题",
           "no": "2",
           "score": 5,
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "(5 分) 设 $\\varphi:\\begin{pmatrix}a \\\\ b\\end{pmatrix}\\mapsto\\begin{pmatrix}2a+b \\\\ a+2b\\end{pmatrix}$, 则 $\\varphi$ 在基 $\\begin{pmatrix}1 \\\\ 0\\end{pmatrix},\\begin{pmatrix}1 \\\\ 1\\end{pmatrix}$ 下的矩阵为 ______."
+          "stem": "设 $\\varphi:\\begin{pmatrix} a\\\\ b\\end{pmatrix}\\mapsto\\begin{pmatrix} 2a+b\\\\ a+2b\\end{pmatrix}$，则 $\\varphi$ 在基 $\\begin{pmatrix} 1\\\\ 0\\end{pmatrix},\\begin{pmatrix} 1\\\\ 1\\end{pmatrix}$ 下的矩阵为____。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题.",
+          "section_instruction": "填空题",
           "no": "3",
           "score": 5,
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "内积与度量",
-          "stem": "(5 分) 设 $\\alpha=(1,1,1,1)^{\\mathrm T}\\in\\mathbb R^4$, 子空间\n$$W=\\{(x_1,x_2,x_3,x_4)^{\\mathrm T}\\mid x_1+x_2+x_3+x_4=0\\}.$$\n则 $\\alpha$ 到 $W$ 的距离为 ______."
+          "stem": "设 $\\alpha=(1,1,1,1)^{\\mathrm T}\\in\\mathbb R^4$，子空间 $$W=\\{(x_1,x_2,x_3,x_4)^{\\mathrm T}\\mid x_1+x_2+x_3+x_4=0\\}.$$ 则 $\\alpha$ 到 $W$ 的距离为____。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题.",
+          "section_instruction": "填空题",
           "no": "4",
           "score": 5,
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "(5 分) 设 $A$ 是 $s\\times t$ 矩阵, $B$ 是 $t\\times s$ 矩阵, 若 $\\begin{pmatrix}C & A \\\\ B & O\\end{pmatrix}$ 可逆, 则 $A$ 的秩为 ______."
+          "stem": "设 $A$ 是 $s\\times t$ 矩阵，$B$ 是 $t\\times s$ 矩阵，若 $\\begin{pmatrix} C & A\\\\ B & O\\end{pmatrix}$ 可逆，则 $A$ 的秩为____。"
         },
         {
           "section": "一",
-          "section_instruction": "填空题.",
+          "section_instruction": "填空题",
           "no": "5",
           "score": 5,
           "form": "填空",
           "l1": "多项式",
           "l2": "根与重因式",
-          "stem": "(5 分) 设 $f(x)=\\displaystyle\\prod_{j=1}^{2026}(x^2+j)^{j^2+j+1}$, $d(x)$ 是 $f(x)$ 与 $f^\\prime(x)$ 的首一最大公因式, 则 $f(x)$ 除以 $d(x)$ 的商为 ______."
+          "stem": "设 $f(x)=\\prod_{j=1}^{2026}(x^2+j)^{j^2+j+1}$，$d(x)$ 是 $f(x)$ 与 $f'(x)$ 的首一最大公因式，则 $f(x)$ 除以 $d(x)$ 的商为____。"
         },
         {
           "section": "二",
-          "section_instruction": "简答题.",
+          "section_instruction": "简答题",
           "no": "1",
           "score": 5,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "(5 分) 计算 $n$ 阶行列式\n$$\\begin{vmatrix}1-a_1^2 & -a_1a_2 & \\cdots & -a_1a_n \\\\ -a_2a_1 & 1-a_2^2 & \\cdots & -a_2a_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ -a_na_1 & -a_na_2 & \\cdots & 1-a_n^2\\end{vmatrix}.$$"
+          "stem": "计算 $n$ 阶行列式 $$\\begin{vmatrix} 1-a_1^2 & -a_1a_2 & \\cdots & -a_1a_n\\\\ -a_2a_1 & 1-a_2^2 & \\cdots & -a_2a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ -a_na_1 & -a_na_2 & \\cdots & 1-a_n^2\\end{vmatrix}.$$"
         },
         {
           "section": "二",
-          "section_instruction": "简答题.",
+          "section_instruction": "简答题",
           "no": "2",
           "score": 5,
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "极小多项式",
-          "stem": "(5 分) 设 $n$ 阶方阵 $A$ 有 $n$ 个不同的特征值 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$, 求 $A$ 的极小多项式."
+          "stem": "设 $n$ 阶方阵 $A$ 有 $n$ 个不同的特征值 $\\lambda_1,\\lambda_2,\\cdots,\\lambda_n$，求 $A$ 的极小多项式。"
         },
         {
           "section": "二",
-          "section_instruction": "简答题.",
+          "section_instruction": "简答题",
           "no": "3",
           "score": 5,
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "(5 分) 设 $n$ 阶方阵\n$$A=\\begin{pmatrix}1 & -1 & 1 & \\cdots & (-1)^n \\\\ & 1 & -1 & \\ddots & \\vdots \\\\ & & 1 & \\ddots & 1 \\\\ & & & \\ddots & -1 \\\\ & & & & 1\\end{pmatrix}.$$\n求 $A$ 的 Jordan 标准型."
+          "stem": "设 $n$ 阶方阵 $$A=\\begin{pmatrix} 1 & -1 & 1 & \\cdots & (-1)^n\\\\ & 1 & -1 & \\ddots & \\vdots\\\\ & & 1 & \\ddots & 1\\\\ & & & \\ddots & -1\\\\ & & & & 1\\end{pmatrix},$$ 求 $A$ 的 Jordan 标准型。"
         },
         {
           "section": "二",
-          "section_instruction": "简答题.",
+          "section_instruction": "简答题",
           "no": "4",
           "score": 5,
-          "form": "综合",
+          "form": "判断",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "(5 分) 设 $A,B$ 是 $n$ 阶正定矩阵, 试问: $AB$ 是否必为正定矩阵? 若是, 请说明理由; 若否, 请给出反例."
+          "stem": "设 $A,B$ 是 $n$ 阶正定矩阵，试问：$AB$ 是否必为正定矩阵？若是，请说明理由；若否，请给出反例。"
         },
         {
           "section": "二",
-          "section_instruction": "简答题.",
+          "section_instruction": "简答题",
           "no": "5",
           "score": 5,
-          "form": "综合",
+          "form": "判断",
           "l1": "矩阵与线性方程组",
           "l2": "相似",
-          "stem": "(5 分) 设 $A,B$ 是 $n$ 阶实方阵, 且存在 $n$ 阶复可逆矩阵 $P$ 使得 $B=P^{-1}AP$, 试问: 是否存在 $n$ 阶实可逆矩阵 $Q$ 使得 $B=Q^{-1}AQ$? 若是, 请说明理由; 若否, 请给出反例."
+          "stem": "设 $A,B$ 是 $n$ 阶实方阵，且存在 $n$ 阶复可逆矩阵 $P$ 使得 $B=P^{-1}AP$，试问：是否存在 $n$ 阶实可逆矩阵 $Q$ 使得 $B=Q^{-1}AQ$？若是，请说明理由；若否，请给出反例。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "1",
           "score": 12,
           "form": "计算",
           "l1": "多项式",
           "l2": "互素与最大公因式",
-          "stem": "(12 分) 求多项式 $f(x)=x^3-1$ 和 $g(x)=x^5-1$ 的首一最大公因式 $d(x)$, 并求多项式 $u(x),v(x)$, 使得 $d(x)=u(x)f(x)+v(x)g(x)$."
+          "stem": "求多项式 $f(x)=x^3-1$ 和 $g(x)=x^5-1$ 的首一最大公因式 $d(x)$，并求多项式 $u(x),v(x)$，使得 $d(x)=u(x)f(x)+v(x)g(x)$。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "2",
           "score": 12,
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "(12 分) 用正交线性替换化二次型\n$$f(x_1,x_2,x_3)=x_1^2-2x_2^2-2x_3^2-4x_1x_2+4x_1x_3+8x_2x_3$$\n(注: 这里有不同版本, 有同学回忆最后两项为 $-4x_1x_3+8x_2x_3$ 或 $8x_1x_3+4x_2x_3$) 为标准型, 并写出所用的正交线性替换和所得的标准型."
+          "stem": "用正交线性替换化二次型 $$f(x_1,x_2,x_3)=x_1^2-2x_2^2-2x_3^2-4x_1x_2+4x_1x_3+8x_2x_3$$（注：这里有不同版本，有同学回忆最后两项为 $-4x_1x_3+8x_2x_3$ 或 $8x_1x_3+4x_2x_3$）为标准型，并写出所用的正交线性替换和所得的标准型。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "3",
           "score": 12,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "幂零矩阵",
-          "stem": "(12 分) 设 $A,B$ 是 $n$ 阶方阵, 满足 $AB=BA$. 证明: 若 $A$ 是可逆矩阵, $B$ 是幂零矩阵(即存在正整数 $k$ 使得 $B^k=O$), 则 $A+B$ 可逆."
+          "stem": "设 $A,B$ 是 $n$ 阶方阵，满足 $AB=BA$。证明：若 $A$ 是可逆矩阵，$B$ 是幂零矩阵（即存在正整数 $k$ 使得 $B^k=O$），则 $A+B$ 可逆。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "4",
           "score": 12,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "(12 分) 设 $\\eta$ 是非齐次线性方程组 $AX=\\beta$ 的一个特解, $\\xi_1,\\xi_2,\\cdots,\\xi_{n-r}$ 是相应齐次线性方程组 $AX=0$ 的一个基础解系. 证明:\n(1) 向量组 $\\eta,\\eta+\\xi_1,\\eta+\\xi_2,\\cdots,\\eta+\\xi_{n-r}$ 线性无关.\n(2) $\\gamma$ 是 $AX=\\beta$ 的一个解的充分必要条件是存在 $c_0,c_1,\\cdots,c_{n-r}\\in\\mathbb F$ 使得\n$$\\gamma=c_0\\eta+c_1(\\eta+\\xi_1)+c_2(\\eta+\\xi_2)+\\cdots+c_{n-r}(\\eta+\\xi_{n-r}),$$\n其中 $c_0+c_1+\\cdots+c_{n-r}=1$."
+          "stem": "设 $\\eta$ 是非齐次线性方程组 $AX=\\beta$ 的一个特解，$\\xi_1,\\xi_2,\\cdots,\\xi_{n-r}$ 是相应齐次线性方程组 $AX=0$ 的一个基础解系。证明：\n(1) 向量组 $\\eta,\\eta+\\xi_1,\\eta+\\xi_2,\\cdots,\\eta+\\xi_{n-r}$ 线性无关。\n(2) $\\gamma$ 是 $AX=\\beta$ 的一个解的充分必要条件是存在 $c_0,c_1,\\cdots,c_{n-r}\\in\\mathbb F$ 使得 $$\\gamma=c_0\\eta+c_1(\\eta+\\xi_1)+c_2(\\eta+\\xi_2)+\\cdots+c_{n-r}(\\eta+\\xi_{n-r}),$$ 其中 $c_0+c_1+\\cdots+c_{n-r}=1$。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "5",
           "score": 12,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "(12 分) 设 $A,B$ 是 $n$ 阶实对称矩阵, 证明: 存在正交矩阵 $Q$ 使得 $B=Q^{-1}AQ$ 的充分必要条件是 $A$ 与 $B$ 的特征多项式相同."
+          "stem": "设 $A,B$ 是 $n$ 阶实对称矩阵，证明：存在正交矩阵 $Q$ 使得 $B=Q^{-1}AQ$ 的充分必要条件是 $A$ 与 $B$ 的特征多项式相同。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "6",
           "score": 12,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "(12 分) 设 $A,B$ 是 $n$ 阶正定矩阵, 若 $\\det(xA-B)=0$ 的根全是 1, 证明: $A=B$."
+          "stem": "设 $A,B$ 是 $n$ 阶正定矩阵，若 $\\det(xA-B)=0$ 的根全是 $1$，证明：$A=B$。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "7",
           "score": 14,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "不变子空间",
-          "stem": "(14 分) 设 $V$ 是 $n$ 维线性空间, $\\varphi$ 是 $V$ 上的线性变换, 证明: 存在正整数 $m$, 使得\n$$V=\\mathrm{Ker}(\\varphi^m)\\oplus\\mathrm{Im}(\\varphi^m).$$\n且 $\\mathrm{Ker}(\\varphi^m),\\mathrm{Im}(\\varphi^m)$ 都是 $\\varphi$ 的不变子空间."
+          "stem": "设 $V$ 是 $n$ 维线性空间，$\\varphi$ 是 $V$ 上的线性变换，证明：存在正整数 $m$，使得 $$V=\\mathrm{Ker}(\\varphi^m)\\oplus\\mathrm{Im}(\\varphi^m),$$ 且 $\\mathrm{Ker}(\\varphi^m),\\mathrm{Im}(\\varphi^m)$ 都是 $\\varphi$ 的不变子空间。"
         },
         {
           "section": "三",
-          "section_instruction": "解答题.",
+          "section_instruction": "解答题",
           "no": "8",
           "score": 14,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "极小多项式",
-          "stem": "(14 分) 设 $V$ 是复数域上的 $n$ 维线性空间, $\\varphi$ 是 $V$ 上的线性变换, $f_\\varphi(\\lambda),m_\\varphi(\\lambda)$ 分别是 $\\varphi$ 的特征多项式和极小多项式. 证明:\n(1) 存在 $\\alpha\\in V$ 使得 $m_\\varphi(\\lambda)=m_{\\varphi,\\alpha}(\\lambda)$, 其中 $m_{\\varphi,\\alpha}(\\lambda)$ 是集合 $\\{f(\\lambda)\\in\\mathbb C[\\lambda]\\mid f(\\varphi)\\alpha=0\\}$ 中次数最小的首一多项式.\n(2) 设 $\\psi$ 是 $V$ 上的线性变换, 若 $f_\\varphi(\\lambda)=m_\\varphi(\\lambda)$, 则 $\\varphi\\psi=\\psi\\varphi\\Leftrightarrow$ 存在 $f(\\lambda)\\in\\mathbb C[\\lambda]$, 使得 $\\psi=f(\\varphi)$."
+          "stem": "设 $V$ 是复数域上的 $n$ 维线性空间，$\\varphi$ 是 $V$ 上的线性变换，$f_\\varphi(\\lambda), m_\\varphi(\\lambda)$ 分别是 $\\varphi$ 的特征多项式和极小多项式。证明：\n(1) 存在 $\\alpha\\in V$ 使得 $m_\\varphi(\\lambda)=m_{\\varphi,\\alpha}(\\lambda)$，其中 $m_{\\varphi,\\alpha}(\\lambda)$ 是集合 $\\{f(\\lambda)\\in\\mathbb C[\\lambda]\\mid f(\\varphi)\\alpha=0\\}$ 中次数最小的首一多项式。\n(2) 设 $\\psi$ 是 $V$ 上的线性变换，若 $f_\\varphi(\\lambda)=m_\\varphi(\\lambda)$，则 $\\varphi\\psi=\\psi\\varphi\\Leftrightarrow$ 存在 $f(\\lambda)\\in\\mathbb C[\\lambda]$，使得 $\\psi=f(\\varphi)$。"
         }
       ]
     }

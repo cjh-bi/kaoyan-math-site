@@ -6,7 +6,10 @@
       "year": "2021",
       "subject": "数学分析",
       "header_note": "39. 河海大学 2021 年硕士研究生入学考试数学分析试卷",
-      "source_imgs": ["work/imgs/2247504530-3_4.png"],
+      "source_imgs": [
+        "work/imgs/2247504530-3_4.png",
+        "work/imgs/2247504530-3_5.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -16,7 +19,7 @@
           "form": "判断",
           "l1": "极限与连续",
           "l2": "数列收敛性",
-          "stem": "设 $\\{a_n\\}$ 为实数列, 则 $\\{a_n\\}$ 收敛的充要条件是: 对任意的 $k\\in\\mathbb{N}^+$, 存在 $N\\in\\mathbb{N}^+$, 使得当 $n,m>N$ 时, 有 $|a_n-a_m|<\\dfrac{1}{k}$。"
+          "stem": "设 $\\{a_n\\}$ 为实数列，则 $\\{a_n\\}$ 收敛的充要条件是：对任意的 $k\\in\\mathbb{N}^+$，存在 $N\\in\\mathbb{N}^+$，使得当 $n,m>N$ 时，有 $|a_n-a_m|<\\dfrac{1}{k}$。"
         },
         {
           "section": "一",
@@ -26,7 +29,7 @@
           "form": "判断",
           "l1": "一元微分学",
           "l2": "导数计算",
-          "stem": "如果函数 $f(x)$ 在点 $x_0$ 处可导, 则 $|f(x)|$ 在 $x_0$ 处亦可导。"
+          "stem": "如果函数 $f(x)$ 在点 $x_0$ 处可导，则 $|f(x)|$ 在 $x_0$ 处亦可导。"
         },
         {
           "section": "一",
@@ -46,7 +49,7 @@
           "form": "判断",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "若级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 收敛, 且 $\\lim\\limits_{n\\to\\infty}\\dfrac{a_n}{b_n}=1$, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty}b_n$ 亦收敛。"
+          "stem": "若级数 $\\sum_{n=1}^{\\infty}a_n$ 收敛，且 $\\lim_{n\\to\\infty}\\dfrac{a_n}{b_n}=1$，则级数 $\\sum_{n=1}^{\\infty}b_n$ 亦收敛。"
         },
         {
           "section": "二",
@@ -56,7 +59,7 @@
           "form": "综合",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "写出命题“当 $x\\to x_0$ 时, 函数 $f(x)$ 的极限为有限数 $A$”的否命题的分析表述。"
+          "stem": "写出命题“当 $x\\to x_0$ 时，函数 $f(x)$ 的极限为有限数 $A$”的否命题的分析表述。"
         },
         {
           "section": "二",
@@ -66,7 +69,7 @@
           "form": "综合",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "叙述函数 $f(x)$ 在区间 $[a,b]$ 上的 Riemann 可积的定义, 并写出一个可积的充要条件。"
+          "stem": "叙述函数 $f(x)$ 在区间 $[a,b]$ 上的 Riemann 可积的定义，并写出一个可积的充要条件。"
         },
         {
           "section": "二",
@@ -76,7 +79,7 @@
           "form": "综合",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "叙述判定函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n(x)b_n(x)$ 在区间 $D$ 上一致收敛的 Dirichlet 判别法。"
+          "stem": "叙述判定函数项级数 $\\sum_{n=1}^{\\infty}a_n(x)b_n(x)$ 在区间 $D$ 上一致收敛的 Dirichlet 判别法。"
         },
         {
           "section": "二",
@@ -106,7 +109,7 @@
           "form": "计算",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "设 $f(x)=\\begin{cases}\\sqrt{4+x^2}, & x\\ge 0;\\\\[4pt] \\dfrac{1}{1+e^x}, & x<0.\\end{cases}$ 求积分 $\\displaystyle\\int_1^4 f(x-2)\\,\\mathrm{d}x$。"
+          "stem": "设 $f(x)=\\begin{cases}\\sqrt{4+x^2}, & x\\ge 0;\\\\[4pt] \\dfrac{1}{1+e^{x}}, & x<0,\\end{cases}$ 求积分 $\\displaystyle\\int_1^4 f(x-2)\\,\\mathrm{d}x$。"
         },
         {
           "section": "三",
@@ -116,7 +119,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}(x^2+y^2)^{\\frac{p}{2}}\\sin\\dfrac{1}{\\sqrt{x^2+y^2}}, & (x,y)\\neq(0,0);\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$$\n讨论 $p$ 在什么范围内, $f(x,y)$ 在 $(0,0)$ 处满足\n(1) 可微;\n(2) 偏导数连续。"
+          "stem": "设二元函数\n$$f(x,y)=\\begin{cases}(x^2+y^2)^{\\frac{p}{2}}\\sin\\dfrac{1}{\\sqrt{x^2+y^2}}, & (x,y)\\ne(0,0);\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$$\n讨论 $p$ 在什么范围内，$f(x,y)$ 在 $(0,0)$ 处满足\n(1) 可微；\n(2) 偏导数连续。"
         },
         {
           "section": "三",
@@ -126,7 +129,7 @@
           "form": "综合",
           "l1": "多元微分学",
           "l2": "条件极值",
-          "stem": "当 $x,y,z>0$ 时, 求函数 $f(x,y,z)=\\ln x+2\\ln y+3\\ln z$ 在球面 $x^2+y^2+z^2=6R^2$ 上的极大值, 其中 $R>0$ 为常数. 并由此证明不等式\n$$ab^2c^3\\le 108\\left(\\dfrac{a+b+c}{6}\\right)^6.$$\n其中 $a,b,c>0$。"
+          "stem": "当 $x,y,z>0$ 时，求函数 $f(x,y,z)=\\ln x+2\\ln y+3\\ln z$ 在球面 $x^2+y^2+z^2=6R^2$ 上的极大值，其中 $R>0$ 为常数。并由此证明不等式\n$$ab^2c^3\\le 108\\left(\\dfrac{a+b+c}{6}\\right)^6.$$\n其中 $a,b,c>0$。"
         },
         {
           "section": "三",
@@ -136,17 +139,87 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "二重积分",
-          "stem": "设函数 $z=z(x,y)$ 为满足方程 $F(x+az,y+bz)=0$ 的隐函数, 其中 $F$ 为连续可微函数, $a$, $b$ 为常数. 计算二重积分\n$$\\iint\\limits_{x^2+y^2\\le 1}\\left(a\\dfrac{\\partial z}{\\partial x}+b\\dfrac{\\partial z}{\\partial y}\\right)e^{x^2+y^2}\\,\\mathrm{d}x\\mathrm{d}y.$$"
+          "stem": "设函数 $z=z(x,y)$ 为满足方程 $F(x+az,y+bz)=0$ 的隐函数，其中 $F$ 为连续可微函数，$a$，$b$ 为常数。计算二重积分\n$$\\iint_{x^2+y^2\\le 1}\\left(a\\dfrac{\\partial z}{\\partial x}+b\\dfrac{\\partial z}{\\partial y}\\right)e^{x^2+y^2}\\,\\mathrm{d}x\\,\\mathrm{d}y.$$"
         },
         {
           "section": "四",
-          "section_instruction": "(15 分) 设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$, $n=0,1,2,\\cdots$.",
+          "section_instruction": "(15 分) 设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$，$n=0,1,2,\\cdots$.",
           "no": "1",
           "score": null,
           "form": "计算",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$, $n=0,1,2,\\cdots$. 求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{n}{2}(a_{n-2}+a_n)$;"
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$，$n=0,1,2,\\cdots$。求极限 $\\lim_{n\\to\\infty}\\dfrac{n}{2}(a_{n-2}+a_n)$。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "(15 分) 设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$，$n=0,1,2,\\cdots$.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "设 $a_n=\\displaystyle\\int_0^{\\frac{\\pi}{4}}\\tan^n x\\,\\mathrm{d}x$，$n=0,1,2,\\cdots$。求幂级数 $\\sum_{n=0}^{\\infty}a_n x^n$ 的收敛域。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分) 设 $b>a>0$.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $b>a>0$。证明含参量反常积分 $\\displaystyle\\int_0^{+\\infty}e^{-x}\\sin xy\\,\\mathrm{d}x$ 关于 $y\\in[a,b]$ 一致收敛。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "(15 分) 设 $b>a>0$.",
+          "no": "2",
+          "score": null,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "设 $b>a>0$。求积分 $\\displaystyle\\int_0^{+\\infty}e^{-x}\\dfrac{\\cos ax-\\cos bx}{x}\\,\\mathrm{d}x$ 的值。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分) 解答如下问题:",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "设数列 $\\{a_n\\}$ 满足压缩性条件，即存在常数 $k\\in(0,1)$，使得\n$$|a_{n+1}-a_n|\\le k|a_n-a_{n-1}|\\quad(n=2,3,\\cdots).$$\n证明：$\\{a_n\\}$ 收敛。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(15 分) 解答如下问题:",
+          "no": "2",
+          "score": null,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "递推数列",
+          "stem": "设 $a_{n+1}=\\dfrac{3(1+a_n)}{3+a_n}$ $(n=1,2,\\cdots)$，且 $a_1>0$，证明 $\\{a_n\\}$ 收敛，并求其极限。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分) 设函数 $f(x)$ 在 $[0,1]$ 上连续可导，在 $x=0$ 处有任意阶导数，且对任意的 $n\\ge 0$ 都有 $f^{(n)}(0)=0$.",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上连续可导，在 $x=0$ 处有任意阶导数，且对任意的 $n\\ge 0$ 都有 $f^{(n)}(0)=0$。证明 $\\lim_{x\\to 0^+}\\dfrac{f(x)}{x^n}=0$，$n\\in\\mathbb{N}^+$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(15 分) 设函数 $f(x)$ 在 $[0,1]$ 上连续可导，在 $x=0$ 处有任意阶导数，且对任意的 $n\\ge 0$ 都有 $f^{(n)}(0)=0$.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[0,1]$ 上连续可导，在 $x=0$ 处有任意阶导数，且对任意的 $n\\ge 0$ 都有 $f^{(n)}(0)=0$。进一步假设存在常数 $A>0$，使得对任意的 $x\\in[0,1]$ 都有 $|xf'(x)|\\le A|f(x)|$，证明 $f(x)\\equiv 0$，$x\\in[0,1]$。"
         }
       ]
     },
@@ -155,7 +228,10 @@
       "year": "2021",
       "subject": "高等代数",
       "header_note": "40. 河海大学 2021 年硕士研究生入学考试高等代数试卷",
-      "source_imgs": ["work/imgs/2247504530-3_6.png", "work/imgs/2247504530-3_7.png"],
+      "source_imgs": [
+        "work/imgs/2247504530-3_6.png",
+        "work/imgs/2247504530-3_7.png"
+      ],
       "questions": [
         {
           "section": "一",
@@ -165,7 +241,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "已知三阶方阵 $A$ 满足 $|A-E|=|A-2E|=|A+E|=0$, 求 $|A+3E|$ 的值."
+          "stem": "已知三阶方阵 $A$ 满足 $|A-E|=|A-2E|=|A+E|=0$，求 $|A+3E|$ 的值。"
         },
         {
           "section": "一",
@@ -175,7 +251,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设矩阵 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$, 其中 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 为 4 维列向量, 且 $\\alpha_2,\\alpha_3,\\alpha_4$ 线性无关, $\\alpha_1=2\\alpha_2-\\alpha_3$, 向量 $b=\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4$, 求线性方程组 $AX=b$ 的通解."
+          "stem": "设矩阵 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4)$，其中 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 为 4 维列向量，且 $\\alpha_2,\\alpha_3,\\alpha_4$ 线性无关，$\\alpha_1=2\\alpha_2-\\alpha_3$，向量 $b=\\alpha_1+\\alpha_2+\\alpha_3+\\alpha_4$，求线性方程组 $AX=b$ 的通解。"
         },
         {
           "section": "二",
@@ -185,7 +261,7 @@
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "对称变换",
-          "stem": "已知 $V$ 是实数域 $\\mathbb{R}$ 上的欧氏空间, $\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 是 $V$ 的一组标准正交基, 若 $V$ 上对称变换 $\\mathscr{A}$ 的特征值为 $\\lambda_1=1$ (二重), $\\lambda_2=-1$ (二重), 且属于特征值 $\\lambda_1$ 的特性向量为 $\\alpha_1=\\eta_1+\\eta_2$, $\\alpha_2=\\eta_1+\\eta_2+\\eta_4$, 求 $\\mathscr{A}$ 在基 $\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 下的矩阵."
+          "stem": "已知 $V$ 是实数域 $\\mathbb{R}$ 上的欧氏空间，$\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 是 $V$ 的一组标准正交基，若 $V$ 上对称变换 $\\mathscr{A}$ 的特征值为 $\\lambda_1=1$（二重），$\\lambda_2=-1$（二重），且属于特征值 $\\lambda_1$ 的特性向量为 $\\alpha_1=\\eta_1+\\eta_2$，$\\alpha_2=\\eta_1+\\eta_2+\\eta_4$，求 $\\mathscr{A}$ 在基 $\\eta_1,\\eta_2,\\eta_3,\\eta_4$ 下的矩阵。"
         },
         {
           "section": "二",
@@ -195,7 +271,7 @@
           "form": "综合",
           "l1": "多项式",
           "l2": "整除",
-          "stem": "已知实数域 $\\mathbb{R}$ 上的多项式 $f(x)$ 满足等式 $(x-1)f(x+1)=(x+2)f(x)$.\n(1) 证明: $x(x-1)(x+1)\\mid f(x)$;\n(2) 求满足已知等式的所有非零实系数多项式 $f(x)$."
+          "stem": "已知实数域 $\\mathbb{R}$ 上的多项式 $f(x)$ 满足等式 $(x-1)f(x+1)=(x+2)f(x)$。\n(1) 证明：$x(x-1)(x+1)\\mid f(x)$；\n(2) 求满足已知等式的所有非零实系数多项式 $f(x)$。"
         },
         {
           "section": "三",
@@ -205,7 +281,7 @@
           "form": "计算",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "设矩阵\n$$A=\\begin{pmatrix}3 & 0 & 8 & 0\\\\ 3 & -1 & 6 & 0\\\\ -2 & 0 & -5 & 0\\\\ 0 & 0 & 0 & 2\\end{pmatrix}.$$\n求 $A$ 的 Jordan 标准型 $J$, 并求可逆矩阵 $P$, 使得 $P^{-1}AP=J$."
+          "stem": "设矩阵\n$$A=\\begin{pmatrix}3 & 0 & 8 & 0\\\\ 3 & -1 & 6 & 0\\\\ -2 & 0 & -5 & 0\\\\ 0 & 0 & 0 & 2\\end{pmatrix}.$$\n求 $A$ 的 Jordan 标准型 $J$，并求可逆矩阵 $P$，使得 $P^{-1}AP=J$。"
         },
         {
           "section": "三",
@@ -215,7 +291,7 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "设 $n$ 阶矩阵\n$$A=\\begin{pmatrix}1 & 1 & 1 & \\cdots & 1\\\\ 0 & 1 & 1 & \\cdots & 1\\\\ 0 & 0 & 1 & \\cdots & 1\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 1\\end{pmatrix}.$$\n记 $A^*$ 为 $A$ 的伴随矩阵, $A_{ij}$ 是 $|A|$ 中第 $i$ 行第 $j$ 列的代数余子式.\n(1) 求逆矩阵 $A^{-1}$;\n(2) 求 $(A^*)^*$;\n(3) 证明: $\\displaystyle\\sum_{i=1}^{n}\\sum_{j=1}^{n}A_{ij}=1$."
+          "stem": "设 $n$ 阶矩阵\n$$A=\\begin{pmatrix}1 & 1 & 1 & \\cdots & 1\\\\ 0 & 1 & 1 & \\cdots & 1\\\\ 0 & 0 & 1 & \\cdots & 1\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 1\\end{pmatrix}.$$\n记 $A^*$ 为 $A$ 的伴随矩阵，$A_{ij}$ 是 $|A|$ 中第 $i$ 行第 $j$ 列的代数余子式。\n(1) 求逆矩阵 $A^{-1}$；\n(2) 求 $(A^*)^*$；\n(3) 证明：$\\sum_{i=1}^{n}\\sum_{j=1}^{n}A_{ij}=1$。"
         },
         {
           "section": "四",
@@ -224,8 +300,8 @@
           "score": 10,
           "form": "证明",
           "l1": "矩阵与线性方程组",
-          "l2": "秩",
-          "stem": "给定两个 $n$ 元线性方程组 (I): $AX=0$, (II): $BX=0$.\n(1) 证明 (I) 与 (II) 有非零公共解的充要条件是 $r\\begin{pmatrix}A\\\\ B\\end{pmatrix}<n$.\n(2) 设 $\\eta_1,\\eta_2,\\cdots,\\eta_s$ 是方程组 (II) 的基础解系, 其中 $s=n-r(B)$, 则 (I) 与 (II) 有非零公共解的充要条件是 $A\\eta_1,A\\eta_2,\\cdots,A\\eta_s$ 线性相关."
+          "l2": "线性方程组",
+          "stem": "给定两个 $n$ 元线性方程组 (I): $AX=0$，(II): $BX=0$。\n(1) 证明 (I) 与 (II) 有非零公共解的充要条件是 $r\\begin{pmatrix}A\\\\ B\\end{pmatrix}<n$；\n(2) 设 $\\eta_1,\\eta_2,\\cdots,\\eta_s$ 是方程组 (II) 的基础解系，其中 $s=n-r(B)$，则 (I) 与 (II) 有非零公共解的充要条件是 $A\\eta_1,A\\eta_2,\\cdots,A\\eta_s$ 线性相关。"
         },
         {
           "section": "四",
@@ -235,7 +311,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "设 $A$ 为非零实方阵, 若 $A^T=A^*$, 其中 $A^T$, $A^*$ 分别为 $A$ 的转置和伴随矩阵.\n(1) 证明 $A$ 可逆;\n(2) 若 $\\lambda$ 是 $A$ 的特征值, 则 $|A|=|\\lambda|^2$, 其中 $|\\lambda|$ 表示 $\\lambda$ 的模长."
+          "stem": "设 $A$ 为非零实方阵，若 $A^T=A^*$，其中 $A^T$，$A^*$ 分别为 $A$ 的转置和伴随矩阵。\n(1) 证明 $A$ 可逆；\n(2) 若 $\\lambda$ 是 $A$ 的特征值，则 $|A|=|\\lambda|^2$，其中 $|\\lambda|$ 表示 $\\lambda$ 的模长。"
         },
         {
           "section": "四",
@@ -245,7 +321,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "解答如下问题:\n(1) 设 $\\eta_1,\\eta_2,\\cdots,\\eta_s$ 是 $n$ 元实系数线性方程组 $AX=0$ 的基础解系, 其中 $s=n-r(A)$. 将 $\\eta_1,\\eta_2,\\cdots,\\eta_s$ 扩为 $\\mathbb{R}^n$ 的一组基, 记为 $\\eta_1,\\cdots,\\eta_s,\\eta_{s+1},\\cdots,\\eta_n$, 证明 $A\\eta_{s+1},A\\eta_{s+2},\\cdots,A\\eta_n$ 线性无关.\n(2) 设 $A$, $B$ 分别是实数域 $\\mathbb{R}$ 上的 $p\\times n$ 与 $n\\times m$ 矩阵, 令\n$$V=\\{X\\in\\mathbb{R}^m\\mid ABX=0\\},\\quad W=\\{Y\\mid Y=BX,\\ X\\in V\\}.$$\n证明 $W$ 是 $\\mathbb{R}^n$ 的子空间, 且 $\\dim W=r(B)-r(AB)$."
+          "stem": "解答如下问题：\n(1) 设 $\\eta_1,\\eta_2,\\cdots,\\eta_s$ 是 $n$ 元实系数线性方程组 $AX=0$ 的基础解系，其中 $s=n-r(A)$。将 $\\eta_1,\\eta_2,\\cdots,\\eta_s$ 扩为 $\\mathbb{R}^n$ 的一组基，记为 $\\eta_1,\\cdots,\\eta_s,\\eta_{s+1},\\cdots,\\eta_n$，证明 $A\\eta_{s+1},A\\eta_{s+2},\\cdots,A\\eta_n$ 线性无关；\n(2) 设 $A$，$B$ 分别是实数域 $\\mathbb{R}$ 上的 $p\\times n$ 与 $n\\times m$ 矩阵，令\n$$V=\\{X\\in\\mathbb{R}^m\\mid ABX=0\\},\\quad W=\\{Y\\mid Y=BX,\\ X\\in V\\}.$$\n证明 $W$ 是 $\\mathbb{R}^n$ 的子空间，且 $\\dim W=r(B)-r(AB)$。"
         },
         {
           "section": "四",
@@ -255,7 +331,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "伴随变换",
-          "stem": "设 $V$ 是 $n$ 维欧氏空间, $\\mathscr{A}$ 是 $V$ 上的线性变换, 若 $V$ 上一个变换 $\\mathscr{B}$ 满足\n$$(\\mathscr{A}(\\alpha),\\beta)=(\\alpha,\\mathscr{B}(\\beta)),\\ \\forall\\alpha,\\beta\\in V.$$\n证明\n(1) $\\mathscr{B}$ 也是 $V$ 上的线性变换;\n(2) $\\mathrm{Im}\\,\\mathscr{B}=(\\mathrm{Ker}\\,\\mathscr{A})^{\\perp}$, 其中 $\\mathrm{Im}\\,\\mathscr{B}=\\{\\mathscr{B}(\\alpha)\\mid\\alpha\\in V\\}$, $\\mathrm{Ker}\\,\\mathscr{A}=\\{\\alpha\\in V\\mid\\mathscr{A}(\\alpha)=0\\}$."
+          "stem": "设 $V$ 是 $n$ 维欧氏空间，$\\mathscr{A}$ 是 $V$ 上的线性变换，若 $V$ 上一个变换 $\\mathscr{B}$ 满足\n$$(\\mathscr{A}(\\alpha),\\beta)=(\\alpha,\\mathscr{B}(\\beta)),\\ \\forall\\alpha,\\beta\\in V.$$\n证明\n(1) $\\mathscr{B}$ 也是 $V$ 上的线性变换；\n(2) $\\mathrm{Im}\\,\\mathscr{B}=(\\mathrm{Ker}\\,\\mathscr{A})^{\\perp}$，其中 $\\mathrm{Im}\\,\\mathscr{B}=\\{\\mathscr{B}(\\alpha)\\mid\\alpha\\in V\\}$，$\\mathrm{Ker}\\,\\mathscr{A}=\\{\\alpha\\in V\\mid\\mathscr{A}(\\alpha)=0\\}$。"
         },
         {
           "section": "五",
@@ -264,8 +340,8 @@
           "score": 20,
           "form": "综合",
           "l1": "线性空间与线性变换",
-          "l2": "可对角化",
-          "stem": "设 $\\alpha$, $\\beta$ 是实数域 $\\mathbb{R}$ 上的两个不同的 $n$ ($n>1$) 维单位列向量, 矩阵 $A=\\alpha\\beta^T$, 其中 $\\beta^T$ 表示 $\\beta$ 的转置.\n(1) 证明: 与 $\\beta$ 正交的非零列向量是矩阵 $A$ 对应于特征值 $0$ 的特征向量;\n(2) 证明: $\\alpha$ 是矩阵 $A$ 对应于特征值 $\\alpha^T\\beta$ 的特征向量;\n(3) 证明: $A$ 可对角化的充要条件是 $\\alpha$ 与 $\\beta$ 不正交;\n(4) 若 $a_1,a_2,\\cdots,a_n$ 和 $\\mu$ 是 $n+1$ 个实数, 计算行列式\n$$D_n=\\begin{vmatrix}a_1^2-\\mu & a_1a_2 & \\cdots & a_1a_n\\\\ a_2a_1 & a_2^2-\\mu & \\cdots & a_2a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_na_1 & a_na_2 & \\cdots & a_n^2-\\mu\\end{vmatrix}.$$"
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\alpha$，$\\beta$ 是实数域 $\\mathbb{R}$ 上的两个不同的 $n$（$n>1$）维单位列向量，矩阵 $A=\\alpha\\beta^T$，其中 $\\beta^T$ 表示 $\\beta$ 的转置。\n(1) 证明：与 $\\beta$ 正交的非零列向量是矩阵 $A$ 对应于特征值 $0$ 的特征向量；\n(2) 证明：$\\alpha$ 是矩阵 $A$ 对应于特征值 $\\alpha^T\\beta$ 的特征向量；\n(3) 证明：$A$ 可对角化的充要条件是 $\\alpha$ 与 $\\beta$ 不正交；\n(4) 若 $a_1,a_2,\\cdots,a_n$ 和 $\\mu$ 是 $n+1$ 个实数，计算行列式\n$$D_n=\\begin{vmatrix}a_1^2-\\mu & a_1a_2 & \\cdots & a_1a_n\\\\ a_2a_1 & a_2^2-\\mu & \\cdots & a_2a_n\\\\ \\vdots & \\vdots & & \\vdots\\\\ a_na_1 & a_na_2 & \\cdots & a_n^2-\\mu\\end{vmatrix}.$$"
         },
         {
           "section": "五",
@@ -275,27 +351,27 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设 $W_1$, $W_2$, $W_3$ 是数域 $K$ 上 $n$ 维线性空间 $V$ 的三个线性子空间, $\\dim W_1=s$, $\\dim W_2=t$, 若 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 是 $W_1\\cap W_2$ 的一组基, 其中 $r<\\min\\{s,t\\}$, 将其分别扩充为 $W_1$, $W_2$ 的一组基, 设 $\\alpha_1,\\cdots,\\alpha_r,\\beta_1,\\cdots,\\beta_{s-r}$ 为 $W_1$ 的一组基, $\\alpha_1,\\cdots,\\alpha_r,\\gamma_1,\\cdots,\\gamma_{t-r}$ 为 $W_2$ 的一组基.\n(1) 证明 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r,\\beta_1,\\beta_2,\\cdots,\\beta_{s-r},\\gamma_1,\\gamma_2,\\cdots,\\gamma_{t-r}$ 线性无关;\n(2) 证明: $\\dim(W_1+W_2)=\\dim W_1+\\dim W_2-\\dim(W_1\\cap W_2)$;\n(3) 令\n$$d_k=\\dim((W_i+W_j)\\cap W_k)+\\dim(W_i\\cap W_j).$$\n其中 $ijk$ 为 $123$ 的一个排列, 证明: $d_1=d_2=d_3$."
+          "stem": "设 $W_1$，$W_2$，$W_3$ 是数域 $K$ 上 $n$ 维线性空间 $V$ 的三个线性子空间，$\\dim W_1=s$，$\\dim W_2=t$，若 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r$ 是 $W_1\\cap W_2$ 的一组基，其中 $r<\\min\\{s,t\\}$，将其分别扩充为 $W_1$，$W_2$ 的一组基，设 $\\alpha_1,\\cdots,\\alpha_r,\\beta_1,\\cdots,\\beta_{s-r}$ 为 $W_1$ 的一组基，$\\alpha_1,\\cdots,\\alpha_r,\\gamma_1,\\cdots,\\gamma_{t-r}$ 为 $W_2$ 的一组基。\n(1) 证明 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_r,\\beta_1,\\beta_2,\\cdots,\\beta_{s-r},\\gamma_1,\\gamma_2,\\cdots,\\gamma_{t-r}$ 线性无关；\n(2) 证明：$\\dim(W_1+W_2)=\\dim W_1+\\dim W_2-\\dim(W_1\\cap W_2)$；\n(3) 令\n$$d_k=\\dim((W_i+W_j)\\cap W_k)+\\dim(W_i\\cap W_j).$$\n其中 $ijk$ 为 123 的一个排列，证明：$d_1=d_2=d_3$。"
         },
         {
           "section": "六",
-          "section_instruction": "(10 分) 设 $A$ 是 $n$ 阶实对称矩阵, $\\mathbb{R}$ 为实数域, 若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$, 使得 $\\alpha_1^TA\\alpha_1>0$, $\\alpha_2^TA\\alpha_2<0$, 证明:",
+          "section_instruction": "(10 分) 设 $A$ 是 $n$ 阶实对称矩阵，$\\mathbb{R}$ 为实数域，若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$，使得 $\\alpha_1^T A\\alpha_1>0$，$\\alpha_2^T A\\alpha_2<0$，证明:",
           "no": "1",
           "score": 5,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "设 $A$ 是 $n$ 阶实对称矩阵, $\\mathbb{R}$ 为实数域, 若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$, 使得 $\\alpha_1^TA\\alpha_1>0$, $\\alpha_2^TA\\alpha_2<0$. 证明: $\\alpha_1$, $\\alpha_2$ 线性无关;"
+          "stem": "设 $A$ 是 $n$ 阶实对称矩阵，$\\mathbb{R}$ 为实数域，若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$，使得 $\\alpha_1^T A\\alpha_1>0$，$\\alpha_2^T A\\alpha_2<0$。证明：$\\alpha_1$，$\\alpha_2$ 线性无关。"
         },
         {
           "section": "六",
-          "section_instruction": "(10 分) 设 $A$ 是 $n$ 阶实对称矩阵, $\\mathbb{R}$ 为实数域, 若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$, 使得 $\\alpha_1^TA\\alpha_1>0$, $\\alpha_2^TA\\alpha_2<0$, 证明:",
+          "section_instruction": "(10 分) 设 $A$ 是 $n$ 阶实对称矩阵，$\\mathbb{R}$ 为实数域，若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$，使得 $\\alpha_1^T A\\alpha_1>0$，$\\alpha_2^T A\\alpha_2<0$，证明:",
           "no": "2",
           "score": 5,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "设 $A$ 是 $n$ 阶实对称矩阵, $\\mathbb{R}$ 为实数域, 若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$, 使得 $\\alpha_1^TA\\alpha_1>0$, $\\alpha_2^TA\\alpha_2<0$. 证明: 设 $V=L(\\alpha_1,\\alpha_2)$ 表示 $\\alpha_1,\\alpha_2$ 生成的线性子空间, 则存在非零列向量 $\\alpha\\in V$, 使得 $\\alpha^TA\\alpha=0$."
+          "stem": "设 $A$ 是 $n$ 阶实对称矩阵，$\\mathbb{R}$ 为实数域，若存在向量 $\\alpha_1,\\alpha_2\\in\\mathbb{R}^n$，使得 $\\alpha_1^T A\\alpha_1>0$，$\\alpha_2^T A\\alpha_2<0$。设 $V=L(\\alpha_1,\\alpha_2)$ 表示 $\\alpha_1,\\alpha_2$ 生成的线性子空间，证明：存在非零列向量 $\\alpha\\in V$，使得 $\\alpha^T A\\alpha=0$。"
         }
       ]
     }

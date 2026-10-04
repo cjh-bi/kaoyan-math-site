@@ -10,7 +10,7 @@
       "questions": [
         {
           "section": "一",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
@@ -20,17 +20,17 @@
         },
         {
           "section": "二",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "一元积分学",
           "l2": "变限积分",
-          "stem": "设函数 $f(x)$ 在区间 $[a,b]$ 上连续，由积分中值定理有 $\\int_a^x f(t)\\,\\mathrm{d}t=f(\\xi)(x-a)$ $(a\\le\\xi\\le x\\le b)$，若导数 $f'_+(a)$ 存在且非零，求 $\\lim\\limits_{x\\to a^+}\\dfrac{\\xi-a}{x-a}$。"
+          "stem": "设函数 $f(x)$ 在区间 $[a,b]$ 上连续，由积分中值定理有 $\\int_a^x f(t)\\,\\mathrm{d}t=f(\\xi)(x-a)$（$a\\le \\xi\\le x\\le b$），若导数 $f'_+(a)$ 存在且非零，求 $\\lim\\limits_{x\\to a^+}\\dfrac{\\xi-a}{x-a}$。"
         },
         {
           "section": "三",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
@@ -40,7 +40,7 @@
         },
         {
           "section": "四",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
@@ -50,17 +50,17 @@
         },
         {
           "section": "五",
-          "section_instruction": "",
+          "section_instruction": "（15 分）解答如下问题.",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "一元积分学",
           "l2": "积分不等式",
-          "stem": "解答如下问题。\n(1) 证明施瓦茨积分不等式：\n$$\\left(\\int_a^b f(x)g(x)\\,\\mathrm{d}x\\right)^2\\le\\int_a^b f^2(x)\\,\\mathrm{d}x\\int_a^b g^2(x)\\,\\mathrm{d}x.$$\n其中 $f,g$ 在 $[a,b]$ 上可积。\n(2) 利用施瓦茨不等式证明：\n$$\\left(\\int_a^b f(x)\\cos kx\\,\\mathrm{d}x\\right)^2+\\left(\\int_a^b f(x)\\sin kx\\,\\mathrm{d}x\\right)^2\\le1.$$\n其中 $f(x)$ 为区间 $[a,b]$ 上的非负连续函数，且 $\\int_a^b f(x)\\,\\mathrm{d}x=1$，实数 $k\\ne0$。"
+          "stem": "解答如下问题。\n(1) 证明施瓦茨积分不等式：\n$$\\left(\\int_a^b f(x)g(x)\\,\\mathrm{d}x\\right)^2\\le \\int_a^b f^2(x)\\,\\mathrm{d}x\\int_a^b g^2(x)\\,\\mathrm{d}x.$$\n其中 $f,g$ 在 $[a,b]$ 上可积。\n(2) 利用施瓦茨不等式证明：\n$$\\left(\\int_a^b f(x)\\cos kx\\,\\mathrm{d}x\\right)^2+\\left(\\int_a^b f(x)\\sin kx\\,\\mathrm{d}x\\right)^2\\le 1.$$\n其中 $f(x)$ 为区间 $[a,b]$ 上的非负连续函数，且 $\\int_a^b f(x)\\,\\mathrm{d}x=1$，实数 $k\\neq 0$。"
         },
         {
           "section": "六",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
@@ -70,7 +70,7 @@
         },
         {
           "section": "七",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "综合",
@@ -80,7 +80,7 @@
         },
         {
           "section": "八",
-          "section_instruction": "",
+          "section_instruction": "（15 分）设",
           "no": "1",
           "score": 15,
           "form": "综合",
@@ -90,23 +90,23 @@
         },
         {
           "section": "九",
-          "section_instruction": "",
+          "section_instruction": "（15 分）计算积分",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算积分\n$$\\iint_S (y-z)\\,\\mathrm{d}y\\mathrm{d}z+(z-x)\\,\\mathrm{d}z\\mathrm{d}x+(x-y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为圆锥面 $z=\\sqrt{x^2+y^2}$，$z\\le h$ $(h>0)$，并取曲面的外侧。"
+          "stem": "计算积分\n$$\\iint_S (y-z)\\,\\mathrm{d}y\\mathrm{d}z+(z-x)\\,\\mathrm{d}z\\mathrm{d}x+(x-y)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为圆锥面 $z=\\sqrt{x^2+y^2}$，$z\\le h$（$h>0$），并取曲面的外侧。"
         },
         {
           "section": "十",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "二重积分",
-          "stem": "设 $f(x,y)$ 在 $[0,\\pi]\\times[0,\\pi]$ 上连续并恒取正值。试求\n$$\\lim_{n\\to\\infty}\\ \\iint\\limits_{\\substack{0\\le x\\le\\pi\\\\ 0\\le y\\le\\pi}} (\\sin x)\\,(f(x,y))^{\\frac{1}{n}}\\,\\mathrm{d}\\sigma.$$"
+          "stem": "设 $f(x,y)$ 在 $[0,\\pi]\\times[0,\\pi]$ 上连续并恒取正值。试求\n$$\\lim_{n\\to\\infty}\\ \\iint_{\\substack{0\\le x\\le\\pi\\\\ 0\\le y\\le\\pi}} (\\sin x)\\bigl(f(x,y)\\bigr)^{\\frac{1}{n}}\\,\\mathrm{d}\\sigma.$$"
         }
       ]
     },
@@ -115,31 +115,31 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "54. 湖南大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516269-4_5.png"],
+      "source_imgs": ["work/imgs/2247516269-4_5.png", "work/imgs/2247516269-4_6.png"],
       "questions": [
         {
           "section": "一",
-          "section_instruction": "",
+          "section_instruction": "（10 分）计算行列式",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算行列式\n$$D_n=\\begin{vmatrix}1 & 1 & 1 & \\cdots & 1\\\\ 1 & 2 & 3 & \\cdots & n\\\\ 1 & 2^2 & 3^2 & \\cdots & n^2\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 1 & 2^{n-2} & 3^{n-2} & \\cdots & n^{n-2}\\\\ 1 & 2^n & 3^n & \\cdots & n^n\\end{vmatrix}.$$"
+          "stem": "计算行列式\n$$D_n=\\begin{vmatrix} 1 & 1 & 1 & \\cdots & 1\\\\ 1 & 2 & 3 & \\cdots & n\\\\ 1 & 2^2 & 3^2 & \\cdots & n^2\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ 1 & 2^{n-2} & 3^{n-2} & \\cdots & n^{n-2}\\\\ 1 & 2^n & 3^n & \\cdots & n^n \\end{vmatrix}.$$"
         },
         {
           "section": "二",
-          "section_instruction": "",
+          "section_instruction": "（20 分）",
           "no": "1",
           "score": 20,
-          "form": "计算",
+          "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
           "stem": "当 $\\lambda$ 取何值时下述方程组有唯一解，无穷解，无解？\n$$\\begin{cases}\\lambda x_1+x_2+x_3+x_4=1;\\\\ x_1+\\lambda x_2+x_3+x_4=1;\\\\ x_1+x_2+\\lambda x_3+x_4=1;\\\\ x_1+x_2+x_3+\\lambda x_4=1.\\end{cases}$$"
         },
         {
           "section": "三",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "综合",
@@ -149,7 +149,7 @@
         },
         {
           "section": "四",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
@@ -159,33 +159,43 @@
         },
         {
           "section": "五",
-          "section_instruction": "",
+          "section_instruction": "（40 分）",
           "no": "1",
           "score": 40,
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $K[x]_n=\\{f(x)\\in K[x]\\mid \\deg(f(x))<n\\}\\cup\\{0\\}$ 为数域 $K$ 上次数小于 $n$ 的多项式全体构成的线性空间，定义 $K[x]_n$ 上的线性变换 $\\mathscr{A}$ 如下：$\\forall f(x)\\in K[x]$，有\n$$\\mathscr{A}(f(x))=f(x)+f'(x)+\\frac{f^{(2)}(x)}{2!}+\\cdots+\\frac{f^{(n-1)}(x)}{(n-1)!}.$$\n其中 $f^{(k)}(x)$ 表示多项式 $f(x)$ 的 $k$ 阶导数。\n(1) 写出线性变换 $\\mathscr{A}$ 在 $K[x]_n$ 的基 $\\varepsilon_0=1,\\varepsilon_1=x,\\varepsilon_2=x^2,\\cdots,\\varepsilon_{n-1}=x^{n-1}$ 下的矩阵 $A$。\n(2) 证明：$\\eta_0=1,\\eta_1=x-1,\\eta_2=(x-1)^2,\\cdots,\\eta_{n-1}=(x-1)^{n-1}$ 是 $K[x]_n$ 的一组基。\n(3) 求过渡矩阵 $B$，满足 $(\\eta_0,\\eta_1,\\cdots,\\eta_{n-1})=(\\varepsilon_0,\\varepsilon_1,\\cdots,\\varepsilon_{n-1})B$。\n(4) 证明：线性变换 $\\mathscr{A}$ 是双射，且 $\\mathscr{A}^{-1}(f(x))=f(x)-f'(x)+\\dfrac{f^{(2)}(x)}{2!}+\\cdots+(-1)^{n-1}\\dfrac{f^{(n-1)}(x)}{(n-1)!}$。\n(5) 判断线性变换 $\\mathscr{A}$ 是否可对角化，并给出理由。"
+          "stem": "设 $K[x]_n=\\{f(x)\\in K[x]\\mid \\deg(f(x))<n\\}\\cup\\{0\\}$ 为数域 $K$ 上次数小于 $n$ 的多项式全体构成的线性空间，定义 $K[x]_n$ 上的线性变换 $\\mathscr{A}$ 如下：$\\forall f(x)\\in K[x]$，有\n$$\\mathscr{A}(f(x))=f(x)+f'(x)+\\dfrac{f^{(2)}(x)}{2!}+\\cdots+\\dfrac{f^{(n-1)}(x)}{(n-1)!}.$$\n其中 $f^{(k)}(x)$ 表示多项式 $f(x)$ 的 $k$ 阶导数。\n(1) 写出线性变换 $\\mathscr{A}$ 在 $K[x]_n$ 的基 $\\varepsilon_0=1,\\varepsilon_1=x,\\varepsilon_2=x^2,\\cdots,\\varepsilon_{n-1}=x^{n-1}$ 下的矩阵 $A$.\n(2) 证明：$\\eta_0=1,\\eta_1=x-1,\\eta_2=(x-1)^2,\\cdots,\\eta_{n-1}=(x-1)^{n-1}$ 是 $K[x]_n$ 的一组基.\n(3) 求过渡矩阵 $B$，满足 $(\\eta_0,\\eta_1,\\cdots,\\eta_{n-1})=(\\varepsilon_0,\\varepsilon_1,\\cdots,\\varepsilon_{n-1})B$.\n(4) 证明：线性变换 $\\mathscr{A}$ 是双射，且 $\\mathscr{A}^{-1}(f(x))=f(x)-f'(x)+\\dfrac{f^{(2)}(x)}{2!}+\\cdots+(-1)^{n-1}\\dfrac{f^{(n-1)}(x)}{(n-1)!}$.\n(5) 判断线性变换 $\\mathscr{A}$ 是否可对角化，并给出理由。"
         },
         {
           "section": "六",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "实对称矩阵",
-          "stem": "设 $A=(a_{ij})_{3\\times3}$ 是一个 $3$ 阶实对称矩阵，若 $A$ 的迹 $\\mathrm{tr}(A)=a_{11}+a_{22}+a_{33}=0$，且向量 $\\alpha_1=(1,1,1)^T$ 与 $\\alpha_2=(1,1,-1)^T$ 是 $A$ 的属于特征值 $1$ 的特征向量，求矩阵 $A$。"
+          "stem": "设 $A=(a_{ij})_{3\\times 3}$ 是一个 $3$ 阶实对称矩阵，若 $A$ 的迹 $\\mathrm{tr}(A)=a_{11}+a_{22}+a_{33}=0$，且向量 $\\alpha_1=(1,1,1)^T$ 与 $\\alpha_2=(1,1,-1)^T$ 是 $A$ 的属于特征值 $1$ 的特征向量，求矩阵 $A$。"
         },
         {
           "section": "七",
-          "section_instruction": "",
+          "section_instruction": "（15 分）",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "设 $A\\in K^{n\\times n}$ 是数域 $K$ 上的 $n$ 阶方阵，按递归方式定义 $A$ 的 $m$ 重伴随矩阵 $A^{m*}$ 如下：\n$$A^{(0*)}=A,\\ A^{(1*)}=A^*,\\ A^{(2*)}=A^{**},\\cdots,A^{(m*)}=(A^{(m-1)*})^*.$$\n即 $A^{(m*)}=(\\underbrace{(\\cdots((}_{m\\text{ 重}}A^*)^*)\\cdots)^*$。证明：\n(1) $A^{**}=|A|^{n-2}A$；【?】"
+          "stem": "设 $A\\in K^{n\\times n}$ 是数域 $K$ 上的 $n$ 阶方阵，按递归方式定义 $A$ 的 $n$ 重伴随矩阵 ${A^m}^*$ 如下：\n$$A^{(0^*)}=A,\\ A^{(1^*)}=A^*,\\ A^{(2^*)}=A^{**},\\cdots,A^{(m^*)}=(A^{(m-1)^*})^*.$$\n即 $A^{(m^*)}=\\underbrace{(\\cdots((A^*)^*)\\cdots)^*}_{m\\text{ 重}}$。证明：\n(1) $A^{**}=|A|^{n-2}A$;\n(2) $A^{(m^*)}=\\begin{cases}|A|^{\\frac{(n-1)^m-1}{n}}A, & m\\text{ 为偶数};\\\\[4pt] |A|^{\\frac{(n-1)^m-n+1}{n}}A^*, & m\\text{ 为奇数}.\\end{cases}$"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "综合",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $V=C[0,1]$ 表示闭区间 $[0,1]$ 上的连续实值函数全体构成的线性空间，定义 $V$ 上的二元函数如下：\n$$(f(x),g(x))=\\int_0^1 f(x)g(x)\\,\\mathrm{d}x,\\ \\forall f(x),g(x)\\in V.$$\n(1) 证明：上述二元函数是线性空间 $V$ 的一个内积；\n(2) 证明：$V$ 是无限维线性空间；\n(3) 对任意的 $1\\le i,j\\le n$，令 $a_{ij}=\\dfrac{1}{i+j+1}$，证明：$A=(a_{ij})_{n\\times n}$ 为正定矩阵。"
         }
       ]
     }

@@ -155,7 +155,7 @@
       "year": "2024",
       "subject": "高等代数",
       "header_note": "49. 郑州大学 2024 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247521498-1_5.png"],
+      "source_imgs": ["work/imgs/2247521498-1_5.png", "work/imgs/2247521498-1_6.png"],
       "questions": [
         {
           "section": "一",
@@ -295,7 +295,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $V=P^{2\\times 2}$ 是数域 $P$ 上的线性空间，$A=\\begin{pmatrix}a&b\\\\ c&d\\end{pmatrix}\\in V$，线性变换 $\\sigma:X\\to AX$，$\\forall X\\in P^{2\\times 2}$。【?】（卷面此题的具体问题部分被截断，无法辨认）"
+          "stem": "设 $V=P^{2\\times 2}$ 是数域 $P$ 上的线性空间，$A=\\begin{pmatrix}a&b\\\\ c&d\\end{pmatrix}\\in V$，线性变换 $\\sigma:X\\to AX$，$\\forall X\\in P^{2\\times 2}$。\n(1) 求线性变换 $\\sigma$ 在基\n$$E_{11}=\\begin{pmatrix}1&0\\\\ 0&0\\end{pmatrix},\\ E_{12}=\\begin{pmatrix}0&1\\\\ 0&0\\end{pmatrix},\\ E_{21}=\\begin{pmatrix}0&0\\\\ 1&0\\end{pmatrix},\\ E_{22}=\\begin{pmatrix}0&0\\\\ 0&1\\end{pmatrix}$$\n下的矩阵。\n(2) 如果 $A$ 相似于对角矩阵，证明线性变换 $\\sigma$ 在 $V$ 的某组基下的矩阵是对角矩阵。"
         }
       ]
     }

@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限 $\\lim\\limits_{x\\to\\infty}\\left(\\cos\\dfrac{1}{x}\\right)^{x^2}$。"
+          "stem": "求极限 $\\lim_{x\\to\\infty}\\left(\\cos\\dfrac{1}{x}\\right)^{x^2}$。"
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "已知函数 $u(x,y)$ 满足\n$$2\\dfrac{\\partial^2 u}{\\partial x^2}+3\\dfrac{\\partial u}{\\partial x}+3\\dfrac{\\partial u}{\\partial y}-2\\dfrac{\\partial^2 u}{\\partial y^2}=0.$$\n求 $a,b$ 的值, 使得在变换 $u(x,y)=v(x,y)e^{ax+by}$ 下, 上述等式可化为函数 $v(x,y)$ 的不含一阶偏导数的等式。"
+          "stem": "已知函数 $u(x,y)$ 满足\n$$2\\frac{\\partial^2 u}{\\partial x^2}+3\\frac{\\partial u}{\\partial x}+3\\frac{\\partial u}{\\partial y}-2\\frac{\\partial^2 u}{\\partial y^2}=0.$$\n求 $a,b$ 的值, 使得在变换 $u(x,y)=v(x,y)e^{ax+by}$ 下, 上述等式可化为函数 $v(x,y)$ 的不含一阶偏导数的等式."
         },
         {
           "section": "一",
@@ -36,107 +36,97 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "计算极限 $\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{1}{\\sqrt{n^2+1}}+\\dfrac{1}{\\sqrt{n^2+2^2}}+\\cdots+\\dfrac{1}{\\sqrt{n^2+n^2}}\\right)$。"
+          "stem": "计算极限 $\\lim_{n\\to\\infty}\\left(\\dfrac{1}{\\sqrt{n^2+1}}+\\dfrac{1}{\\sqrt{n^2+2^2}}+\\cdots+\\dfrac{1}{\\sqrt{n^2+n^2}}\\right)$."
         },
         {
           "section": "一",
           "section_instruction": "解答如下问题, 每题 10 分, 共 40 分.",
           "no": "4",
           "score": 10,
-          "form": "计算",
-          "l1": "一元积分学",
-          "l2": "变限积分",
-          "stem": "设函数 $f(x)$ 连续, 且 $\\lim\\limits_{x\\to 0}\\dfrac{f(x)}{x}=1$, $g(x)=\\displaystyle\\int_0^1 f(xt)\\,\\mathrm{d}t$, 求 $g'(x)$, 并讨论 $g'(x)$ 在 $x=0$ 处是否连续。"
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设函数 $f(x)$ 连续, 且 $\\lim_{x\\to 0}\\dfrac{f(x)}{x}=1$, $g(x)=\\displaystyle\\int_0^1 f(xt)\\,\\mathrm{d}t$, 求 $g'(x)$, 并讨论 $g'(x)$ 在 $x=0$ 处是否连续."
         },
         {
           "section": "二",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
-          "l1": "一元积分学",
-          "l2": "积分不等式",
-          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 上可导, 且对任何 $x\\in(0,1)$, 有 $|f'(x)|\\le M$. 证明: 对任何正整数 $n$, 有\n$$\\left|\\int_0^1 f(x)\\,\\mathrm{d}x-\\dfrac{1}{n}\\sum_{i=1}^{n} f\\left(\\dfrac{i}{n}\\right)\\right|\\le\\dfrac{M}{n}.$$\n其中 $M$ 是一个与 $x$ 无关的常数。"
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上连续, 在 $(0,1)$ 上可导, 且对任何 $x\\in(0,1)$, 有 $|f'(x)|\\le M$. 证明: 对任何正整数 $n$, 有\n$$\\left|\\int_0^1 f(x)\\,\\mathrm{d}x-\\frac{1}{n}\\sum_{i=1}^{n}f\\left(\\frac{i}{n}\\right)\\right|\\le \\frac{M}{n}.$$\n其中 $M$ 是一个与 $x$ 无关的常数."
         },
         {
           "section": "三",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "极限与连续",
           "l2": "实数完备性定理",
-          "stem": "利用确界原理证明定义在闭区间上的连续函数必然是有界的。"
+          "stem": "利用确界原理证明定义在闭区间上的连续函数必然是有界的."
         },
         {
           "section": "四",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "设数列 $\\{a_n\\}$ 为单调递减的非负数列. 证明: 级数 $\\displaystyle\\sum_{n=1}^{\\infty} a_n$ 与 $\\displaystyle\\sum_{n=1}^{\\infty} 2^n a_{2^n}$ 具有相同的敛散性。"
+          "stem": "设数列 $\\{a_n\\}$ 为单调递减的非负数列. 证明: 级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 与 $\\displaystyle\\sum_{n=1}^{\\infty}2^n a_{2^n}$ 具有相同的敛散性."
         },
         {
           "section": "五",
-          "section_instruction": "(15 分) 解答如下问题:",
+          "section_instruction": "解答如下问题:",
           "no": "1",
-          "score": null,
-          "form": "计算",
+          "score": 15,
+          "form": "综合",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "求函数 $f(x)=|x|$, $x\\in[-\\pi,\\pi]$ 的傅里叶级数。"
-        },
-        {
-          "section": "五",
-          "section_instruction": "(15 分) 解答如下问题:",
-          "no": "2",
-          "score": null,
-          "form": "证明",
-          "l1": "级数",
-          "l2": "数项级数求和",
-          "stem": "证明 $\\displaystyle\\sum_{k=1}^{\\infty}\\dfrac{1}{k^2}=\\dfrac{\\pi^2}{6}$。"
+          "stem": "解答如下问题:\n(1) 求函数 $f(x)=|x|$, $x\\in[-\\pi,\\pi]$ 的傅里叶级数.\n(2) 证明 $\\displaystyle\\sum_{k=1}^{\\infty}\\frac{1}{k^2}=\\frac{\\pi^2}{6}$."
         },
         {
           "section": "六",
-          "section_instruction": "(10 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 10,
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上有定义, 对任意的 $b>0$, $f(x)$ 在 $[0,b]$ 上可积, 且 $\\lim\\limits_{x\\to+\\infty} f(x)=a$. 若 $\\varphi(t)$ 在 $[0,+\\infty)$ 上连续, 且 $\\displaystyle\\int_0^{+\\infty}\\varphi(t)\\,\\mathrm{d}t=1$. 证明: $\\lim\\limits_{t\\to 0^+} t\\displaystyle\\int_0^{+\\infty}\\varphi(tx)f(x)\\,\\mathrm{d}x=a$。"
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上有定义, 对任意的 $b>0$, $f(x)$ 在 $[0,b]$ 上可积, 且 $\\lim\\limits_{x\\to+\\infty}f(x)=a$. 若 $\\varphi(t)$ 在 $[0,+\\infty)$ 上连续, 且 $\\displaystyle\\int_0^{+\\infty}\\varphi(t)\\,\\mathrm{d}t=1$. 证明: $\\lim\\limits_{t\\to 0^+}t\\displaystyle\\int_0^{+\\infty}\\varphi(tx)f(x)\\,\\mathrm{d}x=a$."
         },
         {
           "section": "七",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "三重积分",
-          "stem": "计算三重积分 $I=\\displaystyle\\iiint_{r<10}[r]\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$, 其中 $r=\\sqrt{x^2+y^2+z^2}$, $[r]$ 表示不超过 $r$ 的最大整数。"
+          "stem": "计算三重积分 $I=\\iiint\\limits_{r<10}[r]\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$, 其中 $r=\\sqrt{x^2+y^2+z^2}$, $[r]$ 表示不超过 $r$ 的最大整数."
         },
         {
           "section": "八",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "设 $a,b$ 为正常数, 函数 $f(u)$ 连续可微, $S$ 为曲面 $z=x^2+y^2$ 与 $z=8-x^2-y^2$ 所围立体的表面, 方向取外侧. 计算第二型曲面积分\n$$I=\\iint_S \\dfrac{2}{b+y}f\\left(\\dfrac{a+x}{(b+y)^2}\\right)\\mathrm{d}y\\mathrm{d}z+\\dfrac{1}{a+x}f\\left(\\dfrac{a+x}{(b+y)^2}\\right)\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y.$$"
+          "stem": "设 $a,b$ 为正常数, 函数 $f(u)$ 连续可微, $S$ 为曲面 $z=x^2+y^2$ 与 $z=8-x^2-y^2$ 所围立体的表面, 方向取外侧. 计算第二型曲面积分\n$$I=\\iint_S \\frac{2}{b+y}f\\left(\\frac{a+x}{(b+y)^2}\\right)\\,\\mathrm{d}y\\mathrm{d}z+\\frac{1}{a+x}f\\left(\\frac{a+x}{(b+y)^2}\\right)\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y.$$"
         },
         {
           "section": "九",
-          "section_instruction": "(10 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 10,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲线积分",
-          "stem": "设 $F(x),G(x)$ 连续可微, 且 $F(0)=F(4)$, $G(0)=G(4)$. 区域 $D$ 由 $y=x, y=4x, xy=1, xy=4$ 围成, 其边界 $\\partial D$ 取逆时针方向. 计算曲线积分 $I=\\displaystyle\\oint_{\\partial D}\\dfrac{F(xy)}{x}\\,\\mathrm{d}x+\\dfrac{G(xy)}{y}\\,\\mathrm{d}y$。"
+          "stem": "设 $F(x),G(x)$ 连续可微, 且 $F(0)=F(4)$, $G(0)=G(4)$. 区域 $D$ 由 $y=x$, $y=4x$, $xy=1$, $xy=4$ 围成, 其边界 $\\partial D$ 取逆时针方向. 计算曲线积分 $I=\\displaystyle\\oint_{\\partial D}\\frac{F(xy)}{x}\\,\\mathrm{d}x+\\frac{G(xy)}{y}\\,\\mathrm{d}y$."
         }
       ]
     },
@@ -149,133 +139,93 @@
       "questions": [
         {
           "section": "一",
-          "section_instruction": "(15 分) 计算行列式",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算行列式\n$$\\begin{vmatrix} 2 & 2 & 2 & \\cdots & 2 \\\\ x_1(x_1-2) & x_2(x_2-2) & x_3(x_3-2) & \\cdots & x_n(x_n-2) \\\\ x_1^2(x_1-2) & x_2^2(x_2-2) & x_3^2(x_3-2) & \\cdots & x_n^2(x_n-2) \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ x_1^{n-1}(x_1-2) & x_2^{n-1}(x_2-2) & x_3^{n-1}(x_3-2) & \\cdots & x_n^{n-1}(x_n-2) \\end{vmatrix}.$$"
+          "stem": "计算行列式\n$$\\begin{vmatrix}2&2&2&\\cdots&2\\\\ x_1(x_1-2)&x_2(x_2-2)&x_3(x_3-2)&\\cdots&x_n(x_n-2)\\\\ x_1^2(x_1-2)&x_2^2(x_2-2)&x_3^2(x_3-2)&\\cdots&x_n^2(x_n-2)\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ x_1^{n-1}(x_1-2)&x_2^{n-1}(x_2-2)&x_3^{n-1}(x_3-2)&\\cdots&x_n^{n-1}(x_n-2)\\end{vmatrix}.$$"
         },
         {
           "section": "二",
-          "section_instruction": "(15 分) 已知",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "已知\n$$A=\\begin{pmatrix} 2 & 3 & a \\\\ 0 & 1 & -1 \\\\ 1 & 1 & 1 \\\\ 3 & 5 & 1 \\end{pmatrix},\\ \\beta=\\begin{pmatrix} 4 \\\\ 2 \\\\ 1 \\\\ b \\end{pmatrix}.$$\n问: $a,b$ 取何值时, 方程组 $AX=\\beta$ 有无穷多解, 有唯一解, 无解, 并求无穷多解时的通解。"
+          "stem": "已知\n$$A=\\begin{pmatrix}2&3&a\\\\ 0&1&-1\\\\ 1&1&1\\\\ 3&5&1\\end{pmatrix},\\ \\beta=\\begin{pmatrix}4\\\\ 2\\\\ 1\\\\ b\\end{pmatrix}.$$\n问: $a,b$ 取何值时, 方程组 $AX=\\beta$ 有无穷多解, 有唯一解, 无解, 并求无穷多解时的通解."
         },
         {
           "section": "三",
-          "section_instruction": "(20 分) 已知矩阵",
+          "section_instruction": "",
           "no": "1",
-          "score": null,
-          "form": "证明",
+          "score": 20,
+          "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "已知矩阵\n$$A=\\begin{pmatrix} 1 & -1 & 0 \\\\ -1 & 2 & 1 \\\\ 0 & 1 & 1 \\\\ -1 & 3 & 2 \\\\ -2 & 6 & 4 \\end{pmatrix}.$$\n$\\mathbb{R}^{n\\times 5}$ 为实数域 $\\mathbb{R}$ 上的所有 $n\\times 5$ 矩阵构成的线性空间, $W=\\{B\\in\\mathbb{R}^{n\\times 5}\\mid BA=O\\}$, 其中 $O$ 为零矩阵.\n(1) 证明: $W$ 是 $\\mathbb{R}^{n\\times 5}$ 的子空间;"
-        },
-        {
-          "section": "三",
-          "section_instruction": "(20 分) 已知矩阵",
-          "no": "2",
-          "score": null,
-          "form": "计算",
-          "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "已知矩阵\n$$A=\\begin{pmatrix} 1 & -1 & 0 \\\\ -1 & 2 & 1 \\\\ 0 & 1 & 1 \\\\ -1 & 3 & 2 \\\\ -2 & 6 & 4 \\end{pmatrix}.$$\n$\\mathbb{R}^{n\\times 5}$ 为实数域 $\\mathbb{R}$ 上的所有 $n\\times 5$ 矩阵构成的线性空间, $W=\\{B\\in\\mathbb{R}^{n\\times 5}\\mid BA=O\\}$, 其中 $O$ 为零矩阵.\n(2) 求 $W$ 的一组基和维数。"
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix}1&-1&0\\\\ -1&2&1\\\\ 0&1&1\\\\ -1&3&2\\\\ -2&6&4\\end{pmatrix}.$$\n$\\mathbb{R}^{n\\times 5}$ 为实数域 $\\mathbb{R}$ 上的所有 $n\\times 5$ 矩阵构成的线性空间, $W=\\{B\\in\\mathbb{R}^{n\\times 5}\\mid BA=O\\}$, 其中 $O$ 为零矩阵.\n(1) 证明: $W$ 是 $\\mathbb{R}^{n\\times 5}$ 的子空间;\n(2) 求 $W$ 的一组基和维数."
         },
         {
           "section": "四",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "计算",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "设 $f(x_1,x_2,x_3,x_4)=X'AX$ 为实系数二次型, 实对称矩阵 $A$ 的特征值为 $\\lambda_1=1$ (二重), $\\lambda_2=-1$ (二重). 且 $\\varepsilon_1=(1,1,0,0)'$, $\\varepsilon_2=(1,1,0,1)'$ 为属于特征值 $\\lambda_1=1$ 的特征向量. 求二次型 $f(x_1,x_2,x_3,x_4)$ 的表达式。"
+          "stem": "设 $f(x_1,x_2,x_3,x_4)=X'AX$ 为实系数二次型, 实对称矩阵 $A$ 的特征值为 $\\lambda_1=1$ (二重), $\\lambda_2=-1$ (二重). 且 $\\varepsilon_1=(1,1,0,0)'$, $\\varepsilon_2=(1,1,0,1)'$ 为属于特征值 $\\lambda_1=1$ 的特征向量. 求二次型 $f(x_1,x_2,x_3,x_4)$ 的表达式."
         },
         {
           "section": "五",
-          "section_instruction": "(20 分)",
+          "section_instruction": "",
           "no": "1",
-          "score": null,
-          "form": "证明",
-          "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "$P^{2\\times 2}$ 为数域 $P$ 上的 $2\\times 2$ 方阵构成的线性空间. 令 $\\sigma:P^{2\\times 2}\\to P^{2\\times 2}$, 对任意的 $X\\in P^{2\\times 2}$, 有 $\\sigma(X)=AXB$, 其中 $A=\\begin{pmatrix} -1 & 1 \\\\ 1 & -1 \\end{pmatrix}$, $B=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$.\n(1) 证明: $\\sigma$ 是 $P^{2\\times 2}$ 上的线性变换;"
-        },
-        {
-          "section": "五",
-          "section_instruction": "(20 分)",
-          "no": "2",
-          "score": null,
-          "form": "计算",
-          "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "$P^{2\\times 2}$ 为数域 $P$ 上的 $2\\times 2$ 方阵构成的线性空间. 令 $\\sigma:P^{2\\times 2}\\to P^{2\\times 2}$, 对任意的 $X\\in P^{2\\times 2}$, 有 $\\sigma(X)=AXB$, 其中 $A=\\begin{pmatrix} -1 & 1 \\\\ 1 & -1 \\end{pmatrix}$, $B=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$.\n(2) 求 $\\sigma$ 在 $P^{2\\times 2}$ 的基 $E_{11}=\\begin{pmatrix} 1 & 0 \\\\ 0 & 0 \\end{pmatrix}, E_{12}=\\begin{pmatrix} 0 & 1 \\\\ 0 & 0 \\end{pmatrix}, E_{21}=\\begin{pmatrix} 0 & 0 \\\\ 1 & 0 \\end{pmatrix}, E_{22}=\\begin{pmatrix} 0 & 0 \\\\ 0 & 1 \\end{pmatrix}$ 下的表示矩阵。"
-        },
-        {
-          "section": "五",
-          "section_instruction": "(20 分)",
-          "no": "3",
-          "score": null,
+          "score": 20,
           "form": "综合",
           "l1": "线性空间与线性变换",
-          "l2": "可对角化",
-          "stem": "$P^{2\\times 2}$ 为数域 $P$ 上的 $2\\times 2$ 方阵构成的线性空间. 令 $\\sigma:P^{2\\times 2}\\to P^{2\\times 2}$, 对任意的 $X\\in P^{2\\times 2}$, 有 $\\sigma(X)=AXB$, 其中 $A=\\begin{pmatrix} -1 & 1 \\\\ 1 & -1 \\end{pmatrix}$, $B=\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$.\n(3) 是否存在 $P^{2\\times 2}$ 的某组基, 使得 $\\sigma$ 在此基下的矩阵为对角阵? 存在的话, 求出基和对应的对角阵。"
+          "l2": "线性变换",
+          "stem": "$P^{2\\times 2}$ 为数域 $P$ 上的 $2\\times 2$ 方阵构成的线性空间. 令 $\\sigma:P^{2\\times 2}\\to P^{2\\times 2}$, 对任意的 $X\\in P^{2\\times 2}$, 有 $\\sigma(X)=AXB$, 其中 $A=\\begin{pmatrix}-1&1\\\\ 1&-1\\end{pmatrix}$, $B=\\begin{pmatrix}0&1\\\\ 1&0\\end{pmatrix}$.\n(1) 证明: $\\sigma$ 是 $P^{2\\times 2}$ 上的线性变换;\n(2) 求 $\\sigma$ 在 $P^{2\\times 2}$ 的基 $E_{11}=\\begin{pmatrix}1&0\\\\ 0&0\\end{pmatrix},E_{12}=\\begin{pmatrix}0&1\\\\ 0&0\\end{pmatrix},E_{21}=\\begin{pmatrix}0&0\\\\ 1&0\\end{pmatrix},E_{22}=\\begin{pmatrix}0&0\\\\ 0&1\\end{pmatrix}$ 下的表示矩阵.\n(3) 是否存在 $P^{2\\times 2}$ 的某组基, 使得 $\\sigma$ 在此基下的矩阵为对角阵? 存在的话, 求出基和对应的对角阵."
         },
         {
           "section": "六",
-          "section_instruction": "(20 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 20,
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "对称变换",
-          "stem": "$\\sigma$ 是 $n$ 维欧氏空间 $V$ 上的一个线性反称变换, 即对任意的 $\\alpha,\\beta\\in V$, 有 $(\\sigma(\\alpha),\\beta)+(\\alpha,\\sigma(\\beta))=0$, 其中 $(\\,\\cdot\\,,\\cdot\\,)$ 表示欧氏空间的内积. 证明: 存在 $V$ 的一组标准正交基, 使得 $\\sigma^2$ 在此组基下的矩阵为对角阵。"
+          "stem": "$\\sigma$ 是 $n$ 维欧氏空间 $V$ 上的一个线性反称变换, 即对任意的 $\\alpha,\\beta\\in V$, 有 $(\\sigma(\\alpha),\\beta)+(\\alpha,\\sigma(\\beta))=0$, 其中 $(\\,\\cdot\\,,\\cdot\\,)$ 表示欧氏空间的内积. 证明: 存在 $V$ 的一组标准正交基, 使得 $\\sigma^2$ 在此组基下的矩阵为对角阵."
         },
         {
           "section": "七",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "多项式",
           "l2": "根与重因式",
-          "stem": "证明: $f(x)=1+\\dfrac{x}{1!}+\\dfrac{x^2}{2!}+\\cdots+\\dfrac{x^n}{n!}$ 无重根。"
+          "stem": "证明: $f(x)=1+\\dfrac{x}{1!}+\\dfrac{x^2}{2!}+\\cdots+\\dfrac{x^n}{n!}$ 无重根."
         },
         {
           "section": "八",
-          "section_instruction": "(15 分)",
+          "section_instruction": "",
           "no": "1",
           "score": 15,
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "特征值与特征向量",
-          "stem": "设 $A$ 为 $n$ 阶复方阵, $B$ 为 $m$ 阶复方阵, 且存在秩为 $r$ 的矩阵 $X$ 满足 $AX=XB$, 其中 $1\\le r\\le\\min\\{n,m\\}$. 证明: $A$ 与 $B$ 至少有 $r$ 个公共的特征值(重根按重数计算)。"
+          "stem": "设 $A$ 为 $n$ 阶复方阵, $B$ 为 $m$ 阶复方阵, 且存在秩为 $r$ 的矩阵 $X$ 满足 $AX=XB$, 其中 $1\\le r\\le\\min\\{n,m\\}$. 证明: $A$ 与 $B$ 至少有 $r$ 个公共的特征值 (重根按重数计算)."
         },
         {
           "section": "九",
-          "section_instruction": "(15 分) 已知",
+          "section_instruction": "",
           "no": "1",
-          "score": null,
-          "form": "计算",
-          "l1": "线性空间与线性变换",
-          "l2": "极小多项式",
-          "stem": "已知 $\\alpha=(a_1,a_2,\\cdots,a_n)^T$, $\\beta=(b_1,b_2,\\cdots,b_n)^T$ 为两个非零实向量($n>1$), $A=\\alpha\\beta^T$.\n(1) 求 $A$ 的最小多项式;"
-        },
-        {
-          "section": "九",
-          "section_instruction": "(15 分) 已知",
-          "no": "2",
-          "score": null,
-          "form": "计算",
+          "score": 15,
+          "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "已知 $\\alpha=(a_1,a_2,\\cdots,a_n)^T$, $\\beta=(b_1,b_2,\\cdots,b_n)^T$ 为两个非零实向量($n>1$), $A=\\alpha\\beta^T$.\n(2) 求 $A$ 的若尔当标准形。"
+          "stem": "已知 $\\alpha=(a_1,a_2,\\cdots,a_n)^T$, $\\beta=(b_1,b_2,\\cdots,b_n)^T$ 为两个非零实向量 ($n>1$), $A=\\alpha\\beta^T$.\n(1) 求 $A$ 的最小多项式;\n(2) 求 $A$ 的若尔当标准形."
         }
       ]
     }

@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{\\sqrt{1+x\\sin x}-\\sqrt{\\cos x}}{x\\tan x}$。"
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\sqrt{1+x\\sin x}-\\sqrt{\\cos x}}{x\\tan x}$。"
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求幂级数 $\\sum_{n=1}^{\\infty}\\dfrac{x^{2n+1}}{2n}$ 的和函数。"
+          "stem": "求幂级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{x^{2n+1}}{2n}$ 的和函数。"
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "求曲面积分\n$$\\iint_{S}\\left[\\dfrac{x}{y}f\\left(\\dfrac{x}{y}\\right)+x^{3}\\right]\\mathrm{d}y\\mathrm{d}z+\\left[f\\left(\\dfrac{x}{y}\\right)+y^{3}\\right]\\mathrm{d}z\\mathrm{d}x+\\left[-\\dfrac{z}{y}f\\left(\\dfrac{x}{y}\\right)+z^{3}\\right]\\mathrm{d}x\\mathrm{d}y,$$\n其中 $f(u)$ 具有连续导数，$\\Sigma$ 为空间立体 $\\begin{cases}1\\le x^{2}+y^{2}+z^{2}\\le 4\\\\ z\\ge\\sqrt{x^{2}+y^{2}}\\end{cases}$ 的表面，方向取外侧。"
+          "stem": "求曲面积分\n$$\\iint_{S}\\left[\\dfrac{x}{y}f\\left(\\dfrac{x}{y}\\right)+x^{3}\\right]\\mathrm{d}y\\mathrm{d}z+\\left[f\\left(\\dfrac{x}{y}\\right)+y^{3}\\right]\\mathrm{d}z\\mathrm{d}x+\\left[-\\dfrac{z}{y}f\\left(\\dfrac{x}{y}\\right)+z^{3}\\right]\\mathrm{d}x\\mathrm{d}y.$$\n其中 $f(u)$ 具有连续导数，$\\Sigma$ 为空间立体 $\\begin{cases}1\\le x^{2}+y^{2}+z^{2}\\le 4\\\\ z\\ge\\sqrt{x^{2}+y^{2}}\\end{cases}$ 的表面，方向取外侧。"
         },
         {
           "section": "一",
@@ -53,7 +53,7 @@
           "section_instruction": "",
           "no": "5",
           "score": null,
-          "form": "判断",
+          "form": "综合",
           "l1": "极限与连续",
           "l2": "数列收敛性",
           "stem": "已知数列 $\\{y_n\\}$ 有界，定义 $x_n=\\dfrac{y_1}{1\\cdot 2}+\\dfrac{y_2}{2\\cdot 3}+\\cdots+\\dfrac{y_n}{n(n+1)}$，判断 $\\{x_n\\}$ 的敛散性，并给出证明。"
@@ -63,17 +63,17 @@
           "section_instruction": "",
           "no": "6",
           "score": null,
-          "form": "判断",
+          "form": "综合",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "判断函数项级数 $\\sum_{n=1}^{\\infty}\\dfrac{nx}{1+n^{5}x^{2}}$，$x\\in(-\\infty,+\\infty)$ 是否一致收敛，并给出证明。"
+          "stem": "判断函数项级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{nx}{1+n^{5}x^{2}}$，$x\\in(-\\infty,+\\infty)$ 是否一致收敛，并给出证明。"
         },
         {
           "section": "一",
           "section_instruction": "",
           "no": "7",
           "score": null,
-          "form": "判断",
+          "form": "综合",
           "l1": "极限与连续",
           "l2": "一致连续性",
           "stem": "判断 $f(x)=x^{2}$ 在 $(-\\infty,+\\infty)$ 是否一致连续，并给出证明。"
@@ -86,7 +86,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "证明 $\\int_{1}^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x$ 为条件收敛。"
+          "stem": "证明 $\\displaystyle\\int_{1}^{+\\infty}\\dfrac{\\sin x}{x}\\,\\mathrm{d}x$ 为条件收敛。"
         },
         {
           "section": "一",
@@ -106,7 +106,7 @@
           "form": "证明",
           "l1": "一元积分学",
           "l2": "积分不等式",
-          "stem": "设 $f(x)$ 的一阶导数在 $[0,1]$ 上连续，且 $f(0)=f(1)=0$，证明：$\\left|\\int_{0}^{1}f(x)\\,\\mathrm{d}x\\right|\\le\\dfrac{1}{4}\\max\\limits_{0\\le x\\le 1}|f'(x)|$。"
+          "stem": "设 $f(x)$ 的一阶导数在 $[0,1]$ 上连续，且 $f(0)=f(1)=0$，证明：$\\left|\\displaystyle\\int_{0}^{1}f(x)\\,\\mathrm{d}x\\right|\\le\\dfrac{1}{4}\\max\\limits_{0\\le x\\le 1}|f'(x)|$。"
         }
       ]
     },
@@ -115,7 +115,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "28. 东北大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516139-2_5.png"],
+      "source_imgs": ["work/imgs/2247516139-2_5.png", "work/imgs/2247516139-2_6.png"],
       "questions": [
         {
           "section": "一",
@@ -196,6 +196,26 @@
           "l1": "矩阵与线性方程组",
           "l2": "秩",
           "stem": "设 $A$ 为 $m\\times n$ 矩阵，$B$ 为 $n\\times s$ 矩阵，证明：若 $AB=O$，则 $R(A)+R(B)\\le n$（用三种方法）。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "证明非齐次线性方程组 $A_{s\\times n}X=\\beta_1$，$B_{t\\times n}X=\\beta_2$ 同解的充要条件是 $R(A,\\beta_1)+R(B,\\beta_2)=R(A)+R(B)+2$ 或 $R\\begin{pmatrix}A&\\beta_1\\\\ B&\\beta_2\\end{pmatrix}=R\\begin{pmatrix}A\\\\ B\\end{pmatrix}=R(A)=R(B)=R(A,\\beta_1)=R(B,\\beta_2)$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 是数域 $P$ 上的 $n\\times n$ 矩阵，满足 $A^2=A$。\n(1) 证明：$A$ 相似于一个对角矩阵（用两种方法）；\n(2) 证明：$\\mathrm{tr}(A)=R(A)$。"
         }
       ]
     }

@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "一元积分学",
           "l2": "定积分",
-          "stem": "求积分 $\\displaystyle\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{1+\\tan^{2023} x}\\,\\mathrm{d}x$。"
+          "stem": "求积分 $\\int_0^{\\frac{\\pi}{2}}\\dfrac{1}{1+\\tan^{2023} x}\\,\\mathrm{d}x$。"
         },
         {
           "section": "二",
@@ -54,9 +54,9 @@
           "no": "1",
           "score": null,
           "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "设 $f(x)$ 在任意有限区间可积，且 $\\lim\\limits_{x\\to+\\infty}f(x)=l$，证明 $\\lim\\limits_{x\\to+\\infty}\\dfrac{1}{x}\\displaystyle\\int_0^x f(t)\\,\\mathrm{d}t=l$。"
+          "l1": "一元积分学",
+          "l2": "变限积分",
+          "stem": "设 $f(x)$ 在任意有限区间可积，且 $\\lim\\limits_{x\\to+\\infty} f(x)=l$，证明 $\\lim\\limits_{x\\to+\\infty}\\dfrac{1}{x}\\displaystyle\\int_0^x f(t)\\,\\mathrm{d}t=l$。"
         },
         {
           "section": "五",
@@ -73,7 +73,7 @@
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "判断",
+          "form": "计算",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
           "stem": "判断 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sqrt{x}\\cos x}{x+100}\\,\\mathrm{d}x$ 绝对收敛还是条件收敛。"
@@ -86,17 +86,17 @@
           "form": "综合",
           "l1": "极限与连续",
           "l2": "递推数列",
-          "stem": "设 $a_1=1$，$a_2=2$，$a_{n+2}=3a_n-a_{n-1}$（$n=2,3,\\cdots$），记 $x_n=\\dfrac{1}{a_n}$，证明 $\\{x_n\\}$ 收敛，并求 $\\lim\\limits_{n\\to\\infty}x_n$，判断级数 $\\sum\\limits_{n=1}^{\\infty}x_n$ 的敛散性。"
+          "stem": "设 $a_1=1, a_2=2, a_{n+2}=3a_n-a_{n-1}$（$n=2,3,\\cdots$），记 $x_n=\\dfrac{1}{a_n}$，证明 $\\{x_n\\}$ 收敛，并求 $\\lim\\limits_{n\\to\\infty} x_n$，判断级数 $\\displaystyle\\sum_{n=1}^{\\infty} x_n$ 的敛散性。"
         },
         {
           "section": "八",
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "综合",
+          "form": "计算",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "将 $f(x)=1-x^2$（$0\\le x\\le\\pi$）展开成余弦级数，并求 $\\sum\\limits_{n=1}^{\\infty}(-1)^n\\dfrac{1}{n^2}$。"
+          "stem": "将 $f(x)=1-x^2$（$0\\le x\\le\\pi$）展开成余弦级数，并求 $\\displaystyle\\sum_{n=1}^{\\infty}(-1)^n\\dfrac{1}{n^2}$。"
         },
         {
           "section": "九",
@@ -106,7 +106,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "隐函数求导",
-          "stem": "设方程组\n$$\\begin{cases} x+y^2=u, \\\\ y+z^2=v, \\\\ z+x^2=w, \\end{cases}$$\n确定了 $x,y,z$ 为 $u,v,w$ 的函数，求 $\\dfrac{\\partial x}{\\partial u},\\dfrac{\\partial y}{\\partial u},\\dfrac{\\partial z}{\\partial u},\\dfrac{\\partial^2 x}{\\partial u^2}$。"
+          "stem": "设方程组 $\\begin{cases} x+y^2=u; \\\\ y+z^2=v; \\\\ z+x^2=w, \\end{cases}$ 确定了 $x,y,z$ 为 $u,v,w$ 的函数，求 $\\dfrac{\\partial x}{\\partial u},\\dfrac{\\partial y}{\\partial u},\\dfrac{\\partial z}{\\partial u},\\dfrac{\\partial^2 x}{\\partial u^2}$。"
         },
         {
           "section": "十",
@@ -116,7 +116,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "计算曲面积分\n$$\\iint_S\\left(\\dfrac{x^3}{a^2}+yz\\right)\\mathrm{d}y\\mathrm{d}z+\\left(\\dfrac{y^3}{b^2}+z^2x^2\\right)\\mathrm{d}z\\mathrm{d}x+\\left(\\dfrac{z^3}{c^2}+x^3y^3\\right)\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$（$x\\ge 0$），取后侧，$a,b,c>0$。"
+          "stem": "计算曲面积分\n$$\\iint_S \\left(\\dfrac{x^3}{a^2}+yz\\right)\\mathrm{d}y\\mathrm{d}z+\\left(\\dfrac{y^3}{b^2}+z^2x^2\\right)\\mathrm{d}z\\mathrm{d}x+\\left(\\dfrac{z^3}{c^2}+x^3y^3\\right)\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 为 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}=1$（$x\\ge 0$），取后侧，$a,b,c>0$。"
         },
         {
           "section": "十一",
@@ -126,17 +126,17 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "三重积分",
-          "stem": "求重积分 $\\iiint\\limits_{\\Omega}\\sqrt{1-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}-\\dfrac{z^2}{c^2}}$，其中 $\\Omega$ 为 $\\left\\{(x,y,z)\\ \\middle|\\ \\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}\\le 1\\right\\}$，$a,b,c>0$。"
+          "stem": "求重积分 $\\iiint\\limits_{\\Omega}\\sqrt{1-\\dfrac{x^2}{a^2}-\\dfrac{y^2}{b^2}-\\dfrac{z^2}{c^2}}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $\\Omega$ 为 $\\left\\{(x,y,z)\\mid \\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}+\\dfrac{z^2}{c^2}\\le 1\\right\\}$，$a,b,c>0$。"
         },
         {
           "section": "十二",
-          "section_instruction": "（可能有误）",
+          "section_instruction": "",
           "no": "1",
           "score": null,
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲线积分",
-          "stem": "（可能有误）求均匀曲线 $x^2+y^2+z^2=a^2,\\ xyz=0$ 的重心。"
+          "stem": "（可能有误）求均匀曲线 $x^2+y^2+z^2=a^2, xyz=0$ 的重心。"
         }
       ]
     },
@@ -145,7 +145,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "39. 南京航空航天大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516178-2_5.png"],
+      "source_imgs": ["work/imgs/2247516178-2_5.png", "work/imgs/2247516178-2_6.png"],
       "questions": [
         {
           "section": "一",
@@ -154,7 +154,7 @@
           "score": null,
           "form": "综合",
           "l1": "线性空间与线性变换",
-          "l2": "Jordan 标准形",
+          "l2": "极小多项式",
           "stem": "已知三阶矩阵\n$$A=\\begin{pmatrix} -1 & -2 & 6 \\\\ -1 & 0 & a \\\\ -1 & -1 & 4 \\end{pmatrix}.$$\n$f(x)=|xE-A|$ 是 $A$ 的特征多项式，且 $(x-1)^2$ 是 $A$ 的最小多项式。\n(1) 求 $a$ 及 $f(x)$；\n(2) 求 $A$ 的初等因子；\n(3) $A$ 是否与对角矩阵相似？请说明理由。"
         },
         {
@@ -175,7 +175,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设 $V_1$ 是由向量 $\\alpha_1=(1,1,\\alpha)^T,\\alpha_2=(-2,\\alpha,4)^T,\\alpha_3=(-2,\\alpha,-2)^T$ 生成的 $\\mathbb{R}^3$ 的子空间，$V_2$ 是由 $\\beta_1=(1,1,\\alpha)^T,\\beta_2=(1,\\alpha,1)^T,\\beta_3=(\\alpha,1,1)^T$ 生成的 $\\mathbb{R}^3$ 的子空间。\n(1) 若 $V_2$ 的维数为 $1$，求 $\\alpha$ 的值；\n(2) 若 $V_1=V_2$，求 $\\alpha$ 的取值范围；\n(3) 求 $V_1+V_2$ 维数的取值范围。"
+          "stem": "设 $V_1$ 是由向量 $\\alpha_1=(1,1,\\alpha)^T, \\alpha_2=(-2,\\alpha,4)^T, \\alpha_3=(-2,\\alpha,-2)^T$ 生成的 $\\mathbb{R}^3$ 的子空间，$V_2$ 是由 $\\beta_1=(1,1,\\alpha)^T, \\beta_2=(1,\\alpha,1)^T, \\beta_3=(\\alpha,1,1)^T$ 生成的 $\\mathbb{R}^3$ 的子空间。\n(1) 若 $V_2$ 的维数为 1，求 $\\alpha$ 的值；\n(2) 若 $V_1=V_2$，求 $\\alpha$ 的取值范围；\n(3) 求 $V_1+V_2$ 维数的取值范围。"
         },
         {
           "section": "四",
@@ -185,7 +185,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $\\sigma$ 为 $\\mathbb{R}^3$ 上的线性变换，$\\varepsilon_1=(1,1,0)^T,\\varepsilon_2=(0,1,1)^T,\\varepsilon_3=(1,1,1)^T$，且\n$$\\sigma(\\varepsilon_1)=(0,-1,1)^T,\\ \\sigma(\\varepsilon_2)=(1,1+a,0)^T,\\ \\sigma(\\varepsilon_3)=(1,a-1,1)^T.$$\n(1) 求 $\\sigma$ 在基 $\\eta_1=(1,0,0)^T,\\eta_2=(0,1,0)^T,\\eta_3=(0,0,1)^T$ 下的矩阵 $A$；\n(2) 若 $\\sigma$ 可对角化，求 $a$ 的值；\n(3) 当 $a=2$ 时，求一多项式 $g(x)$，使得 $g(A)=A^{-1}$。"
+          "stem": "设 $\\sigma$ 为 $\\mathbb{R}^3$ 上的线性变换，$\\varepsilon_1=(1,1,0)^T, \\varepsilon_2=(0,1,1)^T, \\varepsilon_3=(1,1,1)^T$，且\n$$\\sigma(\\varepsilon_1)=(0,-1,1)^T,\\ \\sigma(\\varepsilon_2)=(1,1+a,0)^T,\\ \\sigma(\\varepsilon_3)=(1,a-1,1)^T.$$\n(1) 求 $\\sigma$ 在基 $\\eta_1=(1,0,0)^T, \\eta_2=(0,1,0)^T, \\eta_3=(0,0,1)^T$ 下的矩阵 $A$；\n(2) 若 $\\sigma$ 可对角化，求 $a$ 的值；\n(3) 当 $a=2$ 时，求一多项式 $g(x)$，使得 $g(A)=A^{-1}$。"
         },
         {
           "section": "五",
@@ -195,14 +195,14 @@
           "form": "综合",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "设三阶实矩阵 $A$ 的 $3$ 个列向量 $\\alpha,\\beta,\\gamma$ 线性无关，二次型\n$$f(x)=(\\alpha^Tx)^2+(\\beta^Tx)^2+(\\gamma^Tx)^2.$$\n其中 $x=(x_1,x_2,x_3)^T$。\n(1) 求此二次型的矩阵 $B$；\n(2) 问：此二次型是否正定？并写出此二次型的规范型；\n(3) 是否存在正定矩阵 $S$，使得 $B=S^3$？并说明理由。"
+          "stem": "设三阶实矩阵 $A$ 的 3 个列向量 $\\alpha,\\beta,\\gamma$ 线性无关，二次型\n$$f(x)=(\\alpha^T x)^2+(\\beta^T x)^2+(\\gamma^T x)^2,$$\n其中 $x=(x_1,x_2,x_3)^T$。\n(1) 求此二次型的矩阵 $B$；\n(2) 问：此二次型是否正定？并写出此二次型的规范型；\n(3) 是否存在正定矩阵 $S$，使得 $B=S^3$？并说明理由。"
         },
         {
           "section": "六",
           "section_instruction": "解答如下问题",
           "no": "1",
           "score": null,
-          "form": "判断",
+          "form": "综合",
           "l1": "多项式",
           "l2": "根与重因式",
           "stem": "判别多项式 $x^6-5x+6$ 在复数域 $\\mathbb{C}$ 上有无重因式。"
@@ -223,8 +223,8 @@
           "no": "3",
           "score": null,
           "form": "证明",
-          "l1": "线性空间与线性变换",
-          "l2": "可对角化",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
           "stem": "设 $A,B$ 是两个 $n$ 阶矩阵，且满足 $\\begin{pmatrix} A & O \\\\ O & B \\end{pmatrix}$ 在数域 $P$ 上可对角化。证明：在数域 $P$ 上，$A,B$ 均可对角化。"
         },
         {
@@ -234,8 +234,18 @@
           "score": null,
           "form": "证明",
           "l1": "矩阵与线性方程组",
-          "l2": "可逆性",
-          "stem": "设 $A,B$ 是两个 $n$ 阶矩阵，且 $AB=A+B$。证明：【?】（卷面在此截断，待证结论缺失）"
+          "l2": "相似",
+          "stem": "设 $A,B$ 是两个 $n$ 阶矩阵，且 $AB=A+B$。证明：\n(1) $AB=BA$；\n(2) $\\lambda=1$ 不是 $A$ 的特征值；\n(3) 若 $A$ 相似于对角阵，则存在可逆矩阵 $P$，使得 $P^{-1}AP, P^{-1}BP$ 同时为对角阵。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "设 $V$ 是数域 $P$ 上的 $n$ 维线性空间，$U,W$ 是 $V$ 的两个子空间，并且 $V=U\\oplus W$。任给 $\\alpha=\\alpha_1+\\alpha_2\\in V$，其中 $\\alpha_1\\in U, \\alpha_2\\in W$，令 $\\sigma(\\alpha)=\\alpha_1$。记 $\\mathrm{Ker}\\,\\sigma=\\{\\alpha\\in V\\mid \\sigma(\\alpha)=0\\}$，$\\mathrm{Im}\\,\\sigma=\\{\\sigma(\\alpha)\\mid \\alpha\\in V\\}$。证明：\n(1) $\\sigma$ 是 $V$ 上的线性变换，且 $\\sigma^2=\\sigma$；\n(2) $\\mathrm{Ker}\\,\\sigma=W$，$\\mathrm{Im}\\,\\sigma=U$；\n(3) $\\sigma$ 可对角化。"
         }
       ]
     }

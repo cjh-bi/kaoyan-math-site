@@ -1,323 +1,348 @@
 {
-  "msgid": "2247529271",
-  "exams": [
+ "msgid": "2247529271",
+ "exams": [
+  {
+   "school": "广西大学",
+   "year": "2025",
+   "subject": "数学分析",
+   "header_note": "61. 广西大学 2025 年数学分析试卷",
+   "source_imgs": [
+    "work/imgs/2247529271_4.png"
+   ],
+   "questions": [
     {
-      "school": "广西大学",
-      "year": "2025",
-      "subject": "数学分析",
-      "header_note": "61. 广西大学 2025 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247529271_4.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
-          "no": "1",
-          "score": 5,
-          "form": "填空",
-          "l1": "一元积分学",
-          "l2": "变限积分",
-          "stem": "$\\lim\\limits_{x\\to 0}\\dfrac{1}{x}\\int_0^x\\cos t^3\\,\\mathrm{d}t=$ ______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
-          "no": "2",
-          "score": 5,
-          "form": "填空",
-          "l1": "一元微分学",
-          "l2": "导数应用",
-          "stem": "$f(x)=\\dfrac{3x^3+4}{x^2-2x}$ 的渐近线为______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
-          "no": "3",
-          "score": 5,
-          "form": "填空",
-          "l1": "级数",
-          "l2": "幂级数",
-          "stem": "幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(x-2)^{2n-1}}{(2n-1)!}$ 的收敛区域为______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
-          "no": "4",
-          "score": 5,
-          "form": "填空",
-          "l1": "多元微分学",
-          "l2": "梯度与方向导数",
-          "stem": "$u=xyz$ 在点 $(5,1,2)$ 沿点 $(5,1,2)$ 到 $(9,4,14)$ 的方向导数为______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 5 分, 共 25 分.",
-          "no": "5",
-          "score": 5,
-          "form": "填空",
-          "l1": "多元积分学",
-          "l2": "第一型曲线积分",
-          "stem": "$L$ 是球面 $x^2+y^2+z^2=a^2$ 与 $x=y$ 相交的圆周, 则 $\\displaystyle\\int_L\\sqrt{2y^2+z^2}\\,\\mathrm{d}s=$ ______."
-        },
-        {
-          "section": "二",
-          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
-          "no": "1",
-          "score": 10,
-          "form": "计算",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "求 $y=x^2$ 与 $y=8-x^2$ 所围区域的面积."
-        },
-        {
-          "section": "二",
-          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
-          "no": "2",
-          "score": 10,
-          "form": "计算",
-          "l1": "多元微分学",
-          "l2": "隐函数求导",
-          "stem": "$u=x^2+y^2+z^2$, 其中 $z=f(x,y)$ 是由 $x^3+y^3+z^3=3xyz$ 确定的隐函数, 求 $u_x$, $u_{xx}$."
-        },
-        {
-          "section": "二",
-          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
-          "no": "3",
-          "score": 10,
-          "form": "计算",
-          "l1": "级数",
-          "l2": "傅里叶级数",
-          "stem": "设 $f(x)=\\begin{cases}-\\dfrac{\\pi}{4},&-\\pi<x<0;\\\\[4pt] \\dfrac{\\pi}{4},&0\\le x<\\pi.\\end{cases}$ 求 $f(x)$ 的傅里叶级数展开式. 并推出 $$\\dfrac{\\sqrt{3}}{6}\\pi=1-\\dfrac{1}{5}+\\dfrac{1}{7}-\\dfrac{1}{11}+\\dfrac{1}{13}-\\dfrac{1}{17}+\\cdots.$$"
-        },
-        {
-          "section": "二",
-          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
-          "no": "4",
-          "score": 10,
-          "form": "计算",
-          "l1": "解析几何",
-          "l2": "距离与夹角",
-          "stem": "求 $(x_0,y_0,z_0)$ 到平面 $Ax+By+Cz+D=0$ 最短距离."
-        },
-        {
-          "section": "二",
-          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
-          "no": "5",
-          "score": 10,
-          "form": "计算",
-          "l1": "多元积分学",
-          "l2": "三重积分",
-          "stem": "求 $I=\\displaystyle\\iiint\\limits_{V}z^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$, $V$ 是由锥面 $z^2=\\dfrac{h^2}{R^2}(x^2+y^2)$ 与平面 $z=h$ 围成的区域."
-        },
-        {
-          "section": "二",
-          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
-          "no": "6",
-          "score": 10,
-          "form": "计算",
-          "l1": "多元积分学",
-          "l2": "第二型曲面积分",
-          "stem": "求曲面积分 $$I=\\iint\\limits_{S}y(x-z)\\,\\mathrm{d}y\\mathrm{d}z+x^2\\,\\mathrm{d}z\\mathrm{d}x+(y^2+zx)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 是曲面 $z=5-x^2-y^2$ 上 $z\\ge 1$ 部分的外侧."
-        },
-        {
-          "section": "三",
-          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "极限与连续",
-          "l2": "极限证明",
-          "stem": "$\\lim\\limits_{n\\to\\infty}a_n=a$, $a>0$, 证明: $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_n}=1$."
-        },
-        {
-          "section": "三",
-          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
-          "no": "2",
-          "score": 10,
-          "form": "证明",
-          "l1": "极限与连续",
-          "l2": "一致连续性",
-          "stem": "证明 $f(x)=x^2$ 在 $[a,b]$ 上一致连续, 在 $(-\\infty,+\\infty)$ 上不一致连续."
-        },
-        {
-          "section": "三",
-          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
-          "no": "3",
-          "score": 10,
-          "form": "证明",
-          "l1": "一元微分学",
-          "l2": "导数应用",
-          "stem": "设曲线 $$\\begin{cases}x=2(\\sin t-t\\cos t);\\\\ y=2(\\cos t+t\\sin t).\\end{cases}$$\n证明原点到曲线上任意一点处的法线的距离为常数."
-        },
-        {
-          "section": "三",
-          "section_instruction": "证明题. 每题 10 分, 共 40 分.",
-          "no": "4",
-          "score": 10,
-          "form": "证明",
-          "l1": "极限与连续",
-          "l2": "实数完备性定理",
-          "stem": "根据有限覆盖定理证明: 实数轴上的任一有界无限点集至少有一个聚点."
-        },
-        {
-          "section": "四",
-          "section_instruction": "综合题. 分值未知.",
-          "no": "1",
-          "score": null,
-          "form": "综合",
-          "l1": "多元微分学",
-          "l2": "偏导数",
-          "stem": "用 $$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{\\sqrt{x^2+y^2}},&x^2+y^2\\ne 0;\\\\[4pt] 0,&x^2+y^2=0.\\end{cases}$$\n说明偏导数连续并不是函数可微的必要条件."
-        },
-        {
-          "section": "四",
-          "section_instruction": "综合题. 分值未知.",
-          "no": "2",
-          "score": null,
-          "form": "综合",
-          "l1": "广义积分与含参积分",
-          "l2": "含参量积分",
-          "stem": "用求导, 积分计算 $I(x)=\\displaystyle\\int_0^{+\\infty}e^{-t^2}\\cos 2xt\\,\\mathrm{d}t$, 并说明原因."
-        }
-      ]
+     "section": "一",
+     "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+     "no": "1",
+     "score": 5,
+     "form": "填空",
+     "l1": "极限与连续",
+     "l2": "函数极限计算",
+     "stem": "$\\lim\\limits_{x\\to 0}\\dfrac{1}{x}\\displaystyle\\int_0^x \\cos t^3\\,\\mathrm{d}t=$______."
     },
     {
-      "school": "广西大学",
-      "year": "2025",
-      "subject": "高等代数",
-      "header_note": "61. 广西大学 2025 年高等代数试卷(回忆版)",
-      "source_imgs": ["work/imgs/2247529271_5.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "1",
-          "score": 6,
-          "form": "填空",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "设 $A,B$ 为 $n\\times n$ 矩阵, $|A|=2$, $|B|=-3$, 则 $|2A^{*}B^{-1}|=$ ______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "2",
-          "score": 6,
-          "form": "填空",
-          "l1": "矩阵与线性方程组",
-          "l2": "秩",
-          "stem": "设向量组 $\\alpha_1=(3,-2,0)^T,\\alpha_2=(27,-18,0)^T,\\alpha_3=(-1,5,8)^T$(注: 另一个版本 $\\alpha_2$ 的第二个分量是 18), 秩为______, 极大线性无关组为______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "3",
-          "score": 6,
-          "form": "填空",
-          "l1": "矩阵与线性方程组",
-          "l2": "可逆性",
-          "stem": "设 $A=\\begin{pmatrix}0&0&1&2\\\\ 0&0&1&3\\\\ 2&1&0&0\\\\ 5&3&0&0\\end{pmatrix}$, 则 $A^{-1}=$ ______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "4",
-          "score": 6,
-          "form": "填空",
-          "l1": "欧氏空间与二次型",
-          "l2": "正定与半正定",
-          "stem": "设二次型 $f(x_1,x_2,x_3)=x_1^2+kx_2^2+(k-2)x_3^2+2x_1x_2$ 正定, 求 $k$ 的取值范围______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "5",
-          "score": 6,
-          "form": "填空",
-          "l1": "多项式",
-          "l2": "根与重因式",
-          "stem": "设 $f(x)=x^4-5x^3+ax^2+bx+9\\in\\mathbb{Q}[x]$, 若 3 是 $f(x)$ 的二重根, 则 $a=$ ______, $b=$ ______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "6",
-          "score": 6,
-          "form": "填空",
-          "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "设 $V$ 为数域 $K$ 上的线性空间, $V_1,V_2$ 为 $V$ 的子空间, $\\dim V=9$, $\\dim V_1=5$, $\\dim V_2=6$, 则 $\\dim(V_1\\cap V_2)$ 的最小值为______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "7",
-          "score": 6,
-          "form": "填空",
-          "l1": "线性空间与线性变换",
-          "l2": "特征值与特征向量",
-          "stem": "设线性变换 $\\sigma$ 在 $V$ 的一组基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵是 $$A=\\begin{pmatrix}2&-2&2\\\\ -2&-1&4\\\\ 2&4&1\\end{pmatrix}.$$\n求 $\\sigma$ 的全部特征值______."
-        },
-        {
-          "section": "一",
-          "section_instruction": "填空题. 每题 6 分, 共 48 分.",
-          "no": "8",
-          "score": 6,
-          "form": "填空",
-          "l1": "欧氏空间与二次型",
-          "l2": "内积与度量",
-          "stem": "欧氏空间 $V$ 的基 $\\alpha_1,\\alpha_2,\\alpha_3$ 的度量矩阵是 $$\\begin{pmatrix}2&0&-1\\\\ 0&4&0\\\\ -1&0&1\\end{pmatrix}.$$\n$\\beta=2\\alpha_1-\\alpha_2+\\alpha_3$, 求 $|\\beta|=$ ______."
-        },
-        {
-          "section": "二",
-          "section_instruction": "",
-          "no": "1",
-          "score": 15,
-          "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "求下列 $n$ 阶行列式 $$D_n=\\begin{vmatrix}1&1&1&\\cdots&1\\\\ a_1&a_2&a_3&\\cdots&a_n\\\\ a_1^2&a_2^2&a_3^2&\\cdots&a_n^2\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ a_1^{n-1}&a_2^{n-1}&a_3^{n-1}&\\cdots&a_n^{n-1}\\end{vmatrix}\\quad(n\\ge 2).$$"
-        },
-        {
-          "section": "三",
-          "section_instruction": "",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "线性空间与线性变换",
-          "l2": "可对角化",
-          "stem": "设 $A$ 是数域 $K$ 上的 $n\\times n$ 矩阵, $A$ 可对角化, 证明: $A$ 的复特征值都属于 $K$, 且属于不同特征值的对应特征子空间的维数等于每个特征值的重数.(注. 另一个版本是证明矩阵的每个特征值的几何重数小于等于代数重数)"
-        },
-        {
-          "section": "四",
-          "section_instruction": "",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "多项式",
-          "l2": "既约性",
-          "stem": "设 $f(x)=a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$ 是一个 $n$ 次整系数多项式, 且存在素数 $p$, 使得 $$p\\nmid a_n;\\ p\\mid a_{n-1},\\cdots,a_1,a_0,\\ p^2\\nmid a_0.$$\n则 $f(x)$ 在有理数域上不可约."
-        },
-        {
-          "section": "五",
-          "section_instruction": "",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "欧氏空间与二次型",
-          "l2": "实对称矩阵",
-          "stem": "$A,B$ 是 $n$ 级实对称矩阵, $AB=BA$, 证明: 存在正交矩阵 $T$, 使得 $T^TAT, T^TBT$ 同时为对角阵."
-        },
-        {
-          "section": "六",
-          "section_instruction": "",
-          "no": "1",
-          "score": 16,
-          "form": "综合",
-          "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "$\\sigma$ 是线性空间 $V$ 上的线性变换, 其在 $V$ 的一组基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵为 $$A=\\begin{pmatrix}1&0&0\\\\ 1&2&1\\\\ 1&0&1\\end{pmatrix}$$(注. 另一版本的左下角元素为 $-1$)【?】(图片在此处截断, 本题后续设问不可见)"
-        }
-      ]
+     "section": "一",
+     "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+     "no": "2",
+     "score": 5,
+     "form": "填空",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "$f(x)=\\dfrac{3x^3+4}{x^2-2x}$ 的渐近线为______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+     "no": "3",
+     "score": 5,
+     "form": "填空",
+     "l1": "级数",
+     "l2": "幂级数",
+     "stem": "幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(x-2)^{2n-1}}{(2n-1)!}$ 的收敛区域为______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+     "no": "4",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元微分学",
+     "l2": "梯度与方向导数",
+     "stem": "$u=xyz$ 在点 $(5,1,2)$ 沿点 $(5,1,2)$ 到 $(9,4,14)$ 的方向导数为______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 5 分, 共 25 分.",
+     "no": "5",
+     "score": 5,
+     "form": "填空",
+     "l1": "多元积分学",
+     "l2": "第一型曲线积分",
+     "stem": "$L$ 是球面 $x^2+y^2+z^2=a^2$ 与 $x=y$ 相交的圆周, 则 $\\displaystyle\\int_L \\sqrt{2y^2+z^2}\\,\\mathrm{d}s=$______."
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+     "no": "1",
+     "score": 10,
+     "form": "计算",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "求 $y=x^2$ 与 $y=8-x^2$ 所围区域的面积."
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+     "no": "2",
+     "score": 10,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "隐函数求导",
+     "stem": "$u=x^2+y^2+z^2$, 其中 $z=f(x,y)$ 是由 $x^3+y^3+z^3=3xyz$ 确定的隐函数, 求 $u_x$, $u_{xx}$."
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+     "no": "3",
+     "score": 10,
+     "form": "计算",
+     "l1": "级数",
+     "l2": "傅里叶级数",
+     "stem": "设 $f(x)=\\begin{cases}-\\dfrac{\\pi}{4}, & -\\pi<x<0;\\\\ \\dfrac{\\pi}{4}, & 0\\le x<\\pi.\\end{cases}$ 求 $f(x)$ 的傅里叶级数展开式. 并推出\n$$\\dfrac{\\sqrt{3}}{6}\\pi=1-\\dfrac{1}{5}+\\dfrac{1}{7}-\\dfrac{1}{11}+\\dfrac{1}{13}-\\dfrac{1}{17}+\\cdots.$$"
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+     "no": "4",
+     "score": 10,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "条件极值",
+     "stem": "求 $(x_0,y_0,z_0)$ 到平面 $Ax+By+Cz+D=0$ 最短距离."
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+     "no": "5",
+     "score": 10,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "三重积分",
+     "stem": "求 $I=\\displaystyle\\iiint_V z^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$, $V$ 是由锥面 $z^2=\\dfrac{h^2}{R^2}(x^2+y^2)$ 与平面 $z=h$ 围成的区域."
+    },
+    {
+     "section": "二",
+     "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+     "no": "6",
+     "score": 10,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "第二型曲面积分",
+     "stem": "求曲面积分\n$$I=\\iint_S y(x-z)\\,\\mathrm{d}y\\mathrm{d}z+x^2\\,\\mathrm{d}z\\mathrm{d}x+(y^2+zx)\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 是曲面 $z=5-x^2-y^2$ 上 $z\\ge 1$ 部分的外侧."
+    },
+    {
+     "section": "三",
+     "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "极限证明",
+     "stem": "$\\lim\\limits_{n\\to\\infty}a_n=a$, $a>0$, 证明: $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_n}=1$."
+    },
+    {
+     "section": "三",
+     "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+     "no": "2",
+     "score": 10,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "一致连续性",
+     "stem": "证明 $f(x)=x^2$ 在 $[a,b]$ 上一致连续, 在 $(-\\infty,+\\infty)$ 上不一致连续."
+    },
+    {
+     "section": "三",
+     "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+     "no": "3",
+     "score": 10,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "设曲线\n$$\\begin{cases}x=2(\\sin t-t\\cos t);\\\\ y=2(\\cos t+t\\sin t).\\end{cases}$$\n证明原点到曲线上任意一点处的法线的距离为常数."
+    },
+    {
+     "section": "三",
+     "section_instruction": "证明题. 每题 10 分, 共 40 分.",
+     "no": "4",
+     "score": 10,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "实数完备性定理",
+     "stem": "根据有限覆盖定理证明: 实数轴上的任一有界无限点集至少有一个聚点."
+    },
+    {
+     "section": "四",
+     "section_instruction": "综合题. 分值未知.",
+     "no": "1",
+     "score": null,
+     "form": "综合",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "用\n$$f(x,y)=\\begin{cases}(x^2+y^2)\\sin\\dfrac{1}{\\sqrt{x^2+y^2}}, & x^2+y^2\\ne 0;\\\\ 0, & x^2+y^2=0.\\end{cases}$$\n说明偏导数连续并不是函数可微的必要条件."
+    },
+    {
+     "section": "四",
+     "section_instruction": "综合题. 分值未知.",
+     "no": "2",
+     "score": null,
+     "form": "综合",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分求导",
+     "stem": "用求导, 积分计算 $I(x)=\\displaystyle\\int_0^{+\\infty} e^{-t^2}\\cos 2xt\\,\\mathrm{d}t$, 并说明原因."
     }
-  ]
+   ]
+  },
+  {
+   "school": "广西大学",
+   "year": "2025",
+   "subject": "高等代数",
+   "header_note": "61. 广西大学 2025 年高等代数试卷(回忆版)",
+   "source_imgs": [
+    "work/imgs/2247529271_5.png",
+    "work/imgs/2247529271_6.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "1",
+     "score": 6,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "伴随矩阵",
+     "stem": "设 $A,B$ 为 $n\\times n$ 矩阵, $|A|=2$, $|B|=-3$, 则 $|2A^{*}B^{-1}|=$______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "2",
+     "score": 6,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "秩",
+     "stem": "设向量组 $\\alpha_1=(3,-2,0)^T$, $\\alpha_2=(27,-18,0)^T$, $\\alpha_3=(-1,5,8)^T$ (注. 另一个版本 $\\alpha_2$ 的第二个分量是 18), 秩为______, 极大线性无关组为______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "3",
+     "score": 6,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "可逆性",
+     "stem": "设 $A=\\begin{pmatrix}0&0&1&2\\\\0&0&1&3\\\\2&1&0&0\\\\5&3&0&0\\end{pmatrix}$, 则 $A^{-1}=$______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "4",
+     "score": 6,
+     "form": "填空",
+     "l1": "欧氏空间与二次型",
+     "l2": "正定与半正定",
+     "stem": "设二次型 $f(x_1,x_2,x_3)=x_1^2+kx_2^2+(k-2)x_3^2+2x_1x_2$ 正定, 求 $k$ 的取值范围______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "5",
+     "score": 6,
+     "form": "填空",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "设 $f(x)=x^4-5x^3+ax^2+bx+9\\in\\mathbb{Q}[x]$, 若 $3$ 是 $f(x)$ 的二重根, 则 $a=$______, $b=$______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "6",
+     "score": 6,
+     "form": "填空",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "设 $V$ 为数域 $K$ 上的线性空间, $V_1,V_2$ 为 $V$ 的子空间, $\\dim V=9$, $\\dim V_1=5$, $\\dim V_2=6$, 则 $\\dim(V_1\\cap V_2)$ 的最小值为______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "7",
+     "score": 6,
+     "form": "填空",
+     "l1": "线性空间与线性变换",
+     "l2": "特征值与特征向量",
+     "stem": "设线性变换 $\\sigma$ 在 $V$ 的一组基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵是\n$$A=\\begin{pmatrix}2&-2&2\\\\-2&-1&4\\\\2&4&1\\end{pmatrix}.$$\n求 $\\sigma$ 的全部特征值______."
+    },
+    {
+     "section": "一",
+     "section_instruction": "填空题. 每题 6 分, 共 48 分.",
+     "no": "8",
+     "score": 6,
+     "form": "填空",
+     "l1": "欧氏空间与二次型",
+     "l2": "内积与度量",
+     "stem": "欧氏空间 $V$ 的基 $\\alpha_1,\\alpha_2,\\alpha_3$ 的度量矩阵是\n$$\\begin{pmatrix}2&0&-1\\\\0&4&0\\\\-1&0&1\\end{pmatrix}.$$\n$\\beta=2\\alpha_1-\\alpha_2+\\alpha_3$, 求 $|\\beta|=$______."
+    },
+    {
+     "section": "二",
+     "section_instruction": "(15 分)",
+     "no": "1",
+     "score": 15,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "求下列 $n$ 阶行列式\n$$D_n=\\begin{vmatrix}1&1&1&\\cdots&1\\\\ a_1&a_2&a_3&\\cdots&a_n\\\\ a_1^2&a_2^2&a_3^2&\\cdots&a_n^2\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ a_1^{n-1}&a_2^{n-1}&a_3^{n-1}&\\cdots&a_n^{n-1}\\end{vmatrix}\\quad(n\\ge 2).$$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "(15 分)",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "可对角化",
+     "stem": "设 $A$ 是数域 $K$ 上的 $n\\times n$ 矩阵, $A$ 可对角化, 证明: $A$ 的复特征值都属于 $K$, 且属于不同特征值的对应特征子空间的维数等于每个特征值的重数.(注. 另一个版本是证明矩阵的每个特征值的几何重数小于等于代数重数)"
+    },
+    {
+     "section": "四",
+     "section_instruction": "(15 分)",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "多项式",
+     "l2": "既约性",
+     "stem": "设 $f(x)=a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0$ 是一个 $n$ 次整系数多项式, 且存在素数 $p$, 使得\n$$p\\nmid a_n;\\ p\\mid a_{n-1},\\cdots,a_1,a_0,\\ p^2\\nmid a_0.$$\n则 $f(x)$ 在有理数域上不可约."
+    },
+    {
+     "section": "五",
+     "section_instruction": "(15 分)",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "实对称矩阵",
+     "stem": "$A,B$ 是 $n$ 级实对称矩阵, $AB=BA$, 证明: 存在正交矩阵 $T$, 使得 $T^TAT, T^TBT$ 同时为对角阵."
+    },
+    {
+     "section": "六",
+     "section_instruction": "(16 分)",
+     "no": "1",
+     "score": 16,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "极小多项式",
+     "stem": "$\\sigma$ 是线性空间 $V$ 上的线性变换, 其在 $V$ 的一组基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵为\n$$A=\\begin{pmatrix}1&0&0\\\\1&2&1\\\\1&0&1\\end{pmatrix}.\\text{(注. 另一版本的左下角元素为 }-1\\text{)}$$\n(1) 求 $\\sigma$ 的最小多项式 $m(\\lambda)$.\n(2) 对应于 $m(\\lambda)$ 的因式分解, 写出 $V$ 的直和分解式, 并求出分解式中出现的每一个子空间的基."
+    },
+    {
+     "section": "七",
+     "section_instruction": "(16 分)",
+     "no": "1",
+     "score": 16,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "对称变换",
+     "stem": "$\\sigma$ 是欧氏空间 $V$ 上的对称变换, 且 $\\sigma^2=\\sigma$. 证明: $\\sigma$ 是从 $V$ 到 $\\sigma$ 像空间 $\\mathrm{Im}\\,\\sigma$ 的正交投影."
+    },
+    {
+     "section": "八",
+     "section_instruction": "(10 分)",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "秩",
+     "stem": "$A$ 为 $n$ 级矩阵, $E$ 为 $n$ 级单位矩阵, $A^4=E$, 证明:\n$$r(E-A)+r(E+A+A^2+A^3)=n.$$"
+    }
+   ]
+  }
+ ]
 }

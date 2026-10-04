@@ -15,7 +15,7 @@
           "score": null,
           "form": "证明",
           "l1": "极限与连续",
-          "l2": "极限证明",
+          "l2": "数列收敛性",
           "stem": "证明数列 $\\{\\sin n\\}$ 发散。"
         },
         {
@@ -46,7 +46,7 @@
           "form": "综合",
           "l1": "一元微分学",
           "l2": "导数应用",
-          "stem": "设 $a,b,c,d$ 皆为常数，$cd\\neq 0$，说明并给出理由，当 $a,b,c,d$ 满足什么条件时，$f(x)=\\dfrac{ax+b}{cx+d}$ 无极值。"
+          "stem": "设 $a,b,c,d$ 皆为常数，$cd\\ne 0$，说明并给出理由，当 $a,b,c,d$ 满足什么条件时，$f(x)=\\dfrac{ax+b}{cx+d}$ 无极值。"
         },
         {
           "section": "五",
@@ -56,7 +56,7 @@
           "form": "证明",
           "l1": "一元微分学",
           "l2": "中值定理",
-          "stem": "设 $f(x)$ 在 $(0,1)$ 上可导，在 $[0,1]$ 上连续，且 $f(1)-f(0)=2e^{-1}-1$。证明：存在 $\\xi\\in(0,1)$，使得 $e^{\\xi^2}f'(\\xi)+2\\xi^3=0$。"
+          "stem": "设 $f(x)$ 在 $(0,1)$ 上可导，在 $[0,1]$ 上连续，且 $f(1)-f(0)=2e^{-1}-1$。证明：存在 $\\xi\\in(0,1)$，使得\n$$e^{\\xi^2}f'(\\xi)+2\\xi^3=0.$$\n"
         },
         {
           "section": "六",
@@ -66,7 +66,7 @@
           "form": "综合",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "设 $f(x)=\\begin{cases}x^2, & x\\in[0,\\pi];\\\\ (x+2\\pi)^2, & x\\in[-\\pi,0).\\end{cases}$\n(1) 求 $f(x)$ 的傅里叶级数与傅里叶级数的和函数；\n(2) 证明：$\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n^2}=\\dfrac{\\pi^2}{6}$。"
+          "stem": "设 $f(x)=\\begin{cases}x^2, & x\\in[0,\\pi];\\\\ (x+2\\pi)^2, & x\\in[-\\pi,0).\\end{cases}$\n(1) 求 $f(x)$ 的傅里叶级数与傅里叶级数的和函数；\n(2) 证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^2}=\\dfrac{\\pi^2}{6}$。"
         },
         {
           "section": "七",
@@ -76,7 +76,7 @@
           "form": "综合",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "设级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{\\sin nx}{1+nx^2}$。\n(1) 当 $x$ 取何值时，级数绝对收敛？并说明理由；\n(2) 当 $x$ 取何值时，级数条件收敛？并说明理由。"
+          "stem": "设级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{\\sin nx}{1+nx^2}$。\n(1) 当 $x$ 取何值时，级数绝对收敛？并说明理由；\n(2) 当 $x$ 取何值时，级数条件收敛？并说明理由。"
         },
         {
           "section": "八",
@@ -96,17 +96,17 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "求曲面积分 $\\displaystyle\\iint_S (z^3-x)\\,\\mathrm{d}y\\mathrm{d}z-xy\\,\\mathrm{d}z\\mathrm{d}x-3z\\,\\mathrm{d}x\\mathrm{d}y$，其中 $S$ 是由曲面 $z=4-y^2$，平面 $x=0$，平面 $x=3$ 以及 $O_{xy}$ 平面围成立体的表面，取外侧。"
+          "stem": "求曲面积分\n$$\\iint_S (z^3-x)\\,\\mathrm{d}y\\mathrm{d}z-xy\\,\\mathrm{d}z\\mathrm{d}x-3z\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $S$ 是由曲面 $z=4-y^2$，平面 $x=0$，平面 $x=3$ 以及 $O_{xy}$ 平面围成立体的表面，取外侧。"
         },
         {
           "section": "十",
           "section_instruction": "",
           "no": "1",
           "score": null,
-          "form": "综合",
+          "form": "证明",
           "l1": "多元微分学",
           "l2": "隐函数存在定理",
-          "stem": "说明理由并证明：在说明条件下，方程 $F(x_1,x_2,\\cdots,x_n)=0$ 都能在 $\\mathbf{x}_0\\in\\mathbb{R}^n$ 附近唯一确定可微函数 $x_j=x_j(x_1,\\cdots,x_{j-1},x_{j+1},\\cdots,x_n)$。\n并在 $\\mathbf{x}_0$ 附近，求 $\\dfrac{\\partial x_1}{\\partial x_2}(\\mathbf{x})\\cdot\\dfrac{\\partial x_2}{\\partial x_3}(\\mathbf{x})\\cdots\\dfrac{\\partial x_{n-1}}{\\partial x_n}(\\mathbf{x})\\cdot\\dfrac{\\partial x_n}{\\partial x_1}(\\mathbf{x})$。"
+          "stem": "说明理由并证明：在说明条件下，方程 $F(x_1,x_2,\\cdots,x_n)=0$ 都能在 $\\boldsymbol{x}_0\\in\\mathbb{R}^n$ 附近唯一确定可微函数\n$$x_j=x_j(x_1,\\cdots,x_{j-1},x_{j+1},\\cdots,x_n).$$\n并在 $\\boldsymbol{x}_0$ 附近，求 $\\dfrac{\\partial x_1}{\\partial x_2}(\\boldsymbol{x})\\cdot\\dfrac{\\partial x_2}{\\partial x_3}(\\boldsymbol{x})\\cdots\\dfrac{\\partial x_{n-1}}{\\partial x_n}(\\boldsymbol{x})\\cdot\\dfrac{\\partial x_n}{\\partial x_1}(\\boldsymbol{x})$。"
         },
         {
           "section": "十一",
@@ -115,8 +115,8 @@
           "score": null,
           "form": "证明",
           "l1": "多元微分学",
-          "l2": "梯度与方向导数",
-          "stem": "设函数 $u$ 在 $\\mathbb{R}^n$ 上可微，且存在常数 $c_0>0$，使得 $\\lim\\limits_{|\\mathbf{x}|\\to+\\infty}|\\mathbf{x}\\cdot\\nabla u(\\mathbf{x})|\\ge c_0$，其中 $\\nabla=\\left(\\dfrac{\\partial}{\\partial x_1},\\dfrac{\\partial}{\\partial x_2},\\cdots,\\dfrac{\\partial}{\\partial x_n}\\right)$。\n(1) 证明：若 $\\lim\\limits_{|\\mathbf{x}|\\to+\\infty}u(\\mathbf{x})=+\\infty$；\n(2) 证明：存在 $\\boldsymbol{\\xi}_0\\in\\mathbb{R}^n$，使得 $\\nabla u(\\boldsymbol{\\xi}_0)=0$。"
+          "l2": "极值与最值",
+          "stem": "设函数 $u$ 在 $\\mathbb{R}^n$ 上可微，且存在常数 $c_0>0$，使得 $\\lim\\limits_{|\\boldsymbol{x}|\\to+\\infty}|\\boldsymbol{x}\\cdot\\nabla u(\\boldsymbol{x})|\\ge c_0$，其中 $\\nabla=\\left(\\dfrac{\\partial}{\\partial x_1},\\dfrac{\\partial}{\\partial x_2},\\cdots,\\dfrac{\\partial}{\\partial x_n}\\right)$。\n(1) 证明：若 $\\lim\\limits_{|\\boldsymbol{x}|\\to+\\infty}u(\\boldsymbol{x})=+\\infty$；\n(2) 证明：存在 $\\boldsymbol{\\xi}_0\\in\\mathbb{R}^n$，使得 $\\nabla u(\\boldsymbol{\\xi}_0)=0$。"
         },
         {
           "section": "十二",
@@ -125,8 +125,8 @@
           "score": null,
           "form": "综合",
           "l1": "多元微分学",
-          "l2": "调和函数",
-          "stem": "设 $\\mathbb{R}^3$ 上的函数 $u$ 具有二阶连续偏导数，且不恒为常数，并满足方程 $\\Delta u+u^5=0$，$\\Delta=\\dfrac{\\partial^2}{\\partial x^2}+\\dfrac{\\partial^2}{\\partial y^2}+\\dfrac{\\partial^2}{\\partial z^2}$。令 $u_\\lambda(x,y,z)=\\lambda^\\alpha u(\\lambda x,\\lambda y,\\lambda z)$，$\\alpha$ 是某非零常数，使得对任意的 $\\lambda>0$，函数 $u_\\lambda$ 都满足 $\\Delta u_\\lambda+u_\\lambda^5=0$。\n(1) 求常数 $\\alpha$；\n(2) 若积分 $\\displaystyle\\int_{\\mathbb{R}^3}|\\nabla u(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$ 收敛，则对任意的 $\\lambda>0$，以下等式成立：$\\displaystyle\\int_{\\mathbb{R}^3}|\\nabla u_\\lambda(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\int_{\\mathbb{R}^3}|\\nabla u(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$。这里 $\\nabla=\\left(\\dfrac{\\partial}{\\partial x},\\dfrac{\\partial}{\\partial y},\\dfrac{\\partial}{\\partial z}\\right)$。\n(3) 假设 $D$ 是 $\\mathbb{R}^3$ 中的一个有界光滑曲面 $\\partial D$ 围成的区域，且 $u|_{\\partial D}=0$，证明：$\\displaystyle\\int_D|u(x,y,z)|^6\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\int_D|\\nabla u(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$。"
+          "l2": "偏导数",
+          "stem": "设 $\\mathbb{R}^3$ 上的函数 $u$ 具有二阶连续偏导数，且不恒为常数，并满足方程 $\\Delta u+u^5=0$，$\\Delta=\\dfrac{\\partial^2}{\\partial x^2}+\\dfrac{\\partial^2}{\\partial y^2}+\\dfrac{\\partial^2}{\\partial z^2}$。令 $u_\\lambda(x,y,z)=\\lambda^\\alpha u(\\lambda x,\\lambda y,\\lambda z)$，$\\alpha$ 是某非零常数，使得对任意的 $\\lambda>0$，函数 $u_\\lambda$ 都满足 $\\Delta u_\\lambda+u_\\lambda^5=0$。\n(1) 求常数 $\\alpha$；\n(2) 若积分 $\\displaystyle\\int_{\\mathbb{R}^3}|\\nabla u(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$ 收敛，则对任意的 $\\lambda>0$，以下等式成立：\n$$\\int_{\\mathbb{R}^3}|\\nabla u_\\lambda(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\int_{\\mathbb{R}^3}|\\nabla u(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n这里 $\\nabla=\\left(\\dfrac{\\partial}{\\partial x},\\dfrac{\\partial}{\\partial y},\\dfrac{\\partial}{\\partial z}\\right)$。\n(3) 假设 $D$ 是 $\\mathbb{R}^3$ 中的一个有界光滑曲面 $\\partial D$ 围成的区域，且 $u|_{\\partial D}=0$，证明：\n$$\\int_D|u(x,y,z)|^6\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z=\\int_D|\\nabla u(x,y,z)|^2\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n"
         }
       ]
     },
@@ -135,7 +135,7 @@
       "year": "2022",
       "subject": "高等代数",
       "header_note": "21. 天津大学 2022 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247510215-2_5.png"],
+      "source_imgs": ["work/imgs/2247510215-2_5.png", "work/imgs/2247510215-2_6.png"],
       "questions": [
         {
           "section": "一",
@@ -155,7 +155,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设 $A=\\begin{pmatrix}1&1&1&\\cdots&1\\\\ 1&2&1&\\cdots&1\\\\ 1&1&3&\\cdots&1\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ 1&1&1&\\cdots&n\\end{pmatrix}$。令 $A_{ij}$ 表示 $(i,j)$ 元的代数余子式，求 $\\sum\\limits_{i=1}^{n}\\sum\\limits_{j=1}^{n}A_{ij}$。"
+          "stem": "设\n$$A=\\begin{pmatrix}1&1&1&\\cdots&1\\\\ 1&2&1&\\cdots&1\\\\ 1&1&3&\\cdots&1\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ 1&1&1&\\cdots&n\\end{pmatrix}.$$\n令 $A_{ij}$ 表示 $(i,j)$ 元的代数余子式，求 $\\displaystyle\\sum_{i=1}^{n}\\sum_{j=1}^{n}A_{ij}$。"
         },
         {
           "section": "三",
@@ -175,7 +175,7 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "当 $a,b$ 取何值时，以下方程组有解？并求其解。$\\begin{cases}x_1+x_2-x_3+x_4+x_5=1;\\\\ 5x_1+4x_2-3x_3+3x_4-x_5=a;\\\\ x_2-2x_3+2x_4+6x_5=3;\\\\ 3x_1+2x_2-x_3+x_4-3x_5=b.\\end{cases}$"
+          "stem": "当 $a,b$ 取何值时，以下方程组有解？并求其解。\n$$\\begin{cases}x_1+x_2-x_3+x_4+x_5=1;\\\\ 5x_1+4x_2-3x_3+3x_4-x_5=a;\\\\ x_2-2x_3+2x_4+6x_5=3;\\\\ 3x_1+2x_2-x_3+x_4-3x_5=b.\\end{cases}$$"
         },
         {
           "section": "五",
@@ -185,7 +185,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 是数域 $P$ 上的 $n$ 维线性空间 $V$ 的两组基。\n(1) 令 $V_1$ 表示在上述两组基上坐标完全相同的全体向量构成的集合，即 $V_1=\\{\\alpha\\in V\\mid \\exists\\, x_1,x_2,\\cdots,x_n\\in P$ 使得 $\\alpha=x_1\\alpha_1+x_2\\alpha_2+\\cdots+x_n\\alpha_n=x_1\\beta_1+x_2\\beta_2+\\cdots+x_n\\beta_n\\}$。证明：$V_1$ 是 $V$ 的一个子空间；\n(2) 设由 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 到 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 的过渡矩阵为 $A$。证明：如果矩阵 $E_n-A$ 的秩为 $r$（其中 $E_n$ 为 $n$ 阶单位矩阵），那么 $V_1$ 的维数为 $n-r$。"
+          "stem": "设 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 与 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 是数域 $P$ 上的 $n$ 维线性空间 $V$ 的两组基。\n(1) 令 $V_1$ 表示在上述两组基上坐标完全相同的全体向量构成的集合，即\n$$V_1=\\{\\alpha\\in V\\mid \\exists\\, x_1,x_2,\\cdots,x_n\\in P \\text{ 使得 } \\alpha=x_1\\alpha_1+x_2\\alpha_2+\\cdots+x_n\\alpha_n=x_1\\beta_1+x_2\\beta_2+\\cdots+x_n\\beta_n\\}.$$\n证明：$V_1$ 是 $V$ 的一个子空间；\n(2) 设由 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 到 $\\beta_1,\\beta_2,\\cdots,\\beta_n$ 的过渡矩阵为 $A$。证明：如果矩阵 $E_n-A$ 的秩为 $r$（其中 $E_n$ 为 $n$ 阶单位矩阵），那么 $V_1$ 的维数为 $n-r$。"
         },
         {
           "section": "六",
@@ -205,7 +205,27 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "内积与度量",
-          "stem": "设 $V$ 是 $n$ 维欧氏空间，$e_1,e_2,\\cdots,e_n$ 是 $V$ 的一组标准正交基，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n\\in V$ 是一组向量，$(e_i,\\alpha_j)$ 表示 $e_i$ 和 $\\alpha_j$ 的内积，证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关的充分必要条件是 $\\begin{vmatrix}(e_1,\\alpha_1)&(e_1,\\alpha_2)&\\cdots&(e_1,\\alpha_n)\\\\ (e_2,\\alpha_1)&(e_2,\\alpha_2)&\\cdots&(e_2,\\alpha_n)\\\\ \\vdots&\\vdots&&\\vdots\\\\ (e_n,\\alpha_1)&(e_n,\\alpha_2)&\\cdots&(e_n,\\alpha_n)\\end{vmatrix}\\neq 0$。"
+          "stem": "设 $V$ 是 $n$ 维欧氏空间，$e_1,e_2,\\cdots,e_n$ 是 $V$ 的一组标准正交基，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n\\in V$ 是一组向量，$(e_i,\\alpha_j)$ 表示 $e_i$ 和 $\\alpha_j$ 的内积，证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$ 线性无关的充分必要条件是\n$$\\begin{vmatrix}(e_1,\\alpha_1)&(e_1,\\alpha_2)&\\cdots&(e_1,\\alpha_n)\\\\ (e_2,\\alpha_1)&(e_2,\\alpha_2)&\\cdots&(e_2,\\alpha_n)\\\\ \\vdots&\\vdots&&\\vdots\\\\ (e_n,\\alpha_1)&(e_n,\\alpha_2)&\\cdots&(e_n,\\alpha_n)\\end{vmatrix}\\ne 0.$$\n"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "设 $P$ 是一个数域，$a_0,a_1,\\cdots,a_{n-1}\\in P$，求如下 $\\lambda$-矩阵的所有不变因子。\n$$A(\\lambda)=\\begin{pmatrix}\\lambda&0&0&\\cdots&0&a_0\\\\ -1&\\lambda&0&\\cdots&0&a_1\\\\ 0&-1&\\lambda&\\cdots&0&a_2\\\\ \\vdots&\\vdots&\\vdots&&\\vdots&\\vdots\\\\ 0&0&0&\\cdots&\\lambda&a_{n-2}\\\\ 0&0&0&\\cdots&-1&\\lambda+a_{n-1}\\end{pmatrix}.$$\n"
+        },
+        {
+          "section": "九",
+          "section_instruction": "（10 分）",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "对于 $n$ 阶矩阵 $A=(a_{ij})_{n\\times n}$，定义 $\\operatorname{tr}(A)=\\sum\\limits_{i=1}^{n}a_{ii}$，求全体 $n$ 阶实方阵构成的线性空间 $M_n(\\mathbb{R})$ 上关于变量 $x_{ij}$（$i,j=1,2,\\cdots,n$）的二次型 $\\operatorname{tr}(X^2)$（其中 $X=(x_{ij})_{n\\times n}\\in M_n(\\mathbb{R})$）的正惯性指数和负惯性指数。"
         }
       ]
     }

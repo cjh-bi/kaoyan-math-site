@@ -175,7 +175,7 @@
       "year": "2023",
       "subject": "高等代数",
       "header_note": "63. 电子科技大学 2023 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247516351-2_6.png"],
+      "source_imgs": ["work/imgs/2247516351-2_6.png", "work/imgs/2247516351-2_7.png"],
       "questions": [
         {
           "section": "一",
@@ -295,7 +295,37 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "不变子空间",
-          "stem": "设 $\\mathscr{A},\\mathscr{B}$ 是 $n$ 维复线性空间 $V$ 上的线性变换, 满足 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$, $\\lambda$ 是 $\\mathscr{A}$ 的复特征值, 此时 $\\mathscr{A}$ 的相应特征子空间 $V_{\\lambda}=\\{\\alpha\\mid\\mathscr{A}\\alpha=\\lambda\\alpha\\}\\neq 0$. 【?】(图片在此截断，需证明的结论缺失)"
+          "stem": "设 $\\mathscr{A},\\mathscr{B}$ 是 $n$ 维复线性空间 $V$ 上的线性变换, 满足 $\\mathscr{A}\\mathscr{B}=\\mathscr{B}\\mathscr{A}$, $\\lambda$ 是 $\\mathscr{A}$ 的复特征值, 此时 $\\mathscr{A}$ 的相应特征子空间 $V_{\\lambda}=\\{\\alpha\\mid\\mathscr{A}\\alpha=\\lambda\\alpha\\}\\neq 0$.\n(1) 证明 $V_{\\lambda}$ 是一个 $\\mathscr{B}-$子空间;\n(2) 将 $\\mathscr{B}$ 限制到 $V_{\\lambda}$ 得到的线性变换记为 $B|_{V_{\\lambda}}$, 如果 $\\mathscr{B}$ 可对角化, 证明 $B|_{V_{\\lambda}}$ 也可对角化.\n(3) 若 $\\mathscr{A},\\mathscr{B}$ 都可以对角化, 证明: 存在 $V$ 的基 $\\alpha_{1},\\alpha_{2},\\cdots,\\alpha_{n}$, 使得 $\\mathscr{A},\\mathscr{B}$ 在该基下的矩阵都为对角阵."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "2",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A,C$ 都是 $n$ 阶实对称矩阵, $B$ 是 $n$ 阶实矩阵, $\\begin{pmatrix}A&B\\\\B^{T}&C\\end{pmatrix}$ 是正定矩阵.\n(1) 证明: $C-B^{T}A^{-1}B$ 正定;\n(2) 证明: $\\begin{vmatrix}A&B\\\\B^{T}&C\\end{vmatrix}\\le|A|\\cdot|C|$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设数域 $F$ 上的 $n$ 阶方阵 $A,B$ 满足 $AB=BA=O$, 且秩 $\\operatorname{rank}(A)=n-1$. 设非零向量 $\\alpha,\\beta$ 分别是 $AX=0$ 与 $A^{T}X=0$ 的非零解.\n(1) 证明: 存在数 $k\\in F$, 使得 $B=k\\alpha\\beta^{T}$;\n(2) 证明: 存在多项式 $q(x)\\in F[x]$, 使得 $B=q(A)$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题(每题 15 分, 共 60 分)",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $V$ 是 $n$ ($n>1$) 维欧氏空间, $\\alpha$ 是 $V$ 中的单位向量.\n(1) $V$ 上的正交变换 $\\mathscr{B}$ 称为关于 $\\alpha$ 的镜面反射, 如果 $\\mathscr{B}$ 满足:\n(i) 若 $(\\alpha,\\beta)=0$, 则 $\\mathscr{B}\\beta=\\beta$;\n(ii) $\\mathscr{B}\\alpha=-\\alpha$.\n证明: 如果正交变换 $\\mathscr{B}$ 是关于 $\\alpha$ 的镜面反射, 则 $\\mathscr{B}\\gamma=\\gamma-2(\\alpha,\\gamma)\\alpha$, $\\forall\\gamma\\in V$.\n(2) 设 $\\beta$ 也是 $V$ 中的单位向量, 证明: 存在正交变换 $\\mathscr{A}$ 使得 $\\dim\\operatorname{Ker}(\\mathscr{A}-1_{V})=n-1$ 且 $\\mathscr{A}\\alpha=\\beta$, 其中 $1_{V}$ 表示 $V$ 上的恒等变换."
         }
       ]
     }

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2021 数学分析 一11 · 数学考研真题库</title>
-<meta name="description" content="证明如下结论。 (a) 设 {R}^3 为边界分段光滑的有界闭区域，函数 u,\,v 在 上具有二阶连续偏导数，证明 _{ }(u v-v u)\, {d}x {d}y {d}z= _{ }(u{ v}{ {n}}-v{ u}{ {n}}) {d}S. 其中 {n} 为 的单位外法向量， ={ ^2">
+<meta name="description" content="证明如下结论。 (a) 设 {R}^3 为边界分段光滑的有界闭区域，函数 u ， v 在 上具有二阶连续偏导数，证明 _ (u v-v u)\, {d}x {d}y {d}z= _{ }(u{ v}{ {n}}-v{ u}{ {n}}) {d}S, 其中 {n} 为 的单位外法向量， ={ ^2}{">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/katex/katex.min.css">
 <link rel="stylesheet" href="../assets/site.css?v=20260925135128">
@@ -40,13 +40,18 @@
       <span class="sep">|</span>
       <span class="t">证明</span>
 <span class="sep">|</span><span class="t">30 分</span>    </h1>
-    <div class="qstem">证明如下结论。<br>(a) 设 $\Omega\subseteq\mathbb{R}^3$ 为边界分段光滑的有界闭区域，函数 $u,\,v$ 在 $\Omega$ 上具有二阶连续偏导数，证明<br>$$\iiint_{\Omega}(u\Delta v-v\Delta u)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_{\partial\Omega}\left(u\dfrac{\partial v}{\partial \boldsymbol{n}}-v\dfrac{\partial u}{\partial \boldsymbol{n}}\right)\mathrm{d}S.$$<br>其中 $\boldsymbol{n}$ 为 $\partial\Omega$ 的单位外法向量，$\Delta=\dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}+\dfrac{\partial^2}{\partial z^2}$。</div>
+    <div class="qstem">证明如下结论。<br>(a) 设 $\Omega\subseteq\mathbb{R}^3$ 为边界分段光滑的有界闭区域，函数 $u$，$v$ 在 $\Omega$ 上具有二阶连续偏导数，证明<br>$$\iiint_\Omega(u\Delta v-v\Delta u)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_{\partial\Omega}\left(u\dfrac{\partial v}{\partial\mathbf{n}}-v\dfrac{\partial u}{\partial\mathbf{n}}\right)\mathrm{d}S,$$<br>其中 $\mathbf{n}$ 为 $\partial\Omega$ 的单位外法向量，$\Delta=\dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}+\dfrac{\partial^2}{\partial z^2}$。<br>(b) 设 $\Omega$ 及 $u$ 满足 (a) 的条件，证明<br>$$\iiint_\Omega\Delta u\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_{\partial\Omega}\dfrac{\partial u}{\partial\mathbf{n}}\mathrm{d}S.$$<br>(c) 证明：对任意非零的 $\mathbf{x}\in\mathbb{R}^3$，有 $\Delta(|\mathbf{x}|^{-1})=0$，对任意非零的 $\mathbf{x}\in\mathbb{R}^2$，有 $\Delta(\ln|\mathbf{x}|)=0$。<br>(d) 记单位球 $B=\{(x,y,z)\mid x^2+y^2+z^2\le 1\}$，设 $u$ 在 $B$ 上具有二阶连续偏导数，且 $\Delta u=0$，证明<br>$$u(0)=\dfrac{1}{4\pi}\iint_{\partial B}u\,\mathrm{d}S.$$</div>
     <div class="toolbar" style="margin-top:14px">
       <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
       <button class="btn small copy-btn" data-stem="证明如下结论。
-(a) 设 $\Omega\subseteq\mathbb{R}^3$ 为边界分段光滑的有界闭区域，函数 $u,\,v$ 在 $\Omega$ 上具有二阶连续偏导数，证明
-$$\iiint_{\Omega}(u\Delta v-v\Delta u)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_{\partial\Omega}\left(u\dfrac{\partial v}{\partial \boldsymbol{n}}-v\dfrac{\partial u}{\partial \boldsymbol{n}}\right)\mathrm{d}S.$$
-其中 $\boldsymbol{n}$ 为 $\partial\Omega$ 的单位外法向量，$\Delta=\dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}+\dfrac{\partial^2}{\partial z^2}$。" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+(a) 设 $\Omega\subseteq\mathbb{R}^3$ 为边界分段光滑的有界闭区域，函数 $u$，$v$ 在 $\Omega$ 上具有二阶连续偏导数，证明
+$$\iiint_\Omega(u\Delta v-v\Delta u)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_{\partial\Omega}\left(u\dfrac{\partial v}{\partial\mathbf{n}}-v\dfrac{\partial u}{\partial\mathbf{n}}\right)\mathrm{d}S,$$
+其中 $\mathbf{n}$ 为 $\partial\Omega$ 的单位外法向量，$\Delta=\dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}+\dfrac{\partial^2}{\partial z^2}$。
+(b) 设 $\Omega$ 及 $u$ 满足 (a) 的条件，证明
+$$\iiint_\Omega\Delta u\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_{\partial\Omega}\dfrac{\partial u}{\partial\mathbf{n}}\mathrm{d}S.$$
+(c) 证明：对任意非零的 $\mathbf{x}\in\mathbb{R}^3$，有 $\Delta(|\mathbf{x}|^{-1})=0$，对任意非零的 $\mathbf{x}\in\mathbb{R}^2$，有 $\Delta(\ln|\mathbf{x}|)=0$。
+(d) 记单位球 $B=\{(x,y,z)\mid x^2+y^2+z^2\le 1\}$，设 $u$ 在 $B$ 上具有二阶连续偏导数，且 $\Delta u=0$，证明
+$$u(0)=\dfrac{1}{4\pi}\iint_{\partial B}u\,\mathrm{d}S.$$" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
       <a class="btn small" href="../paper/major-0701-2021-tju-7414d2e7.html#major-0701-2021-tju-7414d2e7-q0011">在试卷中查看</a>
     </div>
     <div class="notice" style="margin-top:18px">
@@ -71,8 +76,8 @@ $$\iiint_{\Omega}(u\Delta v-v\Delta u)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\iint_
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 18937 题</span>
-    <span>生成于 2026-10-03 16:21 · <a href="../about.html">数据说明</a></span>
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21428 题</span>
+    <span>生成于 2026-10-05 00:00 · <a href="../about.html">数据说明</a></span>
   </div>
 </footer>
 <script defer src="../assets/katex/katex.min.js"></script>

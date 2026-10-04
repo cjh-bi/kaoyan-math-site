@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "多元微分学",
           "l2": "隐函数求导",
-          "stem": "设 $z=x^2+y^2$, 其中 $y=f(x)$ 是由方程 $x^2-xy+y^2=1$ 确定的隐函数, 求 $\\dfrac{\\mathrm{d}^2 z}{\\mathrm{d}x^2}$。"
+          "stem": "设 $z=x^2+y^2$，其中 $y=f(x)$ 是由方程 $x^2-xy+y^2=1$ 确定的隐函数，求 $\\dfrac{\\mathrm{d}^2 z}{\\mathrm{d}x^2}$。"
         },
         {
           "section": "一",
@@ -34,9 +34,9 @@
           "no": "4",
           "score": null,
           "form": "计算",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "抛物线 $y^2=2x$ 将 $x^2+y^2\\le 8$ 分成左右两部分, 求左右两部分面积之比。"
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "抛物线 $y^2=2x$ 将 $x^2+y^2\\le 8$ 分成左右两部分，求左右两部分面积之比。"
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "计算",
           "l1": "一元微分学",
           "l2": "导数应用",
-          "stem": "求 $y^2=2px$ 上一点, 使得此点处的法线被抛物线截取的线段最短。"
+          "stem": "求 $y^2=2px$ 上一点，使得此点处的法线被抛物线截取的线段最短。"
         },
         {
           "section": "一",
@@ -56,7 +56,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲线积分",
-          "stem": "求曲线积分 $\\displaystyle\\int_L xy\\,\\mathrm{d}s$, 其中 $L$ 为椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ 在第一象限的部分。"
+          "stem": "求曲线积分 $\\displaystyle\\int_L xy\\,\\mathrm{d}s$，其中 $L$ 为椭圆 $\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1$ 在第一象限的部分。"
         },
         {
           "section": "一",
@@ -66,7 +66,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "三重积分",
-          "stem": "求重积分 $\\displaystyle\\iiint_V (x^2+y^2+z)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$, 其中 $V$ 是直线 $z=y, x=0$ 绕 $z$ 轴旋转所得曲面与 $z=1$ 围成的区域。"
+          "stem": "求重积分 $\\displaystyle\\iiint_V (x^2+y^2+z)\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z$，其中 $V$ 是直线 $z=y, x=0$ 绕 $z$ 轴旋转所得曲面与 $z=1$ 围成的区域。"
         },
         {
           "section": "一",
@@ -86,7 +86,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第一型曲面积分",
-          "stem": "求曲面积分 $\\displaystyle\\iint_S (x+y+z)\\,\\mathrm{d}S$, 其中 $S: x^2+y^2+z^2=a^2,\\ z\\ge 0$。"
+          "stem": "求曲面积分 $\\displaystyle\\iint_S (x+y+z)\\,\\mathrm{d}S$，其中 $S: x^2+y^2+z^2=a^2,\\ z\\ge 0$。"
         },
         {
           "section": "一",
@@ -95,8 +95,8 @@
           "score": null,
           "form": "证明",
           "l1": "极限与连续",
-          "l2": "数列极限计算",
-          "stem": "已知 $\\lim\\limits_{n\\to\\infty}a_n=a$, 若 $a_n,a>0$, 证明: $\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_n}=1$。"
+          "l2": "极限证明",
+          "stem": "已知 $\\lim\\limits_{n\\to\\infty} a_n=a$，若 $a_n,a>0$，证明：$\\lim\\limits_{n\\to\\infty}\\sqrt[n]{a_n}=1$。"
         },
         {
           "section": "一",
@@ -106,7 +106,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "一致连续性",
-          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上连续, 且 $\\lim\\limits_{x\\to+\\infty}f(x)$ 存在, 证明: $f(x)$ 在 $[a,+\\infty)$ 上一致连续。"
+          "stem": "设 $f(x)$ 在 $[a,+\\infty)$ 上连续，且 $\\lim\\limits_{x\\to+\\infty} f(x)$ 存在，证明：$f(x)$ 在 $[a,+\\infty)$ 上一致连续。"
         },
         {
           "section": "一",
@@ -116,7 +116,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "连续与有界性",
-          "stem": "证明 $f(x)=x^3e^{-x^2}$ 是有界函数。"
+          "stem": "证明 $f(x)=x^3 e^{-x^2}$ 是有界函数。"
         },
         {
           "section": "一",
@@ -126,7 +126,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "证明 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin xy}{y}\\,\\mathrm{d}y$ 在 $[\\delta,+\\infty)\\ (\\delta>0)$ 上一致收敛, 在 $(0,+\\infty)$ 上不一致收敛。"
+          "stem": "证明 $\\displaystyle\\int_0^{+\\infty}\\dfrac{\\sin xy}{y}\\,\\mathrm{d}y$ 在 $[\\delta,+\\infty)\\ (\\delta>0)$ 上一致收敛，在 $(0,+\\infty)$ 上不一致收敛。"
         },
         {
           "section": "一",
@@ -146,7 +146,7 @@
           "form": "证明",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "设 $S$ 是包围 $V$ 的光滑曲面, 证明 $V$ 的体积 $\\Delta V$ 为\n$$\\Delta V=\\dfrac{1}{3}\\iint_S (x\\cos\\alpha+y\\cos\\beta+z\\cos\\gamma)\\,\\mathrm{d}S.$$\n其中 $\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 是曲面 $S$ 外法线的方向余弦。"
+          "stem": "设 $S$ 是包围 $V$ 的光滑曲面，证明 $V$ 的体积 $\\Delta V$ 为\n$$\\Delta V=\\dfrac{1}{3}\\iint_S (x\\cos\\alpha+y\\cos\\beta+z\\cos\\gamma)\\,\\mathrm{d}S.$$\n其中 $\\cos\\alpha,\\cos\\beta,\\cos\\gamma$ 是曲面 $S$ 外法线的方向余弦。"
         }
       ]
     },
@@ -155,7 +155,7 @@
       "year": "2024",
       "subject": "高等代数",
       "header_note": "61. 广西大学 2024 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247521640-1_5.png"],
+      "source_imgs": ["work/imgs/2247521640-1_5.png", "work/imgs/2247521640-1_6.png"],
       "questions": [
         {
           "section": "一",
@@ -165,7 +165,7 @@
           "form": "填空",
           "l1": "多项式",
           "l2": "整除",
-          "stem": "若 $x^2+1\\mid x^4+kx^2+1$, 则 $k=$____。"
+          "stem": "若 $x^2+1\\mid x^4+kx^2+1$，则 $k=\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -175,7 +175,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "设向量组\n$$\\alpha_1=(1,0,3,4,3)',\\ \\alpha_2=(3,-1,2,1,3)',\\ \\alpha_3=(-1,1,0,5,2)',\\ \\alpha_4=(3,0,5,10,8)',\\ \\alpha_5=(-1,0,1,-2,-2)'$$\n则 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 的秩是____。"
+          "stem": "设向量组\n$$\\alpha_1=(1,0,3,4,3)',\\ \\alpha_2=(3,-1,2,1,3)',\\ \\alpha_3=(-1,1,0,5,2)',\\ \\alpha_4=(3,0,5,10,8)',\\ \\alpha_5=(-1,0,1,-2,-2)'$$\n则 $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4,\\alpha_5$ 的秩是 $\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -185,7 +185,7 @@
           "form": "填空",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "已知二次型 $x_1^2+x_2^2+5x_3^2+2tx_1x_2-2x_1x_3+4x_2x_3$ 是正定的, 则 $t$ 满足____。"
+          "stem": "已知二次型 $x_1^2+x_2^2+5x_3^2+2tx_1x_2-2x_1x_3+4x_2x_3$ 是正定的，则 $t$ 满足 $\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -195,7 +195,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设 $P$ 为数域, 在 $P^4$ 中, 令\n$$W_1=\\{(x_1,x_2,x_3,x_4)\\mid x_1-2x_2+2x_4=0,\\ x_1+2x_3=0\\};$$\n$$W_2=\\{(x_1,x_2,x_3,x_4)\\mid x_1-4x_2-2x_3+4x_4=0.\\}$$\n则 $W_1\\cap W_2$ 的维数是____。"
+          "stem": "设 $P$ 为数域，在 $P^4$ 中，令\n$$W_1=\\{(x_1,x_2,x_3,x_4)\\mid x_1-2x_2+2x_4=0,\\ x_1+2x_3=0\\};$$\n$$W_2=\\{(x_1,x_2,x_3,x_4)\\mid x_1-4x_2-2x_3+4x_4=0.\\}$$\n则 $W_1\\cap W_2$ 的维数是 $\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -205,7 +205,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "矩阵多项式",
-          "stem": "若 $AB=BA$, 矩阵 $B$ 就称与 $A$ 可交换, 则所有与 $\\begin{pmatrix}0&1&0\\\\ 0&0&1\\\\ 0&0&0\\end{pmatrix}$ 可交换的矩阵为____。"
+          "stem": "若 $AB=BA$，矩阵 $B$ 就称与 $A$ 可交换，则所有与 $\\begin{pmatrix}0&1&0\\\\ 0&0&1\\\\ 0&0&0\\end{pmatrix}$ 可交换的矩阵为 $\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -215,7 +215,7 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "若方程组 $\\begin{cases}x_1+x_2+x_3=3;\\\\ x_1+2x_2-ax_3=9;\\\\ 2x_1-x_2+3x_3=6.\\end{cases}$ 有唯一解, 则 $a$ 满足的条件是____。"
+          "stem": "若方程组 $\\begin{cases}x_1+x_2+x_3=3;\\\\ x_1+2x_2-ax_3=9;\\\\ 2x_1-x_2+3x_3=6\\end{cases}$ 有唯一解，则 $a$ 满足的条件是 $\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -225,7 +225,7 @@
           "form": "填空",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "设 $P$ 为数域, 在 $P^3$ 中给出一组基 $\\alpha_1=(-1,0,2),\\alpha_2=(0,1,1),\\alpha_3=(3,-1,0)$, 定义线性变换 $\\sigma$ 如下: $\\sigma(\\alpha_1)=(-5,0,3),\\sigma(\\alpha_2)=(0,-1,6),\\sigma(\\alpha_3)=(-5,-1,9)$. 则 $\\sigma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵为____。"
+          "stem": "设 $P$ 为数域，在 $P^3$ 中给出一组基 $\\alpha_1=(-1,0,2),\\alpha_2=(0,1,1),\\alpha_3=(3,-1,0)$，定义线性变换 $\\sigma$ 如下：$\\sigma(\\alpha_1)=(-5,0,3),\\sigma(\\alpha_2)=(0,-1,6),\\sigma(\\alpha_3)=(-5,-1,9)$。则 $\\sigma$ 在基 $\\alpha_1,\\alpha_2,\\alpha_3$ 下的矩阵为 $\\underline{\\qquad}$。"
         },
         {
           "section": "一",
@@ -235,47 +235,77 @@
           "form": "填空",
           "l1": "矩阵与线性方程组",
           "l2": "相似",
-          "stem": "设二阶矩阵 $\\begin{pmatrix}-2&1\\\\ 0&t\\end{pmatrix}$ 与 $\\begin{pmatrix}-10&-4\\\\ 26&11\\end{pmatrix}$ 相似, 则 $t=$____。"
+          "stem": "设二阶矩阵 $\\begin{pmatrix}-2&1\\\\ 0&t\\end{pmatrix}$ 与 $\\begin{pmatrix}-10&-4\\\\ 26&11\\end{pmatrix}$ 相似，则 $t=\\underline{\\qquad}$。"
         },
         {
           "section": "二",
-          "section_instruction": "（12 分）",
+          "section_instruction": "(12 分)",
           "no": "1",
           "score": 12,
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix}x&a&a&\\cdots&a\\\\ -a&x&a&\\cdots&a\\\\ -a&-a&x&\\cdots&a\\\\ \\vdots&\\vdots&\\vdots& &\\vdots\\\\ -a&-a&-a&\\cdots&x\\end{vmatrix}.$$"
+          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix}x&a&a&\\cdots&a\\\\ -a&x&a&\\cdots&a\\\\ -a&-a&x&\\cdots&a\\\\ \\vdots&\\vdots&\\vdots&&\\vdots\\\\ -a&-a&-a&\\cdots&x\\end{vmatrix}.$$"
         },
         {
           "section": "三",
-          "section_instruction": "（18 分）",
+          "section_instruction": "(18 分)",
           "no": "1",
           "score": 18,
           "form": "证明",
           "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "设 $V_1,V_2,\\cdots,V_s$ 是数域 $P$ 上线性空间 $V$ 的 $s$ 个非平凡子空间, 证明: $V$ 中至少存在向量 $\\alpha$, 使得 $\\alpha\\notin V_i,\\ i=1,2,\\cdots,s$。"
+          "l2": "子空间与直和",
+          "stem": "设 $V_1,V_2,\\cdots,V_s$ 是数域 $P$ 上线性空间 $V$ 的 $s$ 个非平凡子空间，证明：$V$ 中至少存在向量 $\\alpha$，使得 $\\alpha\\notin V_i,\\ i=1,2,\\cdots,s$。"
         },
         {
           "section": "四",
-          "section_instruction": "（12 分）",
+          "section_instruction": "(12 分)",
           "no": "1",
           "score": 12,
           "form": "证明",
           "l1": "线性空间与线性变换",
-          "l2": "线性变换",
-          "stem": "设 $\\sigma$ 是数域 $P$ 上线性空间 $V$ 的线性变换, 且 $\\sigma^2=\\varepsilon$ ($\\varepsilon$ 是 $V$ 的恒等变换). 证明: 对 $V$ 中每个向量 $\\alpha$, 存在 $\\alpha_1,\\alpha_2\\in V$, 使得 $\\sigma(\\alpha_1)=\\alpha_1,\\sigma(\\alpha_2)=-\\alpha_2$, 且 $\\alpha$ 可唯一地表示成 $\\alpha_1$ 与 $\\alpha_2$ 之和(即 $\\alpha=\\alpha_1+\\alpha_2$ 表示唯一)。"
+          "l2": "特征值与特征向量",
+          "stem": "设 $\\sigma$ 是数域 $P$ 上线性空间 $V$ 的线性变换，且 $\\sigma^2=\\varepsilon$（$\\varepsilon$ 是 $V$ 的恒等变换）。证明：对 $V$ 中每个向量 $\\alpha$，存在 $\\alpha_1,\\alpha_2\\in V$，使得 $\\sigma(\\alpha_1)=\\alpha_1,\\sigma(\\alpha_2)=-\\alpha_2$，且 $\\alpha$ 可唯一地表示成 $\\alpha_1$ 与 $\\alpha_2$ 之和（即 $\\alpha=\\alpha_1+\\alpha_2$ 表示唯一）。"
         },
         {
           "section": "五",
-          "section_instruction": "（12 分）",
+          "section_instruction": "(12 分)",
           "no": "1",
           "score": 12,
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设有齐次线性方程组\n$$\\begin{cases}a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0;\\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0;\\\\ \\cdots\\cdots\\\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\\cdots+a_{n-1,n}x_n=0.\\end{cases}$$\n$M_i\\ (i=1,2,\\cdots,n)$ 为系数矩阵 $A$ 划去地 $i$ 列剩下的 $(n-1)\\times(n-1)$ 矩阵的行列式. 证明: 如果秩 $(A)=n-1$, 则 $\\eta_0=(M_1,-M_2,\\cdots,(-1)^{n-1}M_n)$ 是方程组的一个基础解系。"
+          "stem": "设有齐次线性方程组\n$$\\begin{cases}a_{11}x_1+a_{12}x_2+\\cdots+a_{1n}x_n=0;\\\\ a_{21}x_1+a_{22}x_2+\\cdots+a_{2n}x_n=0;\\\\ \\cdots\\cdots\\\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\\cdots+a_{n-1,n}x_n=0.\\end{cases}$$\n$M_i\\ (i=1,2,\\cdots,n)$ 为系数矩阵 $A$ 划去第 $i$ 列剩下的 $(n-1)\\times(n-1)$ 矩阵的行列式。证明：如果 $\\mathrm{秩}(A)=n-1$，则 $\\eta_0=(M_1,-M_2,\\cdots,(-1)^{n-1}M_n)$ 是方程组的一个基础解系。"
+        },
+        {
+          "section": "六",
+          "section_instruction": "(18 分)",
+          "no": "1",
+          "score": 18,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A=(a_{ij})_{n\\times n}$，$B=(b_{ij})_{n\\times n}$，$C=(a_{ij}b_{ij})_{n\\times n}$。证明：若 $A,B$ 均是正定矩阵，则 $C$ 也是正定矩阵。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "(18 分)",
+          "no": "1",
+          "score": 18,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $m$ 为正整数，$f(x)$ 和 $g(x)$ 为数域 $P$ 上的非零多项式，证明：$g^m(x)\\mid f^m(x)$ 的充分必要条件是 $g(x)\\mid f(x)$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "(12 分)",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "内积与度量",
+          "stem": "设 $\\alpha$ 是欧氏空间 $V$ 的一个非零向量，$\\alpha_1,\\alpha_2,\\cdots,\\alpha_m\\in V$ 满足\n$$(\\alpha_i,\\alpha)>0\\ (i=1,2,\\cdots,n);\\quad (\\alpha_i,\\alpha_j)\\le 0\\ (i,j=1,2,\\cdots,m;\\ i\\ne j).$$\n其中符号 $(x,y)$ 表示向量 $x,y$ 的内积。证明：$\\alpha_1,\\alpha_2,\\cdots,\\alpha_m$ 线性无关。"
         }
       ]
     }

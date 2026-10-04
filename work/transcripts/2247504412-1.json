@@ -1,114 +1,117 @@
 {
- "msgid": "2247504412-1",
- "exams": [
-  {
-   "school": "重庆大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "6. 重庆大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": ["work/imgs/2247504412-1_4.png"],
-   "questions": [
+  "msgid": "2247504412-1",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知 $n$ 阶矩阵 $A$ 的顺序主子式都不为零，证明：存在 $n$ 阶下三角矩阵 $B$，使得 $BA$ 为上三角矩阵。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "2",
-     "score": null,
-     "form": "证明",
-     "l1": "多项式",
-     "l2": "互素与最大公因式",
-     "stem": "已知 $f(x),g(x)$ 为多项式，且 $h(x)$ 为首一多项式，证明\n$$(f(x)h(x),g(x)h(x))=(f(x),g(x))h(x).$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "3",
-     "score": null,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "已知 $A=(\\alpha_1,\\alpha_2,\\cdots,\\alpha_n)$ 为 $n$ 阶方阵，且 $A$ 的前 $n-1$ 个列向量线性相关，后 $n-1$ 个向量也线性无关，记 $\\beta=\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$。\n(a) 证明方程组 $AX=\\beta$ 有无穷多解；\n(b) 求方程组 $AX=\\beta$ 的通解。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "4",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "特征值与特征向量",
-     "stem": "已知矩阵 $A$ 经过过渡矩阵 $P$ 变成相似矩阵 $C$，且 $C$ 为对角矩阵，证明矩阵 $P$ 由 $A$ 的特征向量构成。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "5",
-     "score": null,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "幂零矩阵",
-     "stem": "已知 $A$ 为 $n$ 阶矩阵，证明若 $A$ 为幂零矩阵，则对任意的正整数 $k$，有 $\\mathrm{tr}(A^k)=0$；反之，若对任意的 $1\\le k\\le n$，均有 $\\mathrm{tr}(A^k)=0$，则 $A$ 为幂零矩阵。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "6",
-     "score": null,
-     "form": "证明",
-     "l1": "欧氏空间与二次型",
-     "l2": "正交变换",
-     "stem": "解答如下问题：\n(a) 已知 $A$ 是实反对称矩阵，证明 $Q=(E-A)(E+A)^{-1}$ 为正交矩阵；\n(b) 已知 $Q$ 为正交矩阵，且 $E+Q$ 可逆，证明存在实反对称矩阵 $A$，使得 $Q=(E-A)(E+A)^{-1}$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "7",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与直和",
-     "stem": "已知 $V_1$ 是方程组 $x_1+x_2+\\cdots+x_n=0$ 的解空间，$V_2$ 是方程组 $x_1=x_2=\\cdots=x_n$ 的解空间，证明\n$$\\mathbb{R}^n=V_1\\oplus V_2.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "8",
-     "score": null,
-     "form": "证明",
-     "l1": "欧氏空间与二次型",
-     "l2": "二次型",
-     "stem": "证明：一个实二次型可以分解为两个实系数的一次齐次多项式的乘积的充要必要条件是：它的秩为 $2$ 且符号差为 $0$，或它的秩为 $1$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "9",
-     "score": null,
-     "form": "综合",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "已知 $A$，$B$ 分别为 $n\\times m$ 与 $m\\times n$ 阶矩阵。\n(a) 证明 $|I_n-AB|=|I_m-BA|$，其中 $I_n$，$I_m$ 分别为 $n$ 阶与 $m$ 阶的单位矩阵；\n(b) 计算行列式\n$$D_n=\\begin{vmatrix} 1+a_1+x_1 & a_1+x_2 & a_1+x_3 & \\cdots & a_1+x_n \\\\ a_2+x_1 & 1+a_2+x_2 & a_2+x_3 & \\cdots & a_2+x_n \\\\ a_3+x_1 & a_3+x_2 & 1+a_3+x_3 & \\cdots & a_3+x_n \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ a_n+x_1 & a_n+x_2 & a_n+x_3 & \\cdots & 1+a_n+x_n \\end{vmatrix}.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "10",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "不变子空间",
-     "stem": "已知 $\\varphi$ 为 $n$ 维线性空间 $V$ 上的线性变换，$f(\\lambda)$ 是它的特征多项式，且 $f(\\lambda)=f_1(\\lambda)f_2(\\lambda)$，其中 $(f_1(\\lambda),f_2(\\lambda))=1$，记 $V_1=\\mathrm{Im}\\,f_1(\\varphi)$，$V_2=\\mathrm{Im}\\,f_2(\\varphi)$。证明\n(a) $V_1=\\mathrm{Ker}\\,f_2(\\varphi)$，$V_2=\\mathrm{Ker}\\,f_1(\\varphi)$；\n(b) $V_1$，$V_2$ 为 $\\varphi-$子空间，且 $V$ 是 $V_1$ 与 $V_2$ 的直和。"
+      "school": "重庆大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "6. 重庆大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": [
+        "work/imgs/2247504412-1_1.png",
+        "work/imgs/2247504412-1_4.png"
+      ],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵分解",
+          "stem": "已知 $n$ 阶矩阵 $A$ 的顺序主子式都不为零，证明：存在 $n$ 阶下三角矩阵 $B$，使得 $BA$ 为上三角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "已知 $f(x),g(x)$ 为多项式，且 $h(x)$ 为首一多项式，证明\n$$(f(x)h(x),g(x)h(x))=(f(x),g(x))h(x).$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知 $A=(\\alpha_1,\\alpha_2,\\cdots,\\alpha_n)$ 为 $n$ 阶方阵，且 $A$ 的前 $n-1$ 个列向量线性相关，后 $n-1$ 个向量也线性无关，记 $\\beta=\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$。\n(a) 证明方程组 $AX=\\beta$ 有无穷多解；\n(b) 求方程组 $AX=\\beta$ 的通解。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "已知矩阵 $A$ 经过过渡矩阵 $P$ 变成相似矩阵 $C$，且 $C$ 为对角矩阵，证明矩阵 $P$ 由 $A$ 的特征向量构成。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "已知 $A$ 为 $n$ 阶矩阵，证明若 $A$ 为幂零矩阵，则对任意的正整数 $k$，有 $\\mathrm{tr}(A^k)=0$；反之，若对任意的 $1\\le k\\le n$，均有 $\\mathrm{tr}(A^k)=0$，则 $A$ 为幂零矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "解答如下问题：\n(a) 已知 $A$ 是实反称矩阵，证明 $Q=(E-A)(E+A)^{-1}$ 为正交矩阵；\n(b) 已知 $Q$ 为正交矩阵，且 $E+Q$ 可逆，证明存在实反称矩阵 $A$，使得 $Q=(E-A)(E+A)^{-1}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与直和",
+          "stem": "已知 $V_1$ 是方程组 $x_1+x_2+\\cdots+x_n=0$ 的解空间，$V_2$ 是方程组 $x_1=x_2=\\cdots=x_n$ 的解空间，证明 $\\mathbb{R}^n=V_1\\oplus V_2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "证明：一个实二次型可以分解为两个实系数的一次齐次多项式的乘积的充要必要条件是：它的秩为 $2$ 且符号差为 $0$，或它的秩为 $1$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "已知 $A$, $B$ 分别为 $n\\times m$ 与 $m\\times n$ 阶矩阵。\n(a) 证明 $|I_n-AB|=|I_m-BA|$，其中 $I_n$, $I_m$ 分别为 $n$ 阶与 $m$ 阶的单位矩阵；\n(b) 计算行列式\n$$D_n=\\begin{vmatrix} 1+a_1+x_1 & a_1+x_2 & a_1+x_3 & \\cdots & a_1+x_n \\\\ a_2+x_1 & 1+a_2+x_2 & a_2+x_3 & \\cdots & a_2+x_n \\\\ a_3+x_1 & a_3+x_2 & 1+a_3+x_3 & \\cdots & a_3+x_n \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ a_n+x_1 & a_n+x_2 & a_n+x_3 & \\cdots & 1+a_n+x_n \\end{vmatrix} .$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "已知 $\\varphi$ 为 $n$ 维线性空间 $V$ 上的线性变换，$f(\\lambda)$ 是它的特征多项式，且 $f(\\lambda)=f_1(\\lambda)f_2(\\lambda)$，其中 $(f_1(\\lambda),f_2(\\lambda))=1$，记 $V_1=\\mathrm{Im}\\,f_1(\\varphi)$，$V_2=\\mathrm{Im}\\,f_2(\\varphi)$。证明\n(a) $V_1=\\mathrm{Ker}\\,f_2(\\varphi)$，$V_2=\\mathrm{Ker}\\,f_1(\\varphi)$；\n(b) $V_1$, $V_2$ 为 $\\varphi-$子空间，且 $V$ 是 $V_1$ 与 $V_2$ 的直和。"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }

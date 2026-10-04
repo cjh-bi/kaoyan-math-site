@@ -1,193 +1,213 @@
 {
-  "msgid": "2247521355-1",
-  "exams": [
+ "msgid": "2247521355-1",
+ "exams": [
+  {
+   "school": "华南理工大学",
+   "year": "2024",
+   "subject": "数学分析",
+   "header_note": "58. 华南理工大学 2024 年数学分析试卷",
+   "source_imgs": ["work/imgs/2247521355-1_4.png"],
+   "questions": [
     {
-      "school": "华南理工大学",
-      "year": "2024",
-      "subject": "数学分析",
-      "header_note": "58. 华南理工大学 2024 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247521355-1_4.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "1",
-          "score": 13,
-          "form": "计算",
-          "l1": "极限与连续",
-          "l2": "连续与极限概念判断",
-          "stem": "已知 $a,b>0$，且 $c=\\lim\\limits_{x\\to 0}\\left(\\dfrac{4}{\\ln(1+x)}-\\dfrac{4}{x}\\right)$，定义函数\n$$f(x)=\\begin{cases}\\dfrac{\\sin(ax)}{x}, & x<0;\\\\[4pt] c, & x=0;\\\\[4pt] (1+bx)^{\\frac{1}{x}}, & x>0.\\end{cases}$$\n若 $f(x)$ 在 $(-\\infty,+\\infty)$ 内处处连续，求常数 $a,b$ 和 $c$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "2",
-          "score": 13,
-          "form": "证明",
-          "l1": "一元微分学",
-          "l2": "中值定理",
-          "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导。证明：存在 $\\xi\\in(a,b)$，使得\n$$f(\\xi)+f'(\\xi)=\\dfrac{e^{b}f(b)-e^{a}f(a)}{e^{b}-e^{a}}.$$"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "3",
-          "score": 13,
-          "form": "证明",
-          "l1": "多元微分学",
-          "l2": "偏导数",
-          "stem": "证明函数\n$$f(x,y)=\\begin{cases}xy\\cos\\dfrac{1}{\\sqrt{x^{2}+y^{2}}}, & (x,y)\\neq(0,0);\\\\ 0, & (x,y)=(0,0).\\end{cases}$$\n在点 $(0,0)$ 连续且偏导数存在，但是偏导数在点 $(0,0)$ 不连续，而 $f(x,y)$ 在点 $(0,0)$ 可微。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "4",
-          "score": 13,
-          "form": "计算",
-          "l1": "多元微分学",
-          "l2": "偏导数",
-          "stem": "将方程 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=0$ 变换为极坐标形式。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "5",
-          "score": 14,
-          "form": "计算",
-          "l1": "多元积分学",
-          "l2": "第二型曲线积分",
-          "stem": "计算曲线积分 $\\displaystyle\\int_{L} y\\,\\mathrm{d}x+z\\,\\mathrm{d}y+x\\,\\mathrm{d}z$，其中 $L$ 是曲线\n$$\\dfrac{x^{2}}{a^{2}}+\\dfrac{y^{2}}{b^{2}}+\\dfrac{z^{2}}{c^{2}}=1,\\quad \\dfrac{x}{a}+\\dfrac{z}{c}=1,\\quad x\\ge 0,\\,y\\ge 0,\\,z\\ge 0$$\n（$a>0,b>0,c>0$ 为常数）从点 $(a,0,0)$ 到 $(0,0,c)$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "6",
-          "score": 14,
-          "form": "证明",
-          "l1": "级数",
-          "l2": "函数项级数",
-          "stem": "证明黎曼 zeta 函数 $\\zeta(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^{x}}$ 在 $(1,+\\infty)$ 上连续且无穷次可微。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "7",
-          "score": 14,
-          "form": "综合",
-          "l1": "极限与连续",
-          "l2": "数列收敛性",
-          "stem": "解答如下问题：\n(1) 用定义证明 $\\lim\\limits_{n\\to\\infty}\\sin n$ 不存在。\n(2) 证明数列 $\\{x_n\\}$ 极限存在，其中\n$$x_n=\\left(1-\\dfrac{1}{2^{2}}\\right)\\left(1-\\dfrac{1}{3^{2}}\\right)\\cdots\\left(1-\\dfrac{1}{(n+1)^{2}}\\right)=\\prod_{k=1}^{n}\\left(1-\\dfrac{1}{(k+1)^{2}}\\right),\\ n=1,2,\\cdots.$$\n并求极限 $\\lim\\limits_{n\\to\\infty}x_n$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "8",
-          "score": 14,
-          "form": "证明",
-          "l1": "级数",
-          "l2": "幂级数",
-          "stem": "设函数 $f(x)$ 在 $(x_0-r,x_0+r)$ 上无穷次可导（其中 $r\\in(0,+\\infty)$），且存在常数 $M>0$，使得\n$$|f^{(n)}(x)|\\le M\\dfrac{n!}{r^{n}},\\ \\forall x\\in(x_0-r,x_0+r),\\ \\forall n=0,1,2,\\cdots.$$\n(1) 证明 $f(x)$ 在 $x_0$ 点的 Taylor 级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}$ 在 $(x_0-r,x_0+r)$ 上逐点收敛于 $f(x)$。\n(2) 证明 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}$ 在 $(x_0-r,x_0+r)$ 上内闭一致收敛于 $f(x)$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "9",
-          "score": 14,
-          "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "含参量积分",
-          "stem": "设 $f(x)$ 在 $[a,b]$ 上黎曼可积，证明黎曼引理\n$$\\lim_{\\lambda\\to+\\infty}\\int_{a}^{b} f(x)\\cos(\\lambda x)\\,\\mathrm{d}x=0.$$"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "10",
-          "score": 14,
-          "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "含参量积分",
-          "stem": "证明 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\sin xy}{x}\\,\\mathrm{d}x$ 关于 $y$ 在 $[y_0,+\\infty)$（$y_0>0$）上一致收敛，但在 $(0,+\\infty)$ 上非一致收敛。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "11",
-          "score": 14,
-          "form": "证明",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "设 $f(x)$ 在 $[a,b]$ 上分段连续，即存在 $[a,b]$ 的一个有限分割 $a=x_0<x_1<x_2<\\cdots<x_n=b$（其中 $n$ 为固定整数），使得 $f$ 在每个区间 $(x_{i-1},x_i)$ 上连续且分点 $x_i$ 处都存在左右极限。证明 $f(x)$ 在 $[a,b]$ 上黎曼可积。"
-        }
-      ]
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 13,
+     "form": "计算",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "已知 $a,b>0$，且 $c=\\lim_{x\\to 0}\\left(\\dfrac{4}{\\ln(1+x)}-\\dfrac{4}{x}\\right)$，定义函数\n$$f(x)=\\begin{cases}\\dfrac{\\sin(ax)}{x}, & x<0;\\\\ c, & x=0;\\\\ (1+bx)^{\\frac{1}{x}}, & x>0.\\end{cases}$$\n若 $f(x)$ 在 $(-\\infty,+\\infty)$ 内处处连续，求常数 $a,b$ 和 $c$。"
     },
     {
-      "school": "华南理工大学",
-      "year": "2024",
-      "subject": "高等代数",
-      "header_note": "58. 华南理工大学 2024 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247521355-1_5.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "1",
-          "score": 20,
-          "form": "证明",
-          "l1": "多项式",
-          "l2": "根与重因式",
-          "stem": "设 $(f(x),g(x))=1$，证明：$f^{2}(x)+g^{2}(x)$ 的重根必是 $[f'(x)]^{2}+[g'(x)]^{2}$ 的根。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "2",
-          "score": 15,
-          "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} a & a+b & \\cdots & a+b & a+b\\\\ a-b & a & \\cdots & a+b & a+b\\\\ \\vdots & \\vdots & & \\vdots & \\vdots\\\\ a-b & a-b & \\cdots & a & a+b\\\\ a-b & a-b & \\cdots & a-b & a\\end{vmatrix}.$$"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "3",
-          "score": 20,
-          "form": "综合",
-          "l1": "矩阵与线性方程组",
-          "l2": "线性方程组",
-          "stem": "已知 $A$ 为 $m\\times n$ 矩阵，$\\beta$ 为 $n$ 维列向量。考虑下列两个线性方程组\n$$\\textcircled{1}\\ AX=\\beta;\\qquad \\textcircled{2}\\ \\begin{pmatrix} A'\\\\ \\beta'\\end{pmatrix}X=\\begin{pmatrix} 0\\\\ \\vdots\\\\ 0\\\\ 1\\end{pmatrix}.$$\n(1) 当 ① 有解时，② 有解吗？证明你的结论。\n(2) 当 ① 无解时，② 有解吗？证明你的结论。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "4",
-          "score": 20,
-          "form": "证明",
-          "l1": "线性空间与线性变换",
-          "l2": "特征多项式",
-          "stem": "设矩阵 $A,B,C$ 满足 $AC=CB$，证明：$A,B$ 均为方阵。另外，若 $r(C)=r$，证明：$A,B$ 的特征多项式有 $r$ 次公因式。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "5",
-          "score": 20,
-          "form": "计算",
-          "l1": "欧氏空间与二次型",
-          "l2": "二次型",
-          "stem": "解答如下问题：\n(1) 设二次型 $f(x_1,x_2,x_3,x_4)=X'AX$，其中\n$$A=\\begin{pmatrix} 1 & 2 & 3 & 4\\\\ 2 & 3 & 4 & 5\\\\ 3 & 4 & 5 & 6\\\\ 4 & 5 & 6 & 7\\end{pmatrix},\\quad X=\\begin{pmatrix} x_1\\\\ x_2\\\\ x_3\\\\ x_4\\end{pmatrix}.$$\n将 $f(x_1,x_2,x_3,x_4)$ 化为一次因式的乘积。\n(2) 根据 (1) 的结果，将 $n$ 元二次型 $f(X)=X'AX$ 化为一次因式的乘积，其中\n$$A=\\begin{pmatrix} 1 & 2 & 3 & \\cdots & n\\\\ 2 & 3 & 4 & \\cdots & n+1\\\\ 3 & 4 & 5 & \\cdots & n+2\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ n & n+1 & n+2 & \\cdots & 2n-1\\end{pmatrix}.$$"
-        },
-        {
-          "section": "一",
-          "section_instruction": "",
-          "no": "6",
-          "score": 20,
-          "form": "计算",
-          "l1": "线性空间与线性变换",
-          "l2": "Jordan 标准形",
-          "stem": "设矩阵\n$$A=\\begin{pmatrix} 1 & 2 & 0 & -a-1\\\\ 1 & 1 & 0 & 0\\\\ 0 & 1 & 1 & a+2\\\\ 0 & 0 & 1 & 1\\end{pmatrix}$$\n在复数域上不可对角化。\n(1) 求 $a$ 的值；\n(2) 对每个 $a$，求出 $A$ 的若尔当标准型。"
-        }
-      ]
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": 13,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "设 $f(x)$ 在 $[a,b]$ 上连续，在 $(a,b)$ 内可导。证明：存在 $\\xi\\in(a,b)$，使得\n$$f(\\xi)+f'(\\xi)=\\dfrac{e^{b}f(b)-e^{a}f(a)}{e^{b}-e^{a}}.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": 13,
+     "form": "证明",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "证明函数\n$$f(x,y)=\\begin{cases}xy\\cos\\dfrac{1}{\\sqrt{x^{2}+y^{2}}}, & (x,y)\\neq(0,0);\\\\ 0, & (x,y)=(0,0).\\end{cases}$$\n在点 $(0,0)$ 连续且偏导数存在，但是偏导数在点 $(0,0)$ 不连续，而 $f(x,y)$ 在点 $(0,0)$ 可微。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": 13,
+     "form": "计算",
+     "l1": "多元微分学",
+     "l2": "偏导数",
+     "stem": "将方程 $\\dfrac{\\partial^{2}z}{\\partial x^{2}}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=0$ 变换为极坐标形式。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": 14,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "第二型曲线积分",
+     "stem": "计算曲线积分 $\\displaystyle\\int_{L} y\\,\\mathrm{d}x+z\\,\\mathrm{d}y+x\\,\\mathrm{d}z$，其中 $L$ 是曲线\n$$\\dfrac{x^{2}}{a^{2}}+\\dfrac{y^{2}}{b^{2}}+\\dfrac{z^{2}}{c^{2}}=1,\\quad \\dfrac{x}{a}+\\dfrac{z}{c}=1,\\quad x\\ge 0,\\,y\\ge 0,\\,z\\ge 0$$\n（$a>0,b>0,c>0$ 为常数）从点 $(a,0,0)$ 到 $(0,0,c)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": 14,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "证明黎曼 zeta 函数 $\\zeta(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{n^{x}}$ 在 $(1,+\\infty)$ 上连续且无穷次可微。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": 14,
+     "form": "综合",
+     "l1": "极限与连续",
+     "l2": "数列收敛性",
+     "stem": "解答如下问题：\n(1) 用定义证明 $\\lim\\limits_{n\\to\\infty}\\sin n$ 不存在。\n(2) 证明数列 $\\{x_n\\}$ 极限存在，其中\n$$x_n=\\left(1-\\dfrac{1}{2^{2}}\\right)\\left(1-\\dfrac{1}{3^{2}}\\right)\\cdots\\left(1-\\dfrac{1}{(n+1)^{2}}\\right)=\\prod_{k=1}^{n}\\left(1-\\dfrac{1}{(k+1)^{2}}\\right),\\ n=1,2,\\cdots.$$\n并求极限 $\\lim\\limits_{n\\to\\infty}x_n$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "8",
+     "score": 14,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "幂级数",
+     "stem": "设函数 $f(x)$ 在 $(x_0-r,x_0+r)$ 上无穷次可导（其中 $r\\in(0,+\\infty)$），且存在常数 $M>0$，使得\n$$|f^{(n)}(x)|\\le M\\dfrac{n!}{r^{n}},\\ \\forall x\\in(x_0-r,x_0+r),\\ \\forall n=0,1,2,\\cdots.$$\n(1) 证明 $f(x)$ 在 $x_0$ 点的 Taylor 级数 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}$ 在 $(x_0-r,x_0+r)$ 上逐点收敛于 $f(x)$。\n(2) 证明 $\\displaystyle\\sum_{n=0}^{\\infty}\\dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^{n}$ 在 $(x_0-r,x_0+r)$ 上内闭一致收敛于 $f(x)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "9",
+     "score": 14,
+     "form": "证明",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "设 $f(x)$ 在 $[a,b]$ 上黎曼可积，证明黎曼引理\n$$\\lim_{\\lambda\\to+\\infty}\\int_{a}^{b}f(x)\\cos(\\lambda x)\\,\\mathrm{d}x=0.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "10",
+     "score": 14,
+     "form": "证明",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分",
+     "stem": "证明 $\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\sin xy}{x}\\,\\mathrm{d}x$ 关于 $y$ 在 $[y_0,+\\infty)$（$y_0>0$）上一致收敛，但在 $(0,+\\infty)$ 上非一致收敛。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "11",
+     "score": 14,
+     "form": "证明",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "设 $f(x)$ 在 $[a,b]$ 上分段连续，即存在 $[a,b]$ 的一个有限分割 $a=x_0<x_1<x_2<\\cdots<x_n=b$（其中 $n$ 为固定整数），使得 $f$ 在每个区间 $(x_{i-1},x_i)$ 上连续且分点 $x_i$ 处都存在左右极限。证明 $f(x)$ 在 $[a,b]$ 上黎曼可积。"
     }
-  ]
+   ]
+  },
+  {
+   "school": "华南理工大学",
+   "year": "2024",
+   "subject": "高等代数",
+   "header_note": "58. 华南理工大学 2024 年高等代数试卷",
+   "source_imgs": ["work/imgs/2247521355-1_5.png", "work/imgs/2247521355-1_6.png"],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "1",
+     "score": 20,
+     "form": "证明",
+     "l1": "多项式",
+     "l2": "根与重因式",
+     "stem": "设 $(f(x),g(x))=1$，证明：$f^{2}(x)+g^{2}(x)$ 的重根必是 $[f'(x)]^{2}+[g'(x)]^{2}$ 的根。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "2",
+     "score": 15,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算 $n$ 阶行列式\n$$D_n=\\begin{vmatrix} a & a+b & \\cdots & a+b & a+b\\\\ a-b & a & \\cdots & a+b & a+b\\\\ \\vdots & \\vdots & & \\vdots & \\vdots\\\\ a-b & a-b & \\cdots & a & a+b\\\\ a-b & a-b & \\cdots & a-b & a\\end{vmatrix}.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "3",
+     "score": 20,
+     "form": "综合",
+     "l1": "矩阵与线性方程组",
+     "l2": "线性方程组",
+     "stem": "已知 $A$ 为 $m\\times n$ 矩阵，$\\beta$ 为 $n$ 维列向量。考虑下列两个线性方程组\n$$\\text{① } AX=\\beta;\\qquad \\text{② } \\begin{pmatrix} A'\\\\ \\beta'\\end{pmatrix}X=\\begin{pmatrix} 0\\\\ \\vdots\\\\ 0\\\\ 1\\end{pmatrix}.$$\n(1) 当 ① 有解时，② 有解吗？证明你的结论。\n(2) 当 ① 无解时，② 有解吗？证明你的结论。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "4",
+     "score": 20,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "特征多项式",
+     "stem": "设矩阵 $A,B,C$ 满足 $AC=CB$，证明：$A,B$ 均为方阵。另外，若 $r(C)=r$，证明：$A,B$ 的特征多项式有 $r$ 次公因式。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "5",
+     "score": 20,
+     "form": "综合",
+     "l1": "欧氏空间与二次型",
+     "l2": "二次型",
+     "stem": "解答如下问题：\n(1) 设二次型 $f(x_1,x_2,x_3,x_4)=X'AX$，其中\n$$A=\\begin{pmatrix} 1 & 2 & 3 & 4\\\\ 2 & 3 & 4 & 5\\\\ 3 & 4 & 5 & 6\\\\ 4 & 5 & 6 & 7\\end{pmatrix},\\quad X=\\begin{pmatrix} x_1\\\\ x_2\\\\ x_3\\\\ x_4\\end{pmatrix}.$$\n将 $f(x_1,x_2,x_3,x_4)$ 化为一次因式的乘积。\n(2) 根据 (1) 的结果，将 $n$ 元二次型 $f(X)=X'AX$ 化为一次因式的乘积，其中\n$$A=\\begin{pmatrix} 1 & 2 & 3 & \\cdots & n\\\\ 2 & 3 & 4 & \\cdots & n+1\\\\ 3 & 4 & 5 & \\cdots & n+2\\\\ \\vdots & \\vdots & \\vdots & & \\vdots\\\\ n & n+1 & n+2 & \\cdots & 2n-1\\end{pmatrix}.$$"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "6",
+     "score": 20,
+     "form": "综合",
+     "l1": "线性空间与线性变换",
+     "l2": "Jordan 标准形",
+     "stem": "设矩阵\n$$A=\\begin{pmatrix} 1 & 2 & 0 & -a-1\\\\ 1 & 1 & 0 & 0\\\\ 0 & 1 & 1 & a+2\\\\ 0 & 0 & 1 & 1\\end{pmatrix}$$\n在复数域上不可对角化。\n(1) 求 $a$ 的值；\n(2) 对每个 $a$，求出 $A$ 的若尔当标准型。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "7",
+     "score": 20,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与直和",
+     "stem": "设 $\\mathscr{A}_1,\\mathscr{A}_2,\\cdots,\\mathscr{A}_m$ 为 $n$ 维线性空间 $V$ 上的 $m$ 个线性变换，且满足：\n① $\\mathscr{A}_i^{2}=\\mathscr{A}_i,\\ i=1,2,\\cdots,m$。\n② $\\mathscr{A}_i\\mathscr{A}_j=\\mathscr{O},\\ \\forall i\\neq j$。\n③ $\\mathscr{A}_1^{-1}(0)\\cap\\mathscr{A}_2^{-1}(0)\\cap\\cdots\\cap\\mathscr{A}_m^{-1}(0)=\\{0\\}$。\n证明：$V=\\mathscr{A}_1(V)\\oplus\\mathscr{A}_2(V)\\oplus\\cdots\\oplus\\mathscr{A}_m(V)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "",
+     "no": "8",
+     "score": 15,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "内积与度量",
+     "stem": "定义在 $\\mathbb{R}^{n\\times n}$ 上的内积 $(\\ ,\\ )$ 满足 $\\forall A,B,C\\in\\mathbb{R}^{n\\times n}$，成立 $(AC,B)=(A,CB)$。证明：存在常数 $c>0$，使得 $(A,B)=c\\,\\mathrm{tr}(AB)$。"
+    }
+   ]
+  }
+ ]
 }

@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "一元微分学",
           "l2": "导数计算",
-          "stem": "已知 $\\begin{cases}x=\\arctan t,\\\\ 2y-ty^{2}+e^{t}=5,\\end{cases}$ 求 $\\left.\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{t=0}$, $\\left.\\dfrac{\\mathrm{d}^{2}y}{\\mathrm{d}x^{2}}\\right|_{t=0}$。"
+          "stem": "已知 $\\begin{cases} x=\\arctan t; \\\\ 2y-ty^2+e^t=5. \\end{cases}$ 求 $\\left.\\dfrac{\\mathrm{d}y}{\\mathrm{d}x}\\right|_{t=0}$, $\\left.\\dfrac{\\mathrm{d}^2 y}{\\mathrm{d}x^2}\\right|_{t=0}$。"
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "傅里叶级数",
-          "stem": "已知\n$$f(x)=\\begin{cases}\\dfrac{\\pi-1}{2}x, & 0\\le x\\le 1;\\\\[4pt] \\dfrac{\\pi-x}{2}, & 1\\le x\\le \\pi.\\end{cases}$$\n将 $f(x)$ 展开成正弦级数，并求该级数的和函数。"
+          "stem": "已知\n$$f(x)=\\begin{cases} \\dfrac{\\pi-1}{2}x, & 0\\le x\\le 1; \\\\[2pt] \\dfrac{\\pi-x}{2}, & 1\\le x\\le \\pi. \\end{cases}$$\n将 $f(x)$ 展开成正弦级数, 并求该级数的和函数."
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "已知 $\\alpha>0$，求极限\n$$\\lim_{n\\to\\infty}\\dfrac{\\sqrt{n}\\,(1^{\\alpha}+2^{\\alpha}+\\cdots+n^{\\alpha})}{\\sqrt{1\\times3+2\\times4+\\cdots+n(n+2)}}\\sin\\dfrac{1}{n^{\\alpha}}。$$"
+          "stem": "已知 $\\alpha>0$, 求极限\n$$\\lim_{n\\to\\infty}\\dfrac{\\sqrt{n}\\left(1^{\\alpha}+2^{\\alpha}+\\cdots+n^{\\alpha}\\right)}{\\sqrt{1\\times 3+2\\times 4+\\cdots+n(n+2)}}\\sin\\dfrac{1}{n^{\\alpha}}.$$"
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "第二型曲面积分",
-          "stem": "已知 $S:(x-5)^{2}+2y^{2}+2(z+1)^{2}=3$，方向取外侧，计算\n$$\\iint_{S}\\dfrac{(x-5)\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{\\left[(x-5)^{2}+y^{2}+z^{2}\\right]^{3/2}}。$$"
+          "stem": "已知 $S:(x-5)^2+2y^2+2(z+1)^2=3$, 方向取外侧, 计算\n$$\\iint_S \\dfrac{(x-5)\\,\\mathrm{d}y\\mathrm{d}z+y\\,\\mathrm{d}z\\mathrm{d}x+z\\,\\mathrm{d}x\\mathrm{d}y}{\\left[(x-5)^2+y^2+z^2\\right]^{\\frac{3}{2}}}.$$"
         },
         {
           "section": "二",
@@ -56,7 +56,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "证明：$f(x)=\\int_{0}^{+\\infty}t^{x-1}e^{-t}\\ln t\\,\\mathrm{d}t$ 在 $(0,+\\infty)$ 上连续。"
+          "stem": "证明: $f(x)=\\displaystyle\\int_0^{+\\infty} t^{x-1}e^{-t}\\ln t\\,\\mathrm{d}t$ 在 $(0,+\\infty)$ 上连续."
         },
         {
           "section": "二",
@@ -66,7 +66,7 @@
           "form": "计算",
           "l1": "多元积分学",
           "l2": "三重积分",
-          "stem": "求 $(x^{2}+y^{2}+z^{2})^{2}=4(x^{2}+y^{2}-z^{2})$ 所围立体的体积。"
+          "stem": "求 $(x^2+y^2+z^2)^2=4(x^2+y^2-z^2)$ 所围立体的体积."
         },
         {
           "section": "二",
@@ -76,7 +76,7 @@
           "form": "综合",
           "l1": "级数",
           "l2": "函数项级数",
-          "stem": "解答如下问题：\n(1) 证明：$\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n}n(n+1)}{n(n+1)x^{2}+2^{n}}$ 关于 $x\\in(-\\infty,+\\infty)$ 一致收敛；\n(2) 计算 $\\displaystyle\\lim_{x\\to0}\\sum_{n=1}^{\\infty}\\dfrac{(-1)^{n}n(n+1)}{n(n+1)x^{2}+2^{n}}$。"
+          "stem": "解答如下问题:\n(1) 证明: $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n n(n+1)}{n(n+1)x^2+2^n}$ 关于 $x\\in(-\\infty,+\\infty)$ 一致收敛;\n(2) 计算 $\\displaystyle\\lim_{x\\to 0}\\sum_{n=1}^{\\infty}\\dfrac{(-1)^n n(n+1)}{n(n+1)x^2+2^n}$."
         },
         {
           "section": "三",
@@ -86,7 +86,7 @@
           "form": "证明",
           "l1": "极限与连续",
           "l2": "极限证明",
-          "stem": "已知 $\\lim\\limits_{n\\to\\infty}a_{n}=a\\neq0$，试用 $\\varepsilon-N$ 语言证明：$\\lim\\limits_{n\\to\\infty}\\dfrac{1}{a_{n}}=\\dfrac{1}{a}$。"
+          "stem": "已知 $\\lim\\limits_{n\\to\\infty}a_n=a\\ne 0$, 试用 $\\varepsilon-N$ 语言证明: $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{a_n}=\\dfrac{1}{a}$."
         },
         {
           "section": "三",
@@ -95,8 +95,8 @@
           "score": 11,
           "form": "证明",
           "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "已知函数 $f(x)$ 为 $(A,B)$ 上的连续函数，且有 $[a,b]\\subset(A,B)$，证明：\n$$\\lim_{h\\to0}\\dfrac{1}{h}\\int_{a}^{b}\\left[f(x+h)-f(x)\\right]\\mathrm{d}x=f(b)-f(a)。$$"
+          "l2": "变限积分",
+          "stem": "已知函数 $f(x)$ 为 $(A,B)$ 上的连续函数, 且有 $[a,b]\\subset(A,B)$, 证明:\n$$\\lim_{h\\to 0}\\dfrac{1}{h}\\int_a^b [f(x+h)-f(x)]\\,\\mathrm{d}x=f(b)-f(a).$$"
         },
         {
           "section": "三",
@@ -104,9 +104,9 @@
           "no": "10",
           "score": 12,
           "form": "证明",
-          "l1": "极限与连续",
-          "l2": "数列极限计算",
-          "stem": "解答如下问题：\n(1) 设 $\\{a_{n}\\}$, $\\{b_{n}\\}$ 为两个数列，且 $B_{n}=b_{1}+b_{2}+\\cdots+b_{n}$，证明：\n$$\\sum_{k=1}^{n}a_{k}b_{k}=a_{n}B_{n}+\\sum_{k=1}^{n-1}B_{k}(a_{k}-a_{k+1});$$\n(2) 已知 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\sum\\limits_{k=1}^{n}kx_{k}=A$，证明：\n$$\\lim_{n\\to\\infty}\\dfrac{1}{n^{2}}\\sum_{k=1}^{n}k^{2}x_{k}=\\dfrac{A}{2}。$$"
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "解答如下问题:\n(1) 设 $\\{a_n\\}$, $\\{b_n\\}$ 为两个数列, 且 $B_n=b_1+b_2+\\cdots+b_n$, 证明:\n$$\\sum_{k=1}^{n}a_n b_n=a_nB_n+\\sum_{k=1}^{n-1}B_k(a_k-a_{k+1});$$\n(2) 已知 $\\lim\\limits_{n\\to\\infty}\\dfrac{1}{n}\\displaystyle\\sum_{k=1}^{n}kx_k=A$, 证明:\n$$\\lim_{n\\to\\infty}\\dfrac{1}{n^2}\\sum_{k=1}^{n}k^2x_k=\\dfrac{A}{2}.$$"
         },
         {
           "section": "三",
@@ -116,7 +116,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "广义积分敛散性",
-          "stem": "已知 $\\int_{a}^{+\\infty}f(x)\\,\\mathrm{d}x$ 条件收敛，且 $f^{+}(x)=\\dfrac{|f(x)|+f(x)}{2}$, $f^{-}(x)=\\dfrac{|f(x)|-f(x)}{2}$。证明：\n(1) $\\int_{a}^{+\\infty}f^{+}(x)\\,\\mathrm{d}x$, $\\int_{a}^{+\\infty}f^{-}(x)\\,\\mathrm{d}x$ 均发散到 $+\\infty$；\n(2) 当 $A\\to+\\infty$ 时，$\\int_{a}^{A}f^{+}(x)\\,\\mathrm{d}x$ 与 $\\int_{a}^{A}f^{-}(x)\\,\\mathrm{d}x$ 等价。"
+          "stem": "已知 $\\displaystyle\\int_a^{+\\infty}f(x)\\,\\mathrm{d}x$ 条件收敛, 且 $f^+(x)=\\dfrac{|f(x)|+f(x)}{2}$, $f^-(x)=\\dfrac{|f(x)|-f(x)}{2}$. 证明:\n(1) $\\displaystyle\\int_a^{+\\infty}f^+(x)\\,\\mathrm{d}x$, $\\displaystyle\\int_a^{+\\infty}f^-(x)\\,\\mathrm{d}x$ 均发散到 $+\\infty$;\n(2) 当 $A\\to+\\infty$ 时, $\\displaystyle\\int_a^{A}f^+(x)\\,\\mathrm{d}x$ 与 $\\displaystyle\\int_a^{A}f^-(x)\\,\\mathrm{d}x$ 等价."
         }
       ]
     },
@@ -135,17 +135,17 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "求下列行列式的值。\n$$\\begin{vmatrix}1 & a_{1} & a_{2} & \\cdots & a_{2022}\\\\ b_{1} & 1 & & & \\\\ b_{2} & & 2 & & \\\\ \\vdots & & & \\ddots & \\\\ b_{2022} & & & & 2022\\end{vmatrix}$$"
+          "stem": "求下列行列式的值.\n$$\\begin{vmatrix} 1 & a_1 & a_2 & \\cdots & a_{2022} \\\\ b_1 & 1 & & & \\\\ b_2 & & 2 & & \\\\ \\vdots & & & \\ddots & \\\\ b_{2022} & & & & 2022 \\end{vmatrix}.$$"
         },
         {
           "section": "一",
           "section_instruction": "",
           "no": "2",
           "score": 15,
-          "form": "综合",
-          "l1": "线性空间与线性变换",
-          "l2": "可对角化",
-          "stem": "求 $a$ 的值，使得矩阵\n$$A=\\begin{pmatrix}2 & 2 & a\\\\ 8 & 2 & 0\\\\ 0 & 0 & 6\\end{pmatrix}$$\n相似于一个对角矩阵 $\\Lambda$，并求可逆矩阵 $P$，使得 $P^{-1}AP=\\Lambda$。"
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "求 $a$ 的值, 使得矩阵\n$$A=\\begin{pmatrix} 2 & 2 & a \\\\ 8 & 2 & 0 \\\\ 0 & 0 & 6 \\end{pmatrix}$$\n相似于一个对角矩阵 $\\Lambda$, 并求可逆矩阵 $P$, 使得 $P^{-1}AP=\\Lambda$."
         },
         {
           "section": "一",
@@ -155,7 +155,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "设矩阵 $A=(a_{ij})$ 是一个 $n$ 级实矩阵，对任意的 $i=1,2,\\cdots,n$，均有\n$$a_{ii}>\\sum_{j\\neq i}|a_{ij}|,$$\n证明：$\\det A>0$。"
+          "stem": "设矩阵 $A=(a_{ij})$ 是一个 $n$ 级实矩阵, 对任意的 $i=1,2,\\cdots,n$, 均有\n$$a_{ii}>\\sum_{j\\ne i}|a_{ij}|.$$\n证明: $\\det A>0$."
         },
         {
           "section": "一",
@@ -163,9 +163,9 @@
           "no": "4",
           "score": 20,
           "form": "证明",
-          "l1": "欧氏空间与二次型",
-          "l2": "实对称矩阵",
-          "stem": "设 $A$, $B$ 均为 $n$ 级实对称矩阵，$C$ 为 $n$ 级实反称矩阵，若有\n$$A^{2}+B^{2}=C^{2},$$\n证明：$A=B=C=O$。"
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $A$, $B$ 均为 $n$ 级实对称矩阵, $C$ 为 $n$ 级实反称矩阵, 若有\n$$A^2+B^2=C^2,$$\n证明: $A=B=C=O$."
         },
         {
           "section": "一",
@@ -175,7 +175,7 @@
           "form": "证明",
           "l1": "矩阵与线性方程组",
           "l2": "秩",
-          "stem": "若 $A$ 为 $m\\times n$ 实矩阵，证明：\n$$\\operatorname{rank}(E_{n}-A^{\\prime}A)-\\operatorname{rank}(E_{m}-AA^{\\prime})=n-m。$$"
+          "stem": "若 $A$ 为 $m\\times n$ 实矩阵, 证明:\n$$\\mathrm{rank}\\left(E_n-A^{\\prime}A\\right)-\\mathrm{rank}\\left(E_m-AA^{\\prime}\\right)=n-m.$$"
         },
         {
           "section": "一",
@@ -185,7 +185,7 @@
           "form": "证明",
           "l1": "欧氏空间与二次型",
           "l2": "正定与半正定",
-          "stem": "设 $A$ 为实对称矩阵，且 $A$ 可逆。证明：$A$ 正定的充分必要条件是对任意同级正定矩阵 $B$，恒有 $\\operatorname{tr}(AB)>0$。"
+          "stem": "设 $A$ 为实对称矩阵, 且 $A$ 可逆. 证明: $A$ 正定的充分必要条件是对任意同级正定矩阵 $B$, 恒有 $\\mathrm{tr}(AB)>0$."
         },
         {
           "section": "一",
@@ -193,9 +193,9 @@
           "no": "7",
           "score": 20,
           "form": "综合",
-          "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "设 $A$ 为 $n$ 级半正定矩阵，且 $\\operatorname{rank}(A)=r$，证明：$V=\\{X\\in\\mathbb{R}^{n}\\mid X^{\\prime}AX=0\\}$ 为 $\\mathbb{R}^{n}$ 上的子空间，并求出该子空间的维数。"
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "设 $A$ 为 $n$ 级半正定矩阵, 且 $\\mathrm{rank}(A)=r$, 证明: $V=\\{X\\in\\mathbb{R}^n\\mid X^{\\prime}AX=0\\}$ 为 $\\mathbb{R}^n$ 上的子空间, 并求出该子空间的维数."
         },
         {
           "section": "一",
@@ -205,7 +205,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "线性变换",
-          "stem": "欧氏空间 $V$ 上一个变换 $\\mathscr{A}$ 称为反称变换，如果对任意的 $\\alpha,\\beta\\in V$，都有\n$$(\\mathscr{A}\\alpha,\\beta)+(\\alpha,\\mathscr{A}\\beta)=0.$$\n证明：\n(1) 反称变换是线性变换；\n(2) 若 $\\mathscr{A}$ 是反称变换，则 $\\mathscr{A}-\\mathscr{E}$ 是可逆变换，其中 $\\mathscr{E}$ 是恒等变换；\n(3) 若 $\\mathscr{A}$ 是反称变换，则 $(\\mathscr{A}+\\mathscr{E})(\\mathscr{A}-\\mathscr{E})^{-1}$ 是正交变换。"
+          "stem": "欧氏空间 $V$ 上一个变换 $\\mathscr{A}$ 称为反称变换, 如果对任意的 $\\alpha,\\beta\\in V$, 都有\n$$(\\mathscr{A}\\alpha,\\beta)+(\\alpha,\\mathscr{A}\\beta)=0.$$\n证明:\n(1) 反称变换是线性变换;\n(2) 若 $\\mathscr{A}$ 是反称变换, 则 $\\mathscr{A}-\\mathscr{E}$ 是可逆变换, 其中 $\\mathscr{E}$ 是恒等变换;\n(3) 若 $\\mathscr{A}$ 是反称变换, 则 $(\\mathscr{A}+\\mathscr{E})(\\mathscr{A}-\\mathscr{E})^{-1}$ 是正交变换."
         }
       ]
     }

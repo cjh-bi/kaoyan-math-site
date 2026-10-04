@@ -39,20 +39,13 @@
       <span class="no">2024 · 数学分析 · 五1</span>
       <span class="sep">|</span>
       <span class="t">证明</span>    </h1>
-    <div class="qstem">已知三元函数 $f(x,y,z)$ 在 $\mathbb{R}^3$ 上具有连续的二阶偏导数，设 $\mathbb{R}^3$ 中光滑简单封闭曲面的全体为 $\Sigma$，对于 $S\in\Sigma$，用 $\boldsymbol{n}$ 表示 $S$ 的外法线单位方向向量，$\dfrac{\partial f}{\partial \boldsymbol{n}}$ 表示 $f$ 沿 $\boldsymbol{n}$ 的方向导数。<br>(1) 证明：$f$ 在 $\mathbb{R}^3$ 上满足<br>$$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=0$$<br>（即 $f$ 为 $\mathbb{R}^3$ 上的调和函数）当且仅当 $\displaystyle\iint_S \dfrac{\partial f}{\partial \boldsymbol{n}}\,\mathrm{d}S=0$（$\forall S\in\Sigma$）。<br>(2) 设 $f(x,y,z)$ 为 $\mathbb{R}^3$ 上的调和函数，$S\in\Sigma$，且 $S$ 围成的有界闭区域记作 $V$。证明：<br>$$f(x_0,y_0,z_0)=\dfrac{1}{4\pi}\iint_S\left(f\dfrac{\cos(\boldsymbol{r},\boldsymbol{n})}{|\boldsymbol{r}|^2}+\dfrac{1}{|\boldsymbol{r}|}\dfrac{\partial f}{\partial \boldsymbol{n}}\right)\,\mathrm{d}S,$$<br>其中 $(x_0,y_0,z_0)$ 为 $V$ 内部的一个定点，$\boldsymbol{r}=(x-x_0,y-y_0,z-z_0)$，$(\boldsymbol{r},\boldsymbol{n})$ 表示两向量的夹角，$|\boldsymbol{r}|$ 表示向量 $\boldsymbol{r}$ 的模长。<br>(3) 若函数 $f$ 和闭区间 $[0,1]$ 上的连续函数 $g$ 在单位球 $\Omega=\{(x,y,z)\mid x^2+y^2+z^2\le 1\}$ 上满足<br>$$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=g(x^2+y^2+z^2).$$<br>证明：<br>$$\iiint_\Omega\left(x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}\right)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\pi\int_0^1\sqrt{t}\,(t-1)g(t)\,\mathrm{d}t.$$</div>
+    <div class="qstem">已知三元函数 $f(x,y,z)$ 在 $\mathbb{R}^3$ 上具有连续的二阶偏导数，设 $\mathbb{R}^3$ 中光滑简单封闭曲面的全体为 $\Sigma$，对于 $S\in\Sigma$，用 $\boldsymbol{n}$ 表示 $S$ 的外法线单位方向向量，$\dfrac{\partial f}{\partial \boldsymbol{n}}$ 表示 $f$ 沿 $\boldsymbol{n}$ 的方向导数。<br>(1) 证明：$f$ 在 $\mathbb{R}^3$ 上满足 $$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=0$$（即 $f$ 为 $\mathbb{R}^3$ 上的调和函数）当且仅当 $\iint\limits_{S}\dfrac{\partial f}{\partial \boldsymbol{n}}\,\mathrm{d}S=0$（$\forall S\in\Sigma$）。<br>(2) 设 $f(x,y,z)$ 为 $\mathbb{R}^3$ 上的调和函数，$S\in\Sigma$，且 $S$ 围成的有界闭区域记作 $V$。证明：$$f(x_0,y_0,z_0)=\dfrac{1}{4\pi}\iint\limits_{S}\left(f\,\dfrac{\cos(\boldsymbol{r},\boldsymbol{n})}{|\boldsymbol{r}|^2}+\dfrac{1}{|\boldsymbol{r}|}\dfrac{\partial f}{\partial \boldsymbol{n}}\right)\mathrm{d}S.$$其中 $(x_0,y_0,z_0)$ 为 $V$ 内部的一个定点，$\boldsymbol{r}=(x-x_0,y-y_0,z-z_0)$，$(\boldsymbol{r},\boldsymbol{n})$ 表示两向量的夹角，$|\boldsymbol{r}|$ 表示向量 $\boldsymbol{r}$ 的模长。<br>(3) 若函数 $f$ 和闭区间 $[0,1]$ 上的连续函数 $g$ 在单位球 $\Omega=\{(x,y,z)\mid x^2+y^2+z^2\le 1\}$ 上满足 $$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=g(x^2+y^2+z^2).$$证明：$$\iiint\limits_{\Omega}\left(x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}\right)\mathrm{d}x\mathrm{d}y\mathrm{d}z=\pi\int_0^1\sqrt{t}\,(t-1)\,g(t)\,\mathrm{d}t.$$</div>
     <div class="toolbar" style="margin-top:14px">
       <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
       <button class="btn small copy-btn" data-stem="已知三元函数 $f(x,y,z)$ 在 $\mathbb{R}^3$ 上具有连续的二阶偏导数，设 $\mathbb{R}^3$ 中光滑简单封闭曲面的全体为 $\Sigma$，对于 $S\in\Sigma$，用 $\boldsymbol{n}$ 表示 $S$ 的外法线单位方向向量，$\dfrac{\partial f}{\partial \boldsymbol{n}}$ 表示 $f$ 沿 $\boldsymbol{n}$ 的方向导数。
-(1) 证明：$f$ 在 $\mathbb{R}^3$ 上满足
-$$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=0$$
-（即 $f$ 为 $\mathbb{R}^3$ 上的调和函数）当且仅当 $\displaystyle\iint_S \dfrac{\partial f}{\partial \boldsymbol{n}}\,\mathrm{d}S=0$（$\forall S\in\Sigma$）。
-(2) 设 $f(x,y,z)$ 为 $\mathbb{R}^3$ 上的调和函数，$S\in\Sigma$，且 $S$ 围成的有界闭区域记作 $V$。证明：
-$$f(x_0,y_0,z_0)=\dfrac{1}{4\pi}\iint_S\left(f\dfrac{\cos(\boldsymbol{r},\boldsymbol{n})}{|\boldsymbol{r}|^2}+\dfrac{1}{|\boldsymbol{r}|}\dfrac{\partial f}{\partial \boldsymbol{n}}\right)\,\mathrm{d}S,$$
-其中 $(x_0,y_0,z_0)$ 为 $V$ 内部的一个定点，$\boldsymbol{r}=(x-x_0,y-y_0,z-z_0)$，$(\boldsymbol{r},\boldsymbol{n})$ 表示两向量的夹角，$|\boldsymbol{r}|$ 表示向量 $\boldsymbol{r}$ 的模长。
-(3) 若函数 $f$ 和闭区间 $[0,1]$ 上的连续函数 $g$ 在单位球 $\Omega=\{(x,y,z)\mid x^2+y^2+z^2\le 1\}$ 上满足
-$$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=g(x^2+y^2+z^2).$$
-证明：
-$$\iiint_\Omega\left(x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}\right)\,\mathrm{d}x\mathrm{d}y\mathrm{d}z=\pi\int_0^1\sqrt{t}\,(t-1)g(t)\,\mathrm{d}t.$$" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
+(1) 证明：$f$ 在 $\mathbb{R}^3$ 上满足 $$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=0$$（即 $f$ 为 $\mathbb{R}^3$ 上的调和函数）当且仅当 $\iint\limits_{S}\dfrac{\partial f}{\partial \boldsymbol{n}}\,\mathrm{d}S=0$（$\forall S\in\Sigma$）。
+(2) 设 $f(x,y,z)$ 为 $\mathbb{R}^3$ 上的调和函数，$S\in\Sigma$，且 $S$ 围成的有界闭区域记作 $V$。证明：$$f(x_0,y_0,z_0)=\dfrac{1}{4\pi}\iint\limits_{S}\left(f\,\dfrac{\cos(\boldsymbol{r},\boldsymbol{n})}{|\boldsymbol{r}|^2}+\dfrac{1}{|\boldsymbol{r}|}\dfrac{\partial f}{\partial \boldsymbol{n}}\right)\mathrm{d}S.$$其中 $(x_0,y_0,z_0)$ 为 $V$ 内部的一个定点，$\boldsymbol{r}=(x-x_0,y-y_0,z-z_0)$，$(\boldsymbol{r},\boldsymbol{n})$ 表示两向量的夹角，$|\boldsymbol{r}|$ 表示向量 $\boldsymbol{r}$ 的模长。
+(3) 若函数 $f$ 和闭区间 $[0,1]$ 上的连续函数 $g$ 在单位球 $\Omega=\{(x,y,z)\mid x^2+y^2+z^2\le 1\}$ 上满足 $$\dfrac{\partial^2 f}{\partial x^2}+\dfrac{\partial^2 f}{\partial y^2}+\dfrac{\partial^2 f}{\partial z^2}=g(x^2+y^2+z^2).$$证明：$$\iiint\limits_{\Omega}\left(x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partial y}+z\dfrac{\partial f}{\partial z}\right)\mathrm{d}x\mathrm{d}y\mathrm{d}z=\pi\int_0^1\sqrt{t}\,(t-1)\,g(t)\,\mathrm{d}t.$$" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
       <a class="btn small" href="../paper/major-0701-2024-cqu-79ed0b9a.html#major-0701-2024-cqu-79ed0b9a-q0005">在试卷中查看</a>
     </div>
     <div class="notice" style="margin-top:18px">
@@ -77,8 +70,8 @@ $$\iiint_\Omega\left(x\dfrac{\partial f}{\partial x}+y\dfrac{\partial f}{\partia
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 20798 题</span>
-    <span>生成于 2026-10-03 18:51 · <a href="../about.html">数据说明</a></span>
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21428 题</span>
+    <span>生成于 2026-10-05 00:00 · <a href="../about.html">数据说明</a></span>
   </div>
 </footer>
 <script defer src="../assets/katex/katex.min.js"></script>

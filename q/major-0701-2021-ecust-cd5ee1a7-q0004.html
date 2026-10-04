@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>2021 高等代数 四1 · 数学考研真题库</title>
-<meta name="description" content="A 为方程组 ( {I})\ {cases}a_{11}x_1+a_{12}x_2+ +a_{1n}x_n=0;\\ a_{21}x_1+a_{22}x_2+ +a_{2n}x_n=0;\\ \\ a_{n-1,1}x_1+a_{n-1,2}x_2+ +a_{n-1,n}x_n=0. {cases}">
+<meta name="description" content="A 为方程组 (I)\; {cases}a_{11}x_1+a_{12}x_2+ +a_{1n}x_n=0;\\ a_{21}x_1+a_{22}x_2+ +a_{2n}x_n=0;\\ \\ a_{n-1,1}x_1+a_{n-1,2}x_2+ +a_{n-1,n}x_n=0, {cases} 的">
 <link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='14'%20fill='%231f5c46'/%3E%3Ctext%20x='32'%20y='45'%20font-size='40'%20text-anchor='middle'%20fill='%23ffffff'%20font-family='sans-serif'%3E%E8%80%83%3C/text%3E%3C/svg%3E">
 <link rel="stylesheet" href="../assets/katex/katex.min.css">
 <link rel="stylesheet" href="../assets/site.css?v=20260925135128">
@@ -39,12 +39,12 @@
       <span class="no">2021 · 高等代数 · 四1</span>
       <span class="sep">|</span>
       <span class="t">证明</span>    </h1>
-    <div class="qstem">$A$ 为方程组<br>$$(\mathrm{I})\ \begin{cases}a_{11}x_1+a_{12}x_2+\cdots+a_{1n}x_n=0;\\ a_{21}x_1+a_{22}x_2+\cdots+a_{2n}x_n=0;\\ \cdots\cdots\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\cdots+a_{n-1,n}x_n=0.\end{cases}$$<br>的系数矩阵．$M_j\ (j=1,2,\cdots,n)$ 为 $A$ 中去掉第 $j$ 列所生成的 $n-1$ 阶子式．<br>(1) 证明：$(M_1,-M_2,\cdots,(-1)^{n-1}M_n)$ 为方程组 (I) 的解；<br>(2) 证明：当 $A$ 的秩为 $n-1$ 时，(I) 的解均为 $(M_1,-M_2,\cdots,(-1)^{n-1}M_n)$ 的倍数。</div>
+    <div class="qstem">$A$ 为方程组<br>(I)\;$\begin{cases}a_{11}x_1+a_{12}x_2+\cdots+a_{1n}x_n=0;\\ a_{21}x_1+a_{22}x_2+\cdots+a_{2n}x_n=0;\\ \cdots\cdots\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\cdots+a_{n-1,n}x_n=0,\end{cases}$<br>的系数矩阵。$M_j$ $(j=1,2,\cdots,n)$ 为 $A$ 中去掉第 $j$ 列所生成的 $n-1$ 阶子式。<br>(1) 证明：$(M_1,-M_2,\cdots,(-1)^{n-1}M_n)$ 为方程组 (I) 的解；<br>(2) 证明：当 $A$ 的秩为 $n-1$ 时，(I) 的解均为 $(M_1,-M_2,\cdots,(-1)^{n-1}M_n)$ 的倍数。</div>
     <div class="toolbar" style="margin-top:14px">
       <button class="btn small star-btn" id="star-btn" type="button" aria-label="收藏此题">☆ 收藏</button>
       <button class="btn small copy-btn" data-stem="$A$ 为方程组
-$$(\mathrm{I})\ \begin{cases}a_{11}x_1+a_{12}x_2+\cdots+a_{1n}x_n=0;\\ a_{21}x_1+a_{22}x_2+\cdots+a_{2n}x_n=0;\\ \cdots\cdots\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\cdots+a_{n-1,n}x_n=0.\end{cases}$$
-的系数矩阵．$M_j\ (j=1,2,\cdots,n)$ 为 $A$ 中去掉第 $j$ 列所生成的 $n-1$ 阶子式．
+(I)\;$\begin{cases}a_{11}x_1+a_{12}x_2+\cdots+a_{1n}x_n=0;\\ a_{21}x_1+a_{22}x_2+\cdots+a_{2n}x_n=0;\\ \cdots\cdots\\ a_{n-1,1}x_1+a_{n-1,2}x_2+\cdots+a_{n-1,n}x_n=0,\end{cases}$
+的系数矩阵。$M_j$ $(j=1,2,\cdots,n)$ 为 $A$ 中去掉第 $j$ 列所生成的 $n-1$ 阶子式。
 (1) 证明：$(M_1,-M_2,\cdots,(-1)^{n-1}M_n)$ 为方程组 (I) 的解；
 (2) 证明：当 $A$ 的秩为 $n-1$ 时，(I) 的解均为 $(M_1,-M_2,\cdots,(-1)^{n-1}M_n)$ 的倍数。" title="复制题干原文（含 LaTeX，保留换行）">复制题干</button>
       <a class="btn small" href="../paper/major-0701-2021-ecust-cd5ee1a7.html#major-0701-2021-ecust-cd5ee1a7-q0004">在试卷中查看</a>
@@ -71,8 +71,8 @@ $$(\mathrm{I})\ \begin{cases}a_{11}x_1+a_{12}x_2+\cdots+a_{1n}x_n=0;\\ a_{21}x_1
 </main>
 <footer class="site">
   <div class="wrap">
-    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 18937 题</span>
-    <span>生成于 2026-10-03 16:21 · <a href="../about.html">数据说明</a></span>
+    <span>数学考研真题库 · 数据来自 各高校历年数学考研真题（经校对整理），共 21428 题</span>
+    <span>生成于 2026-10-05 00:00 · <a href="../about.html">数据说明</a></span>
   </div>
 </footer>
 <script defer src="../assets/katex/katex.min.js"></script>

@@ -4,6 +4,95 @@
     {
       "school": "西南财经大学",
       "year": "2023",
+      "subject": "数学分析",
+      "header_note": "65. 西南财经大学 2023 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247516351-5_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 20,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{\\int_0^x t\\cos t\\,\\mathrm{d}t-1+\\cos x}{\\sqrt{1+x\\tan x}-\\sqrt{1+x\\sin x}}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "求级数 $\\sum\\limits_{n=0}^{\\infty}\\dfrac{n^2+1}{\\left(\\frac12\\right)^{n}n!}x^{n}$ 的和函数。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设 $f(x)$ 在 $[0,1]$ 上二阶可导，且 $f(0)=f(1)=0$，试证明存在 $\\xi\\in(0,1)$，使得 $f''(x)=\\dfrac{2f'(\\xi)}{1-\\xi}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "已知 $x+y-z=e^{z}$，$xe^{x}=\\tan t$，$y=\\cos t$，求 $\\dfrac{\\mathrm{d}x}{\\mathrm{d}t}\\Big|_{t=0}$，$\\dfrac{\\mathrm{d}y}{\\mathrm{d}t}\\Big|_{t=0}$，$\\dfrac{\\mathrm{d}^2 z}{\\mathrm{d}t^2}\\Big|_{t=0}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算二重积分 $\\iint\\limits_{D} r^{2}\\sin\\theta\\sqrt{1-r^{2}\\cos 2\\theta}\\,\\mathrm{d}r\\mathrm{d}\\theta$，其中 $D=\\left\\{0\\le r\\le\\sec\\theta,\\ 0\\le\\theta\\le\\dfrac{\\pi}{4}\\right\\}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "二重极限",
+          "stem": "证明 $\\lim\\limits_{(x,y)\\to(0,0)}x^{xy}$ 不存在，其中 $x>0,\\ y>0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求 $u=ax^{2}+by^{2}+cz^{2}$（$a,b,c>0$）在条件 $x+y+z=1$ 下的最小值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 15,
+          "form": "判断",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "判断反常积分 $\\int_0^{+\\infty}\\dfrac{\\sin\\left(x+\\frac1x\\right)}{x^{p}}\\,\\mathrm{d}x$ 的敛散性。"
+        }
+      ]
+    },
+    {
+      "school": "西南财经大学",
+      "year": "2023",
       "subject": "高等代数",
       "header_note": "65. 西南财经大学 2023 年高等代数试卷",
       "source_imgs": ["work/imgs/2247516351-5_5.png"],
@@ -16,7 +105,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "求行列式 $$\\begin{vmatrix} a & b & c & d \\\\ d & a & b & c \\\\ c & d & a & b \\\\ b & c & d & a \\end{vmatrix}.$$"
+          "stem": "求行列式 $\\begin{vmatrix} a & b & c & d \\\\ d & a & b & c \\\\ c & d & a & b \\\\ b & c & d & a \\end{vmatrix}$。"
         },
         {
           "section": "一",
@@ -26,7 +115,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "伴随矩阵",
-          "stem": "已知 $A$ 为 4 阶方阵, 且 $A^{-1}XA - A^{*} = A^{-1}X$, 其中 $A^{*}$ 为 $A$ 的伴随矩阵. 若 $$A=\\begin{pmatrix} 1 & 1 & 0 & 0 \\\\ 0 & 1 & 2 & 0 \\\\ 0 & 0 & 1 & 3 \\\\ 4 & 0 & 0 & 1 \\end{pmatrix},$$ 求矩阵 $X$."
+          "stem": "已知 $A$ 为 4 阶方阵，且 $A^{-1}XA-A^{*}=A^{-1}X$，其中 $A^{*}$ 为 $A$ 的伴随矩阵。若 $A=\\begin{pmatrix} 1 & 1 & 0 & 0 \\\\ 0 & 1 & 2 & 0 \\\\ 0 & 0 & 1 & 3 \\\\ 4 & 0 & 0 & 1 \\end{pmatrix}$，求矩阵 $X$。"
         },
         {
           "section": "一",
@@ -36,7 +125,7 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "线性方程组",
-          "stem": "设向量组 $$\\alpha_1=\\begin{pmatrix} * \\\\ * \\\\ * \\\\ * \\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix} * \\\\ * \\\\ * \\\\ * \\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix} * \\\\ * \\\\ * \\\\ * \\end{pmatrix}\\ (\\text{具体数据未知}),\\ \\beta=\\begin{pmatrix} 0 \\\\ 2k \\\\ 0 \\end{pmatrix}.$$ 讨论 $k$ 的取值, 使得 $\\beta$ 不可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出; $\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 唯一线性表出; $\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出, 且表示方法不唯一, 并求出一般表达式."
+          "stem": "设向量组 $\\alpha_1=\\begin{pmatrix} * \\\\ * \\\\ * \\end{pmatrix},\\ \\alpha_2=\\begin{pmatrix} * \\\\ * \\\\ * \\end{pmatrix},\\ \\alpha_3=\\begin{pmatrix} * \\\\ * \\\\ * \\end{pmatrix}$（具体数据未知），$\\beta=\\begin{pmatrix} 0 \\\\ 2k \\\\ 0 \\end{pmatrix}$。讨论 $k$ 的取值，使得 $\\beta$ 不可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出；$\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 唯一线性表出；$\\beta$ 可由 $\\alpha_1,\\alpha_2,\\alpha_3$ 线性表出，且表示方法不唯一，并求出一般表达式。"
         },
         {
           "section": "一",
@@ -46,17 +135,17 @@
           "form": "计算",
           "l1": "多项式",
           "l2": "根与重因式",
-          "stem": "求 $t$ 为何值时, 多项式 $f(x)=x^3+6x^2+tx+8$ 有重根, 求出重根的值与重数."
+          "stem": "求 $t$ 为何值时，多项式 $f(x)=x^{3}+6x^{2}+tx+8$ 有重根，求出重根的值与重数。"
         },
         {
           "section": "一",
           "section_instruction": "",
           "no": "5",
           "score": 20,
-          "form": "计算",
+          "form": "综合",
           "l1": "欧氏空间与二次型",
           "l2": "二次型",
-          "stem": "已知二次型 $$f(x_1,x_2,x_3)=(1+a)x_1^2+(1+a)x_2^2+2x_3^2+2(a-1)x_1x_2$$ 的秩为 2, 求 $a$ 的值, 并将二次型经过正交替换 $X=QY$ 化为标准形, 同时求 $f(x_1,x_2,x_3)=0$ 的解."
+          "stem": "已知二次型 $f(x_1,x_2,x_3)=(1+a)x_1^{2}+(1+a)x_2^{2}+2x_3^{2}+2(a-1)x_1x_2$ 的秩为 2，求 $a$ 的值，并将二次型经过正交替换 $X=QY$ 化为标准形，同时求 $f(x_1,x_2,x_3)=0$ 的解。"
         },
         {
           "section": "一",
@@ -65,8 +154,8 @@
           "score": 20,
           "form": "证明",
           "l1": "欧氏空间与二次型",
-          "l2": "对称变换",
-          "stem": "已知 $\\sigma$ 为欧几里得空间 $V$ 上的对称变换, 若对任意的非零向量 $\\alpha\\in V$, 有 $(\\sigma(\\alpha),\\alpha)>0$, 则称 $\\sigma$ 为正定的对称变换. 证明: 对称变换 $\\sigma$ 是正定的当且仅当 $\\sigma$ 的特征值全大于零."
+          "l2": "正定与半正定",
+          "stem": "已知 $\\sigma$ 为欧几里得空间 $V$ 上的对称变换，若对任意的非零向量 $\\alpha\\in V$，有 $(\\sigma(\\alpha),\\alpha)>0$，则称 $\\sigma$ 为正定的对称变换。证明：对称变换 $\\sigma$ 是正定的当且仅当 $\\sigma$ 的特征值全大于零。"
         },
         {
           "section": "一",
@@ -76,7 +165,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "不变子空间",
-          "stem": "设 $\\sigma,\\tau$ 是线性空间 $V$ 上的线性变换, 且 $\\sigma\\tau=\\tau\\sigma$, 记 $$V^{\\lambda_0}=\\{\\alpha\\in V\\mid \\text{存在正整数 } m \\text{ 使得 } (\\sigma-\\lambda_0\\varepsilon)^m\\alpha=0\\}.$$ 其中 $\\varepsilon$ 为恒等变换. 证明: $V^{\\lambda_0}$ 为 $V$ 的子空间, 且 $V^{\\lambda_0}$ 是 $\\sigma$ 与 $\\tau$ 的不变子空间."
+          "stem": "设 $\\sigma,\\tau$ 是线性空间 $V$ 上的线性变换，且 $\\sigma\\tau=\\tau\\sigma$，记 $V^{\\lambda_0}=\\{\\alpha\\in V\\mid$ 存在正整数 $m$ 使得 $(\\sigma-\\lambda_0\\varepsilon)^{m}\\alpha=0\\}$，其中 $\\varepsilon$ 为恒等变换。证明：$V^{\\lambda_0}$ 为 $V$ 的子空间，且 $V^{\\lambda_0}$ 是 $\\sigma$ 与 $\\tau$ 的不变子空间。"
         },
         {
           "section": "一",
@@ -86,7 +175,7 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与直和",
-          "stem": "设 $A$ 是数域 $P$ 上的 $n$ 阶方阵, $f_1(x),f_2(x)\\in P[x]$, $f_1(x),f_2(x)$ 互素, $V$ 为齐次线性方程组 $f_1(A)f_2(A)X=0$ 的解空间, $V_1$ 为 $f_1(A)X=0$ 的解空间, $V_2$ 为 $f_2(A)X=0$ 的解空间, 求证: $$V=V_1\\oplus V_2.$$"
+          "stem": "设 $A$ 是数域 $P$ 上的 $n$ 阶方阵，$f_1(x),f_2(x)\\in P[x]$，$f_1(x),f_2(x)$ 互素，$V$ 为齐次线性方程组 $f_1(A)f_2(A)X=0$ 的解空间，$V_1$ 为 $f_1(A)X=0$ 的解空间，$V_2$ 为 $f_2(A)X=0$ 的解空间，求证：$V=V_1\\oplus V_2$。"
         }
       ]
     }

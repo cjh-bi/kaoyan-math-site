@@ -1,338 +1,353 @@
 {
- "msgid": "2247529158",
- "exams": [
-  {
-   "school": "河海大学",
-   "year": "2025",
-   "subject": "数学分析",
-   "header_note": "37. 河海大学 2025 年数学分析试卷",
-   "source_imgs": [
-    "work/imgs/2247529158_4.jpg"
-   ],
-   "questions": [
+  "msgid": "2247529158",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
-     "no": "1",
-     "score": 5,
-     "form": "判断",
-     "l1": "极限与连续",
-     "l2": "数列收敛性",
-     "stem": "数列 $\\{a_n\\}$ 为实数列, 如果对所有的 $n,p\\in\\mathbb{N}^+$, 都有 $|a_{n+p}-a_n|<\\dfrac{p}{n}$, 那么 $\\{a_n\\}$ 为基本数列(Cauchy 列)."
+      "school": "河海大学",
+      "year": "2025",
+      "subject": "数学分析",
+      "header_note": "37. 河海大学 2025 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247529158_4.jpg", "work/imgs/2247529158_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "数列 $\\{a_n\\}$ 为实数列, 如果对所有的 $n,p\\in\\mathbb{N}^{+}$, 都有 $|a_{n+p}-a_n|<\\dfrac{p}{n}$, 那么 $\\{a_n\\}$ 为基本数列(Cauchy 列)."
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "连续与有界性",
+          "stem": "如果连续函数 $f(x)$ 在 $(a,b)$ 上没有零点, 那么 $f(x)$ 在 $(a,b)$ 内不变号."
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "如果函数 $f(x)$ 在 $[a,b]$ 上可积, 那么 $f(x)$ 在 $[a,b]$ 上至多只有有限个间断点."
+        },
+        {
+          "section": "一",
+          "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
+          "no": "4",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "如果级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n$ 收敛, 实数列 $\\{b_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}\\dfrac{b_n}{a_n}=0$, 那么 $\\displaystyle\\sum_{n=1}^{\\infty}b_n$ 也收敛."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题.",
+          "no": "1",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "连续与极限概念判断",
+          "stem": "写出命题“当 $x\\to x_0^{-}$ 时, 函数 $f(x)$ 的极限为正无穷大”的否定命题的分析表述."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题.",
+          "no": "2",
+          "score": 5,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "叙述函数 $f(x)$ 在区间 $I$ 上一致连续的定义."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题.",
+          "no": "3",
+          "score": 5,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "叙述函数 $f(x)$ 在 $[a,b]$ 上 Riemann 可积的定义."
+        },
+        {
+          "section": "二",
+          "section_instruction": "叙述题.",
+          "no": "4",
+          "score": 5,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "叙述判定函数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}a_n(x)b_n(x)$ 在 $D$ 上一致收敛的 Dirichlet 判别法."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "求极限 $\\lim\\limits_{x\\to\\text{【?】}}\\dfrac{\\frac{x^2}{2}-\\sqrt{1+x^2}+1}{(\\cos x-\\mathrm{e}^{x^2})\\tan^2 x}$.（卷面极限趋近点缺失）"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "一元积分学",
+          "l2": "不定积分",
+          "stem": "求不定积分 $\\displaystyle\\int\\dfrac{x^2\\arcsin x}{\\sqrt{1-x^2}}\\,\\mathrm{d}x$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "3",
+          "score": 10,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $p>0$, 讨论级数\n$$\\sum_{n=1}^{\\infty}\\ln\\left(1+\\dfrac{(-1)^{n-1}}{n^{p}}\\right)$$\n是否收敛? 如果收敛的话, 是条件收敛还是绝对收敛?"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "4",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "函数 $z=z(x,y)$ 具有二阶连续偏导数, 且满足方程\n$$\\dfrac{\\partial^{2}z}{\\partial x^{2}}-2\\dfrac{\\partial^{2}z}{\\partial x\\partial y}+\\dfrac{\\partial^{2}z}{\\partial y^{2}}=0.$$\n现做自变量变换 $u=x-y$, $v=x+y$ 和因变量变换 $w=xy-z$, 求 $w$ 作为 $u$ 和 $v$ 的函数所满足的方程."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $h>0$, 求\n$$\\iint\\limits_{\\Sigma}x^{3}\\,\\mathrm{d}y\\mathrm{d}z+y^{3}\\,\\mathrm{d}z\\mathrm{d}x+z^{3}\\,\\mathrm{d}x\\mathrm{d}y,$$\n其中 $\\Sigma$ 是锥面 $z=\\sqrt{x^{2}+y^{2}}$ 在 $0\\le z\\le h$ 的部分, 方向取上侧."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "函数 $f(x)$ 在 $[0,1]$ 上二阶连续可导, 且 $|f(x)|\\le\\min\\{1-\\cos x,\\sin\\pi x\\}$, $\\forall x\\in[0,1]$. 证明:\n(1) 存在 $\\xi\\in(0,1)$, 使得 $f'(\\xi)=0$.\n(2) 存在 $\\eta\\in(0,1)$, 使得 $f''(\\eta)=0$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "7",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分求导",
+          "stem": "设 $f(x,y)=\\dfrac{1}{(1+xy)(1+x)}$, $(x,y)\\in[0,+\\infty)\\times[0,+\\infty)$.\n(1) 证明 $\\displaystyle\\int_{0}^{+\\infty}f(x,y)\\,\\mathrm{d}x$ 关于 $y\\in(0,+\\infty)$ 上是内闭一致收敛的.\n(2) 设 $g(y)=\\displaystyle\\int_{0}^{+\\infty}\\dfrac{\\ln(1+xy)}{x(1+x)}\\,\\mathrm{d}x$, $y\\in(0,+\\infty)$, 求 $g'(y)$ 及 $g(1)$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "8",
+          "score": 15,
+          "form": "综合",
+          "l1": "级数",
+          "l2": "幂级数",
+          "stem": "解答如下问题:\n(1) 求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^{n}}{n}$ 的收敛域以及和函数.\n(2) $f(x)=\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^{n}}{n^{2}}$, $x\\in[-1,1]$. 证明: 对任意的 $x\\in(0,1)$, 都有\n$$f(x)+f(1-x)+\\ln x\\cdot\\ln(1-x)=\\dfrac{\\pi^{2}}{6}.$$\n"
+        },
+        {
+          "section": "三",
+          "section_instruction": "解答与证明题.",
+          "no": "9",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设数列 $\\{a_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}a_n=a$, 数列 $\\{p_n\\}$ 满足 $p_k>0$, $k=1,2,\\cdots$, 且\n$$\\lim_{n\\to\\infty}\\dfrac{p_n}{p_1+p_2+\\cdots+p_n}=0.$$\n证明:\n$$\\lim_{n\\to\\infty}\\dfrac{p_1a_n+p_2a_{n-1}+\\cdots+p_na_1}{p_1+p_2+\\cdots+p_n}=a.$$\n"
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
-     "no": "2",
-     "score": 5,
-     "form": "判断",
-     "l1": "极限与连续",
-     "l2": "连续与有界性",
-     "stem": "如果连续函数 $f(x)$ 在 $(a,b)$ 上没有零点, 那么 $f(x)$ 在 $(a,b)$ 内不变号."
-    },
-    {
-     "section": "一",
-     "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
-     "no": "3",
-     "score": 5,
-     "form": "判断",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "如果函数 $f(x)$ 在 $[a,b]$ 上可积, 那么 $f(x)$ 在 $[a,b]$ 上至多只有有限个间断点."
-    },
-    {
-     "section": "一",
-     "section_instruction": "判断题. 判断下列命题是否正确并说明理由. 若判断某命题错误, 则务必给出反例或说明理由, 否则该题仅得 2 分.",
-     "no": "4",
-     "score": 5,
-     "form": "判断",
-     "l1": "级数",
-     "l2": "数项级数敛散性",
-     "stem": "如果级数 $\\sum\\limits_{n=1}^{\\infty}a_n$ 收敛, 实数列 $\\{b_n\\}$ 满足 $\\lim\\limits_{n\\to\\infty}\\dfrac{b_n}{a_n}=0$, 那么 $\\sum\\limits_{n=1}^{\\infty}b_n$ 也收敛."
-    },
-    {
-     "section": "二",
-     "section_instruction": "叙述题.",
-     "no": "1",
-     "score": 5,
-     "form": "综合",
-     "l1": "极限与连续",
-     "l2": "连续与极限概念判断",
-     "stem": "写出命题“当 $x\\to x_0^{-}$ 时, 函数 $f(x)$ 的极限为正无穷大”的否定命题的分析表述."
-    },
-    {
-     "section": "二",
-     "section_instruction": "叙述题.",
-     "no": "2",
-     "score": 5,
-     "form": "综合",
-     "l1": "极限与连续",
-     "l2": "一致连续性",
-     "stem": "叙述函数 $f(x)$ 在区间 $I$ 上一致连续的定义."
-    },
-    {
-     "section": "二",
-     "section_instruction": "叙述题.",
-     "no": "3",
-     "score": 5,
-     "form": "综合",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "叙述函数 $f(x)$ 在 $[a,b]$ 上 Riemann 可积的定义."
-    },
-    {
-     "section": "二",
-     "section_instruction": "叙述题.",
-     "no": "4",
-     "score": 5,
-     "form": "综合",
-     "l1": "级数",
-     "l2": "函数项级数",
-     "stem": "叙述判定函数项级数 $\\sum\\limits_{n=1}^{\\infty}a_n(x)b_n(x)$ 在 $D$ 上一致收敛的 Dirichlet 判别法."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "函数极限计算",
-     "stem": "求极限 $\\lim\\limits_{x\\to0}\\dfrac{\\frac{x^2}{2}-\\sqrt{1+x^2}+1}{(\\cos x-e^{x^2})\\tan^2 x}$."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "2",
-     "score": 10,
-     "form": "计算",
-     "l1": "一元积分学",
-     "l2": "不定积分",
-     "stem": "求不定积分 $\\displaystyle\\int\\dfrac{x^2\\arcsin x}{\\sqrt{1-x^2}}\\,\\mathrm{d}x$."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "3",
-     "score": 10,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "数项级数敛散性",
-     "stem": "设 $p>0$, 讨论级数\n$$\\sum_{n=1}^{\\infty}\\ln\\left(1+\\dfrac{(-1)^{n-1}}{n^p}\\right)$$\n是否收敛? 如果收敛的话, 是条件收敛还是绝对收敛?"
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "4",
-     "score": 10,
-     "form": "计算",
-     "l1": "多元微分学",
-     "l2": "偏导数",
-     "stem": "函数 $z=z(x,y)$ 具有二阶连续偏导数, 且满足方程\n$$\\dfrac{\\partial^2 z}{\\partial x^2}-2\\dfrac{\\partial^2 z}{\\partial x\\partial y}+\\dfrac{\\partial^2 z}{\\partial y^2}=0.$$\n现做自变量变换 $u=x-y$, $v=x+y$ 和因变量变换 $w=xy-z$, 求 $w$ 作为 $u$ 和 $v$ 的函数所满足的方程."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "5",
-     "score": 10,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲面积分",
-     "stem": "设 $h>0$, 求\n$$\\iint\\limits_{\\Sigma}x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+z^3\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $\\Sigma$ 是锥面 $z=\\sqrt{x^2+y^2}$ 在 $0\\le z\\le h$ 的部分, 方向取上侧."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "6",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "中值定理",
-     "stem": "函数 $f(x)$ 在 $[0,1]$ 上二阶连续可导, 且 $|f(x)|\\le\\min\\{1-\\cos x,\\sin\\pi x\\}$, $\\forall x\\in[0,1]$. 证明:\n(1) 存在 $\\xi\\in(0,1)$, 使得 $f'(\\xi)=0$.\n(2) 存在 $\\eta\\in(0,1)$, 使得 $f''(\\eta)=0$."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "7",
-     "score": 15,
-     "form": "综合",
-     "l1": "广义积分与含参积分",
-     "l2": "含参量积分求导",
-     "stem": "设 $f(x,y)=\\dfrac{1}{(1+xy)(1+x)}$, $(x,y)\\in[0,+\\infty)\\times[0,+\\infty)$.\n(1) 证明 $\\displaystyle\\int_0^{+\\infty}f(x,y)\\,\\mathrm{d}x$ 关于 $y\\in(0,+\\infty)$ 上是内闭一致收敛的.\n(2) 设 $g(y)=\\displaystyle\\int_0^{+\\infty}\\dfrac{\\ln(1+xy)}{x(1+x)}\\,\\mathrm{d}x$, $y\\in(0,+\\infty)$, 求 $g'(y)$ 及 $g(1)$."
-    },
-    {
-     "section": "三",
-     "section_instruction": "解答与证明题.",
-     "no": "8",
-     "score": 15,
-     "form": "综合",
-     "l1": "级数",
-     "l2": "幂级数",
-     "stem": "解答如下问题:\n(1) 求幂级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{x^n}{n}$ 的收敛域以及和函数. 【?】(试卷页在此处截断, 本题后续分问不在所给图片中)"
+      "school": "河海大学",
+      "year": "2025",
+      "subject": "高等代数",
+      "header_note": "37. 河海大学 2025 年高等代数试卷",
+      "source_imgs": ["work/imgs/2247529158_6.png", "work/imgs/2247529158_7.png", "work/imgs/2247529158_8.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 没空 4 分, 共 20 分.",
+          "no": "1",
+          "score": 4,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "$a,b,c,d$ 是给定的实数, 在 $\\mathbb{R}^{2\\times 2}$ 上定义线性变换\n$$\\mathscr{A}(X)=\\begin{pmatrix}a&b\\\\c&d\\end{pmatrix}X,\\ \\forall X\\in\\mathbb{R}^{2\\times 2}.$$\n$\\mathbb{R}^{2\\times 2}$ 是 2 阶实方阵全体, 它的一组基为\n$$E_{11}=\\begin{pmatrix}1&0\\\\0&0\\end{pmatrix},\\ E_{12}=\\begin{pmatrix}0&1\\\\0&0\\end{pmatrix},\\ E_{21}=\\begin{pmatrix}0&0\\\\1&0\\end{pmatrix},\\ E_{22}=\\begin{pmatrix}0&0\\\\0&1\\end{pmatrix}.$$\n$\\mathscr{A}$ 在这组基下的矩阵为 ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 没空 4 分, 共 20 分.",
+          "no": "2",
+          "score": 4,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "$V$ 是有限维线性空间, $\\mathscr{A},\\mathscr{B}$ 是 $V$ 上的两个线性变换, $\\mathscr{A}^{2}=\\mathscr{A}$, $\\mathscr{B}^{2}=\\mathscr{B}$, 且 $(\\mathscr{A}+\\mathscr{B})^{2}=\\mathscr{A}+\\mathscr{B}$, 那么 $\\mathscr{A}\\mathscr{B}$ ______ $\\mathscr{O}$, $\\mathscr{O}$ 是 $V$ 上的零变换(填“等于”或“不一定等于”)."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 没空 4 分, 共 20 分.",
+          "no": "3",
+          "score": 4,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "",
+          "stem": "$$\\begin{pmatrix}1&0&0\\\\0&1&1\\\\0&0&1\\end{pmatrix}^{100}\\begin{pmatrix}1&2&3\\\\4&5&6\\\\7&8&9\\end{pmatrix}\\begin{pmatrix}0&0&1\\\\0&1&0\\\\1&0&0\\end{pmatrix}^{200}=$$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 没空 4 分, 共 20 分.",
+          "no": "4",
+          "score": 4,
+          "form": "填空",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "写出下列所有正确命题的序号 ______.\n(a) $p(x)$ 是有理数域上次数大于 0 的多项式, 若对有理数域上任意两个多项式 $f(x),g(x)$, 由 $p(x)\\mid f(x)g(x)$ 能得出 $p(x)\\mid g(x)$ 或 $p(x)\\mid f(x)$, 则 $p(x)$ 是不可约多项式.\n(b) $f(x)$ 是有理数域上次数大于 0 的首一多项式, $f(x)$ 是不可约多项式的方幂的充要条件为: 对有理数域上任意一个多项式 $g(x)$, 有 $(f(x),g(x))=1$ 或者存在正整数 $m$ 使得 $f(x)\\mid(g(x))^{m}$.\n(c) $f(x)$ 是有理数域上次数大于 0 的首一多项式, $f(x)$ 是不可约多项式方幂的充要条件为: 对有理数域上任意两个多项式 $g(x),h(x)$, 有 $f(x)\\mid g(x)$ 或者存在正整数 $m$, 使得 $f(x)\\mid(h(x))^{m}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 没空 4 分, 共 20 分.",
+          "no": "5",
+          "score": 4,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "$a,b$ 为实数, $A=\\begin{pmatrix}3&-2&a&-16\\\\2&-3&0&1\\\\1&-1&1&-3\\\\3&b&1&-2\\end{pmatrix}$, 问 $a,b$ 满足 ______ 时, $A$ 的秩最小."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求行列式\n$$D_n=\\begin{vmatrix}x_1-m&x_2&\\cdots&x_n\\\\x_1&x_2-m&\\cdots&x_n\\\\\\vdots&\\vdots&&\\vdots\\\\x_1&x_2&\\cdots&x_n-m\\end{vmatrix}.$$\n"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "$a,b$ 为实数, 问 $a,b$ 满足什么条件时线性方程组\n$$\\begin{cases}ax_1+x_2+x_3=4;\\\\x_1+bx_2+x_3=3;\\\\x_1+2bx_2+x_3=4.\\end{cases}$$\n有唯一解, 有无穷解, 无解? 有解时求方程组的解."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "$a_1,\\cdots,a_n$ 为 $n$ 个实数, 求\n$$A=\\begin{pmatrix}0&&&&-a_n\\\\1&0&&&-a_{n-1}\\\\&1&0&&-a_{n-2}\\\\&&\\ddots&\\ddots&\\vdots\\\\&&1&0&-a_2\\\\&&&1&-a_1\\end{pmatrix}$$\n的不变因子组和 Smith 标准形."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "复数域上的多项式 $f(x)=x^{3}+px+q$, 问 $p,q$ 为何值时 $f(x)$ 有重根?"
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "2",
+          "score": 10,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "解答如下问题:\n(1) $a,b,c$ 为复数, $A=\\begin{pmatrix}0&a&b\\\\0&0&c\\\\0&0&0\\end{pmatrix}$, 写出 $A$ 的所有的若尔当标准形.\n(2) $B=\\begin{pmatrix}0&2023&-2024\\\\0&0&2025\\\\0&0&0\\end{pmatrix}$, 问复数域上的矩阵方程 $X^{2}=B$ 是否有解? 证明你的结论."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "实二次型\n$$f(x_1,x_2,\\cdots,x_n)=\\sum_{i=1}^{s}\\left(a_{i1}x_1+a_{i2}x_2+\\cdots+a_{in}x_n\\right)^{2}.$$\n写出它的矩阵, 并证明该矩阵的秩等于 $\\begin{pmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\a_{21}&a_{22}&\\cdots&a_{2n}\\\\\\vdots&\\vdots&&\\vdots\\\\a_{s1}&a_{s2}&\\cdots&a_{sn}\\end{pmatrix}$ 的秩."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "4",
+          "score": 10,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$V$ 是有限维线性空间, $\\mathscr{A}$ 是 $V$ 上的线性变换, $W$ 是 $V$ 的一个子空间, 记\n$$\\mathscr{A}(W)=\\{\\mathscr{A}(\\alpha)\\mid\\alpha\\in W\\},\\ \\mathscr{A}^{-1}(0)=\\{\\alpha\\in V\\mid\\mathscr{A}(\\alpha)=0\\}.$$\n证明: $\\mathscr{A}(W)$ 是线性空间, 且 $\\dim(\\mathscr{A}(W))+\\dim(W\\cap\\mathscr{A}^{-1}(0))=\\dim W$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "5",
+          "score": 10,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$A$ 是 $n$ 阶实方阵, $C(A)=\\{B\\in\\mathbb{R}^{n\\times n}\\mid AB=BA\\}$, $\\mathbb{R}^{n\\times n}$ 是 $n$ 阶实方阵全体.\n(1) 证明 $C(A)$ 是 $\\mathbb{R}^{n\\times n}$ 的一个子空间.\n(2) $E$ 是 $n$ 阶单位矩阵, 求 $C(E)$.\n(3) $A=\\begin{pmatrix}1&&&\\\\&2&&\\\\&&\\ddots&\\\\&&&n\\end{pmatrix}$, 求 $C(A)$ 的维数和一组基."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "6",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "$V$ 是复数域上的 $n$ 维线性空间, $\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 是 $V$ 的一组基, $\\mathscr{A}$ 在这组基下的矩阵为\n$$\\begin{pmatrix}\\lambda_0&&&\\\\1&\\lambda_0&&\\\\&\\ddots&\\ddots&\\\\&&1&\\lambda_0\\end{pmatrix}.$$\n(1) 若 $V_1$ 是 $\\mathscr{A}-$不变子空间, $\\varepsilon_1\\in V_1$, 则 $V_1=V$.\n(2) 若 $\\alpha$ 是 $\\mathscr{A}$ 的特征向量, 证明 $\\alpha$ 与 $\\varepsilon_n$ 一定线性相关.\n(3) 若 $U$ 是 $\\mathscr{A}-$不变子空间, 证明 $\\varepsilon_n\\in U$. (本题有误, 应该指出 $U$ 非零空间)\n(4) $V$ 是否可以分解成两个非平凡 $\\mathscr{A}-$不变子空间的直和? 说明理由."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "7",
+          "score": 20,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "解答如下问题:\n(1) 若 $\\displaystyle\\sum_{i=1}^{n}\\sum_{j=1}^{n}a_{ij}x_ix_j$ ($a_{ij}=a_{ji}$) 是正定二次型, 证明\n$$f(y_1,y_2,\\cdots,y_n)=\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1n}&y_1\\\\a_{21}&a_{22}&\\cdots&a_{2n}&y_2\\\\\\vdots&\\vdots&&\\vdots&\\vdots\\\\a_{n1}&a_{n2}&\\cdots&a_{nn}&y_n\\\\y_1&y_2&\\cdots&y_n&0\\end{vmatrix}$$\n是负定二次型.\n(2) 若 $A$ 是正定矩阵, 证明 $|A|\\le a_{nn}H_{n-1}$, 其中 $H_{n-1}$ 是 $A$ 的 $n-1$ 阶顺序主子式.\n(3) 若 $A$ 是正定矩阵, 证明 $|A|\\le a_{11}a_{22}\\cdots a_{nn}$.\n(4) 若 $C=(c_{ij})$ 是 $n$ 阶实可逆矩阵, 证明 $|C|^{2}\\le\\displaystyle\\prod_{j=1}^{n}\\left(c_{1j}^{2}+c_{2j}^{2}+\\cdots+c_{nj}^{2}\\right)$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题.",
+          "no": "8",
+          "score": 10,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "$A,B$ 是两个 $n$ 阶实方阵, $\\mathrm{rank}(ABA)=\\mathrm{rank}(B)$, 问 $AB$ 与 $BA$ 是否一定相似? 证明你的结论."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "河海大学",
-   "year": "2025",
-   "subject": "高等代数",
-   "header_note": "37. 河海大学 2025 年高等代数试卷",
-   "source_imgs": [
-    "work/imgs/2247529158_6.png",
-    "work/imgs/2247529158_7.png"
-   ],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "填空题. 没空 4 分, 共 20 分.",
-     "no": "1",
-     "score": 4,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "线性变换",
-     "stem": "$a,b,c,d$ 是给定的实数, 在 $\\mathbb{R}^{2\\times2}$ 上定义线性变换\n$$\\mathscr{A}(X)=\\begin{pmatrix}a&b\\\\ c&d\\end{pmatrix}X,\\ \\forall X\\in\\mathbb{R}^{2\\times2}.$$\n$\\mathbb{R}^{2\\times2}$ 是 2 阶实方阵全体, 它的一组基为\n$$E_{11}=\\begin{pmatrix}1&0\\\\ 0&0\\end{pmatrix},\\ E_{12}=\\begin{pmatrix}0&1\\\\ 0&0\\end{pmatrix},\\ E_{21}=\\begin{pmatrix}0&0\\\\ 1&0\\end{pmatrix},\\ E_{22}=\\begin{pmatrix}0&0\\\\ 0&1\\end{pmatrix}.$$\n$\\mathscr{A}$ 在这组基下的矩阵为 ______."
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题. 没空 4 分, 共 20 分.",
-     "no": "2",
-     "score": 4,
-     "form": "填空",
-     "l1": "线性空间与线性变换",
-     "l2": "线性变换",
-     "stem": "$V$ 是有限维线性空间, $\\mathscr{A},\\mathscr{B}$ 是 $V$ 上的两个线性变换, $\\mathscr{A}^2=\\mathscr{A}$, $\\mathscr{B}^2=\\mathscr{B}$, 且 $(\\mathscr{A}+\\mathscr{B})^2=\\mathscr{A}+\\mathscr{B}$, 那么 $\\mathscr{A}\\mathscr{B}$______$\\mathscr{O}$, $\\mathscr{O}$ 是 $V$ 上的零变换(填“等于”或“不一定等于”)."
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题. 没空 4 分, 共 20 分.",
-     "no": "3",
-     "score": 4,
-     "form": "填空",
-     "l1": "矩阵与线性方程组",
-     "l2": "",
-     "stem": "$$\\begin{pmatrix}1&0&0\\\\ 0&1&1\\\\ 0&0&1\\end{pmatrix}^{100}\\begin{pmatrix}1&2&3\\\\ 4&5&6\\\\ 7&8&9\\end{pmatrix}\\begin{pmatrix}0&0&1\\\\ 0&1&0\\\\ 1&0&0\\end{pmatrix}^{200}= \\underline{\\hspace{2.5em}}$$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题. 没空 4 分, 共 20 分.",
-     "no": "4",
-     "score": 4,
-     "form": "填空",
-     "l1": "多项式",
-     "l2": "既约性",
-     "stem": "写出下列所有正确命题的序号 ______.\n(a) $p(x)$ 是有理数域上次数大于 0 的多项式, 若对有理性数域上任意两个多项式 $f(x),g(x)$, 由 $p(x)\\mid f(x)g(x)$ 能得出 $p(x)\\mid g(x)$ 或 $p(x)\\mid f(x)$, 则 $p(x)$ 是不可约多项式.\n(b) $f(x)$ 是有理数域上次数大于 0 的首一多项式, $f(x)$ 是不可约多项式的方幂的充要条件为: 对有理数域上任意一个多项式 $g(x)$, 有 $(f(x),g(x))=1$ 或者存在正整数 $m$ 使得 $f(x)\\mid(g(x))^m$.\n(c) $f(x)$ 是有理数域上次数大于 0 的首一多项式, $f(x)$ 是不可约多项式方幂的充要条件为: 对有理数域上任意两个多项式 $g(x),h(x)$, 有 $f(x)\\mid g(x)$ 或者存在正整数 $m$, 使得 $f(x)\\mid(h(x))^m$."
-    },
-    {
-     "section": "一",
-     "section_instruction": "填空题. 没空 4 分, 共 20 分.",
-     "no": "5",
-     "score": 4,
-     "form": "填空",
-     "l1": "矩阵与线性方程组",
-     "l2": "秩",
-     "stem": "$a,b$ 为实数, $A=\\begin{pmatrix}3&-2&a&-16\\\\ 2&-3&0&1\\\\ 1&-1&1&-3\\\\ 3&b&1&-2\\end{pmatrix}$, 问 $a,b$ 满足 ______ 时, $A$ 的秩最小."
-    },
-    {
-     "section": "二",
-     "section_instruction": "计算题.",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "求行列式\n$$D_n=\\begin{vmatrix}x_1-m&x_2&\\cdots&x_n\\\\ x_1&x_2-m&\\cdots&x_n\\\\ \\vdots&\\vdots&&\\vdots\\\\ x_1&x_2&\\cdots&x_n-m\\end{vmatrix}.$$"
-    },
-    {
-     "section": "二",
-     "section_instruction": "计算题.",
-     "no": "2",
-     "score": 10,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "线性方程组",
-     "stem": "$a,b$ 为实数, 问 $a,b$ 满足什么条件时线性方程组\n$$\\begin{cases}ax_1+x_2+x_3=4;\\\\ x_1+bx_2+x_3=3;\\\\ x_1+2bx_2+x_3=4.\\end{cases}$$\n有唯一解, 有无穷解, 无解? 有解时求方程组的解."
-    },
-    {
-     "section": "二",
-     "section_instruction": "计算题.",
-     "no": "3",
-     "score": 10,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "矩阵分解",
-     "stem": "$a_1,\\cdots,a_n$ 为 $n$ 个实数, 求\n$$A=\\begin{pmatrix}0& & & &-a_n\\\\ 1&0& & &-a_{n-1}\\\\ &1&0& &-a_{n-2}\\\\ & &\\ddots&\\ddots&\\ \\vdots\\\\ & & &1&0&-a_2\\\\ & & & &1&-a_1\\end{pmatrix}$$\n的不变因子组和 Smith 标准形."
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "1",
-     "score": 10,
-     "form": "计算",
-     "l1": "多项式",
-     "l2": "根与重因式",
-     "stem": "复数域上的多项式 $f(x)=x^3+px+q$, 问 $p,q$ 为何值时 $f(x)$ 有重根?"
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "2",
-     "score": 10,
-     "form": "综合",
-     "l1": "线性空间与线性变换",
-     "l2": "Jordan 标准形",
-     "stem": "解答如下问题:\n(1) $a,b,c$ 为复数, $A=\\begin{pmatrix}0&a&b\\\\ 0&0&c\\\\ 0&0&0\\end{pmatrix}$, 写出 $A$ 的所有的若尔当标准形.\n(2) $B=\\begin{pmatrix}0&2023&-2024\\\\ 0&0&2025\\\\ 0&0&0\\end{pmatrix}$, 问复数域上的矩阵方程 $X^2=B$ 是否有解? 证明你的结论."
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "3",
-     "score": 10,
-     "form": "综合",
-     "l1": "欧氏空间与二次型",
-     "l2": "二次型",
-     "stem": "实二次型\n$$f(x_1,x_2,\\cdots,x_n)=\\sum_{i=1}^{s}(a_{i1}x_1+a_{i2}x_2+\\cdots+a_{in}x_n)^2.$$\n写出它的矩阵, 并证明该矩阵的秩等于 $\\begin{pmatrix}a_{11}&a_{12}&\\cdots&a_{1n}\\\\ a_{21}&a_{22}&\\cdots&a_{2n}\\\\ \\vdots&\\vdots&&\\vdots\\\\ a_{s1}&a_{s2}&\\cdots&a_{sn}\\end{pmatrix}$ 的秩."
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "4",
-     "score": 10,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与维数",
-     "stem": "$V$ 是有限维线性空间, $\\mathscr{A}$ 是 $V$ 上的线性变换, $W$ 是 $V$ 的一个子空间, 记\n$$\\mathscr{A}(W)=\\{\\mathscr{A}(\\alpha)\\mid\\alpha\\in W\\},\\ \\mathscr{A}^{-1}(0)=\\{\\alpha\\in V\\mid\\mathscr{A}(\\alpha)=0\\}.$$\n证明: $\\mathscr{A}(W)$ 是线性空间, 且 $\\dim(\\mathscr{A}(W))+\\dim(W\\cap\\mathscr{A}^{-1}(0))=\\dim W$."
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "5",
-     "score": 10,
-     "form": "综合",
-     "l1": "线性空间与线性变换",
-     "l2": "子空间与维数",
-     "stem": "$A$ 是 $n$ 阶实方阵, $C(A)=\\{B\\in\\mathbb{R}^{n\\times n}\\mid AB=BA\\}$, $\\mathbb{R}^{n\\times n}$ 是 $n$ 阶实方阵全体.\n(1) 证明 $C(A)$ 是 $\\mathbb{R}^{n\\times n}$ 的一个子空间.\n(2) $E$ 是 $n$ 阶单位矩阵, 求 $C(E)$.\n(3) $A=\\begin{pmatrix}1& & &\\\\ &2& &\\\\ & &\\ddots&\\\\ & & &n\\end{pmatrix}$, 求 $C(A)$ 的维数和一组基."
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "6",
-     "score": 20,
-     "form": "综合",
-     "l1": "线性空间与线性变换",
-     "l2": "不变子空间",
-     "stem": "$V$ 是复数域上的 $n$ 维线性空间, $\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 是 $V$ 的一组基, $\\mathscr{A}$ 在这组基下的矩阵为\n$$\\begin{pmatrix}\\lambda_0& & &\\\\ 1&\\lambda_0& &\\\\ &\\ddots&\\ddots&\\\\ & &1&\\lambda_0\\end{pmatrix}.$$\n(1) 若 $V_1$ 是 $\\mathscr{A}-$不变子空间, $\\varepsilon_1\\in V_1$, 则 $V_1=V$.\n(2) 若 $\\alpha$ 是 $\\mathscr{A}$ 的特征向量, 证明 $\\alpha$ 与 $\\varepsilon_n$ 一定线性相关.\n(3) 若 $U$ 是 $\\mathscr{A}-$不变子空间, 证明 $\\varepsilon_n\\in U$. (本题有误, 应该指出 $U$ 非零空间)\n(4) $V$ 是否可以分解成两个非平凡 $\\mathscr{A}-$不变子空间的直和? 说明理由."
-    },
-    {
-     "section": "三",
-     "section_instruction": "证明题.",
-     "no": "7",
-     "score": 20,
-     "form": "证明",
-     "l1": "欧氏空间与二次型",
-     "l2": "正定与半正定",
-     "stem": "解答如下问题:\n(1) 若 $\\displaystyle\\sum_{i=1}^{n}\\sum_{j=1}^{n}a_{ij}x_ix_j$ $(a_{ij}=a_{ji})$ 是正定二次型, 证明\n$$f(y_1,y_2,\\cdots,y_n)=\\begin{vmatrix}a_{11}&a_{12}&\\cdots&a_{1n}&y_1\\\\ a_{21}&a_{22}&\\cdots&a_{2n}&y_2\\\\ \\vdots&\\vdots&&\\vdots&\\vdots\\\\ a_{n1}&a_{n2}&\\cdots&a_{nn}&y_n\\\\ y_1&y_2&\\cdots&y_n&0\\end{vmatrix}$$ 【?】(试卷页在此处截断, 待证结论的后半部分与本题后续分问不在所给图片中)"
-    }
-   ]
-  }
- ]
+  ]
 }

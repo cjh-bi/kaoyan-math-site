@@ -6,7 +6,7 @@
       "year": "2024",
       "subject": "数学分析",
       "header_note": "38. 南京航空航天大学 2024 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247521569-1_4.png"],
+      "source_imgs": ["work/imgs/2247521569-1_4.png", "work/imgs/2247521569-1_5.png"],
       "questions": [
         {
           "section": "一",
@@ -97,6 +97,36 @@
           "l1": "多元积分学",
           "l2": "第一型曲面积分",
           "stem": "解答如下问题：\n(1) 求曲面积分 $\\displaystyle\\iint_S (x^2+y^2)\\,\\mathrm{d}S$，其中 $S$ 为立体 $\\sqrt{x^2+y^2}\\le z\\le 1$ 的边界曲面。\n(2) 求曲线积分 $\\displaystyle\\oint_L (y+\\sin x)\\,\\mathrm{d}x+(z-e^y)\\,\\mathrm{d}y+(x+1)\\,\\mathrm{d}z$，其中 $L$ 为球面 $x^2+y^2+z^2=R^2$ 与平面 $x+y+z=0$ 的交线，从 $x$ 轴正向看去，$L$ 沿逆时针方向。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $f(x)$ 在 $[0,+\\infty)$ 上可导，且 $f(0)=0$。求极限\n$$\\lim_{t\\to 0^+}\\dfrac{1}{\\pi t^4}\\iiint_V f\\left(\\sqrt{x^2+y^2+z^2}\\right)\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z,$$\n其中 $V: x^2+y^2+z^2\\le t^2$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{f_n(x)\\}$ 是在 $[a,b]$ 上连续的函数列，且 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛于 $f(x)$，$f(x)$ 在 $[a,b]$ 上恒为负值。证明：当 $n$ 充分大时，$f_n(x)$ 在 $[a,b]$ 上也恒为负值，且函数列 $\\left\\{\\dfrac{1}{f_n(x)}\\right\\}$ 在 $[a,b]$ 上一致收敛于 $\\dfrac{1}{f(x)}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "12",
+          "score": null,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设 $f(x)$ 在 $[a,b]$ 上可积，且 $A\\le f(x)\\le B$，$g(u)$ 在 $[A,B]$ 上连续，证明：$g(f(x))$ 在 $[a,b]$ 上可积。"
         }
       ]
     },

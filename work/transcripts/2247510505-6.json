@@ -1,283 +1,288 @@
 {
-  "msgid": "2247510505-6",
-  "exams": [
+ "msgid": "2247510505-6",
+ "exams": [
+  {
+   "school": "西安电子科技大学",
+   "year": "2022",
+   "subject": "数学分析",
+   "header_note": "70. 西安电子科技大学 2022 年数学分析试卷",
+   "source_imgs": [
+    "work/imgs/2247510505-6_4.png"
+   ],
+   "questions": [
     {
-      "school": "西安电子科技大学",
-      "year": "2022",
-      "subject": "数学分析",
-      "header_note": "70. 西安电子科技大学 2022 年数学分析试卷",
-      "source_imgs": ["work/imgs/2247510505-6_4.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "计算题(每题 8 分, 共 40 分)",
-          "no": "1",
-          "score": 8,
-          "form": "计算",
-          "l1": "一元积分学",
-          "l2": "定积分",
-          "stem": "求 $\\lim_{n\\to\\infty}\\int_{0}^{\\frac{\\pi}{2}}(\\cos x)^{n}\\,\\mathrm{d}x$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "计算题(每题 8 分, 共 40 分)",
-          "no": "2",
-          "score": 8,
-          "form": "计算",
-          "l1": "一元积分学",
-          "l2": "变限积分",
-          "stem": "求 $\\max\\limits_{0\\le x\\le 1}\\displaystyle\\int_{0}^{1}\\big|\\ln|x-t|\\big|\\,\\mathrm{d}t$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "计算题(每题 8 分, 共 40 分)",
-          "no": "3",
-          "score": 8,
-          "form": "计算",
-          "l1": "一元微分学",
-          "l2": "高阶导数",
-          "stem": "设 $f(x)=\\dfrac{1}{1+x+x^{2}+x^{3}}$, 求 $f^{(2021)}(0)$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "计算题(每题 8 分, 共 40 分)",
-          "no": "4",
-          "score": 8,
-          "form": "计算",
-          "l1": "一元微分学",
-          "l2": "导数计算",
-          "stem": "设\n$$f(x)=\\begin{cases} x, & x\\le 0;\\\\[2pt] \\dfrac{1}{n}, & \\dfrac{1}{n+1}<x\\le \\dfrac{1}{n}. \\end{cases}$$\n其中 $n=1,2,\\cdots$, 求 $f'(0)$。"
-        },
-        {
-          "section": "一",
-          "section_instruction": "计算题(每题 8 分, 共 40 分)",
-          "no": "5",
-          "score": 8,
-          "form": "计算",
-          "l1": "多元积分学",
-          "l2": "第二型曲面积分",
-          "stem": "设曲面 $\\Sigma$ 的方程为 $z=x^{2}+y^{2}$ ($z\\le 1$), 方向取上侧, 求第二类曲面积分\n$$I=\\iint_{\\Sigma}x^{3}\\,\\mathrm{d}y\\mathrm{d}z+y^{3}\\,\\mathrm{d}z\\mathrm{d}x+(z-1)\\,\\mathrm{d}x\\mathrm{d}y.$$"
-        },
-        {
-          "section": "二",
-          "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
-          "no": "1",
-          "score": 8,
-          "form": "判断",
-          "l1": "级数",
-          "l2": "数项级数敛散性",
-          "stem": "若数项级数 $\\displaystyle\\sum_{n=1}^{\\infty}u_n$ 收敛, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty}u_n^{2}$ 也收敛。"
-        },
-        {
-          "section": "二",
-          "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
-          "no": "2",
-          "score": 8,
-          "form": "判断",
-          "l1": "级数",
-          "l2": "函数项级数",
-          "stem": "设 $\\lim\\limits_{n\\to\\infty}x_n^{(k)}=0$ ($k=1,2,3,\\cdots$), $y_n=\\displaystyle\\sum_{k=1}^{\\infty}x_n^{(k)}$, 则 $\\lim\\limits_{n\\to\\infty}y_n=0$。"
-        },
-        {
-          "section": "二",
-          "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
-          "no": "3",
-          "score": 8,
-          "form": "判断",
-          "l1": "极限与连续",
-          "l2": "连续与极限概念判断",
-          "stem": "设函数 $f(x)$ 在 $(a,b)$ 上单调增加, 则 $f(x)$ 在 $(a,b)$ 内的间断点必是第一类间断点。"
-        },
-        {
-          "section": "二",
-          "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
-          "no": "4",
-          "score": 8,
-          "form": "判断",
-          "l1": "极限与连续",
-          "l2": "函数极限计算",
-          "stem": "设函数 $f(x)$ 在 $(0,+\\infty)$ 上可导, $\\lim\\limits_{x\\to+\\infty}f(x)$ 存在且有限, 则 $\\lim\\limits_{x\\to+\\infty}f'(x)$ 存在。"
-        },
-        {
-          "section": "二",
-          "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
-          "no": "5",
-          "score": 8,
-          "form": "判断",
-          "l1": "极限与连续",
-          "l2": "数列收敛性",
-          "stem": "设数列 $\\{x_n\\}$ 有界但不收敛, 则它至少存在两个收敛子列 $\\{x_{n_k}^{(1)}\\}\\subset\\{x_n\\}$ 与 $\\{x_{n_k}^{(2)}\\}\\subset\\{x_n\\}$, 满足\n$$\\lim_{k\\to\\infty}x_{n_k}^{(1)}\\ne\\lim_{k\\to\\infty}x_{n_k}^{(2)}.$$"
-        },
-        {
-          "section": "三",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "一元微分学",
-          "l2": "不等式证明",
-          "stem": "证明: 当 $0<x<y<1$ 或 $y>x>1$ 时, 有 $xy^{x}<yx^{y}$。"
-        },
-        {
-          "section": "四",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "级数",
-          "l2": "函数项级数",
-          "stem": "设函数 $f_1(x)$ 在 $[a,b]$ 上黎曼可积, 并且 $f_{n+1}(x)=\\displaystyle\\int_{a}^{x}f_n(t)\\,\\mathrm{d}t$, $n=1,2,\\cdots$, 证明: 函数列 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛。"
-        },
-        {
-          "section": "五",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "极限与连续",
-          "l2": "一致连续性",
-          "stem": "设函数 $f(x)$ 在区间 $I$ 上有定义, 证明: 函数 $f(x)$ 在区间 $I$ 上一致连续的充分必要条件为对 $I$ 内任意点列 $\\{x_n'\\}$ 与 $\\{x_n''\\}$, 当 $\\lim\\limits_{n\\to\\infty}(x_n'-x_n'')=0$ 时, 总有\n$$\\lim_{n\\to\\infty}\\left[f(x_n')-f(x_n'')\\right]=0.$$"
-        },
-        {
-          "section": "六",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "多元微分学",
-          "l2": "",
-          "stem": "设二元函数 $f(x,y)$ 在点 $(0,0)$ 处连续, 并且二重极限 $\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{f(x,y)}{x^{2}+y^{2}}$ 存在, 证明: 二元函数 $f(x,y)$ 在点 $(0,0)$ 处可微。"
-        },
-        {
-          "section": "七",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "极限与连续",
-          "l2": "连续与有界性",
-          "stem": "设 $f$ 为 $\\mathbb{R}\\to[0,1]$ 上的映射, 对 $\\forall x_0\\in\\mathbb{R}$, $\\forall\\varepsilon>0$, $\\exists\\delta>0$, 使得当 $|x-x_0|<\\delta$ 时, 有 $f(x)<f(x_0)+\\varepsilon$。证明: 对 $\\forall\\alpha\\in[0,1]$, $f_{\\alpha}=\\{x\\in\\mathbb{R}\\mid f(x)\\ge\\alpha\\}$ 是闭集。"
-        },
-        {
-          "section": "八",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "一元微分学",
-          "l2": "中值定理",
-          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上有定义, 在 $(a,b)$ 内可导, 且 $|f'(x)|\\le A$, $\\forall x\\in(a,b)$, 其中 $A$ 为某一正常数, 且函数 $f(x)$ 在 $[a,b]$ 上具有介值性, 证明: 函数 $f(x)$ 在 $[a,b]$ 上连续。"
-        },
-        {
-          "section": "九",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "广义积分与含参积分",
-          "l2": "广义积分敛散性",
-          "stem": "设函数 $f(x)$ 在 $[0,+\\infty)$ 上连续, 且反常积分 $\\displaystyle\\int_{0}^{+\\infty}|f(x)|\\,\\mathrm{d}x$ 收敛, 证明: 存在数列 $\\{x_n\\}\\subset[0,+\\infty)$, 使得 $\\lim\\limits_{n\\to\\infty}x_n=+\\infty$, 且 $\\lim\\limits_{n\\to\\infty}x_n f(x_n)=0$。"
-        }
-      ]
+     "section": "一",
+     "section_instruction": "计算题(每题 8 分, 共 40 分)",
+     "no": "1",
+     "score": 8,
+     "form": "计算",
+     "l1": "广义积分与含参积分",
+     "l2": "含参量积分",
+     "stem": "求 $\\lim\\limits_{n\\to\\infty}\\displaystyle\\int_0^{\\frac{\\pi}{2}}(\\cos x)^n\\,\\mathrm{d}x$。"
     },
     {
-      "school": "西安电子科技大学",
-      "year": "2022",
-      "subject": "高等代数",
-      "header_note": "手写回忆稿（图片内无试卷标题，学校与年份取自文章标题：西安电子科技大学2022年高等代数）",
-      "source_imgs": ["work/imgs/2247510505-6_5.png", "work/imgs/2247510505-6_6.png"],
-      "questions": [
-        {
-          "section": "一",
-          "section_instruction": "5 个选择（每题 5 分）",
-          "no": "5",
-          "score": 5,
-          "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "计算行列式 $\\begin{vmatrix}(a+b)^{2} & c^{2} & c^{2}\\\\ a^{2} & (b+c)^{2} & a^{2}\\\\ b^{2} & b^{2} & (c+a)^{2}\\end{vmatrix}$。\n(A) $abc(a+b+c)^{2}$\n(B) $2abc(a+b+c)^{3}$\n(C) $3abc(a+b+c)^{3}$\n(D) $4abc(a+b+c)^{3}$"
-        },
-        {
-          "section": "三",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "行列式",
-          "stem": "设 $S_k=x_1^{k}+x_2^{k}+\\cdots+x_n^{k}$ ($k=0,1,2,\\cdots$), 计算 $n+1$ 阶行列式\n$$D_{n+1}=\\begin{vmatrix}S_0 & S_1 & \\cdots & S_{n-1} & 1\\\\ S_1 & S_2 & \\cdots & S_n & x\\\\ S_2 & S_3 & \\cdots & S_{n+1} & x^{2}\\\\ \\vdots & \\vdots & & \\vdots & \\vdots\\\\ S_n & S_{n+1} & \\cdots & S_{2n-1} & x^{n}\\end{vmatrix}.$$"
-        },
-        {
-          "section": "四",
-          "section_instruction": "(10 分)",
-          "no": "1",
-          "score": 10,
-          "form": "证明",
-          "l1": "多项式",
-          "l2": "根与重因式",
-          "stem": "设 $f(x)$ 是整系数多项式, $x_1$ 和 $x_2$ 是两个不同的整数, 且 $f(x)$ 在 $x_1$ 与 $x_2$ 的值为 $\\pm1$。证明: 当 $|x_1-x_2|>2$ 时, $f(x)$ 没有有理根; 当 $|x_1-x_2|\\le 2$ 时, $f(x)$ 若是有有理根, 则只能是 $\\dfrac{x_1+x_2}{2}$。"
-        },
-        {
-          "section": "五",
-          "section_instruction": "",
-          "no": "1",
-          "score": null,
-          "form": "计算",
-          "l1": "矩阵与线性方程组",
-          "l2": "线性方程组",
-          "stem": "设 $A=\\alpha\\beta'$, $\\beta'\\alpha=2$, $\\operatorname{tr}A=2$, 其中 $\\alpha,\\beta$ 为给定的列向量【?】（回忆稿注明“有具体给出, 想不起来了”）, $\\gamma=\\begin{pmatrix}0\\\\ 0\\\\ 0\\\\ 8\\end{pmatrix}$, 解矩阵方程\n$$(B^{4}+A^{4})X=A^{2}B^{2}X+\\gamma.$$"
-        },
-        {
-          "section": "六",
-          "section_instruction": "",
-          "no": "1",
-          "score": null,
-          "form": "证明",
-          "l1": "欧氏空间与二次型",
-          "l2": "内积与度量",
-          "stem": "设 $\\alpha_1,\\alpha_2$ 线性无关, $\\alpha_3,\\alpha_4$ 线性无关, 且 $\\alpha_1$ 与 $\\alpha_3,\\alpha_4$ 正交, $\\alpha_2$ 与 $\\alpha_3,\\alpha_4$ 正交。证明: $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性无关。"
-        },
-        {
-          "section": "七",
-          "section_instruction": "",
-          "no": "1",
-          "score": null,
-          "form": "计算",
-          "l1": "线性空间与线性变换",
-          "l2": "子空间与维数",
-          "stem": "求线性空间\n$$\\left\\{\\,\\begin{pmatrix}a_{11} & a_{12} & a_{13}\\\\ a_{21} & a_{22} & a_{23}\\\\ a_{31} & a_{32} & a_{33}\\end{pmatrix}\\;\\right|\\;\\left. a_{11}+a_{22}+a_{33}【?】\\,\\right\\}$$\n的基与维数（回忆稿中约束条件右端不可辨认）。"
-        },
-        {
-          "section": "八",
-          "section_instruction": "",
-          "no": "1",
-          "score": null,
-          "form": "证明",
-          "l1": "欧氏空间与二次型",
-          "l2": "正定与半正定",
-          "stem": "设 $A$ 为正定矩阵, 证明: 存在正定矩阵 $B$ 使得 $A=B^{2}$。"
-        },
-        {
-          "section": "九",
-          "section_instruction": "(15 分)",
-          "no": "1",
-          "score": 15,
-          "form": "证明",
-          "l1": "矩阵与线性方程组",
-          "l2": "相似",
-          "stem": "设 $n$ 阶矩阵 $A$ 与 $B$ 满足\n$$AB=3A+B.$$\n证明:\n(1)【?】（回忆稿中印刷的“$AB=BA$”被划去, 旁注手写 $\\lambda_i\\ne 1$ ($i=1,2,\\cdots,n$), 其中 $\\lambda_i$ 的含义不可辨认）\n(2) 若 $A$ 相似于对角矩阵, 则存在可逆矩阵 $P$, 使得 $P^{-1}AP$ 与 $P^{-1}BP$ 都是对角矩阵。"
-        },
-        {
-          "section": "十",
-          "section_instruction": "",
-          "no": "1",
-          "score": null,
-          "form": "证明",
-          "l1": "欧氏空间与二次型",
-          "l2": "内积与度量",
-          "stem": "设 $V_1=L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_m)$, $V_2=L(\\beta_1,\\beta_2,\\cdots,\\beta_m)$, 且 $(\\alpha_i,\\alpha_j)=(\\beta_i,\\beta_j)$ ($i,j=1,2,\\cdots,m$)。证明: $V_1$ 与 $V_2$ 同构。"
-        }
-      ]
+     "section": "一",
+     "section_instruction": "计算题(每题 8 分, 共 40 分)",
+     "no": "2",
+     "score": 8,
+     "form": "计算",
+     "l1": "一元积分学",
+     "l2": "定积分",
+     "stem": "求 $\\max\\limits_{0\\le x\\le 1}\\displaystyle\\int_0^1\\big|\\ln|x-t|\\big|\\,\\mathrm{d}t$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "计算题(每题 8 分, 共 40 分)",
+     "no": "3",
+     "score": 8,
+     "form": "计算",
+     "l1": "一元微分学",
+     "l2": "高阶导数",
+     "stem": "设 $f(x)=\\dfrac{1}{1+x+x^2+x^3}$, 求 $f^{(2021)}(0)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "计算题(每题 8 分, 共 40 分)",
+     "no": "4",
+     "score": 8,
+     "form": "计算",
+     "l1": "一元微分学",
+     "l2": "导数计算",
+     "stem": "设\n$$f(x)=\\begin{cases} x, & x\\le 0;\\\\[2pt] \\dfrac{1}{n}, & \\dfrac{1}{n+1}<x\\le \\dfrac{1}{n}.\\end{cases}$$\n其中 $n=1,2,\\cdots$, 求 $f'(0)$。"
+    },
+    {
+     "section": "一",
+     "section_instruction": "计算题(每题 8 分, 共 40 分)",
+     "no": "5",
+     "score": 8,
+     "form": "计算",
+     "l1": "多元积分学",
+     "l2": "第二型曲面积分",
+     "stem": "设曲面 $\\Sigma$ 的方程为 $z=x^2+y^2$ $(z\\le 1)$, 方向取上侧, 求第二类曲面积分\n$$I=\\iint\\limits_{\\Sigma} x^3\\,\\mathrm{d}y\\mathrm{d}z+y^3\\,\\mathrm{d}z\\mathrm{d}x+(z-1)\\,\\mathrm{d}x\\mathrm{d}y\\,.$$"
+    },
+    {
+     "section": "二",
+     "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
+     "no": "1",
+     "score": 8,
+     "form": "判断",
+     "l1": "级数",
+     "l2": "数项级数敛散性",
+     "stem": "若数项级数 $\\displaystyle\\sum_{n=1}^{\\infty} u_n$ 收敛, 则级数 $\\displaystyle\\sum_{n=1}^{\\infty} u_n^2$ 也收敛。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
+     "no": "2",
+     "score": 8,
+     "form": "判断",
+     "l1": "级数",
+     "l2": "级数概念判断",
+     "stem": "设 $\\lim\\limits_{n\\to\\infty} x_n^{(k)}=0$ $(k=1,2,3,\\cdots)$, $y_n=\\displaystyle\\sum_{k=1}^{\\infty} x_n^{(k)}$, 则 $\\lim\\limits_{n\\to\\infty} y_n=0$。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
+     "no": "3",
+     "score": 8,
+     "form": "判断",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "设函数 $f(x)$ 在 $(a,b)$ 上单调增加, 则 $f(x)$ 在 $(a,b)$ 内的间断点必是第一类间断点。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
+     "no": "4",
+     "score": 8,
+     "form": "判断",
+     "l1": "一元微分学",
+     "l2": "中值定理",
+     "stem": "设函数 $f(x)$ 在 $(0,+\\infty)$ 上可导, $\\lim\\limits_{x\\to+\\infty} f(x)$ 存在且有限, 则 $\\lim\\limits_{x\\to+\\infty} f'(x)$ 存在。"
+    },
+    {
+     "section": "二",
+     "section_instruction": "辨析题, 若结论正确, 给出证明; 若结论错误, 说明理由或举出反例(每题 8 分, 共 40 分)",
+     "no": "5",
+     "score": 8,
+     "form": "判断",
+     "l1": "极限与连续",
+     "l2": "数列收敛性",
+     "stem": "设数列 $\\{x_n\\}$ 有界但不收敛, 则它至少存在两个收敛子列 $\\{x_{n_k}^{(1)}\\}\\subset\\{x_n\\}$ 与 $\\{x_{n_k}^{(2)}\\}\\subset\\{x_n\\}$, 满足\n$$\\lim\\limits_{k\\to\\infty} x_{n_k}^{(1)}\\ne \\lim\\limits_{k\\to\\infty} x_{n_k}^{(2)}\\,.$$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "不等式证明",
+     "stem": "证明: 当 $0<x<y<1$ 或 $y>x>1$ 时, 有 $xy^x<yx^y$。"
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "级数",
+     "l2": "函数项级数",
+     "stem": "设函数 $f_1(x)$ 在 $[a,b]$ 上黎曼可积, 并且 $f_{n+1}(x)=\\displaystyle\\int_a^x f_n(t)\\,\\mathrm{d}t$, $n=1,2,\\cdots$, 证明: 函数列 $\\{f_n(x)\\}$ 在 $[a,b]$ 上一致收敛。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "一致连续性",
+     "stem": "设函数 $f(x)$ 在区间 $I$ 上有定义, 证明: 函数 $f(x)$ 在区间 $I$ 上一致连续的充分必要条件为对 $I$ 内任意点列 $\\{x_n'\\}$ 与 $\\{x_n''\\}$, 当 $\\lim\\limits_{n\\to\\infty}(x_n'-x_n'')=0$ 时, 总有\n$$\\lim\\limits_{n\\to\\infty}\\left[f(x_n')-f(x_n'')\\right]=0\\,.$$"
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "多元微分学",
+     "l2": "",
+     "stem": "设二元函数 $f(x,y)$ 在点 $(0,0)$ 处连续, 并且二重极限 $\\lim\\limits_{(x,y)\\to(0,0)}\\dfrac{f(x,y)}{x^2+y^2}$ 存在, 证明: 二元函数 $f(x,y)$ 在点 $(0,0)$ 处可微。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "极限与连续",
+     "l2": "连续与极限概念判断",
+     "stem": "设 $f$ 为 $\\mathbb{R}\\to[0,1]$ 上的映射, 对 $\\forall x_0\\in\\mathbb{R}$, $\\forall\\varepsilon>0$, $\\exists\\delta>0$, 使得当 $|x-x_0|<\\delta$ 时, 有 $f(x)<f(x_0)+\\varepsilon$。证明: 对 $\\forall\\alpha\\in[0,1]$, $f_\\alpha=\\{x\\in\\mathbb{R}\\mid f(x)\\ge \\alpha\\}$ 是闭集。"
+    },
+    {
+     "section": "八",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "一元微分学",
+     "l2": "导数应用",
+     "stem": "设函数 $f(x)$ 在 $[a,b]$ 上有定义, 在 $(a,b)$ 内可导, 且 $|f'(x)|\\le A$, $\\forall x\\in(a,b)$, 其中 $A$ 为某一正常数, 且函数 $f(x)$ 在 $[a,b]$ 上具有介值性, 证明: 函数 $f(x)$ 在 $[a,b]$ 上连续。"
+    },
+    {
+     "section": "九",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "广义积分与含参积分",
+     "l2": "广义积分敛散性",
+     "stem": "设函数 $f(x)$ 在 $[0,+\\infty)$ 上连续, 且反常积分 $\\displaystyle\\int_0^{+\\infty}|f(x)|\\,\\mathrm{d}x$ 收敛, 证明: 存在数列 $\\{x_n\\}\\subset[0,+\\infty)$, 使得 $\\lim\\limits_{n\\to\\infty} x_n=+\\infty$, 且 $\\lim\\limits_{n\\to\\infty} x_n f(x_n)=0$。"
     }
-  ]
+   ]
+  },
+  {
+   "school": "西安电子科技大学",
+   "year": "2022",
+   "subject": "高等代数",
+   "header_note": "手写回忆卷（卷面无印刷标题，据文章标题「西安电子科技大学2022年数学分析与高等代数考研真题」定科）；第二大题「5个填空 5×5′」卷面仅有备注（6,7 是关于最小多项式的；10 是算一个度量矩阵），无具体题文，故未收录小题",
+   "source_imgs": [
+    "work/imgs/2247510505-6_5.png",
+    "work/imgs/2247510505-6_6.png"
+   ],
+   "questions": [
+    {
+     "section": "一",
+     "section_instruction": "5个选择 5×3′（卷面仅回忆到第 5 题）",
+     "no": "1",
+     "score": 3,
+     "form": "填空",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "计算行列式 $\\begin{vmatrix} (a+b)^2 & c^2 & c^2\\\\ a^2 & (b+c)^2 & a^2\\\\ b^2 & b^2 & (c+a)^2\\end{vmatrix}$。\n(A) $abc(a+b+c)^2$\n(B) $2abc(a+b+c)^3$\n(C) $3abc(a+b+c)^3$\n(D) $4abc(a+b+c)^3$"
+    },
+    {
+     "section": "三",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "行列式",
+     "stem": "设 $S_k=x_1^k+x_2^k+\\cdots+x_n^k$ $(k=0,1,2,\\cdots)$, 计算 $n+1$ 阶行列式\n$$D_{n+1}=\\begin{vmatrix} S_0 & S_1 & \\cdots & S_{n-1} & 1\\\\ S_1 & S_2 & \\cdots & S_n & x\\\\ S_2 & S_3 & \\cdots & S_{n+1} & x^2\\\\ \\vdots & \\vdots & & \\vdots & \\vdots\\\\ S_n & S_{n+1} & \\cdots & S_{2n-1} & x^n\\end{vmatrix}\\,.$$"
+    },
+    {
+     "section": "四",
+     "section_instruction": "",
+     "no": "1",
+     "score": 10,
+     "form": "证明",
+     "l1": "多项式",
+     "l2": "整除",
+     "stem": "设 $f(x)$ 是整系数多项式, $x_1$ 和 $x_2$ 是两个不同的整数, 且 $f(x)$ 在 $x_1$ 与 $x_2$ 的值为 $\\pm 1$。证明: 当 $|x_1-x_2|>2$ 时, $f(x)$ 没有有理根; 当 $|x_1-x_2|\\leqslant 2$ 时, $f(x)$ 若有有理根, 则只能是 $\\dfrac{x_1+x_2}{2}$。"
+    },
+    {
+     "section": "五",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "矩阵与线性方程组",
+     "l2": "",
+     "stem": "解矩阵方程 $(B^4+A^4)X=A^2B^2X+\\gamma$【?】（回忆卷仅给出条件）: 其中 $A=\\alpha\\beta'$, $B=\\beta\\alpha'$【?】, $\\beta'\\alpha=2$, $\\operatorname{tr}A=2$, $\\gamma=(0,0,0,8)^T$【?】。$\\alpha,\\beta$ 的具体数值卷面注明「想不起来了」。"
+    },
+    {
+     "section": "六",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "设 $\\alpha_1,\\alpha_2$ 线性无关, $\\alpha_3,\\alpha_4$ 线性无关, 且 $\\alpha_1$ 与 $\\alpha_3,\\alpha_4$ 正交, $\\alpha_2$ 与 $\\alpha_3,\\alpha_4$ 正交。证明: $\\alpha_1,\\alpha_2,\\alpha_3,\\alpha_4$ 线性无关。"
+    },
+    {
+     "section": "七",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "计算",
+     "l1": "线性空间与线性变换",
+     "l2": "子空间与维数",
+     "stem": "求 $\\left\\{\\ \\left.\\begin{pmatrix} a_{11} & a_{12} & a_{13}\\\\ a_{21} & a_{22} & a_{23}\\\\ a_{31} & a_{32} & a_{33}\\end{pmatrix}\\ \\right|\\ a_{11}+a_{22}+a_{33}\\text{【?】}\\right\\}$ 的基与维数（回忆卷中条件等号右端未写出）。"
+    },
+    {
+     "section": "八",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "正定与半正定",
+     "stem": "设 $A$ 为正定矩阵, 证明: 存在正定矩阵 $B$ 使得 $A=B^2$。"
+    },
+    {
+     "section": "九",
+     "section_instruction": "（卷面此题为印刷题，标注 15 分）",
+     "no": "1",
+     "score": 15,
+     "form": "证明",
+     "l1": "矩阵与线性方程组",
+     "l2": "相似",
+     "stem": "设 $n$ 阶矩阵 $A$ 与 $B$ 满足\n$$AB=3A+B.$$\n证明:\n(1)【?】（印刷原文被划去，手写标注为: $\\lambda_i\\neq 1$ $(i=1,2,\\cdots,n)$）\n(2) 若 $A$ 相似于对角矩阵, 则存在可逆矩阵 $P$, 使得 $P^{-1}AP$ 与 $P^{-1}BP$ 都是对角矩阵。"
+    },
+    {
+     "section": "十",
+     "section_instruction": "",
+     "no": "1",
+     "score": null,
+     "form": "证明",
+     "l1": "欧氏空间与二次型",
+     "l2": "内积与度量",
+     "stem": "设 $V_1=L(\\alpha_1,\\alpha_2,\\cdots,\\alpha_m)$, $V_2=L(\\beta_1,\\beta_2,\\cdots,\\beta_m)$, 且 $(\\alpha_i,\\alpha_j)=(\\beta_i,\\beta_j)$ $(i,j=1,2,\\cdots,m)$。证明: $V_1$ 与 $V_2$ 同构。"
+    }
+   ]
+  }
+ ]
 }

@@ -135,7 +135,7 @@
       "year": "2021",
       "subject": "高等代数",
       "header_note": "西南大学 2021 年硕士研究生入学考试高等代数试卷",
-      "source_imgs": ["work/imgs/2247504412-2_5.png"],
+      "source_imgs": ["work/imgs/2247504412-2_5.png", "work/imgs/2247504412-2_6.png"],
       "questions": [
         {
           "section": "一",
@@ -195,7 +195,27 @@
           "form": "证明",
           "l1": "线性空间与线性变换",
           "l2": "子空间与维数",
-          "stem": "设\n$$V=\\left\\{\\,A\\;\\middle|\\;A=\\begin{pmatrix} \\lambda_{1} & & & \\\\ & \\lambda_{2} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{n} \\end{pmatrix},\\ \\lambda_{i}\\in P\\,\\right\\}$$\n为数域 $P$ 上所有对角矩阵构成的集合。$i_{1}i_{2}\\cdots i_{n}$ 是 $1,2,\\cdots,n$ 的一个排列。证明\n(1) $V$ 是数域 $P$ 上的线性空间，并求其维数；\n(2) 【?——本页底部起后续小题被截断，无法辨认】"
+          "stem": "设\n$$V=\\left\\{\\,A\\;\\middle|\\;A=\\begin{pmatrix} \\lambda_{1} & & & \\\\ & \\lambda_{2} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{n} \\end{pmatrix},\\ \\lambda_{i}\\in P\\,\\right\\}$$\n为数域 $P$ 上所有对角矩阵构成的集合。$i_{1}i_{2}\\cdots i_{n}$ 是 $1,2,\\cdots,n$ 的一个排列。证明\n(1) $V$ 是数域 $P$ 上的线性空间，并求其维数；\n(2) $\\begin{pmatrix} \\lambda_{1} & & & \\\\ & \\lambda_{2} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{n} \\end{pmatrix}$ 与 $\\begin{pmatrix} \\lambda_{i_{1}} & & & \\\\ & \\lambda_{i_{2}} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{i_{n}} \\end{pmatrix}$ 合同；\n(3) $\\begin{pmatrix} \\lambda_{1} & & & \\\\ & \\lambda_{2} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{n} \\end{pmatrix}$ 与 $\\begin{pmatrix} \\lambda_{i_{1}} & & & \\\\ & \\lambda_{i_{2}} & & \\\\ & & \\ddots & \\\\ & & & \\lambda_{i_{n}} \\end{pmatrix}$ 相似。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "矩阵多项式",
+          "stem": "设 $f(x)=a_{0}+a_{1}x+a_{2}x^{2}+a_{3}x^{3}$ 为复数域上的多项式，$P$，$A$ 为复数域上的 $4$ 阶矩阵，其中\n$$P=\\begin{pmatrix} 0 & 1 & 0 & 0 \\\\ 0 & 0 & 1 & 0 \\\\ 0 & 0 & 0 & 1 \\\\ 1 & 0 & 0 & 0 \\end{pmatrix},\\quad A=\\begin{pmatrix} a_{0} & a_{1} & a_{2} & a_{3} \\\\ a_{3} & a_{0} & a_{1} & a_{2} \\\\ a_{2} & a_{3} & a_{0} & a_{1} \\\\ a_{1} & a_{2} & a_{3} & a_{0} \\end{pmatrix}.$$\n证明\n(1) $A=f(P)$；\n(2) $A$ 可逆的充要条件是 $(f(x),x^{4}-1)=1$。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "证明多项式 $f(x)=a_{1}x^{p_{1}}+a_{2}x^{p_{2}}+\\cdots+a_{n}x^{p_{n}}$ 不可能有非零而重数大于 $n-1$ 的根，其中 $a_{i}\\neq 0$（$i=1,2,\\cdots,n$），且 $p_{1},p_{2},\\cdots,p_{n}$ 互不相同。"
         }
       ]
     }

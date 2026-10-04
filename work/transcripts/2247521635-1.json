@@ -16,7 +16,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "求极限 $\\lim\\limits_{n\\to\\infty} n^2\\left(3^{\\frac{1}{n}}-3^{\\frac{1}{n+1}}\\right)$。"
+          "stem": "求极限 $\\lim_{n\\to\\infty} n^2\\left(3^{\\frac{1}{n}}-3^{\\frac{1}{n+1}}\\right)$。"
         },
         {
           "section": "一",
@@ -26,7 +26,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "函数极限计算",
-          "stem": "求极限 $\\lim\\limits_{x\\to 0}\\dfrac{1}{x^4}\\left[\\ln(1+\\sin^2 x)-6\\left(\\sqrt[3]{2-\\cos x}-1\\right)\\right]$。"
+          "stem": "求极限 $\\lim_{x\\to 0}\\dfrac{1}{x^4}\\left[\\ln(1+\\sin^2 x)-6(\\sqrt[3]{2-\\cos x}-1)\\right]$。"
         },
         {
           "section": "一",
@@ -36,7 +36,7 @@
           "form": "判断",
           "l1": "级数",
           "l2": "数项级数敛散性",
-          "stem": "判断数项级数 $\\sum\\limits_{n=2}^{\\infty}(-1)^n\\ln\\left(1+\\dfrac{1}{n}\\right)$ 是否收敛，如果收敛，则判断是条件收敛还是绝对收敛。"
+          "stem": "判断数项级数 $\\sum_{n=2}^{\\infty}(-1)^n\\ln\\left(1+\\dfrac{1}{n}\\right)$ 是否收敛，如果收敛，则判断是条件收敛还是绝对收敛。"
         },
         {
           "section": "一",
@@ -46,7 +46,7 @@
           "form": "计算",
           "l1": "极限与连续",
           "l2": "数列极限计算",
-          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{\\ln n}{\\ln\\left(1^{2023}+2^{2023}+\\cdots+n^{2023}\\right)}$。"
+          "stem": "求极限 $\\lim_{n\\to\\infty}\\dfrac{\\ln n}{\\ln(1^{2023}+2^{2023}+\\cdots+n^{2023})}$。"
         },
         {
           "section": "一",
@@ -76,7 +76,7 @@
           "form": "计算",
           "l1": "级数",
           "l2": "幂级数",
-          "stem": "求幂级数 $\\sum\\limits_{n=0}^{\\infty}(n+2)(n+1)x^n$ 的收敛域及和函数。"
+          "stem": "求幂级数 $\\sum_{n=0}^{\\infty}(n+2)(n+1)x^n$ 的收敛域及和函数。"
         },
         {
           "section": "一",
@@ -86,7 +86,7 @@
           "form": "证明",
           "l1": "广义积分与含参积分",
           "l2": "含参量积分",
-          "stem": "证明：$F(x)=\\displaystyle\\int_1^{+\\infty}\\dfrac{y\\sin xy}{1+y^2}\\,\\mathrm{d}y$ 在 $(0,+\\infty)$ 上连续。"
+          "stem": "证明：$F(x)=\\int_1^{+\\infty}\\dfrac{y\\sin xy}{1+y^2}\\,\\mathrm{d}y$ 在 $(0,+\\infty)$ 上连续。"
         },
         {
           "section": "一",
@@ -106,7 +106,7 @@
           "form": "综合",
           "l1": "多元微分学",
           "l2": "偏导数",
-          "stem": "已知 $$f(x,y)=\\begin{cases} xy\\dfrac{x^2-y^2}{x^2+y^2}, & (x,y)\\ne(0,0);\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$$ 证明：$f(x,y)$ 在 $(0,0)$ 处连续，并计算 $f_x(0,0)$ 和 $f_{xy}(0,0)$。"
+          "stem": "已知 $$f(x,y)=\\begin{cases} xy\\dfrac{x^2-y^2}{x^2+y^2}, & (x,y)\\neq(0,0);\\\\[4pt] 0, & (x,y)=(0,0).\\end{cases}$$ 证明：$f(x,y)$ 在 $(0,0)$ 处连续，并计算 $f_x(0,0)$ 和 $f_{xy}(0,0)$。"
         },
         {
           "section": "一",
@@ -125,7 +125,7 @@
       "year": "2024",
       "subject": "高等代数",
       "header_note": "41. 合肥工业大学 2024 年高等代数试卷",
-      "source_imgs": ["work/imgs/2247521635-1_5.png"],
+      "source_imgs": ["work/imgs/2247521635-1_5.png", "work/imgs/2247521635-1_6.png"],
       "questions": [
         {
           "section": "一",
@@ -135,7 +135,7 @@
           "form": "计算",
           "l1": "矩阵与线性方程组",
           "l2": "行列式",
-          "stem": "计算 $n$ 阶行列式 $$D_n=\\begin{vmatrix}\\cos\\alpha & 1 & 0 & \\cdots & 0 & 0\\\\ 1 & 2\\cos\\alpha & 1 & \\cdots & 0 & 0\\\\ 0 & 1 & 2\\cos\\alpha & \\cdots & 0 & 0\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 2\\cos\\alpha & 1\\\\ 0 & 0 & 0 & \\cdots & 1 & 2\\cos\\alpha\\end{vmatrix}.$$"
+          "stem": "计算 $n$ 阶行列式 $$D_n=\\begin{vmatrix} \\cos\\alpha & 1 & 0 & \\cdots & 0 & 0\\\\ 1 & 2\\cos\\alpha & 1 & \\cdots & 0 & 0\\\\ 0 & 1 & 2\\cos\\alpha & \\cdots & 0 & 0\\\\ \\vdots & \\vdots & \\vdots & & \\vdots & \\vdots\\\\ 0 & 0 & 0 & \\cdots & 2\\cos\\alpha & 1\\\\ 0 & 0 & 0 & \\cdots & 1 & 2\\cos\\alpha \\end{vmatrix}.$$"
         },
         {
           "section": "一",
@@ -165,7 +165,7 @@
           "form": "综合",
           "l1": "矩阵与线性方程组",
           "l2": "幂等矩阵",
-          "stem": "设 $A=E-\\xi\\xi^{T}$，其中 $\\xi$ 为 $n$ 维实列向量。\n(1) 证明：$A^2=A$ 等价于 $\\xi^{T}\\xi=1$。\n(2) 当 $\\xi^{T}\\xi=1$ 时，求 $r(A)$。"
+          "stem": "设 $A=E-\\xi\\xi^T$，其中 $\\xi$ 为 $n$ 维实列向量。\n(1) 证明：$A^2=A$ 等价于 $\\xi^T\\xi=1$。\n(2) 当 $\\xi^T\\xi=1$ 时，求 $r(A)$。"
         },
         {
           "section": "一",
@@ -175,7 +175,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "Jordan 标准形",
-          "stem": "已知复矩阵 $A=\\begin{pmatrix}1 & 5 & 5\\\\ 0 & 4 & 3\\\\ 0 & a & 2\\end{pmatrix}$ 有一个二重特征值。\n(1) 求 $A$ 的最小多项式和若尔当标准形。\n(2) 求 $A$ 可对角化的充要条件。"
+          "stem": "已知复矩阵 $A=\\begin{pmatrix} 1 & 5 & 5\\\\ 0 & 4 & 3\\\\ 0 & a & 2\\end{pmatrix}$ 有一个二重特征值。\n(1) 求 $A$ 的最小多项式和若尔当标准形。\n(2) 求 $A$ 可对角化的充要条件。"
         },
         {
           "section": "一",
@@ -195,7 +195,7 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "子空间与直和",
-          "stem": "设数域 $P$ 上 $n$ 维线性空间 $V$ 的一组基为 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$，令 $\\beta=\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$，已知 $V_1$ 为 $\\beta$ 生成的子空间，$V_2=\\{k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_n\\alpha_n\\mid \\sum\\limits_{i=1}^{n}k_i=0,\\ k_i\\in P,\\ i=1,2,\\cdots,n\\}$。\n(1) 求 $V_2$ 的一组基和维数。\n(2) 证明：$V=V_1\\oplus V_2$。"
+          "stem": "设数域 $P$ 上 $n$ 维线性空间 $V$ 的一组基为 $\\alpha_1,\\alpha_2,\\cdots,\\alpha_n$，令 $\\beta=\\alpha_1+\\alpha_2+\\cdots+\\alpha_n$，已知 $V_1$ 为 $\\beta$ 生成的子空间，$V_2=\\left\\{k_1\\alpha_1+k_2\\alpha_2+\\cdots+k_n\\alpha_n\\ \\middle|\\ \\sum_{i=1}^{n}k_i=0,\\ k_i\\in P,\\ i=1,2,\\cdots,n\\right\\}$。\n(1) 求 $V_2$ 的一组基和维数。\n(2) 证明：$V=V_1\\oplus V_2$。"
         },
         {
           "section": "一",
@@ -205,7 +205,37 @@
           "form": "综合",
           "l1": "线性空间与线性变换",
           "l2": "不变子空间",
-          "stem": "给定 $\\mathbb{R}^{2\\times 2}$ 中的矩阵 $B=\\begin{pmatrix}1 & 1\\\\ 1 & 1\\end{pmatrix}$，定义 $\\mathbb{R}^{2\\times 2}$ 上的线性变换 $\\mathscr{A}$ 为 $\\mathscr{A}(X)=XB-BX$，$X\\in\\mathbb{R}^{2\\times 2}$，另外取子空间 $W=\\left\\{\\begin{pmatrix}x_1 & x_2\\\\ x_3 & x_4\\end{pmatrix}\\in\\mathbb{R}^{2\\times 2}\\mid x_2+x_3=0\\right\\}$。\n(1) 求 $W$ 的一组基。\n(2) 证明：$W$ 是 $\\mathscr{A}$ 的不变子空间。\n(3) 记 $\\mathscr{A}$ 在 $W$ 上的限制 $\\mathscr{A}|W$ 为 $\\mathscr{A}_1$，求 $\\mathscr{A}_1$ 的特征值和特征向量。\n(4) 求 $W$ 的一组基，使得 $\\mathscr{A}_1$ 在此基下的矩阵为对角矩阵。"
+          "stem": "给定 $\\mathbb{R}^{2\\times 2}$ 中的矩阵 $B=\\begin{pmatrix} 1 & 1\\\\ 1 & 1\\end{pmatrix}$，定义 $\\mathbb{R}^{2\\times 2}$ 上的线性变换 $\\mathscr{A}$ 为 $\\mathscr{A}(X)=XB-BX$，$X\\in\\mathbb{R}^{2\\times 2}$，另外取子空间 $W=\\left\\{\\begin{pmatrix} x_1 & x_2\\\\ x_3 & x_4\\end{pmatrix}\\in\\mathbb{R}^{2\\times 2}\\ \\middle|\\ x_2+x_3=0\\right\\}$。\n(1) 求 $W$ 的一组基。\n(2) 证明：$W$ 是 $\\mathscr{A}$ 的不变子空间。\n(3) 记 $\\mathscr{A}$ 在 $W$ 上的限制 $\\mathscr{A}|W$ 为 $\\mathscr{A}_1$，求 $\\mathscr{A}_1$ 的特征值和特征向量。\n(4) 求 $W$ 的一组基，使得 $\\mathscr{A}_1$ 在此基下的矩阵为对角矩阵。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "整除",
+          "stem": "设 $f_1(x),f_2(x),\\cdots,f_{n-1}(x)$ 为复数域上的多项式 $(n\\ge 2)$，且 $$1+x+x^2+\\cdots+x^{n-1}\\mid f_1(x^n)+xf_2(x^n)+\\cdots+x^{n-2}f_{n-1}(x^n).$$ 证明：$f_i(x)$ $(i=1,2,\\cdots,n-1)$ 的系数之和为 $0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "已知 $A$ 为三阶实对称矩阵，且 $r(A)=2$，$\\lambda_1=\\lambda_2=3$ 为其特征值，$\\alpha_1=(1,1,0)^T,\\alpha_2=(2,1,1)^T$ 为属于特征值 $3$ 的特征向量，求矩阵 $A$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "11",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $\\eta$ 是 $n$ 维欧氏空间 $V$ 的一个单位向量，定义线性变换 $\\sigma$ 如下：$$\\sigma(\\alpha)=\\alpha-2(\\eta,\\alpha)\\eta,\\ \\forall\\alpha\\in V.$$ 称这样的线性变换为一个镜面反射。\n(1) 证明：镜面反射是一个正交变换。\n(2) 证明：镜面反射在任意一组标准正交基下的矩阵行列式为 $-1$。\n(3) 设 $\\rho$ 是 $V$ 的一个正交变换，有特征值 $\\lambda_0=1$，且 $\\dim V_{\\lambda_0}=n-1$，证明：$\\rho$ 是一个镜面反射。"
         }
       ]
     }

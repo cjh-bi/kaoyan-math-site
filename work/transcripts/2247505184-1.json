@@ -1,257 +1,263 @@
 {
- "msgid": "2247505184-1",
- "exams": [
-  {
-   "school": "兰州大学",
-   "year": "2021",
-   "subject": "数学分析",
-   "header_note": "151. 兰州大学 2021 年硕士研究生入学考试数学分析试卷",
-   "source_imgs": [
-    "work/imgs/2247505184-1_4.png"
-   ],
-   "questions": [
+  "msgid": "2247505184-1",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "（3 × 5 = 15 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
-     "no": "1",
-     "score": 5,
-     "form": "判断",
-     "l1": "极限与连续",
-     "l2": "数列收敛性",
-     "stem": "若数列 $\\{x_n\\}$ 的任意子列 $\\{x_{n_k}\\}$ 都存在收敛子列 $\\{x_{n_{k_j}}\\}$，则 $\\lim\\limits_{n\\to\\infty} x_n$ 必存在。"
+      "school": "兰州大学",
+      "year": "2021",
+      "subject": "数学分析",
+      "header_note": "151. 兰州大学 2021 年硕士研究生入学考试数学分析试卷",
+      "source_imgs": ["work/imgs/2247505184-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "（3×5=15 分）判断下列命题是否正确，若正确给出证明，若错误举出反例.",
+          "no": "1",
+          "score": 5,
+          "form": "判断",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "若数列 $\\{x_n\\}$ 的任意子列 $\\{x_{n_k}\\}$ 都存在收敛子列 $\\{x_{n_{k_j}}\\}$，则 $\\lim_{n\\to\\infty} x_n$ 必存在."
+        },
+        {
+          "section": "一",
+          "section_instruction": "（3×5=15 分）判断下列命题是否正确，若正确给出证明，若错误举出反例.",
+          "no": "2",
+          "score": 5,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "若数项级数 $\\sum_{n=1}^{\\infty} u_n$ 与 $\\sum_{n=1}^{\\infty} v_n$ 都收敛，且 $u_n \\le w_n \\le v_n,\\ \\forall n \\in N$，则数项级数 $\\sum_{n=1}^{\\infty} w_n$ 也收敛."
+        },
+        {
+          "section": "一",
+          "section_instruction": "（3×5=15 分）判断下列命题是否正确，若正确给出证明，若错误举出反例.",
+          "no": "3",
+          "score": 5,
+          "form": "判断",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "若二元函数 $f(x,y)$ 在 $(x_0,y_0)$ 点的任意方向的方向导数都存在，则 $f(x,y)$ 在 $(x_0,y_0)$ 点必连续."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（3×12=36 分）",
+          "no": "1",
+          "score": 12,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "设 $x_1=\\sqrt{2}$，$x_n=\\sqrt{2+x_{n-1}}$，$n \\ge 2$，求 $\\lim_{n\\to\\infty} x_n$ 与 $\\lim_{n\\to\\infty}\\left(\\dfrac{1}{2^n}\\prod_{k=1}^{n} x_k\\right)$ 的值."
+        },
+        {
+          "section": "二",
+          "section_instruction": "（3×12=36 分）",
+          "no": "2",
+          "score": 12,
+          "form": "综合",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "设 $n \\in \\mathbb{N}$，$c \\in \\mathbb{R}^+$，求函数 $f(x,y)=\\dfrac{x^n+y^n}{2}$ 在条件 $x+y=c$ 下的极值. 并证明不等式\n$$\\left(\\dfrac{a+b}{2}\\right)^{n} \\le \\dfrac{a^n+b^n}{2},\\ a \\ge 0,\\ b \\ge 0.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "（3×12=36 分）",
+          "no": "3",
+          "score": 12,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "求三重积分\n$$I=\\iiint_{\\Omega} \\dfrac{z}{\\sqrt{(x^2+y^2+z^2)^3}}\\,\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$\n其中 $\\Omega$ 是由两个曲面 $x^2+y^2=1$ 与 $z=\\sqrt{x^2+y^2}$ 以及平面 $z=h$（$h>1$）所围成的立体."
+        },
+        {
+          "section": "三",
+          "section_instruction": "（12 分）",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "中值定理",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上二阶连续可导，在 $(a,b)$ 内三阶可导，证明：存在 $\\xi \\in (a,b)$，使得\n$$f(b)=f(a)+\\dfrac{b-a}{2}[f'(a)+f'(b)]-\\dfrac{(b-a)^3}{12}f'''(\\xi).$$"
+        },
+        {
+          "section": "四",
+          "section_instruction": "（12 分）",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "定积分",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上有界，证明：若 $f(x)$ 的所有不连续点构成一个收敛数列，则 $f(x)$ 在 $[a,b]$ 上黎曼可积."
+        },
+        {
+          "section": "五",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "一致连续性",
+          "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上连续的周期函数，证明：\n(1) $f(x)$ 在 $\\mathbb{R}$ 上一致连续.\n(2) 进一步，若 $f(x)$ 不是常值函数，则 $f(x^2)$ 不是周期函数."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设数项级数 $\\sum_{n=1}^{\\infty} a_n$ 收敛，且 $\\lim_{n\\to\\infty} n a_n = 0$，证明：数项级数 $\\sum_{n=1}^{\\infty} n(a_n-a_{n+1})$ 收敛，且\n$$\\sum_{n=1}^{\\infty} n(a_n-a_{n+1})=\\sum_{n=1}^{\\infty} a_n.$$"
+        },
+        {
+          "section": "七",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "设函数 $f(x)$ 在 $[a,b]$ 上可微，且 $f'(x)$ 在 $[a,b]$ 上连续，证明：\n$$\\max_{x\\in[a,b]}|f(x)| \\le \\left|\\dfrac{1}{b-a}\\int_{a}^{b} f(x)\\,\\mathrm{d}x\\right|+\\int_{a}^{b}|f'(x)|\\,\\mathrm{d}x.$$"
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "设常数 $p>0$，讨论反常积分 $\\displaystyle\\int_{0}^{+\\infty} \\dfrac{\\sin x}{x^p+\\sin x}\\,\\mathrm{d}x$ 的敛散性（包括绝对收敛和条件收敛）."
+        },
+        {
+          "section": "九",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上可微，且 $f'(x)$ 在 $\\mathbb{R}$ 上连续，计算曲面积分\n$$\\iint_{S} \\left[\\dfrac{x}{y}f\\left(\\dfrac{x}{y}\\right)+x^3\\right]\\mathrm{d}y\\mathrm{d}z+\\left[f\\left(\\dfrac{x}{y}\\right)+y^3\\right]\\mathrm{d}z\\mathrm{d}x-\\left[\\dfrac{z}{y}f\\left(\\dfrac{x}{y}\\right)-z^3\\right]\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 是曲面 $x^2+y^2+z^2=2z$ 的内侧."
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "（3 × 5 = 15 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
-     "no": "2",
-     "score": 5,
-     "form": "判断",
-     "l1": "级数",
-     "l2": "数项级数敛散性",
-     "stem": "若数项级数 $\\sum\\limits_{n=1}^{\\infty} u_n$ 与 $\\sum\\limits_{n=1}^{\\infty} v_n$ 都收敛，且 $u_n \\le w_n \\le v_n,\\ \\forall n \\in N$，则数项级数 $\\sum\\limits_{n=1}^{\\infty} w_n$ 也收敛。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "（3 × 5 = 15 分）判断下列命题是否正确，若正确给出证明，若错误举出反例。",
-     "no": "3",
-     "score": 5,
-     "form": "判断",
-     "l1": "多元微分学",
-     "l2": "梯度与方向导数",
-     "stem": "若二元函数 $f(x,y)$ 在 $(x_0,y_0)$ 点的任意方向的方向导数都存在，则 $f(x,y)$ 在 $(x_0,y_0)$ 点必连续。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（3 × 12 = 36 分）",
-     "no": "1",
-     "score": 12,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "递推数列",
-     "stem": "设 $x_1 = \\sqrt{2}$，$x_n = \\sqrt{2 + x_{n-1}}$，$n \\ge 2$，求 $\\lim\\limits_{n\\to\\infty} x_n$ 与 $\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{1}{2^n}\\prod\\limits_{k=1}^{n} x_k\\right)$ 的值。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（3 × 12 = 36 分）",
-     "no": "2",
-     "score": 12,
-     "form": "综合",
-     "l1": "多元微分学",
-     "l2": "条件极值",
-     "stem": "设 $n \\in \\mathbb{N}$，$c \\in \\mathbb{R}^+$，求函数 $f(x,y) = \\dfrac{x^n + y^n}{2}$ 在条件 $x + y = c$ 下的极值。并证明不等式\n$$\\left(\\dfrac{a+b}{2}\\right)^n \\le \\dfrac{a^n + b^n}{2},\\ a \\ge 0,\\ b \\ge 0.$$"
-    },
-    {
-     "section": "二",
-     "section_instruction": "（3 × 12 = 36 分）",
-     "no": "3",
-     "score": 12,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "三重积分",
-     "stem": "求三重积分\n$$I = \\iiint\\limits_{\\Omega} \\dfrac{z}{\\sqrt{(x^2+y^2+z^2)^3}}\\,\\mathrm{d}x\\,\\mathrm{d}y\\,\\mathrm{d}z.$$\n其中 $\\Omega$ 是由两个曲面 $x^2+y^2 = 1$ 与 $z = \\sqrt{x^2+y^2}$ 以及平面 $z = h\\ (h > 1)$ 所围成的立体。"
-    },
-    {
-     "section": "三",
-     "section_instruction": "（12 分）",
-     "no": "1",
-     "score": 12,
-     "form": "证明",
-     "l1": "一元微分学",
-     "l2": "中值定理",
-     "stem": "设函数 $f(x)$ 在 $[a,b]$ 上二阶连续可导，在 $(a,b)$ 内三阶可导，证明：存在 $\\xi \\in (a,b)$，使得\n$$f(b) = f(a) + \\dfrac{b-a}{2}[f'(a)+f'(b)] - \\dfrac{(b-a)^3}{12}f'''(\\xi).$$"
-    },
-    {
-     "section": "四",
-     "section_instruction": "（12 分）",
-     "no": "1",
-     "score": 12,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "定积分",
-     "stem": "设函数 $f(x)$ 在 $[a,b]$ 上有界，证明：若 $f(x)$ 的所有不连续点构成一个收敛数列，则 $f(x)$ 在 $[a,b]$ 上黎曼可积。"
-    },
-    {
-     "section": "五",
-     "section_instruction": "（15 分）",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "一致连续性",
-     "stem": "设 $f(x)$ 是 $\\mathbb{R}$ 上连续的周期函数，证明：\n(1) $f(x)$ 在 $\\mathbb{R}$ 上一致连续。\n(2) 进一步，若 $f(x)$ 不是常值函数，则 $f(x^2)$ 不是周期函数。"
-    },
-    {
-     "section": "六",
-     "section_instruction": "（15 分）",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "级数",
-     "l2": "数项级数敛散性",
-     "stem": "设数项级数 $\\sum\\limits_{n=1}^{\\infty} a_n$ 收敛，且 $\\lim\\limits_{n\\to\\infty} n a_n = 0$，证明：数项级数 $\\sum\\limits_{n=1}^{\\infty} n(a_n - a_{n+1})$ 收敛，且\n$$\\sum_{n=1}^{\\infty} n(a_n - a_{n+1}) = \\sum_{n=1}^{\\infty} a_n.$$"
-    },
-    {
-     "section": "七",
-     "section_instruction": "（15 分）",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "积分不等式",
-     "stem": "设函数 $f(x)$ 在 $[a,b]$ 上可微，且 $f'(x)$ 在 $[a,b]$ 上连续，证明：\n$$\\max_{x\\in[a,b]} |f(x)| \\le \\left|\\dfrac{1}{b-a}\\int_a^b f(x)\\,\\mathrm{d}x\\right| + \\int_a^b |f'(x)|\\,\\mathrm{d}x.$$"
-    },
-    {
-     "section": "八",
-     "section_instruction": "（15 分）",
-     "no": "1",
-     "score": 15,
-     "form": "综合",
-     "l1": "广义积分与含参积分",
-     "l2": "广义积分敛散性",
-     "stem": "设常数 $p > 0$，讨论反常积分 $\\displaystyle\\int_0^{+\\infty} \\dfrac{\\sin x}{x^p + \\sin x}\\,\\mathrm{d}x$ 的敛散性（包括绝对收敛和条件收敛）。"
-    },
-    {
-     "section": "九",
-     "section_instruction": "（15 分）",
-     "no": "1",
-     "score": 15,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲面积分",
-     "stem": "设 $f(x)$ 在 $\\mathbb{R}$ 上可微，且 $f'(x)$ 在 $\\mathbb{R}$ 上连续，计算曲面积分\n$$\\iint\\limits_{S} \\left[\\dfrac{x}{y}f\\left(\\dfrac{x}{y}\\right) + x^3\\right]\\mathrm{d}y\\,\\mathrm{d}z + \\left[f\\left(\\dfrac{x}{y}\right) + y^3\\right)\\mathrm{d}z\\,\\mathrm{d}x - \\left[\\dfrac{z}{y}f\\left(\\dfrac{x}{y}\right) - z^3\\right)\\mathrm{d}x\\,\\mathrm{d}y.\\right.\\right.$$\n其中 $S$ 是曲面 $x^2+y^2+z^2 = 2z$ 的内侧。"
+      "school": "兰州大学",
+      "year": "2021",
+      "subject": "高等代数",
+      "header_note": "152. 兰州大学 2021 年硕士研究生入学考试高等代数试卷",
+      "source_imgs": ["work/imgs/2247505184-1_5.png", "work/imgs/2247505184-1_6.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "根与重因式",
+          "stem": "证明：若实系数多项式 $f(x)$ 的一切根都是实数，并且其中有 $p$ 个（重根按重数计算）是正根，则 $f'(x)$ 有 $p$ 个或 $p-1$ 个正根."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 12,
+          "form": "综合",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "叙述并证明 Eisenstein 判别法，进而证明多项式 $x^p+px+1$ 在有理数域上不可约，其中 $p$ 为奇素数."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算下列 $n$ 阶行列式的值.",
+          "no": "1",
+          "score": 8,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix} x_1+a_1 & a_2 & \\cdots & a_n \\\\ a_1 & x_2+a_2 & \\cdots & a_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_1 & a_2 & \\cdots & x_n+a_n \\end{vmatrix}.$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算下列 $n$ 阶行列式的值.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式\n$$\\begin{vmatrix} a+x_1 & a+x_2 & a+x_3 & \\cdots & a+x_n \\\\ a^2+x_1^2 & a^2+x_2^2 & a^2+x_3^2 & \\cdots & a^2+x_n^2 \\\\ a^3+x_1^3 & a^3+x_2^3 & a^3+x_3^3 & \\cdots & a^3+x_n^3 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ a^n+x_1^n & a^n+x_2^n & a^n+x_3^n & \\cdots & a^n+x_n^n \\end{vmatrix}.$$"
+        },
+        {
+          "section": "三",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "伴随矩阵",
+          "stem": "设 $A$ 为 $n$ 级方阵，且 $n \\ge 2$，证明：\n$$\\mathrm{rank}(A^{*})=\\begin{cases} n, & \\mathrm{rank}(A)=n; \\\\ 1, & \\mathrm{rank}(A)=n-1; \\\\ 0, & \\mathrm{rank}(A)<n-1. \\end{cases}$$\n其中 $A^{*}$ 为 $A$ 的伴随矩阵."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 12,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设方阵 $A$ 的秩为 $r$，且 $A^2=A$，证明：$\\mathrm{tr}(A)=r$，其中 $\\mathrm{tr}(A)$ 为 $A$ 的主对角线上的元素之和."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "2",
+          "score": 13,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A,\\ B$ 都是 $n$ 级实矩阵，且 $\\mathrm{rank}(A)\\le\\dfrac{n}{2}$，$\\mathrm{rank}(B)<\\dfrac{n}{2}$，证明：对任意的实数 $a$，有\n$$|A+aB|=0.$$"
+        },
+        {
+          "section": "五",
+          "section_instruction": "（18 分）",
+          "no": "1",
+          "score": 18,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "不变子空间",
+          "stem": "设 $\\mathscr{A}$ 是复数域上 $n$ 维线性空间 $V$ 上的一个线性变换，而 $\\mathscr{A}$ 在基 $\\varepsilon_1,\\varepsilon_2,\\cdots,\\varepsilon_n$ 下的矩阵是一个若当块，证明：\n(1) 包含 $\\varepsilon_1$ 的不变子空间就是 $V$ 本身；\n(2) 任一非零不变子空间都包含 $\\varepsilon_n$；\n(3) $V$ 不能分解成两个非平凡的不变子空间的直和."
+        },
+        {
+          "section": "六",
+          "section_instruction": "（17 分）",
+          "no": "1",
+          "score": 17,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $\\mathscr{A}$ 是数域 $F$ 上 $n$ 维线性空间 $V$ 上的一个线性变换，证明：在 $V$ 中存在一组基，使得 $\\mathscr{A}$ 的矩阵为对角形的充要条件是 $\\mathscr{A}$ 的特征多项式的根都属于 $F$，而且对 $\\mathscr{A}$ 的每个特征值 $\\lambda_i$，特征子空间 $V_{\\lambda_i}$ 的维数等于 $\\lambda_i$ 的重数."
+        },
+        {
+          "section": "七",
+          "section_instruction": "（20 分）",
+          "no": "1",
+          "score": 20,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "设 $\\mathscr{A}$ 是线性空间 $V$ 上的一个线性变换，且 $\\mathscr{A}^2=\\mathscr{A}$，证明：\n(1) $\\mathscr{A}^{-1}(0)=\\{\\alpha-\\mathscr{A}(\\alpha)\\mid\\alpha\\in V\\}$.\n(2) $V=\\mathscr{A}^{-1}(0)\\oplus\\mathscr{A}(V)$.\n(3) $\\mathscr{A}^{-1}(0)$ 和 $\\mathscr{A}(V)$ 是 $V$ 上线性变换 $\\mathscr{B}$ 的不变子空间的充要条件是 $\\mathscr{A}$ 和 $\\mathscr{B}$ 可交换."
+        },
+        {
+          "section": "八",
+          "section_instruction": "（15 分）",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "设矩阵\n$$A=\\begin{pmatrix} 1 & -1 & 1 \\\\ a & 4 & b \\\\ -3 & -3 & 5 \\end{pmatrix}$$\n有 3 个线性无关的特征向量，$2$ 是 $A$ 的二重特征值. 求 $a,\\ b$ 的值，并求可逆矩阵 $T$，使得 $T^{-1}AT$ 为对角矩阵."
+        }
+      ]
     }
-   ]
-  },
-  {
-   "school": "兰州大学",
-   "year": "2021",
-   "subject": "高等代数",
-   "header_note": "152. 兰州大学 2021 年硕士研究生入学考试高等代数试卷",
-   "source_imgs": [
-    "work/imgs/2247505184-1_5.png"
-   ],
-   "questions": [
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "1",
-     "score": 10,
-     "form": "证明",
-     "l1": "多项式",
-     "l2": "根与重因式",
-     "stem": "证明：若实系数多项式 $f(x)$ 的一切根都是实数，并且其中有 $p$ 个（重根按重数计算）是正根，则 $f'(x)$ 有 $p$ 个或 $p-1$ 个正根。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "2",
-     "score": 12,
-     "form": "综合",
-     "l1": "多项式",
-     "l2": "既约性",
-     "stem": "叙述并证明 Eisenstein 判别法，进而证明多项式 $x^p + px + 1$ 在有理数域上不可约，其中 $p$ 为奇素数。"
-    },
-    {
-     "section": "二",
-     "section_instruction": "计算下列 $n$ 阶行列式的值。",
-     "no": "1",
-     "score": 8,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "计算 $n$ 阶行列式的值：\n$$\\begin{vmatrix} x_1+a_1 & a_2 & \\cdots & a_n \\\\ a_1 & x_2+a_2 & \\cdots & a_n \\\\ \\vdots & \\vdots & & \\vdots \\\\ a_1 & a_2 & \\cdots & x_n+a_n \\end{vmatrix}.$$"
-    },
-    {
-     "section": "二",
-     "section_instruction": "计算下列 $n$ 阶行列式的值。",
-     "no": "2",
-     "score": 10,
-     "form": "计算",
-     "l1": "矩阵与线性方程组",
-     "l2": "行列式",
-     "stem": "计算 $n$ 阶行列式的值：\n$$\\begin{vmatrix} a+x_1 & a+x_2 & a+x_3 & \\cdots & a+x_n \\\\ a^2+x_1^2 & a^2+x_2^2 & a^2+x_3^2 & \\cdots & a^2+x_n^2 \\\\ a^3+x_1^3 & a^3+x_2^3 & a^3+x_3^3 & \\cdots & a^3+x_n^3 \\\\ \\vdots & \\vdots & \\vdots & & \\vdots \\\\ a^n+x_1^n & a^n+x_2^n & a^n+x_3^n & \\cdots & a^n+x_n^n \\end{vmatrix}.$$"
-    },
-    {
-     "section": "三",
-     "section_instruction": "（15 分）",
-     "no": "1",
-     "score": 15,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "伴随矩阵",
-     "stem": "设 $A$ 为 $n$ 级方阵，且 $n \\ge 2$，证明：\n$$\\mathrm{rank}(A^*) = \\begin{cases} n, & \\mathrm{rank}(A) = n; \\\\ 1, & \\mathrm{rank}(A) = n-1; \\\\ 0, & \\mathrm{rank}(A) < n-1. \\end{cases}$$\n其中 $A^*$ 为 $A$ 的伴随矩阵。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "",
-     "no": "1",
-     "score": 12,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "幂等矩阵",
-     "stem": "设方阵 $A$ 的秩为 $r$，且 $A^2 = A$，证明：$\\mathrm{tr}(A) = r$，其中 $\\mathrm{tr}(A)$ 为 $A$ 的主对角线上的元素之和。"
-    },
-    {
-     "section": "四",
-     "section_instruction": "",
-     "no": "2",
-     "score": 13,
-     "form": "证明",
-     "l1": "矩阵与线性方程组",
-     "l2": "秩",
-     "stem": "设 $A, B$ 都是 $n$ 级实矩阵，且 $\\mathrm{rank}(A) \\le \\dfrac{n}{2}$，$\\mathrm{rank}(B) < \\dfrac{n}{2}$，证明：对任意的实数 $a$，有\n$$|A + aB| = 0.$$"
-    },
-    {
-     "section": "五",
-     "section_instruction": "（18 分）",
-     "no": "1",
-     "score": 18,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "不变子空间",
-     "stem": "设 $\\mathscr{A}$ 是复数域上 $n$ 维线性空间 $V$ 上的一个线性变换，而 $\\mathscr{A}$ 在基 $\\varepsilon_1, \\varepsilon_2, \\cdots, \\varepsilon_n$ 下的矩阵是一个若当块，证明：\n(1) 包含 $\\varepsilon_1$ 的不变子空间就是 $V$ 本身；\n(2) 任一非零不变子空间都包含 $\\varepsilon_n$；\n(3) $V$ 不能分解成两个非平凡的不变子空间的直和。"
-    },
-    {
-     "section": "六",
-     "section_instruction": "（17 分）",
-     "no": "1",
-     "score": 17,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "可对角化",
-     "stem": "设 $\\mathscr{A}$ 是数域 $F$ 上 $n$ 维线性空间 $V$ 上的一个线性变换，证明：在 $V$ 中存在一组基，使得 $\\mathscr{A}$ 的矩阵为对角形的充要条件是 $\\mathscr{A}$ 的特征多项式的根都属于 $F$，而且对 $\\mathscr{A}$ 的每个特征值 $\\lambda_i$，特征子空间 $V_{\\lambda_i}$ 的维数等于 $\\lambda_i$ 的重数。"
-    },
-    {
-     "section": "七",
-     "section_instruction": "（20 分）设 $\\mathscr{A}$ 是线性空间 $V$ 上的一个线性变换，且 $\\mathscr{A}^2 = \\mathscr{A}$，证明：",
-     "no": "1",
-     "score": null,
-     "form": "证明",
-     "l1": "线性空间与线性变换",
-     "l2": "线性映射与核",
-     "stem": "设 $\\mathscr{A}$ 是线性空间 $V$ 上的一个线性变换，且 $\\mathscr{A}^2 = \\mathscr{A}$，证明：$\\mathscr{A}^{-1}(0) = \\{\\alpha - \\mathscr{A}(\\alpha) \\mid \\alpha \\in V\\}$。"
-    }
-   ]
-  }
- ]
+  ]
 }
