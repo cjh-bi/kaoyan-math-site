@@ -1,94 +1,233 @@
 {
- "msgid": "2247521567-1",
- "exams": [
-  {
-   "school": "厦门大学",
-   "year": "2024",
-   "subject": "数学分析",
-   "header_note": "43. 厦门大学 2024 年数学分析试卷",
-   "source_imgs": ["work/imgs/2247521567-1_4.png"],
-   "questions": [
+  "msgid": "2247521567-1",
+  "exams": [
     {
-     "section": "一",
-     "section_instruction": "",
-     "no": "1",
-     "score": 15,
-     "form": "计算",
-     "l1": "极限与连续",
-     "l2": "数列极限计算",
-     "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1\\cdot 1!+2\\cdot 2!+\\cdots+n\\cdot n!}{(n+1)!}$。"
+      "school": "厦门大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "43. 厦门大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521567-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "求极限 $\\lim\\limits_{n\\to\\infty}\\dfrac{1\\cdot 1!+2\\cdot 2!+\\cdots+n\\cdot n!}{(n+1)!}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 20,
+          "form": "证明",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "函数 $f(x)$ 在 $[0,1]$ 上有二阶连续导数，且 $f(0)=f(1)=0$，当 $x\\in(0,1)$ 时，$f(x)\\ne 0$。证明：$$\\int_0^1\\left|\\dfrac{f''(x)}{f(x)}\\right|\\mathrm{d}x\\ge 4.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "已知无穷积分 $\\int_a^{+\\infty} f(x)\\,\\mathrm{d}x$ 收敛，且 $f(x)$ 单调，证明：$\\lim\\limits_{x\\to+\\infty} x f(x)=0$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求二元函数 $f(x,y)=x^2+y^2-12x+16y$ 在 $D=\\{(x,y)\\mid x^2+y^2\\le 25\\}$ 上的最值。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 20,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "实数完备性定理",
+          "stem": "有 $K$ 是 $n$ 维欧氏空间 $\\mathbb{R}^n$ 上的有界非空闭子集，且 $K\\subseteq\\bigcup\\limits_{k=1}^{\\infty} U_k$，其中 $U_k$ 为开集。证明：存在 $\\varepsilon>0$，对于任意的 $x\\in K$，以 $x$ 为中心 $\\varepsilon$ 为半径的开球 $B(x,\\varepsilon)$ 包含于某个 $U_k$ 中。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 20,
+          "form": "计算",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "解答如下问题：\n(1) 将 $f(x)=\\begin{cases}-\\dfrac{\\pi}{4}, & x\\in[-\\pi,0);\\\\ \\dfrac{\\pi}{4}, & x\\in[0,\\pi).\\end{cases}$ 展开成傅里叶级数。\n(2) 求 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{(2n-1)^2}$。"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "三重积分",
+          "stem": "设 $f(x)$ 有连续导数，且 $f(0)=0$，求极限 $$\\lim\\limits_{t\\to 0}\\dfrac{1}{\\pi t^4}\\iiint\\limits_{x^2+y^2+z^2\\le t^2} f\\left(\\sqrt{x^2+y^2+z^2}\\right)\\mathrm{d}x\\mathrm{d}y\\mathrm{d}z.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分 $$\\int_L x\\ln(x^2+y^2-1)\\,\\mathrm{d}x+y\\ln(x^2+y^2-1)\\,\\mathrm{d}y.$$\n其中 $L$ 为从 $(2,0)$ 到 $(0,2)$ 的光滑曲线。"
+        }
+      ]
     },
     {
-     "section": "一",
-     "section_instruction": "",
-     "no": "2",
-     "score": 20,
-     "form": "证明",
-     "l1": "一元积分学",
-     "l2": "积分不等式",
-     "stem": "函数 $f(x)$ 在 $[0,1]$ 上有二阶连续导数，且 $f(0)=f(1)=0$，当 $x\\in(0,1)$ 时，$f(x)\\neq 0$。证明：\n$$\\int_0^1\\left|\\dfrac{f''(x)}{f(x)}\\right|\\,\\mathrm{d}x\\ge 4.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "3",
-     "score": 15,
-     "form": "证明",
-     "l1": "广义积分与含参积分",
-     "l2": "广义积分敛散性",
-     "stem": "已知无穷积分 $\\displaystyle\\int_a^{+\\infty}f(x)\\,\\mathrm{d}x$ 收敛，且 $f(x)$ 单调，证明：$\\lim\\limits_{x\\to+\\infty}xf(x)=0$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "4",
-     "score": 20,
-     "form": "计算",
-     "l1": "多元微分学",
-     "l2": "极值与最值",
-     "stem": "求二元函数 $f(x,y)=x^2+y^2-12x+16y$ 在 $D=\\{(x,y)\\mid x^2+y^2\\le 25\\}$ 上的最值。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "5",
-     "score": 20,
-     "form": "证明",
-     "l1": "极限与连续",
-     "l2": "实数完备性定理",
-     "stem": "有 $K$ 是 $n$ 维欧氏空间 $\\mathbb{R}^n$ 上的有界非空闭子集，且 $K\\subseteq\\bigcup\\limits_{k=1}^{\\infty}U_k$，其中 $U_k$ 为开集。证明：存在 $\\varepsilon>0$，对于任意的 $x\\in K$，以 $x$ 为中心 $\\varepsilon$ 为半径的开球 $B(x,\\varepsilon)$ 包含于某个 $U_k$ 中。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "6",
-     "score": 20,
-     "form": "计算",
-     "l1": "级数",
-     "l2": "傅里叶级数",
-     "stem": "解答如下问题：\n(1) 将 $f(x)=\\begin{cases}-\\dfrac{\\pi}{4}, & x\\in[-\\pi,0);\\\\[4pt] \\dfrac{\\pi}{4}, & x\\in[0,\\pi).\\end{cases}$ 展开成傅里叶级数。\n(2) 求 $\\displaystyle\\sum_{n=1}^{\\infty}\\dfrac{1}{(2n-1)^2}$。"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "7",
-     "score": 20,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "三重积分",
-     "stem": "设 $f(x)$ 有连续导数，且 $f(0)=0$，求极限\n$$\\lim_{t\\to 0}\\dfrac{1}{\\pi t^4}\\iiint\\limits_{x^2+y^2+z^2\\le t^2}f\\left(\\sqrt{x^2+y^2+z^2}\\right)\\,\\mathrm{d}x\\,\\mathrm{d}y\\,\\mathrm{d}z.$$"
-    },
-    {
-     "section": "一",
-     "section_instruction": "",
-     "no": "8",
-     "score": 20,
-     "form": "计算",
-     "l1": "多元积分学",
-     "l2": "第二型曲线积分",
-     "stem": "计算曲线积分\n$$\\int_L x\\ln(x^2+y^2-1)\\,\\mathrm{d}x+y\\ln(x^2+y^2-1)\\,\\mathrm{d}y,$$\n其中 $L$ 为从 $(2,0)$ 到 $(0,2)$ 的光滑曲线。"
+      "school": "厦门大学",
+      "year": "2024",
+      "subject": "高等代数",
+      "header_note": "（手写回忆版，卷面图片无标题）",
+      "source_imgs": ["work/imgs/2247521567-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "题号不清楚：（一共 10 道填空）",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "计算行列式 $$\\begin{vmatrix} 1 & 2 & 3 & 4 \\\\ 1 & 4 & 9 & 16 \\\\ 1 & 8 & 27 & 64 \\\\ 5 & 4 & 3 & 2 \\end{vmatrix}=$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "题号不清楚：（一共 10 道填空）",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "秩",
+          "stem": "设 $A=(\\alpha_1,\\alpha_2,\\alpha_3,\\gamma)$，$2\\alpha_1+\\alpha_2=0$，$m\\alpha_1+n\\alpha_2+k\\alpha_3=0$（$m,n,k$ 的条件回忆卷标注「忘了」），则 $A^{*}$ 的秩是．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "题号不清楚：（一共 10 道填空）",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "$V$ 是 $n$ 维线性空间，$V_1,V_2$ 是两个 $n-1$ 维子空间，$V_1\\ne V_2$，$\\dim(V_1+V_2)=$．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "题号不清楚：（一共 10 道填空）",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "Jordan 标准形",
+          "stem": "$A$ 是 $4$ 阶幂零矩阵，$A^2$ 的不变因子是："
+        },
+        {
+          "section": "一",
+          "section_instruction": "题号不清楚：（一共 10 道填空）",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "特征值与特征向量",
+          "stem": "求 $\\begin{pmatrix}\\end{pmatrix}$（回忆卷标注「矩阵忘了」）【?】的特征值 $\\lambda=2$ 的几何重数．"
+        },
+        {
+          "section": "一",
+          "section_instruction": "题号不清楚：（一共 10 道填空）",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "求 $\\begin{pmatrix}\\end{pmatrix}$（回忆卷标注「矩阵忘了」）【?】的正惯性指数："
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "可逆性",
+          "stem": "设 $AB+A-B=I$，$A=\\begin{pmatrix} 1 & 0 & -1 \\\\ 0 & 2 & 0 \\\\ -1 & 0 & 1 \\end{pmatrix}$，求 $B$。"
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "既约性",
+          "stem": "设 $f(x)=x^3+ax^2+bx+c$ 是整系数多项式，求证：在 $ac+bc$ 为奇数的条件下，$f(x)$ 在有理数域上不可约。"
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "(1) 不可逆线性变换 $\\varphi$ 在一组基下的矩阵为 $\\begin{pmatrix} B & 0 \\\\ 0 & 0 \\end{pmatrix}$（$\\mathrm{rank}\\,B=r$），【?】（回忆卷此处未写明所问）。\n(2) 设 $A$ 是反对称矩阵（$A^{\\mathrm{T}}=-A$），证：$x^{\\mathrm{T}}Ax=0$（$x$ 为任一列向量）。"
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "线性空间 $V$，$\\varphi$ 是 $V$ 上的线性变换，$\\varphi^3-2\\varphi^2+\\varphi=0$。\n(1) 证明：$V=\\ker\\varphi\\oplus\\mathrm{Im}\\varphi$。\n(2) 【?】（回忆卷仅写有 (2)，题目缺失）"
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "设 $A$ 为可逆矩阵，证明：存在正交矩阵 $Q$ 和正定矩阵 $S$，使 $A=QS$。"
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "综合",
+          "l1": "矩阵与线性方程组",
+          "l2": "相似",
+          "stem": "设 $n$ 阶矩阵 $A$ 幂零，即 $\\exists k$ 使 $A^k=0$。\n(1) 求 $E-A$ 的逆。\n(2) 证明 $(E-A)^{-1}$ 和 $E-A$ 相似。"
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "在 $\\mathbb{R}^n$ 上：$f(x)=|x_1|+\\cdots+|x_r|-|x_{r+1}|-\\cdots-|x_{r+s}|$，$x=(x_1,\\cdots,x_n)$，$r+s\\le n$。\n(1) 证明：存在 $n-r$ 维子空间 $W$，使 $f|_W\\ge 0$（即 $\\forall x\\in W$，$f(x)\\ge 0$）。\n(2) 【?】（回忆卷仅写有 (2)，题目缺失）"
+        }
+      ]
     }
-   ]
-  }
- ]
+  ]
 }
