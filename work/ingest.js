@@ -45,6 +45,35 @@ for (const q of KY.questions) {
   if (!existingPaperKey.has(q.school_name + '|' + q.year + '|' + q.subject)) existingPaperKey.set(q.school_name + '|' + q.year + '|' + q.subject, pid);
 }
 
+// 内容指纹去重：同校同年若已有卷与待加卷题干重合≥0.5，判为同卷异名，跳过
+function normFp(s) {
+  return String(s || '')
+    .replace(/\$+/g, '').replace(/\\[a-zA-Z]+/g, m => ({ '\\left': '', '\\right': '', '\\quad': ' ', '\\dfrac': '', '\\frac': '', '\\mathrm': '', '\\mathbb': '', '\\text': '', '\\begin': '', '\\end': '', '\\pm': '+-', '\\neq': '!=', '\\leq': '<=', '\\geq': '>=' }[m] ?? ''))
+    .replace(/\s+/g, '').replace(/[，。、；：（）()【】\[\]{}.,;:!?"“”]/g, '').toLowerCase();
+}
+function fpSet(stems) { const s = new Set(); for (const t of stems) { const f = normFp(t).slice(0, 60); if (f) s.add(f); } return s; }
+const fpBySchoolYear = new Map(); // school|year -> [{pid, fps:Set}]
+{
+  const byPid = new Map();
+  for (const q of KY.questions) {
+    const pid = q.qid.replace(/-q\d{4}$/, '');
+    if (!byPid.has(pid)) byPid.set(pid, { school: q.school_name, year: q.year, fps: new Set() });
+    const f = normFp(q.stem_display).slice(0, 60); if (f) byPid.get(pid).fps.add(f);
+  }
+  for (const [pid, v] of byPid) { const k = v.school + '|' + v.year; if (!fpBySchoolYear.has(k)) fpBySchoolYear.set(k, []); fpBySchoolYear.get(k).push({ pid, fps: v.fps }); }
+}
+function isContentDup(school, year, stems) {
+  const cand = fpSet(stems); if (!cand.size) return null;
+  const list = fpBySchoolYear.get(school + '|' + year) || [];
+  for (const { pid, fps } of list) {
+    if (!fps.size) continue;
+    let inter = 0; for (const x of cand) if (fps.has(x)) inter++;
+    const jac = inter / (cand.size + fps.size - inter);
+    if (jac >= 0.5) return pid;
+  }
+  return null;
+}
+
 // 解析 papers.html 全部试卷表 → 现有试卷的分值/结构信息
 const papersHtml = fs.readFileSync(path.join(ROOT, 'papers.html'), 'utf8');
 {
@@ -91,6 +120,7 @@ for (const t of transcripts) {
     if (!t2.school || !t2.year || !t2.subject || !Array.isArray(t2.questions) || !t2.questions.length) { console.log('skip bad exam in', t.msgid); continue; }
     const key = t2.school + '|' + t2.year + '|' + t2.subject;
     if (existingPaperKey.has(key) || seenPaper.has(key)) { console.log('skip dup paper', key); continue; }
+    { const dupPid = isContentDup(t2.school, t2.year, t2.questions.map(q => q.stem)); if (dupPid) { console.log('skip CONTENT-dup', key, '==', dupPid); continue; } }
     seenPaper.add(key);
     const code = schoolCode(t2.school);
     let pid = `major-0701-${t2.year}-${code}-${sha8(t2.key + '|' + t2.school + '|' + t2.subject)}`;
