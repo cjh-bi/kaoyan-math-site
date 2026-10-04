@@ -43,7 +43,7 @@ function sniff(buf) {
     const imgs = [];
     if (!blocked) for (let n = 0; n < urls.length; n++) {
       try { const buf = await get(urls[n]); const s = sniff(buf); if (!s) continue;
-        const isExam = s.w >= 900 && s.h >= 850 && s.ext !== 'gif' && !(s.w === 1080 && s.h <= 700);
+        const isExam = s.w >= 980 && s.w <= 1075 && s.h >= 260 && s.ext !== 'gif';
         if (isExam) { const f = `work/imgs/${key}_${n + 1}.${s.ext}`; fs.writeFileSync(path.join(ROOT, f), buf); imgs.push({ file: f, w: s.w, h: s.h }); }
       } catch (e) {}
       await new Promise(s => setTimeout(s, 180));

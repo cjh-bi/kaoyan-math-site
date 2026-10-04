@@ -65,7 +65,8 @@ function sniff(buf) {
       try {
         const buf = await get(urls[n]);
         const s = sniff(buf); if (!s) continue;
-        const isExam = s.w >= 900 && s.h >= 850 && s.ext !== 'gif' && !(s.w === 1080 && s.h <= 700);
+        // 试卷页：宽 980-1075（真卷 1037-1061；头图 1080 排除）、高≥260（含短尾页！）、非 gif
+        const isExam = s.w >= 980 && s.w <= 1075 && s.h >= 260 && s.ext !== 'gif';
         if (isExam) { const f = `work/imgs/${row.key}_${n + 1}.${s.ext}`; fs.writeFileSync(path.join(ROOT, f), buf); imgs.push({ file: f, w: s.w, h: s.h }); }
       } catch (e) { /* skip image */ }
       await new Promise(s => setTimeout(s, 200));

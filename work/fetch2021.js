@@ -63,7 +63,7 @@ function sniff(buf) {
       try {
         const buf = await get(urls[n]);
         const s = sniff(buf); if (!s) continue;
-        const isExam = s.w >= 1000 && s.h >= 900 && s.ext !== 'gif' && !(s.w === 1080 && s.h <= 700);
+        const isExam = s.w >= 980 && s.w <= 1075 && s.h >= 260 && s.ext !== 'gif';
         if (isExam) { const f = `work/imgs/${row.key}_${n + 1}.${s.ext}`; fs.writeFileSync(path.join(ROOT, f), buf); imgs.push({ file: f, w: s.w, h: s.h }); }
       } catch (e) { /* skip image */ }
       await new Promise(s => setTimeout(s, 200));
