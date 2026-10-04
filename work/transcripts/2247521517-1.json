@@ -1,0 +1,253 @@
+{
+  "msgid": "2247521517-1",
+  "exams": [
+    {
+      "school": "东北师范大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "30. 东北师范大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521517-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分，共 30 分.",
+          "no": "1",
+          "score": 6,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "$\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{1}{n}+\\dfrac{1}{n+1}+\\cdots+\\dfrac{1}{2n+1}\\right)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分，共 30 分.",
+          "no": "2",
+          "score": 6,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "$\\lim\\limits_{x\\to+\\infty}\\sqrt{x}\\int_x^{x+1}\\dfrac{\\mathrm{d}t}{\\sqrt{t+\\ln t}}$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分，共 30 分.",
+          "no": "3",
+          "score": 6,
+          "form": "计算",
+          "l1": "极限与连续",
+          "l2": "数列极限计算",
+          "stem": "$\\lim\\limits_{n\\to\\infty}\\left(\\dfrac{1}{2}+\\dfrac{3}{2^2}+\\dfrac{5}{2^3}+\\cdots+\\dfrac{2n-1}{2^n}\\right)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分，共 30 分.",
+          "no": "4",
+          "score": 6,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "$\\int_0^1 \\mathrm{d}x\\int_0^1 \\left|xy-\\dfrac{1}{4}\\right|\\mathrm{d}y$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "计算题. 每题 6 分，共 30 分.",
+          "no": "5",
+          "score": 6,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "求球面 $x=\\sin\\varphi\\cos\\theta, y=\\sin\\varphi\\sin\\theta, z=\\cos\\varphi$ 在对应 $\\theta=\\varphi=\\dfrac{\\pi}{4}$ 处的切平面和法线方程."
+        },
+        {
+          "section": "二",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数求导",
+          "stem": "由方程组\n$$\\begin{cases}x^2+y^2-uv=0;\\\\ xy+u^2-v^2=0.\\end{cases}$$\n能否确定 $u,v$ 为 $x$ 与 $y$ 的函数？在能确定隐函数的条件下，求 $u_x, v_x, u_y, v_y$."
+        },
+        {
+          "section": "三",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "极值与最值",
+          "stem": "求函数 $f(x,y)=\\sin x+\\sin y+\\sin(x+y)$ 在 $(x,y)\\in[0,2\\pi]\\times[0,2\\pi]$ 的所有极值点."
+        },
+        {
+          "section": "四",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲面积分",
+          "stem": "计算曲面积分\n$$I=\\iint_S (z^2+x)\\,\\mathrm{d}y\\mathrm{d}z+\\sqrt{z}\\,\\mathrm{d}x\\mathrm{d}y.$$\n其中 $S$ 为抛物面 $z=\\dfrac{1}{2}(x^2+y^2)$ 在 $z=0$ 和 $z=\\pi$ 之间的部分, 定向取下侧."
+        },
+        {
+          "section": "五",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "一元微分学",
+          "l2": "高阶导数",
+          "stem": "设函数 $f(x)$ 在 $(-\\infty,+\\infty)$ 上有任意阶导数, 且对任意实数 $x$ 及 $n=0,1,2,\\cdots$, 满足\n$$|f^{(n)}(x)|\\le n!|x|.$$\n证明: $f(x)=0$, $x\\in(-\\infty,+\\infty)$."
+        },
+        {
+          "section": "六",
+          "section_instruction": "",
+          "no": "1",
+          "score": null,
+          "form": "证明",
+          "l1": "多元微分学",
+          "l2": "调和函数",
+          "stem": "设 $D$ 为平面区域, $u(x,y)\\in C^2(D)$, 证明: $u(x,y)$ 为调和函数, 即 $u$ 满足 $\\dfrac{\\partial^2 u}{\\partial x^2}+\\dfrac{\\partial^2 u}{\\partial y^2}=0$ 的充要条件是: 对 $D$ 内任一圆周 $L$, 且 $L$ 所围圆属于 $D$, 都有 $\\displaystyle\\int_L \\dfrac{\\partial u}{\\partial n}\\,\\mathrm{d}s=0$."
+        },
+        {
+          "section": "七",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "设 $\\{a_n\\}$ 是正的单调递增序列, 证明: 级数 $\\displaystyle\\sum_{n=1}^{\\infty}\\left(1-\\dfrac{a_n}{a_{n+1}}\\right)$ 当 $\\{a_n\\}$ 有界时收敛, 当 $\\{a_n\\}$ 无界时发散."
+        },
+        {
+          "section": "八",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "令 $f(t)=\\displaystyle\\int_1^{+\\infty}\\dfrac{\\cos xt}{1+x^2}\\,\\mathrm{d}x$. 证明:\n(1) 积分在 $t\\in(-\\infty,+\\infty)$ 上一致连续. (按道理应该是一致收敛)\n(2) $f(t)\\in C(-\\infty,+\\infty)$.\n(3) $\\lim\\limits_{t\\to+\\infty}f(t)=0$."
+        },
+        {
+          "section": "九",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "设 $\\{f_n\\}$ 是 $[a,b]$ 上连续的函数列, 对任意的 $x\\in[a,b]$, 有 $f_n(x)\\le f_{n+1}(x)$, $n=1,2,\\cdots$. 证明: 如果 $\\{f_n\\}$ 在 $[a,b]$ 上收敛于连续函数 $f$, 那么 $\\{f_n\\}$ 必定一致收敛于 $f$."
+        }
+      ]
+    },
+    {
+      "school": "东北师范大学",
+      "year": "2024",
+      "subject": "高等代数与解析几何",
+      "header_note": "30. 东北师范大学 2024 年高等代数与解析几何试卷",
+      "source_imgs": ["work/imgs/2247521517-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "1",
+          "score": 15,
+          "form": "计算",
+          "l1": "矩阵与线性方程组",
+          "l2": "行列式",
+          "stem": "求下列行列式\n$$\\begin{vmatrix}1+x_1 & 1+x_1^2 & \\cdots & 1+x_1^n\\\\ 1+x_2 & 1+x_2^2 & \\cdots & 1+x_2^n\\\\ \\vdots & \\vdots & & \\vdots\\\\ 1+x_n & 1+x_n^2 & \\cdots & 1+x_n^n\\end{vmatrix}.$$"
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "2",
+          "score": 15,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为一个 $4$ 阶实对称矩阵, 特征值为 $0,0,0,4$, 属于特征值 $0$ 的线性无关的特征向量为\n$$(-1,1,0,0)',(-1,0,1,0)',(-1,0,0,1)'.$$\n求矩阵 $A$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "多项式",
+          "l2": "互素与最大公因式",
+          "stem": "设 $f(x)=x^m-1, g(x)=x^n-1$, 其中 $m,n$ 为正整数, 证明: $(f(x),g(x))=x^d-1$, 其中 $d$ 为 $m,n$ 的最大公因式."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "4",
+          "score": 15,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "设 $V_1,V_2,\\cdots,V_m$ 是有理数域上向量空间 $V$ 的 $m$ 个真子空间, 证明: $V$ 中必定有一个向量 $\\alpha$, $\\alpha$ 不属于任何一个 $V_i$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "5",
+          "score": 15,
+          "form": "证明",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂等矩阵",
+          "stem": "设 $A$ 是复数域上的 $n$ 阶幂等矩阵, 且 $A=A_1+A_2+\\cdots+A_k$, 其中 $k$ 是大于等于 $2$ 的正整数, 又有 $r(A)=r(A_1)+r(A_2)+\\cdots+r(A_k)$. 证明: $A_i^2=A_i$, $A_iA_j=O$ $(i\\ne j)$."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "6",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正定与半正定",
+          "stem": "如果二次型 $f(x_1,x_2,\\cdots,x_n)$ 仅在 $x_1=x_2=\\cdots=x_n=0$ 时为零, 证明: $f$ 必定是正定型或负定型."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "7",
+          "score": 15,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "对称变换",
+          "stem": "设 $\\varphi$ 是 $n$ 维欧氏空间 $V$ 上的对称变换, 证明: 对 $V$ 中任意向量 $\\alpha$ 都有 $(\\varphi(\\alpha),\\alpha)\\ge 0$ 的充分必要条件是 $\\varphi$ 的全部特征值都为非负实数."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "8",
+          "score": 20,
+          "form": "计算",
+          "l1": "解析几何",
+          "l2": "直纹面与直母线",
+          "stem": "设直线 $l_1: \\dfrac{x-1}{2}=\\dfrac{y}{1}=\\dfrac{z}{-1}$, $l_2: \\dfrac{x}{2}=\\dfrac{y}{1}=\\dfrac{z+1}{-2}$ 和平面 $\\pi: x+y+z=0$, 求与直线 $l_1,l_2$ 相交且平行于 $\\pi$ 的所有直线构成的曲面 $S$ 的方程."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "9",
+          "score": 20,
+          "form": "综合",
+          "l1": "解析几何",
+          "l2": "二次曲面",
+          "stem": "证明方程 $5x^2+5y^2+2z^2-8xy-2xz-2yz+20x+20y-40z-16=0$ 表示的曲面是柱面, 并指出此柱面的母线方向及一条准线方程."
+        },
+        {
+          "section": "一",
+          "section_instruction": "",
+          "no": "10",
+          "score": 10,
+          "form": "证明",
+          "l1": "解析几何",
+          "l2": "共线共面判定",
+          "stem": "证明: $O,A,B$ 不共线, $A\\ne B$, 则点 $C$ 与点 $A,B$ 共线的充分必要条件是向量 $\\overrightarrow{OC}$ 可以分解为向量 $\\overrightarrow{OA}$ 和向量 $\\overrightarrow{OB}$ 的线性组合, 且分解的系数之和为 $1$."
+        }
+      ]
+    }
+  ]
+}

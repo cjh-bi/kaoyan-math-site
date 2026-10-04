@@ -69,7 +69,7 @@ const EXTRA_CODES = { '中国石油大学(北京)': 'cupb', '重庆市统考': '
 const SCHOOL_ALIAS = { '中国矿业大学': '中国矿业大学(徐州)' };
 const SUBJECT_ALIAS = { '空间解析几何与高等代数': '空间解析几何和高等代数' };
 // 吉林大学 2026 的"高等代数与解析几何"与原站"空间解析几何和高等代数"为同卷（已逐题核对）
-const SCHOOL_SUBJECT_ALIAS = { '吉林大学|高等代数与解析几何': '空间解析几何和高等代数' };
+const SCHOOL_SUBJECT_ALIAS = { '吉林大学|高等代数与解析几何': '空间解析几何和高等代数', '电子科技大学|线性代数': '高等代数', '东北师范大学|高等代数与解析几何': '高等代数', '山东大学|线性代数与常微分方程': '高等代数', '中国科学技术大学|线性代数与解析几何': '高等代数' };
 function schoolCode(name) {
   if (codes[name]) return codes[name];
   if (EXTRA_CODES[name]) return EXTRA_CODES[name];

@@ -1,0 +1,323 @@
+{
+  "msgid": "2247521427-1",
+  "exams": [
+    {
+      "school": "电子科技大学",
+      "year": "2024",
+      "subject": "数学分析",
+      "header_note": "63. 电子科技大学 2024 年数学分析试卷",
+      "source_imgs": ["work/imgs/2247521427-1_4.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "1",
+          "score": 5,
+          "form": "填空",
+          "l1": "极限与连续",
+          "l2": "函数极限计算",
+          "stem": "计算 $\\lim\\limits_{x\\to 0}\\dfrac{1-(\\cos x)^{\\sin x}}{\\sqrt{1+x^3}-1}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "2",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "偏导数",
+          "stem": "设 $u(x,y,z)=xyz$, 则 $\\mathrm{d}^3 u=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "3",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元积分学",
+          "l2": "第一型曲线积分",
+          "stem": "曲线积分 $\\oint_L (2x^2+y^2+z)\\,\\mathrm{d}s=$ ______, 其中 $L$ 为 $x^2+y^2+z^2=1$ 与 $x+y+z=0$ 的交线."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "4",
+          "score": 5,
+          "form": "填空",
+          "l1": "多元微分学",
+          "l2": "梯度与方向导数",
+          "stem": "函数 $z=xy$ 在点______处的法线与平面 $x+3y+z+9=0$ 垂直."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "5",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "数项级数求和",
+          "stem": "级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{1}{n\\cdot 2^n}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题. 每题 5 分, 共 30 分.",
+          "no": "6",
+          "score": 5,
+          "form": "填空",
+          "l1": "级数",
+          "l2": "傅里叶级数",
+          "stem": "将 $f(x)=\\pi-x,\\ x\\in(0,\\pi)$ 展开成正弦级数______, 并写出和函数______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "1",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "隐函数存在定理",
+          "stem": "方程组\n$$\\begin{cases}xy+y+y^2z=0;\\\\ x^{y}+yz-z^2+5=0.\\end{cases}$$\n在点 $P(1,-2,1)$ 附近能否唯一确定隐函数组?"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "2",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "第二型曲线积分",
+          "stem": "计算曲线积分\n$$\\int_L \\dfrac{(x-y)\\,\\mathrm{d}x+(x+4y)\\,\\mathrm{d}y}{x^2+4y^2}.$$\n其中 $L:x^2+y^2=1$, 取逆时针方向."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "3",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元微分学",
+          "l2": "条件极值",
+          "stem": "求 $x+2y=1$ 与 $x^2+2y^2+z^2=1$ 相交曲线上到原点距离最小的点."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "4",
+          "score": 10,
+          "form": "判断",
+          "l1": "级数",
+          "l2": "数项级数敛散性",
+          "stem": "判断数项级数 $\\sum\\limits_{n=1}^{\\infty}(-1)^{n-1}\\dfrac{\\sin^2 n}{n}$ 的敛散性, 若收敛需要判断是条件收敛还是绝对收敛."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "5",
+          "score": 10,
+          "form": "计算",
+          "l1": "广义积分与含参积分",
+          "l2": "含参量积分",
+          "stem": "计算积分 $I(y)=\\displaystyle\\int_0^{+\\infty} e^{-x^2}\\cos 2xy\\,\\mathrm{d}x$, 其中 $y\\in\\mathbb{R}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题. 每题 10 分, 共 60 分.",
+          "no": "6",
+          "score": 10,
+          "form": "计算",
+          "l1": "多元积分学",
+          "l2": "二重积分",
+          "stem": "计算二重积分 $\\iint\\limits_D (\\sqrt{x^2+y^2}+y)\\,\\mathrm{d}x\\mathrm{d}y$, 其中 $D:x^2+y^2=4$ 与 $(x+1)^2+y^2=1$ 所围成的区域."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 30 分.",
+          "no": "1",
+          "score": 10,
+          "form": "证明",
+          "l1": "极限与连续",
+          "l2": "数列收敛性",
+          "stem": "已知数列 $\\{a_n\\}$ 满足 $a_n=\\sin 1+\\dfrac{\\sin 2}{2!}+\\dfrac{\\sin 3}{3!}+\\cdots+\\dfrac{\\sin n}{n!}$.\n(1) 证明: $\\{a_n\\}$ 有界, 但是 $\\{a_n\\}$ 不单调.\n(2) 证明: 数列 $\\{a_n\\}$ 收敛."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 30 分.",
+          "no": "2",
+          "score": 10,
+          "form": "证明",
+          "l1": "级数",
+          "l2": "函数项级数",
+          "stem": "证明: 函数项级数 $\\sum\\limits_{n=1}^{\\infty}\\dfrac{x^2}{(1+x^2)^n}$ 在 $(-\\infty,+\\infty)$ 上非一致收敛."
+        },
+        {
+          "section": "三",
+          "section_instruction": "证明题. 每题 10 分, 共 30 分.",
+          "no": "3",
+          "score": 10,
+          "form": "证明",
+          "l1": "广义积分与含参积分",
+          "l2": "广义积分敛散性",
+          "stem": "证明: 反常积分 $\\displaystyle\\int_0^{+\\infty}\\dfrac{x}{1+x^5\\sin^2 x}\\,\\mathrm{d}x$ 收敛."
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题. 每题 15 分, 共 30 分.",
+          "no": "1",
+          "score": 15,
+          "form": "综合",
+          "l1": "极限与连续",
+          "l2": "极限证明",
+          "stem": "已知 $\\lambda>0$, $\\beta\\in(0,1)$, $\\{a_n\\}$ 为正数列, 且满足\n$$\\liminf_{n\\to\\infty} n^{\\beta}\\left(\\dfrac{a_n}{a_{n+1}}-1\\right)=\\lambda.$$\n证明: 对任意的 $k>0$, 有 $\\lim\\limits_{n\\to\\infty} n^{k}a_n=0$."
+        },
+        {
+          "section": "四",
+          "section_instruction": "综合题. 每题 15 分, 共 30 分.",
+          "no": "2",
+          "score": 15,
+          "form": "综合",
+          "l1": "一元积分学",
+          "l2": "积分不等式",
+          "stem": "已知函数 $f(x)\\in C^2[0,1]$, 且满足 $f(0)f(1)\\ge 0$. 证明:\n$$\\int_0^1 |f'(x)|\\,\\mathrm{d}x\\le 2\\int_0^1 |f(x)|\\,\\mathrm{d}x+\\int_0^1 |f''(x)|\\,\\mathrm{d}x.$$"
+        }
+      ]
+    },
+    {
+      "school": "电子科技大学",
+      "year": "2024",
+      "subject": "线性代数",
+      "header_note": "63. 电子科技大学 2024 年线性代数试卷(回忆版)",
+      "source_imgs": ["work/imgs/2247521427-1_5.png"],
+      "questions": [
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "1",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "分块矩阵",
+          "stem": "已知矩阵 $A=\\begin{pmatrix}1&-1\\\\ 1&1\\end{pmatrix}$, $B=\\dfrac{\\sqrt{3}}{2}A$, 则 $\\begin{pmatrix}A&O\\\\ O&B\\end{pmatrix}^{n}=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "2",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "极小多项式",
+          "stem": "已知 $G=(\\eta_1,\\eta_2,\\eta_3)$ 为正交矩阵, 则矩阵 $A=2\\eta_1\\eta_1^{T}+\\eta_2\\eta_2^{T}+\\eta_3\\eta_3^{T}$ 的最小多项式为______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "3",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "幂零矩阵",
+          "stem": "已知矩阵 $A$ 满足 $A^4=O$, 则 $A$ 按照相抵分类一共可分为______类."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "4",
+          "score": null,
+          "form": "填空",
+          "l1": "矩阵与线性方程组",
+          "l2": "线性方程组",
+          "stem": "已知矩阵 $A$ 为 $m\\times n$ 矩阵, 且 $r(A)=r<n$. 则 $AX=b$ 的解中线性无关的向量个数最多为______个."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "5",
+          "score": null,
+          "form": "填空",
+          "l1": "欧氏空间与二次型",
+          "l2": "实对称矩阵",
+          "stem": "设 $A$ 为 4 阶实对称矩阵, 且三个特征值为 $\\lambda_1=1,\\lambda_2=3,\\lambda_3=4$, 且 $|A|=-12$, 其中 $V_1,V_2,V_3$ 分别为 $\\lambda_1,\\lambda_2,\\lambda_3$ 的特征子空间, 则 $\\dim((V_1\\oplus V_2\\oplus V_3)^{\\perp})=$ ______."
+        },
+        {
+          "section": "一",
+          "section_instruction": "填空题.",
+          "no": "6",
+          "score": null,
+          "form": "填空",
+          "l1": "线性空间与线性变换",
+          "l2": "线性变换",
+          "stem": "已知 $\\Phi$ 是 $\\mathrm{End}_F(V)$ 上的线性变换, 并且多项式 $f(x)$ 无重根, 则 $\\mathrm{Im}\\,f(\\Phi)+\\mathrm{Im}\\,f'(\\Phi)=$ ______."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "1",
+          "score": null,
+          "form": "计算",
+          "l1": "线性空间与线性变换",
+          "l2": "特征多项式",
+          "stem": "已知矩阵\n$$A=\\begin{pmatrix}0&1&&&\\\\ &0&1&&\\\\ &&0&\\ddots&\\\\ &&&\\ddots&1\\\\ 32&&&&0\\end{pmatrix}.$$\n计算 $f(x)=|xI-A|$, 并求 $\\mathrm{tr}((xI-A)^{*})-f'(x)$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "2",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "正交变换",
+          "stem": "已知 4 阶正交矩阵 $A$ 没有实特征值, 证明: 存在正交矩阵 $Q$, 使得\n$$Q^{T}AQ=\\begin{pmatrix}\\cos\\theta_1&\\sin\\theta_1&0&0\\\\ -\\sin\\theta_1&\\cos\\theta_1&0&0\\\\ 0&0&\\cos\\theta_2&-\\sin\\theta_2\\\\ 0&0&\\sin\\theta_2&\\cos\\theta_2\\end{pmatrix},\\ \\theta_i\\ne k\\pi\\ (i=1,2).$$"
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "3",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "可对角化",
+          "stem": "设 $V$ 是 $n$ 维线性空间, $\\Phi$ 是 $\\mathrm{End}_F(V)$ 上的线性变换, $f(x)$ 是 $\\Phi$ 的最小多项式.\n(1) 证明: $\\Phi$ 可对角化的充要条件是 $f(x)$ 可分解为互素一次因式的乘积.\n(2) 若 $A^5=I$, $A\\in\\mathbb{Q}^{n\\times n}$, 当 $F=\\mathbb{Q}$ 或 $F=\\mathbb{C}$ 时, $A$ 是否可对角化? 请说明理由."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "4",
+          "score": null,
+          "form": "综合",
+          "l1": "线性空间与线性变换",
+          "l2": "子空间与维数",
+          "stem": "已知矩阵 $A=P\\begin{pmatrix}2&3&0\\\\ 0&2&3\\\\ 0&0&2\\end{pmatrix}P^{-1}$, 且 $C(A)=\\{X\\in\\mathbb{R}^{3\\times 3}\\mid AX=XA\\}$.\n(1) 证明: $C(A)$ 是 $\\mathbb{R}^{3\\times 3}$ 的子空间.\n(2) 求 $C(A)$ 的维数和基."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "5",
+          "score": null,
+          "form": "证明",
+          "l1": "欧氏空间与二次型",
+          "l2": "对称变换",
+          "stem": "已知矩阵 $A^{T}=A$, $B^{T}=-B$, $AB=BA$ 且 $A$ 可逆, $C=A^{-1}B$.\n(1) 证明: $C$ 为反对称矩阵.\n(2) $V$ 为标准 $n$ 维欧氏空间, 记线性变换 $\\Phi$ 满足 $\\Phi:\\alpha\\to C\\alpha,\\ \\forall\\alpha\\in V$. 证明: $\\Phi(\\alpha)\\perp\\alpha,\\ \\forall\\alpha\\in V$.\n(3) 证明 $C^2$ 非正定."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "6",
+          "score": null,
+          "form": "证明",
+          "l1": "线性空间与线性变换",
+          "l2": "线性映射与核",
+          "stem": "已知 $V$ 为 $n$ 维欧氏空间, 且 $\\sigma,\\tau\\in\\mathrm{End}(V)$. 证明:\n$$\\dim(\\mathrm{Ker}\\,\\sigma\\tau)\\le\\dim(\\mathrm{Ker}\\,\\sigma)+\\dim(\\mathrm{Ker}\\,\\tau).$$\n以此证明 $r(AB)\\ge r(A)+r(B)-n,\\ \\forall A,B\\in\\mathbb{R}^{n\\times n}$."
+        },
+        {
+          "section": "二",
+          "section_instruction": "计算题和证明题.",
+          "no": "7",
+          "score": null,
+          "form": "计算",
+          "l1": "欧氏空间与二次型",
+          "l2": "二次型",
+          "stem": "已知二次型\n$$f(x_1,x_2,x_3)=\\begin{pmatrix}x_1&x_2&x_3\\end{pmatrix}\\begin{pmatrix}1&4&-1\\\\ 0&2&-3\\\\ 1&-1&3\\end{pmatrix}\\begin{pmatrix}x_1\\\\ x_2\\\\ x_3\\end{pmatrix}.$$\n试将 $f$ 化为标准形."
+        }
+      ]
+    }
+  ]
+}
