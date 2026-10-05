@@ -46,7 +46,7 @@ for (const q of KY.questions) {
 }
 
 // 内容指纹去重（逐题最长公共子串匹配，排版无关）：同校同年若已有卷与待加卷题目重合率>=0.6，判为同卷异名，跳过
-function cjkOnly(s) { return String(s || '').replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, '').replace(/[^\u4e00-\u9fff]/g, ''); }
+function cjkOnly(s) { return String(s || '').replace(/<[^>]*>/g, '').replace(/&#x27;/gi, "'").replace(/&amp;/gi, '&').replace(/&[a-z]+;/gi, '').replace(/\\[a-zA-Z]+/g, '').replace(/[^0-9a-zA-Z\u4e00-\u9fff]/g, '').toLowerCase(); }
 function lcsLen(a, b) {
   if (!a || !b) return 0; const m = a.length, n = b.length; let best = 0; const dp = new Array(n + 1).fill(0);
   for (let i = 1; i <= m; i++) { let prev = 0; for (let j = 1; j <= n; j++) { const t = dp[j]; if (a[i - 1] === b[j - 1]) { dp[j] = prev + 1; if (dp[j] > best) best = dp[j]; } else dp[j] = 0; prev = t; } }
