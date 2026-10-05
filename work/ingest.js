@@ -45,32 +45,33 @@ for (const q of KY.questions) {
   if (!existingPaperKey.has(q.school_name + '|' + q.year + '|' + q.subject)) existingPaperKey.set(q.school_name + '|' + q.year + '|' + q.subject, pid);
 }
 
-// 内容指纹去重：同校同年若已有卷与待加卷题干重合≥0.5，判为同卷异名，跳过
-function normFp(s) {
-  return String(s || '')
-    .replace(/\$+/g, '').replace(/\\[a-zA-Z]+/g, m => ({ '\\left': '', '\\right': '', '\\quad': ' ', '\\dfrac': '', '\\frac': '', '\\mathrm': '', '\\mathbb': '', '\\text': '', '\\begin': '', '\\end': '', '\\pm': '+-', '\\neq': '!=', '\\leq': '<=', '\\geq': '>=' }[m] ?? ''))
-    .replace(/\s+/g, '').replace(/[，。、；：（）()【】\[\]{}.,;:!?"“”]/g, '').toLowerCase();
+// 内容指纹去重（逐题最长公共子串匹配，排版无关）：同校同年若已有卷与待加卷题目重合率>=0.6，判为同卷异名，跳过
+function cjkOnly(s) { return String(s || '').replace(/<[^>]*>/g, '').replace(/&[a-z]+;/gi, '').replace(/[^\u4e00-\u9fff]/g, ''); }
+function lcsLen(a, b) {
+  if (!a || !b) return 0; const m = a.length, n = b.length; let best = 0; const dp = new Array(n + 1).fill(0);
+  for (let i = 1; i <= m; i++) { let prev = 0; for (let j = 1; j <= n; j++) { const t = dp[j]; if (a[i - 1] === b[j - 1]) { dp[j] = prev + 1; if (dp[j] > best) best = dp[j]; } else dp[j] = 0; prev = t; } }
+  return best;
 }
-function fpSet(stems) { const s = new Set(); for (const t of stems) { const f = normFp(t).slice(0, 60); if (f) s.add(f); } return s; }
-const fpBySchoolYear = new Map(); // school|year -> [{pid, fps:Set}]
+function qFp(stem) { return cjkOnly(stem); }
+function dupRate(qsA, qsB) { // 两卷题目重合率（双向取大）
+  if (!qsA.length || !qsB.length) return 0;
+  let mA = 0; for (const a of qsA) if (qsB.some(b => lcsLen(a, b) >= 12)) mA++;
+  let mB = 0; for (const b of qsB) if (qsA.some(a => lcsLen(a, b) >= 12)) mB++;
+  return Math.max(mA / qsA.length, mB / qsB.length);
+}
+const qsBySchoolYear = new Map(); // school|year -> [{pid, qs:[cjk stems]}]
 {
   const byPid = new Map();
   for (const q of KY.questions) {
     const pid = q.qid.replace(/-q\d{4}$/, '');
-    if (!byPid.has(pid)) byPid.set(pid, { school: q.school_name, year: q.year, fps: new Set() });
-    const f = normFp(q.stem_display).slice(0, 60); if (f) byPid.get(pid).fps.add(f);
+    if (!byPid.has(pid)) byPid.set(pid, { school: q.school_name, year: q.year, qs: [] });
+    byPid.get(pid).qs.push(cjkOnly(q.stem_display));
   }
-  for (const [pid, v] of byPid) { const k = v.school + '|' + v.year; if (!fpBySchoolYear.has(k)) fpBySchoolYear.set(k, []); fpBySchoolYear.get(k).push({ pid, fps: v.fps }); }
+  for (const [pid, v] of byPid) { const k = v.school + '|' + v.year; if (!qsBySchoolYear.has(k)) qsBySchoolYear.set(k, []); qsBySchoolYear.get(k).push({ pid, qs: v.qs }); }
 }
 function isContentDup(school, year, stems) {
-  const cand = fpSet(stems); if (!cand.size) return null;
-  const list = fpBySchoolYear.get(school + '|' + year) || [];
-  for (const { pid, fps } of list) {
-    if (!fps.size) continue;
-    let inter = 0; for (const x of cand) if (fps.has(x)) inter++;
-    const jac = inter / (cand.size + fps.size - inter);
-    if (jac >= 0.5) return pid;
-  }
+  const cand = stems.map(qFp).filter(Boolean); if (!cand.length) return null;
+  for (const { pid, qs } of (qsBySchoolYear.get(school + '|' + year) || [])) { if (dupRate(cand, qs) >= 0.6) return pid; }
   return null;
 }
 
