@@ -402,10 +402,11 @@ ${top.map(([l1, n]) => `        <span class="chip ghost">${l1}<span class="n">${
       </div>
     </a>`;
   }).join('\n');
-  const src = fs.readFileSync(path.join(ROOT, 'schools.html'), 'utf8');
-  const head = src.slice(0, src.indexOf('<div class="grid cards">'));
-  const tail = src.slice(src.indexOf('</main>'));
-  const page = src.slice(0, src.indexOf('<body')) + `body class="page-schools">
+  // 注意：不要再用旧 schools.html 做字符串切片当页头——本函数写出的页头里没有 "<body"，
+  // 下一次 src.indexOf('<body') 会返回 -1，slice(0,-1) 会把整份旧文件当新内容重新拼上，
+  // 结果每跑一次 build 就多叠一份（曾叠到 15 份 / 763KB，且首屏是最旧的数据）。
+  const page = `${head('院校 · 数学考研真题库', '各院校真题卷数、题量与年份分布', '')}
+<body class="page-schools">
 ${topbar('', 'schools.html')}
 <main>
   <div class="wrap">
@@ -751,8 +752,9 @@ for (const paper of newPapers) {
   w(`paper/${paper.pid}.html`, renderPaper(paper, count));
   paper.qs.forEach((q, i) => w(`q/${q.qid}.html`, renderQ(paper, i, count)));
 }
-const touchedSchools = new Set(newPapers.map(x => x.school));
-for (const s of touchedSchools) w(`school/${schoolCode(s)}.html`, renderSchoolPage(s));
+// 院校页要全量重建：去重脚本删过 paper/ 与 q/ 里的文件后，
+// 只重建“本次新增涉及的院校”会让其余院校页继续挂着已删除的卷（点进去 404/空白）。
+for (const s of Object.keys(bySchool)) w(`school/${schoolCode(s)}.html`, renderSchoolPage(s));
 w('schools.html', renderSchools());
 w('papers.html', renderPapers());
 w('knowledge.html', renderKnowledge());
